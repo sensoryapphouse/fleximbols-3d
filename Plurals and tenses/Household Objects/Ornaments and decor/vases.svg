@@ -1,0 +1,60 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="vaseGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="30%" stop-color="#B8C4D0"/>
+ <stop offset="100%" stop-color="#9CA3AF"/>
+ </linearGradient>
+ <linearGradient id="patternGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#6B7A8D"/>
+ <stop offset="100%" stop-color="#3A4A5C"/>
+ </linearGradient>
+ <radialGradient id="shineGrad" cx="30%" cy="20%" r="50%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ <linearGradient id="stem1" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#5E9E60"/>
+ <stop offset="100%" stop-color="#2E6E30"/>
+ </linearGradient>
+ <radialGradient id="bloom1" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFAACC"/>
+ <stop offset="100%" stop-color="#CC5588"/>
+ </radialGradient>
+ <radialGradient id="bloom2" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFFFAA"/>
+ <stop offset="100%" stop-color="#DDAA00"/>
+ </radialGradient>
+ <radialGradient id="bloom3" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFCCAA"/>
+ <stop offset="100%" stop-color="#DD7700"/>
+ </radialGradient>
+ </defs>
+ <!-- Vase body (bulbous) -->
+ <path d="M12,28 Q7,27 7,20 Q7,14 10,12 Q12,11 12,9 L20,9 Q20,11 22,12 Q25,14 25,20 Q25,27 20,28 Z" fill="url(#vaseGrad)"/>
+ <!-- Vase neck -->
+ <rect x="12" y="6" width="8" height="4" rx="1" fill="url(#vaseGrad)"/>
+ <!-- Vase lip -->
+ <rect x="11" y="5" width="10" height="1.5" rx="0.5" fill="url(#vaseGrad)"/>
+ <!-- Decorative pattern on body -->
+ <path d="M10,16 Q13,14 16,16 Q19,18 22,16" fill="none" stroke="url(#patternGrad)" stroke-width="0.7" opacity="0.7"/>
+ <path d="M10,20 Q13,18 16,20 Q19,22 22,20" fill="none" stroke="url(#patternGrad)" stroke-width="0.7" opacity="0.7"/>
+ <!-- Pattern dots -->
+ <circle cx="12" cy="18" r="0.5" fill="url(#patternGrad)" opacity="0.7"/>
+ <circle cx="16" cy="17" r="0.5" fill="url(#patternGrad)" opacity="0.7"/>
+ <circle cx="20" cy="18" r="0.5" fill="url(#patternGrad)" opacity="0.7"/>
+ <!-- Shine -->
+ <path d="M12,28 Q7,27 7,20 Q7,14 10,12 Q12,11 12,9 L20,9 Q20,11 22,12 Q25,14 25,20 Q25,27 20,28 Z" fill="url(#shineGrad)"/>
+ <!-- Flower stems -->
+ <line x1="13" y1="5" x2="11" y2="2" stroke="url(#stem1)" stroke-width="0.8"/>
+ <line x1="16" y1="5" x2="16" y2="1" stroke="url(#stem1)" stroke-width="0.8"/>
+ <line x1="19" y1="5" x2="21" y2="2" stroke="url(#stem1)" stroke-width="0.8"/>
+ <!-- Blooms -->
+ <circle cx="11" cy="1.5" r="1.5" fill="url(#bloom1)"/>
+ <circle cx="16" cy="0.8" r="1.5" fill="url(#bloom2)"/>
+ <circle cx="21" cy="1.5" r="1.5" fill="url(#bloom3)"/>
+ <!-- Flower centres -->
+ <circle cx="11" cy="1.5" r="0.5" fill="#FFE066"/>
+ <circle cx="16" cy="0.8" r="0.5" fill="#FF8800"/>
+ <circle cx="21" cy="1.5" r="0.5" fill="#FFE066"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2091" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2091)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

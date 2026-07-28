@@ -1,0 +1,47 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,4.173) scale(0.8696)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<ellipse cx="16" cy="28.4" rx="11" ry="1.5" fill="#000000" fill-opacity="0.12"/>
+<!-- tail -->
+<path d="M6.6 16.5 c-2 -0.6 -3 0.4 -2.6 1.6 0.3 0.9 1.4 1.1 2.2 0.6 Z" fill="url(#bx_body)"/>
+<!-- back legs -->
+<rect x="7.5" y="21.5" width="2.6" height="5.4" rx="1.3" fill="url(#bx_legB)"/>
+<rect x="11.4" y="21.8" width="2.6" height="5.1" rx="1.3" fill="url(#bx_body)"/>
+<!-- front legs -->
+<rect x="18.2" y="21.8" width="2.6" height="5.1" rx="1.3" fill="url(#bx_legB)"/>
+<rect x="21.6" y="21.5" width="2.6" height="5.4" rx="1.3" fill="url(#bx_body)"/>
+<!-- paws -->
+<g fill="#6B4A2A"><ellipse cx="8.8" cy="26.8" rx="1.5" ry="0.7"/><ellipse cx="12.7" cy="26.8" rx="1.5" ry="0.7"/><ellipse cx="19.5" cy="26.8" rx="1.5" ry="0.7"/><ellipse cx="22.9" cy="26.8" rx="1.5" ry="0.7"/></g>
+<!-- body -->
+<ellipse cx="15" cy="19" rx="9.3" ry="5.6" fill="url(#bx_body)"/>
+<ellipse cx="15" cy="19" rx="9.3" ry="5.6" fill="url(#bx_bodySh)"/>
+<!-- chest white blaze -->
+<path d="M22 20 q1.5 1 1 3 q-1.6 0.8 -2.6 -0.4 q-0.2 -1.6 1.6 -2.6 Z" fill="#F2E6D2" fill-opacity="0.85"/>
+<!-- head -->
+<circle cx="23.2" cy="13.4" r="5.6" fill="url(#bx_head)"/>
+<!-- ears (cropped, upright) -->
+<path d="M19.4 9.1 q-0.6 -2.6 1.2 -3.2 q1 1.2 0.7 3.4 Z" fill="url(#bx_ear)"/>
+<path d="M26.9 9.1 q0.7 -2.6 -1.1 -3.3 q-1.1 1.1 -0.8 3.5 Z" fill="url(#bx_ear)"/>
+<!-- dark mask / muzzle -->
+<path d="M20.2 15 q3 2.6 6 0 q0.2 2.6 -3 3.5 q-3.2 -0.9 -3 -3.5 Z" fill="url(#bx_mask)"/>
+<ellipse cx="23.2" cy="15.4" rx="1.5" ry="1.0" fill="#2A1608"/>
+<!-- nose -->
+<ellipse cx="23.2" cy="14.4" rx="1.0" ry="0.7" fill="#1C0E04"/>
+<ellipse cx="22.9" cy="14.1" rx="0.3" ry="0.2" fill="#5A4030"/>
+<!-- eyes -->
+<circle cx="21" cy="12" r="0.85" fill="#1C0E04"/>
+<circle cx="25.4" cy="12" r="0.85" fill="#1C0E04"/>
+<circle cx="21.3" cy="11.7" r="0.28" fill="#FFFFFF"/>
+<circle cx="25.7" cy="11.7" r="0.28" fill="#FFFFFF"/>
+<!-- brow wrinkles -->
+<path d="M20.4 10.4 q0.8 -0.5 1.4 0" stroke="#7A5430" stroke-width="0.35" fill="none" stroke-linecap="round"/>
+<path d="M24.6 10.4 q0.8 -0.5 1.4 0" stroke="#7A5430" stroke-width="0.35" fill="none" stroke-linecap="round"/>
+<!-- head highlight -->
+<ellipse cx="21.6" cy="10.8" rx="1.6" ry="1.1" fill="#FFFFFF" fill-opacity="0.18"/>
+<defs>
+<radialGradient id="bx_body" cx="0.4" cy="0.3" r="0.8" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#E5B878"/><stop offset="0.6" stop-color="#C8923F"/><stop offset="1" stop-color="#9A6A2A"/></radialGradient>
+<radialGradient id="bx_head" cx="0.35" cy="0.3" r="0.8" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#EAC084"/><stop offset="0.6" stop-color="#CB9543"/><stop offset="1" stop-color="#9C6C2C"/></radialGradient>
+<linearGradient id="bx_bodySh" x1="15" y1="13.4" x2="15" y2="24.6" gradientUnits="userSpaceOnUse"><stop offset="0.6" stop-color="#7A5320" stop-opacity="0"/><stop offset="1" stop-color="#7A5320" stop-opacity="0.4"/></linearGradient>
+<linearGradient id="bx_legB" x1="0" y1="21.5" x2="0" y2="27" gradientUnits="userSpaceOnUse"><stop stop-color="#B07F36"/><stop offset="1" stop-color="#875E27"/></linearGradient>
+<radialGradient id="bx_mask" cx="0.5" cy="0.3" r="0.8" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#5A3A1C"/><stop offset="1" stop-color="#321D0A"/></radialGradient>
+<linearGradient id="bx_ear" x1="0" y1="6" x2="0" y2="9.3" gradientUnits="userSpaceOnUse"><stop stop-color="#B07F36"/><stop offset="1" stop-color="#8A5E26"/></linearGradient>
+</defs>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl272" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl272)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

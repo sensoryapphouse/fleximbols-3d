@@ -1,0 +1,24 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="head" cx="40%" cy="35%"><stop offset="0%" stop-color="#ffd0a0"/><stop offset="100%" stop-color="#a06030"/></radialGradient>
+<radialGradient id="hair" cx="40%" cy="30%"><stop offset="0%" stop-color="#705030"/><stop offset="100%" stop-color="#2a1810"/></radialGradient>
+<radialGradient id="bolt" cx="40%" cy="30%"><stop offset="0%" stop-color="#fff080"/><stop offset="100%" stop-color="#c04000"/></radialGradient>
+</defs>
+<circle cx="16" cy="19" r="9" fill="url(#head)"/>
+<path d="M7 17 Q16 6 25 17 Q25 12 16 11 Q7 12 7 17 Z" fill="url(#hair)"/>
+<g stroke="#000" stroke-width="0.5" fill="none">
+<path d="M11 20 Q12 18.5 13 20"/>
+<path d="M19 20 Q20 18.5 21 20"/>
+</g>
+<path d="M13 24 Q16 22 19 24" stroke="#000" stroke-width="0.6" fill="none"/>
+<g fill="url(#bolt)">
+<path d="M22 4 L19 10 L21 10 L19 14 L24 9 L22 9 L24 4 Z"/>
+<path d="M9 5 L7 9 L8.5 9 L7 12 L10 8 L8.5 8 L10 5 Z"/>
+</g>
+<g stroke="#c04000" stroke-width="0.6" fill="none">
+<path d="M6 22 Q4 21 5 19"/>
+<path d="M26 22 Q28 21 27 19"/>
+</g>
+<circle cx="14" cy="14" r="1.5" fill="#c04000" opacity="0.3"/>
+<circle cx="18" cy="15" r="1.2" fill="#c04000" opacity="0.3"/>
+</svg>

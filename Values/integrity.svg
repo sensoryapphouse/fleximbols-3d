@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="skin" cx="0.4" cy="0.3" r="0.8"><stop offset="0" stop-color="#ffe0c0"/><stop offset="1" stop-color="#c08060"/></radialGradient>
+<radialGradient id="shirt" cx="0.4" cy="0.3" r="0.85"><stop offset="0" stop-color="#ffc080"/><stop offset="1" stop-color="#803010"/></radialGradient>
+<radialGradient id="shield" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#fff8a0"/><stop offset="0.5" stop-color="#e0a020"/><stop offset="1" stop-color="#603000"/></radialGradient>
+<radialGradient id="hair" cx="0.4" cy="0.3" r="0.8"><stop offset="0" stop-color="#a06030"/><stop offset="1" stop-color="#301008"/></radialGradient>
+</defs>
+<path d="M6 30 Q6 19 16 19 Q26 19 26 30 Z" fill="url(#shirt)" stroke="#501808" stroke-width="0.3"/>
+<circle cx="16" cy="11" r="5" fill="url(#skin)" stroke="#704020" stroke-width="0.3"/>
+<path d="M11 9 Q11 5 16 5 Q21 5 21 9 Q21 7 16 7 Q11 7 11 9 Z" fill="url(#hair)"/>
+<circle cx="14.2" cy="11" r="0.4" fill="#1a0808"/>
+<circle cx="17.8" cy="11" r="0.4" fill="#1a0808"/>
+<path d="M14.5 13 Q16 14 17.5 13" stroke="#704020" stroke-width="0.4" fill="none"/>
+<path d="M16 22 Q12 22 12 25 Q12 29 16 30 Q20 29 20 25 Q20 22 16 22 Z" fill="url(#shield)" stroke="#502000" stroke-width="0.4"/>
+<path d="M14 25 L15.5 27 L18.5 24" stroke="#603000" stroke-width="0.6" fill="none"/>
+<ellipse cx="13" cy="24" rx="0.6" ry="2" fill="#ffffff" opacity="0.45"/>
+<ellipse cx="13" cy="9" rx="0.6" ry="2" fill="#ffffff" opacity="0.3"/>
+</svg>

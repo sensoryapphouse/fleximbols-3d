@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#EF5350"/>
+ <stop offset="100%" stop-color="#B71C1C"/>
+ </linearGradient>
+ <linearGradient id="topGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F87171"/>
+ <stop offset="100%" stop-color="#EF5350"/>
+ </linearGradient>
+ <linearGradient id="metalGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="100%" stop-color="#9CA3AF"/>
+ </linearGradient>
+ <linearGradient id="baseGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C62828"/>
+ <stop offset="100%" stop-color="#7F0000"/>
+ </linearGradient>
+ <linearGradient id="shineGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </linearGradient>
+ </defs>
+ <!-- Base / anvil -->
+ <rect x="3" y="21" width="26" height="5" rx="2" fill="url(#baseGrad)"/>
+ <!-- Main body (elongated arm) -->
+ <rect x="3" y="14" width="24" height="7" rx="2" fill="url(#bodyGrad)"/>
+ <!-- Hinge bump at right end -->
+ <circle cx="26" cy="17.5" r="3.5" fill="url(#bodyGrad)" stroke="#B71C1C" stroke-width="0.5"/>
+ <!-- Metal staple-load top -->
+ <rect x="4" y="13" width="22" height="3" rx="1" fill="url(#metalGrad)"/>
+ <!-- Shine stripe on metal top -->
+ <rect x="4" y="13" width="22" height="1.2" rx="0.6" fill="url(#shineGrad)"/>
+ <!-- Staple loading slot line -->
+ <line x1="5" y1="14.5" x2="23" y2="14.5" stroke="#9CA3AF" stroke-width="0.5"/>
+ <!-- Staple-out slot at front -->
+ <rect x="3" y="18.5" width="4" height="2.5" rx="0.5" fill="#7F0000"/>
+ <!-- Staple in output area -->
+ <path d="M4 19.5 L4 20.5 L6 20.5 L6 19.5" fill="none" stroke="url(#metalGrad)" stroke-width="0.8" stroke-linejoin="round"/>
+ <!-- Body shine -->
+ <rect x="4" y="14.5" width="20" height="2.5" rx="1" fill="url(#shineGrad)"/>
+</svg>

@@ -1,0 +1,102 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Stratocaster red sunburst body -->
+ <radialGradient id="eg-body" cx="48%" cy="52%" r="52%">
+ <stop offset="0%" stop-color="#FF8080"/>
+ <stop offset="35%" stop-color="#FF5252"/>
+ <stop offset="75%" stop-color="#7F0000"/>
+ <stop offset="100%" stop-color="#3B1010"/>
+ </radialGradient>
+ <!-- Neck gradient -->
+ <linearGradient id="eg-neck" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <!-- Headstock -->
+ <linearGradient id="eg-head" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#A07848"/>
+ <stop offset="100%" stop-color="#6B4828"/>
+ </linearGradient>
+ <!-- Pickup gradient -->
+ <linearGradient id="eg-pickup" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#7A7E84"/>
+ <stop offset="100%" stop-color="#3B3F47"/>
+ </linearGradient>
+ <!-- String gradient -->
+ <linearGradient id="eg-str" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#9AA0AA"/>
+ </linearGradient>
+ <!-- Tremolo plate -->
+ <linearGradient id="eg-trem" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#D0D4DA"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <!-- Tuner peg -->
+ <radialGradient id="eg-peg" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#D0D4DA"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </radialGradient>
+ </defs>
+
+ <!-- STRAT BODY: two horns + main body -->
+ <!-- Lower bout -->
+ <ellipse cx="21" cy="25" rx="8.5" ry="6.5" fill="url(#eg-body)"/>
+ <!-- Upper horn (top) -->
+ <path d="M 13 14 Q 11 10 13 8 Q 15 6 17 9 L 17 16 Z" fill="url(#eg-body)"/>
+ <!-- Lower horn -->
+ <path d="M 13 19 Q 10 22 12 25 Q 13 27 15 25 L 15 18 Z" fill="url(#eg-body)"/>
+ <!-- Mid body fill -->
+ <rect x="13" y="14" width="9" height="12" fill="url(#eg-body)"/>
+
+ <!-- Body highlight -->
+ <ellipse cx="19" cy="22" rx="4.5" ry="5" fill="#FF8080" fill-opacity="0.2"/>
+
+ <!-- NECK -->
+ <rect x="14.5" y="5" width="3" height="12" rx="0.8" fill="url(#eg-neck)"/>
+ <!-- Frets -->
+ <line x1="14.5" y1="7.5" x2="17.5" y2="7.5" stroke="#8B5C3A" stroke-width="0.35" stroke-opacity="0.7"/>
+ <line x1="14.5" y1="9.5" x2="17.5" y2="9.5" stroke="#8B5C3A" stroke-width="0.35" stroke-opacity="0.7"/>
+ <line x1="14.5" y1="11.5" x2="17.5" y2="11.5" stroke="#8B5C3A" stroke-width="0.35" stroke-opacity="0.7"/>
+ <line x1="14.5" y1="13.5" x2="17.5" y2="13.5" stroke="#8B5C3A" stroke-width="0.35" stroke-opacity="0.7"/>
+ <!-- Fret dots -->
+ <circle cx="16" cy="10.5" r="0.3" fill="#FFD089" fill-opacity="0.7"/>
+ <circle cx="16" cy="12.5" r="0.3" fill="#FFD089" fill-opacity="0.7"/>
+
+ <!-- HEADSTOCK -->
+ <rect x="13.5" y="2" width="5" height="4" rx="0.8" fill="url(#eg-head)"/>
+ <!-- 6 TUNING PEGS (3 per side) -->
+ <circle cx="13.5" cy="2.8" r="0.8" fill="url(#eg-peg)"/>
+ <circle cx="13.5" cy="4.2" r="0.8" fill="url(#eg-peg)"/>
+ <circle cx="13.5" cy="5.5" r="0.8" fill="url(#eg-peg)"/>
+ <circle cx="18.5" cy="2.8" r="0.8" fill="url(#eg-peg)"/>
+ <circle cx="18.5" cy="4.2" r="0.8" fill="url(#eg-peg)"/>
+ <circle cx="18.5" cy="5.5" r="0.8" fill="url(#eg-peg)"/>
+
+ <!-- 6 STRINGS -->
+ <line x1="14.5" y1="3.5" x2="19.5" y2="29" stroke="url(#eg-str)" stroke-width="0.55"/>
+ <line x1="14.9" y1="3.5" x2="19.8" y2="29" stroke="url(#eg-str)" stroke-width="0.5"/>
+ <line x1="15.3" y1="3.5" x2="20.1" y2="29" stroke="url(#eg-str)" stroke-width="0.5"/>
+ <line x1="15.7" y1="3.5" x2="20.4" y2="29" stroke="url(#eg-str)" stroke-width="0.45"/>
+ <line x1="16.1" y1="3.5" x2="20.7" y2="29" stroke="url(#eg-str)" stroke-width="0.45"/>
+ <line x1="16.5" y1="3.5" x2="21.0" y2="29" stroke="url(#eg-str)" stroke-width="0.4"/>
+
+ <!-- THREE PICKUPS (silver rectangles — mandatory electric guitar signifier) -->
+ <!-- Neck pickup -->
+ <rect x="18.5" y="15" width="5.5" height="1.8" rx="0.3" fill="url(#eg-pickup)"/>
+ <!-- Middle pickup -->
+ <rect x="19" y="19" width="5.5" height="1.8" rx="0.3" fill="url(#eg-pickup)"/>
+ <!-- Bridge pickup -->
+ <rect x="19.5" y="22.5" width="5.5" height="1.8" rx="0.3" fill="url(#eg-pickup)"/>
+
+ <!-- TREMOLO PLATE & bar (mandatory strat signifier) -->
+ <rect x="20" y="26" width="5" height="2" rx="0.4" fill="url(#eg-trem)"/>
+ <!-- Tremolo bar -->
+ <line x1="25" y1="27" x2="29" y2="23" stroke="url(#eg-trem)" stroke-width="0.8" stroke-linecap="round"/>
+
+ <!-- Output jack -->
+ <circle cx="27" cy="22" r="0.7" fill="url(#eg-pickup)" fill-opacity="0.7"/>
+
+ <!-- Strap pin -->
+ <circle cx="16" cy="30.5" r="0.5" fill="url(#eg-trem)"/>
+</svg>

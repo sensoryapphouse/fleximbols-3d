@@ -1,0 +1,51 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="dwBody" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#D0D8E0"/>
+ <stop offset="100%" stop-color="#8898A8"/>
+ </linearGradient>
+ <linearGradient id="dwDoor" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#C0C8D0"/>
+ <stop offset="100%" stop-color="#7888A0"/>
+ </linearGradient>
+ <linearGradient id="dwInner" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#E8EEF5"/>
+ <stop offset="100%" stop-color="#B0C0D0"/>
+ </linearGradient>
+ </defs>
+ <!-- Body -->
+ 
+ <!-- Control panel top -->
+ <rect x="4" y="3" width="24" height="5" rx="2" fill="#B0B8C8"/>
+ <!-- Control buttons -->
+ <circle cx="9" cy="5.5" r="1.2" fill="#4080C0"/>
+ <circle cx="12.5" cy="5.5" r="1.2" fill="#888"/>
+ <circle cx="16" cy="5.5" r="1" fill="#D03020"/>
+ <rect x="19" y="4.5" width="6" height="2" rx="0.5" fill="#20A080"/>
+ <!-- Door (open/dropped down to show racks) -->
+ <rect x="5" y="8" width="22" height="13" rx="1" fill="url(#dwDoor)"/>
+ <!-- Inner tub revealed -->
+ <rect x="6" y="9" width="20" height="11" rx="0.5" fill="url(#dwInner)"/>
+ <!-- Top rack (glasses and cups) -->
+ <line x1="6" y1="12" x2="26" y2="12" stroke="#A0B0C0" stroke-width="0.6"/>
+ <!-- Cups on top rack -->
+ <rect x="8" y="10" width="2" height="2.5" rx="0.5" fill="#D0E8F8" fill-opacity="0.8"/>
+ <rect x="11" y="10" width="2" height="2.5" rx="0.5" fill="#D0E8F8" fill-opacity="0.8"/>
+ <rect x="14" y="10" width="2" height="2.5" rx="0.5" fill="#D0E8F8" fill-opacity="0.7"/>
+ <rect x="17" y="10" width="2" height="2.5" rx="0.5" fill="#D0E8F8" fill-opacity="0.8"/>
+ <rect x="20" y="10" width="2" height="2.5" rx="0.5" fill="#D0E8F8" fill-opacity="0.7"/>
+ <!-- Bottom rack (plates) -->
+ <line x1="6" y1="16" x2="26" y2="16" stroke="#A0B0C0" stroke-width="0.6"/>
+ <!-- Plates standing up -->
+ <ellipse cx="10" cy="14.5" rx="0.5" ry="2" fill="#F0F4F8" fill-opacity="0.9"/>
+ <ellipse cx="13" cy="14.5" rx="0.5" ry="2" fill="#F0F4F8" fill-opacity="0.9"/>
+ <ellipse cx="16" cy="14.5" rx="0.5" ry="2" fill="#F0F4F8" fill-opacity="0.9"/>
+ <ellipse cx="19" cy="14.5" rx="0.5" ry="2" fill="#F0F4F8" fill-opacity="0.9"/>
+ <ellipse cx="22" cy="14.5" rx="0.5" ry="2" fill="#F0F4F8" fill-opacity="0.9"/>
+ <!-- Door handle -->
+ <rect x="10" y="19.5" width="12" height="1.5" rx="0.7" fill="#8090A8"/>
+ <rect x="11" y="19.7" width="10" height="0.8" rx="0.3" fill="#A0B0C0" fill-opacity="0.5"/>
+ <!-- Lower body (hidden oven section) -->
+ <rect x="5" y="22" width="22" height="8" rx="1" fill="#C0C8D0"/>
+ <rect x="5" y="22" width="22" height="8" rx="1" fill="none" stroke="#A0B0C0" stroke-width="0.5"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <linearGradient id="tg_mouth" x1="16" y1="6" x2="16" y2="16" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#C0303B"/>
+  <stop offset="1" stop-color="#7E1822"/>
+ </linearGradient>
+ <radialGradient id="tg_throat" cx="0.5" cy="0.35" r="0.7">
+  <stop offset="0" stop-color="#6E1019"/>
+  <stop offset="1" stop-color="#3C0509"/>
+ </radialGradient>
+ <linearGradient id="tg_tongue" x1="16" y1="9" x2="16" y2="28" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#FF8C9E"/>
+  <stop offset="0.5" stop-color="#F4647C"/>
+  <stop offset="1" stop-color="#D83E5A"/>
+ </linearGradient>
+ <radialGradient id="tg_shine" cx="0.4" cy="0.3" r="0.6">
+  <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+  <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+ </radialGradient>
+ <linearGradient id="tg_teeth" x1="16" y1="6" x2="16" y2="10" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#ffffff"/>
+  <stop offset="1" stop-color="#E6E1E4"/>
+ </linearGradient>
+</defs>
+
+<!-- open mouth outer (lips) -->
+<path d="M16 5.5 C24 5.5 28 9 28 14 C28 20 22.5 24 16 24 C9.5 24 4 20 4 14 C4 9 8 5.5 16 5.5 Z"
+      fill="#9A2530"/>
+
+<!-- mouth interior / throat -->
+<path d="M16 7.2 C22.6 7.2 26.2 9.8 26.2 14 C26.2 19 21.4 22.3 16 22.3 C10.6 22.3 5.8 19 5.8 14 C5.8 9.8 9.4 7.2 16 7.2 Z"
+      fill="url(#tg_throat)"/>
+
+<!-- upper teeth row -->
+<path d="M6.6 11 C9.5 8.4 22.5 8.4 25.4 11 C22.5 9.8 9.5 9.8 6.6 11 Z" fill="url(#tg_teeth)"/>
+<path d="M6.5 10.2 C9.5 8.2 22.5 8.2 25.5 10.2 L25.2 11.4 C22.4 9.7 9.6 9.7 6.8 11.4 Z" fill="url(#tg_teeth)"/>
+
+<!-- the tongue, sticking out and curling down -->
+<path d="M16 11
+         C12.3 11 10.6 13 10.6 15.6
+         C10.6 17 10.2 18.4 10.2 20
+         C10.2 24.4 12.8 28 16 28
+         C19.2 28 21.8 24.4 21.8 20
+         C21.8 18.4 21.4 17 21.4 15.6
+         C21.4 13 19.7 11 16 11 Z"
+      fill="url(#tg_tongue)"/>
+
+<!-- centre groove of tongue -->
+<path d="M16 13.5 C16 17 16 21 16 25.5"
+      stroke="#C53A54" stroke-width="0.9" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+<!-- glossy highlight on tongue -->
+<ellipse cx="13.6" cy="16.5" rx="2.2" ry="3.2" fill="url(#tg_shine)" transform="rotate(-12 13.6 16.5)"/>
+</svg>

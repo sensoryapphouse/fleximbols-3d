@@ -1,0 +1,73 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="mat_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#80d060"/>
+ <stop offset="100%" stop-color="#408030"/>
+ </linearGradient>
+ <linearGradient id="mat_end_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#60b048"/>
+ <stop offset="100%" stop-color="#306020"/>
+ </linearGradient>
+ <linearGradient id="skin_g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f5c498"/>
+ <stop offset="100%" stop-color="#d4844a"/>
+ </linearGradient>
+ <linearGradient id="hair_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#8a5828"/>
+ <stop offset="100%" stop-color="#3a1808"/>
+ </linearGradient>
+ <linearGradient id="top_g" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#e040a0"/>
+ <stop offset="100%" stop-color="#a01060"/>
+ </linearGradient>
+ <linearGradient id="legg_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#3060c8"/>
+ <stop offset="100%" stop-color="#102080"/>
+ </linearGradient>
+ <linearGradient id="floor_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#f0e8d8"/>
+ <stop offset="100%" stop-color="#c8b080"/>
+ </linearGradient>
+ </defs>
+ <!-- Floor -->
+ <rect x="0" y="26" width="32" height="6" fill="url(#floor_g)"/>
+ <!-- Exercise mat (rolled out flat) -->
+ <rect x="2" y="22" width="28" height="5" rx="1.5" fill="url(#mat_g)"/>
+ <!-- Mat rolled end detail (left) -->
+ <ellipse cx="2.5" cy="24.5" rx="1" ry="2.5" fill="url(#mat_end_g)"/>
+ <!-- Mat center line detail -->
+ <line x1="2" y1="24.5" x2="30" y2="24.5" stroke="#60a048" stroke-width="0.3"/>
+ <!-- Drop shadow -->
+ <!-- FIGURE: Pilates 'Hundred' pose — lying on back, head/shoulders lifted, legs extended at 45°, arms pumping at sides -->
+ <!-- Figure is horizontal, head right, feet left -->
+ <!-- Legs extended at ~45° upward (from hips at center-right) -->
+ <!-- Left leg -->
+ <rect x="4" y="15" width="2" height="8" rx="0.8" fill="url(#legg_g)" transform="rotate(50 4 15)"/>
+ <!-- Right leg -->
+ <rect x="7" y="14" width="2" height="8" rx="0.8" fill="url(#legg_g)" transform="rotate(50 7 14)"/>
+ <!-- Feet (pointed) -->
+ <ellipse cx="3.5" cy="13" rx="1.2" ry="0.6" fill="url(#skin_g)" transform="rotate(50 3.5 13)"/>
+ <ellipse cx="6.5" cy="12.5" rx="1.2" ry="0.6" fill="url(#skin_g)" transform="rotate(50 6.5 12.5)"/>
+ <!-- Hips / lower body on mat -->
+ <ellipse cx="11" cy="23" rx="3.5" ry="1.5" fill="url(#legg_g)"/>
+ <!-- Torso (shoulders lifted off mat) -->
+ <ellipse cx="17" cy="21.5" rx="5" ry="2" fill="url(#top_g)" transform="rotate(-15 17 21.5)"/>
+ <!-- Arms pumping at sides (slightly raised, parallel to body) -->
+ <!-- Left arm (near mat) -->
+ <rect x="12" y="22.5" width="6" height="1.2" rx="0.5" fill="url(#skin_g)" transform="rotate(-12 12 22.5)"/>
+ <!-- Right arm (slightly lifted) -->
+ <rect x="20" y="22" width="6" height="1.2" rx="0.5" fill="url(#skin_g)" transform="rotate(-12 20 22)"/>
+ <!-- Neck -->
+ <ellipse cx="22" cy="20" rx="1" ry="1.5" fill="url(#skin_g)" transform="rotate(-20 22 20)"/>
+ <!-- Head (lifted, chin toward chest) -->
+ <ellipse cx="24" cy="18.5" rx="2.3" ry="2.3" fill="url(#skin_g)"/>
+ <!-- Hair -->
+ <ellipse cx="24.5" cy="17" rx="2" ry="1.2" fill="url(#hair_g)"/>
+ <!-- Eyes (concentration) -->
+ <circle cx="23.1" cy="18.3" r="0.45" fill="#1a2a4a"/>
+ <circle cx="25" cy="18.3" r="0.45" fill="#1a2a4a"/>
+ <circle cx="23.3" cy="18.1" r="0.13" fill="#ffffff"/>
+ <circle cx="25.2" cy="18.1" r="0.13" fill="#ffffff"/>
+ <!-- Mouth -->
+ <path d="M 23.2 19.2 Q 24 19.6 24.8 19.2" stroke="#8a3818" stroke-width="0.3" fill="none"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A6D9F5"/>
+ <stop offset="100%" stop-color="#5CA3FF"/>
+ </linearGradient>
+ <linearGradient id="plateauFace" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E87722"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="plateauTop" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#E87722"/>
+ </linearGradient>
+ <linearGradient id="plateauSide" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#8B5C3A"/>
+ <stop offset="100%" stop-color="#C99878"/>
+ </linearGradient>
+ <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D4A574"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ </defs>
+ <!-- Sky -->
+ <!-- Ground level -->
+ <rect x="0" y="27" width="32" height="5" fill="url(#ground)"/>
+ <!-- Smaller surrounding hills -->
+ <!-- Plateau sheer left side -->
+ <polygon points="6,27 8,12 10,12 10,27" fill="url(#plateauSide)"/>
+ <!-- Plateau sheer right side -->
+ <polygon points="22,12 24,12 26,27 22,27" fill="url(#plateauSide)" fill-opacity="0.7"/>
+ <!-- Plateau main face -->
+ <rect x="8" y="12" width="16" height="15" fill="url(#plateauFace)"/>
+ <!-- Rock strata lines on face -->
+ <rect x="8" y="15" width="16" height="1" fill="#C99878" fill-opacity="0.5"/>
+ <rect x="8" y="19" width="16" height="1" fill="#C99878" fill-opacity="0.4"/>
+ <rect x="8" y="23" width="16" height="1" fill="#C99878" fill-opacity="0.5"/>
+ <!-- Flat top (key gesture) -->
+ <rect x="8" y="11" width="16" height="3" fill="url(#plateauTop)"/>
+ <!-- Top surface highlight -->
+ <rect x="8" y="11" width="16" height="1" fill="#FFFFFF" fill-opacity="0.3"/>
+</svg>

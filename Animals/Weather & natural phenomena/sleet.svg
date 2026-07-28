@@ -1,0 +1,92 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#383c4a"/>
+ <stop offset="100%" stop-color="#505868"/>
+ </linearGradient>
+ <linearGradient id="cloud_g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#585c6a"/>
+ <stop offset="100%" stop-color="#303840"/>
+ </linearGradient>
+ <linearGradient id="rain_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#88b8e8"/>
+ <stop offset="100%" stop-color="#4890d0"/>
+ </linearGradient>
+ <radialGradient id="ice_g" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#e8f4ff"/>
+ <stop offset="70%" stop-color="#b8d0f0"/>
+ <stop offset="100%" stop-color="#80a0c8"/>
+ </radialGradient>
+ <linearGradient id="ground_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#7a9060"/>
+ <stop offset="100%" stop-color="#405030"/>
+ </linearGradient>
+ <linearGradient id="wet_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#8ab8d8"/>
+ <stop offset="100%" stop-color="#5888b8"/>
+ </linearGradient>
+ </defs>
+ <!-- Dark sky -->
+ <rect x="0" y="0" width="32" height="26" fill="url(#sky_g)"/>
+ <!-- Ground (wet) -->
+ <rect x="0" y="26" width="32" height="6" fill="url(#ground_g)"/>
+ <!-- Wet puddle on ground -->
+ <!-- Storm clouds -->
+ <ellipse cx="8" cy="5" rx="7" ry="4" fill="url(#cloud_g)"/>
+ <ellipse cx="4" cy="4.5" rx="4" ry="3" fill="#303440"/>
+ <ellipse cx="20" cy="5" rx="11" ry="5" fill="url(#cloud_g)"/>
+ <ellipse cx="28" cy="5.5" rx="6" ry="3.5" fill="#383c48"/>
+ <ellipse cx="16" cy="3.5" rx="5.5" ry="3" fill="#303440"/>
+ <!-- MIXED PRECIPITATION: alternating raindrops (teardrops) and ice pellets -->
+ <!-- Column 1: raindrop -->
+ <path d="M 2 10 L 1.5 13" stroke="url(#rain_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <ellipse cx="1.75" cy="13.5" rx="0.5" ry="0.7" fill="url(#rain_g)"/>
+ <!-- Column 1: ice pellet -->
+ <circle cx="2.5" cy="18" r="1" fill="url(#ice_g)"/>
+ <!-- Column 2: ice pellet -->
+ <circle cx="6" cy="11.5" r="1.1" fill="url(#ice_g)"/>
+ <!-- Column 2: raindrop -->
+ <path d="M 5.5 17" stroke="url(#rain_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <path d="M 5.5 17 L 5 20" stroke="url(#rain_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <ellipse cx="5.25" cy="20.5" rx="0.5" ry="0.7" fill="url(#rain_g)"/>
+ <!-- Column 3: raindrop -->
+ <path d="M 10 10 L 9.5 13.5" stroke="url(#rain_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <ellipse cx="9.75" cy="14" rx="0.5" ry="0.7" fill="url(#rain_g)"/>
+ <!-- Column 3: ice pellet -->
+ <circle cx="10.5" cy="19" r="1.0" fill="url(#ice_g)"/>
+ <!-- Column 4: ice pellet -->
+ <circle cx="14" cy="12" r="1.2" fill="url(#ice_g)"/>
+ <!-- Column 4: raindrop -->
+ <path d="M 13.5 17.5 L 13 21" stroke="url(#rain_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <ellipse cx="13.25" cy="21.5" rx="0.5" ry="0.7" fill="url(#rain_g)"/>
+ <!-- Column 5: raindrop -->
+ <path d="M 18 10.5 L 17.5 14" stroke="url(#rain_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <ellipse cx="17.75" cy="14.5" rx="0.5" ry="0.7" fill="url(#rain_g)"/>
+ <!-- Column 5: ice pellet -->
+ <circle cx="18.5" cy="19.5" r="1.0" fill="url(#ice_g)"/>
+ <!-- Column 6: ice pellet -->
+ <circle cx="22" cy="11" r="1.1" fill="url(#ice_g)"/>
+ <!-- Column 6: raindrop -->
+ <path d="M 21.5 17 L 21 20.5" stroke="url(#rain_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <ellipse cx="21.25" cy="21" rx="0.5" ry="0.7" fill="url(#rain_g)"/>
+ <!-- Column 7: raindrop -->
+ <path d="M 26 10 L 25.5 13.5" stroke="url(#rain_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <ellipse cx="25.75" cy="14" rx="0.5" ry="0.7" fill="url(#rain_g)"/>
+ <!-- Column 7: ice pellet -->
+ <circle cx="26.5" cy="19" r="1.0" fill="url(#ice_g)"/>
+ <!-- Column 8: ice pellet -->
+ <circle cx="30" cy="12" r="1.1" fill="url(#ice_g)"/>
+ <!-- Column 8: raindrop -->
+ <path d="M 29.5 17.5 L 29 21" stroke="url(#rain_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <ellipse cx="29.25" cy="21.5" rx="0.5" ry="0.7" fill="url(#rain_g)"/>
+ <!-- Small snowflake shapes (mixed with rain) -->
+ <!-- Mini flake 1 -->
+ <line x1="4" y1="22.5" x2="4" y2="25" stroke="#c8ddf8" stroke-width="0.5"/>
+ <line x1="2.75" y1="23.75" x2="5.25" y2="23.75" stroke="#c8ddf8" stroke-width="0.5"/>
+ <!-- Mini flake 2 -->
+ <line x1="16" y1="22" x2="16" y2="24.5" stroke="#c8ddf8" stroke-width="0.5"/>
+ <line x1="14.75" y1="23.25" x2="17.25" y2="23.25" stroke="#c8ddf8" stroke-width="0.5"/>
+ <!-- Mini flake 3 -->
+ <line x1="28" y1="23" x2="28" y2="25.5" stroke="#c8ddf8" stroke-width="0.5"/>
+ <line x1="26.75" y1="24.25" x2="29.25" y2="24.25" stroke="#c8ddf8" stroke-width="0.5"/>
+</svg>

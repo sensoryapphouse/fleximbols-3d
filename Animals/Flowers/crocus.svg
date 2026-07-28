@@ -1,0 +1,72 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Purple goblet petals — KEY GESTURE -->
+ <radialGradient id="cro_petal" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#C5B0FC"/>
+ <stop offset="50%" stop-color="#A78BFA"/>
+ <stop offset="100%" stop-color="#6D4FD9"/>
+ </radialGradient>
+ <radialGradient id="cro_petal2" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#D6C5FD"/>
+ <stop offset="50%" stop-color="#B39DF9"/>
+ <stop offset="100%" stop-color="#7B6CD6"/>
+ </radialGradient>
+ <radialGradient id="cro_hl" cx="30%" cy="22%" r="55%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ <!-- Orange stigma -->
+ <linearGradient id="cro_stigma" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FF8A65"/>
+ <stop offset="100%" stop-color="#BF360C"/>
+ </linearGradient>
+ <!-- Grass-like leaves -->
+ <linearGradient id="cro_leaf" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ <!-- Snow at base -->
+ <radialGradient id="cro_snow" cx="50%" cy="40%" r="60%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#DCE8F0"/>
+ </radialGradient>
+ <!-- Ground -->
+ <linearGradient id="cro_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ </defs>
+ <!-- Snow mound at base — KEY GESTURE (optional but distinctive) -->
+ <!-- Grass-like narrow leaves emerging from snow — KEY GESTURE -->
+ <path d="M12 29 Q11 24 11.5 20 Q12.5 24 13 29 Z" fill="url(#cro_leaf)"/>
+ <path d="M12.5 29 Q13.5 23 14 19 Q13 23.5 12.5 29 Z" fill="url(#cro_leaf)"/>
+ <path d="M20 29 Q21 24 20.5 20 Q19.5 24 19 29 Z" fill="url(#cro_leaf)"/>
+ <path d="M19.5 29 Q18.5 23 18 19 Q19 23.5 19.5 29 Z" fill="url(#cro_leaf)"/>
+ <!-- Centre white stripe on leaves -->
+ <path d="M12.2 29 Q11.5 24.5 12 20.5" stroke="#FFFFFF" stroke-width="0.3" fill="none" opacity="0.5"/>
+ <path d="M20 29 Q20.7 24.5 20.2 20.5" stroke="#FFFFFF" stroke-width="0.3" fill="none" opacity="0.5"/>
+ <!-- Very short stem from ground -->
+ <path d="M16 28.5 L16 25" stroke="url(#cro_leaf)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <!-- SIX-PETAL GOBLET-SHAPED FLOWER, low-growing — KEY GESTURE -->
+ <!-- Three back outer petals -->
+ <path d="M16 25 Q11 22 10 15 Q13 20 16 25 Z" fill="url(#cro_petal2)"/>
+ <path d="M13 22.5 Q11 18 11 15" stroke="#FFFFFF" stroke-width="0.35" fill="none" opacity="0.4"/>
+ <path d="M16 25 Q16 17 16 11 Q16.5 18 16 25 Z" fill="url(#cro_petal2)"/>
+ <path d="M16 25 Q21 22 22 15 Q19 20 16 25 Z" fill="url(#cro_petal2)"/>
+ <path d="M19 22.5 Q21 18 21 15" stroke="#FFFFFF" stroke-width="0.35" fill="none" opacity="0.4"/>
+ <!-- Three front inner petals (slightly different shade, completing goblet) -->
+ <path d="M16 25 Q9 22 8 17 Q12 21 16 25 Z" fill="url(#cro_petal)"/>
+ <ellipse cx="12.5" cy="21" rx="1.2" ry="2.5" fill="url(#cro_hl)" transform="rotate(-20 12.5 21)"/>
+ <path d="M16 25 Q16 16 16 12 Q15.2 18 16 25 Z" fill="url(#cro_petal)"/>
+ <ellipse cx="16" cy="19" rx="1" ry="3.5" fill="url(#cro_hl)"/>
+ <path d="M16 25 Q23 22 24 17 Q20 21 16 25 Z" fill="url(#cro_petal)"/>
+ <ellipse cx="19.5" cy="21" rx="1.2" ry="2.5" fill="url(#cro_hl)" transform="rotate(20 19.5 21)"/>
+ <!-- Orange stigma (saffron-like) sticking up from centre — KEY GESTURE -->
+ <path d="M16 23 L15.5 17" stroke="url(#cro_stigma)" stroke-width="0.8" stroke-linecap="round"/>
+ <path d="M16 23 L16 17" stroke="url(#cro_stigma)" stroke-width="0.8" stroke-linecap="round"/>
+ <path d="M16 23 L16.5 17" stroke="url(#cro_stigma)" stroke-width="0.8" stroke-linecap="round"/>
+ <!-- Stigma tips -->
+ <circle cx="15.5" cy="17" r="0.7" fill="#FF5722"/>
+ <circle cx="16" cy="17" r="0.7" fill="#FF5722"/>
+ <circle cx="16.5" cy="17" r="0.7" fill="#FF5722"/>
+</svg>

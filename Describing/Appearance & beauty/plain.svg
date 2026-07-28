@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A6D9F5"/>
+ <stop offset="100%" stop-color="#5CA3FF"/>
+ </linearGradient>
+ <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#9DC45A"/>
+ <stop offset="100%" stop-color="#7BAA48"/>
+ </linearGradient>
+ </defs>
+ <!-- Dominant sky (top 2/3) -->
+ <rect x="0" y="0" width="32" height="22" fill="url(#sky)"/>
+ <!-- Clouds -->
+ <ellipse cx="6" cy="6" rx="5" ry="2.5" fill="#FFFFFF" fill-opacity="0.85"/>
+ <ellipse cx="11" cy="6" rx="4" ry="2" fill="#FFFFFF" fill-opacity="0.85"/>
+ <ellipse cx="3" cy="6" rx="2.5" ry="1.5" fill="#FFFFFF" fill-opacity="0.75"/>
+ <ellipse cx="22" cy="10" rx="6" ry="2.8" fill="#FFFFFF" fill-opacity="0.8"/>
+ <ellipse cx="28" cy="10" rx="4" ry="2" fill="#FFFFFF" fill-opacity="0.8"/>
+ <ellipse cx="17" cy="10" rx="3" ry="1.5" fill="#FFFFFF" fill-opacity="0.7"/>
+ <ellipse cx="14" cy="4" rx="4" ry="1.8" fill="#FFFFFF" fill-opacity="0.7"/>
+ <!-- Completely flat ground (bottom third) -->
+ <rect x="0" y="22" width="32" height="10" fill="url(#ground)"/>
+ <!-- Flat horizon line - very subtle texture -->
+ <rect x="0" y="22" width="32" height="0.5" fill="#33691E" fill-opacity="0.4"/>
+ <!-- Subtle grass texture marks -->
+ <line x1="2" y1="24" x2="2.5" y2="22.5" stroke="#33691E" stroke-width="0.4" stroke-opacity="0.4"/>
+ <line x1="5" y1="25" x2="5.5" y2="23.5" stroke="#33691E" stroke-width="0.4" stroke-opacity="0.4"/>
+ <line x1="9" y1="23.5" x2="9.5" y2="22" stroke="#33691E" stroke-width="0.4" stroke-opacity="0.4"/>
+ <line x1="14" y1="24" x2="14.5" y2="22.5" stroke="#33691E" stroke-width="0.4" stroke-opacity="0.4"/>
+ <line x1="18" y1="24" x2="18.5" y2="22.5" stroke="#33691E" stroke-width="0.4" stroke-opacity="0.4"/>
+ <line x1="22" y1="23.5" x2="22.5" y2="22" stroke="#33691E" stroke-width="0.4" stroke-opacity="0.4"/>
+ <line x1="26" y1="24" x2="26.5" y2="22.5" stroke="#33691E" stroke-width="0.4" stroke-opacity="0.4"/>
+ <line x1="30" y1="23.5" x2="30.5" y2="22" stroke="#33691E" stroke-width="0.4" stroke-opacity="0.4"/>
+</svg>

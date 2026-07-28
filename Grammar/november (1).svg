@@ -1,0 +1,46 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="nov-page" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#f8f8f8"/>
+ <stop offset="100%" stop-color="#d8d8d8"/>
+ </linearGradient>
+ <linearGradient id="nov-top" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#c06020"/>
+ <stop offset="100%" stop-color="#804010"/>
+ </linearGradient>
+ <linearGradient id="nov-leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#e08020"/>
+ <stop offset="100%" stop-color="#a04010"/>
+ </linearGradient>
+ <linearGradient id="nov-acorn" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#c08040"/>
+ <stop offset="100%" stop-color="#7a4010"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- calendar body -->
+ <rect x="4" y="6" width="24" height="24" rx="2" fill="url(#nov-page)"/>
+ <!-- top tab -->
+ <rect x="4" y="4" width="24" height="7" rx="2" fill="url(#nov-top)"/>
+ <!-- rings -->
+ <rect x="10" y="3" width="2" height="5" rx="1" fill="#c0c0c0"/>
+ <rect x="20" y="3" width="2" height="5" rx="1" fill="#c0c0c0"/>
+ <!-- NOV label using lines -->
+ <polyline points="6,8.5 8,5.5 10,8.5" fill="none" stroke="white" stroke-width="0.7" stroke-linejoin="round"/>
+ <!-- O -->
+ <ellipse cx="12.5" cy="7" rx="1.5" ry="1.5" fill="none" stroke="white" stroke-width="0.7"/>
+ <!-- V -->
+ <polyline points="15,5.5 16.5,8.5 18,5.5" fill="none" stroke="white" stroke-width="0.7" stroke-linejoin="round"/>
+ <!-- large maple leaf -->
+ <path d="M14 22 Q13 20 11 19 Q13 19 13 17 Q14 19 16 17 Q18 19 19 17 Q19 19 21 19 Q19 20 18 22 Q17 24 16 23 Q15 24 14 22 Z" fill="url(#nov-leaf)"/>
+ <!-- leaf stem -->
+ <line x1="16" y1="23" x2="16" y2="27" stroke="#804020" stroke-width="0.8"/>
+ <!-- acorn -->
+ <ellipse cx="22" cy="21" rx="2" ry="2.5" fill="url(#nov-acorn)"/>
+ <rect x="20" y="18" width="4" height="2" rx="0.5" fill="#7a5020"/>
+ <line x1="22" y1="17" x2="22" y2="18" stroke="#5a3010" stroke-width="0.7"/>
+ <!-- grid lines on page -->
+ <line x1="5" y1="15" x2="27" y2="15" stroke="#d0d0d0" stroke-width="0.4"/>
+ <line x1="5" y1="20" x2="27" y2="20" stroke="#d0d0d0" stroke-width="0.4"/>
+ <line x1="5" y1="25" x2="27" y2="25" stroke="#d0d0d0" stroke-width="0.4"/>
+</svg>

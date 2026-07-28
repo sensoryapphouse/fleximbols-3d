@@ -1,0 +1,50 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="tub_wood" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#D98A3E"/>
+<stop offset="0.5" stop-color="#B96A22"/>
+<stop offset="1" stop-color="#8E4D16"/>
+</linearGradient>
+<linearGradient id="tub_wood2" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#E0995A"/>
+<stop offset="0.5" stop-color="#C27628"/>
+<stop offset="1" stop-color="#94521A"/>
+</linearGradient>
+<radialGradient id="tub_head" cx="0.4" cy="0.35" r="0.8">
+<stop offset="0" stop-color="#F6E4C4"/>
+<stop offset="1" stop-color="#D9BC8F"/>
+</radialGradient>
+</defs>
+<!-- back/left drum (short) -->
+<g>
+<path d="M4.3 14.5l5.2 0v12.5l-1.4 1.6h-2.4l-1.4-1.6z" fill="url(#tub_wood)" stroke="#6E3C10" stroke-width="0.3"/>
+<ellipse cx="6.9" cy="14.5" rx="2.6" ry="0.95" fill="url(#tub_head)" stroke="#6E3C10" stroke-width="0.3"/>
+<ellipse cx="6.9" cy="14.4" rx="2.6" ry="0.85" fill="none" stroke="#9A7037" stroke-width="0.2"/>
+</g>
+<!-- right drum (medium) -->
+<g>
+<path d="M22.5 11.5l5.4 0v15.5l-1.5 1.6h-2.4l-1.5-1.6z" fill="url(#tub_wood2)" stroke="#6E3C10" stroke-width="0.3"/>
+<ellipse cx="25.2" cy="11.5" rx="2.7" ry="1.0" fill="url(#tub_head)" stroke="#6E3C10" stroke-width="0.3"/>
+<ellipse cx="25.2" cy="11.4" rx="2.7" ry="0.9" fill="none" stroke="#9A7037" stroke-width="0.2"/>
+</g>
+<!-- front/centre drum (tall) -->
+<g>
+<path d="M12.6 7.5l6.4 0v19.0l-1.7 1.9h-3.0l-1.7-1.9z" fill="url(#tub_wood)" stroke="#6E3C10" stroke-width="0.35"/>
+<ellipse cx="15.8" cy="7.5" rx="3.2" ry="1.2" fill="url(#tub_head)" stroke="#6E3C10" stroke-width="0.35"/>
+<ellipse cx="15.8" cy="7.4" rx="3.2" ry="1.05" fill="none" stroke="#9A7037" stroke-width="0.25"/>
+</g>
+<!-- tension ropes / vertical staves on front drum -->
+<g stroke="#7A4513" stroke-width="0.35" opacity="0.7">
+<line x1="13.6" y1="8.6" x2="13.6" y2="25.0"/>
+<line x1="15.8" y1="8.7" x2="15.8" y2="25.4"/>
+<line x1="18.0" y1="8.6" x2="18.0" y2="25.0"/>
+</g>
+<g stroke="#7A4513" stroke-width="0.3" opacity="0.65">
+<line x1="5.7" y1="15.3" x2="5.7" y2="26.0"/>
+<line x1="8.1" y1="15.3" x2="8.1" y2="26.0"/>
+<line x1="24.0" y1="12.4" x2="24.0" y2="26.0"/>
+<line x1="26.4" y1="12.4" x2="26.4" y2="26.0"/>
+</g>
+<!-- gloss -->
+<path d="M13.4 9.0v15.5" stroke="#FFFFFF" stroke-width="0.5" opacity="0.25" stroke-linecap="round"/>
+</svg>

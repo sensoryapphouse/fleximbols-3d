@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="syHull" x1="16" y1="19" x2="16" y2="25" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2C3A4A"/><stop offset="1" stop-color="#10181F"/>
+</linearGradient>
+<linearGradient id="syDeck" x1="16" y1="7" x2="16" y2="20" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDE3E8"/>
+</linearGradient>
+<linearGradient id="syWater" x1="2" y1="25" x2="30" y2="25" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5FA8DE"/><stop offset="1" stop-color="#3E86C0"/>
+</linearGradient>
+</defs>
+<!-- water -->
+<path d="M1.5 24.5 Q8 26.6 16 24.8 Q24 23.0 30.5 25.0 L30.5 30 L1.5 30 Z" fill="url(#syWater)"/>
+<path d="M3 27.2 Q9 25.8 15 27.0" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.5"/>
+<path d="M18 27.6 Q23 26.4 28 27.4" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.5"/>
+<!-- hull (long, with raked bow at right) -->
+<path d="M3.5 19.4 L26.5 19.4 Q30.2 19.4 29.0 22.4 Q28.2 24.6 24.5 24.6 L6.0 24.6 Q4.0 24.6 3.5 22.0 Z" fill="url(#syHull)"/>
+<!-- boot stripe -->
+<path d="M3.7 19.7 L29.0 19.7 L28.6 20.7 L3.9 20.7 Z" fill="#C9A24A"/>
+<!-- hull windows -->
+<g fill="#7FB6E0"><rect x="6.5" y="21.4" width="1.6" height="1.1" rx="0.2"/><rect x="9.2" y="21.4" width="1.6" height="1.1" rx="0.2"/><rect x="11.9" y="21.4" width="1.6" height="1.1" rx="0.2"/><rect x="14.6" y="21.4" width="1.6" height="1.1" rx="0.2"/><rect x="17.3" y="21.4" width="1.6" height="1.1" rx="0.2"/><rect x="20.0" y="21.4" width="1.6" height="1.1" rx="0.2"/></g>
+<!-- main deck (lower superstructure) -->
+<path d="M5.0 14.6 L24.5 14.6 Q26.5 14.6 26.5 16.6 L26.5 19.4 L5.0 19.4 Z" fill="url(#syDeck)"/>
+<g fill="#6FA8D6"><rect x="7" y="15.6" width="2.4" height="2.2" rx="0.3"/><rect x="10.2" y="15.6" width="2.4" height="2.2" rx="0.3"/><rect x="13.4" y="15.6" width="2.4" height="2.2" rx="0.3"/><rect x="16.6" y="15.6" width="2.4" height="2.2" rx="0.3"/><rect x="19.8" y="15.6" width="2.4" height="2.2" rx="0.3"/></g>
+<!-- second deck -->
+<path d="M7.0 10.4 L20.5 10.4 Q22.0 10.4 22.0 12.0 L22.0 14.6 L7.0 14.6 Z" fill="url(#syDeck)"/>
+<g fill="#6FA8D6"><rect x="8.6" y="11.4" width="2.2" height="2.0" rx="0.3"/><rect x="11.6" y="11.4" width="2.2" height="2.0" rx="0.3"/><rect x="14.6" y="11.4" width="2.2" height="2.0" rx="0.3"/><rect x="17.6" y="11.4" width="2.2" height="2.0" rx="0.3"/></g>
+<!-- top deck / bridge -->
+<path d="M9.0 7.0 L17.0 7.0 Q18.2 7.0 18.2 8.2 L18.2 10.4 L9.0 10.4 Z" fill="url(#syDeck)"/>
+<rect x="10.4" y="7.9" width="6.2" height="1.8" rx="0.3" fill="#3E5B74"/>
+<!-- radar mast -->
+<rect x="13.4" y="3.6" width="0.7" height="3.4" fill="#9AA4AC"/>
+<line x1="12.2" y1="4.4" x2="15.3" y2="4.4" stroke="#9AA4AC" stroke-width="0.5"/>
+<circle cx="13.75" cy="3.4" r="0.6" fill="#C9CDD2"/>
+<!-- gloss -->
+<path d="M5.4 15.0 L8 15.0 L6.6 18.8 L5.0 18.8 Z" fill="#FFFFFF" opacity="0.4"/>
+</svg>

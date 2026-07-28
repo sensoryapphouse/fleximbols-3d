@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="sk" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#A8C878"/><stop offset="100%" stop-color="#3A5A1A"/></radialGradient>
+<radialGradient id="wart" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#7A4A18"/><stop offset="100%" stop-color="#3A1808"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="35%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- lumpy head -->
+<path d="M5 13 Q 4 6 11 4 Q 18 3 22 7 Q 27 8 27 14 Q 28 20 24 24 Q 22 28 17 28 Q 11 28 8 25 Q 4 22 5 13 Z" fill="url(#sk)"/>
+<!-- bumpy contours -->
+<circle cx="6" cy="15" r="1.2" fill="url(#sk)"/>
+<circle cx="26" cy="13" r="1.5" fill="url(#sk)"/>
+<circle cx="24" cy="22" r="1.2" fill="url(#sk)"/>
+<ellipse cx="10" cy="9" rx="2" ry="1.2" fill="url(#hi)"/>
+<!-- one eye larger than other (crooked) -->
+<ellipse cx="11" cy="14" rx="2.5" ry="2" fill="#FFFFFF"/>
+<ellipse cx="20" cy="15" rx="1.5" ry="1.2" fill="#FFFFFF"/>
+<circle cx="11" cy="14.5" r="0.9" fill="#7A0808"/>
+<circle cx="20" cy="15.3" r="0.6" fill="#1A1F2C"/>
+<circle cx="11.3" cy="14.2" r="0.3" fill="#FFFFFF"/>
+<circle cx="20.2" cy="15.1" r="0.2" fill="#FFFFFF"/>
+<!-- bushy unibrow -->
+<path d="M7 11 Q 11 9 15 10 Q 19 9 23 11" stroke="#3A2010" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<!-- crooked nose -->
+<path d="M14 16 Q 12 19 14 22 L 18 22 Q 17 19 16 16 Z" fill="url(#sk)" stroke="#3A5A1A" stroke-width="0.3"/>
+<circle cx="15" cy="21" r="0.3" fill="#1A1F2C"/>
+<circle cx="17" cy="21" r="0.3" fill="#1A1F2C"/>
+<!-- crooked smile with snaggle tooth -->
+<path d="M9 25 Q 14 26 19 24 Q 22 24 23 23" stroke="#1A1F2C" stroke-width="0.6" fill="none" stroke-linecap="round"/>
+<!-- snaggle tooth -->
+<path d="M15 25 L 14 27 L 16 27 Z" fill="#FFFFFF" stroke="#1A1F2C" stroke-width="0.15"/>
+<!-- warts -->
+<circle cx="22" cy="20" r="0.8" fill="url(#wart)"/>
+<circle cx="22" cy="20" r="0.3" fill="#1A0E04"/>
+<circle cx="8" cy="22" r="0.6" fill="url(#wart)"/>
+<circle cx="14" cy="11" r="0.5" fill="url(#wart)"/>
+<!-- few wiry hairs -->
+<path d="M10 4 L 9 1 M 14 3.5 L 14 0.5 M 18 4 L 19 1 M 22 5 L 23 2" stroke="#3A2010" stroke-width="0.4" stroke-linecap="round"/>
+</svg>

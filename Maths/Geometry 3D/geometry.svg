@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+  <linearGradient id="frameGrad" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0%" stop-color="#a06a38"/>
+   <stop offset="100%" stop-color="#6a4218"/>
+  </linearGradient>
+  <linearGradient id="boardGrad" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0%" stop-color="#2e5e3c"/>
+   <stop offset="100%" stop-color="#163826"/>
+  </linearGradient>
+ </defs>
+ <!-- blackboard frame -->
+ <rect x="2" y="5" width="28" height="22" rx="1.6" fill="url(#frameGrad)" stroke="#4a2c10" stroke-width="0.5"/>
+ <!-- board surface -->
+ <rect x="4" y="7" width="24" height="18" rx="0.8" fill="url(#boardGrad)"/>
+ <!-- chalk triangle -->
+ <path d="M9 21 L13.5 11 L18 21 Z" fill="none" stroke="#eaf2e0" stroke-width="0.8" stroke-linejoin="round"/>
+ <!-- right-angle tick on triangle -->
+ <path d="M16.4 21 L16.4 19.6 L17.8 19.6" fill="none" stroke="#eaf2e0" stroke-width="0.5"/>
+ <!-- chalk circle -->
+ <circle cx="22.5" cy="12.5" r="3.6" fill="none" stroke="#eaf2e0" stroke-width="0.8"/>
+ <!-- radius line in circle -->
+ <line x1="22.5" y1="12.5" x2="26.1" y2="12.5" stroke="#eaf2e0" stroke-width="0.5"/>
+ <!-- chalk square -->
+ <rect x="20.5" y="17.5" width="6" height="6" fill="none" stroke="#eaf2e0" stroke-width="0.8"/>
+ <!-- angle marks (arc) inside triangle apex -->
+ <path d="M12.6 12.9 Q13.5 13.4 14.4 12.9" fill="none" stroke="#9fd6f0" stroke-width="0.5"/>
+ <!-- chalk tray -->
+ <rect x="3" y="27" width="26" height="1.6" rx="0.6" fill="#5a3614"/>
+ <rect x="7" y="27.4" width="4" height="0.8" rx="0.4" fill="#f0f0e0"/>
+</svg>

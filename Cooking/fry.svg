@@ -1,0 +1,75 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="fr_pan" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#666"/>
+ <stop offset="60%" stop-color="#333"/>
+ <stop offset="100%" stop-color="#111"/>
+ </radialGradient>
+ <radialGradient id="fr_surf" cx="40%" cy="35%" r="55%">
+ <stop offset="0%" stop-color="#888"/>
+ <stop offset="100%" stop-color="#222"/>
+ </radialGradient>
+ <radialGradient id="fr_fire" cx="50%" cy="80%" r="60%">
+ <stop offset="0%" stop-color="#ffe060"/>
+ <stop offset="40%" stop-color="#ff8800"/>
+ <stop offset="100%" stop-color="#cc2000"/>
+ </radialGradient>
+ <radialGradient id="fr_skin" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#ffe0b0"/>
+ <stop offset="100%" stop-color="#d4804a"/>
+ </radialGradient>
+ <linearGradient id="fr_handle" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#993300"/>
+ <stop offset="100%" stop-color="#5a1800"/>
+ </linearGradient>
+ <linearGradient id="fr_egg_w" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#fffef8"/>
+ <stop offset="100%" stop-color="#eeeecc"/>
+ </linearGradient>
+ <radialGradient id="fr_yolk" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#ffe860"/>
+ <stop offset="70%" stop-color="#ff9900"/>
+ <stop offset="100%" stop-color="#cc5500"/>
+ </radialGradient>
+</defs>
+<!-- ground shadow -->
+<!-- STOVE rings -->
+<!-- FLAMES beneath pan -->
+<path d="M8,28.5 Q9,26 10,28.5 Q10.5,25.5 11,28.5" stroke="url(#fr_fire)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M13,28 Q14,25 15,28 Q15.5,24.5 16,28" stroke="url(#fr_fire)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M18,28.5 Q19,26 20,28.5 Q20.5,25.5 21,28.5" stroke="url(#fr_fire)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<!-- PAN body (shallow, flat-bottomed) -->
+<ellipse cx="14" cy="24" rx="11" ry="5" fill="url(#fr_pan)" filter="url(#fr_sh)"/>
+<!-- Pan inner surface -->
+<ellipse cx="14" cy="23.5" rx="10" ry="4" fill="url(#fr_surf)"/>
+<!-- Oil sheen -->
+<ellipse cx="14" cy="23.5" rx="8" ry="3" fill="#ffcc44" fill-opacity="0.15"/>
+<!-- Pan rim highlight -->
+<path d="M4,23 Q14,21 24,23" stroke="#999" stroke-width="0.5" fill="none" stroke-opacity="0.5"/>
+<!-- LONG HANDLE (right side) -->
+<rect x="24" y="22.5" width="7" height="2.5" rx="1.2" fill="url(#fr_handle)" filter="url(#fr_sh)"/>
+<rect x="24.2" y="22.6" width="6.6" height="0.6" rx="0.3" fill="#bb5522" fill-opacity="0.5"/>
+<!-- EGG in pan (fried) -->
+<!-- Egg white blob -->
+<ellipse cx="12" cy="23.5" rx="5.5" ry="3" fill="url(#fr_egg_w)" filter="url(#fr_sh)"/>
+<!-- Egg white irregular edge bits -->
+<ellipse cx="8" cy="24" rx="1.5" ry="1" fill="url(#fr_egg_w)"/>
+<ellipse cx="16.5" cy="22.5" rx="1.2" ry="0.8" fill="url(#fr_egg_w)"/>
+<!-- Egg white bubble edges (cooking) -->
+<path d="M8,24.5 Q9,25.5 10.5,25" stroke="#ddddcc" stroke-width="0.5" fill="none" stroke-opacity="0.6"/>
+<!-- Yolk -->
+<circle cx="12" cy="23.5" r="2.5" fill="url(#fr_yolk)" filter="url(#fr_sh)"/>
+<circle cx="11.2" cy="22.8" r="0.7" fill="#fff" fill-opacity="0.45"/>
+<!-- SIZZLE / heat-wave motion lines -->
+<path d="M18,22 Q19,20.5 20,22" stroke="#ff9900" stroke-width="0.5" fill="none" stroke-opacity="0.75"/>
+<path d="M19.5,22.5 Q20.5,21 21.5,22.5" stroke="#ffcc00" stroke-width="0.45" fill="none" stroke-opacity="0.65"/>
+<!-- Oil droplet motion lines -->
+<line x1="20" y1="21" x2="21" y2="19.5" stroke="#ff8800" stroke-width="0.4" stroke-opacity="0.6"/>
+<line x1="22" y1="22" x2="23" y2="20.5" stroke="#ff8800" stroke-width="0.4" stroke-opacity="0.55"/>
+<!-- Sizzle dots -->
+<circle cx="21.5" cy="20.5" r="0.4" fill="#ffdd44" fill-opacity="0.8"/>
+<circle cx="23.2" cy="21.5" r="0.35" fill="#ffdd44" fill-opacity="0.7"/>
+<!-- SPATULA handle visible right side -->
+<rect x="22" y="20" width="0.7" height="6" rx="0.3" transform="rotate(-15,22.5,22)" fill="#8B4513" filter="url(#fr_sh)"/>
+<rect x="20.5" y="23.5" width="3" height="1" rx="0.3" transform="rotate(-15,22,23.5)" fill="#aaa" fill-opacity="0.85"/>
+</svg>

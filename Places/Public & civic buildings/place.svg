@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="skG" cx="40%" cy="30%" r="80%"><stop offset="0" stop-color="#FFE4C8"/><stop offset="0.5" stop-color="#E0A878"/><stop offset="1" stop-color="#6E3E1A"/></radialGradient>
+<radialGradient id="boxG" cx="40%" cy="30%" r="80%"><stop offset="0" stop-color="#FFF0C0"/><stop offset="0.5" stop-color="#E8B048"/><stop offset="1" stop-color="#6E4400"/></radialGradient>
+<radialGradient id="sfG" cx="50%" cy="40%" r="80%"><stop offset="0" stop-color="#E8DCC0"/><stop offset="0.5" stop-color="#A88858"/><stop offset="1" stop-color="#3A2A10"/></radialGradient>
+<radialGradient id="arG" cx="50%" cy="40%" r="80%"><stop offset="0" stop-color="#A8E0B8"/><stop offset="0.5" stop-color="#28A050"/><stop offset="1" stop-color="#0A4018"/></radialGradient>
+</defs>
+<!-- table/surface at bottom -->
+<path d="M1 26 Q16 23.5 31 26 L31 30 L1 30 Z" fill="url(#sfG)"/>
+<rect x="1" y="25.5" width="30" height="0.8" fill="#FFFFFF" opacity="0.4"/>
+<!-- target spot on table -->
+<ellipse cx="19" cy="26.5" rx="6" ry="1.2" fill="#2A1A08" opacity="0.35"/>
+<!-- downward arrow on left showing motion -->
+<g>
+<rect x="6" y="10" width="2.2" height="9" rx="0.5" fill="url(#arG)"/>
+<path d="M3.5 18 L10.7 18 L7.1 23.5 Z" fill="url(#arG)"/>
+<rect x="6.2" y="10.5" width="0.7" height="7" fill="#FFFFFF" opacity="0.55"/>
+</g>
+<!-- box being placed (mid-air, just above target) -->
+<rect x="14" y="14" width="11" height="8" rx="0.8" fill="url(#boxG)"/>
+<rect x="14" y="14" width="11" height="1.6" fill="#FFFFFF" opacity="0.5"/>
+<path d="M14 14 L25 14 L25 22 L14 22 Z" fill="none" stroke="#5A3000" stroke-width="0.25"/>
+<path d="M19.5 14 L19.5 22" stroke="#5A3000" stroke-width="0.2" opacity="0.5"/>
+<!-- hand from above holding the box -->
+<path d="M16 8 Q16 6 18 6 L24 6 Q26 6 26 8 L26 13 Q26 14.5 24.5 14.5 L17.5 14.5 Q16 14.5 16 13 Z" fill="url(#skG)"/>
+<!-- fingers wrapping front edge -->
+<rect x="17" y="13.5" width="1.6" height="2.4" rx="0.6" fill="url(#skG)"/>
+<rect x="19" y="13.5" width="1.6" height="2.4" rx="0.6" fill="url(#skG)"/>
+<rect x="21" y="13.5" width="1.6" height="2.4" rx="0.6" fill="url(#skG)"/>
+<rect x="23" y="13.5" width="1.6" height="2.4" rx="0.6" fill="url(#skG)"/>
+<ellipse cx="19" cy="8" rx="3" ry="0.8" fill="#FFFFFF" opacity="0.45"/>
+<!-- wrist/sleeve -->
+<rect x="18" y="2.5" width="6" height="4" rx="1" fill="#3A78D8"/>
+<rect x="18" y="2.5" width="6" height="0.8" fill="#FFFFFF" opacity="0.5"/>
+</svg>

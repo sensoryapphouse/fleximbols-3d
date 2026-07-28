@@ -1,0 +1,44 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="qc-frame" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#90a4ae"/>
+ <stop offset="100%" stop-color="#263238"/>
+ </linearGradient>
+ <radialGradient id="qc-motor" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#b0bec5"/>
+ <stop offset="100%" stop-color="#37474f"/>
+ </radialGradient>
+ <radialGradient id="qc-rotor" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#eceff1" stop-opacity="0.8"/>
+ <stop offset="100%" stop-color="#607d8b" stop-opacity="0.3"/>
+ </radialGradient>
+ <linearGradient id="qc-camera" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#78909c"/>
+ <stop offset="100%" stop-color="#102027"/>
+ </linearGradient>
+ <linearGradient id="qc-body" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ef5350"/>
+ <stop offset="100%" stop-color="#b71c1c"/>
+ </linearGradient>
+ </defs>
+ <!-- X-frame arms -->
+ <line x1="7" y1="7" x2="25" y2="25" stroke="url(#qc-frame)" stroke-width="2" stroke-linecap="round"/>
+ <line x1="25" y1="7" x2="7" y2="25" stroke="url(#qc-frame)" stroke-width="2" stroke-linecap="round"/>
+ <!-- Center body -->
+ 
+ <!-- Motors at 4 corners -->
+ 
+ 
+ 
+ 
+ <!-- Rotor blurs (circles of blur) -->
+ <circle cx="7" cy="7" r="5" fill="url(#qc-rotor)" fill-opacity="0.5"/>
+ <circle cx="25" cy="7" r="5" fill="url(#qc-rotor)" fill-opacity="0.5"/>
+ <circle cx="7" cy="25" r="5" fill="url(#qc-rotor)" fill-opacity="0.5"/>
+ <circle cx="25" cy="25" r="5" fill="url(#qc-rotor)" fill-opacity="0.5"/>
+ <!-- Camera below center -->
+ 
+ <circle cx="16" cy="19" r="0.8" fill="#102027" fill-opacity="0.8"/>
+ <!-- LED lights hint -->
+ <circle cx="16" cy="14" r="0.6" fill="#76ff03" fill-opacity="0.9"/>
+</svg>

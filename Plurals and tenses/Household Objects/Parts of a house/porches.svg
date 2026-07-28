@@ -1,0 +1,114 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,2.000) scale(0.9375)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#87CEEB"/>
+ <stop offset="100%" stop-color="#C8E8F8"/>
+ </linearGradient>
+ <linearGradient id="roofGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#8B5C3A"/>
+ <stop offset="100%" stop-color="#5A3520"/>
+ </linearGradient>
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="doorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#8B3020"/>
+ <stop offset="100%" stop-color="#5A1810"/>
+ </linearGradient>
+ <linearGradient id="columnGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#F0EEEA"/>
+ <stop offset="100%" stop-color="#C8C0B8"/>
+ </linearGradient>
+ <linearGradient id="chairGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="plantGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#4CAF50"/>
+ <stop offset="100%" stop-color="#2E7D32"/>
+ </linearGradient>
+ <linearGradient id="potGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E07040"/>
+ <stop offset="100%" stop-color="#B84A20"/>
+ </linearGradient>
+ <linearGradient id="houseGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E8D5B0"/>
+ <stop offset="100%" stop-color="#C0A870"/>
+ </linearGradient>
+ </defs>
+ <!-- Sky background -->
+ <!-- House wall behind porch -->
+ <rect x="2" y="8" width="28" height="22" fill="url(#houseGrad)"/>
+ <!-- PORCH ROOF OVERHANG (covered) -->
+ 
+ <!-- Roof fascia underside -->
+ <rect x="2" y="9.5" width="28" height="1" fill="#7A4A20" opacity="0.5"/>
+ <!-- Porch ceiling -->
+ <rect x="2" y="10" width="28" height="2" fill="#E8E0D0" opacity="0.7"/>
+ <!-- Ceiling light fixture -->
+ <ellipse cx="16" cy="11.5" rx="1.5" ry="0.5" fill="#F5D060" opacity="0.8"/>
+ <line x1="16" y1="10" x2="16" y2="11" stroke="#C0A020" stroke-width="0.4"/>
+ <!-- PORCH COLUMNS (left and right) -->
+ <!-- Left column -->
+ 
+ <!-- Column capital -->
+ <rect x="2.5" y="10" width="3.5" height="0.8" rx="0.2" fill="#D8D0C8"/>
+ <!-- Column base -->
+ <rect x="2.5" y="27.5" width="3.5" height="0.8" rx="0.2" fill="#D8D0C8"/>
+ <!-- Right column -->
+ 
+ <!-- Column capital -->
+ <rect x="26" y="10" width="3.5" height="0.8" rx="0.2" fill="#D8D0C8"/>
+ <!-- Column base -->
+ <rect x="26" y="27.5" width="3.5" height="0.8" rx="0.2" fill="#D8D0C8"/>
+ <!-- PORCH FLOOR planks -->
+ 
+ <line x1="2" y1="28" x2="30" y2="28" stroke="#8B5C3A" stroke-width="0.3" opacity="0.5"/>
+ <line x1="7" y1="26" x2="7" y2="32" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="13" y1="26" x2="13" y2="32" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="19" y1="26" x2="19" y2="32" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="25" y1="26" x2="25" y2="32" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <!-- FRONT DOOR (behind) -->
+ 
+ <!-- Door panels -->
+ <rect x="13" y="13" width="3" height="5" rx="0.3" fill="#7A2818"/>
+ <rect x="16.5" y="13" width="3" height="5" rx="0.3" fill="#7A2818"/>
+ <rect x="13" y="19" width="6.5" height="6" rx="0.3" fill="#7A2818"/>
+ <!-- Door handle -->
+ <circle cx="19" cy="20.5" r="0.5" fill="#C9CDD3"/>
+ <!-- Door window transom -->
+ <rect x="13" y="12.5" width="6.5" height="2" rx="0.3" fill="#B8D4F0" opacity="0.7"/>
+ <!-- Door frame -->
+ <rect x="12" y="12" width="8" height="14" rx="0.5" fill="none" stroke="#6A2010" stroke-width="0.4"/>
+ <!-- ROCKING CHAIRS -->
+ <!-- Left rocking chair -->
+ 
+ <!-- Chair back left -->
+ <rect x="5.5" y="17" width="4" height="4.5" rx="0.5" fill="url(#chairGrad)"/>
+ <!-- Chair slats -->
+ <line x1="6.5" y1="17" x2="6.5" y2="21" stroke="#8B5C3A" stroke-width="0.3"/>
+ <line x1="8" y1="17" x2="8" y2="21" stroke="#8B5C3A" stroke-width="0.3"/>
+ <!-- Rocker curve -->
+ <path d="M4.5,24.5 Q7.5,26 10.5,24.5" fill="none" stroke="#8B5C3A" stroke-width="0.6"/>
+ <!-- Right rocking chair -->
+ 
+ <!-- Chair back right -->
+ <rect x="22.5" y="17" width="4" height="4.5" rx="0.5" fill="url(#chairGrad)"/>
+ <!-- Chair slats -->
+ <line x1="23.5" y1="17" x2="23.5" y2="21" stroke="#8B5C3A" stroke-width="0.3"/>
+ <line x1="25" y1="17" x2="25" y2="21" stroke="#8B5C3A" stroke-width="0.3"/>
+ <!-- Rocker curve -->
+ <path d="M21.5,24.5 Q24.5,26 27.5,24.5" fill="none" stroke="#8B5C3A" stroke-width="0.6"/>
+ <!-- POTTED PLANTS -->
+ <!-- Left plant -->
+ 
+ <ellipse cx="6.75" cy="22.5" rx="2.5" ry="2" fill="url(#plantGrad)"/>
+ <ellipse cx="5.5" cy="22" rx="1.2" ry="1.5" fill="#3A9040" transform="rotate(-25 5.5 22)"/>
+ <ellipse cx="8" cy="22" rx="1.2" ry="1.5" fill="#3A9040" transform="rotate(25 8 22)"/>
+ <!-- Right plant -->
+ 
+ <ellipse cx="25.25" cy="22.5" rx="2.5" ry="2" fill="url(#plantGrad)"/>
+ <ellipse cx="24" cy="22" rx="1.2" ry="1.5" fill="#3A9040" transform="rotate(-25 24 22)"/>
+ <ellipse cx="26.5" cy="22" rx="1.2" ry="1.5" fill="#3A9040" transform="rotate(25 26.5 22)"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2119" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2119)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

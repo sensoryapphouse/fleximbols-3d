@@ -1,0 +1,48 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,2.611) scale(0.9184)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bp_side" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d7dde2"/><stop offset="55%" stop-color="#aab2ba"/><stop offset="100%" stop-color="#7f8890"/></linearGradient>
+ <radialGradient id="bp_top" cx="0.5" cy="0.45" r="0.6"><stop offset="0%" stop-color="#eef2f5"/><stop offset="70%" stop-color="#c2cad1"/><stop offset="100%" stop-color="#9aa3ab"/></radialGradient>
+ <radialGradient id="bp_hole" cx="0.5" cy="0.4" r="0.6"><stop offset="0%" stop-color="#8b949c"/><stop offset="100%" stop-color="#5f676e"/></radialGradient>
+ <radialGradient id="bp_tube" cx="0.5" cy="0.4" r="0.7"><stop offset="0%" stop-color="#e4e9ed"/><stop offset="100%" stop-color="#a6aeb6"/></radialGradient>
+ </defs>
+ <!-- outer fluted side (lower band) -->
+ <path d="M3 15 C3 19.5 9 23 16 23 C23 23 29 19.5 29 15 L29 12.5 C29 17 23 20.5 16 20.5 C9 20.5 3 17 3 12.5 Z" fill="url(#bp_side)" stroke="#6b7278" stroke-width="0.5"/>
+ <!-- flute ridges on side -->
+ <g stroke="#7d858c" stroke-width="0.4" opacity="0.8">
+  <line x1="6.5" y1="17.4" x2="6.5" y2="19.8"/>
+  <line x1="9.5" y1="19" x2="9.5" y2="21.5"/>
+  <line x1="13" y1="20" x2="13" y2="22.5"/>
+  <line x1="16" y1="20.4" x2="16" y2="23"/>
+  <line x1="19" y1="20" x2="19" y2="22.5"/>
+  <line x1="22.5" y1="19" x2="22.5" y2="21.5"/>
+  <line x1="25.5" y1="17.4" x2="25.5" y2="19.8"/>
+ </g>
+ <!-- top ring rim (scalloped outer) -->
+ <ellipse cx="16" cy="12.5" rx="13" ry="6.5" fill="url(#bp_top)" stroke="#6b7278" stroke-width="0.5"/>
+ <!-- fluted scallops around top rim -->
+ <g fill="#b6bec5" stroke="#8a929a" stroke-width="0.3">
+  <ellipse cx="16" cy="6.4" rx="1.7" ry="0.9"/>
+  <ellipse cx="22" cy="7.1" rx="1.7" ry="0.9"/>
+  <ellipse cx="26.4" cy="9.6" rx="1.6" ry="0.9"/>
+  <ellipse cx="28.2" cy="12.6" rx="1.4" ry="1.0"/>
+  <ellipse cx="26.4" cy="15.6" rx="1.6" ry="0.9"/>
+  <ellipse cx="22" cy="17.6" rx="1.7" ry="0.9"/>
+  <ellipse cx="16" cy="18.4" rx="1.7" ry="0.9"/>
+  <ellipse cx="10" cy="17.6" rx="1.7" ry="0.9"/>
+  <ellipse cx="5.6" cy="15.6" rx="1.6" ry="0.9"/>
+  <ellipse cx="3.8" cy="12.6" rx="1.4" ry="1.0"/>
+  <ellipse cx="5.6" cy="9.6" rx="1.6" ry="0.9"/>
+  <ellipse cx="10" cy="7.1" rx="1.7" ry="0.9"/>
+ </g>
+ <!-- inner cavity ring (the pan interior) -->
+ <ellipse cx="16" cy="12.5" rx="9.4" ry="4.6" fill="url(#bp_hole)" stroke="#5a6168" stroke-width="0.4"/>
+ <!-- inner cavity flute hints -->
+ <g stroke="#727a81" stroke-width="0.3" opacity="0.7">
+  <path d="M9 11.6 C11 13.6 21 13.6 23 11.6"/>
+ </g>
+ <!-- center tube -->
+ <ellipse cx="16" cy="12.5" rx="3.4" ry="1.9" fill="url(#bp_tube)" stroke="#7d858c" stroke-width="0.4"/>
+ <ellipse cx="16" cy="12.1" rx="2.2" ry="1.1" fill="#cfd6dc"/>
+ <!-- top rim highlight -->
+ <path d="M6 10 C9 7.6 23 7.6 26 10" fill="none" stroke="#f4f7f9" stroke-width="0.6" stroke-linecap="round" opacity="0.7"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1358" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1358)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

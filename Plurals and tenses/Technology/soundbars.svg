@@ -1,0 +1,41 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<!-- soundbar: horizontal speaker bar with control row + side grille -->
+<g>
+<!-- shadow -->
+<ellipse cx="16" cy="23.4" rx="13.2" ry="1.5" fill="#000000" opacity="0.12"/>
+<!-- body -->
+<rect x="2.4" y="11.2" width="27.2" height="10.6" rx="2.6" fill="url(#sb_body)"/>
+<!-- top gloss -->
+<rect x="3.6" y="12.1" width="24.8" height="3.0" rx="1.5" fill="#ffffff" opacity="0.16"/>
+<!-- recessed control strip -->
+<rect x="4.2" y="14.6" width="23.6" height="3.8" rx="1.9" fill="#1c2735"/>
+<!-- left status dots -->
+<circle cx="6.6" cy="16.5" r="0.95" fill="#5ddf9a"/>
+<circle cx="9.0" cy="16.5" r="0.95" fill="#3a4c63"/>
+<!-- speaker driver dots row -->
+<circle cx="11.6" cy="16.5" r="0.7" fill="#46586e"/>
+<circle cx="13.6" cy="16.5" r="0.7" fill="#46586e"/>
+<circle cx="15.6" cy="16.5" r="0.7" fill="#46586e"/>
+<circle cx="17.6" cy="16.5" r="0.7" fill="#46586e"/>
+<circle cx="19.6" cy="16.5" r="0.7" fill="#46586e"/>
+<circle cx="21.6" cy="16.5" r="0.7" fill="#46586e"/>
+<circle cx="23.6" cy="16.5" r="0.7" fill="#46586e"/>
+<circle cx="25.6" cy="16.5" r="0.7" fill="#46586e"/>
+<!-- left round speaker grille -->
+<circle cx="6.6" cy="16.5" r="2.5" fill="none" stroke="#2a3949" stroke-width="0.7" opacity="0"/>
+<!-- feet -->
+<rect x="5.2" y="21.6" width="3.0" height="1.7" rx="0.7" fill="#27313f"/>
+<rect x="23.8" y="21.6" width="3.0" height="1.7" rx="0.7" fill="#27313f"/>
+<!-- right side sound waves -->
+<g stroke-linecap="round" fill="none">
+<path d="M29.9 14.9 C30.9 15.7 30.9 17.3 29.9 18.1" stroke="#41aeff" stroke-width="1.0"/>
+</g>
+</g>
+<defs>
+<linearGradient id="sb_body" x1="16" y1="11.2" x2="16" y2="21.8" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3b4c61"/>
+<stop offset="0.5" stop-color="#2c3a4c"/>
+<stop offset="1" stop-color="#212c3a"/>
+</linearGradient>
+</defs>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl3167" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl3167)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

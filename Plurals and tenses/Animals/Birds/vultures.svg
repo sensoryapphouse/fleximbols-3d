@@ -1,0 +1,62 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="bodyG" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#6D4C41"/>
+ <stop offset="100%" stop-color="#3E2723"/>
+ </radialGradient>
+ <linearGradient id="wingG" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#5D4037"/>
+ <stop offset="100%" stop-color="#212121"/>
+ </linearGradient>
+ <!-- Bald head — KEY GESTURE: wrinkled bare head -->
+ <radialGradient id="baldHeadG" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#EF9A9A"/>
+ <stop offset="100%" stop-color="#B71C1C"/>
+ </radialGradient>
+ <radialGradient id="neckSkinG" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFCCBC"/>
+ <stop offset="100%" stop-color="#E57373"/>
+ </radialGradient>
+ <linearGradient id="beakG" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#FFA726"/>
+ <stop offset="100%" stop-color="#BF360C"/>
+ </linearGradient>
+ <linearGradient id="legG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#EF9A9A"/>
+ <stop offset="100%" stop-color="#C62828"/>
+ </linearGradient>
+ </defs>
+ <!-- Perch branch (sturdy) -->
+ <rect x="3" y="27" width="26" height="2.5" rx="1.2" fill="#4E342E"/>
+ <rect x="4" y="27.3" width="10" height="0.8" rx="0.4" fill="#8D6E63" opacity="0.4"/>
+ <!-- Broad rounded wings hunched — KEY GESTURE: large body -->
+ <path d="M10 20 Q4 16 1 12 Q5 16 10 19Z" fill="url(#wingG)"/>
+ <path d="M22 20 Q28 16 31 12 Q27 16 22 19Z" fill="url(#wingG)"/>
+ <!-- Large body -->
+ <ellipse cx="16" cy="22" rx="10" ry="7" fill="url(#bodyG)"/>
+ <!-- Tail -->
+ <path d="M23 23 Q29 26 30 28 Q25 26 22 25Z" fill="url(#wingG)"/>
+ <!-- Neck (bare skin, wrinkled) -->
+ <path d="M12 16 Q13 12 15 10" stroke="url(#neckSkinG)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+ <!-- Neck wrinkle details -->
+ <path d="M12.5 16 Q13 14.5 14 13" stroke="#C62828" stroke-width="0.5" fill="none" opacity="0.6"/>
+ <path d="M12.8 14.5 Q13.3 13.5 14.2 12" stroke="#C62828" stroke-width="0.4" fill="none" opacity="0.5"/>
+ <!-- Bald wrinkled head — KEY GESTURE: distinguishing feature -->
+ <ellipse cx="15" cy="9.5" rx="4.2" ry="4" fill="url(#baldHeadG)"/>
+ <!-- Wrinkle lines on head -->
+ <path d="M12.5 8 Q13.5 7.5 15 8 Q16.5 7.5 17.5 8" stroke="#C62828" stroke-width="0.5" fill="none" opacity="0.6"/>
+ <path d="M12 10 Q13.5 9.5 15 10 Q16.5 9.5 18 10" stroke="#C62828" stroke-width="0.4" fill="none" opacity="0.5"/>
+ <!-- Eye (small, piercing) -->
+ <circle cx="12.5" cy="9.5" r="1.2" fill="#1A1A1A"/>
+ <circle cx="12.2" cy="9.2" r="0.5" fill="#FFFFFF" opacity="0.85"/>
+ <!-- Hooked beak — KEY GESTURE -->
+ <path d="M11.5 9 Q8 8 6.5 9.5 Q7 11 9.5 11.5Z" fill="url(#beakG)"/>
+ <!-- Beak hook (curved downward) -->
+ <path d="M7 10.5 Q6.5 11.5 7.5 12" stroke="#BF360C" stroke-width="0.5" fill="none"/>
+ <!-- Legs -->
+ <line x1="14" y1="27.5" x2="13" y2="27.5" stroke="url(#legG)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="19" y1="27.5" x2="20" y2="27.5" stroke="url(#legG)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="13" y1="27.5" x2="11" y2="28" stroke="url(#legG)" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="20" y1="27.5" x2="18.5" y2="28" stroke="url(#legG)" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="20" y1="27.5" x2="21.5" y2="28" stroke="url(#legG)" stroke-width="0.8" stroke-linecap="round"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl79" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl79)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

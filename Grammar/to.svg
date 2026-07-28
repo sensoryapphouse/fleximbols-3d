@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="shaftGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#E5A700"/>
+ <stop offset="100%" stop-color="#FFD45E"/>
+ </linearGradient>
+ <linearGradient id="headGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#E5A700"/>
+ </linearGradient>
+ <!-- Origin dot gradient -->
+ <radialGradient id="dotGrad" cx="35%" cy="35%" r="65%">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#6B7280"/>
+ </radialGradient>
+ <!-- Destination pin gradient -->
+ <radialGradient id="pinGrad" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FF8B3D"/>
+ <stop offset="100%" stop-color="#E54A1E"/>
+ </radialGradient>
+ </defs>
+ <!-- Ground shadow under origin dot -->
+ <ellipse cx="5" cy="22.5" rx="2" ry="0.5" fill="#000000" fill-opacity="0.125"/>
+ <!-- Ground shadow under destination pin -->
+ 
+ <!-- ORIGIN: small grey dot on ground (left) -->
+ <circle cx="5" cy="21" r="2" fill="url(#dotGrad)"/>
+ <circle cx="4.3" cy="20.2" r="0.5" fill="rgba(255,255,255,0.5)"/>
+ <!-- Motion lines on shaft -->
+ <line x1="10" y1="16" x2="12" y2="17" stroke="#E5A700" stroke-width="0.5" stroke-linecap="round" opacity="0.5"/>
+ <line x1="11" y1="14" x2="13" y2="15" stroke="#E5A700" stroke-width="0.5" stroke-linecap="round" opacity="0.4"/>
+ <!-- Gold arrow arcing from origin to destination pin -->
+ 
+ <!-- Shaft highlight -->
+ <path d="M 7 20 Q 15 13 21 20" stroke="rgba(255,255,255,0.38)" stroke-width="1"
+ fill="none" stroke-linecap="round"/>
+ <!-- Arrowhead arriving AT destination -->
+ <polygon points="25,21 20,18 20,24" fill="url(#headGrad)"/>
+ <polygon points="24,21 20,18 21,21" fill="rgba(255,255,255,0.28)"/>
+ <!-- DESTINATION: orange 3D pin (right side) -->
+ <!-- Pin head (circle) -->
+ 
+ <circle cx="25" cy="19.8" r="0.9" fill="rgba(255,255,255,0.6)"/>
+ <!-- Pin stem -->
+ <line x1="26" y1="24.5" x2="26" y2="27" stroke="#E54A1E" stroke-width="1.2"
+ stroke-linecap="round"/>
+ <!-- Pin foot dot -->
+ <circle cx="26" cy="27.5" r="0.8" fill="#E54A1E"/>
+</svg>

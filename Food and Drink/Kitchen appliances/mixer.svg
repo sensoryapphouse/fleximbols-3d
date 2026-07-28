@@ -1,0 +1,45 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="mixBody" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#D02828"/>
+ <stop offset="100%" stop-color="#800808"/>
+ </linearGradient>
+ <linearGradient id="mixMetal" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#D0D8E0"/>
+ <stop offset="100%" stop-color="#808898"/>
+ </linearGradient>
+ <linearGradient id="mixBowl" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#C0C8D8"/>
+ <stop offset="100%" stop-color="#6878A0"/>
+ </linearGradient>
+ <linearGradient id="mixBatter" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F0E0A0"/>
+ <stop offset="100%" stop-color="#C8B060"/>
+ </linearGradient>
+ </defs>
+ <!-- Bowl on base -->
+ 
+ <ellipse cx="16" cy="22" rx="10" ry="2.5" fill="#A0B0C8"/>
+ <!-- Batter in bowl -->
+ <path d="M7 24 Q7 30 16 30 Q25 30 25 24 Z" fill="url(#mixBatter)" fill-opacity="0.7"/>
+ <!-- Head/motor body -->
+ 
+ <!-- Head highlight -->
+ <path d="M7 10 L9 8 L18 8 L17 14 L7 14 Z" fill="#E04040" fill-opacity="0.3"/>
+ <!-- Tilt hinge arm -->
+ <path d="M8 18 Q6 20 7 22" fill="none" stroke="url(#mixMetal)" stroke-width="2"/>
+ <!-- Whisk attachment -->
+ <line x1="16" y1="20" x2="16" y2="26" stroke="url(#mixMetal)" stroke-width="1"/>
+ <path d="M14 22 Q16 24.5 18 22" fill="none" stroke="url(#mixMetal)" stroke-width="0.7"/>
+ <path d="M13.5 23.5 Q16 26 18.5 23.5" fill="none" stroke="url(#mixMetal)" stroke-width="0.7"/>
+ <circle cx="16" cy="26.5" r="1" fill="url(#mixMetal)"/>
+ <!-- Speed dial on head -->
+ <circle cx="22" cy="12" r="2.5" fill="#601010"/>
+ <circle cx="22" cy="12" r="1.5" fill="#A81818"/>
+ <line x1="22" y1="12" x2="23" y2="11" stroke="#FFFFFF" stroke-width="0.5"/>
+ <!-- On/off button -->
+ <circle cx="10" cy="12" r="1.5" fill="#D0D8E0"/>
+ <circle cx="10" cy="12" r="0.8" fill="#F0F4F8"/>
+ <!-- Brand strip -->
+ <rect x="9" y="15" width="14" height="1" rx="0.4" fill="#A01010"/>
+</svg>

@@ -1,0 +1,71 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Outer six pointed petals — yellow -->
+ <radialGradient id="daf_petal" cx="30%" cy="25%" r="72%">
+ <stop offset="0%" stop-color="#FFF9C4"/>
+ <stop offset="40%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#E5A700"/>
+ </radialGradient>
+ <radialGradient id="daf_hl" cx="30%" cy="22%" r="55%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ <!-- Darker yellow trumpet/cup — KEY GESTURE -->
+ <radialGradient id="daf_trumpet" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="55%" stop-color="#E5A700"/>
+ <stop offset="100%" stop-color="#BF6000"/>
+ </radialGradient>
+ <radialGradient id="daf_trumpet_inner" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FF8F00"/>
+ <stop offset="100%" stop-color="#7F3F00"/>
+ </radialGradient>
+ <!-- Tall stem -->
+ <linearGradient id="daf_stem" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ <radialGradient id="daf_leaf" cx="30%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#AED581"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </radialGradient>
+ </defs>
+
+ <!-- Tall stem — KEY GESTURE -->
+ <path d="M16 23 Q15.5 27 15 31" stroke="url(#daf_stem)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+ <!-- Long flat leaves at base — KEY GESTURE -->
+ <path d="M15.5 29 Q9 26 8 18 Q12 24 15.5 29 Z" fill="url(#daf_leaf)"/>
+ <path d="M12 27.5 Q8.5 23 9 18" stroke="#FFFFFF" stroke-width="0.35" fill="none" opacity="0.4"/>
+ <path d="M15.5 29 Q21.5 26.5 22 19 Q18 24 15.5 29 Z" fill="url(#daf_leaf)"/>
+ <path d="M19 27.5 Q21.5 23.5 21 19" stroke="#FFFFFF" stroke-width="0.35" fill="none" opacity="0.4"/>
+
+ <!-- SIX POINTED OUTER PETALS — KEY GESTURE (distinguishes from 5-petal buttercup) -->
+ <!-- Petals at 0, 60, 120, 180, 240, 300 degrees -->
+ <ellipse cx="16" cy="9" rx="2.8" ry="5" fill="url(#daf_petal)"/>
+ <ellipse cx="16" cy="9" rx="2.8" ry="5" fill="url(#daf_hl)"/>
+ <ellipse cx="16" cy="9" rx="2.8" ry="5" fill="url(#daf_petal)" transform="rotate(60 16 16)"/>
+ <ellipse cx="16" cy="9" rx="2.8" ry="5" fill="url(#daf_hl)" transform="rotate(60 16 16)"/>
+ <ellipse cx="16" cy="9" rx="2.8" ry="5" fill="url(#daf_petal)" transform="rotate(120 16 16)"/>
+ <ellipse cx="16" cy="9" rx="2.8" ry="5" fill="url(#daf_hl)" transform="rotate(120 16 16)"/>
+ <ellipse cx="16" cy="9" rx="2.8" ry="5" fill="url(#daf_petal)" transform="rotate(180 16 16)"/>
+ <ellipse cx="16" cy="9" rx="2.8" ry="5" fill="url(#daf_petal)" transform="rotate(240 16 16)"/>
+ <ellipse cx="16" cy="9" rx="2.8" ry="5" fill="url(#daf_petal)" transform="rotate(300 16 16)"/>
+
+ <!-- TRUMPET/CUP CENTRE — KEY GESTURE (the defining daffodil feature) -->
+ <!-- Trumpet cylinder -->
+ <ellipse cx="16" cy="16.5" rx="5" ry="2" fill="url(#daf_trumpet)"/>
+ <!-- Trumpet body (slightly flared cylinder) -->
+ <path d="M11 16.5 Q11.5 22 16 22.5 Q20.5 22 21 16.5 Z" fill="url(#daf_trumpet)"/>
+ <path d="M11.5 17 Q12 21.5 16 22" stroke="#FFFFFF" stroke-width="0.4" fill="none" opacity="0.4"/>
+ <!-- Trumpet opening rim (darker) -->
+ <ellipse cx="16" cy="22.5" rx="5" ry="1.8" fill="url(#daf_trumpet_inner)"/>
+ <!-- Trumpet opening inner -->
+ <ellipse cx="16" cy="22.5" rx="4" ry="1.2" fill="#4A1C00"/>
+ <!-- Highlight on trumpet -->
+ <ellipse cx="13.8" cy="18" rx="1" ry="2.5" fill="#FFFFFF" fill-opacity="0.3" transform="rotate(-10 13.8 18)"/>
+ <!-- Frilly rim edge -->
+ <path d="M11 22.5 Q11.5 24.5 12.5 24 Q12 23 12.5 22.5" fill="url(#daf_trumpet)" stroke="url(#daf_trumpet)" stroke-width="0.3"/>
+ <path d="M21 22.5 Q20.5 24.5 19.5 24 Q20 23 19.5 22.5" fill="url(#daf_trumpet)" stroke="url(#daf_trumpet)" stroke-width="0.3"/>
+ <path d="M16 24.3 Q15.5 25.8 16 25.5 Q16.5 25.8 16 24.3" fill="url(#daf_trumpet)" stroke="url(#daf_trumpet)" stroke-width="0.3"/>
+</svg>

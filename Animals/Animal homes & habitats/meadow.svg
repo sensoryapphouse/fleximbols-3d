@@ -1,0 +1,57 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A6D9F5"/>
+ <stop offset="100%" stop-color="#5CA3FF"/>
+ </linearGradient>
+ <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#9DC45A"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ </defs>
+ <!-- Sky -->
+ <rect x="0" y="0" width="32" height="20" fill="url(#sky)"/>
+ <!-- Cloud -->
+ <ellipse cx="8" cy="5" rx="4" ry="2" fill="#FFFFFF" fill-opacity="0.85"/>
+ <ellipse cx="12" cy="5" rx="3" ry="1.5" fill="#FFFFFF" fill-opacity="0.85"/>
+ <ellipse cx="22" cy="7" rx="5" ry="2.2" fill="#FFFFFF" fill-opacity="0.8"/>
+ <ellipse cx="27" cy="7" rx="3" ry="1.5" fill="#FFFFFF" fill-opacity="0.8"/>
+ <!-- Background hill -->
+ <ellipse cx="16" cy="21" rx="20" ry="7" fill="url(#hill)"/>
+ <!-- Grass ground -->
+ <rect x="0" y="19" width="32" height="13" fill="url(#grass)"/>
+ <!-- Wildflowers scattered (no fence!) -->
+ <!-- Red poppies -->
+ <circle cx="3" cy="20" r="1" fill="#E53935" fill-opacity="0.9"/>
+ <line x1="3" y1="21" x2="3" y2="23" stroke="#33691E" stroke-width="0.5"/>
+ <circle cx="12" cy="22" r="1" fill="#E53935" fill-opacity="0.9"/>
+ <line x1="12" y1="23" x2="12" y2="25" stroke="#33691E" stroke-width="0.5"/>
+ <circle cx="25" cy="21" r="1" fill="#E53935" fill-opacity="0.9"/>
+ <line x1="25" y1="22" x2="25" y2="24" stroke="#33691E" stroke-width="0.5"/>
+ <!-- Yellow daisies -->
+ <circle cx="7" cy="23" r="1" fill="#FDD835" fill-opacity="0.9"/>
+ <line x1="7" y1="24" x2="7" y2="26" stroke="#33691E" stroke-width="0.5"/>
+ <circle cx="19" cy="24" r="1" fill="#FDD835" fill-opacity="0.9"/>
+ <line x1="19" y1="25" x2="19" y2="27" stroke="#33691E" stroke-width="0.5"/>
+ <circle cx="29" cy="23" r="0.9" fill="#FDD835" fill-opacity="0.9"/>
+ <!-- Blue cornflowers -->
+ <circle cx="15" cy="25" r="1" fill="#5CA3FF" fill-opacity="0.9"/>
+ <line x1="15" y1="26" x2="15" y2="28" stroke="#33691E" stroke-width="0.5"/>
+ <circle cx="22" cy="27" r="1" fill="#5CA3FF" fill-opacity="0.9"/>
+ <circle cx="4" cy="28" r="0.9" fill="#5CA3FF" fill-opacity="0.8"/>
+ <!-- Pink flower -->
+ <circle cx="28" cy="27" r="1" fill="#F48FB1" fill-opacity="0.9"/>
+ <!-- Butterfly -->
+ <ellipse cx="9" cy="19" rx="1.5" ry="0.8" fill="#FDD835" fill-opacity="0.8" transform="rotate(-20,9,19)"/>
+ <ellipse cx="11" cy="19" rx="1.5" ry="0.8" fill="#FDD835" fill-opacity="0.8" transform="rotate(20,11,19)"/>
+ <circle cx="10" cy="19" r="0.3" fill="#8B5C3A" fill-opacity="0.8"/>
+ <!-- Grass blades foreground -->
+ <path d="M1,32 Q2,28 1.5,25" stroke="#7BAA48" stroke-width="0.5" fill="none"/>
+ <path d="M6,32 Q7,29 6.5,26" stroke="#33691E" stroke-width="0.5" fill="none"/>
+ <path d="M17,32 Q18,29 17.5,26" stroke="#7BAA48" stroke-width="0.5" fill="none"/>
+ <path d="M26,32 Q27,29 26.5,26" stroke="#33691E" stroke-width="0.5" fill="none"/>
+</svg>

@@ -1,0 +1,91 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="tileGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F0F4F8"/>
+ <stop offset="100%" stop-color="#C8D4E0"/>
+ </linearGradient>
+ <linearGradient id="fixtureGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#E0E0E0"/>
+ </linearGradient>
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D8E4F0"/>
+ <stop offset="100%" stop-color="#A8B8C8"/>
+ </linearGradient>
+ <linearGradient id="mirrorGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#C8E0F4"/>
+ <stop offset="100%" stop-color="#8AACCC"/>
+ </linearGradient>
+ <linearGradient id="metalGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ </defs>
+ <!-- Back wall tile -->
+ <rect x="2" y="2" width="28" height="20" fill="url(#tileGrad)"/>
+ <!-- Tile grid -->
+ <line x1="2" y1="7" x2="30" y2="7" stroke="#B0C0D0" stroke-width="0.3" opacity="0.6"/>
+ <line x1="2" y1="12" x2="30" y2="12" stroke="#B0C0D0" stroke-width="0.3" opacity="0.6"/>
+ <line x1="2" y1="17" x2="30" y2="17" stroke="#B0C0D0" stroke-width="0.3" opacity="0.6"/>
+ <line x1="7" y1="2" x2="7" y2="22" stroke="#B0C0D0" stroke-width="0.3" opacity="0.6"/>
+ <line x1="12" y1="2" x2="12" y2="22" stroke="#B0C0D0" stroke-width="0.3" opacity="0.6"/>
+ <line x1="18" y1="2" x2="18" y2="22" stroke="#B0C0D0" stroke-width="0.3" opacity="0.6"/>
+ <line x1="24" y1="2" x2="24" y2="22" stroke="#B0C0D0" stroke-width="0.3" opacity="0.6"/>
+ <!-- Floor -->
+ <rect x="2" y="22" width="28" height="8" fill="url(#floorGrad)"/>
+ <!-- Floor tiles -->
+ <line x1="2" y1="25" x2="30" y2="25" stroke="#90A8C0" stroke-width="0.3" opacity="0.5"/>
+ <line x1="2" y1="28" x2="30" y2="28" stroke="#90A8C0" stroke-width="0.3" opacity="0.5"/>
+ <line x1="8" y1="22" x2="8" y2="30" stroke="#90A8C0" stroke-width="0.3" opacity="0.5"/>
+ <line x1="16" y1="22" x2="16" y2="30" stroke="#90A8C0" stroke-width="0.3" opacity="0.5"/>
+ <line x1="24" y1="22" x2="24" y2="30" stroke="#90A8C0" stroke-width="0.3" opacity="0.5"/>
+ <!-- TOILET (left) -->
+ <!-- Toilet tank -->
+ 
+ <!-- Toilet bowl -->
+ 
+ <ellipse cx="6" cy="19" rx="3.2" ry="2" fill="#E8F0F8"/>
+ <!-- Toilet seat -->
+ <ellipse cx="6" cy="18.5" rx="3.8" ry="2.2" fill="none" stroke="#D0D0D0" stroke-width="0.5"/>
+ <!-- Toilet base -->
+ <rect x="3.5" y="16" width="5" height="3" rx="0.4" fill="url(#fixtureGrad)"/>
+ <!-- Tank lid -->
+ <rect x="2.8" y="10.5" width="6.4" height="0.8" rx="0.3" fill="url(#fixtureGrad)"/>
+ <!-- Flush button -->
+ <circle cx="6" cy="11.5" r="0.5" fill="url(#metalGrad)"/>
+ <!-- SINK (centre) with mirror above -->
+ <!-- Mirror -->
+ 
+ <rect x="12" y="3" width="8" height="6" rx="0.4" fill="none" stroke="#C9CDD3" stroke-width="0.5"/>
+ <!-- Mirror reflection hint -->
+ <line x1="13" y1="4" x2="14" y2="8" stroke="#FFFFFF" stroke-width="0.4" opacity="0.5"/>
+ <!-- Sink basin -->
+ 
+ <ellipse cx="16" cy="18.5" rx="3" ry="1.6" fill="#E8F0F8"/>
+ <!-- Sink pedestal -->
+ <rect x="14.5" y="18" width="3" height="4" rx="0.4" fill="url(#fixtureGrad)"/>
+ <!-- Faucet -->
+ <rect x="15.3" y="15.5" width="1.4" height="0.6" rx="0.2" fill="url(#metalGrad)"/>
+ <!-- Tap handles -->
+ <rect x="13.5" y="15.3" width="1.5" height="0.4" rx="0.2" fill="url(#metalGrad)"/>
+ <rect x="17" y="15.3" width="1.5" height="0.4" rx="0.2" fill="url(#metalGrad)"/>
+ <!-- Drain -->
+ <circle cx="16" cy="18.5" r="0.5" fill="#B0B8C0"/>
+ <!-- BATHTUB (right) -->
+ <!-- Tub outer shell -->
+ 
+ <!-- Tub inner -->
+ <rect x="23" y="12.5" width="6" height="8.5" rx="0.7" fill="#E8F4FC"/>
+ <!-- Water shimmer -->
+ <rect x="23" y="19" width="6" height="2" rx="0.5" fill="#B8D8F0" opacity="0.5"/>
+ <!-- Tub faucet -->
+ <rect x="25.5" y="10.5" width="1.2" height="1.5" rx="0.3" fill="url(#metalGrad)"/>
+ <!-- Tub spout -->
+ <rect x="24.5" y="11.5" width="3.2" height="0.6" rx="0.2" fill="url(#metalGrad)"/>
+ <!-- Tub drain -->
+ <circle cx="26" cy="20.5" r="0.5" fill="#B0B8C0"/>
+ <!-- Tub rim -->
+ <rect x="22" y="11" width="8" height="1" rx="0.5" fill="#F0F0F0"/>
+ <!-- Soap dish / shampoo -->
+ <rect x="27" y="13" width="1.5" height="1" rx="0.3" fill="#F8C0A0"/>
+</svg>

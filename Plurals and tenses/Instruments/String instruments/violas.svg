@@ -1,0 +1,91 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Warm brown viola body (slightly warmer/darker than violin) -->
+ <radialGradient id="va-body" cx="42%" cy="44%" r="55%">
+ <stop offset="0%" stop-color="#FFD089"/>
+ <stop offset="35%" stop-color="#B07000"/>
+ <stop offset="100%" stop-color="#7A4828"/>
+ </radialGradient>
+ <!-- Neck gradient -->
+ <linearGradient id="va-neck" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#9A6838"/>
+ <stop offset="100%" stop-color="#6B3A18"/>
+ </linearGradient>
+ <!-- Scroll -->
+ <radialGradient id="va-scroll" cx="50%" cy="45%" r="55%">
+ <stop offset="0%" stop-color="#C08040"/>
+ <stop offset="100%" stop-color="#7A4828"/>
+ </radialGradient>
+ <!-- String gradient -->
+ <linearGradient id="va-str" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <!-- F-hole -->
+ <linearGradient id="va-fh" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#2A1A08"/>
+ <stop offset="100%" stop-color="#5A3A1A"/>
+ </linearGradient>
+ <!-- Chin rest -->
+ <linearGradient id="va-chin" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#2A1A08"/>
+ <stop offset="100%" stop-color="#4A2A10"/>
+ </linearGradient>
+ </defs>
+
+ <!-- BODY: slightly larger than violin but same shape (held under chin) -->
+ <!-- Lower bout -->
+ <ellipse cx="16" cy="23" rx="8.5" ry="7" fill="url(#va-body)"/>
+ <!-- Upper bout -->
+ <ellipse cx="16" cy="14" rx="6" ry="5" fill="url(#va-body)"/>
+ <!-- Waist -->
+ <rect x="10.5" y="16" width="11" height="8" fill="url(#va-body)"/>
+
+ <!-- Body highlight (warm amber) -->
+ <ellipse cx="13.5" cy="20" rx="4.5" ry="6" fill="#FFD089" fill-opacity="0.2"/>
+
+ <!-- Waist indentations -->
+ <ellipse cx="11" cy="20" rx="1.8" ry="3" fill="#7A4828" fill-opacity="0.45"/>
+ <ellipse cx="21" cy="20" rx="1.8" ry="3" fill="#7A4828" fill-opacity="0.45"/>
+
+ <!-- F-HOLES -->
+ <path d="M 13.5 17.5 Q 13 18.8 13.5 20 Q 14 21.2 13.5 22.4" fill="none" stroke="url(#va-fh)" stroke-width="1.2" stroke-linecap="round"/>
+ <path d="M 18.5 17.5 Q 19 18.8 18.5 20 Q 18 21.2 18.5 22.4" fill="none" stroke="url(#va-fh)" stroke-width="1.2" stroke-linecap="round"/>
+ <!-- F-hole serifs -->
+ <line x1="12.8" y1="18" x2="14.2" y2="18" stroke="#2A1A08" stroke-width="0.6"/>
+ <line x1="12.8" y1="22" x2="14.2" y2="22" stroke="#2A1A08" stroke-width="0.6"/>
+ <line x1="17.8" y1="18" x2="19.2" y2="18" stroke="#2A1A08" stroke-width="0.6"/>
+ <line x1="17.8" y1="22" x2="19.2" y2="22" stroke="#2A1A08" stroke-width="0.6"/>
+
+ <!-- Bridge -->
+ <rect x="14.5" y="20" width="3" height="1.8" rx="0.2" fill="#C99878" fill-opacity="0.85"/>
+
+ <!-- NECK -->
+ <rect x="14.5" y="7" width="3" height="8" rx="0.8" fill="url(#va-neck)"/>
+
+ <!-- SCROLL at top -->
+ <circle cx="16" cy="6.2" r="2" fill="url(#va-scroll)"/>
+ <circle cx="16" cy="6.2" r="0.9" fill="#7A4828" fill-opacity="0.65"/>
+
+ <!-- 4 TUNING PEGS (held-under-chin viola posture) -->
+ <line x1="14.5" y1="8" x2="12.5" y2="7.5" stroke="#6B3A18" stroke-width="1" stroke-linecap="round"/>
+ <line x1="14.5" y1="9.5" x2="12.5" y2="9" stroke="#6B3A18" stroke-width="1" stroke-linecap="round"/>
+ <line x1="17.5" y1="8" x2="19.5" y2="7.5" stroke="#6B3A18" stroke-width="1" stroke-linecap="round"/>
+ <line x1="17.5" y1="9.5" x2="19.5" y2="9" stroke="#6B3A18" stroke-width="1" stroke-linecap="round"/>
+
+ <!-- 4 STRINGS -->
+ <line x1="15" y1="8" x2="14.8" y2="29" stroke="url(#va-str)" stroke-width="0.6"/>
+ <line x1="15.6" y1="8" x2="15.5" y2="29" stroke="url(#va-str)" stroke-width="0.55"/>
+ <line x1="16.2" y1="8" x2="16.2" y2="29" stroke="url(#va-str)" stroke-width="0.5"/>
+ <line x1="16.8" y1="8" x2="16.9" y2="29" stroke="url(#va-str)" stroke-width="0.5"/>
+
+ <!-- CHIN REST (held under chin — mandatory posture signifier) -->
+ <path d="M 13 28 Q 12 30 14 30.5 Q 16 31 18 30.5 Q 20 30 19 28 Z" fill="url(#va-chin)"/>
+ <!-- Chin rest ridge -->
+ <path d="M 14 29 Q 16 29.5 18 29" fill="none" stroke="#6B4010" stroke-width="0.5" stroke-opacity="0.6"/>
+
+ <!-- Tailpiece -->
+ <ellipse cx="16" cy="28" rx="2.5" ry="1" fill="#2A1A08" fill-opacity="0.7"/>
+
+ <!-- NO ENDPIN — distinguishes from cello (viola is held under chin) -->
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2437" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2437)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

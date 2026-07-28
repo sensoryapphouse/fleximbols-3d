@@ -1,0 +1,50 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="pop_ice" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF6FA0"/>
+      <stop offset="0.55" stop-color="#F2407B"/>
+      <stop offset="1" stop-color="#D02860"/>
+    </linearGradient>
+    <linearGradient id="pop_top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF9DC0"/>
+      <stop offset="1" stop-color="#FF6FA0"/>
+    </linearGradient>
+    <linearGradient id="pop_stick" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E8C98F"/>
+      <stop offset="0.5" stop-color="#D4A85F"/>
+      <stop offset="1" stop-color="#B8853F"/>
+    </linearGradient>
+    <linearGradient id="pop_gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shadow -->
+  <ellipse cx="16" cy="29.0" rx="6.0" ry="1.2" fill="#000000" opacity="0.12"/>
+
+  <!-- wooden stick -->
+  <rect x="14.4" y="20.0" width="3.2" height="9.0" rx="1.3" fill="url(#pop_stick)" stroke="#A87838" stroke-width="0.3"/>
+  <line x1="16" y1="22.0" x2="16" y2="28.2" stroke="#C49A5C" stroke-width="0.3" opacity="0.6"/>
+
+  <!-- ice body (rounded rectangle bar) -->
+  <path d="M9.0 7.0
+           C9.0 4.4 10.2 3.2 16 3.2
+           C21.8 3.2 23.0 4.4 23.0 7.0
+           L23.0 17.5
+           C23.0 20.6 21.0 22.0 16 22.0
+           C11.0 22.0 9.0 20.6 9.0 17.5 Z"
+        fill="url(#pop_ice)" stroke="#B82557" stroke-width="0.4"/>
+
+  <!-- frosty top sheen -->
+  <path d="M9.2 7.0 C9.2 4.6 10.4 3.4 16 3.4 C21.6 3.4 22.8 4.6 22.8 7.0
+           C22.8 8.4 20.0 9.2 16 9.2 C12.0 9.2 9.2 8.4 9.2 7.0 Z"
+        fill="url(#pop_top)" opacity="0.9"/>
+
+  <!-- gloss highlight stripe -->
+  <rect x="11.0" y="5.4" width="2.0" height="12.5" rx="1.0" fill="url(#pop_gloss)"/>
+  <!-- small frosty droplets -->
+  <circle cx="19.5" cy="11.0" r="0.55" fill="#FFFFFF" opacity="0.55"/>
+  <circle cx="18.6" cy="14.5" r="0.45" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="20.3" cy="16.0" r="0.4" fill="#FFFFFF" opacity="0.45"/>
+</svg>

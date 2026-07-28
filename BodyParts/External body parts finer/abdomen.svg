@@ -1,0 +1,125 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <!-- Background gradient - warm amber/orange scene -->
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#ffe8c8"/>
+      <stop offset="100%" stop-color="#e07030"/>
+    </radialGradient>
+    <!-- Skin tone gradient for torso -->
+    <linearGradient id="torsoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9d4a0"/>
+      <stop offset="60%" stop-color="#e8a86a"/>
+      <stop offset="100%" stop-color="#c07840"/>
+    </linearGradient>
+    <!-- Glossy highlight on torso -->
+    <radialGradient id="torsoHighlight" cx="35%" cy="25%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Abdomen highlight ring glow -->
+    <radialGradient id="abdoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff8800" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#ff5500" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff3300" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Skin head gradient -->
+    <radialGradient id="headGrad" cx="42%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fde8c8"/>
+      <stop offset="100%" stop-color="#d4906a"/>
+    </radialGradient>
+    <!-- Arm gradient -->
+    <linearGradient id="armGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0c080"/>
+      <stop offset="100%" stop-color="#c07840"/>
+    </linearGradient>
+    <!-- Ab muscle shadow -->
+    <linearGradient id="abShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00000030"/>
+      <stop offset="100%" stop-color="#00000010"/>
+    </linearGradient>
+    <!-- Indicator ring gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcc44"/>
+      <stop offset="100%" stop-color="#ff6600"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Neck -->
+  <rect x="14" y="6.8" width="4" height="3" rx="1.5" fill="url(#torsoGrad)"/>
+
+  <!-- Head -->
+  <ellipse cx="16" cy="5.5" rx="3.6" ry="3.8" fill="url(#headGrad)"/>
+  <!-- Head highlight -->
+  <ellipse cx="14.8" cy="4.2" rx="1.5" ry="1.1" fill="#ffffff" fill-opacity="0.3"/>
+  <!-- Eyes -->
+  <ellipse cx="14.4" cy="5.2" rx="0.45" ry="0.5" fill="#5a3010"/>
+  <ellipse cx="17.6" cy="5.2" rx="0.45" ry="0.5" fill="#5a3010"/>
+  <!-- Eyebrow -->
+  <path d="M13.7 4.5 Q14.4 4.1 15.1 4.5" stroke="#8b5a2b" stroke-width="0.35" fill="none" stroke-linecap="round"/>
+  <path d="M16.9 4.5 Q17.6 4.1 18.3 4.5" stroke="#8b5a2b" stroke-width="0.35" fill="none" stroke-linecap="round"/>
+  <!-- Subtle smile -->
+  <path d="M14.8 6.6 Q16 7.4 17.2 6.6" stroke="#c07840" stroke-width="0.45" fill="none" stroke-linecap="round"/>
+
+  <!-- Torso body (shoulders down to hips) -->
+  <!-- Shoulders wider at top, waist narrower, then hips slightly flare -->
+  <path d="M8.5 10.5 C7.5 10.5 7 11 7 12.5 L7.5 22.5 C7.5 24 8.5 25 10 25.5 L14.5 26.5 L17.5 26.5 L22 25.5 C23.5 25 24.5 24 24.5 22.5 L25 12.5 C25 11 24.5 10.5 23.5 10.5 Z" fill="url(#torsoGrad)"/>
+  <!-- Glossy highlight on torso -->
+  <path d="M8.5 10.5 C7.5 10.5 7 11 7 12.5 L7.5 22.5 C7.5 24 8.5 25 10 25.5 L14.5 26.5 L17.5 26.5 L22 25.5 C23.5 25 24.5 24 24.5 22.5 L25 12.5 C25 11 24.5 10.5 23.5 10.5 Z" fill="url(#torsoHighlight)"/>
+
+  <!-- Collar bones suggestion -->
+  <path d="M10 10.5 Q13 11.8 16 11.6 Q19 11.8 22 10.5" stroke="#c07040" stroke-width="0.4" fill="none" stroke-opacity="0.5" stroke-linecap="round"/>
+
+  <!-- Pec line -->
+  <path d="M9.5 14 Q12.5 15.5 16 15.2 Q19.5 15.5 22.5 14" stroke="#c07040" stroke-width="0.35" fill="none" stroke-opacity="0.45" stroke-linecap="round"/>
+
+  <!-- Ab muscle definitions (3 pairs of ab blocks, subtle indentations) -->
+  <!-- Center line -->
+  <line x1="16" y1="15.5" x2="16" y2="24.5" stroke="#b06030" stroke-width="0.3" stroke-opacity="0.4"/>
+  <!-- Top abs row -->
+  <ellipse cx="14" cy="17.2" rx="1.8" ry="1.1" fill="url(#abShadow)"/>
+  <ellipse cx="18" cy="17.2" rx="1.8" ry="1.1" fill="url(#abShadow)"/>
+  <!-- Middle abs row -->
+  <ellipse cx="13.8" cy="19.7" rx="1.7" ry="1.1" fill="url(#abShadow)"/>
+  <ellipse cx="18.2" cy="19.7" rx="1.7" ry="1.1" fill="url(#abShadow)"/>
+  <!-- Lower abs row -->
+  <ellipse cx="13.6" cy="22.0" rx="1.5" ry="1.0" fill="url(#abShadow)"/>
+  <ellipse cx="18.4" cy="22.0" rx="1.5" ry="1.0" fill="url(#abShadow)"/>
+  <!-- Ab horizontal separators -->
+  <path d="M8.8 15.8 Q12 16.5 16 16.3 Q20 16.5 23.2 15.8" stroke="#b06030" stroke-width="0.3" fill="none" stroke-opacity="0.35"/>
+  <path d="M8.6 18.5 Q12 19.2 16 19.0 Q20 19.2 23.4 18.5" stroke="#b06030" stroke-width="0.3" fill="none" stroke-opacity="0.35"/>
+  <path d="M8.6 21.0 Q12 21.7 16 21.5 Q20 21.7 23.4 21.0" stroke="#b06030" stroke-width="0.3" fill="none" stroke-opacity="0.35"/>
+
+  <!-- Navel -->
+  <ellipse cx="16" cy="23.8" rx="0.8" ry="0.6" fill="#b06030" fill-opacity="0.7"/>
+  <ellipse cx="16" cy="23.7" rx="0.5" ry="0.35" fill="#80401a" fill-opacity="0.6"/>
+
+  <!-- Left arm resting, hand touching belly area -->
+  <path d="M7 13 Q5.5 17 6 22 Q6.2 23.5 7.5 23.5 Q9 23.5 9.5 22.5 Q10 21.5 9.5 20" stroke="url(#armGrad)" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <!-- Left hand on belly -->
+  <ellipse cx="9.0" cy="20.5" rx="1.6" ry="1.1" fill="url(#armGrad)"/>
+  <!-- Finger lines on left hand -->
+  <path d="M7.8 20.0 L8.2 19.4" stroke="#c07840" stroke-width="0.28" stroke-linecap="round"/>
+  <path d="M9.0 19.6 L9.0 18.9" stroke="#c07840" stroke-width="0.28" stroke-linecap="round"/>
+  <path d="M10.1 20.0 L10.5 19.4" stroke="#c07840" stroke-width="0.28" stroke-linecap="round"/>
+
+  <!-- Right arm resting, hand touching belly area -->
+  <path d="M25 13 Q26.5 17 26 22 Q25.8 23.5 24.5 23.5 Q23 23.5 22.5 22.5 Q22 21.5 22.5 20" stroke="url(#armGrad)" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <!-- Right hand on belly -->
+  <ellipse cx="23.0" cy="20.5" rx="1.6" ry="1.1" fill="url(#armGrad)"/>
+  <!-- Finger lines on right hand -->
+  <path d="M21.9 20.0 L21.5 19.4" stroke="#c07840" stroke-width="0.28" stroke-linecap="round"/>
+  <path d="M23.0 19.6 L23.0 18.9" stroke="#c07840" stroke-width="0.28" stroke-linecap="round"/>
+  <path d="M24.1 20.0 L24.5 19.4" stroke="#c07840" stroke-width="0.28" stroke-linecap="round"/>
+
+  <!-- Abdomen highlight/focus glow overlay -->
+  <ellipse cx="16" cy="19.5" rx="7" ry="5.5" fill="url(#abdoGlow)"/>
+
+  <!-- Indicator ring around abdomen region -->
+  <ellipse cx="16" cy="19.5" rx="7.5" ry="5.8" fill="none" stroke="#000000" stroke-width="0.9" stroke-dasharray="1.2,0.6" opacity="1"/>
+  <!-- Ring accent dots -->
+  <circle cx="16" cy="13.7" r="0.55" fill="#000000"/>
+  <circle cx="16" cy="25.3" r="0.55" fill="#000000"/>
+
+  <!-- Hip/pelvis base suggestion -->
+  <path d="M9.5 26 Q16 28 22.5 26" stroke="#c07040" stroke-width="0.5" fill="none" stroke-opacity="0.4" stroke-linecap="round"/>
+</svg>

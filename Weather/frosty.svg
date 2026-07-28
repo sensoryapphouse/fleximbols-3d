@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D8EEFF"/>
+ <stop offset="100%" stop-color="#EEF6FF"/>
+ </linearGradient>
+ <linearGradient id="tubeGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#E0E8F0"/>
+ <stop offset="40%" stop-color="#FFFFFF"/>
+ <stop offset="70%" stop-color="#E8F0F8"/>
+ <stop offset="100%" stop-color="#C8D8E8"/>
+ </linearGradient>
+ <!-- Blue mercury — cold -->
+ <linearGradient id="mercuryGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#5CA3FF"/>
+ <stop offset="60%" stop-color="#1565C0"/>
+ <stop offset="100%" stop-color="#0D47A1"/>
+ </linearGradient>
+ <radialGradient id="bulbGrad" cx="38%" cy="35%" r="62%">
+ <stop offset="0%" stop-color="#90C8FF"/>
+ <stop offset="55%" stop-color="#1565C0"/>
+ <stop offset="100%" stop-color="#0D47A1"/>
+ </radialGradient>
+ <!-- Ice crystal frost -->
+ <linearGradient id="frostGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#D8EEFF" stop-opacity="0.8"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.5"/>
+ </linearGradient>
+ <!-- Cold ambient -->
+ <radialGradient id="coldGlow" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#90C8FF" stop-opacity="0.2"/>
+ <stop offset="100%" stop-color="#90C8FF" stop-opacity="0"/>
+ </radialGradient>
+ </defs>
+
+ 
+ <!-- Cold ambient glow around thermometer -->
+ <circle cx="13.5" cy="16" r="12" fill="url(#coldGlow)"/>
+
+ <!-- Thermometer outer tube -->
+ <rect x="11" y="4" width="5" height="22" fill="url(#tubeGrad)" rx="2.5"/>
+ <rect x="11" y="4" width="5" height="22" fill="none" stroke="#A8C8E0" stroke-width="0.4" rx="2.5"/>
+
+ <!-- Frost crystals on the tube surface -->
+ <line x1="10.5" y1="10" x2="9" y2="10" stroke="#C8E4F8" stroke-width="0.5" opacity="0.7"/>
+ <line x1="9.75" y1="9.2" x2="9.75" y2="10.8" stroke="#C8E4F8" stroke-width="0.5" opacity="0.7"/>
+ <line x1="10.5" y1="15" x2="9" y2="15" stroke="#C8E4F8" stroke-width="0.45" opacity="0.65"/>
+ <line x1="9.75" y1="14.2" x2="9.75" y2="15.8" stroke="#C8E4F8" stroke-width="0.45" opacity="0.65"/>
+ <line x1="10.5" y1="20" x2="9.2" y2="20" stroke="#C8E4F8" stroke-width="0.4" opacity="0.6"/>
+ <line x1="9.85" y1="19.2" x2="9.85" y2="20.8" stroke="#C8E4F8" stroke-width="0.4" opacity="0.6"/>
+
+ <!-- Mercury column — very low, about 15% from bottom -->
+ <rect x="12.5" y="20" width="2" height="6" fill="url(#mercuryGrad)" rx="1"/>
+
+ <!-- Bulb -->
+ <circle cx="13.5" cy="26.5" r="3.5" fill="url(#bulbGrad)"/>
+ <circle cx="12.5" cy="25.5" r="1.1" fill="#B0D8FF" opacity="0.5"/>
+
+ <!-- Tube glass shine -->
+ <line x1="12" y1="6" x2="12" y2="24" stroke="#FFFFFF" stroke-width="0.45" opacity="0.65" stroke-linecap="round"/>
+
+ <!-- Scale ticks -->
+ <line x1="16" y1="8" x2="17.5" y2="8" stroke="#A0B8D0" stroke-width="0.4"/>
+ <line x1="16" y1="12" x2="17.5" y2="12" stroke="#A0B8D0" stroke-width="0.4"/>
+ <line x1="16" y1="16" x2="17.5" y2="16" stroke="#A0B8D0" stroke-width="0.4"/>
+ <line x1="16" y1="20" x2="17.5" y2="20" stroke="#A0B8D0" stroke-width="0.4"/>
+
+ <!-- Three snowflake glyphs floating around thermometer -->
+ <!-- Snowflake 1 — upper right -->
+ <g transform="translate(24,7)">
+ <line x1="-2" y1="0" x2="2" y2="0" stroke="#90C8FF" stroke-width="0.7"/>
+ <line x1="0" y1="-2" x2="0" y2="2" stroke="#90C8FF" stroke-width="0.7"/>
+ <line x1="-1.4" y1="-1.4" x2="1.4" y2="1.4" stroke="#90C8FF" stroke-width="0.55"/>
+ <line x1="1.4" y1="-1.4" x2="-1.4" y2="1.4" stroke="#90C8FF" stroke-width="0.55"/>
+ <circle cx="0" cy="0" r="0.35" fill="#C8E4FF"/>
+ </g>
+ <!-- Snowflake 2 — mid right -->
+ <g transform="translate(26,16)">
+ <line x1="-1.8" y1="0" x2="1.8" y2="0" stroke="#5CA3FF" stroke-width="0.65"/>
+ <line x1="0" y1="-1.8" x2="0" y2="1.8" stroke="#5CA3FF" stroke-width="0.65"/>
+ <line x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" stroke="#5CA3FF" stroke-width="0.5"/>
+ <line x1="1.27" y1="-1.27" x2="-1.27" y2="1.27" stroke="#5CA3FF" stroke-width="0.5"/>
+ <circle cx="0" cy="0" r="0.3" fill="#90C8FF"/>
+ </g>
+ <!-- Snowflake 3 — lower left -->
+ <g transform="translate(5,22)">
+ <line x1="-1.6" y1="0" x2="1.6" y2="0" stroke="#7AB8F8" stroke-width="0.6"/>
+ <line x1="0" y1="-1.6" x2="0" y2="1.6" stroke="#7AB8F8" stroke-width="0.6"/>
+ <line x1="-1.13" y1="-1.13" x2="1.13" y2="1.13" stroke="#7AB8F8" stroke-width="0.45"/>
+ <line x1="1.13" y1="-1.13" x2="-1.13" y2="1.13" stroke="#7AB8F8" stroke-width="0.45"/>
+ <circle cx="0" cy="0" r="0.28" fill="#B8D8FF"/>
+ </g>
+</svg>

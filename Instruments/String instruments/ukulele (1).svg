@@ -1,0 +1,85 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Pale warm wood (Hawaiian tan) -->
+ <radialGradient id="uk-body" cx="45%" cy="48%" r="52%">
+ <stop offset="0%" stop-color="#FFE8B0"/>
+ <stop offset="50%" stop-color="#D4A855"/>
+ <stop offset="100%" stop-color="#A07030"/>
+ </radialGradient>
+ <!-- Neck gradient -->
+ <linearGradient id="uk-neck" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <!-- Headstock -->
+ <linearGradient id="uk-head" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#A07848"/>
+ <stop offset="100%" stop-color="#6B4828"/>
+ </linearGradient>
+ <!-- String gradient -->
+ <linearGradient id="uk-str" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#E0E4EA"/>
+ <stop offset="100%" stop-color="#9AA0AA"/>
+ </linearGradient>
+ <!-- Tuner peg -->
+ <radialGradient id="uk-peg" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#D0D4DA"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </radialGradient>
+ <!-- Sound hole shadow -->
+ <radialGradient id="uk-hole" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#2A1A08"/>
+ <stop offset="100%" stop-color="#5A3A1A"/>
+ </radialGradient>
+ </defs>
+
+ <!-- BODY: small round ukulele body -->
+ <!-- Lower bout -->
+ <ellipse cx="16" cy="24" rx="8" ry="7" fill="url(#uk-body)"/>
+ <!-- Upper bout (slightly smaller) -->
+ <ellipse cx="16" cy="16" rx="6.5" ry="5.5" fill="url(#uk-body)"/>
+ <!-- Waist connector -->
+ <rect x="10" y="18" width="12" height="7" fill="url(#uk-body)"/>
+
+ <!-- Body highlight -->
+ <ellipse cx="14" cy="21" rx="4" ry="5.5" fill="#FFE8B0" fill-opacity="0.28"/>
+
+ <!-- Waist indentations -->
+ <ellipse cx="10.5" cy="21" rx="1.8" ry="2.5" fill="#A07030" fill-opacity="0.35"/>
+ <ellipse cx="21.5" cy="21" rx="1.8" ry="2.5" fill="#A07030" fill-opacity="0.35"/>
+
+ <!-- ROUND SOUND HOLE (ukulele characteristic) -->
+ <circle cx="16" cy="21" r="3" fill="url(#uk-hole)"/>
+ <circle cx="16" cy="21" r="3" fill="none" stroke="#6B4010" stroke-width="0.5"/>
+ <!-- Rosette ring around sound hole -->
+ <circle cx="16" cy="21" r="3.8" fill="none" stroke="#C58400" stroke-width="0.5" stroke-opacity="0.6"/>
+
+ <!-- Bridge -->
+ <rect x="13.5" y="27" width="5" height="1.2" rx="0.4" fill="#6B4010" fill-opacity="0.8"/>
+
+ <!-- SHORT NECK (ukulele has proportionally shorter neck) -->
+ <rect x="14.5" y="7.5" width="3" height="9.5" rx="0.8" fill="url(#uk-neck)"/>
+ <!-- Frets (fewer than guitar) -->
+ <line x1="14.5" y1="9.5" x2="17.5" y2="9.5" stroke="#8B5C3A" stroke-width="0.4" stroke-opacity="0.6"/>
+ <line x1="14.5" y1="11.5" x2="17.5" y2="11.5" stroke="#8B5C3A" stroke-width="0.4" stroke-opacity="0.6"/>
+ <line x1="14.5" y1="13.5" x2="17.5" y2="13.5" stroke="#8B5C3A" stroke-width="0.4" stroke-opacity="0.6"/>
+ <line x1="14.5" y1="15.5" x2="17.5" y2="15.5" stroke="#8B5C3A" stroke-width="0.4" stroke-opacity="0.6"/>
+
+ <!-- Nut at top of neck -->
+ <rect x="14.3" y="7" width="3.4" height="0.8" rx="0.2" fill="#D0D4DA" fill-opacity="0.7"/>
+
+ <!-- HEADSTOCK (small, 4 pegs) -->
+ <rect x="13.5" y="3" width="5" height="4.5" rx="0.8" fill="url(#uk-head)"/>
+
+ <!-- 4 TUNING PEGS (2 per side — 4 strings is mandatory ukulele signifier) -->
+ <circle cx="13.5" cy="4" r="1" fill="url(#uk-peg)"/>
+ <circle cx="13.5" cy="6" r="1" fill="url(#uk-peg)"/>
+ <circle cx="18.5" cy="4" r="1" fill="url(#uk-peg)"/>
+ <circle cx="18.5" cy="6" r="1" fill="url(#uk-peg)"/>
+
+ <!-- 4 STRINGS (ukulele has 4 strings) -->
+ <line x1="14.7" y1="4.5" x2="14.7" y2="28" stroke="url(#uk-str)" stroke-width="0.6"/>
+ <line x1="15.5" y1="4.5" x2="15.5" y2="28" stroke="url(#uk-str)" stroke-width="0.55"/>
+ <line x1="16.3" y1="4.5" x2="16.3" y2="28" stroke="url(#uk-str)" stroke-width="0.55"/>
+ <line x1="17.1" y1="4.5" x2="17.1" y2="28" stroke="url(#uk-str)" stroke-width="0.5"/>
+</svg>

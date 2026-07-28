@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="oil_body" cx="38%" cy="35%" r="65%"><stop offset="0%" stop-color="#ffe97a"/><stop offset="55%" stop-color="#c8a800" stop-opacity="0.82"/><stop offset="100%" stop-color="#7a6200" stop-opacity="0.90"/></radialGradient>
+ <radialGradient id="oil_cap" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#ccaa44"/><stop offset="100%" stop-color="#806600"/></radialGradient>
+ <radialGradient id="oil_shine" cx="28%" cy="22%" r="55%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.70"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+ </defs>
+ <ellipse cx="16" cy="23" rx="7" ry="8" fill="url(#oil_body)"/>
+ <path d="M9 19 Q9 14 12 13 L20 13 Q23 14 23 19 Z" fill="url(#oil_body)"/>
+ <rect x="13.5" y="8" width="5" height="6" rx="1.5" fill="url(#oil_cap)"/>
+ <path d="M15 6 Q16 5 17 6 L17.5 8 L14.5 8 Z" fill="#6a5200"/>
+ <ellipse cx="11.5" cy="18" rx="2.5" ry="6" fill="url(#oil_shine)"/>
+</svg>

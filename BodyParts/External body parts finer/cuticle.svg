@@ -1,0 +1,32 @@
+<svg viewBox="6.43 9.18 19.14 19.14" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="cut-skin" cx="45%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#ffd8c0"/>
+ <stop offset="60%" stop-color="#f0b090"/>
+ <stop offset="100%" stop-color="#d08060"/>
+ </radialGradient>
+ <linearGradient id="cut-nail" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ffe8f0"/>
+ <stop offset="40%" stop-color="#f8c8d8"/>
+ <stop offset="100%" stop-color="#e0a0b8"/>
+ </linearGradient>
+ <linearGradient id="cut-cuticle" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#ffc0a0"/>
+ <stop offset="100%" stop-color="#e09870"/>
+ </linearGradient>
+ </defs>
+ <!-- Finger/fingertip body -->
+ 
+ <!-- Fingertip rounding -->
+ <!-- Nail plate (pink) -->
+ <path d="M11.5,26 L11.5,15 Q11.5,10.5 16,10.5 Q20.5,10.5 20.5,15 L20.5,26 Z" fill="url(#cut-nail)" rx="2"/>
+ <!-- Nail highlight -->
+ <path d="M13,25 L13,15.5 Q13,12 16,12" fill="none" stroke="white" stroke-width="0.8" stroke-opacity="0.6" stroke-linecap="round"/>
+ <!-- Cuticle crescent at nail base (highlighted/emphasised) -->
+ <path d="M11.8,26 Q16,23.5 20.2,26" fill="none" stroke="#e87858" stroke-width="2" stroke-linecap="round"/>
+ <!-- Cuticle glow highlight -->
+ <path d="M12.2,26 Q16,24 19.8,26" fill="none" stroke="#ffb898" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.7"/>
+ <!-- Side skin folds -->
+ <line x1="10" y1="22" x2="11.5" y2="22" stroke="#c07858" stroke-width="0.7" stroke-opacity="0.5"/>
+ <line x1="20.5" y1="22" x2="22" y2="22" stroke="#c07858" stroke-width="0.7" stroke-opacity="0.5"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,0.694) scale(0.9783)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="clothTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7fc4e6"/>
+      <stop offset="1" stop-color="#4f9ec9"/>
+    </linearGradient>
+    <linearGradient id="clothFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fa9d4"/>
+      <stop offset="1" stop-color="#3d7fa8"/>
+    </linearGradient>
+    <linearGradient id="clothFold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ed4ef"/>
+      <stop offset="1" stop-color="#5fa9d4"/>
+    </linearGradient>
+  </defs>
+  <!-- soft shadow -->
+  <ellipse cx="16" cy="26.6" rx="11.5" ry="2.2" fill="#000000" opacity="0.14"/>
+
+  <!-- folded fabric swatch: a draped, folded piece of cloth -->
+  <!-- back rolled fold -->
+  <path d="M4 11 Q9 7.5 16 8 Q23 8.5 28 11 Q24 13 16 12.6 Q8 13 4 11 Z" fill="url(#clothFold)" stroke="#3d7fa8" stroke-width="0.5"/>
+
+  <!-- main draped body with wavy folds -->
+  <path d="M5 11.5
+           Q16 9.5 27 11.5
+           L27 19
+           Q24.5 21.5 22 19.5
+           Q19.5 23 16 20
+           Q12.5 23 10 19.5
+           Q7.5 21.5 5 19
+           Z" fill="url(#clothFront)" stroke="#346f96" stroke-width="0.5"/>
+
+  <!-- top sheen panel -->
+  <path d="M5 11.5 Q16 9.5 27 11.5 Q16 13.5 5 11.5 Z" fill="url(#clothTop)"/>
+
+  <!-- fold/weave seam lines -->
+  <path d="M9 12.4 Q9 16 9.6 19.4" stroke="#2f6688" stroke-width="0.45" fill="none" opacity="0.5"/>
+  <path d="M16 12.6 Q16 16.5 16 20" stroke="#2f6688" stroke-width="0.45" fill="none" opacity="0.5"/>
+  <path d="M23 12.4 Q23 16 22.4 19.4" stroke="#2f6688" stroke-width="0.45" fill="none" opacity="0.5"/>
+
+  <!-- subtle weave texture (horizontal threads) -->
+  <g stroke="#ffffff" stroke-width="0.3" opacity="0.28">
+    <path d="M6 14.5 Q16 13 26 14.5" fill="none"/>
+    <path d="M6.5 17 Q16 15.6 25.5 17" fill="none"/>
+  </g>
+
+  <!-- highlight on top fold -->
+  <path d="M7 10.6 Q13 9.2 19 9.5" stroke="#ffffff" stroke-width="0.6" opacity="0.5" fill="none" stroke-linecap="round"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1775" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1775)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

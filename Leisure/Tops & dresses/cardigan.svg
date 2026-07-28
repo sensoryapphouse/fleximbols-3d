@@ -1,0 +1,45 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="cardBody" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#C87E5A"/>
+ <stop offset="100%" stop-color="#7A3E1E"/>
+ </linearGradient>
+ <linearGradient id="cardRib" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D49070"/>
+ <stop offset="100%" stop-color="#8A4E2E"/>
+ </linearGradient>
+ </defs>
+ <!-- Body left -->
+ 
+ <!-- Body right -->
+ <path d="M25 12 L17 10 L17 28 L26 28 Z" fill="url(#cardBody)"/>
+ <!-- Open front gap -->
+ <path d="M15 10 L17 10 L17 28 L15 28 Z" fill="#E8C4A0" fill-opacity="0.4"/>
+ <!-- Left sleeve -->
+ <path d="M7 12 L3 16 L4 22 L7 21 L8 14 Z" fill="url(#cardBody)"/>
+ <!-- Right sleeve -->
+ <path d="M25 12 L29 16 L28 22 L25 21 L24 14 Z" fill="url(#cardBody)"/>
+ <!-- Ribbed cuffs left -->
+ <rect x="3.2" y="21" width="3.5" height="1.5" rx="0.5" fill="url(#cardRib)"/>
+ <line x1="3.5" y1="21.5" x2="6.5" y2="21.5" stroke="#7A3E1E" stroke-width="0.3"/>
+ <line x1="3.5" y1="22" x2="6.5" y2="22" stroke="#7A3E1E" stroke-width="0.3"/>
+ <!-- Ribbed cuffs right -->
+ <rect x="25.3" y="21" width="3.5" height="1.5" rx="0.5" fill="url(#cardRib)"/>
+ <line x1="25.5" y1="21.5" x2="28.5" y2="21.5" stroke="#7A3E1E" stroke-width="0.3"/>
+ <line x1="25.5" y1="22" x2="28.5" y2="22" stroke="#7A3E1E" stroke-width="0.3"/>
+ <!-- Ribbed hem -->
+ <rect x="6" y="26.5" width="20" height="1.5" rx="0.5" fill="url(#cardRib)"/>
+ <line x1="7" y1="27" x2="25" y2="27" stroke="#7A3E1E" stroke-width="0.3"/>
+ <!-- Buttons -->
+ <circle cx="15.8" cy="13.5" r="0.7" fill="#F5E0C8" stroke="#A05030" stroke-width="0.3"/>
+ <circle cx="15.8" cy="17" r="0.7" fill="#F5E0C8" stroke="#A05030" stroke-width="0.3"/>
+ <circle cx="15.8" cy="20.5" r="0.7" fill="#F5E0C8" stroke="#A05030" stroke-width="0.3"/>
+ <circle cx="15.8" cy="24" r="0.7" fill="#F5E0C8" stroke="#A05030" stroke-width="0.3"/>
+ <!-- Collar / V-neck -->
+ <path d="M13 10 L16 15 L19 10" fill="none" stroke="#7A3E1E" stroke-width="0.7"/>
+ <!-- Knit texture lines -->
+ <path d="M8 15 Q10 14.5 12 15" fill="none" stroke="#A05030" stroke-width="0.3" opacity="0.5"/>
+ <path d="M8 18 Q10 17.5 12 18" fill="none" stroke="#A05030" stroke-width="0.3" opacity="0.5"/>
+ <path d="M20 15 Q22 14.5 24 15" fill="none" stroke="#A05030" stroke-width="0.3" opacity="0.5"/>
+ <path d="M20 18 Q22 17.5 24 18" fill="none" stroke="#A05030" stroke-width="0.3" opacity="0.5"/>
+</svg>

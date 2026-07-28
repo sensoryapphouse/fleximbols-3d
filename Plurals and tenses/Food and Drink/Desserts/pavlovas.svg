@@ -1,0 +1,35 @@
+<svg viewBox="0 0 512 512" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <radialGradient id="pl_meringue" cx="0.4" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ece3cf"/>
+    </radialGradient>
+    <linearGradient id="pl_cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4ecd8"/>
+    </linearGradient>
+    <radialGradient id="pl_plate" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#f0f2f5"/>
+      <stop offset="1" stop-color="#c8cdd6"/>
+    </radialGradient>
+  </defs>
+  <!-- plate -->
+  <ellipse cx="256" cy="392" rx="200" ry="48" fill="url(#pl_plate)" stroke="#a9afba" stroke-width="5"/>
+  <ellipse cx="256" cy="384" rx="150" ry="32" fill="#ffffff" opacity="0.6"/>
+  <!-- meringue base (domed) -->
+  <path d="M118 360 C118 280 180 230 256 230 C332 230 394 280 394 360 C394 392 118 392 118 360 Z" fill="url(#pl_meringue)" stroke="#d8cdb4" stroke-width="4"/>
+  <!-- meringue swirl ridges -->
+  <path d="M150 350 Q170 300 200 350" fill="none" stroke="#e2d8c0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M210 358 Q230 304 262 356" fill="none" stroke="#e2d8c0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M272 354 Q296 302 330 352" fill="none" stroke="#e2d8c0" stroke-width="6" stroke-linecap="round"/>
+  <!-- whipped cream top -->
+  <path d="M150 252 C170 214 220 214 256 224 C292 214 342 214 362 252 C342 268 170 268 150 252 Z" fill="url(#pl_cream)" stroke="#e8e0cc" stroke-width="3"/>
+  <!-- berries on top -->
+  <circle cx="206" cy="226" r="22" fill="#d83a3a" stroke="#a81e1e" stroke-width="3"/>
+  <circle cx="252" cy="214" r="20" fill="#7a2ea8" stroke="#561e7a" stroke-width="3"/>
+  <circle cx="300" cy="228" r="22" fill="#e0452a" stroke="#b32a14" stroke-width="3"/>
+  <circle cx="276" cy="240" r="16" fill="#5a2a98" stroke="#3e1a6e" stroke-width="3"/>
+  <!-- berry highlights -->
+  <circle cx="200" cy="218" r="5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="294" cy="220" r="5" fill="#ffffff" opacity="0.6"/>
+<g transform="translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1156" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1156)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

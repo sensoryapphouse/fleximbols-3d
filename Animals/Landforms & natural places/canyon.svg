@@ -1,0 +1,46 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A6D9F5"/>
+ <stop offset="100%" stop-color="#5CA3FF"/>
+ </linearGradient>
+ <linearGradient id="leftWall" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#8B5C3A"/>
+ <stop offset="100%" stop-color="#C99878"/>
+ </linearGradient>
+ <linearGradient id="rightWall" x1="1" y1="0" x2="0" y2="0">
+ <stop offset="0%" stop-color="#8B5C3A"/>
+ <stop offset="100%" stop-color="#C99878"/>
+ </linearGradient>
+ <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#5CA3FF"/>
+ <stop offset="100%" stop-color="#0D47A1"/>
+ </linearGradient>
+ <linearGradient id="strataRed" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#C0392B" stop-opacity="0.9"/>
+ <stop offset="100%" stop-color="#E57373" stop-opacity="0.7"/>
+ </linearGradient>
+ <linearGradient id="strataTan" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#D4A574" stop-opacity="0.9"/>
+ <stop offset="100%" stop-color="#FFE4B5" stop-opacity="0.7"/>
+ </linearGradient>
+ </defs>
+ <!-- Sky strip in center -->
+ <rect x="10" y="0" width="12" height="20" fill="url(#sky)"/>
+ <!-- Left cliff wall -->
+ <polygon points="0,0 10,0 10,30 0,32" fill="url(#leftWall)"/>
+ <!-- Left cliff strata bands -->
+ <rect x="0" y="5" width="10" height="2" fill="url(#strataRed)"/>
+ <rect x="0" y="10" width="10" height="1.5" fill="url(#strataTan)"/>
+ <rect x="0" y="14" width="10" height="2" fill="url(#strataRed)"/>
+ <rect x="0" y="19" width="10" height="1.5" fill="url(#strataTan)"/>
+ <!-- Right cliff wall -->
+ <polygon points="22,0 32,0 32,32 22,30" fill="url(#rightWall)"/>
+ <!-- Right cliff strata bands -->
+ <rect x="22" y="5" width="10" height="2" fill="url(#strataRed)"/>
+ <rect x="22" y="10" width="10" height="1.5" fill="url(#strataTan)"/>
+ <rect x="22" y="14" width="10" height="2" fill="url(#strataRed)"/>
+ <rect x="22" y="19" width="10" height="1.5" fill="url(#strataTan)"/>
+ <!-- Canyon floor / river -->
+ <rect x="13" y="28" width="6" height="4" fill="url(#river)"/>
+</svg>

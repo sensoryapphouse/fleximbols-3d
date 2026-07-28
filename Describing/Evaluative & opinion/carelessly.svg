@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="200" height="200" viewBox="0 0 512 512" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <radialGradient id="loc3d_ball" cx="40%" cy="32%" r="65%">
+      <stop offset="0%"   stop-color="#ffd4d4"/>
+      <stop offset="25%"  stop-color="#ff8080"/>
+      <stop offset="65%"  stop-color="#e52d2d"/>
+      <stop offset="100%" stop-color="#8b0000"/>
+    </radialGradient>
+    <radialGradient id="loc3d_ball_spec" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="60%"  stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="loc3d_grey" cx="40%" cy="32%" r="65%">
+      <stop offset="0%"   stop-color="#e0e0e0"/>
+      <stop offset="60%"  stop-color="#909090"/>
+      <stop offset="100%" stop-color="#505050"/>
+    </radialGradient>
+    <radialGradient id="loc3d_grey_spec" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="loc3d_front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#e8a96d"/>
+      <stop offset="50%"  stop-color="#c8873a"/>
+      <stop offset="100%" stop-color="#8a5a20"/>
+    </linearGradient>
+    <linearGradient id="loc3d_front_sheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="loc3d_back" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="loc3d_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#a06838"/>
+      <stop offset="100%" stop-color="#6a4419"/>
+    </linearGradient>
+    <linearGradient id="loc3d_lid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#c8893a"/>
+      <stop offset="100%" stop-color="#7a5018"/>
+    </linearGradient>
+    <linearGradient id="loc3d_arrow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#7be87b"/>
+      <stop offset="50%"  stop-color="#22aa22"/>
+      <stop offset="100%" stop-color="#0a6a0a"/>
+    </linearGradient>
+    <linearGradient id="loc3d_yellow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#fce060"/>
+      <stop offset="50%"  stop-color="#f5c020"/>
+      <stop offset="100%" stop-color="#c09010"/>
+    </linearGradient>
+    <linearGradient id="loc3d_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#88bbff"/>
+      <stop offset="50%"  stop-color="#4488dd"/>
+      <stop offset="100%" stop-color="#1a4488"/>
+    </linearGradient>
+    <linearGradient id="loc3d_red2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ff8080"/>
+      <stop offset="50%"  stop-color="#e52d2d"/>
+      <stop offset="100%" stop-color="#8b0000"/>
+    </linearGradient>
+    <linearGradient id="loc3d_green_fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#88ee88"/>
+      <stop offset="50%"  stop-color="#22aa22"/>
+      <stop offset="100%" stop-color="#0a6a0a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- tipped over cup/mug -->
+  <path d="M 80,210 L 250,232 L 228,368 L 58,346 Z" fill="url(#loc3d_blue)" stroke="#2a1a08" stroke-width="2" stroke-linejoin="round"/>
+  <!-- handle -->
+  <path d="M 240,240 Q 300,244 296,308 Q 292,330 222,328" fill="none" stroke="#4488dd" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 240,240 Q 300,244 296,308 Q 292,330 222,328" fill="none" stroke="#2a1a08" stroke-width="2" stroke-linecap="round"/>
+  <!-- spilled liquid blob -->
+  <path d="M 240,230 Q 310,218 388,244 Q 432,258 448,296 Q 436,358 392,342 Q 344,326 292,342 Q 264,330 238,318 Z" fill="url(#loc3d_blue)" stroke="#2a1a08" stroke-width="2"/>
+  <!-- flying droplets -->
+  <ellipse cx="396" cy="178" rx="14" ry="18" fill="url(#loc3d_blue)" stroke="#2a1a08" stroke-width="2" transform="rotate(-20,396,178)"/>
+  <ellipse cx="448" cy="148" rx="10" ry="14" fill="url(#loc3d_blue)" stroke="#2a1a08" stroke-width="2" transform="rotate(-40,448,148)"/>
+  <ellipse cx="354" cy="168" rx="9" ry="12" fill="url(#loc3d_blue)" stroke="#2a1a08" stroke-width="2" transform="rotate(10,354,168)"/>
+  <!-- exclamation to indicate accident -->
+  <line x1="114" y1="90" x2="108" y2="148" stroke="#ff4444" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="110" cy="168" r="8" fill="url(#loc3d_ball)"/>
+</svg>

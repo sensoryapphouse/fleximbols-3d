@@ -1,0 +1,46 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="neb-cloud1" cx="40%" cy="45%" r="55%">
+ <stop offset="0%" stop-color="#ff80e0" stop-opacity="0.9"/>
+ <stop offset="50%" stop-color="#a040c0" stop-opacity="0.7"/>
+ <stop offset="100%" stop-color="#200840" stop-opacity="0.0"/>
+ </radialGradient>
+ <radialGradient id="neb-cloud2" cx="60%" cy="55%" r="50%">
+ <stop offset="0%" stop-color="#8060ff" stop-opacity="0.8"/>
+ <stop offset="60%" stop-color="#4020a0" stop-opacity="0.5"/>
+ <stop offset="100%" stop-color="#100420" stop-opacity="0.0"/>
+ </radialGradient>
+ <radialGradient id="neb-cloud3" cx="50%" cy="30%" r="40%">
+ <stop offset="0%" stop-color="#60a0ff" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#2040a0" stop-opacity="0.0"/>
+ </radialGradient>
+ <radialGradient id="neb-bg" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#180830"/>
+ <stop offset="100%" stop-color="#080418"/>
+ </radialGradient>
+ <filter id="neb-glow">
+ <feGaussianBlur stdDeviation="1.5" result="blur"/>
+ <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+ </defs>
+ <!-- Deep space background -->
+ <ellipse cx="16" cy="16" rx="15" ry="15" fill="url(#neb-bg)"/>
+ <!-- Nebula clouds -->
+ <ellipse cx="13" cy="15" rx="12" ry="10" fill="url(#neb-cloud1)" filter="url(#neb-glow)"/>
+ <ellipse cx="19" cy="17" rx="11" ry="9" fill="url(#neb-cloud2)"/>
+ <ellipse cx="16" cy="10" rx="8" ry="6" fill="url(#neb-cloud3)"/>
+ <!-- Stars -->
+ <circle cx="5" cy="5" r="0.8" fill="#ffffff" fill-opacity="0.95"/>
+ <circle cx="28" cy="4" r="0.6" fill="#ffffff" fill-opacity="0.9"/>
+ <circle cx="3" cy="22" r="0.5" fill="#ffe0ff" fill-opacity="0.85"/>
+ <circle cx="29" cy="26" r="0.7" fill="#ffffff" fill-opacity="0.9"/>
+ <circle cx="14" cy="3" r="0.5" fill="#e0e8ff" fill-opacity="0.8"/>
+ <circle cx="25" cy="12" r="0.4" fill="#ffffff" fill-opacity="0.7"/>
+ <circle cx="7" cy="29" r="0.5" fill="#ffe0ff" fill-opacity="0.75"/>
+ <circle cx="22" cy="28" r="0.4" fill="#ffffff" fill-opacity="0.7"/>
+ <!-- Blue tendrils -->
+ <path d="M20 8 Q24 10 26 15 Q24 13 22 10 Q21 9 20 8" fill="#60a0ff" fill-opacity="0.4"/>
+ <path d="M10 22 Q6 20 5 15 Q7 18 9 20 Q9.5 21 10 22" fill="#60a0ff" fill-opacity="0.35"/>
+ <!-- Central bright pinpoint -->
+ 
+</svg>

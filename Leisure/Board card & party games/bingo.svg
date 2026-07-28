@@ -1,0 +1,52 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bng-card" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#F8F8F0"/>
+ </linearGradient>
+ <linearGradient id="bng-header" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#E84040"/><stop offset="20%" stop-color="#FF8800"/><stop offset="40%" stop-color="#44AA44"/><stop offset="60%" stop-color="#2288FF"/><stop offset="80%" stop-color="#8822CC"/><stop offset="100%" stop-color="#E84040"/>
+ </linearGradient>
+ <radialGradient id="bng-dauber" cx="50%" cy="40%" r="50%">
+ <stop offset="0%" stop-color="#FF6666"/><stop offset="100%" stop-color="#CC0000"/>
+ </radialGradient>
+ <linearGradient id="bng-ball" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#DDDDDD"/>
+ </linearGradient>
+ </defs>
+ <!-- Card background -->
+ <rect x="3" y="4" width="22" height="26" rx="1.5" fill="url(#bng-card)" filter="url(#bng-shad)"/>
+ <!-- BINGO header -->
+ <rect x="3" y="4" width="22" height="5" rx="1.5" fill="url(#bng-header)"/>
+ <!-- B I N G O letters -->
+ <text x="5" y="8.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="3.5" font-weight="bold" fill="white">B</text>
+ <text x="9" y="8.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="3.5" font-weight="bold" fill="white">I</text>
+ <text x="12.5" y="8.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="3.5" font-weight="bold" fill="white">N</text>
+ <text x="17" y="8.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="3.5" font-weight="bold" fill="white">G</text>
+ <text x="21.5" y="8.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="3.5" font-weight="bold" fill="white">O</text>
+ <!-- Grid lines -->
+ <line x1="3" y1="12" x2="25" y2="12" stroke="#DDD" stroke-width="0.5"/>
+ <line x1="3" y1="16" x2="25" y2="16" stroke="#DDD" stroke-width="0.5"/>
+ <line x1="3" y1="20" x2="25" y2="20" stroke="#DDD" stroke-width="0.5"/>
+ <line x1="3" y1="24" x2="25" y2="24" stroke="#DDD" stroke-width="0.5"/>
+ <line x1="7.4" y1="9" x2="7.4" y2="30" stroke="#DDD" stroke-width="0.5"/>
+ <line x1="11.8" y1="9" x2="11.8" y2="30" stroke="#DDD" stroke-width="0.5"/>
+ <line x1="16.2" y1="9" x2="16.2" y2="30" stroke="#DDD" stroke-width="0.5"/>
+ <line x1="20.6" y1="9" x2="20.6" y2="30" stroke="#DDD" stroke-width="0.5"/>
+ <!-- Some numbers (tiny) -->
+ <text x="4.2" y="11.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="2.2" fill="#555">7</text>
+ <text x="8.5" y="11.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="2.2" fill="#555">19</text>
+ <text x="12.8" y="11.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="2.2" fill="#555">33</text>
+ <text x="17.2" y="11.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="2.2" fill="#555">50</text>
+ <text x="21.5" y="11.5" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="2.2" fill="#555">63</text>
+ <!-- Free space center -->
+ <circle cx="14" cy="18" r="2.2" fill="url(#bng-dauber)"/>
+ <!-- Daubed numbers (red circles) -->
+ <circle cx="5.5" cy="10.5" r="2" fill="url(#bng-dauber)" fill-opacity="0.8"/>
+ <circle cx="19" cy="10.5" r="2" fill="url(#bng-dauber)" fill-opacity="0.8"/>
+ <circle cx="9.8" cy="14" r="2" fill="url(#bng-dauber)" fill-opacity="0.8"/>
+ <circle cx="18.2" cy="22" r="2" fill="url(#bng-dauber)" fill-opacity="0.8"/>
+ <circle cx="22.5" cy="26" r="2" fill="url(#bng-dauber)" fill-opacity="0.8"/>
+ <!-- Bingo ball top corner -->
+ <circle cx="27" cy="7" r="3" fill="url(#bng-ball)" filter="url(#bng-shad)"/>
+ <text x="25.5" y="8" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="2.5" font-weight="bold" fill="#333">42</text>
+</svg>

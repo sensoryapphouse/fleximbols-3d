@@ -1,0 +1,54 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="arb-wood" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#C8924A"/>
+ <stop offset="100%" stop-color="#7A5020"/>
+ </linearGradient>
+ <linearGradient id="arb-path" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#C8B890"/>
+ <stop offset="100%" stop-color="#A09070"/>
+ </linearGradient>
+ <radialGradient id="arb-rose1" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FF9AB0"/>
+ <stop offset="100%" stop-color="#E0406A"/>
+ </radialGradient>
+ <radialGradient id="arb-rose2" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFB0C8"/>
+ <stop offset="100%" stop-color="#CC3060"/>
+ </radialGradient>
+ <linearGradient id="arb-leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5AC060"/>
+ <stop offset="100%" stop-color="#1A7030"/>
+ </linearGradient>
+ </defs>
+ <!-- Path -->
+ <path d="M10,32 L10,25 L22,25 L22,32" fill="url(#arb-path)" fill-opacity="0.6"/>
+ <!-- Paving stones -->
+ <rect x="11" y="26" width="4" height="2.5" rx="0.3" fill="#D8C8A0" fill-opacity="0.7"/>
+ <rect x="16" y="26" width="4" height="2.5" rx="0.3" fill="#C8B890" fill-opacity="0.7"/>
+ <rect x="11" y="29.5" width="4" height="2" rx="0.3" fill="#D0C098" fill-opacity="0.7"/>
+ <rect x="16" y="29.5" width="4" height="2" rx="0.3" fill="#C0B080" fill-opacity="0.7"/>
+ <!-- Left post -->
+ 
+ <!-- Right post -->
+ 
+ <!-- Arch top -->
+ <path d="M5,14 Q16,4 27,14" fill="none" stroke="url(#arb-wood)" stroke-width="3" stroke-linecap="round"/>
+ <!-- Lattice on arch -->
+ <path d="M7,16 Q16,7 25,16" fill="none" stroke="#C8924A" stroke-width="0.8" stroke-opacity="0.6" stroke-dasharray="1.5,1.5"/>
+ <!-- Left vine/leaves -->
+ <path d="M6,24 C4,20 3,16 5,12" fill="none" stroke="#2A8038" stroke-width="1.2" stroke-linecap="round"/>
+ <ellipse cx="4" cy="20" rx="2.5" ry="1.5" transform="rotate(-30 4 20)" fill="url(#arb-leaf)" fill-opacity="0.85"/>
+ <ellipse cx="5" cy="16" rx="2" ry="1.2" transform="rotate(20 5 16)" fill="url(#arb-leaf)" fill-opacity="0.75"/>
+ <!-- Right vine/leaves -->
+ <path d="M26,24 C28,20 29,15 27,12" fill="none" stroke="#2A8038" stroke-width="1.2" stroke-linecap="round"/>
+ <ellipse cx="28.2" cy="20" rx="2.5" ry="1.5" transform="rotate(30 28 20)" fill="url(#arb-leaf)" fill-opacity="0.85"/>
+ <ellipse cx="27" cy="16" rx="2" ry="1.2" transform="rotate(-20 27 16)" fill="url(#arb-leaf)" fill-opacity="0.75"/>
+ <!-- Roses on arch -->
+ <circle cx="12" cy="10" r="2" fill="url(#arb-rose1)"/>
+ <circle cx="16" cy="7.5" r="1.8" fill="url(#arb-rose2)"/>
+ <circle cx="20" cy="10" r="2" fill="url(#arb-rose1)"/>
+ <circle cx="12" cy="10" r="0.8" fill="#FF70A0" fill-opacity="0.6"/>
+ <circle cx="16" cy="7.5" r="0.7" fill="#FFB0C0" fill-opacity="0.5"/>
+ <circle cx="20" cy="10" r="0.8" fill="#FF70A0" fill-opacity="0.6"/>
+</svg>

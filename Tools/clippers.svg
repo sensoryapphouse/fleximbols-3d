@@ -1,0 +1,27 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5080b0"/>
+ <stop offset="100%" stop-color="#203050"/>
+ </linearGradient>
+ <linearGradient id="bladeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#e0e6f0"/>
+ <stop offset="100%" stop-color="#8a92a4"/>
+ </linearGradient>
+ </defs>
+ <!-- Upper blade -->
+ <path d="M16 16 Q22 13 28 9 Q30 7.5 29 6 Q28 5 26 6.5 Q20 11 15 15 Z" fill="url(#bladeGrad)"/>
+ <!-- Lower blade -->
+ <path d="M16 16 Q22 19 28 23 Q30 24.5 29 26 Q28 27 26 25.5 Q20 21 15 17 Z" fill="url(#bladeGrad)"/>
+ <!-- Upper handle (loop) -->
+ <path d="M16 16 Q11 14 6 11 Q3 9 4 6.5 Q5 4 8 5.5 Q12 7.5 16 14 Z" fill="url(#handleGrad)"/>
+ <ellipse cx="6" cy="7.5" rx="2.4" ry="2" fill="none" stroke="url(#handleGrad)" stroke-width="1.6"/>
+ <!-- Lower handle (loop) -->
+ <path d="M16 16 Q11 18 6 21 Q3 23 4 25.5 Q5 28 8 26.5 Q12 24.5 16 18 Z" fill="url(#handleGrad)"/>
+ <ellipse cx="6" cy="24.5" rx="2.4" ry="2" fill="none" stroke="url(#handleGrad)" stroke-width="1.6"/>
+ <!-- Highlights -->
+ <path d="M18 15.5 Q23 13 27 10" stroke="#ffffff" stroke-width="0.6" opacity="0.5" fill="none"/>
+ <!-- Pivot screw -->
+ <circle cx="16" cy="16" r="2" fill="#b8c0d0"/>
+ <circle cx="16" cy="16" r="0.9" fill="#606878"/>
+</svg>

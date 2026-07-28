@@ -1,0 +1,105 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Red/pink cluster petals — KEY GESTURE -->
+ <radialGradient id="ger_petal" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#FF9EBC"/>
+ <stop offset="50%" stop-color="#FF5252"/>
+ <stop offset="100%" stop-color="#C62828"/>
+ </radialGradient>
+ <radialGradient id="ger_petal2" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#FFB3C1"/>
+ <stop offset="50%" stop-color="#FF8FAB"/>
+ <stop offset="100%" stop-color="#D63060"/>
+ </radialGradient>
+ <radialGradient id="ger_hl" cx="30%" cy="22%" r="55%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ <!-- Scalloped broad leaves — KEY GESTURE -->
+ <radialGradient id="ger_leaf" cx="30%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#8DBE5A"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </radialGradient>
+ <linearGradient id="ger_stem" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ <!-- Flower centres -->
+ <radialGradient id="ger_centre" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#FFE0E8"/>
+ </radialGradient>
+ </defs>
+
+ <!-- Stem -->
+ <path d="M16 22 Q15.5 26 15 31" stroke="url(#ger_stem)" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+
+ <!-- BROAD SCALLOPED LEAVES — KEY GESTURE: wide, rounded lobes -->
+ <!-- Left leaf (scalloped outline) -->
+ <path d="M15 25 Q11 23 9 19 Q10 17 11 19 Q11 16 12.5 18 Q12.5 15.5 14 17.5 Q14.5 15 15.5 17 Q15 22 15 25 Z" fill="url(#ger_leaf)"/>
+ <path d="M14 24 Q11 22 10 19" stroke="#FFFFFF" stroke-width="0.35" fill="none" opacity="0.4"/>
+ <path d="M13 18.5 Q12 17 12.5 16" stroke="#FFFFFF" stroke-width="0.3" fill="none" opacity="0.35"/>
+ <!-- Right leaf (scalloped) -->
+ <path d="M16.5 25 Q20.5 23 22.5 19 Q21.5 17 20.5 19 Q20.5 16 19 18 Q19 15.5 17.5 17.5 Q17 15 16 17 Q16.5 22 16.5 25 Z" fill="url(#ger_leaf)"/>
+ <path d="M17.5 24 Q20.5 22 21.5 19" stroke="#FFFFFF" stroke-width="0.35" fill="none" opacity="0.4"/>
+
+ <!-- ROUNDED BALL OF SMALL FLOWERS — KEY GESTURE: umbel cluster -->
+ <!-- About 7 small 5-petal flowers packed into a rounded head -->
+
+ <!-- Flower 1 — centre top -->
+ <ellipse cx="16" cy="8.5" rx="2" ry="2.8" fill="url(#ger_petal)"/>
+ <ellipse cx="16" cy="8.5" rx="2" ry="2.8" fill="url(#ger_petal)" transform="rotate(72 16 10.5)"/>
+ <ellipse cx="16" cy="8.5" rx="2" ry="2.8" fill="url(#ger_petal)" transform="rotate(144 16 10.5)"/>
+ <ellipse cx="16" cy="8.5" rx="2" ry="2.8" fill="url(#ger_petal)" transform="rotate(216 16 10.5)"/>
+ <ellipse cx="16" cy="8.5" rx="2" ry="2.8" fill="url(#ger_petal)" transform="rotate(288 16 10.5)"/>
+ <circle cx="16" cy="10.5" r="1.2" fill="url(#ger_centre)"/>
+ <circle cx="15.5" cy="10" r="0.35" fill="#FF8FAB"/>
+
+ <!-- Flower 2 — upper left -->
+ <ellipse cx="11" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal2)"/>
+ <ellipse cx="11" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal2)" transform="rotate(72 11 12)"/>
+ <ellipse cx="11" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal2)" transform="rotate(144 11 12)"/>
+ <ellipse cx="11" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal2)" transform="rotate(216 11 12)"/>
+ <ellipse cx="11" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal2)" transform="rotate(288 11 12)"/>
+ <circle cx="11" cy="12" r="1" fill="url(#ger_centre)"/>
+
+ <!-- Flower 3 — upper right -->
+ <ellipse cx="21" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal)"/>
+ <ellipse cx="21" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal)" transform="rotate(72 21 12)"/>
+ <ellipse cx="21" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal)" transform="rotate(144 21 12)"/>
+ <ellipse cx="21" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal)" transform="rotate(216 21 12)"/>
+ <ellipse cx="21" cy="10" rx="1.7" ry="2.4" fill="url(#ger_petal)" transform="rotate(288 21 12)"/>
+ <circle cx="21" cy="12" r="1" fill="url(#ger_centre)"/>
+
+ <!-- Flower 4 — left mid -->
+ <ellipse cx="9" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)"/>
+ <ellipse cx="9" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)" transform="rotate(72 9 16.5)"/>
+ <ellipse cx="9" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)" transform="rotate(144 9 16.5)"/>
+ <ellipse cx="9" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)" transform="rotate(216 9 16.5)"/>
+ <ellipse cx="9" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)" transform="rotate(288 9 16.5)"/>
+ <circle cx="9" cy="16.5" r="0.9" fill="url(#ger_centre)"/>
+
+ <!-- Flower 5 — right mid -->
+ <ellipse cx="23" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal)"/>
+ <ellipse cx="23" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal)" transform="rotate(72 23 16.5)"/>
+ <ellipse cx="23" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal)" transform="rotate(144 23 16.5)"/>
+ <ellipse cx="23" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal)" transform="rotate(216 23 16.5)"/>
+ <ellipse cx="23" cy="14.5" rx="1.6" ry="2.2" fill="url(#ger_petal)" transform="rotate(288 23 16.5)"/>
+ <circle cx="23" cy="16.5" r="0.9" fill="url(#ger_centre)"/>
+
+ <!-- Flower 6 — lower left of cluster -->
+ <ellipse cx="11" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)"/>
+ <ellipse cx="11" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)" transform="rotate(72 11 20.5)"/>
+ <ellipse cx="11" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)" transform="rotate(144 11 20.5)"/>
+ <ellipse cx="11" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)" transform="rotate(216 11 20.5)"/>
+ <ellipse cx="11" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal2)" transform="rotate(288 11 20.5)"/>
+ <circle cx="11" cy="20.5" r="0.9" fill="url(#ger_centre)"/>
+
+ <!-- Flower 7 — lower right of cluster -->
+ <ellipse cx="21" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal)"/>
+ <ellipse cx="21" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal)" transform="rotate(72 21 20.5)"/>
+ <ellipse cx="21" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal)" transform="rotate(144 21 20.5)"/>
+ <ellipse cx="21" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal)" transform="rotate(216 21 20.5)"/>
+ <ellipse cx="21" cy="18.5" rx="1.6" ry="2.2" fill="url(#ger_petal)" transform="rotate(288 21 20.5)"/>
+ <circle cx="21" cy="20.5" r="0.9" fill="url(#ger_centre)"/>
+</svg>

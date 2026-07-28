@@ -1,0 +1,43 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <linearGradient id="imxFrame" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#3A3A44"/><stop offset="1" stop-color="#15151C"/>
+ </linearGradient>
+ <linearGradient id="imxSky" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#BFE6FF"/><stop offset="100%" stop-color="#6FB8E8"/>
+ </linearGradient>
+ <linearGradient id="imxSeat" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#E0413B"/><stop offset="1" stop-color="#9B1C18"/>
+ </linearGradient>
+ <linearGradient id="imxFloor" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#4A4A55"/><stop offset="1" stop-color="#2A2A33"/>
+ </linearGradient>
+</defs>
+<!-- auditorium floor -->
+<rect x="1" y="1" width="30" height="30" rx="3" fill="url(#imxFloor)"/>
+<!-- giant curved IMAX screen (huge, fills upper area, curved) -->
+<path d="M2 4 Q16 1.5 30 4 V19 Q16 16.5 2 19 Z" fill="url(#imxFrame)"/>
+<path d="M3.4 5.2 Q16 3 28.6 5.2 V17.6 Q16 15.4 3.4 17.6 Z" fill="url(#imxSky)"/>
+<!-- on-screen scene: mountains -->
+<path d="M3.4 17.6 Q16 15.4 28.6 17.6 V17.6 L24 10 L19 15 L15 8.5 L10.5 14.5 L7 11 Z" fill="#2E6BAE" opacity="0.85"/>
+<path d="M3.4 17.6 Q16 16 28.6 17.6 V17.6 L21 12 L16.5 16 L12 11.5 Z" fill="#1E3F78"/>
+<circle cx="23.5" cy="7.5" r="1.7" fill="#FFE98A"/>
+<!-- screen gloss -->
+<path d="M3.4 5.2 Q16 3 28.6 5.2 V8 Q16 6 3.4 8 Z" fill="#FFFFFF" opacity="0.12"/>
+<!-- rows of cinema seats (descending) -->
+<g>
+ <!-- back row -->
+ <rect x="4" y="20.5" width="3.4" height="2.4" rx="0.6" fill="url(#imxSeat)"/>
+ <rect x="8.2" y="20.5" width="3.4" height="2.4" rx="0.6" fill="url(#imxSeat)"/>
+ <rect x="12.4" y="20.5" width="3.4" height="2.4" rx="0.6" fill="url(#imxSeat)"/>
+ <rect x="16.6" y="20.5" width="3.4" height="2.4" rx="0.6" fill="url(#imxSeat)"/>
+ <rect x="20.8" y="20.5" width="3.4" height="2.4" rx="0.6" fill="url(#imxSeat)"/>
+ <rect x="25" y="20.5" width="3.4" height="2.4" rx="0.6" fill="url(#imxSeat)"/>
+ <!-- front row (bigger) -->
+ <rect x="2.6" y="25" width="4.2" height="3.4" rx="0.7" fill="url(#imxSeat)"/>
+ <rect x="7.6" y="25" width="4.2" height="3.4" rx="0.7" fill="url(#imxSeat)"/>
+ <rect x="12.6" y="25" width="4.2" height="3.4" rx="0.7" fill="url(#imxSeat)"/>
+ <rect x="17.6" y="25" width="4.2" height="3.4" rx="0.7" fill="url(#imxSeat)"/>
+ <rect x="22.6" y="25" width="4.2" height="3.4" rx="0.7" fill="url(#imxSeat)"/>
+</g>
+</svg>

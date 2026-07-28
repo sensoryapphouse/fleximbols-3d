@@ -1,0 +1,122 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D0D4D8"/>
+ <stop offset="100%" stop-color="#A4A8AC"/>
+ </linearGradient>
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#B0B4B8"/>
+ <stop offset="100%" stop-color="#787C80"/>
+ </linearGradient>
+ <linearGradient id="boilerGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <linearGradient id="sinkGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#D0D4D8"/>
+ </linearGradient>
+ <linearGradient id="shelfGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="pipeGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <linearGradient id="cleaningGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#4090E0"/>
+ <stop offset="100%" stop-color="#1060B0"/>
+ </linearGradient>
+ <linearGradient id="mopGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E0D080"/>
+ <stop offset="100%" stop-color="#B0A040"/>
+ </linearGradient>
+ </defs>
+ <!-- Wall -->
+ <rect x="2" y="2" width="28" height="22" fill="url(#wallGrad)"/>
+ <!-- Tile lines on wall (plain utility) -->
+ <line x1="2" y1="8" x2="30" y2="8" stroke="#909498" stroke-width="0.3" opacity="0.5"/>
+ <line x1="2" y1="14" x2="30" y2="14" stroke="#909498" stroke-width="0.3" opacity="0.5"/>
+ <line x1="2" y1="20" x2="30" y2="20" stroke="#909498" stroke-width="0.3" opacity="0.5"/>
+ <line x1="8" y1="2" x2="8" y2="24" stroke="#909498" stroke-width="0.3" opacity="0.4"/>
+ <line x1="16" y1="2" x2="16" y2="24" stroke="#909498" stroke-width="0.3" opacity="0.4"/>
+ <line x1="24" y1="2" x2="24" y2="24" stroke="#909498" stroke-width="0.3" opacity="0.4"/>
+ <!-- Floor -->
+ <rect x="2" y="24" width="28" height="6" fill="url(#floorGrad)"/>
+ <line x1="2" y1="27" x2="30" y2="27" stroke="#606468" stroke-width="0.3" opacity="0.5"/>
+ <line x1="10" y1="24" x2="10" y2="30" stroke="#606468" stroke-width="0.3" opacity="0.5"/>
+ <line x1="20" y1="24" x2="20" y2="30" stroke="#606468" stroke-width="0.3" opacity="0.5"/>
+ <!-- BOILER / WATER HEATER (left, tall) -->
+ 
+ <!-- Boiler dome top -->
+ <ellipse cx="6" cy="6" rx="4" ry="1" fill="#D0D4DA"/>
+ <!-- Boiler top pipe -->
+ <rect x="5" y="2" width="1.5" height="4.5" rx="0.4" fill="url(#pipeGrad)"/>
+ <!-- Pressure gauge -->
+ 
+ <circle cx="6" cy="13" r="1" fill="#FFFFFF"/>
+ <line x1="6" y1="12.2" x2="6.5" y2="13.3" stroke="#C03020" stroke-width="0.4"/>
+ <!-- Dial label ticks -->
+ <line x1="5" y1="13" x2="5.3" y2="13" stroke="#606468" stroke-width="0.3"/>
+ <line x1="7" y1="13" x2="6.7" y2="13" stroke="#606468" stroke-width="0.3"/>
+ <line x1="6" y1="12" x2="6" y2="12.3" stroke="#606468" stroke-width="0.3"/>
+ <!-- Control valve -->
+ <rect x="3.5" y="18" width="5" height="1" rx="0.4" fill="#B0B4BA"/>
+ <rect x="4" y="17.5" width="1" height="1" rx="0.3" fill="#A0A4AA"/>
+ <!-- Pipe from boiler bottom -->
+ <rect x="5" y="24" width="1.5" height="3" rx="0.4" fill="url(#pipeGrad)"/>
+ <rect x="3.5" y="19.5" width="4" height="0.8" rx="0.3" fill="url(#pipeGrad)"/>
+ <!-- UTILITY SINK (centre-left) -->
+ 
+ <!-- Sink basin -->
+ <rect x="12" y="16.5" width="7" height="6.5" rx="0.5" fill="#D8E0E8"/>
+ <!-- Water in basin -->
+ <rect x="12" y="21" width="7" height="2" rx="0.3" fill="#B8D4F0" opacity="0.5"/>
+ <!-- Drain -->
+ <circle cx="15.5" cy="22.5" r="0.5" fill="#909498"/>
+ <!-- Faucet -->
+ <rect x="14.5" y="13" width="1.5" height="3" rx="0.4" fill="url(#pipeGrad)"/>
+ <rect x="13.5" y="15" width="3.5" height="0.7" rx="0.3" fill="url(#pipeGrad)"/>
+ <!-- Taps -->
+ <rect x="12.5" y="14.5" width="1.5" height="0.5" rx="0.2" fill="#C9CDD3"/>
+ <rect x="16.5" y="14.5" width="1.5" height="0.5" rx="0.2" fill="#C9CDD3"/>
+ <!-- Sink mount wall -->
+ <rect x="11" y="15" width="9" height="1.5" rx="0.4" fill="#E8ECEF"/>
+ <!-- STORAGE SHELVES (right) -->
+ <rect x="21" y="3" width="0.7" height="21" fill="url(#shelfGrad)" opacity="0.7"/>
+ <rect x="29.3" y="3" width="0.7" height="21" fill="url(#shelfGrad)" opacity="0.7"/>
+ <!-- Shelf 1 -->
+ 
+ <!-- Shelf 2 -->
+ 
+ <!-- Shelf 3 -->
+ 
+ <!-- CLEANING SUPPLIES on shelves -->
+ <!-- Shelf 1 items -->
+ 
+ <rect x="22.4" y="2" width="1" height="0.7" rx="0.2" fill="#1060B0"/>
+ 
+ 
+ <rect x="28" y="3" width="1.3" height="2" rx="0.4" fill="#E0D040"/>
+ <!-- Shelf 2 items -->
+ 
+ 
+ 
+ <!-- Spray bottle -->
+ 
+ <rect x="28.5" y="8.8" width="0.8" height="0.5" rx="0.2" fill="#B03080"/>
+ <line x1="29" y1="8.8" x2="30" y2="8.3" stroke="#B03080" stroke-width="0.4"/>
+ <!-- Shelf 3 items (buckets) -->
+ 
+ 
+ <!-- Bucket handle -->
+ <path d="M23.5,14.5 Q25,13.5 26.5,14.5" fill="none" stroke="#A8ACB0" stroke-width="0.4"/>
+ <!-- MOP (leaning left wall) -->
+ <line x1="11" y1="2" x2="11" y2="24" stroke="#A07840" stroke-width="0.7"/>
+ <!-- Mop head -->
+ <path d="M8,23 Q11,24.5 14,23" fill="none" stroke="url(#mopGrad)" stroke-width="1.2" stroke-linecap="round"/>
+ <line x1="9" y1="23.5" x2="10" y2="25" stroke="#B0A040" stroke-width="0.5"/>
+ <line x1="11" y1="24.5" x2="11" y2="26" stroke="#B0A040" stroke-width="0.5"/>
+ <line x1="13" y1="23.5" x2="12" y2="25" stroke="#B0A040" stroke-width="0.5"/>
+</svg>

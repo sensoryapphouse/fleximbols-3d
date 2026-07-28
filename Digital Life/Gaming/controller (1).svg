@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="k_body" cx="50%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#4b5563"/>
+<stop offset="100%" stop-color="#1f2937"/>
+</radialGradient>
+</defs>
+<!-- Controller body (3/4 angle) -->
+<path d="M4 14 Q4 9 8 8.5 L24 8 Q28 8 28 13 Q28 20 24 22 Q21 23.5 18 22 L14 22 Q11 23.5 8 22 Q4 20 4 14Z" fill="url(#k_body)" filter="url(#k_shd)"/>
+<!-- Left grip -->
+<ellipse cx="8" cy="22" rx="4" ry="5" fill="#374151"/>
+<!-- Right grip -->
+<ellipse cx="24" cy="22" rx="4" ry="5" fill="#374151"/>
+<!-- D-pad left -->
+<rect x="8.5" y="13.5" width="2.5" height="7" rx="0.5" fill="#6b7280"/>
+<rect x="6.5" y="15.5" width="6.5" height="3" rx="0.5" fill="#6b7280"/>
+<!-- ABXY buttons (vivid) -->
+<circle cx="22" cy="13" r="1.6" fill="#ef4444"/>
+<circle cx="25" cy="15" r="1.6" fill="#fbbf24"/>
+<circle cx="22" cy="17" r="1.6" fill="#3b82f6"/>
+<circle cx="19" cy="15" r="1.6" fill="#22c55e"/>
+<!-- Logo letters -->
+<text font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" x="21.3" y="13.6" font-size="1.8" fill="white" font-weight="bold">B</text>
+<text font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" x="24.3" y="15.6" font-size="1.8" fill="white" font-weight="bold">Y</text>
+<text font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" x="21.3" y="17.6" font-size="1.8" fill="white" font-weight="bold">X</text>
+<text font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" x="18.3" y="15.6" font-size="1.8" fill="white" font-weight="bold">A</text>
+<!-- Start/select -->
+<circle cx="16" cy="14" r="1.2" fill="#6b7280"/>
+<circle cx="18.5" cy="14" r="1.2" fill="#6b7280"/>
+<!-- Thumbsticks -->
+<circle cx="13" cy="18" r="2.5" fill="#4b5563"/>
+<circle cx="20.5" cy="19" r="2.5" fill="#4b5563"/>
+<circle cx="13" cy="18" r="1.5" fill="#374151"/>
+<circle cx="20.5" cy="19" r="1.5" fill="#374151"/>
+</svg>

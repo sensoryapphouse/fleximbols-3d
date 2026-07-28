@@ -1,0 +1,29 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="an_box" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#e2e7ee"/>
+<stop offset="1" stop-color="#c1c7d2"/>
+</linearGradient>
+<linearGradient id="an_q" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#5cc1ea"/>
+<stop offset="1" stop-color="#2f8fc0"/>
+</linearGradient>
+</defs>
+<!-- question mark above (any = unspecified one of a set) -->
+<path d="M11.5 8.5 Q11.5 4.2 16 4.2 Q20.5 4.2 20.5 8 Q20.5 11 17.4 12.3 Q16 12.9 16 14.6"
+      fill="none" stroke="url(#an_q)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="16" cy="17.6" r="1.5" fill="url(#an_q)"/>
+<!-- row of slots (the set) -->
+<g stroke="#3a3f47" stroke-width="0.7">
+<rect x="2.5" y="21.5" width="6" height="6" rx="1.6" fill="url(#an_box)"/>
+<rect x="9.5" y="21.5" width="6" height="6" rx="1.6" fill="url(#an_box)"/>
+<rect x="16.5" y="21.5" width="6" height="6" rx="1.6" fill="url(#an_box)"/>
+<rect x="23.5" y="21.5" width="6" height="6" rx="1.6" fill="url(#an_box)"/>
+</g>
+<g fill="#ffffff" opacity="0.45">
+<rect x="3.4" y="22.3" width="4.2" height="1.4" rx="0.6"/>
+<rect x="10.4" y="22.3" width="4.2" height="1.4" rx="0.6"/>
+<rect x="17.4" y="22.3" width="4.2" height="1.4" rx="0.6"/>
+<rect x="24.4" y="22.3" width="4.2" height="1.4" rx="0.6"/>
+</g>
+</svg>

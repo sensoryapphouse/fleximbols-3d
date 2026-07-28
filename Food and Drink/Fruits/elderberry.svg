@@ -1,0 +1,32 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="eb-berry" cx="35%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#7744aa"/>
+ <stop offset="100%" stop-color="#2a1040"/>
+ </radialGradient>
+ <linearGradient id="eb-leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#338833"/>
+ <stop offset="100%" stop-color="#1a4a1a"/>
+ </linearGradient>
+ </defs>
+ <!-- stems (red branching) -->
+ <path d="M16 28 L16 22 L10 15 M16 22 L22 15 M16 22 L16 14 M10 15 L7 10 M10 15 L13 10 M16 14 L14 9 M16 14 L18 9 M22 15 L19 10 M22 15 L25 10" stroke="#cc2222" stroke-width="0.6" fill="none" stroke-linecap="round"/>
+ <!-- leaves -->
+ <ellipse cx="7" cy="26" rx="3.5" ry="1.5" transform="rotate(-25 7 26)" fill="url(#eb-leaf)"/>
+ <path d="M5 25 Q7 23 9 25.5" stroke="#226622" stroke-width="0.3" fill="none"/>
+ <ellipse cx="25" cy="26" rx="3.5" ry="1.5" transform="rotate(25 25 26)" fill="url(#eb-leaf)"/>
+ <path d="M23 25 Q25 23 27 25.5" stroke="#226622" stroke-width="0.3" fill="none"/>
+ <!-- berries -->
+ <circle cx="7" cy="9" r="2" fill="url(#eb-berry)" filter="url(#eb-sh)"/>
+ <circle cx="6.5" cy="8.2" r="0.5" fill="#fff" fill-opacity="0.35"/>
+ <circle cx="11" cy="8.5" r="2" fill="url(#eb-berry)" filter="url(#eb-sh)"/>
+ <circle cx="10.5" cy="7.7" r="0.5" fill="#fff" fill-opacity="0.35"/>
+ <circle cx="14" cy="7.5" r="2" fill="url(#eb-berry)" filter="url(#eb-sh)"/>
+ <circle cx="13.5" cy="6.7" r="0.5" fill="#fff" fill-opacity="0.35"/>
+ <circle cx="18" cy="7.5" r="2" fill="url(#eb-berry)" filter="url(#eb-sh)"/>
+ <circle cx="17.5" cy="6.7" r="0.5" fill="#fff" fill-opacity="0.35"/>
+ <circle cx="21" cy="8.5" r="2" fill="url(#eb-berry)" filter="url(#eb-sh)"/>
+ <circle cx="20.5" cy="7.7" r="0.5" fill="#fff" fill-opacity="0.35"/>
+ <circle cx="25" cy="9" r="2" fill="url(#eb-berry)" filter="url(#eb-sh)"/>
+ <circle cx="24.5" cy="8.2" r="0.5" fill="#fff" fill-opacity="0.35"/>
+</svg>

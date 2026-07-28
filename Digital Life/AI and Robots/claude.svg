@@ -1,0 +1,33 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="badge-g" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#ffe0a0"/>
+ <stop offset="40%" stop-color="#e8820a"/>
+ <stop offset="100%" stop-color="#a04000"/>
+ </radialGradient>
+ <radialGradient id="ray-g" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#ffcc60"/>
+ <stop offset="60%" stop-color="#e87010"/>
+ <stop offset="100%" stop-color="#903000"/>
+ </radialGradient>
+ <filter id="glow">
+ <feGaussianBlur stdDeviation="1" result="blur"/>
+ <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+ </defs>
+ <!-- Eight-pointed sunburst asterisk (Claude mark) -->
+ <!-- Cardinal rays -->
+ 
+ <ellipse cx="16" cy="25" rx="2" ry="5" fill="url(#ray-g)"/>
+ <ellipse cx="7" cy="16" rx="5" ry="2" fill="url(#ray-g)"/>
+ <ellipse cx="25" cy="16" rx="5" ry="2" fill="url(#ray-g)"/>
+ <!-- Diagonal rays -->
+ <ellipse cx="10.4" cy="10.4" rx="1.5" ry="5" fill="url(#ray-g)" transform="rotate(-45 10.4 10.4)"/>
+ <ellipse cx="21.6" cy="10.4" rx="1.5" ry="5" fill="url(#ray-g)" transform="rotate(45 21.6 10.4)"/>
+ <ellipse cx="10.4" cy="21.6" rx="1.5" ry="5" fill="url(#ray-g)" transform="rotate(45 10.4 21.6)"/>
+ <ellipse cx="21.6" cy="21.6" rx="1.5" ry="5" fill="url(#ray-g)" transform="rotate(-45 21.6 21.6)"/>
+ <!-- Center glossy badge circle -->
+ <circle cx="16" cy="16" r="6" fill="url(#badge-g)" filter="url(#glow)"/>
+ <!-- Glossy highlight on center -->
+ <ellipse cx="14" cy="14" rx="3" ry="2" fill="#fff8e8" fill-opacity="0.35"/>
+</svg>

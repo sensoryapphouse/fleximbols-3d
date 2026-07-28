@@ -1,0 +1,74 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,4.307) scale(0.8654)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="stoveTop" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#404040"/>
+ <stop offset="100%" stop-color="#181818"/>
+ </linearGradient>
+ <linearGradient id="stoveGrate" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#606060"/>
+ <stop offset="100%" stop-color="#282828"/>
+ </linearGradient>
+ <linearGradient id="gasFlame" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#40B0FF"/>
+ <stop offset="50%" stop-color="#FF7020"/>
+ <stop offset="100%" stop-color="#C01800"/>
+ </linearGradient>
+ </defs>
+ <!-- Cooktop base (viewed from top-front angle) -->
+ 
+ <!-- Top surface -->
+ <rect x="3" y="6" width="26" height="16" rx="2" fill="#383838"/>
+ <!-- Grates on top surface -->
+ <!-- Grate TL -->
+ <rect x="5" y="8" width="10" height="6" rx="1" fill="url(#stoveGrate)"/>
+ <line x1="5" y1="10" x2="15" y2="10" stroke="#282828" stroke-width="0.5"/>
+ <line x1="5" y1="12" x2="15" y2="12" stroke="#282828" stroke-width="0.5"/>
+ <line x1="8" y1="8" x2="8" y2="14" stroke="#282828" stroke-width="0.5"/>
+ <line x1="11" y1="8" x2="11" y2="14" stroke="#282828" stroke-width="0.5"/>
+ <!-- Grate TR -->
+ <rect x="17" y="8" width="10" height="6" rx="1" fill="url(#stoveGrate)"/>
+ <line x1="17" y1="10" x2="27" y2="10" stroke="#282828" stroke-width="0.5"/>
+ <line x1="17" y1="12" x2="27" y2="12" stroke="#282828" stroke-width="0.5"/>
+ <line x1="20" y1="8" x2="20" y2="14" stroke="#282828" stroke-width="0.5"/>
+ <line x1="23" y1="8" x2="23" y2="14" stroke="#282828" stroke-width="0.5"/>
+ <!-- Grate BL -->
+ <rect x="5" y="15" width="10" height="6" rx="1" fill="url(#stoveGrate)"/>
+ <line x1="5" y1="17" x2="15" y2="17" stroke="#282828" stroke-width="0.5"/>
+ <line x1="5" y1="19" x2="15" y2="19" stroke="#282828" stroke-width="0.5"/>
+ <line x1="8" y1="15" x2="8" y2="21" stroke="#282828" stroke-width="0.5"/>
+ <line x1="11" y1="15" x2="11" y2="21" stroke="#282828" stroke-width="0.5"/>
+ <!-- Grate BR -->
+ <rect x="17" y="15" width="10" height="6" rx="1" fill="url(#stoveGrate)"/>
+ <line x1="17" y1="17" x2="27" y2="17" stroke="#282828" stroke-width="0.5"/>
+ <line x1="17" y1="19" x2="27" y2="19" stroke="#282828" stroke-width="0.5"/>
+ <line x1="20" y1="15" x2="20" y2="21" stroke="#282828" stroke-width="0.5"/>
+ <line x1="23" y1="15" x2="23" y2="21" stroke="#282828" stroke-width="0.5"/>
+ <!-- Burner rings TL -->
+ <circle cx="10" cy="11" r="3.5" fill="none" stroke="#505050" stroke-width="0.8"/>
+ <circle cx="10" cy="11" r="2" fill="none" stroke="#505050" stroke-width="0.6"/>
+ <!-- Burner rings TR -->
+ <circle cx="22" cy="11" r="3.5" fill="none" stroke="#505050" stroke-width="0.8"/>
+ <circle cx="22" cy="11" r="2" fill="none" stroke="#505050" stroke-width="0.6"/>
+ <!-- Burner rings BL -->
+ <circle cx="10" cy="18" r="3" fill="none" stroke="#505050" stroke-width="0.7"/>
+ <circle cx="10" cy="18" r="1.5" fill="none" stroke="#505050" stroke-width="0.5"/>
+ <!-- Burner rings BR (lit) -->
+ <circle cx="22" cy="18" r="3" fill="none" stroke="#505050" stroke-width="0.7"/>
+ <!-- Blue flame ring on BR burner -->
+ <circle cx="22" cy="18" r="2.5" fill="none" stroke="url(#gasFlame)" stroke-width="1.2" opacity="0.9"/>
+ <circle cx="22" cy="18" r="1.2" fill="none" stroke="#40B0FF" stroke-width="0.5" opacity="0.7"/>
+ <!-- Control knobs at front -->
+ <rect x="3" y="22" width="26" height="6" rx="1" fill="#303030"/>
+ <circle cx="8" cy="25" r="1.8" fill="#404040"/>
+ <circle cx="8" cy="25" r="1" fill="#585858"/>
+ <line x1="8" y1="25" x2="8" y2="23.5" stroke="#FFFFFF" stroke-width="0.5"/>
+ <circle cx="14" cy="25" r="1.8" fill="#404040"/>
+ <circle cx="14" cy="25" r="1" fill="#585858"/>
+ <line x1="14" y1="25" x2="14" y2="23.5" stroke="#FFFFFF" stroke-width="0.5"/>
+ <circle cx="18" cy="25" r="1.8" fill="#404040"/>
+ <circle cx="18" cy="25" r="1" fill="#585858"/>
+ <line x1="18" y1="25" x2="18" y2="23.5" stroke="#FFFFFF" stroke-width="0.5"/>
+ <circle cx="24" cy="25" r="1.8" fill="#404040"/>
+ <circle cx="24" cy="25" r="1" fill="#585858"/>
+ <line x1="24" y1="25" x2="24" y2="23.5" stroke="#FFFFFF" stroke-width="0.5"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1318" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1318)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

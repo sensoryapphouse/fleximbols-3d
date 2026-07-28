@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="outer" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8c070"/><stop offset="100%" stop-color="#b08830"/></linearGradient>
+ <linearGradient id="inner" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8e090"/><stop offset="100%" stop-color="#c8a040"/></linearGradient>
+ <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d0a840"/><stop offset="100%" stop-color="#a07820"/></linearGradient>
+ </defs>
+ <!-- bottom outer liner -->
+ 
+ <!-- wavy corrugated layer -->
+ <path d="M4 19 Q6 17 8 19 Q10 21 12 19 Q14 17 16 19 Q18 21 20 19 Q22 17 24 19 Q26 21 28 19" stroke="url(#wave)" stroke-width="1.5" fill="none"/>
+ <path d="M4 20 Q6 18 8 20 Q10 22 12 20 Q14 18 16 20 Q18 22 20 20 Q22 18 24 20 Q26 22 28 20" stroke="url(#wave)" stroke-width="1.2" fill="none" stroke-opacity="0.5"/>
+ <!-- top outer liner (folded visible) -->
+ 
+ <!-- fold line -->
+ <line x1="4" y1="14" x2="28" y2="14" stroke="#b08830" stroke-width="0.5"/>
+ <!-- edge showing corrugation at cut -->
+ <rect x="4" y="12" width="3" height="12" rx="0" fill="url(#inner)"/>
+ <path d="M4 13 Q5 12 6 13 Q7 14 4 15" stroke="url(#wave)" stroke-width="1" fill="none"/>
+ <path d="M4 16 Q5 15 6 16 Q7 17 4 18" stroke="url(#wave)" stroke-width="1" fill="none"/>
+ <path d="M4 19 Q5 18 6 19 Q7 20 4 21" stroke="url(#wave)" stroke-width="1" fill="none"/>
+</svg>

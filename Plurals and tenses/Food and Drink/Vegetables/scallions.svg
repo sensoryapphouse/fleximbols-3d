@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,1.814) scale(0.9433)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="scl_green" x1="16" y1="3" x2="16" y2="18" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#6FB23E"/>
+<stop offset="1" stop-color="#A8D470"/>
+</linearGradient>
+<linearGradient id="scl_white" x1="16" y1="16" x2="16" y2="27" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#EAF4D8"/>
+<stop offset="0.6" stop-color="#FBFEF6"/>
+<stop offset="1" stop-color="#E2E8D2"/>
+</linearGradient>
+</defs>
+<!-- three scallion stalks -->
+<g stroke-linecap="round">
+<!-- stalk 1 (left) -->
+<path d="M9.5 5 C8.5 9 8.8 13 10.2 16.5" stroke="url(#scl_green)" stroke-width="2.6" fill="none"/>
+<path d="M10.2 16.0 C9.6 19 9.7 22.5 10.4 25.2" stroke="url(#scl_white)" stroke-width="2.6" fill="none"/>
+<!-- stalk 2 (centre) -->
+<path d="M16 3.5 C15.6 8 15.7 12.5 16 16.0" stroke="url(#scl_green)" stroke-width="2.9" fill="none"/>
+<path d="M16 15.5 C15.6 19 15.7 23 16 26.0" stroke="url(#scl_white)" stroke-width="2.9" fill="none"/>
+<!-- stalk 3 (right) -->
+<path d="M22.5 5 C23.5 9 23.2 13 21.8 16.5" stroke="url(#scl_green)" stroke-width="2.6" fill="none"/>
+<path d="M21.8 16.0 C22.4 19 22.3 22.5 21.6 25.2" stroke="url(#scl_white)" stroke-width="2.6" fill="none"/>
+</g>
+<!-- white bulb bases -->
+<ellipse cx="10.4" cy="25.4" rx="1.9" ry="2.4" fill="url(#scl_white)" stroke="#C9D2B4" stroke-width="0.3"/>
+<ellipse cx="16" cy="26.2" rx="2.1" ry="2.6" fill="url(#scl_white)" stroke="#C9D2B4" stroke-width="0.3"/>
+<ellipse cx="21.6" cy="25.4" rx="1.9" ry="2.4" fill="url(#scl_white)" stroke="#C9D2B4" stroke-width="0.3"/>
+<!-- roots -->
+<g stroke="#C7BE9A" stroke-width="0.5" stroke-linecap="round">
+<line x1="9.6" y1="27.4" x2="9.0" y2="29.0"/>
+<line x1="10.4" y1="27.6" x2="10.4" y2="29.4"/>
+<line x1="11.2" y1="27.4" x2="11.8" y2="29.0"/>
+<line x1="15.0" y1="28.4" x2="14.4" y2="30.0"/>
+<line x1="16.0" y1="28.6" x2="16.0" y2="30.4"/>
+<line x1="17.0" y1="28.4" x2="17.6" y2="30.0"/>
+<line x1="20.8" y1="27.4" x2="20.2" y2="29.0"/>
+<line x1="21.6" y1="27.6" x2="21.6" y2="29.4"/>
+<line x1="22.4" y1="27.4" x2="23.0" y2="29.0"/>
+</g>
+<!-- gloss on centre stalk -->
+<path d="M15.4 4.5 C15.1 9 15.2 14 15.4 18" stroke="#FFFFFF" stroke-width="0.5" fill="none" opacity="0.4"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1569" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1569)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

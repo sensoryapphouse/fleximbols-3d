@@ -1,0 +1,45 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="aerHandle" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#a07840"/>
+ <stop offset="100%" stop-color="#6a4818"/>
+ </linearGradient>
+ <linearGradient id="aerDrum" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#9ab8c8"/>
+ <stop offset="100%" stop-color="#4a6888"/>
+ </linearGradient>
+ <linearGradient id="aerSpike" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#d0d8e0"/>
+ <stop offset="100%" stop-color="#708090"/>
+ </linearGradient>
+ <linearGradient id="aerGrass" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#7ec850"/>
+ <stop offset="100%" stop-color="#3a8a18"/>
+ </linearGradient>
+ </defs>
+ <!-- Handle — long angled rod -->
+ <rect x="15" y="1" width="2" height="22" rx="1" fill="url(#aerHandle)" transform="rotate(-20,16,12)"/>
+ <!-- Handle grip at top -->
+ <rect x="17" y="1.5" width="5" height="2" rx="1" fill="url(#aerHandle)"/>
+ <!-- Axle bracket -->
+ <rect x="10" y="18" width="12" height="2" rx="0.8" fill="url(#aerDrum)"/>
+ <!-- Drum cylinder body -->
+ <ellipse cx="16" cy="23" rx="10" ry="4" fill="url(#aerDrum)" filter="url(#aerShad)"/>
+ <rect x="6" y="20" width="20" height="6" fill="url(#aerDrum)"/>
+ <!-- drum end faces -->
+ <ellipse cx="6" cy="23" rx="1.5" ry="4" fill="#4a6888"/>
+ <ellipse cx="26" cy="23" rx="1.5" ry="4" fill="#6090b0"/>
+ <!-- Drum texture banding -->
+ <rect x="6" y="21" width="20" height="0.6" fill="#7090b0" fill-opacity="0.5"/>
+ <rect x="6" y="24.5" width="20" height="0.6" fill="#7090b0" fill-opacity="0.5"/>
+ <!-- Spikes on drum -->
+ <rect x="8" y="24" width="1" height="4" rx="0.4" fill="url(#aerSpike)"/>
+ <rect x="11" y="24" width="1" height="4" rx="0.4" fill="url(#aerSpike)"/>
+ <rect x="14" y="24" width="1" height="4" rx="0.4" fill="url(#aerSpike)"/>
+ <rect x="17" y="24" width="1" height="4" rx="0.4" fill="url(#aerSpike)"/>
+ <rect x="20" y="24" width="1" height="4" rx="0.4" fill="url(#aerSpike)"/>
+ <rect x="23" y="24" width="1" height="4" rx="0.4" fill="url(#aerSpike)"/>
+ <!-- Grass strip at bottom -->
+ <rect x="2" y="28" width="28" height="3.5" rx="1" fill="url(#aerGrass)"/>
+ <!-- Drop shadow -->
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1866" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1866)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

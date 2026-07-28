@@ -1,0 +1,59 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="diff_skin" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FDBCB4"/>
+ <stop offset="100%" stop-color="#E8906A"/>
+ </linearGradient>
+ <linearGradient id="diff_hair" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#4A3728"/>
+ <stop offset="100%" stop-color="#2C1F14"/>
+ </linearGradient>
+ <linearGradient id="diff_shirt" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5B8DD9"/>
+ <stop offset="100%" stop-color="#2C5FAA"/>
+ </linearGradient>
+ <linearGradient id="diff_rock" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#9E9E9E"/>
+ <stop offset="100%" stop-color="#5A5A5A"/>
+ </linearGradient>
+ <linearGradient id="diff_pants" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#4A5568"/>
+ <stop offset="100%" stop-color="#2D3748"/>
+ </linearGradient>
+ </defs>
+ <!-- Drop shadow -->
+ <!-- Boulder -->
+ <ellipse cx="16" cy="24" rx="8" ry="6" fill="url(#diff_rock)"/>
+ <ellipse cx="13" cy="21" rx="2" ry="1.5" fill-opacity="0.3" fill="#ffffff"/>
+ <!-- Legs bent -->
+ <rect x="11" y="21" width="3.5" height="5" rx="1.5" fill="url(#diff_pants)"/>
+ <rect x="17.5" y="21" width="3.5" height="5" rx="1.5" fill="url(#diff_pants)"/>
+ <!-- Feet -->
+ <ellipse cx="12.7" cy="26.5" rx="2" ry="1" fill="url(#diff_skin)"/>
+ <ellipse cx="19.3" cy="26.5" rx="2" ry="1" fill="url(#diff_skin)"/>
+ <!-- Torso -->
+ <rect x="12" y="14" width="8" height="8" rx="2" fill="url(#diff_shirt)"/>
+ <!-- Arms gripping rock -->
+ <path d="M12 18 Q8 20 10 24" stroke="url(#diff_skin)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <path d="M20 18 Q24 20 22 24" stroke="url(#diff_skin)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <!-- Hands -->
+ <ellipse cx="10" cy="24.5" rx="1.5" ry="1.2" fill="url(#diff_skin)"/>
+ <ellipse cx="22" cy="24.5" rx="1.5" ry="1.2" fill="url(#diff_skin)"/>
+ <!-- Neck -->
+ <rect x="14.5" y="11.5" width="3" height="3" rx="1" fill="url(#diff_skin)"/>
+ <!-- Head -->
+ <ellipse cx="16" cy="10" rx="4" ry="4.5" fill="url(#diff_skin)"/>
+ <!-- Hair -->
+ <ellipse cx="16" cy="6.5" rx="4" ry="2" fill="url(#diff_hair)"/>
+ <rect x="12" y="6" width="8" height="3" rx="1.5" fill="url(#diff_hair)"/>
+ <!-- Furrowed brow -->
+ <path d="M13 8 Q14.5 7 16 7.5" stroke="#5A3E28" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <path d="M16 7.5 Q17.5 7 19 8" stroke="#5A3E28" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <!-- Eyes -->
+ <ellipse cx="14.2" cy="9.5" rx="0.9" ry="1" fill="#1a2a4a"/>
+ <ellipse cx="17.8" cy="9.5" rx="0.9" ry="1" fill="#1a2a4a"/>
+ <circle cx="14.5" cy="9.1" r="0.3" fill="white"/>
+ <circle cx="18.1" cy="9.1" r="0.3" fill="white"/>
+ <!-- Strained mouth -->
+ <path d="M14.5 12 Q16 11 17.5 12" stroke="#9B6B5A" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+</svg>

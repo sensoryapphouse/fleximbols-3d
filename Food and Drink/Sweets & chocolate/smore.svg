@@ -1,0 +1,45 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+
+ <!-- bottom graham cracker -->
+ <rect x="6" y="20.5" width="20" height="5.5" rx="1.4" fill="url(#sm_graham)"/>
+ <rect x="6" y="20.5" width="20" height="5.5" rx="1.4" fill="url(#sm_grfade)"/>
+ <circle cx="11" cy="23.3" r="0.4" fill="#8A5A22"/>
+ <circle cx="16" cy="22.8" r="0.4" fill="#8A5A22"/>
+ <circle cx="21" cy="23.4" r="0.4" fill="#8A5A22"/>
+
+ <!-- chocolate layer -->
+ <rect x="7" y="17.5" width="18" height="3.6" rx="0.8" fill="url(#sm_choc)"/>
+ <rect x="7" y="17.5" width="18" height="1.4" rx="0.7" fill="#6B3A12" opacity="0.55"/>
+
+ <!-- marshmallow (puffy, slightly oozing) -->
+ <path d="M7 17.5 C6.5 12 9 10 16 10 C23 10 25.5 12 25 17.5 C24 18.6 19 18.2 16 18.2 C13 18.2 8 18.6 7 17.5Z" fill="url(#sm_mallow)"/>
+ <ellipse cx="13" cy="12.6" rx="3.4" ry="1.6" fill="#ffffff" opacity="0.5"/>
+ <path d="M9 16.5 C9 18 11 18.4 13 18 C12 17.2 11 16.8 9 16.5Z" fill="#E8C898" opacity="0.5"/>
+
+ <!-- top graham cracker (tilted) -->
+ <rect x="7" y="6" width="19" height="5.4" rx="1.4" fill="url(#sm_graham)" transform="rotate(-4 16.5 8.7)"/>
+ <rect x="7" y="6" width="19" height="5.4" rx="1.4" fill="url(#sm_grfade)" transform="rotate(-4 16.5 8.7)"/>
+
+ <!-- shine -->
+ <ellipse cx="12" cy="8" rx="3" ry="1" fill="#ffffff" opacity="0.3" transform="rotate(-4 16.5 8.7)"/>
+
+<defs>
+ <linearGradient id="sm_graham" x1="6" y1="20.5" x2="6" y2="26" gradientUnits="userSpaceOnUse">
+ <stop offset="0" stop-color="#E0A352"/>
+ <stop offset="1" stop-color="#B97A2E"/>
+ </linearGradient>
+ <radialGradient id="sm_grfade" cx="0.35" cy="0.25" r="0.9">
+ <stop offset="0" stop-color="#F3C078" stop-opacity="0.7"/>
+ <stop offset="1" stop-color="#F3C078" stop-opacity="0"/>
+ </radialGradient>
+ <linearGradient id="sm_choc" x1="7" y1="17.5" x2="7" y2="21.1" gradientUnits="userSpaceOnUse">
+ <stop offset="0" stop-color="#7A4518"/>
+ <stop offset="1" stop-color="#4E2A0C"/>
+ </linearGradient>
+ <radialGradient id="sm_mallow" cx="0.4" cy="0.3" r="0.9">
+ <stop offset="0" stop-color="#FFFDF6"/>
+ <stop offset="0.7" stop-color="#F6EAD2"/>
+ <stop offset="1" stop-color="#E2C79A"/>
+ </radialGradient>
+</defs>
+</svg>

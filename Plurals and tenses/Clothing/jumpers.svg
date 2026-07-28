@@ -1,0 +1,29 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,1.814) scale(0.9433)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="knit" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#E89E5A"/><stop offset="100%" stop-color="#7A3A12"/></radialGradient>
+<radialGradient id="cuff" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#C97A3A"/><stop offset="100%" stop-color="#5A2208"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="35%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- body -->
+<path d="M8 8 Q 8 6 10 6 L 22 6 Q 24 6 24 8 L 24 26 Q 24 27 23 27 L 9 27 Q 8 27 8 26 Z" fill="url(#knit)"/>
+<!-- sleeves -->
+<path d="M8 8 L 3 12 L 2 22 Q 2 23 3 23 L 6 23 Q 7 23 7 22 L 8 14 Z" fill="url(#knit)"/>
+<path d="M24 8 L 29 12 L 30 22 Q 30 23 29 23 L 26 23 Q 25 23 25 22 L 24 14 Z" fill="url(#knit)"/>
+<!-- crew neck collar (ribbed) -->
+<path d="M13 6 Q 13 4 16 4 Q 19 4 19 6 L 19 7 Q 16 8 13 7 Z" fill="url(#cuff)"/>
+<path d="M13 5 L 19 5 M 13 5.5 L 19 5.5 M 13 6 L 19 6" stroke="#3A1808" stroke-width="0.15"/>
+<!-- ribbed cuffs -->
+<rect x="2" y="22" width="5" height="2" fill="url(#cuff)"/>
+<rect x="25" y="22" width="5" height="2" fill="url(#cuff)"/>
+<path d="M2.5 22.5 L 2.5 24 M 3.5 22.5 L 3.5 24 M 4.5 22.5 L 4.5 24 M 5.5 22.5 L 5.5 24 M 6.5 22.5 L 6.5 24" stroke="#3A1808" stroke-width="0.15"/>
+<path d="M25.5 22.5 L 25.5 24 M 26.5 22.5 L 26.5 24 M 27.5 22.5 L 27.5 24 M 28.5 22.5 L 28.5 24 M 29.5 22.5 L 29.5 24" stroke="#3A1808" stroke-width="0.15"/>
+<!-- ribbed hem -->
+<rect x="8" y="26" width="16" height="2" fill="url(#cuff)"/>
+<path d="M9 26.5 L 9 28 M 11 26.5 L 11 28 M 13 26.5 L 13 28 M 15 26.5 L 15 28 M 17 26.5 L 17 28 M 19 26.5 L 19 28 M 21 26.5 L 21 28 M 23 26.5 L 23 28" stroke="#3A1808" stroke-width="0.15"/>
+<!-- cable knit pattern on body -->
+<path d="M12 10 Q 13 11 12 12 Q 11 13 12 14 Q 13 15 12 16 Q 11 17 12 18 Q 13 19 12 20 Q 11 21 12 22" stroke="#3A1808" stroke-width="0.3" fill="none" opacity="0.5"/>
+<path d="M20 10 Q 19 11 20 12 Q 21 13 20 14 Q 19 15 20 16 Q 21 17 20 18 Q 19 19 20 20 Q 21 21 20 22" stroke="#3A1808" stroke-width="0.3" fill="none" opacity="0.5"/>
+<path d="M16 10 L 16 22" stroke="#3A1808" stroke-width="0.3" opacity="0.4"/>
+<!-- highlight -->
+<ellipse cx="12" cy="11" rx="2.5" ry="3" fill="url(#hi)"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl732" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl732)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

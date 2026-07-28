@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bch-cube" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#2244AA"/><stop offset="100%" stop-color="#0A1A55"/>
+ </linearGradient>
+ <linearGradient id="bch-chain" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#00DDFF"/><stop offset="100%" stop-color="#0088BB"/>
+ </linearGradient>
+ <linearGradient id="bch-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#0A0A2A"/><stop offset="100%" stop-color="#000010"/>
+ </linearGradient>
+ <filter id="bch-glow">
+ <feGaussianBlur stdDeviation="0.8" result="blur"/>
+ <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+ </defs>
+ <!-- Chain links -->
+ <rect x="11.5" y="14.5" width="4" height="3" rx="1" fill="none" stroke="url(#bch-chain)" stroke-width="1" fill-opacity="0"/>
+ <rect x="16.5" y="14.5" width="4" height="3" rx="1" fill="none" stroke="url(#bch-chain)" stroke-width="1" fill-opacity="0"/>
+ <!-- Cube 1 (left) -->
+ <rect x="3" y="11" width="10" height="10" rx="1.5" fill="url(#bch-cube)" filter="url(#bch-shad)"/>
+ <path d="M3 11 L5 9 L15 9 L13 11 Z" fill="#3355CC"/>
+ <path d="M13 11 L15 9 L15 19 L13 21 Z" fill="#1133AA"/>
+ <rect x="4" y="12" width="8" height="1.5" rx="0.3" fill="#00DDFF" fill-opacity="0.4"/>
+ <rect x="4" y="14.5" width="8" height="1" rx="0.3" fill="#00DDFF" fill-opacity="0.3"/>
+ <!-- Cube 2 (middle) -->
+ <rect x="11" y="12" width="10" height="10" rx="1.5" fill="url(#bch-cube)" filter="url(#bch-shad)"/>
+ <path d="M11 12 L13 10 L23 10 L21 12 Z" fill="#3355CC"/>
+ <path d="M21 12 L23 10 L23 20 L21 22 Z" fill="#1133AA"/>
+ <rect x="12" y="13" width="8" height="1.5" rx="0.3" fill="#00DDFF" fill-opacity="0.4"/>
+ <rect x="12" y="15.5" width="8" height="1" rx="0.3" fill="#00DDFF" fill-opacity="0.3"/>
+ <!-- Cube 3 (right) -->
+ <rect x="19" y="11" width="10" height="10" rx="1.5" fill="url(#bch-cube)" filter="url(#bch-shad)"/>
+ <path d="M19 11 L21 9 L31 9 L29 11 Z" fill="#3355CC"/>
+ <path d="M29 11 L31 9 L31 19 L29 21 Z" fill="#1133AA"/>
+ <rect x="20" y="12" width="8" height="1.5" rx="0.3" fill="#00DDFF" fill-opacity="0.4"/>
+ <rect x="20" y="14.5" width="8" height="1" rx="0.3" fill="#00DDFF" fill-opacity="0.3"/>
+ <!-- Glowing chain connectors between cubes -->
+ <rect x="12.5" y="15.5" width="4" height="1.5" rx="0.5" fill="url(#bch-chain)" filter="url(bch-glow)"/>
+ <rect x="20.5" y="15.5" width="4" height="1.5" rx="0.5" fill="url(#bch-chain)" filter="url(bch-glow)"/>
+ <!-- Hash text on middle cube face -->
+ <text x="12.5" y="20" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif" font-size="2" fill="#00AACC" fill-opacity="0.6">0xA4F</text>
+</svg>

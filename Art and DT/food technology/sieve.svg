@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sv-rim" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#d0d0d0"/>
+ <stop offset="100%" stop-color="#808080"/>
+ </linearGradient>
+ <linearGradient id="sv-handle" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#c0c0c0"/>
+ <stop offset="100%" stop-color="#707070"/>
+ </linearGradient>
+ <linearGradient id="sv-mesh" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#b8b8b8"/>
+ <stop offset="100%" stop-color="#808080"/>
+ </linearGradient>
+ <linearGradient id="sv-flour" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="white" stop-opacity="0.9"/>
+ <stop offset="100%" stop-color="white" stop-opacity="0"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- handle -->
+ <rect x="18" y="8" width="12" height="3" rx="1.5" fill="url(#sv-handle)"/>
+ <!-- sieve bowl outline -->
+ <path d="M4 9 Q4 22 14 24 Q24 22 24 9 Z" fill="url(#sv-mesh)"/>
+ <!-- mesh grid lines horizontal -->
+ <line x1="5" y1="12" x2="23" y2="12" stroke="#909090" stroke-width="0.5"/>
+ <line x1="5.5" y1="15" x2="22.5" y2="15" stroke="#909090" stroke-width="0.5"/>
+ <line x1="6.5" y1="18" x2="21.5" y2="18" stroke="#909090" stroke-width="0.5"/>
+ <line x1="8" y1="21" x2="20" y2="21" stroke="#909090" stroke-width="0.5"/>
+ <!-- mesh grid lines vertical -->
+ <line x1="7" y1="9" x2="7" y2="23" stroke="#909090" stroke-width="0.5"/>
+ <line x1="10" y1="9" x2="10" y2="23.5" stroke="#909090" stroke-width="0.5"/>
+ <line x1="13" y1="9" x2="13" y2="24" stroke="#909090" stroke-width="0.5"/>
+ <line x1="16" y1="9" x2="16" y2="24" stroke="#909090" stroke-width="0.5"/>
+ <line x1="19" y1="9" x2="19" y2="23.5" stroke="#909090" stroke-width="0.5"/>
+ <line x1="22" y1="9" x2="22" y2="23" stroke="#909090" stroke-width="0.5"/>
+ <!-- rim circle top -->
+ <ellipse cx="14" cy="9" rx="10" ry="2" fill="url(#sv-rim)"/>
+ <!-- flour falling through -->
+ <line x1="10" y1="25" x2="10" y2="30" stroke="url(#sv-flour)" stroke-width="1.5" stroke-linecap="round"/>
+ <line x1="14" y1="26" x2="14" y2="31" stroke="url(#sv-flour)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="18" y1="25" x2="18" y2="30" stroke="url(#sv-flour)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

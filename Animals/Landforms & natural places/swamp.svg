@@ -1,0 +1,67 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#7A7E84"/>
+ <stop offset="100%" stop-color="#A6D9F5"/>
+ </linearGradient>
+ <linearGradient id="darkWater" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#33691E"/>
+ <stop offset="100%" stop-color="#1B5E20"/>
+ </linearGradient>
+ <linearGradient id="trunk" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#5D4037"/>
+ <stop offset="100%" stop-color="#3E2723"/>
+ </linearGradient>
+ <linearGradient id="moss" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ </defs>
+ <!-- Murky sky with mist -->
+ 
+ <!-- Mist layer -->
+ <rect x="0" y="14" width="32" height="6" fill="#FFFFFF" fill-opacity="0.25"/>
+ <rect x="0" y="18" width="32" height="4" fill="#FFFFFF" fill-opacity="0.2"/>
+ <!-- Dark murky water (key gesture - trees standing IN water) -->
+ <rect x="0" y="22" width="32" height="10" fill="url(#darkWater)"/>
+ <!-- Water surface subtle -->
+ <ellipse cx="10" cy="23" rx="7" ry="1.5" fill="#1B5E20" fill-opacity="0.6"/>
+ <ellipse cx="24" cy="24" rx="6" ry="1.2" fill="#1B5E20" fill-opacity="0.5"/>
+ <!-- Mangrove tree 1 (left) - roots visible above water -->
+ <rect x="5" y="8" width="2" height="16" fill="url(#trunk)"/>
+ <!-- Roots splaying out above waterline -->
+ <line x1="6" y1="22" x2="3" y2="25" stroke="#3E2723" stroke-width="1.2" stroke-opacity="0.9"/>
+ <line x1="6" y1="22" x2="9" y2="25" stroke="#3E2723" stroke-width="1.2" stroke-opacity="0.9"/>
+ <line x1="6" y1="21" x2="2" y2="23" stroke="#3E2723" stroke-width="0.8" stroke-opacity="0.8"/>
+ <line x1="6" y1="21" x2="10" y2="23" stroke="#3E2723" stroke-width="0.8" stroke-opacity="0.8"/>
+ <!-- Tree 1 canopy -->
+ <ellipse cx="6" cy="7" rx="6" ry="4" fill="url(#moss)" fill-opacity="0.9"/>
+ <!-- Hanging moss from tree 1 (key gesture) -->
+ <line x1="4" y1="10" x2="3.5" y2="16" stroke="#7BAA48" stroke-width="0.6" stroke-opacity="0.7"/>
+ <line x1="6" y1="11" x2="5.5" y2="17" stroke="#33691E" stroke-width="0.6" stroke-opacity="0.7"/>
+ <line x1="8" y1="10" x2="8.5" y2="16" stroke="#7BAA48" stroke-width="0.6" stroke-opacity="0.7"/>
+ <!-- Mangrove tree 2 (right) -->
+ <rect x="22" y="6" width="2" height="18" fill="url(#trunk)"/>
+ <!-- Roots right -->
+ <line x1="23" y1="22" x2="20" y2="26" stroke="#3E2723" stroke-width="1.2" stroke-opacity="0.9"/>
+ <line x1="23" y1="22" x2="26" y2="26" stroke="#3E2723" stroke-width="1.2" stroke-opacity="0.9"/>
+ <line x1="23" y1="21" x2="19" y2="24" stroke="#3E2723" stroke-width="0.8" stroke-opacity="0.8"/>
+ <line x1="23" y1="21" x2="27" y2="24" stroke="#3E2723" stroke-width="0.8" stroke-opacity="0.8"/>
+ <!-- Tree 2 canopy -->
+ <ellipse cx="23" cy="5" rx="7" ry="4.5" fill="url(#moss)" fill-opacity="0.9"/>
+ <!-- Hanging moss from tree 2 -->
+ <line x1="20" y1="8" x2="19.5" y2="14" stroke="#7BAA48" stroke-width="0.6" stroke-opacity="0.7"/>
+ <line x1="23" y1="9" x2="22.5" y2="15" stroke="#33691E" stroke-width="0.6" stroke-opacity="0.7"/>
+ <line x1="26" y1="8" x2="26.5" y2="14" stroke="#7BAA48" stroke-width="0.6" stroke-opacity="0.7"/>
+ <!-- Background tree 3 (skinny center) -->
+ <rect x="14" y="10" width="1.5" height="14" fill="url(#trunk)" fill-opacity="0.8"/>
+ <ellipse cx="14.75" cy="9" rx="4" ry="3" fill="url(#moss)" fill-opacity="0.75"/>
+ <line x1="14.75" y1="22" x2="12.5" y2="25" stroke="#3E2723" stroke-width="0.9" stroke-opacity="0.8"/>
+ <line x1="14.75" y1="22" x2="17" y2="25" stroke="#3E2723" stroke-width="0.9" stroke-opacity="0.8"/>
+ <!-- Alligator silhouette in water -->
+ <ellipse cx="16" cy="24" rx="4" ry="0.8" fill="#2E7D32" fill-opacity="0.7"/>
+ <polygon points="20,24 24,23.5 24,24.5" fill="#2E7D32" fill-opacity="0.65"/>
+ <!-- Eyes -->
+ <circle cx="14" cy="23.5" r="0.4" fill="#FFFFFF" fill-opacity="0.7"/>
+ <circle cx="15.5" cy="23.5" r="0.4" fill="#FFFFFF" fill-opacity="0.7"/>
+</svg>

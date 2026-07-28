@@ -1,0 +1,85 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,7.498) scale(0.7657)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#B8C0C8"/>
+ <stop offset="100%" stop-color="#787E84"/>
+ </linearGradient>
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#8E9298"/>
+ <stop offset="100%" stop-color="#5A5E62"/>
+ </linearGradient>
+ <linearGradient id="doorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#8A8E94"/>
+ </linearGradient>
+ <linearGradient id="carBodyGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D05050"/>
+ <stop offset="100%" stop-color="#901818"/>
+ </linearGradient>
+ <linearGradient id="toolGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <linearGradient id="benchGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ </defs>
+ <!-- Back wall -->
+ <rect x="2" y="2" width="28" height="22" fill="url(#wallGrad)"/>
+ <!-- Floor -->
+ <rect x="2" y="24" width="28" height="6" fill="url(#floorGrad)"/>
+ <!-- Floor seam -->
+ <line x1="2" y1="27" x2="30" y2="27" stroke="#4A4E52" stroke-width="0.4" opacity="0.5"/>
+ <!-- Ceiling track for door -->
+ <rect x="2" y="2" width="28" height="1" fill="#6A6E74"/>
+ <!-- ROLL-UP GARAGE DOOR (partially open - panels visible at top) -->
+ <!-- Door frame -->
+ <rect x="2" y="2" width="22" height="22" rx="0.5" fill="none" stroke="#5A5E62" stroke-width="0.8"/>
+ <!-- Door panels (rolled up to ~8px height, remainder open) -->
+ <rect x="2.5" y="2.5" width="21" height="2" rx="0.3" fill="url(#doorGrad)"/>
+ <line x1="2.5" y1="3.5" x2="23.5" y2="3.5" stroke="#9A9E A4" stroke-width="0.3"/>
+ <rect x="2.5" y="4.5" width="21" height="2" rx="0.3" fill="url(#doorGrad)"/>
+ <line x1="2.5" y1="5.5" x2="23.5" y2="5.5" stroke="#9A9EA4" stroke-width="0.3"/>
+ <rect x="2.5" y="6.5" width="21" height="1.5" rx="0.3" fill="url(#doorGrad)"/>
+ <!-- Opening below (shadow of opening) -->
+ <rect x="2.5" y="8" width="21" height="16" fill="#222" opacity="0.08"/>
+ <!-- WORKBENCH (right wall) -->
+ 
+ <rect x="24" y="15" width="1" height="7" rx="0.3" fill="#8B5C3A"/>
+ <rect x="29" y="15" width="1" height="7" rx="0.3" fill="#8B5C3A"/>
+ <!-- Bench top items -->
+ <rect x="25" y="10.5" width="2" height="1.5" rx="0.3" fill="url(#toolGrad)"/>
+ <rect x="27.5" y="10" width="1" height="2" rx="0.3" fill="url(#toolGrad)"/>
+ <!-- TOOLS on right wall -->
+ <!-- Spanner outline -->
+ <ellipse cx="26" cy="7" rx="1" ry="0.4" fill="none" stroke="#9A9E A4" stroke-width="0.5"/>
+ <line x1="26" y1="7.4" x2="26" y2="10" stroke="#B0B4BA" stroke-width="0.5"/>
+ <ellipse cx="26" cy="10.2" rx="0.8" ry="0.4" fill="none" stroke="#9A9EA4" stroke-width="0.5"/>
+ <!-- Hammer -->
+ <rect x="28" y="5" width="1.5" height="0.8" rx="0.2" fill="url(#toolGrad)"/>
+ <line x1="28.75" y1="5.8" x2="28.75" y2="10" stroke="#C99878" stroke-width="0.5"/>
+ <!-- Saw -->
+ <line x1="24" y1="5" x2="24" y2="10" stroke="#B0B4BA" stroke-width="0.4"/>
+ <polyline points="24,5 23.5,6 24,7 23.5,8 24,9 23.5,10" fill="none" stroke="#9A9EA4" stroke-width="0.3"/>
+ <!-- CAR inside garage -->
+ <!-- Car shadow -->
+ 
+ <!-- Car body lower -->
+ 
+ <!-- Car roof/cabin -->
+ <rect x="7" y="16" width="10" height="4.5" rx="1" fill="#B03030"/>
+ <!-- Windscreen -->
+ <rect x="7.5" y="16.5" width="4" height="3.5" rx="0.5" fill="#A8D0F0" opacity="0.7"/>
+ <!-- Rear window -->
+ <rect x="12" y="16.5" width="4" height="3.5" rx="0.5" fill="#A8D0F0" opacity="0.7"/>
+ <!-- Wheels -->
+ <circle cx="7.5" cy="25" r="2" fill="#222"/>
+ <circle cx="7.5" cy="25" r="0.9" fill="#555"/>
+ <circle cx="16.5" cy="25" r="2" fill="#222"/>
+ <circle cx="16.5" cy="25" r="0.9" fill="#555"/>
+ <!-- Headlight -->
+ <rect x="5" y="21" width="1.2" height="1.2" rx="0.3" fill="#FFF8A0"/>
+ <!-- Tail light -->
+ <rect x="17.8" y="21" width="1.2" height="1.2" rx="0.3" fill="#FF3030" opacity="0.8"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2808" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2808)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

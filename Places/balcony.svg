@@ -1,0 +1,91 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#87CEEB"/>
+ <stop offset="100%" stop-color="#C9E8F5"/>
+ </linearGradient>
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="railGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#6A6A6A"/>
+ <stop offset="100%" stop-color="#2E2E2E"/>
+ </linearGradient>
+ <linearGradient id="doorGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#B8D4F0"/>
+ <stop offset="100%" stop-color="#7AABDE"/>
+ </linearGradient>
+ <linearGradient id="doorFrameGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D4AA80"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="tableGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="plantGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#4CAF50"/>
+ <stop offset="100%" stop-color="#2E7D32"/>
+ </linearGradient>
+ <linearGradient id="potGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E07040"/>
+ <stop offset="100%" stop-color="#B84A20"/>
+ </linearGradient>
+ </defs>
+ <!-- Sky / view beyond -->
+ <!-- City silhouette (distant buildings) -->
+ <rect x="0" y="16" width="5" height="8" fill="#A8C0D0" opacity="0.55"/>
+ <rect x="3" y="13" width="4" height="11" fill="#A8C0D0" opacity="0.5"/>
+ <rect x="25" y="17" width="7" height="7" fill="#A8C0D0" opacity="0.55"/>
+ <rect x="27" y="14" width="5" height="10" fill="#A8C0D0" opacity="0.5"/>
+ <!-- Balcony floor -->
+ 
+ <!-- Floor planks -->
+ <line x1="2" y1="26" x2="30" y2="26" stroke="#8B5C3A" stroke-width="0.3" opacity="0.5"/>
+ <line x1="7" y1="24" x2="7" y2="28" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="13" y1="24" x2="13" y2="28" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="20" y1="24" x2="20" y2="28" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="26" y1="24" x2="26" y2="28" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <!-- Glass door (back wall) -->
+ 
+ <!-- Door frame -->
+ <rect x="10" y="14" width="12" height="10" rx="0.5" fill="none" stroke="#8B5C3A" stroke-width="0.8"/>
+ <!-- Door centre split -->
+ <line x1="16" y1="14" x2="16" y2="24" stroke="#8B5C3A" stroke-width="0.5"/>
+ <!-- Door handle -->
+ <rect x="15.2" y="19" width="0.6" height="1.5" rx="0.2" fill="#C9CDD3"/>
+ <rect x="16.2" y="19" width="0.6" height="1.5" rx="0.2" fill="#C9CDD3"/>
+ <!-- Wrought-iron railing top bar -->
+ 
+ <!-- Railing bottom bar -->
+ <rect x="2" y="23.5" width="28" height="0.6" rx="0.3" fill="url(#railGrad)"/>
+ <!-- Railing spindles -->
+ <rect x="3.5" y="21" width="0.6" height="2.5" rx="0.3" fill="url(#railGrad)"/>
+ <rect x="6.5" y="21" width="0.6" height="2.5" rx="0.3" fill="url(#railGrad)"/>
+ <rect x="9.5" y="21" width="0.6" height="2.5" rx="0.3" fill="url(#railGrad)"/>
+ <rect x="12.5" y="21" width="0.6" height="2.5" rx="0.3" fill="url(#railGrad)"/>
+ <rect x="15.5" y="21" width="0.6" height="2.5" rx="0.3" fill="url(#railGrad)"/>
+ <rect x="18.5" y="21" width="0.6" height="2.5" rx="0.3" fill="url(#railGrad)"/>
+ <rect x="21.5" y="21" width="0.6" height="2.5" rx="0.3" fill="url(#railGrad)"/>
+ <rect x="24.5" y="21" width="0.6" height="2.5" rx="0.3" fill="url(#railGrad)"/>
+ <rect x="27.5" y="21" width="0.6" height="2.5" rx="0.3" fill="url(#railGrad)"/>
+ <!-- Bistro table -->
+ 
+ <rect x="20.7" y="22" width="0.6" height="2" rx="0.3" fill="url(#tableGrad)"/>
+ <!-- Bistro chair -->
+ 
+ <rect x="24.5" y="22.5" width="0.4" height="1.5" rx="0.2" fill="url(#tableGrad)"/>
+ <rect x="26.1" y="22.5" width="0.4" height="1.5" rx="0.2" fill="url(#tableGrad)"/>
+ <!-- Chair back -->
+ <rect x="24" y="20.2" width="3" height="1.5" rx="0.3" fill="url(#tableGrad)"/>
+ <line x1="24" y1="21.5" x2="24" y2="20.2" stroke="#8B5C3A" stroke-width="0.4"/>
+ <line x1="27" y1="21.5" x2="27" y2="20.2" stroke="#8B5C3A" stroke-width="0.4"/>
+ <!-- Potted plant left -->
+ 
+ <rect x="4" y="21" width="3" height="1.5" rx="0.5" fill="url(#potGrad)"/>
+ <!-- Leaves -->
+ <ellipse cx="5.5" cy="20" rx="1.2" ry="1.5" fill="url(#plantGrad)"/>
+ <ellipse cx="4.2" cy="19.5" rx="0.8" ry="1.2" fill="url(#plantGrad)" transform="rotate(-20 4.2 19.5)"/>
+ <ellipse cx="6.8" cy="19.5" rx="0.8" ry="1.2" fill="url(#plantGrad)" transform="rotate(20 6.8 19.5)"/>
+</svg>

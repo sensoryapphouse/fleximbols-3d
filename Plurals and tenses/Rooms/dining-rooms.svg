@@ -1,0 +1,103 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,7.498) scale(0.7657)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F2EBDF"/>
+ <stop offset="100%" stop-color="#D8C8B0"/>
+ </linearGradient>
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="tableGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#7A4A20"/>
+ </linearGradient>
+ <linearGradient id="chairGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#B88060"/>
+ <stop offset="100%" stop-color="#7A4A20"/>
+ </linearGradient>
+ <linearGradient id="chandelierGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F5D060"/>
+ <stop offset="100%" stop-color="#C89820"/>
+ </linearGradient>
+ <linearGradient id="plateGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#E0E0E0"/>
+ </linearGradient>
+ <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C8E8F8" stop-opacity="0.8"/>
+ <stop offset="100%" stop-color="#88B8D8" stop-opacity="0.8"/>
+ </linearGradient>
+ </defs>
+ <!-- Wall -->
+ <rect x="2" y="2" width="28" height="18" fill="url(#wallGrad)"/>
+ <!-- Wall wainscoting -->
+ <rect x="2" y="14" width="28" height="6" fill="#DDD0B8" opacity="0.5"/>
+ <line x1="2" y1="14" x2="30" y2="14" stroke="#C0B098" stroke-width="0.5"/>
+ <!-- Floor -->
+ <rect x="2" y="20" width="28" height="10" fill="url(#floorGrad)"/>
+ <!-- Planks -->
+ <line x1="2" y1="23" x2="30" y2="23" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="2" y1="26" x2="30" y2="26" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="2" y1="29" x2="30" y2="29" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="10" y1="20" x2="10" y2="30" stroke="#8B5C3A" stroke-width="0.3" opacity="0.3"/>
+ <line x1="20" y1="20" x2="20" y2="30" stroke="#8B5C3A" stroke-width="0.3" opacity="0.3"/>
+ <!-- Chandelier -->
+ <!-- Chain -->
+ <line x1="16" y1="2" x2="16" y2="5" stroke="#B09060" stroke-width="0.5"/>
+ <!-- Main body -->
+ 
+ <rect x="15.3" y="5" width="1.4" height="1" rx="0.3" fill="#D4A820"/>
+ <!-- Arms -->
+ <line x1="12" y1="5.5" x2="12" y2="7" stroke="#C8A820" stroke-width="0.5"/>
+ <line x1="16" y1="5.5" x2="16" y2="7" stroke="#C8A820" stroke-width="0.5"/>
+ <line x1="20" y1="5.5" x2="20" y2="7" stroke="#C8A820" stroke-width="0.5"/>
+ <!-- Bulbs -->
+ <circle cx="12" cy="7.5" r="0.7" fill="#FFF0A0"/>
+ <circle cx="16" cy="7.5" r="0.7" fill="#FFF0A0"/>
+ <circle cx="20" cy="7.5" r="0.7" fill="#FFF0A0"/>
+ <!-- Glow -->
+ <ellipse cx="16" cy="8" rx="5" ry="1.5" fill="#F5D060" opacity="0.2"/>
+ <!-- DINING TABLE -->
+ 
+ <!-- Table legs -->
+ <rect x="7" y="22.5" width="1.2" height="3" rx="0.3" fill="#7A4A20"/>
+ <rect x="23.8" y="22.5" width="1.2" height="3" rx="0.3" fill="#7A4A20"/>
+ <rect x="7" y="22.5" width="1.2" height="0.5" rx="0.2" fill="#5A3010"/>
+ <rect x="23.8" y="22.5" width="1.2" height="0.5" rx="0.2" fill="#5A3010"/>
+ <!-- Place settings -->
+ <!-- Plate left -->
+ 
+ <ellipse cx="10" cy="20" rx="1.4" ry="0.8" fill="#F8F8F8"/>
+ <!-- Glass left -->
+ <rect x="12.5" y="18.5" width="1" height="2.5" rx="0.3" fill="url(#glassGrad)"/>
+ <ellipse cx="13" cy="18.5" rx="0.8" ry="0.3" fill="#B0D8F0" opacity="0.6"/>
+ <!-- Plate centre -->
+ 
+ <ellipse cx="16" cy="20" rx="1.4" ry="0.8" fill="#F8F8F8"/>
+ <!-- Glass centre -->
+ <rect x="18.5" y="18.5" width="1" height="2.5" rx="0.3" fill="url(#glassGrad)"/>
+ <ellipse cx="19" cy="18.5" rx="0.8" ry="0.3" fill="#B0D8F0" opacity="0.6"/>
+ <!-- Plate right -->
+ 
+ <ellipse cx="22" cy="20" rx="1.4" ry="0.8" fill="#F8F8F8"/>
+ <!-- CHAIRS (4 around table) -->
+ <!-- Chair back-left -->
+ 
+ <rect x="4.3" y="13.5" width="3" height="2.8" rx="0.5" fill="url(#chairGrad)"/>
+ <rect x="4.3" y="19" width="0.7" height="3" rx="0.3" fill="#7A4A20"/>
+ <rect x="6.6" y="19" width="0.7" height="3" rx="0.3" fill="#7A4A20"/>
+ <!-- Chair back-right -->
+ 
+ <rect x="24.7" y="13.5" width="3" height="2.8" rx="0.5" fill="url(#chairGrad)"/>
+ <rect x="24.7" y="19" width="0.7" height="3" rx="0.3" fill="#7A4A20"/>
+ <rect x="27" y="19" width="0.7" height="3" rx="0.3" fill="#7A4A20"/>
+ <!-- Chair front-left (forward of table, abbreviated) -->
+ 
+ <rect x="5.3" y="25" width="0.7" height="2.5" rx="0.3" fill="#7A4A20"/>
+ <rect x="7.5" y="25" width="0.7" height="2.5" rx="0.3" fill="#7A4A20"/>
+ <!-- Chair front-right -->
+ 
+ <rect x="23.8" y="25" width="0.7" height="2.5" rx="0.3" fill="#7A4A20"/>
+ <rect x="26" y="25" width="0.7" height="2.5" rx="0.3" fill="#7A4A20"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2805" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2805)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

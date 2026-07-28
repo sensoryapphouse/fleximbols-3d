@@ -1,0 +1,73 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,1.341) scale(0.9581)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="buildG" x1="0" y1="0" x2="0.1" y2="1">
+ <stop offset="0%" stop-color="#7090b8"/>
+ <stop offset="50%" stop-color="#4868a0"/>
+ <stop offset="100%" stop-color="#2848788"/>
+ </linearGradient>
+ <linearGradient id="pentG" x1="0" y1="0" x2="0.1" y2="1">
+ <stop offset="0%" stop-color="#a8c8f0"/>
+ <stop offset="100%" stop-color="#6898d0"/>
+ </linearGradient>
+ <linearGradient id="glassG" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#c0e4ff"/>
+ <stop offset="100%" stop-color="#6898c8"/>
+ </linearGradient>
+ <linearGradient id="terraceG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#c0b090"/>
+ <stop offset="100%" stop-color="#907060"/>
+ </linearGradient>
+ <linearGradient id="plantG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#60c040"/>
+ <stop offset="100%" stop-color="#308020"/>
+ </linearGradient>
+ <linearGradient id="buildSide" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#486090"/>
+ <stop offset="100%" stop-color="#283860"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- building lower body (cut off) -->
+ <rect x="9" y="18" width="14" height="13" fill="url(#buildG)"/>
+ <!-- building side depth -->
+ <rect x="22" y="19" width="2" height="12" fill="url(#buildSide)"/>
+ <!-- floor windows on tower -->
+ <rect x="10" y="19.5" width="2.5" height="2" rx="0.2" fill="url(#glassG)" fill-opacity="0.8"/>
+ <rect x="13.5" y="19.5" width="2.5" height="2" rx="0.2" fill="url(#glassG)" fill-opacity="0.8"/>
+ <rect x="17" y="19.5" width="2.5" height="2" rx="0.2" fill="url(#glassG)" fill-opacity="0.8"/>
+ <rect x="10" y="23" width="2.5" height="2" rx="0.2" fill="url(#glassG)" fill-opacity="0.8"/>
+ <rect x="13.5" y="23" width="2.5" height="2" rx="0.2" fill="url(#glassG)" fill-opacity="0.8"/>
+ <rect x="17" y="23" width="2.5" height="2" rx="0.2" fill="url(#glassG)" fill-opacity="0.8"/>
+ <rect x="10" y="26.5" width="2.5" height="2" rx="0.2" fill="url(#glassG)" fill-opacity="0.8"/>
+ <rect x="13.5" y="26.5" width="2.5" height="2" rx="0.2" fill="url(#glassG)" fill-opacity="0.8"/>
+ <rect x="17" y="26.5" width="2.5" height="2" rx="0.2" fill="url(#glassG)" fill-opacity="0.8"/>
+ <!-- terrace / rooftop -->
+ <rect x="7" y="14" width="18" height="5" rx="0.5" fill="url(#terraceG)"/>
+ <!-- terrace side -->
+ <rect x="23.5" y="15" width="1.5" height="4" rx="0.3" fill="#806050"/>
+ <!-- penthouse unit on top -->
+ <rect x="8" y="8" width="16" height="7" rx="1" fill="url(#pentG)"/>
+ <!-- penthouse side depth -->
+ <rect x="23" y="9" width="1.5" height="6" rx="0.3" fill="#5880b8"/>
+ <!-- penthouse panoramic windows -->
+ <rect x="9" y="9" width="13" height="5" rx="0.5" fill="url(#glassG)"/>
+ <!-- window mullions -->
+ <line x1="13" y1="9" x2="13" y2="14" stroke="#e0f0ff" stroke-width="0.4" stroke-opacity="0.6"/>
+ <line x1="17" y1="9" x2="17" y2="14" stroke="#e0f0ff" stroke-width="0.4" stroke-opacity="0.6"/>
+ <line x1="9" y1="11.5" x2="22" y2="11.5" stroke="#e0f0ff" stroke-width="0.4" stroke-opacity="0.6"/>
+ <!-- rooftop plants on terrace -->
+ <ellipse cx="10" cy="13.5" rx="1.5" ry="2" fill="url(#plantG)"/>
+ <rect x="9.5" y="14.5" width="1" height="1.5" fill="#604020"/>
+ <ellipse cx="22" cy="13.5" rx="1.5" ry="2" fill="url(#plantG)"/>
+ <rect x="21.5" y="14.5" width="1" height="1.5" fill="#604020"/>
+ <!-- railing on terrace -->
+ <line x1="8" y1="14" x2="25" y2="14" stroke="#d0c0a0" stroke-width="0.6"/>
+ <line x1="9" y1="14" x2="9" y2="18" stroke="#d0c0a0" stroke-width="0.4"/>
+ <line x1="12" y1="14" x2="12" y2="18" stroke="#d0c0a0" stroke-width="0.4"/>
+ <line x1="15" y1="14" x2="15" y2="18" stroke="#d0c0a0" stroke-width="0.4"/>
+ <line x1="18" y1="14" x2="18" y2="18" stroke="#d0c0a0" stroke-width="0.4"/>
+ <line x1="21" y1="14" x2="21" y2="18" stroke="#d0c0a0" stroke-width="0.4"/>
+ <line x1="24" y1="14" x2="24" y2="18" stroke="#d0c0a0" stroke-width="0.4"/>
+ <!-- sheen on penthouse window -->
+ <rect x="9.5" y="9.5" width="5" height="1.5" rx="0.3" fill="#ffffff" fill-opacity="0.4"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2574" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2574)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

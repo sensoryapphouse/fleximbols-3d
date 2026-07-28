@@ -1,0 +1,40 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+  <linearGradient id="strip" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0%" stop-color="#4a4f58"/>
+   <stop offset="100%" stop-color="#21252c"/>
+  </linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0%" stop-color="#9fd0f0"/>
+   <stop offset="100%" stop-color="#3c7fb8"/>
+  </linearGradient>
+  <linearGradient id="play" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0%" stop-color="#ffe066"/>
+   <stop offset="100%" stop-color="#f0a020"/>
+  </linearGradient>
+ </defs>
+ <!-- film strip body -->
+ <rect x="3" y="6" width="26" height="20" rx="2" fill="url(#strip)" stroke="#15181d" stroke-width="0.5"/>
+ <!-- sprocket holes top -->
+ <g fill="#e8eaee">
+  <rect x="5" y="7.4" width="2.4" height="2" rx="0.4"/>
+  <rect x="9.3" y="7.4" width="2.4" height="2" rx="0.4"/>
+  <rect x="13.6" y="7.4" width="2.4" height="2" rx="0.4"/>
+  <rect x="17.9" y="7.4" width="2.4" height="2" rx="0.4"/>
+  <rect x="22.2" y="7.4" width="2.4" height="2" rx="0.4"/>
+ </g>
+ <!-- sprocket holes bottom -->
+ <g fill="#e8eaee">
+  <rect x="5" y="22.6" width="2.4" height="2" rx="0.4"/>
+  <rect x="9.3" y="22.6" width="2.4" height="2" rx="0.4"/>
+  <rect x="13.6" y="22.6" width="2.4" height="2" rx="0.4"/>
+  <rect x="17.9" y="22.6" width="2.4" height="2" rx="0.4"/>
+  <rect x="22.2" y="22.6" width="2.4" height="2" rx="0.4"/>
+ </g>
+ <!-- central frame (screen) -->
+ <rect x="5" y="10.4" width="22" height="11.2" rx="0.8" fill="url(#screen)" stroke="#2a5e88" stroke-width="0.4"/>
+ <!-- play triangle (animation) -->
+ <path d="M13.5 12.4 L20.5 16 L13.5 19.6 Z" fill="url(#play)" stroke="#b87810" stroke-width="0.4" stroke-linejoin="round"/>
+ <!-- gloss on screen -->
+ <path d="M5 11 L13 11 L9 21 L5 21 Z" fill="#ffffff" fill-opacity="0.12"/>
+</svg>

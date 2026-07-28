@@ -1,0 +1,27 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <linearGradient id="bl_trailGrad" x1="100%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FFD700"/>
+ <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+ </linearGradient>
+</defs>
+<g filter="url(#bl_drop)">
+ <!-- Long curved sparkle-trail (comet-like) stretching diagonally -->
+ <path d="M2 28 Q5 22 10 16 Q15 10 22 7" stroke="url(#bl_trailGrad)" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <!-- Additional trail sparkles -->
+ <path d="M4 26 Q7 21 11 16.5" stroke="#FFD700" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.5"/>
+ <!-- Small sparkles along trail -->
+ <line x1="7" y1="23" x2="7" y2="21" stroke="#FFE060" stroke-width="1" stroke-linecap="round"/>
+ <line x1="6" y1="22" x2="8" y2="22" stroke="#FFE060" stroke-width="1" stroke-linecap="round"/>
+ <line x1="11" y1="19" x2="11" y2="17.5" stroke="#FFE060" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="10" y1="18.2" x2="12" y2="18.2" stroke="#FFE060" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="15" y1="14" x2="15" y2="12.5" stroke="#FFE060" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="14" y1="13.2" x2="16" y2="13.2" stroke="#FFE060" stroke-width="0.8" stroke-linecap="round"/>
+ <!-- Five-point star at the head (upper right) with glow -->
+ <g transform="translate(22 7)" filter="url(#bl_glow)">
+ <path d="M0,-6 L1.8,-2 L6,-2 L2.5,0.8 L3.7,5 L0,2.5 L-3.7,5 L-2.5,0.8 L-6,-2 L-1.8,-2 Z" fill="#FFD700"/>
+ <!-- Star shimmer -->
+ <ellipse cx="-1.5" cy="-3" rx="2" ry="1.2" fill="white" opacity="0.35" transform="rotate(-20 -1.5 -3)"/>
+ </g>
+</g>
+</svg>

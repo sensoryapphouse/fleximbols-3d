@@ -1,0 +1,51 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="bodyG" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#424242"/>
+ <stop offset="100%" stop-color="#121212"/>
+ </radialGradient>
+ <linearGradient id="wingG" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#37474F"/>
+ <stop offset="100%" stop-color="#0A0A0A"/>
+ </linearGradient>
+ <radialGradient id="headG" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#424242"/>
+ <stop offset="100%" stop-color="#0D0D0D"/>
+ </radialGradient>
+ <linearGradient id="beakG" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#1A1A1A"/>
+ <stop offset="100%" stop-color="#050505"/>
+ </linearGradient>
+ <linearGradient id="legG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#212121"/>
+ <stop offset="100%" stop-color="#050505"/>
+ </linearGradient>
+ </defs>
+ <!-- Perch branch -->
+ <rect x="4" y="27" width="24" height="2.5" rx="1.2" fill="#5D4037"/>
+ <rect x="4.5" y="27.2" width="8" height="0.8" rx="0.4" fill="#8D6E63" opacity="0.5"/>
+ <!-- Body oval -->
+ <ellipse cx="16" cy="21" rx="9" ry="6" fill="url(#bodyG)"/>
+ <!-- Tail (square-ish — KEY GESTURE) -->
+ <path d="M22 21 L28 23 L28 26 L22 25Z" fill="url(#wingG)"/>
+ <!-- Wing detail -->
+ <path d="M9 20 Q16 17 22 21" stroke="#37474F" stroke-width="0.6" fill="none" opacity="0.7"/>
+ <!-- Blue-black iridescent sheen on wing -->
+ <ellipse cx="14" cy="19" rx="5" ry="2.5" fill="#263238" opacity="0.5"/>
+ <!-- Head -->
+ <ellipse cx="9" cy="17" rx="4.5" ry="4" fill="url(#headG)"/>
+ <!-- Highlight on head -->
+ <ellipse cx="7.5" cy="15" rx="1.5" ry="1" fill="#546E7A" opacity="0.4"/>
+ <!-- Eye (sharp) -->
+ <circle cx="7.5" cy="17" r="1.2" fill="#1A1A1A"/>
+ <circle cx="7.5" cy="17" r="0.55" fill="#FFFFFF" opacity="0.85"/>
+ <!-- Straight black beak — KEY GESTURE: bulky straight beak -->
+ <path d="M5.5 17 L1.5 16.5 L2 18 L5.5 17.8Z" fill="url(#beakG)"/>
+ <!-- Legs -->
+ <line x1="14" y1="26" x2="13" y2="27.3" stroke="url(#legG)" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="13" y1="27.3" x2="11" y2="27.8" stroke="url(#legG)" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="13" y1="27.3" x2="14" y2="28" stroke="url(#legG)" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="18" y1="26" x2="18" y2="27.3" stroke="url(#legG)" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="18" y1="27.3" x2="16" y2="27.8" stroke="url(#legG)" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="18" y1="27.3" x2="19.5" y2="28" stroke="url(#legG)" stroke-width="0.7" stroke-linecap="round"/>
+</svg>

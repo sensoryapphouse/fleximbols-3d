@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="okPod" x1="40" y1="40" x2="160" y2="170" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#a4e26b"/>
+<stop offset="0.5" stop-color="#6fc23c"/>
+<stop offset="1" stop-color="#3f8a23"/>
+</linearGradient>
+<linearGradient id="okCap" x1="40" y1="30" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#8ed24c"/>
+<stop offset="1" stop-color="#4e9a2a"/>
+</linearGradient>
+<radialGradient id="okGloss" cx="0.35" cy="0.3" r="0.5">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<!-- pod body: long tapered ridged okra pointing down-right -->
+<path d="M52 58 Q70 50 96 70 Q128 96 152 140 Q166 166 158 178 Q146 186 124 170 Q92 146 70 104 Q54 76 52 58 Z" fill="url(#okPod)" stroke="#2c5e18" stroke-width="3" stroke-linejoin="round"/>
+<!-- ridge lines -->
+<path d="M72 72 Q104 100 140 152" fill="none" stroke="#2c5e18" stroke-width="2.4" stroke-linecap="round" opacity="0.8"/>
+<path d="M60 92 Q92 124 128 168" fill="none" stroke="#2c5e18" stroke-width="2.2" stroke-linecap="round" opacity="0.65"/>
+<path d="M90 64 Q120 92 150 142" fill="none" stroke="#2c5e18" stroke-width="2.2" stroke-linecap="round" opacity="0.55"/>
+<!-- stem cap at top-left -->
+<path d="M44 40 Q60 36 70 52 Q74 62 66 70 Q56 74 50 62 Q44 50 44 40 Z" fill="url(#okCap)" stroke="#2c5e18" stroke-width="3" stroke-linejoin="round"/>
+<path d="M40 34 L52 50" fill="none" stroke="#2c5e18" stroke-width="3.2" stroke-linecap="round"/>
+<!-- gloss highlight -->
+<ellipse cx="86" cy="92" rx="34" ry="20" fill="url(#okGloss)" transform="rotate(40 86 92)"/>
+</svg>

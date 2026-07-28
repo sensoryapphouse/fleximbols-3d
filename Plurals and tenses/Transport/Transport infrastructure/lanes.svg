@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,6.650) scale(0.7922)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="laneRoad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#9A8A6A"/><stop offset="100%" stop-color="#6A5A4A"/></linearGradient>
+ <linearGradient id="laneHedge" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5AB85A"/><stop offset="100%" stop-color="#2A6A2A"/></linearGradient>
+ <linearGradient id="laneGrass" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7ABA5A"/><stop offset="100%" stop-color="#4A8A2A"/></linearGradient>
+ </defs>
+ <!-- Background fields -->
+ <!-- Narrow winding lane -->
+ <path d="M14,32 Q13,24 15,18 Q17,12 14,6 Q13,3 14,0 L18,0 Q17,3 18,6 Q21,12 19,18 Q17,24 18,32 Z" fill="url(#laneRoad)" filter="url(#sdLane)"/>
+ <!-- Left hedgerow -->
+ <path d="M0,32 Q3,26 2,20 Q1,14 3,8 Q4,4 3,0 L8,0 Q7,4 8,8 Q10,14 9,20 Q8,26 10,32 Z" fill="url(#laneHedge)"/>
+ <!-- Right hedgerow -->
+ <path d="M22,32 Q24,26 23,20 Q22,14 24,8 Q25,4 24,0 L29,0 Q28,4 29,8 Q31,14 30,20 Q29,26 32,32 Z" fill="url(#laneHedge)"/>
+ <!-- Hedge texture bumps -->
+ <ellipse cx="5" cy="6" rx="2.5" ry="1.8" fill="#4AAA4A"/>
+ <ellipse cx="7" cy="12" rx="2.5" ry="1.8" fill="#3A9A3A"/>
+ <ellipse cx="5" cy="18" rx="2.5" ry="1.8" fill="#4AAA4A"/>
+ <ellipse cx="26" cy="8" rx="2.5" ry="1.8" fill="#4AAA4A"/>
+ <ellipse cx="27" cy="15" rx="2.5" ry="1.8" fill="#3A9A3A"/>
+ <ellipse cx="25" cy="22" rx="2.5" ry="1.8" fill="#4AAA4A"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl3470" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl3470)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

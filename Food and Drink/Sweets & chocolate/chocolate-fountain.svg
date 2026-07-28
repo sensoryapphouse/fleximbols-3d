@@ -1,0 +1,40 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="cf-choc" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#a9744a"/>
+ <stop offset="100%" stop-color="#4a2814"/>
+ </linearGradient>
+ <linearGradient id="cf-chocL" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#c08a58"/>
+ <stop offset="100%" stop-color="#5a3018"/>
+ </linearGradient>
+ <linearGradient id="cf-steel" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#8c94a4"/>
+ <stop offset="45%" stop-color="#eef2f8"/>
+ <stop offset="100%" stop-color="#6c7484"/>
+ </linearGradient>
+ </defs>
+ <!-- Base plate -->
+ <ellipse cx="16" cy="29" rx="11" ry="2.4" fill="url(#cf-steel)"/>
+ <!-- Central auger column -->
+ <rect x="15" y="6" width="2" height="22" fill="url(#cf-steel)"/>
+ <!-- Tier 3 (bottom, widest) -->
+ <path d="M 7 24 Q 16 22 25 24 Q 16 27 7 24 Z" fill="url(#cf-steel)"/>
+ <path d="M 8 23.4 Q 16 25.4 24 23.4 Q 16 26.6 8 26 Q 8 24.8 8 23.4 Z" fill="url(#cf-choc)"/>
+ <!-- Tier 2 (middle) -->
+ <path d="M 9.5 17 Q 16 15.4 22.5 17 Q 16 19.6 9.5 17 Z" fill="url(#cf-steel)"/>
+ <path d="M 10.4 16.6 Q 16 18.2 21.6 16.6 Q 16 19.2 10.4 18.4 Q 10.4 17.4 10.4 16.6 Z" fill="url(#cf-choc)"/>
+ <!-- Tier 1 (top, smallest) -->
+ <path d="M 11.5 10.5 Q 16 9.2 20.5 10.5 Q 16 12.6 11.5 10.5 Z" fill="url(#cf-steel)"/>
+ <path d="M 12.3 10.2 Q 16 11.5 19.7 10.2 Q 16 12.4 12.3 11.6 Q 12.3 10.9 12.3 10.2 Z" fill="url(#cf-choc)"/>
+ <!-- Top dome -->
+ <ellipse cx="16" cy="7" rx="2.2" ry="1.4" fill="url(#cf-steel)"/>
+ <!-- Flowing chocolate cascades between tiers -->
+ <path d="M 12.6 11.4 Q 11.6 14 11 16.6" stroke="url(#cf-chocL)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+ <path d="M 19.4 11.4 Q 20.4 14 21 16.6" stroke="url(#cf-chocL)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+ <path d="M 10.6 18 Q 9.2 21 8.4 23.6" stroke="url(#cf-chocL)" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+ <path d="M 21.4 18 Q 22.8 21 23.6 23.6" stroke="url(#cf-chocL)" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+ <!-- highlights on chocolate -->
+ <ellipse cx="14" cy="23.6" rx="2.4" ry="0.5" fill="#e0b088" opacity="0.5"/>
+ <ellipse cx="14.4" cy="16.8" rx="1.6" ry="0.4" fill="#e0b088" opacity="0.5"/>
+</svg>

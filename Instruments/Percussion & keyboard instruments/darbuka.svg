@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="drb-body" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#9c7a2c"/>
+<stop offset="30%" stop-color="#e8cc80"/>
+<stop offset="55%" stop-color="#c8a850"/>
+<stop offset="100%" stop-color="#806820"/>
+</linearGradient>
+<linearGradient id="drb-skin" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#e8d8b8"/>
+<stop offset="50%" stop-color="#f8f0e0"/>
+<stop offset="100%" stop-color="#d8c8a0"/>
+</linearGradient>
+<linearGradient id="drb-deco" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#284898"/>
+<stop offset="50%" stop-color="#4070c8"/>
+<stop offset="100%" stop-color="#203878"/>
+</linearGradient>
+<linearGradient id="drb-deco2" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#c04018"/>
+<stop offset="100%" stop-color="#e06030"/>
+</linearGradient>
+</defs>
+<!-- Wide upper bowl tapering down to the neck -->
+<path d="M9 8 C9 14 13 15 14 17 L18 17 C19 15 23 14 23 8 Z" fill="url(#drb-body)"/>
+<!-- Narrow neck -->
+<path d="M14 17 L18 17 L17.5 21 L14.5 21 Z" fill="url(#drb-body)"/>
+<!-- Flared base -->
+<path d="M11 28 C11 31 21 31 21 28 L17.5 21 L14.5 21 Z" fill="url(#drb-body)"/>
+<!-- Drum head at top -->
+<ellipse cx="16" cy="8" rx="7.2" ry="2.6" fill="url(#drb-skin)"/>
+<ellipse cx="16" cy="8" rx="7.2" ry="2.6" fill="none" stroke="#c0a870" stroke-width="0.6"/>
+<!-- Decorative banding around the bowl -->
+<path d="M9.6 10.5 Q16 12.5 22.4 10.5" fill="none" stroke="url(#drb-deco)" stroke-width="1.1"/>
+<path d="M10.8 12.8 L12.6 11.4 L14.4 12.8 L16 11.4 L17.6 12.8 L19.4 11.4 L21.2 12.8" fill="none" stroke="url(#drb-deco2)" stroke-width="0.7" stroke-opacity="0.9"/>
+<!-- Base band -->
+<path d="M12 27.5 Q16 29 20 27.5" fill="none" stroke="url(#drb-deco)" stroke-width="0.9"/>
+<!-- body highlight -->
+<path d="M11.5 9.5 C11.5 13 13 14.5 13.5 16" fill="none" stroke="#fff3d6" stroke-width="0.9" stroke-opacity="0.5" stroke-linecap="round"/>
+<!-- Skin highlight -->
+<ellipse cx="14.2" cy="7.4" rx="2.6" ry="1" fill="white" fill-opacity="0.4"/>
+</svg>

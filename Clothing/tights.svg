@@ -1,0 +1,32 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="tigFab" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c8794"/>
+      <stop offset="0.5" stop-color="#aab4bf"/>
+      <stop offset="1" stop-color="#6b7682"/>
+    </linearGradient>
+    <linearGradient id="tigBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c6671"/>
+      <stop offset="1" stop-color="#3e464f"/>
+    </linearGradient>
+  </defs>
+  <!-- Waistband -->
+  <rect x="58" y="22" width="84" height="20" rx="6" fill="url(#tigBand)" stroke="#2e353d" stroke-width="3"/>
+  <!-- Tights body: two full-length legs joined, with inner crotch notch -->
+  <path d="M58 40
+           L142 40
+           L139 176
+           Q139 182 133 182
+           L112 182
+           Q107 182 106 176
+           L100 96
+           L94 176
+           Q93 182 88 182
+           L67 182
+           Q61 182 61 176
+           Z"
+        fill="url(#tigFab)" stroke="#2e353d" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Fabric sheen lines -->
+  <line x1="80" y1="50" x2="76" y2="172" stroke="#ffffff" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+  <line x1="120" y1="50" x2="124" y2="172" stroke="#ffffff" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+</svg>

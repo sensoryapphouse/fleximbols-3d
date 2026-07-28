@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="db_frame" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#caa79a"/><stop offset="100%" stop-color="#8d6e63"/></linearGradient>
+<linearGradient id="db_panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e6dcc8"/><stop offset="100%" stop-color="#c3b291"/></linearGradient>
+<radialGradient id="db_button" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#ffe487"/><stop offset="70%" stop-color="#f3b53b"/><stop offset="100%" stop-color="#c98a16"/></radialGradient>
+<radialGradient id="db_glow" cx="50%" cy="50%" r="55%"><stop offset="0%" stop-color="#fff2b8" stop-opacity="0.9"/><stop offset="100%" stop-color="#ffe082" stop-opacity="0"/></radialGradient>
+<radialGradient id="db_spk" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#6a7077"/><stop offset="100%" stop-color="#33373d"/></radialGradient>
+<filter id="db_shd" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="0.5" stdDeviation="0.5" flood-color="#000" flood-opacity="0.25"/></filter>
+</defs>
+<!-- Door frame edge (left) -->
+<rect x="1.5" y="2" width="6.5" height="28" rx="0.6" fill="url(#db_frame)" stroke="#6d544b" stroke-width="0.5"/>
+<line x1="6.4" y1="3" x2="6.4" y2="29" stroke="#6d544b" stroke-width="0.4" opacity="0.6"/>
+<!-- Doorbell unit body (rounded vertical panel) -->
+<g filter="url(#db_shd)">
+<rect x="10" y="7" width="12" height="18" rx="3" fill="url(#db_panel)" stroke="#5a5042" stroke-width="0.7"/>
+</g>
+<!-- Top: speaker / chime grille -->
+<circle cx="16" cy="11.6" r="2.6" fill="url(#db_spk)" stroke="#2a2e33" stroke-width="0.5"/>
+<g stroke="#1e2225" stroke-width="0.45">
+<line x1="14" y1="10.6" x2="18" y2="10.6"/>
+<line x1="13.7" y1="11.6" x2="18.3" y2="11.6"/>
+<line x1="14" y1="12.6" x2="18" y2="12.6"/>
+</g>
+<!-- Glow behind the press button -->
+<circle cx="16" cy="19" r="4.4" fill="url(#db_glow)"/>
+<!-- Press button (round, illuminated) -->
+<circle cx="16" cy="19" r="3" fill="url(#db_button)" stroke="#a8730f" stroke-width="0.6"/>
+<circle cx="16" cy="19" r="1.5" fill="#fff6cf" opacity="0.85"/>
+<circle cx="15.3" cy="18.3" r="0.6" fill="#ffffff" opacity="0.9"/>
+<!-- Sound waves emitting (rings to the right) -->
+<g fill="none" stroke="#9aa0a8" stroke-width="0.8" stroke-linecap="round">
+<path d="M24 14 Q26 16 24 18"/>
+<path d="M26 12.5 Q29 16 26 19.5"/>
+</g>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2103" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2103)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

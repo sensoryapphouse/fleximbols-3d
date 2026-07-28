@@ -1,0 +1,53 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="dbFrame" x1="0" y1="0" x2="0.1" y2="1">
+ <stop offset="0%" stop-color="#b89060"/>
+ <stop offset="100%" stop-color="#806030"/>
+ </linearGradient>
+ <linearGradient id="dbCushion" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#d0789a"/>
+ <stop offset="50%" stop-color="#b05878"/>
+ <stop offset="100%" stop-color="#883858"/>
+ </linearGradient>
+ <linearGradient id="dbBolster" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#e090b0"/>
+ <stop offset="100%" stop-color="#c06888"/>
+ </linearGradient>
+ <linearGradient id="dbMatt" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#e8b0c8"/>
+ <stop offset="100%" stop-color="#c888a8"/>
+ </linearGradient>
+ <linearGradient id="dbLeg2" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#c09060"/>
+ <stop offset="100%" stop-color="#806030"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- legs -->
+ <rect x="5" y="25" width="2" height="4" rx="0.6" fill="url(#dbLeg2)"/>
+ <rect x="25" y="25" width="2" height="4" rx="0.6" fill="url(#dbLeg2)"/>
+ <rect x="8" y="25" width="2" height="3.5" rx="0.6" fill="url(#dbLeg2)"/>
+ <rect x="22" y="25" width="2" height="3.5" rx="0.6" fill="url(#dbLeg2)"/>
+ <!-- base platform -->
+ <rect x="4" y="21" width="24" height="5" rx="1" fill="url(#dbFrame)"/>
+ <!-- mattress -->
+ <rect x="4" y="17" width="24" height="5" rx="1.5" fill="url(#dbMatt)"/>
+ <!-- left side arm -->
+ <path d="M4,17 Q3,17 3,19 L3,24 Q3,25 4,25 L6,25 L6,20 Q6,18 5,17 Z" fill="url(#dbFrame)"/>
+ <rect x="3" y="15.5" width="3.5" height="2" rx="1" fill="url(#dbFrame)"/>
+ <!-- right side arm -->
+ <path d="M28,17 Q29,17 29,19 L29,24 Q29,25 28,25 L26,25 L26,20 Q26,18 27,17 Z" fill="url(#dbFrame)"/>
+ <rect x="25.5" y="15.5" width="3.5" height="2" rx="1" fill="url(#dbFrame)"/>
+ <!-- back arm (top) -->
+ <rect x="3" y="12" width="26" height="6" rx="2" fill="url(#dbFrame)"/>
+ <rect x="3" y="10.5" width="26" height="2" rx="1" fill="url(#dbFrame)"/>
+ <!-- scatter cushions on mattress -->
+ <rect x="6" y="15" width="6" height="5" rx="1.5" fill="url(#dbCushion)"/>
+ <rect x="13" y="15.5" width="5" height="4.5" rx="1.5" fill="url(#dbBolster)"/>
+ <rect x="19" y="15" width="6" height="5" rx="1.5" fill="url(#dbCushion)"/>
+ <!-- bolster ends -->
+ <ellipse cx="13" cy="18" rx="0.8" ry="2.5" fill="url(#dbBolster)" fill-opacity="0.7"/>
+ <ellipse cx="18" cy="18" rx="0.8" ry="2.5" fill="url(#dbBolster)" fill-opacity="0.7"/>
+ <!-- highlight -->
+ <rect x="4.5" y="10.7" width="10" height="1" rx="0.3" fill="#ffffff" fill-opacity="0.3"/>
+</svg>

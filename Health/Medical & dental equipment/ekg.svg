@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="paper" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#fffdf6"/>
+ <stop offset="100%" stop-color="#ffe9d8"/>
+ </linearGradient>
+ <radialGradient id="heartG" cx="35%" cy="28%" r="80%">
+ <stop offset="0%" stop-color="#ff6b5a"/>
+ <stop offset="100%" stop-color="#b01818"/>
+ </radialGradient>
+ <linearGradient id="traceG" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#ff5a4a"/>
+ <stop offset="100%" stop-color="#c81818"/>
+ </linearGradient>
+ </defs>
+ <!-- grid panel -->
+ <rect x="3" y="14" width="26" height="13" rx="1.2" fill="url(#paper)" stroke="#e0a878" stroke-width="0.5"/>
+ <!-- grid lines -->
+ <g stroke="#f4c9a8" stroke-width="0.25">
+ <path d="M6 14 L6 27"/><path d="M9 14 L9 27"/><path d="M12 14 L12 27"/><path d="M15 14 L15 27"/><path d="M18 14 L18 27"/><path d="M21 14 L21 27"/><path d="M24 14 L24 27"/><path d="M27 14 L27 27"/>
+ <path d="M3 17 L29 17"/><path d="M3 20 L29 20"/><path d="M3 23 L29 23"/><path d="M3 26 L29 26"/>
+ </g>
+ <!-- ECG trace -->
+ <path d="M4 21 L9 21 L10.5 21 L11.2 18.5 L12 25 L13 15.5 L14 21 L17 21 L18 21 L18.7 19.2 L19.6 22.5 L20.5 21 L24 21 L28 21"
+ fill="none" stroke="url(#traceG)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- 3D heart on top -->
+ <path d="M16 12 C14.6 8.6 9.4 8.9 9.4 12.6 C9.4 16 13.4 18.2 16 20.2 C18.6 18.2 22.6 16 22.6 12.6 C22.6 8.9 17.4 8.6 16 12 Z"
+ fill="url(#heartG)" stroke="#7a0e0e" stroke-width="0.4"/>
+ <ellipse cx="12.6" cy="11.4" rx="1.5" ry="1" fill="#fff" opacity="0.4"/>
+</svg>

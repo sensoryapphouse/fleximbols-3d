@@ -1,0 +1,28 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="pkup_sh" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#16181D" stop-opacity="0.35"/><stop offset="100%" stop-color="#16181D" stop-opacity="0"/></radialGradient>
+<radialGradient id="pkup_body" cx="40%" cy="30%" r="70%"><stop offset="0%" stop-color="#FF5252"/><stop offset="100%" stop-color="#9E1F1F"/></radialGradient>
+<radialGradient id="pkup_cab" cx="40%" cy="30%" r="70%"><stop offset="0%" stop-color="#FF7575"/><stop offset="100%" stop-color="#C62828"/></radialGradient>
+<radialGradient id="pkup_window" cx="40%" cy="30%" r="70%"><stop offset="0%" stop-color="#BCE5F5"/><stop offset="100%" stop-color="#3B7CB0"/></radialGradient>
+<radialGradient id="pkup_bed" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#3B3F47"/><stop offset="100%" stop-color="#16181D"/></radialGradient>
+<radialGradient id="pkup_wheel" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#5C5F66"/><stop offset="100%" stop-color="#16181D"/></radialGradient>
+<radialGradient id="pkup_hub" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#E0E2E6"/><stop offset="100%" stop-color="#7A7E84"/></radialGradient>
+<radialGradient id="pkup_hl" cx="30%" cy="25%" r="50%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- truck bed -->
+<rect x="14" y="15" width="14" height="9" rx="1.2" fill="url(#pkup_bed)"/>
+<!-- cab -->
+<path d="M3 24 L3 17 Q3 14 5.5 13 L13 13 L15 18 L15 24 Z" fill="url(#pkup_cab)"/>
+<!-- windows -->
+<path d="M5 17 Q5 14.8 6.5 14.5 L11.5 14.5 L13 17 Z" fill="url(#pkup_window)"/>
+<!-- body lower -->
+<rect x="2.5" y="22" width="26" height="3" rx="1" fill="url(#pkup_body)"/>
+<!-- wheels -->
+<circle cx="8" cy="25" r="2.6" fill="url(#pkup_wheel)"/>
+<circle cx="8" cy="25" r="1.1" fill="url(#pkup_hub)"/>
+<circle cx="23" cy="25" r="2.6" fill="url(#pkup_wheel)"/>
+<circle cx="23" cy="25" r="1.1" fill="url(#pkup_hub)"/>
+<!-- highlight -->
+<ellipse cx="7" cy="15.5" rx="3" ry="0.8" fill="url(#pkup_hl)"/>
+<ellipse cx="18" cy="17" rx="5" ry="0.7" fill="url(#pkup_hl)"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl3381" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl3381)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

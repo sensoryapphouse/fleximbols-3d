@@ -1,0 +1,45 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="apronBody" x1="0" y1="0" x2="0.1" y2="1">
+ <stop offset="0%" stop-color="#4878c0"/>
+ <stop offset="50%" stop-color="#2858a0"/>
+ <stop offset="100%" stop-color="#183878"/>
+ </linearGradient>
+ <linearGradient id="apronBib" x1="0" y1="0" x2="0.2" y2="1">
+ <stop offset="0%" stop-color="#5888d0"/>
+ <stop offset="100%" stop-color="#3068b0"/>
+ </linearGradient>
+ <linearGradient id="apronPocket" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#3870bc"/>
+ <stop offset="100%" stop-color="#2050a0"/>
+ </linearGradient>
+ <linearGradient id="apronTie" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#6098e0"/>
+ <stop offset="100%" stop-color="#3060b0"/>
+ </linearGradient>
+ <linearGradient id="apronNeck" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#5888d0"/>
+ <stop offset="100%" stop-color="#3060b8"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- neck strap -->
+ <path d="M12,7 Q12,5 16,5 Q20,5 20,7" stroke="url(#apronNeck)" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <!-- bib top portion -->
+ <path d="M10,7 Q10,5.5 12,5.5 L20,5.5 Q22,5.5 22,7 L22,14 Q22,15 21,15 L11,15 Q10,15 10,14 Z" fill="url(#apronBib)"/>
+ <!-- main apron body -->
+ <path d="M9,15 L23,15 L25,30 L7,30 Z" fill="url(#apronBody)"/>
+ <!-- waist ties -->
+ <path d="M9,19 Q5,19 4,22 Q3,23 5,23 L9,21" fill="url(#apronTie)"/>
+ <path d="M23,19 Q27,19 28,22 Q29,23 27,23 L23,21" fill="url(#apronTie)"/>
+ <!-- kangaroo pocket -->
+ <rect x="11" y="21" width="10" height="7" rx="0.8" fill="url(#apronPocket)"/>
+ <!-- pocket top fold -->
+ <rect x="11" y="21" width="10" height="1.5" rx="0.5" fill="#2858b0"/>
+ <!-- pocket divider -->
+ <line x1="16" y1="21" x2="16" y2="28" stroke="#2858a8" stroke-width="0.6"/>
+ <!-- waist band -->
+ <rect x="9" y="18" width="14" height="2" rx="0.5" fill="#6098e0" fill-opacity="0.4"/>
+ <!-- bib highlight -->
+ <rect x="11" y="7.5" width="5" height="3" rx="0.5" fill="#90b8f0" fill-opacity="0.35"/>
+</svg>

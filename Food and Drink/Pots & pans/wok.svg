@@ -1,0 +1,65 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wokBody" x1="0" y1="0" x2="0.2" y2="1">
+ <stop offset="0%" stop-color="#484858"/>
+ <stop offset="50%" stop-color="#303040"/>
+ <stop offset="100%" stop-color="#181820"/>
+ </linearGradient>
+ <linearGradient id="wokInside" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#404050"/>
+ <stop offset="100%" stop-color="#202028"/>
+ </linearGradient>
+ <linearGradient id="wokHandle" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#c8a060"/>
+ <stop offset="100%" stop-color="#906030"/>
+ </linearGradient>
+ <linearGradient id="vegG1" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#80d040"/>
+ <stop offset="100%" stop-color="#508020"/>
+ </linearGradient>
+ <linearGradient id="vegG2" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#f08030"/>
+ <stop offset="100%" stop-color="#b85010"/>
+ </linearGradient>
+ <linearGradient id="vegG3" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#f0e040"/>
+ <stop offset="100%" stop-color="#b0a010"/>
+ </linearGradient>
+ <linearGradient id="steamWok" x1="0" y1="1" x2="0" y2="0">
+ <stop offset="0%" stop-color="#d0d8e0" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#d0d8e0" stop-opacity="0"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- wok body hemispherical -->
+ <path d="M4,14 Q4,27 14,27 Q24,27 24,14 Z" fill="url(#wokBody)"/>
+ <!-- wok rim ellipse -->
+ <ellipse cx="14" cy="14" rx="10" ry="2.5" fill="url(#wokBody)"/>
+ <!-- inside bottom -->
+ <ellipse cx="14" cy="22" rx="5" ry="1.5" fill="url(#wokInside)"/>
+ <!-- inside bowl -->
+ <path d="M6,14 Q6,24 14,25 Q22,24 22,14" fill="url(#wokInside)" fill-opacity="0.8"/>
+ <!-- stir-fry vegetables tossing in air -->
+ <!-- chunk of broccoli airborne -->
+ <ellipse cx="18" cy="8" rx="2.5" ry="1.8" fill="url(#vegG1)"/>
+ <line x1="18" y1="9.8" x2="18" y2="11.5" stroke="#508020" stroke-width="0.7"/>
+ <!-- carrot slices -->
+ <ellipse cx="22" cy="10" rx="1.5" ry="1" fill="url(#vegG2)" transform="rotate(-20 22 10)"/>
+ <ellipse cx="25" cy="7" rx="1.2" ry="0.8" fill="url(#vegG2)" transform="rotate(15 25 7)"/>
+ <!-- bean sprout -->
+ <path d="M20,12 Q23,10 25,12" stroke="url(#vegG3)" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <!-- wok in-pan veg -->
+ <ellipse cx="11" cy="15.5" rx="2" ry="1" fill="url(#vegG1)" fill-opacity="0.8"/>
+ <ellipse cx="16" cy="16" rx="1.5" ry="0.8" fill="url(#vegG2)" fill-opacity="0.8"/>
+ <!-- steam from wok -->
+ <path d="M10,13 Q9,10 10.5,7" stroke="url(#steamWok)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <path d="M14,13 Q13,9 15,6" stroke="url(#steamWok)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <!-- long wooden handle -->
+ <rect x="23" y="12.5" width="9" height="2" rx="0.8" fill="url(#wokHandle)"/>
+ <!-- handle connection to rim -->
+ <rect x="22" y="12" width="3" height="3" rx="0.5" fill="url(#wokBody)"/>
+ <!-- handle wood grain -->
+ <line x1="24" y1="13" x2="31" y2="13" stroke="#c09050" stroke-width="0.4" stroke-opacity="0.5"/>
+ <!-- rim highlight -->
+ <path d="M7,13 Q10,12 14,12 Q18,12 21,13" stroke="#707080" stroke-width="0.8" fill="none" stroke-opacity="0.6"/>
+</svg>

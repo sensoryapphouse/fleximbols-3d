@@ -1,0 +1,54 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,6.400) scale(0.8)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ovenBody" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#606870"/>
+ <stop offset="100%" stop-color="#202428"/>
+ </linearGradient>
+ <linearGradient id="ovenDoor" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#505860"/>
+ <stop offset="100%" stop-color="#181C20"/>
+ </linearGradient>
+ <linearGradient id="ovenGlass" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#A8B8C8" stop-opacity="0.7"/>
+ <stop offset="100%" stop-color="#505868" stop-opacity="0.85"/>
+ </linearGradient>
+ <linearGradient id="ovenGlow" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FF8820"/>
+ <stop offset="100%" stop-color="#C04000"/>
+ </linearGradient>
+ </defs>
+ <!-- Oven body -->
+ 
+ <!-- Control panel top -->
+ <rect x="3" y="3" width="26" height="6" rx="2" fill="#404850"/>
+ <!-- Digital display -->
+ <rect x="11" y="4.5" width="10" height="3" rx="0.8" fill="#20A080"/>
+ <rect x="12" y="5" width="3" height="2" rx="0.3" fill="#60F0C0" fill-opacity="0.7"/>
+ <rect x="16" y="5" width="3" height="2" rx="0.3" fill="#60F0C0" fill-opacity="0.7"/>
+ <!-- Knobs -->
+ <circle cx="6" cy="6" r="1.5" fill="#606870"/>
+ <circle cx="6" cy="6" r="0.8" fill="#808898"/>
+ <line x1="6" y1="5" x2="6" y2="4.5" stroke="#FFFFFF" stroke-width="0.4"/>
+ <circle cx="26" cy="6" r="1.5" fill="#606870"/>
+ <circle cx="26" cy="6" r="0.8" fill="#808898"/>
+ <line x1="26" y1="5" x2="26" y2="4.5" stroke="#FFFFFF" stroke-width="0.4"/>
+ <!-- Oven door -->
+ <rect x="4" y="10" width="24" height="20" rx="1.5" fill="url(#ovenDoor)"/>
+ <!-- Glass window -->
+ <rect x="6" y="12" width="20" height="15" rx="1" fill="url(#ovenGlass)"/>
+ <!-- Inner glow (food baking) -->
+ <rect x="7" y="13" width="18" height="13" rx="0.5" fill="url(#ovenGlow)" fill-opacity="0.3"/>
+ <!-- Baking tray inside -->
+ <rect x="8" y="20" width="16" height="3" rx="0.5" fill="#B08838"/>
+ <!-- Cookies on tray -->
+ <circle cx="11" cy="21.5" r="1.2" fill="#C89040"/>
+ <circle cx="14.5" cy="21.5" r="1.2" fill="#C89040"/>
+ <circle cx="18" cy="21.5" r="1.2" fill="#C89040"/>
+ <circle cx="21.5" cy="21.5" r="1.2" fill="#C89040"/>
+ <!-- Oven rack lines -->
+ <line x1="7" y1="17" x2="25" y2="17" stroke="#909098" stroke-width="0.5"/>
+ <line x1="7" y1="23" x2="25" y2="23" stroke="#909098" stroke-width="0.4"/>
+ <!-- Door handle -->
+ <rect x="10" y="28.5" width="12" height="1.5" rx="0.7" fill="#909098"/>
+ <rect x="11" y="28.7" width="10" height="0.8" rx="0.3" fill="#B0B8C0" fill-opacity="0.5"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2469" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2469)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

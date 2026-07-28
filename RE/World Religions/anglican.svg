@@ -1,0 +1,16 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<radialGradient id="stone" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#E0D4B0"/><stop offset="100%" stop-color="#8C7848"/></radialGradient>
+<radialGradient id="roof" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#9A6A40"/><stop offset="100%" stop-color="#4A2E14"/></radialGradient>
+<radialGradient id="door" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#6A4828"/><stop offset="100%" stop-color="#2E1A0A"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="40%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="6" y="14" width="20" height="14" fill="url(#stone)"/>
+<rect x="6" y="14" width="20" height="2" fill="url(#hi)" opacity="0.6"/>
+<rect x="14" y="6" width="4" height="10" fill="url(#stone)"/>
+<path d="M14 6 L18 6 L20 4 L12 4 Z" fill="url(#roof)"/>
+<path d="M16 1 L16 4 M14.5 2.5 L17.5 2.5" stroke="url(#roof)" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M14 14 L18 14 L20 11 L12 11 Z" fill="url(#roof)"/>
+<path d="M15 19 Q15 17 16 17 Q17 17 17 19 L17 25 L15 25 Z" fill="url(#door)"/>
+<rect x="9" y="18" width="3" height="4" rx="1.5" fill="url(#door)" opacity="0.8"/>
+<rect x="20" y="18" width="3" height="4" rx="1.5" fill="url(#door)" opacity="0.8"/>
+<path d="M16 22 L16 25 M14.5 23.5 L17.5 23.5" stroke="url(#stone)" stroke-width="0.4"/></svg>

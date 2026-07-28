@@ -1,0 +1,51 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bbqBody" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#505050"/>
+ <stop offset="100%" stop-color="#202020"/>
+ </linearGradient>
+ <linearGradient id="bbqLid" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#404040"/>
+ <stop offset="100%" stop-color="#181818"/>
+ </linearGradient>
+ <linearGradient id="coals" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FF5010"/>
+ <stop offset="100%" stop-color="#C01000"/>
+ </linearGradient>
+ <linearGradient id="flame" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#FFCC00"/>
+ <stop offset="50%" stop-color="#FF6000"/>
+ <stop offset="100%" stop-color="#C01000"/>
+ </linearGradient>
+ </defs>
+ <!-- Legs -->
+ <line x1="10" y1="24" x2="8" y2="31" stroke="#383838" stroke-width="1.2"/>
+ <line x1="22" y1="24" x2="24" y2="31" stroke="#383838" stroke-width="1.2"/>
+ <!-- Cross brace -->
+ <line x1="9" y1="28" x2="23" y2="28" stroke="#383838" stroke-width="0.8"/>
+ <!-- Shelf on brace -->
+ <rect x="9.5" y="27.5" width="13" height="1" rx="0.3" fill="#404040"/>
+ <!-- Bowl / kettle body -->
+ 
+ <!-- Glowing coals inside -->
+ <ellipse cx="16" cy="24" rx="7" ry="1.5" fill="url(#coals)"/>
+ <ellipse cx="16" cy="24" rx="5" ry="1" fill="#FF8020" fill-opacity="0.7"/>
+ <!-- Grill rack lines -->
+ <line x1="9" y1="21" x2="23" y2="21" stroke="#A0A0A0" stroke-width="0.7"/>
+ <line x1="9" y1="22.5" x2="23" y2="22.5" stroke="#A0A0A0" stroke-width="0.7"/>
+ <line x1="11" y1="20" x2="11" y2="24" stroke="#A0A0A0" stroke-width="0.5"/>
+ <line x1="14" y1="20" x2="14" y2="24" stroke="#A0A0A0" stroke-width="0.5"/>
+ <line x1="17" y1="20" x2="17" y2="24" stroke="#A0A0A0" stroke-width="0.5"/>
+ <line x1="20" y1="20" x2="20" y2="24" stroke="#A0A0A0" stroke-width="0.5"/>
+ <!-- Sausages on grill -->
+ <ellipse cx="12" cy="21.5" rx="2.5" ry="0.8" fill="#A04820" transform="rotate(-10,12,21.5)"/>
+ <ellipse cx="17" cy="21.2" rx="2.5" ry="0.8" fill="#A04820" transform="rotate(8,17,21.2)"/>
+ <ellipse cx="21.5" cy="21.8" rx="2" ry="0.7" fill="#A04820" transform="rotate(-12,21.5,21.8)"/>
+ <!-- Lid (lifted off to the side) -->
+ <path d="M16 10 Q10 10 8 13 Q6 15.5 6 18 L26 18 Q26 15.5 24 13 Q22 10 16 10 Z" fill="url(#bbqLid)"/>
+ <!-- Lid knob -->
+ <circle cx="16" cy="10" r="1.5" fill="#505050"/>
+ <circle cx="16" cy="10" r="0.8" fill="#707070"/>
+ <!-- Flames above coals -->
+ <path d="M13 20 Q13.5 17 15 18.5 Q15 16 16 17 Q17 15.5 17 17.5 Q18.5 16 18.5 18.5 Q20 17 19.5 19 Q18 17.5 16 19 Q14 17 13 20Z" fill="url(#flame)" fill-opacity="0.85"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="hambody" cx="35%" cy="35%" r="65%">
+ <stop offset="0%" stop-color="#ffaaaa"/>
+ <stop offset="50%" stop-color="#ee7788"/>
+ <stop offset="100%" stop-color="#bb3355"/>
+</radialGradient>
+<radialGradient id="hamfat" cx="40%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#ffeedd"/>
+ <stop offset="100%" stop-color="#ddbbaa"/>
+</radialGradient>
+</defs>
+<!-- Ham slice oval -->
+<ellipse cx="16" cy="18" rx="12" ry="10" fill="url(#hambody)"/>
+<!-- Fat ring edge -->
+<ellipse cx="16" cy="18" rx="12" ry="10" fill="none" stroke="url(#hamfat)" stroke-width="3"/>
+<!-- Bone hole -->
+<circle cx="10" cy="15" r="2.5" fill="#ddbbaa"/>
+<circle cx="10" cy="15" r="1.5" fill="#cc9977"/>
+<!-- Grain texture -->
+<path d="M12 13 Q16 12 20 13 M11 17 Q16 16 21 17 M12 21 Q16 20 20 21" stroke="#bb3355" stroke-width="0.3" stroke-opacity="0.3" fill="none"/>
+<!-- Shine -->
+<ellipse cx="12" cy="13" rx="3" ry="2.5" fill="white" fill-opacity="0.3"/>
+</svg>

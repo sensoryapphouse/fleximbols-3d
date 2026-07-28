@@ -1,0 +1,39 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="mg_sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfeafd"/>
+      <stop offset="1" stop-color="#ffe9c2"/>
+    </linearGradient>
+    <radialGradient id="mg_sun" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset="0.55" stop-color="#ffce3a"/>
+      <stop offset="1" stop-color="#f59a1e"/>
+    </radialGradient>
+    <linearGradient id="mg_ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6bbf59"/>
+      <stop offset="1" stop-color="#3e8b35"/>
+    </linearGradient>
+  </defs>
+  <!-- sky panel -->
+  <rect x="3" y="4.5" width="26" height="23" rx="2.4" fill="url(#mg_sky)" stroke="#c8b48a" stroke-width="0.6"/>
+  <!-- rays -->
+  <g stroke="#f7b733" stroke-width="0.9" stroke-linecap="round">
+    <path d="M16 7.0 L16 9.6"/>
+    <path d="M9.6 9.0 L11.1 11.0"/>
+    <path d="M22.4 9.0 L20.9 11.0"/>
+    <path d="M6.6 13.4 L9.0 14.2"/>
+    <path d="M25.4 13.4 L23.0 14.2"/>
+    <path d="M12.4 7.7 L13.2 10.0"/>
+    <path d="M19.6 7.7 L18.8 10.0"/>
+  </g>
+  <!-- horizon ground -->
+  <path d="M3 20.6 L29 20.6 L29 25.1 Q29 27.5 26.6 27.5 L5.4 27.5 Q3 27.5 3 25.1 Z" fill="url(#mg_ground)" stroke="#357a2d" stroke-width="0.5"/>
+  <!-- sun (rising, half behind horizon) -->
+  <circle cx="16" cy="20.6" r="5.4" fill="url(#mg_sun)" stroke="#e08c12" stroke-width="0.5"/>
+  <!-- sun highlight -->
+  <ellipse cx="13.8" cy="17.8" rx="1.6" ry="1.1" fill="#fff6cf" opacity="0.7"/>
+  <!-- horizon line over sun base -->
+  <rect x="3" y="20.2" width="26" height="0.9" fill="#357a2d"/>
+  <!-- little hill highlight -->
+  <path d="M5 22.4 Q12 21.2 16 22.0" stroke="#86d173" stroke-width="0.5" fill="none" opacity="0.7"/>
+</svg>

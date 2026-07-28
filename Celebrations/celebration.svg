@@ -1,0 +1,44 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<!-- Night sky bg -->
+<rect x="0" y="0" width="32" height="22" fill="#0f172a" rx="2"/>
+<!-- Firework 1 (left) -->
+<circle cx="8" cy="7" r="1" fill="#f59e0b"/>
+<path d="M8 7 L5 3" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M8 7 L11 3" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M8 7 L4 8" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M8 7 L12 8" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M8 7 L6 11" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M8 7 L10 11" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M8 7 L8 2" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M8 7 L8 12" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+<!-- Firework 2 (center) -->
+<circle cx="16" cy="5" r="1.2" fill="#ec4899"/>
+<path d="M16 5 L13 1" stroke="#ec4899" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M16 5 L19 1" stroke="#ec4899" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M16 5 L12 5.5" stroke="#ec4899" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M16 5 L20 5.5" stroke="#ec4899" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M16 5 L13.5 9" stroke="#ec4899" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M16 5 L18.5 9" stroke="#ec4899" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M16 5 L16 0" stroke="#ec4899" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M16 5 L16 10" stroke="#ec4899" stroke-width="1.3" stroke-linecap="round"/>
+<!-- Firework 3 (right) -->
+<circle cx="24" cy="7" r="1" fill="#60a5fa"/>
+<path d="M24 7 L21 3" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M24 7 L27 3" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M24 7 L20 8" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M24 7 L28 8" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M24 7 L22 11" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M24 7 L26 11" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M24 7 L24 2" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round"/>
+<!-- Party poppers (bottom) -->
+<path d="M4 28 L12 20" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M12 20 L14 18 L16 20" fill="#f59e0b"/>
+<path d="M28 28 L20 20" stroke="#ec4899" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M20 20 L18 18 L16 20" fill="#ec4899"/>
+<!-- Confetti -->
+<rect x="9" y="14" width="2" height="1" rx="0.3" fill="#fbbf24" transform="rotate(-20 9 14)"/>
+<rect x="14" y="16" width="1.5" height="1" rx="0.3" fill="#34d399" transform="rotate(15 14 16)"/>
+<rect x="19" y="14" width="2" height="1" rx="0.3" fill="#f472b6" transform="rotate(25 19 14)"/>
+<rect x="22" y="17" width="1.5" height="1" rx="0.3" fill="#60a5fa" transform="rotate(-10 22 17)"/>
+<rect x="6" y="18" width="1.5" height="1" rx="0.3" fill="#a78bfa" transform="rotate(30 6 18)"/>
+</svg>

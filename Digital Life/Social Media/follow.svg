@@ -1,0 +1,78 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="sk" cx="45%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FFE0BD"/>
+ <stop offset="100%" stop-color="#D49D7A"/>
+ </radialGradient>
+ <linearGradient id="hr" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#5C3018"/>
+ <stop offset="100%" stop-color="#2A1408"/>
+ </linearGradient>
+ <linearGradient id="top1" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FF8B3D"/>
+ <stop offset="100%" stop-color="#E54A1E"/>
+ </linearGradient>
+ <linearGradient id="top2" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#5CC8D0"/>
+ <stop offset="100%" stop-color="#1F8A93"/>
+ </linearGradient>
+ <linearGradient id="leg" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#4A6FA5"/>
+ <stop offset="100%" stop-color="#1E3A6E"/>
+ </linearGradient>
+ </defs>
+ <!-- DOTTED FOOTPRINT TRAIL (left to right) -->
+ <ellipse cx="3" cy="30" rx="1" ry="0.5" fill="#D49D7A" fill-opacity="0.3"/>
+ <ellipse cx="5" cy="29.5" rx="1" ry="0.5" fill="#D49D7A" fill-opacity="0.3"/>
+ <ellipse cx="9" cy="29.5" rx="1" ry="0.5" fill="#D49D7A" fill-opacity="0.35"/>
+ <ellipse cx="11" cy="30" rx="1" ry="0.5" fill="#D49D7A" fill-opacity="0.35"/>
+ <ellipse cx="19" cy="29.5" rx="1" ry="0.5" fill="#D49D7A" fill-opacity="0.4"/>
+ <ellipse cx="21" cy="30" rx="1" ry="0.5" fill="#D49D7A" fill-opacity="0.4"/>
+ <!-- === FRONT FIGURE: LEADER (orange, looking forward, mid-stride right) === -->
+ <!-- Stride: left leg forward, right leg back -->
+ <path d="M20 23 Q18.5 27 18 30.5" fill="none" stroke="url(#leg)" stroke-width="2.5" stroke-linecap="round"/>
+ <path d="M22.5 23 Q24 27 24.5 30" fill="none" stroke="url(#leg)" stroke-width="2.5" stroke-linecap="round"/>
+ <ellipse cx="18" cy="30.6" rx="1.5" ry="0.7" fill="url(#hr)"/>
+ <ellipse cx="24.5" cy="30.2" rx="1.5" ry="0.7" fill="url(#hr)"/>
+ <!-- Torso -->
+ <ellipse cx="21" cy="19" rx="2.9" ry="4.2" fill="url(#top1)" filter="url(#sh)"/>
+ <rect x="20.2" y="13.5" width="1.5" height="2.2" rx="0.7" fill="url(#sk)"/>
+ <!-- Head looking FORWARD (right) -->
+ <circle cx="21.5" cy="11.3" r="3" fill="url(#sk)" filter="url(#sh)"/>
+ <ellipse cx="21.5" cy="9.4" rx="3" ry="1.6" fill="url(#hr)"/>
+ <!-- Eyes looking right/forward -->
+ <circle cx="20.7" cy="11.1" r="0.5" fill="#1a2040"/>
+ <circle cx="22.5" cy="11.1" r="0.5" fill="#1a2040"/>
+ <circle cx="20.85" cy="10.95" r="0.18" fill="#fff"/>
+ <circle cx="22.65" cy="10.95" r="0.18" fill="#fff"/>
+ <path d="M20.7 12.2 Q21.5 12.7 22.3 12.2" stroke="#C47A55" stroke-width="0.33" fill="none" stroke-linecap="round"/>
+ <!-- Arms mid-swing -->
+ <path d="M18.5 17 Q16.5 20 17 22" stroke="url(#sk)" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <ellipse cx="17.1" cy="22.2" rx="1.2" ry="0.8" fill="url(#sk)"/>
+ <path d="M23.5 17 Q25.5 20 25 22" stroke="url(#sk)" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <ellipse cx="24.9" cy="22.2" rx="1.2" ry="0.8" fill="url(#sk)"/>
+ <!-- === BACK FIGURE: FOLLOWER (teal, GAZE ON LEADER'S BACK, mid-stride, slightly smaller) === -->
+ <path d="M7 24 Q5.5 27.5 5 30.5" fill="none" stroke="url(#leg)" stroke-width="2.3" stroke-linecap="round"/>
+ <path d="M9.5 24 Q11 27.5 11.5 30" fill="none" stroke="url(#leg)" stroke-width="2.3" stroke-linecap="round"/>
+ <ellipse cx="5" cy="30.6" rx="1.4" ry="0.65" fill="url(#hr)"/>
+ <ellipse cx="11.5" cy="30.2" rx="1.4" ry="0.65" fill="url(#hr)"/>
+ <!-- Torso -->
+ <ellipse cx="8.5" cy="19.5" rx="2.6" ry="3.8" fill="url(#top2)" filter="url(#sh)"/>
+ <rect x="7.7" y="14.2" width="1.4" height="2" rx="0.7" fill="url(#sk)"/>
+ <!-- Head — turned to look at leader's BACK (right direction with slight upward gaze) -->
+ <circle cx="9" cy="12.2" r="2.7" fill="url(#sk)" filter="url(#sh)"/>
+ <ellipse cx="9" cy="10.4" rx="2.7" ry="1.5" fill="url(#hr)"/>
+ <!-- Eyes: both looking RIGHT toward leader -->
+ <circle cx="8.2" cy="12" r="0.5" fill="#1a2040"/>
+ <circle cx="10" cy="12" r="0.5" fill="#1a2040"/>
+ <circle cx="8.35" cy="11.85" r="0.18" fill="#fff"/>
+ <circle cx="10.15" cy="11.85" r="0.18" fill="#fff"/>
+ <path d="M8.2 13.1 Q9 13.5 9.8 13.1" stroke="#C47A55" stroke-width="0.3" fill="none" stroke-linecap="round"/>
+ <!-- EYE-LINE indicator: dashed line from follower's eyes to leader's back -->
+ <line x1="11" y1="12" x2="18.5" y2="14" stroke="#FF8B3D" stroke-width="0.35" stroke-dasharray="0.8,0.8" stroke-opacity="0.5"/>
+ <!-- Arms mid-swing (opposite stride from leader) -->
+ <path d="M10.5 17.5 Q12.5 20.5 12 22.5" stroke="url(#sk)" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+ <ellipse cx="11.9" cy="22.7" rx="1.1" ry="0.75" fill="url(#sk)"/>
+ <path d="M6.5 17.5 Q4.5 20.5 5 22.5" stroke="url(#sk)" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+ <ellipse cx="5.1" cy="22.7" rx="1.1" ry="0.75" fill="url(#sk)"/>
+</svg>

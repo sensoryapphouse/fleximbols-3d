@@ -1,0 +1,61 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="chm_body" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#66BB6A"/>
+ <stop offset="100%" stop-color="#2E7D32"/>
+ </linearGradient>
+ <linearGradient id="chm_patch1" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FF8F00"/>
+ <stop offset="100%" stop-color="#E65100"/>
+ </linearGradient>
+ <linearGradient id="chm_patch2" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#9C27B0"/>
+ <stop offset="100%" stop-color="#4A148C"/>
+ </linearGradient>
+ <linearGradient id="chm_branch" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#8D6E63"/>
+ <stop offset="100%" stop-color="#4E342E"/>
+ </linearGradient>
+ <linearGradient id="chm_tail" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#4CAF50"/>
+ <stop offset="100%" stop-color="#1B5E20"/>
+ </linearGradient>
+ <radialGradient id="chm_eye" cx="35%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FFF176"/>
+ <stop offset="100%" stop-color="#F9A825"/>
+ </radialGradient>
+ </defs>
+ <!-- Drop shadow -->
+ <!-- Branch -->
+ <path d="M2 28 Q10 26 20 27 Q26 27.5 30 26" stroke="url(#chm_branch)" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <!-- Coiled prehensile tail -->
+ <path d="M22 20 Q25 18 27 20 Q29 22 27 24 Q25 26 24 27" stroke="url(#chm_tail)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <!-- Body -->
+ <path d="M8 18 Q8 14 12 12 Q18 10 22 14 Q24 17 22 20 Q20 24 15 25 Q10 25 8 22 Q7 20 8 18 Z" fill="url(#chm_body)"/>
+ <!-- Colour patches -->
+ <ellipse cx="13" cy="16" rx="3" ry="2.5" fill="url(#chm_patch1)" fill-opacity="0.7"/>
+ <ellipse cx="19" cy="18" rx="2.5" ry="2" fill="url(#chm_patch2)" fill-opacity="0.6"/>
+ <!-- Casque/crest on head -->
+ <path d="M8 14 Q9 10 11 9 Q13 8 14 10 Q12 13 8 14 Z" fill="#388E3C"/>
+ <!-- Dorsal crest spikes -->
+ <path d="M12 11 Q13 9 13 11" stroke="#2E7D32" stroke-width="0.5" fill="none"/>
+ <path d="M14 10.5 Q15 8.5 15 10.5" stroke="#2E7D32" stroke-width="0.5" fill="none"/>
+ <path d="M16 11 Q17 9 17 11" stroke="#2E7D32" stroke-width="0.5" fill="none"/>
+ <path d="M18 12 Q19 10 19 12" stroke="#2E7D32" stroke-width="0.5" fill="none"/>
+ <!-- Head -->
+ <ellipse cx="9" cy="15.5" rx="5" ry="4.5" fill="url(#chm_body)"/>
+ <!-- Eye (large, bulging, turret) -->
+ <circle cx="8.5" cy="14.5" r="3" fill="url(#chm_eye)"/>
+ <circle cx="8.5" cy="14.5" r="2" fill="#4CAF50"/>
+ <circle cx="8.5" cy="14.5" r="1" fill="#1a2a4a"/>
+ <circle cx="8" cy="14" r="0.5" fill="white" fill-opacity="0.9"/>
+ <!-- Eye outer ring -->
+ <circle cx="8.5" cy="14.5" r="3" fill="none" stroke="#2E7D32" stroke-width="0.5"/>
+ <!-- Feet gripping branch (zygodactyl) -->
+ <path d="M13 25 Q11 27 9 28 Q11 28.5 13 27.5" fill="url(#chm_body)"/>
+ <path d="M13 25 Q13 27.5 14 28.5 Q15 28 14.5 27" fill="url(#chm_body)"/>
+ <path d="M19 24 Q17 26.5 16 27.5 Q17.5 28 18 27" fill="url(#chm_body)"/>
+ <path d="M19 24 Q20 26.5 20.5 27.5 Q22 27 21 26" fill="url(#chm_body)"/>
+ <!-- Throat pouch -->
+ <path d="M6 18 Q5 20 6 22 Q7 21 7 18 Z" fill="#388E3C" fill-opacity="0.6"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl318" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl318)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

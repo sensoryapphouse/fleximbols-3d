@@ -1,0 +1,49 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="parkaBody" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#4A6B3A"/>
+ <stop offset="100%" stop-color="#1E3018"/>
+ </linearGradient>
+ <linearGradient id="parkaHood" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#5A7B4A"/>
+ <stop offset="100%" stop-color="#2E4A22"/>
+ </linearGradient>
+ <linearGradient id="furGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#D4B896"/>
+ <stop offset="50%" stop-color="#F0D8B8"/>
+ <stop offset="100%" stop-color="#C0A07A"/>
+ </linearGradient>
+ <linearGradient id="quiltGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#5A7B4A"/>
+ <stop offset="100%" stop-color="#3A5A2A"/>
+ </linearGradient>
+ </defs>
+ <!-- Body long coat -->
+ 
+ <!-- Quilt lines horizontal -->
+ <line x1="5" y1="18" x2="27" y2="18" stroke="#2E4A22" stroke-width="0.5" opacity="0.7"/>
+ <line x1="5" y1="21" x2="27" y2="21" stroke="#2E4A22" stroke-width="0.5" opacity="0.7"/>
+ <line x1="5" y1="24" x2="27" y2="24" stroke="#2E4A22" stroke-width="0.5" opacity="0.7"/>
+ <line x1="5" y1="27" x2="27" y2="27" stroke="#2E4A22" stroke-width="0.5" opacity="0.7"/>
+ <!-- Quilt lines vertical alternating -->
+ <line x1="10" y1="18" x2="10" y2="30" stroke="#2E4A22" stroke-width="0.4" opacity="0.5"/>
+ <line x1="16" y1="13" x2="16" y2="30" stroke="#2E4A22" stroke-width="0.4" opacity="0.5"/>
+ <line x1="22" y1="18" x2="22" y2="30" stroke="#2E4A22" stroke-width="0.4" opacity="0.5"/>
+ <!-- Hood -->
+ <path d="M9 13 Q8 7 11 5 Q16 3 21 5 Q24 7 23 13 Z" fill="url(#parkaHood)"/>
+ <!-- Fur trim on hood -->
+ <path d="M9 13 Q10 10 12 9 Q16 8 20 9 Q22 10 23 13 Q20 12.5 16 12.5 Q12 12.5 9 13 Z" fill="url(#furGrad)"/>
+ <!-- Fur texture bumps -->
+ <path d="M10 12.5 Q11 11.5 12 12.5 Q13 11.5 14 12.5 Q15 11.5 16 12.5 Q17 11.5 18 12.5 Q19 11.5 20 12.5 Q21 11.5 22 12.5" fill="none" stroke="#C0A07A" stroke-width="0.4"/>
+ <!-- Left sleeve -->
+ <path d="M5 16 L1 20 L2 28 L5 27 L6 18 Z" fill="url(#parkaBody)"/>
+ <!-- Right sleeve -->
+ <path d="M27 16 L31 20 L30 28 L27 27 L26 18 Z" fill="url(#parkaBody)"/>
+ <!-- Toggle fasteners -->
+ <rect x="14.5" y="16" width="3" height="1" rx="0.4" fill="#8B6A40"/>
+ <rect x="14.5" y="19.5" width="3" height="1" rx="0.4" fill="#8B6A40"/>
+ <rect x="14.5" y="23" width="3" height="1" rx="0.4" fill="#8B6A40"/>
+ <!-- Pockets -->
+ <rect x="6" y="22" width="6" height="4" rx="0.8" fill="#2E4A22" fill-opacity="0.7"/>
+ <rect x="20" y="22" width="6" height="4" rx="0.8" fill="#2E4A22" fill-opacity="0.7"/>
+</svg>

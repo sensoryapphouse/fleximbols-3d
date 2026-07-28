@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="dy-cover" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#8b2020"/>
+ <stop offset="100%" stop-color="#4a0808"/>
+ </linearGradient>
+ <linearGradient id="dy-spine" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#6a1010"/>
+ <stop offset="100%" stop-color="#3a0808"/>
+ </linearGradient>
+ <linearGradient id="dy-pages" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#f0e8d0"/>
+ <stop offset="100%" stop-color="#e0d0b0"/>
+ </linearGradient>
+ <linearGradient id="dy-strap" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#4040e0"/>
+ <stop offset="100%" stop-color="#2020a0"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- book pages edge -->
+ <rect x="22" y="4" width="4" height="25" rx="0.5" fill="url(#dy-pages)"/>
+ <!-- cover -->
+ <rect x="6" y="3" width="18" height="27" rx="1.5" fill="url(#dy-cover)"/>
+ <!-- spine -->
+ <rect x="6" y="3" width="3" height="27" rx="1" fill="url(#dy-spine)"/>
+ <!-- cover highlight -->
+ <rect x="7" y="3" width="15" height="3" rx="1.5" fill="white" fill-opacity="0.12"/>
+ <!-- elastic strap -->
+ <path d="M7 16 Q16 16 25 16" stroke="url(#dy-strap)" stroke-width="1.5" fill="none"/>
+ <!-- strap closure knot at right -->
+ <circle cx="25" cy="16" r="1" fill="#3030c0"/>
+ <!-- date lines on cover -->
+ <line x1="10" y1="10" x2="21" y2="10" stroke="#6a1010" stroke-width="0.6" stroke-opacity="0.5"/>
+ <line x1="10" y1="13" x2="21" y2="13" stroke="#6a1010" stroke-width="0.6" stroke-opacity="0.5"/>
+ <!-- small decorative border on cover -->
+ <rect x="9" y="6" width="13" height="8" rx="0.5" fill="none" stroke="#c04040" stroke-width="0.5" stroke-opacity="0.4"/>
+</svg>

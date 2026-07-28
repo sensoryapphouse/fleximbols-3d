@@ -1,0 +1,57 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="nwt_back" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5D4037"/>
+ <stop offset="100%" stop-color="#2E1503"/>
+ </linearGradient>
+ <linearGradient id="nwt_belly" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FF7043"/>
+ <stop offset="100%" stop-color="#BF360C"/>
+ </linearGradient>
+ <linearGradient id="nwt_water" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#4FC3F7"/>
+ <stop offset="100%" stop-color="#0288D1"/>
+ </linearGradient>
+ </defs>
+ <!-- Water surface -->
+ <path d="M1 22 Q5 20 9 22 Q13 24 17 22 Q21 20 25 22 Q29 24 32 22 L32 32 L1 32 Z" fill="url(#nwt_water)" fill-opacity="0.5"/>
+ <!-- Water shimmer -->
+ <path d="M2 22 Q8 21 14 22.5 Q20 24 28 22" stroke="white" stroke-width="0.5" fill="none" stroke-opacity="0.4"/>
+ <!-- Drop shadow -->
+ <!-- Tail (long) -->
+ <path d="M26 18 Q30 17 32 20 Q31 23 29 22 Q27 21 26 20" stroke="url(#nwt_back)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <!-- Tail flat fin -->
+ <path d="M26 18 Q30 15 32 18 Q30 19 26 20 Z" fill="url(#nwt_back)" fill-opacity="0.6"/>
+ <!-- Body -->
+ <path d="M6 20 Q6 16 10 14 Q16 12 22 14 Q26 16 26 20 Q26 24 22 25 Q16 26 10 25 Q6 24 6 20 Z" fill="url(#nwt_back)"/>
+ <!-- Belly (orange, partially submerged) -->
+ <path d="M8 23 Q14 26 22 24" stroke="url(#nwt_belly)" stroke-width="2.5" fill="none" stroke-opacity="0.7"/>
+ <!-- Orange stripe along side -->
+ <path d="M8 20 Q16 18.5 24 20" stroke="#FF8A65" stroke-width="0.8" fill="none" stroke-opacity="0.5"/>
+ <!-- Dorsal ridge -->
+ <path d="M10 14 Q16 12 22 14" stroke="#3E2723" stroke-width="0.5" fill="none"/>
+ <!-- Head -->
+ <ellipse cx="7" cy="19.5" rx="4.5" ry="3.5" fill="url(#nwt_back)"/>
+ <!-- Eye -->
+ <circle cx="6.5" cy="18" r="1.5" fill="#1a2a4a"/>
+ <circle cx="6.5" cy="18" r="0.8" fill="#FF8F00"/>
+ <circle cx="6.5" cy="18" r="0.4" fill="#1a2a4a"/>
+ <circle cx="6" cy="17.5" r="0.35" fill="white" fill-opacity="0.8"/>
+ <!-- Nostril -->
+ <ellipse cx="4.5" cy="19.5" rx="0.4" ry="0.3" fill="#3E2723"/>
+ <!-- Mouth -->
+ <path d="M3.5 21 Q5.5 22 7.5 21" stroke="#3E2723" stroke-width="0.5" fill="none"/>
+ <!-- Front legs (short, splayed) -->
+ <path d="M9 23 Q8 25 7 27" stroke="url(#nwt_back)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <path d="M11 24 Q10 26 9 28" stroke="url(#nwt_back)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <!-- Back legs -->
+ <path d="M21 24 Q20 26 19 28" stroke="url(#nwt_back)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <path d="M23 23 Q23 25 22 27" stroke="url(#nwt_back)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <!-- Toes -->
+ <line x1="7" y1="27" x2="5.5" y2="28.5" stroke="#3E2723" stroke-width="0.6"/>
+ <line x1="7" y1="27" x2="7" y2="29" stroke="#3E2723" stroke-width="0.6"/>
+ <line x1="7" y1="27" x2="8.5" y2="28.5" stroke="#3E2723" stroke-width="0.6"/>
+ <line x1="19" y1="28" x2="17.5" y2="29.5" stroke="#3E2723" stroke-width="0.6"/>
+ <line x1="19" y1="28" x2="19" y2="30" stroke="#3E2723" stroke-width="0.6"/>
+ <line x1="19" y1="28" x2="20.5" y2="29.5" stroke="#3E2723" stroke-width="0.6"/>
+</svg>

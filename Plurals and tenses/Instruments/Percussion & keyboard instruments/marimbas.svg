@@ -1,0 +1,89 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,1.814) scale(0.9433)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Warm wood bar gradient -->
+ <linearGradient id="ma-bar" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FFD089"/>
+ <stop offset="50%" stop-color="#C58400"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <!-- Frame wood gradient -->
+ <linearGradient id="ma-frame" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <!-- Resonator tube gradient (metal) -->
+ <linearGradient id="ma-res" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#D0D4DA"/>
+ <stop offset="50%" stop-color="#9AA0AA"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <!-- Mallet soft head -->
+ <radialGradient id="ma-mallet" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FFD089"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </radialGradient>
+ </defs>
+
+ <!-- FRAME: horizontal rails -->
+ <!-- Top rail -->
+ <rect x="2" y="10" width="28" height="2" rx="0.8" fill="url(#ma-frame)"/>
+ <!-- Bottom rail -->
+ <rect x="2" y="18" width="28" height="2" rx="0.8" fill="url(#ma-frame)"/>
+ <!-- Leg posts -->
+ <rect x="3" y="20" width="1.5" height="10" rx="0.5" fill="url(#ma-frame)"/>
+ <rect x="10" y="20" width="1.5" height="10" rx="0.5" fill="url(#ma-frame)"/>
+ <rect x="20" y="20" width="1.5" height="10" rx="0.5" fill="url(#ma-frame)"/>
+ <rect x="27.5" y="20" width="1.5" height="10" rx="0.5" fill="url(#ma-frame)"/>
+
+ <!-- WOODEN BARS decreasing left to right -->
+ <!-- Bar 1 (longest) -->
+ <rect x="3.5" y="10.5" width="3" height="7.5" rx="0.6" fill="url(#ma-bar)"/>
+ <rect x="3.7" y="10.5" width="0.9" height="7.5" rx="0.3" fill="#FFE0A0" fill-opacity="0.4"/>
+
+ <!-- Bar 2 -->
+ <rect x="7.5" y="11" width="3" height="7" rx="0.6" fill="url(#ma-bar)"/>
+ <rect x="7.7" y="11" width="0.9" height="7" rx="0.3" fill="#FFE0A0" fill-opacity="0.4"/>
+
+ <!-- Bar 3 -->
+ <rect x="11.5" y="11.5" width="3" height="6.5" rx="0.6" fill="url(#ma-bar)"/>
+ <rect x="11.7" y="11.5" width="0.9" height="6.5" rx="0.3" fill="#FFE0A0" fill-opacity="0.4"/>
+
+ <!-- Bar 4 -->
+ <rect x="15.5" y="12" width="3" height="6" rx="0.6" fill="url(#ma-bar)"/>
+ <rect x="15.7" y="12" width="0.9" height="6" rx="0.3" fill="#FFE0A0" fill-opacity="0.4"/>
+
+ <!-- Bar 5 -->
+ <rect x="19.5" y="12.5" width="3" height="5.5" rx="0.6" fill="url(#ma-bar)"/>
+ <rect x="19.7" y="12.5" width="0.9" height="5.5" rx="0.3" fill="#FFE0A0" fill-opacity="0.4"/>
+
+ <!-- Bar 6 (shortest) -->
+ <rect x="23.5" y="13" width="3" height="5" rx="0.6" fill="url(#ma-bar)"/>
+ <rect x="23.7" y="13" width="0.9" height="5" rx="0.3" fill="#FFE0A0" fill-opacity="0.4"/>
+
+ <!-- RESONATOR TUBES below each bar (mandatory — distinguishes from xylophone) -->
+ <!-- Tubes hang below the bottom rail -->
+ <rect x="4.25" y="20" width="1.5" height="9" rx="0.7" fill="url(#ma-res)"/>
+ <ellipse cx="5" cy="20" rx="0.75" ry="0.4" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <rect x="8.25" y="20" width="1.5" height="7.5" rx="0.7" fill="url(#ma-res)"/>
+ <ellipse cx="9" cy="20" rx="0.75" ry="0.4" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <rect x="12.25" y="20" width="1.5" height="6.5" rx="0.7" fill="url(#ma-res)"/>
+ <ellipse cx="13" cy="20" rx="0.75" ry="0.4" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <rect x="16.25" y="20" width="1.5" height="5.5" rx="0.7" fill="url(#ma-res)"/>
+ <ellipse cx="17" cy="20" rx="0.75" ry="0.4" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <rect x="20.25" y="20" width="1.5" height="4.5" rx="0.7" fill="url(#ma-res)"/>
+ <ellipse cx="21" cy="20" rx="0.75" ry="0.4" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <rect x="24.25" y="20" width="1.5" height="3.5" rx="0.7" fill="url(#ma-res)"/>
+ <ellipse cx="25" cy="20" rx="0.75" ry="0.4" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <!-- TWO SOFT MALLETS (visible, with soft round heads) -->
+ <line x1="8" y1="2" x2="10" y2="10" stroke="#8B5C3A" stroke-width="0.8" stroke-linecap="round"/>
+ <circle cx="7.5" cy="1.5" r="1.8" fill="url(#ma-mallet)"/>
+
+ <line x1="22" y1="2" x2="20" y2="10" stroke="#8B5C3A" stroke-width="0.8" stroke-linecap="round"/>
+ <circle cx="22.5" cy="1.5" r="1.8" fill="url(#ma-mallet)"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2402" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2402)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

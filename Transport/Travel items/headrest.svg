@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <linearGradient id="seat3d" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#9aa6c8"/>
+  <stop offset="1" stop-color="#5f6b91"/>
+ </linearGradient>
+ <linearGradient id="rest3d" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#aab4d4"/>
+  <stop offset="1" stop-color="#6b779d"/>
+ </linearGradient>
+ <linearGradient id="post3d" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#9a9a9d"/>
+  <stop offset="0.5" stop-color="#d8d8db"/>
+  <stop offset="1" stop-color="#76767a"/>
+ </linearGradient>
+ <linearGradient id="arrow3d" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#ff5a5a"/>
+  <stop offset="1" stop-color="#d11"/>
+ </linearGradient>
+</defs>
+ <!-- car seat backrest -->
+ <path d="M7.5 13 Q7 9 10 8.6 L20 8.6 Q23 9 22.6 13 L22.6 21 L7.5 21 Z"
+       fill="url(#seat3d)" stroke="#33384a" stroke-width="0.7" stroke-linejoin="round"/>
+ <!-- side bolster shading -->
+ <path d="M7.5 13 Q7 9 10 8.6 L11.6 8.6 L11 21 L7.5 21 Z" fill="#4c567a" opacity="0.5"/>
+ <!-- seat base cushion -->
+ <path d="M6.8 21 L23.3 21 Q24.6 21 24.6 22.4 L24.6 25.5 Q24.6 26.6 23.3 26.6 L8.2 26.6 Q6.8 26.6 6.8 25 Z"
+       fill="url(#seat3d)" stroke="#33384a" stroke-width="0.7" stroke-linejoin="round"/>
+ <!-- stitched seam lines -->
+ <line x1="9.5" y1="11.5" x2="9.5" y2="20.4" stroke="#3a4258" stroke-width="0.4" stroke-dasharray="0.8,0.6"/>
+ <line x1="20.5" y1="11.5" x2="20.5" y2="20.4" stroke="#3a4258" stroke-width="0.4" stroke-dasharray="0.8,0.6"/>
+ <!-- headrest posts -->
+ <rect x="12.6" y="6.4" width="1.5" height="3.2" rx="0.4" fill="url(#post3d)" stroke="#5a5a5e" stroke-width="0.3"/>
+ <rect x="17.9" y="6.4" width="1.5" height="3.2" rx="0.4" fill="url(#post3d)" stroke="#5a5a5e" stroke-width="0.3"/>
+ <!-- headrest block -->
+ <rect x="10.6" y="3.0" width="10.8" height="4.4" rx="2" fill="url(#rest3d)" stroke="#33384a" stroke-width="0.7"/>
+ <ellipse cx="14" cy="4.4" rx="2.6" ry="0.9" fill="#ffffff" fill-opacity="0.25"/>
+ <!-- red arrow pointing at the headrest -->
+ <g>
+  <path d="M28.5 3.2 L22.6 5.0" stroke="url(#arrow3d)" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M24.2 3.2 L21.8 5.2 L24.8 5.6 Z" fill="url(#arrow3d)" stroke="#a00" stroke-width="0.3" stroke-linejoin="round"/>
+ </g>
+</svg>

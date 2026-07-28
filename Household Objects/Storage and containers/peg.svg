@@ -1,0 +1,31 @@
+<svg viewBox="0 0 512 512" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="pg_wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0c980"/>
+      <stop offset="0.5" stop-color="#d9a857"/>
+      <stop offset="1" stop-color="#b9863a"/>
+    </linearGradient>
+    <linearGradient id="pg_wood2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8bd72"/>
+      <stop offset="0.5" stop-color="#cf9c4c"/>
+      <stop offset="1" stop-color="#a8772f"/>
+    </linearGradient>
+    <linearGradient id="pg_metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe3e8"/>
+      <stop offset="0.5" stop-color="#9aa1ab"/>
+      <stop offset="1" stop-color="#6b727c"/>
+    </linearGradient>
+  </defs>
+  <!-- left wooden leg -->
+  <path d="M196 110 L196 380 C196 408 232 408 234 380 L246 200 L240 150 Z" fill="url(#pg_wood)" stroke="#8a6228" stroke-width="5"/>
+  <!-- right wooden leg -->
+  <path d="M316 110 L316 380 C316 408 280 408 278 380 L266 200 L272 150 Z" fill="url(#pg_wood2)" stroke="#8a6228" stroke-width="5"/>
+  <!-- gap notch hint between legs at top -->
+  <path d="M246 150 L266 150 L262 240 L250 240 Z" fill="#a8772f" opacity="0.4"/>
+  <!-- metal spring coil in the middle -->
+  <ellipse cx="256" cy="232" rx="46" ry="30" fill="none" stroke="url(#pg_metal)" stroke-width="14"/>
+  <ellipse cx="256" cy="232" rx="46" ry="30" fill="none" stroke="#5a616b" stroke-width="3"/>
+  <!-- spring legs poking up -->
+  <line x1="216" y1="218" x2="208" y2="150" stroke="url(#pg_metal)" stroke-width="9" stroke-linecap="round"/>
+  <line x1="296" y1="218" x2="304" y2="150" stroke="url(#pg_metal)" stroke-width="9" stroke-linecap="round"/>
+</svg>

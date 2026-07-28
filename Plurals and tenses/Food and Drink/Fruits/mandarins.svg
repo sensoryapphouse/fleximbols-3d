@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="e_fruit" cx="35%" cy="30%" r="65%">
+<stop offset="0%" stop-color="#ffd040"/>
+<stop offset="100%" stop-color="#ff7f00"/>
+</radialGradient>
+</defs>
+<!-- Woven basket -->
+<ellipse cx="16" cy="25" rx="11" ry="4.5" fill="#c8963c"/>
+<path d="M5 25 Q5 20 16 20 Q27 20 27 25" fill="#d4a843"/>
+<!-- Basket weave lines -->
+<path d="M7 21 L9 25" stroke="#a07025" stroke-width="0.8" opacity="0.7"/>
+<path d="M10 20.5 L11 25" stroke="#a07025" stroke-width="0.8" opacity="0.7"/>
+<path d="M13 20 L13.5 25" stroke="#a07025" stroke-width="0.8" opacity="0.7"/>
+<path d="M16 20 L16 25" stroke="#a07025" stroke-width="0.8" opacity="0.7"/>
+<path d="M19 20 L18.5 25" stroke="#a07025" stroke-width="0.8" opacity="0.7"/>
+<path d="M22 20.5 L21 25" stroke="#a07025" stroke-width="0.8" opacity="0.7"/>
+<path d="M25 21 L23 25" stroke="#a07025" stroke-width="0.8" opacity="0.7"/>
+<!-- Three mandarins -->
+<circle cx="11" cy="18" r="5.5" fill="url(#e_fruit)" filter="url(#e_shd)"/>
+<rect x="10.4" y="12.8" width="1.2" height="2" rx="0.6" fill="#3d6b38"/>
+<circle cx="21" cy="18" r="5.5" fill="url(#e_fruit)" filter="url(#e_shd)"/>
+<rect x="20.4" y="12.8" width="1.2" height="2" rx="0.6" fill="#3d6b38"/>
+<circle cx="16" cy="14" r="5" fill="url(#e_fruit)" filter="url(#e_shd)"/>
+<rect x="15.4" y="9.2" width="1.2" height="1.8" rx="0.6" fill="#3d6b38"/>
+<!-- Red ribbon -->
+<path d="M9 22 Q16 19 23 22" stroke="#dc2626" stroke-width="2.5" fill="none"/>
+<path d="M14 21 Q16 17.5 18 21" fill="#dc2626"/>
+<path d="M14 21 Q13 18 12 19 Q14 19.5 14 21Z" fill="#dc2626"/>
+<path d="M18 21 Q19 18 20 19 Q18 19.5 18 21Z" fill="#dc2626"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1241" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1241)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

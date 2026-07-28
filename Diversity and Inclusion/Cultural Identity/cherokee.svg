@@ -1,0 +1,23 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="star-g" cx="40%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#ff8040"/>
+ <stop offset="40%" stop-color="#c03010"/>
+ <stop offset="100%" stop-color="#6a0800"/>
+ </radialGradient>
+ <linearGradient id="gold-g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ffe97a"/>
+ <stop offset="50%" stop-color="#d4a017"/>
+ <stop offset="100%" stop-color="#8b6010"/>
+ </linearGradient>
+ </defs>
+ <!-- Seven-pointed star -->
+ <polygon points="16,3 18.1,9.7 24.9,9.7 19.4,13.7 21.5,20.4 16,16.4 10.5,20.4 12.6,13.7 7.1,9.7 13.9,9.7" fill="url(#star-g)"/>
+ <!-- 7-point star — redraw with 7 points using path -->
+ 
+ <!-- Gold outline border -->
+ <path d="M16 2.5 L17.6 7.8 L22.7 6.2 L19.8 10.6 L24.5 13.2 L19.5 13.8 L19.8 19.1 L16 15.8 L12.2 19.1 L12.5 13.8 L7.5 13.2 L12.2 10.6 L9.3 6.2 L14.4 7.8 Z" fill="none" stroke="url(#gold-g)" stroke-width="0.8"/>
+ <!-- Center circle gold -->
+ <circle cx="16" cy="11.5" r="3" fill="url(#gold-g)" fill-opacity="0.3"/>
+ <circle cx="16" cy="11.5" r="1.5" fill="url(#gold-g)" fill-opacity="0.6"/>
+</svg>

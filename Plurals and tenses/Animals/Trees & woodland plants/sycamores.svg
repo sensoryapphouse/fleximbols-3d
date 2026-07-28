@@ -1,0 +1,39 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,3.011) scale(0.9059)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sy-trunk" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#c0b090"/>
+ <stop offset="50%" stop-color="#a09070"/>
+ <stop offset="100%" stop-color="#706040"/>
+ </linearGradient>
+ <radialGradient id="sy-canopy" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#70c050"/>
+ <stop offset="100%" stop-color="#286018"/>
+ </radialGradient>
+ <linearGradient id="sy-seed" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#c0a860"/>
+ <stop offset="100%" stop-color="#806020"/>
+ </linearGradient>
+ </defs>
+ <!-- mottled bark trunk -->
+ <path d="M13 30 Q12 22 14 14 Q15 10 16 10 Q17 10 18 14 Q20 22 19 30 Z" fill="url(#sy-trunk)"/>
+ <!-- mottled bark patches (patchwork) -->
+ <circle cx="14" cy="24" r="1.5" fill="#d0c090" fill-opacity="0.6"/>
+ <circle cx="17" cy="20" r="1.2" fill="#909070" fill-opacity="0.6"/>
+ <circle cx="15" cy="16" r="1" fill="#d0c090" fill-opacity="0.6"/>
+ <!-- wide canopy -->
+ <circle cx="16" cy="13" r="11" fill="url(#sy-canopy)"/>
+ <!-- large 5-lobed leaves visible at canopy edge -->
+ <circle cx="7" cy="14" r="5" fill="#508030" fill-opacity="0.6"/>
+ <circle cx="25" cy="14" r="5" fill="#508030" fill-opacity="0.6"/>
+ <circle cx="16" cy="6" r="5" fill="#70c050" fill-opacity="0.5"/>
+ <!-- lobed leaf shapes -->
+ <path d="M8 17 Q6 15 8 13 Q10 15 8 17 Z" fill="#60a040" fill-opacity="0.7"/>
+ <path d="M24 16 Q26 14 24 12 Q22 14 24 16 Z" fill="#60a040" fill-opacity="0.7"/>
+ <!-- winged seeds (samaras) hanging -->
+ <path d="M11 20 Q9 22 10 24" stroke="url(#sy-seed)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <circle cx="10" cy="24" r="1" fill="url(#sy-seed)"/>
+ <path d="M21 20 Q23 22 22 24" stroke="url(#sy-seed)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <circle cx="22" cy="24" r="1" fill="url(#sy-seed)"/>
+ <!-- canopy highlight -->
+ <ellipse cx="12" cy="9" rx="4.5" ry="2.5" fill="white" fill-opacity="0.12"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl399" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl399)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="vin_body" cx="38%" cy="35%" r="65%"><stop offset="0%" stop-color="#e8f8ff" stop-opacity="0.90"/><stop offset="50%" stop-color="#b8d8ee" stop-opacity="0.80"/><stop offset="100%" stop-color="#7098b0" stop-opacity="0.90"/></radialGradient>
+ <radialGradient id="vin_stopper" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#8b4513"/><stop offset="100%" stop-color="#4a200a"/></radialGradient>
+ <radialGradient id="vin_shine" cx="28%" cy="22%" r="55%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+ </defs>
+ <ellipse cx="16" cy="23" rx="7" ry="8" fill="url(#vin_body)"/>
+ <path d="M9 19 Q9 14 12 13 L20 13 Q23 14 23 19 Z" fill="url(#vin_body)"/>
+ <rect x="13.5" y="8.5" width="5" height="5.5" rx="1" fill="url(#vin_stopper)"/>
+ <rect x="14" y="7" width="4" height="2" rx="1" fill="#6a300a"/>
+ <ellipse cx="11" cy="18" rx="2.5" ry="6" fill="url(#vin_shine)"/>
+ <ellipse cx="16" cy="22" rx="5" ry="6" fill="#c8f0ff" fill-opacity="0.18"/>
+</svg>

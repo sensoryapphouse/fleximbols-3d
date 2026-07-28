@@ -1,0 +1,26 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ec-pastry" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#e8c888"/>
+ <stop offset="100%" stop-color="#b88040"/>
+ </linearGradient>
+ <linearGradient id="ec-choc" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#4a2a10"/>
+ <stop offset="70%" stop-color="#2e1608"/>
+ <stop offset="100%" stop-color="#1a0c04"/>
+ </linearGradient>
+ <linearGradient id="ec-cream" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#fffbe8"/>
+ <stop offset="100%" stop-color="#f0e8c8"/>
+ </linearGradient>
+ </defs>
+ <!-- pastry base -->
+ <rect x="3" y="14" width="26" height="10" rx="3.5" fill="url(#ec-pastry)" filter="url(#ec-sh)"/>
+ <!-- cream sliver visible on side -->
+ <rect x="3.5" y="17.5" width="25" height="2.5" rx="1" fill="url(#ec-cream)"/>
+ <!-- chocolate glaze on top -->
+ <path d="M5 10 Q5 14 6 14 L26 14 Q27 14 27 10 Q26 8 16 8 Q6 8 5 10 Z" fill="url(#ec-choc)" filter="url(#ec-sh)"/>
+ <!-- glaze highlight -->
+ <path d="M8 9.5 Q12 8.5 20 9 Q22 9.2 24 10" stroke="#8a5030" stroke-width="0.5" fill="none" stroke-opacity="0.5"/>
+ <path d="M9 9.5 Q14 8.8 19 9.2" stroke="#fff" stroke-width="0.4" fill="none" stroke-opacity="0.3"/>
+</svg>

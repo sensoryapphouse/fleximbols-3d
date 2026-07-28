@@ -1,0 +1,22 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ep-body" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ffcc44"/>
+ <stop offset="60%" stop-color="#ee8800"/>
+ <stop offset="100%" stop-color="#c05500"/>
+ </linearGradient>
+ <linearGradient id="ep-top" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ffe066"/>
+ <stop offset="100%" stop-color="#dd9900"/>
+ </linearGradient>
+ </defs>
+ <!-- tapered cylinder body -->
+ <path d="M12 10 Q11 28 14 30 Q16 31 18 30 Q21 28 20 10 Z" fill="url(#ep-body)" filter="url(#ep-sh)"/>
+ <!-- rounded top (wider end) -->
+ <ellipse cx="16" cy="10" rx="4" ry="2.5" fill="url(#ep-top)"/>
+ <!-- highlight -->
+ <ellipse cx="14.5" cy="10" rx="1.5" ry="1" fill="#fff" fill-opacity="0.35"/>
+ <!-- soft crease lines -->
+ <path d="M12.5 16 Q16 16.5 19.5 16" stroke="#c06000" stroke-width="0.4" fill="none" stroke-opacity="0.5"/>
+ <path d="M12.8 21 Q16 21.5 19.2 21" stroke="#c06000" stroke-width="0.4" fill="none" stroke-opacity="0.5"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="body" cx="0.3" cy="0.3" r="0.85">
+ <stop offset="0" stop-color="#fff0a8"/>
+ <stop offset="0.55" stop-color="#e8a830"/>
+ <stop offset="1" stop-color="#5a3008"/>
+ </radialGradient>
+ <radialGradient id="base" cx="0.3" cy="0.3" r="0.85">
+ <stop offset="0" stop-color="#a8a8b8"/>
+ <stop offset="0.6" stop-color="#4a4a58"/>
+ <stop offset="1" stop-color="#0a0a18"/>
+ </radialGradient>
+ <radialGradient id="spool" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#ff90a8"/>
+ <stop offset="1" stop-color="#7a1030"/>
+ </radialGradient>
+ <radialGradient id="wheel" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#d0d0d8"/>
+ <stop offset="1" stop-color="#202028"/>
+ </radialGradient>
+ </defs>
+ 
+ <rect x="2" y="22" width="28" height="6" rx="1" fill="url(#base)"/>
+ <rect x="2" y="22" width="28" height="1" fill="#fff" opacity="0.25"/>
+ <!-- main body -->
+ <path d="M 4 22 L 4 12 Q 4 9 7 9 L 22 9 Q 25 9 25 12 L 25 14 L 28 14 L 28 22 Z" fill="url(#body)"/>
+ <!-- arm extends right -->
+ <rect x="22" y="9" width="6" height="5" rx="1" fill="url(#body)"/>
+ <!-- needle housing -->
+ <rect x="23" y="14" width="4" height="4" rx="0.4" fill="url(#base)"/>
+ <!-- needle -->
+ <line x1="25" y1="18" x2="25" y2="22" stroke="#e8e8f0" stroke-width="0.5"/>
+ <!-- presser foot -->
+ <path d="M 24 21 L 26 21 L 26 22 L 24 22 Z" fill="#a8a8b8"/>
+ <!-- handwheel right -->
+ <circle cx="6" cy="15" r="3" fill="url(#wheel)"/>
+ <circle cx="6" cy="15" r="0.8" fill="#444"/>
+ <circle cx="6" cy="15" r="0.3" fill="#ddd"/>
+ <!-- spool of thread on top -->
+ <rect x="12" y="4" width="2" height="5" fill="#7a4a10"/>
+ <ellipse cx="13" cy="4" rx="1.5" ry="0.5" fill="#7a4a10"/>
+ <rect x="11" y="5" width="4" height="3" fill="url(#spool)"/>
+ <ellipse cx="13" cy="5" rx="2" ry="0.5" fill="#ffb0c0"/>
+ <!-- thread line -->
+ <path d="M 13 8 Q 16 11 25 17" stroke="#ff6080" stroke-width="0.4" fill="none"/>
+ <!-- fabric on base -->
+ <rect x="10" y="22" width="14" height="2" rx="0.3" fill="#d0e8ff"/>
+ <line x1="13" y1="22.5" x2="22" y2="22.5" stroke="#fff" stroke-width="0.3" opacity="0.7"/>
+ <!-- highlights -->
+ <ellipse cx="9" cy="12" rx="3" ry="1" fill="#fff" opacity="0.35"/>
+</svg>

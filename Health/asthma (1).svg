@@ -1,0 +1,46 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="asLung" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3a0a8"/>
+      <stop offset="1" stop-color="#d96b76"/>
+    </linearGradient>
+    <linearGradient id="asInhBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fb3f0"/>
+      <stop offset="1" stop-color="#356bc0"/>
+    </linearGradient>
+    <linearGradient id="asInhCan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef2f5"/>
+      <stop offset="1" stop-color="#c2c9cf"/>
+    </linearGradient>
+  </defs>
+  <!-- trachea -->
+  <rect x="14.7" y="3.5" width="2.6" height="7" rx="1.3" fill="#e08a93"/>
+  <path d="M16 9.5 L11.5 12 M16 9.5 L20.5 12" stroke="#e08a93" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- left lung -->
+  <path d="M13.5 11 Q14.5 19 12 24 Q9 27 6.5 24 Q4.5 19 7 13.5 Q9 10.5 13.5 11 Z" fill="url(#asLung)" stroke="#c25661" stroke-width="0.5"/>
+  <!-- right lung -->
+  <path d="M18.5 11 Q17.5 19 20 24 Q23 27 25.5 24 Q27.5 19 25 13.5 Q23 10.5 18.5 11 Z" fill="url(#asLung)" stroke="#c25661" stroke-width="0.5"/>
+  <!-- bronchi detail -->
+  <g stroke="#b34c57" stroke-width="0.6" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M11.5 13 q-1.5 3 -1 6"/>
+    <path d="M20.5 13 q1.5 3 1 6"/>
+  </g>
+  <!-- gloss -->
+  <ellipse cx="9" cy="15" rx="1.6" ry="3" fill="#fff" opacity="0.25"/>
+  <ellipse cx="23" cy="15" rx="1.6" ry="3" fill="#fff" opacity="0.25"/>
+  <!-- inhaler (lower-right, overlapping) -->
+  <g transform="translate(20.5,18.5) rotate(18)">
+    <!-- canister -->
+    <rect x="-1.5" y="-6" width="3" height="5" rx="1.2" fill="url(#asInhCan)"/>
+    <!-- L-shaped body -->
+    <path d="M-2.5 -1 H2.5 V4.5 Q2.5 6 1 6 H-2.5 Q-4 6 -4 4.5 V0.5 Q-4 -1 -2.5 -1 Z" fill="url(#asInhBody)" stroke="#2b5596" stroke-width="0.4"/>
+    <!-- mouthpiece -->
+    <rect x="-6.5" y="1.5" width="3" height="3" rx="0.8" fill="url(#asInhBody)"/>
+    <!-- spray puffs -->
+    <g fill="#bfe0ff" opacity="0.9">
+      <circle cx="-8.5" cy="3" r="0.8"/>
+      <circle cx="-9.8" cy="2" r="0.6"/>
+      <circle cx="-9.8" cy="4" r="0.6"/>
+    </g>
+  </g>
+</svg>

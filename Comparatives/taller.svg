@@ -1,0 +1,54 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="ar" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFE48A"/><stop offset="100%" stop-color="#E5A700"/></linearGradient>
+</defs>
+<!-- ground line -->
+<rect x="0" y="29" width="32" height="0.5" fill="#5A3A2A" opacity="0.5"/>
+
+<!-- legs -->
+<rect x="7.32" y="23.83" width="1.3650000000000002" height="6.300000000000001" fill="#1A237E"/>
+<rect x="9.315" y="23.83" width="1.3650000000000002" height="6.300000000000001" fill="#1A237E"/>
+<!-- feet -->
+<ellipse cx="8.0025" cy="29" rx="1.1550000000000002" ry="0.42000000000000004" fill="#1A1F2C"/>
+<ellipse cx="9.9975" cy="29" rx="1.1550000000000002" ry="0.42000000000000004" fill="#1A1F2C"/>
+<!-- torso -->
+<rect x="6.9" y="18.58" width="4.2" height="5.25" rx="0.63" fill="#4FC3F7"/>
+<!-- arms -->
+<rect x="5.64" y="18.895" width="1.26" height="4.2" rx="0.42000000000000004" fill="#4FC3F7"/>
+<rect x="11.1" y="18.895" width="1.26" height="4.2" rx="0.42000000000000004" fill="#4FC3F7"/>
+<!-- hands -->
+<circle cx="6.27" cy="23.305" r="0.735" fill="#FFE0BD"/>
+<circle cx="11.73" cy="23.305" r="0.735" fill="#FFE0BD"/>
+<!-- head -->
+<circle cx="9" cy="16.4" r="1.6800000000000002" fill="#FFE0BD"/>
+<path d="M7.4879999999999995 15.895999999999999 Q 9 14.047999999999998 10.512 15.895999999999999 Q 10.68 16.4 9 16.735999999999997 Q 7.32 16.4 7.4879999999999995 15.895999999999999 Z" fill="#5C3018"/>
+<circle cx="8.475" cy="16.505" r="0.21000000000000002" fill="#1A1F2C"/>
+<circle cx="9.525" cy="16.505" r="0.21000000000000002" fill="#1A1F2C"/>
+<path d="M8.475 17.134999999999998 Q 9 17.45 9.525 17.134999999999998" stroke="#7B3A1E" stroke-width="0.2" fill="none" stroke-linecap="round"/>
+
+
+<!-- legs -->
+<rect x="19.6" y="21.4" width="1.9500000000000002" height="9.0" fill="#7E1A78"/>
+<rect x="22.45" y="21.4" width="1.9500000000000002" height="9.0" fill="#7E1A78"/>
+<!-- feet -->
+<ellipse cx="20.575" cy="29" rx="1.6500000000000001" ry="0.6000000000000001" fill="#1A1F2C"/>
+<ellipse cx="23.425" cy="29" rx="1.6500000000000001" ry="0.6000000000000001" fill="#1A1F2C"/>
+<!-- torso -->
+<rect x="19.0" y="13.9" width="6.0" height="7.5" rx="0.8999999999999999" fill="#FF7BB5"/>
+<!-- arms -->
+<rect x="17.2" y="14.35" width="1.7999999999999998" height="6.0" rx="0.6000000000000001" fill="#FF7BB5"/>
+<rect x="25.0" y="14.35" width="1.7999999999999998" height="6.0" rx="0.6000000000000001" fill="#FF7BB5"/>
+<!-- hands -->
+<circle cx="18.1" cy="20.65" r="1.0499999999999998" fill="#FFE0BD"/>
+<circle cx="25.9" cy="20.65" r="1.0499999999999998" fill="#FFE0BD"/>
+<!-- head -->
+<circle cx="22" cy="11.0" r="2.4000000000000004" fill="#FFE0BD"/>
+<path d="M19.84 10.28 Q 22 7.64 24.16 10.28 Q 24.4 11.0 22 11.48 Q 19.6 11.0 19.84 10.28 Z" fill="#5C3018"/>
+<circle cx="21.25" cy="11.15" r="0.30000000000000004" fill="#1A1F2C"/>
+<circle cx="22.75" cy="11.15" r="0.30000000000000004" fill="#1A1F2C"/>
+<path d="M21.25 12.05 Q 22 12.5 22.75 12.05" stroke="#7B3A1E" stroke-width="0.2" fill="none" stroke-linecap="round"/>
+
+<!-- comparison arrow -->
+<path d="M22 4 L 22 8" stroke="url(#ar)" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+<path d="M21 5 L 22 3.5 L 23 5 Z" fill="url(#ar)"/>
+</svg>

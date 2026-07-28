@@ -1,0 +1,39 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="blp-paper" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#1A6EBB"/><stop offset="100%" stop-color="#0A3A77"/>
+ </linearGradient>
+ <linearGradient id="blp-roll" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#2288DD"/><stop offset="100%" stop-color="#1155AA"/>
+ </linearGradient>
+ <linearGradient id="blp-compass" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#DDDDDD"/><stop offset="100%" stop-color="#888"/>
+ </linearGradient>
+ </defs>
+ <!-- Rolled paper shadow -->
+ <rect x="4" y="6" width="24" height="23" rx="1" fill="url(#blp-paper)" filter="url(#blp-shad)"/>
+ <!-- Rolled top edge -->
+ <rect x="4" y="6" width="24" height="3" rx="1" fill="url(#blp-roll)"/>
+ <!-- Grid lines (white on blue) -->
+ <line x1="4" y1="12" x2="28" y2="12" stroke="white" stroke-width="0.3" stroke-opacity="0.4"/>
+ <line x1="4" y1="17" x2="28" y2="17" stroke="white" stroke-width="0.3" stroke-opacity="0.4"/>
+ <line x1="4" y1="22" x2="28" y2="22" stroke="white" stroke-width="0.3" stroke-opacity="0.4"/>
+ <line x1="10" y1="9" x2="10" y2="29" stroke="white" stroke-width="0.3" stroke-opacity="0.4"/>
+ <line x1="16" y1="9" x2="16" y2="29" stroke="white" stroke-width="0.3" stroke-opacity="0.4"/>
+ <line x1="22" y1="9" x2="22" y2="29" stroke="white" stroke-width="0.3" stroke-opacity="0.4"/>
+ <!-- Floorplan lines (white) -->
+ <!-- Outer walls -->
+ <rect x="7" y="11" width="18" height="15" fill="none" stroke="white" stroke-width="1" fill-opacity="0"/>
+ <!-- Interior walls -->
+ <line x1="14" y1="11" x2="14" y2="19" stroke="white" stroke-width="0.8"/>
+ <line x1="14" y1="19" x2="25" y2="19" stroke="white" stroke-width="0.8"/>
+ <!-- Door opening -->
+ <path d="M7 15 Q10 15 10 18" fill="none" stroke="white" stroke-width="0.6" stroke-opacity="0.8"/>
+ <!-- Window marks -->
+ <rect x="17" y="11" width="4" height="0.8" fill="white" fill-opacity="0.9"/>
+ <rect x="21" y="19" width="4" height="0.8" fill="white" fill-opacity="0.9" transform="rotate(90,23,19.4)"/>
+ <!-- Compass tool in corner -->
+ <line x1="5" y1="26" x2="8" y2="30" stroke="url(#blp-compass)" stroke-width="1.2" stroke-linecap="round"/>
+ <line x1="8" y1="26" x2="5.5" y2="30" stroke="url(#blp-compass)" stroke-width="1.2" stroke-linecap="round"/>
+ <ellipse cx="6.7" cy="25.5" rx="1.5" ry="0.7" fill="#CCC" fill-opacity="0.7"/>
+</svg>

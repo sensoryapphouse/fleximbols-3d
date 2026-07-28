@@ -1,0 +1,50 @@
+<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="fbw_glass" cx="0.38" cy="0.32" r="0.85">
+<stop offset="0" stop-color="#E8FAFF"/>
+<stop offset="0.6" stop-color="#BFEAF7"/>
+<stop offset="1" stop-color="#7FC6E0"/>
+</radialGradient>
+<linearGradient id="fbw_water" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#9FD9F0"/>
+<stop offset="1" stop-color="#5FB6DC"/>
+</linearGradient>
+<radialGradient id="fbw_fish" cx="0.5" cy="0.4" r="0.7">
+<stop offset="0" stop-color="#FFB04A"/>
+<stop offset="1" stop-color="#F07A1E"/>
+</radialGradient>
+<linearGradient id="fbw_rim" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#DFF6FF"/>
+<stop offset="1" stop-color="#A9DCF0"/>
+</linearGradient>
+</defs>
+<!-- Glass bowl body -->
+<path d="M48 70 Q48 44 100 44 Q152 44 152 70 Q160 110 130 148 Q116 164 100 164 Q84 164 70 148 Q40 110 48 70 Z" fill="url(#fbw_glass)" stroke="#2B4A57" stroke-width="4"/>
+<!-- Water fill -->
+<path d="M52 78 Q60 112 80 142 Q90 154 100 154 Q110 154 120 142 Q140 112 148 78 Q148 86 100 90 Q52 86 52 78 Z" fill="url(#fbw_water)" opacity="0.85"/>
+<!-- Water surface line -->
+<path d="M52 78 Q100 90 148 78" fill="none" stroke="#3E8FB0" stroke-width="2.5" opacity="0.8"/>
+<!-- Bowl rim -->
+<ellipse cx="100" cy="48" rx="40" ry="9" fill="url(#fbw_rim)" stroke="#2B4A57" stroke-width="4"/>
+<!-- Pebbles at bottom -->
+<g fill="#C9A24A" stroke="#8A6A22" stroke-width="1.5">
+<ellipse cx="82" cy="150" rx="9" ry="5"/>
+<ellipse cx="100" cy="153" rx="9" ry="5"/>
+<ellipse cx="118" cy="150" rx="9" ry="5"/>
+<ellipse cx="91" cy="146" rx="8" ry="4.5"/>
+<ellipse cx="109" cy="146" rx="8" ry="4.5"/>
+</g>
+<!-- Goldfish (facing right) -->
+<g transform="translate(200,0) scale(-1,1)">
+<ellipse cx="98" cy="112" rx="26" ry="18" fill="url(#fbw_fish)" stroke="#B5560F" stroke-width="2"/>
+<path d="M124 112 L146 98 L142 112 L146 126 Z" fill="url(#fbw_fish)" stroke="#B5560F" stroke-width="2" stroke-linejoin="round"/>
+<path d="M86 96 Q92 86 100 96 Z" fill="#F07A1E" stroke="#B5560F" stroke-width="1.5"/>
+<circle cx="82" cy="108" r="3.5" fill="#26201A"/>
+<circle cx="83" cy="107" r="1.2" fill="#FFFFFF"/>
+<path d="M104 104 Q110 112 104 120" fill="none" stroke="#B5560F" stroke-width="2"/>
+</g>
+<!-- Bubbles -->
+<circle cx="130" cy="92" r="3" fill="#FFFFFF" opacity="0.7"/>
+<circle cx="134" cy="82" r="2.2" fill="#FFFFFF" opacity="0.7"/>
+<circle cx="129" cy="74" r="1.6" fill="#FFFFFF" opacity="0.7"/>
+</svg>

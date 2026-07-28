@@ -1,0 +1,34 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bdg-cup-top" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#D4B896"/><stop offset="100%" stop-color="#A07848"/>
+ </linearGradient>
+ <linearGradient id="bdg-cup-bot" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#8B6914" stop-opacity="0.7"/><stop offset="100%" stop-color="#4A2800" stop-opacity="0"/>
+ </linearGradient>
+ <linearGradient id="bdg-soil" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#8B5E2A"/><stop offset="100%" stop-color="#4A2800"/>
+ </linearGradient>
+ <linearGradient id="bdg-leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#66CC44"/><stop offset="100%" stop-color="#228B22"/>
+ </linearGradient>
+ </defs>
+ <!-- Soil ground -->
+ <!-- Cup (top half intact, bottom fragmenting) -->
+ <path d="M10 8 L12 22 Q16 24 20 22 L22 8 Z" fill="url(#bdg-cup-top)" filter="url(#bdg-shad)"/>
+ <rect x="10" y="6" width="12" height="3" rx="1" fill="#C8A870"/>
+ <!-- Fragmenting lower portion -->
+ <path d="M12 20 L11.5 25 Q12.5 26 13.5 25 L13 22" fill="url(#bdg-cup-bot)"/>
+ <path d="M14 22 L14.5 26 Q15.5 27 16 26 L16 22" fill="url(#bdg-cup-bot)"/>
+ <path d="M18 22 L18.5 26 Q19.5 27 20 25.5 L19.5 22" fill="url(#bdg-cup-bot)"/>
+ <!-- Fragmented bits in soil -->
+ <rect x="12" y="26" width="2" height="1" rx="0.3" fill="#8B6914" fill-opacity="0.6"/>
+ <rect x="16" y="27" width="1.5" height="0.8" rx="0.3" fill="#8B6914" fill-opacity="0.5"/>
+ <!-- Green sprouts emerging -->
+ <path d="M14 25 Q13 21 11 19" stroke="url(#bdg-leaf)" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <ellipse cx="10.5" cy="18.5" rx="2" ry="1.2" fill="url(#bdg-leaf)" transform="rotate(-30,10.5,18.5)"/>
+ <path d="M17 26 Q17 22 16 18" stroke="url(#bdg-leaf)" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <ellipse cx="15.5" cy="17.5" rx="2" ry="1.2" fill="url(#bdg-leaf)" transform="rotate(20,15.5,17.5)"/>
+ <!-- Leaf curving around -->
+ <path d="M20 24 Q24 20 22 15 Q25 18 23 23" fill="url(#bdg-leaf)" fill-opacity="0.8"/>
+</svg>

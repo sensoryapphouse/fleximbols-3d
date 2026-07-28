@@ -1,0 +1,45 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="rodA" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#B9F6CA"/>
+ <stop offset="100%" stop-color="#2E7D32"/>
+ </linearGradient>
+ <linearGradient id="rodB" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#CCFF90"/>
+ <stop offset="100%" stop-color="#388E3C"/>
+ </linearGradient>
+ <linearGradient id="rodC" x1="0" y1="1" x2="1" y2="0">
+ <stop offset="0%" stop-color="#A5D6A7"/>
+ <stop offset="100%" stop-color="#1B5E20"/>
+ </linearGradient>
+ <radialGradient id="innerDot" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#76FF03"/>
+ <stop offset="100%" stop-color="#1B5E20"/>
+ </radialGradient>
+ </defs>
+ <!-- Rod bacillus 1 — horizontal centre -->
+ <rect x="6" y="14" width="14" height="5" rx="2.5" fill="url(#rodA)"/>
+ <rect x="7" y="14.5" width="4" height="1.5" rx="0.7" fill="#FFFFFF" opacity="0.25"/>
+ <circle cx="10" cy="16.5" r="1" fill="url(#innerDot)" opacity="0.8"/>
+ <!-- Flagellum on rod 1 -->
+ <path d="M20 16.5 Q23 14 24 17 Q25 20 27 18" stroke="#1B5E20" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+ <circle cx="27.5" cy="17.5" r="0.4" fill="#1B5E20"/>
+
+ <!-- Rod bacillus 2 — tilted top-left -->
+ <g transform="rotate(-40 14 10)">
+ <rect x="7" y="8" width="13" height="4.5" rx="2.2" fill="url(#rodB)"/>
+ <rect x="8" y="8.4" width="3.5" height="1.2" rx="0.6" fill="#FFFFFF" opacity="0.25"/>
+ <circle cx="11" cy="10.2" r="0.9" fill="url(#innerDot)" opacity="0.8"/>
+ </g>
+
+ <!-- Rod bacillus 3 — tilted bottom-right -->
+ <g transform="rotate(35 20 23)">
+ <rect x="13" y="21" width="12" height="4.5" rx="2.2" fill="url(#rodC)"/>
+ <rect x="14" y="21.4" width="3" height="1.2" rx="0.6" fill="#FFFFFF" opacity="0.22"/>
+ <circle cx="17" cy="23.2" r="0.9" fill="url(#innerDot)" opacity="0.8"/>
+ <!-- Small dot-flagella -->
+ <circle cx="24.5" cy="23.5" r="0.5" fill="#1B5E20"/>
+ <circle cx="25.2" cy="22.5" r="0.4" fill="#1B5E20"/>
+ <circle cx="25.8" cy="24.3" r="0.35" fill="#1B5E20"/>
+ </g>
+</svg>

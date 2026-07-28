@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="to_shell" cx="40%" cy="30%" r="60%"><stop offset="0%" stop-color="#88cc44"/><stop offset="60%" stop-color="#4a8818"/><stop offset="100%" stop-color="#224a00"/></radialGradient>
+ <radialGradient id="to_skin" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#aabb88"/><stop offset="70%" stop-color="#778844"/><stop offset="100%" stop-color="#445522"/></radialGradient>
+ <radialGradient id="to_panel" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#aad844"/><stop offset="100%" stop-color="#335500"/></radialGradient>
+ </defs>
+ <!-- legs -->
+ <ellipse cx="9" cy="24" rx="3.5" ry="2" fill="url(#to_skin)"/>
+ <ellipse cx="23" cy="24" rx="3.5" ry="2" fill="url(#to_skin)"/>
+ <ellipse cx="10" cy="27" rx="3" ry="1.5" fill="url(#to_skin)"/>
+ <ellipse cx="22" cy="27" rx="3" ry="1.5" fill="url(#to_skin)"/>
+ <!-- shell body (dome) -->
+ <ellipse cx="16" cy="20" rx="12" ry="7" fill="url(#to_shell)"/>
+ <!-- dome height -->
+ <path d="M4 20 Q4 12 16 11 Q28 12 28 20 Z" fill="url(#to_shell)"/>
+ <!-- shell panels (hexagon pattern) -->
+ <ellipse cx="16" cy="16" rx="4" ry="3" fill="url(#to_panel)" opacity="0.5"/>
+ <ellipse cx="10" cy="18" rx="3" ry="2" fill="url(#to_panel)" opacity="0.4"/>
+ <ellipse cx="22" cy="18" rx="3" ry="2" fill="url(#to_panel)" opacity="0.4"/>
+ <ellipse cx="16" cy="20" rx="3.5" ry="2.5" fill="url(#to_panel)" opacity="0.3"/>
+ <!-- shell edge lines -->
+ <ellipse cx="16" cy="20" rx="12" ry="7" fill="none" stroke="#2a5500" stroke-width="0.5" opacity="0.4"/>
+ <!-- head -->
+ <ellipse cx="5" cy="21" rx="4" ry="3" fill="url(#to_skin)"/>
+ <!-- eye -->
+ <circle cx="3.5" cy="20" r="1" fill="#1a1a1a"/>
+ <circle cx="3.2" cy="19.7" r="0.3" fill="#fff" fill-opacity="0.7"/>
+ <!-- tail -->
+ <path d="M28 22 Q31 22 31 24" fill="none" stroke="#778844" stroke-width="1.5" stroke-linecap="round"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl289" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl289)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

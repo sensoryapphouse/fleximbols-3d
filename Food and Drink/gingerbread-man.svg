@@ -1,0 +1,26 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<radialGradient id="gbm_b" cx="35%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#D89060"/><stop offset="100%" stop-color="#7E4A20"/></radialGradient>
+</defs>
+<!-- head -->
+<circle cx="16" cy="7" r="3.5" fill="url(#gbm_b)"/>
+<!-- body -->
+<path d="M 11 11 L 21 11 L 22 17 L 10 17 Z" fill="url(#gbm_b)"/>
+<!-- arms -->
+<path d="M 3 12 L 11 11 L 11 15 L 4 16 Z" fill="url(#gbm_b)"/>
+<path d="M 29 12 L 21 11 L 21 15 L 28 16 Z" fill="url(#gbm_b)"/>
+<!-- legs -->
+<path d="M 10 17 L 13 17 L 9 26 L 6 25 Z" fill="url(#gbm_b)"/>
+<path d="M 19 17 L 22 17 L 26 25 L 23 26 Z" fill="url(#gbm_b)"/>
+<!-- icing -->
+<path d="M 14 12 Q 16 14 18 12" stroke="#FFFFFF" stroke-width="0.5" fill="none"/>
+<path d="M 12 17 Q 16 16 20 17" stroke="#FFFFFF" stroke-width="0.5" fill="none" stroke-dasharray="0.6 0.4"/>
+<path d="M 10 12 Q 11 14 12 13" stroke="#FFFFFF" stroke-width="0.4" fill="none"/>
+<!-- eyes (gumdrop) -->
+<circle cx="14.6" cy="6.5" r="0.5" fill="#FF5252"/>
+<circle cx="17.4" cy="6.5" r="0.5" fill="#43A047"/>
+<!-- smile -->
+<path d="M 14 8.5 Q 16 9.5 18 8.5" stroke="#FFFFFF" stroke-width="0.4" fill="none"/>
+<!-- buttons -->
+<circle cx="16" cy="13" r="0.6" fill="#FF5252"/>
+<circle cx="16" cy="15" r="0.6" fill="#43A047"/></svg>

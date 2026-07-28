@@ -1,0 +1,43 @@
+<svg viewBox="0 0 100 100" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="co_band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f06a4e"/>
+      <stop offset="100%" stop-color="#c63a26"/>
+    </linearGradient>
+    <linearGradient id="co_buckle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe07a"/>
+      <stop offset="100%" stop-color="#d9a426"/>
+    </linearGradient>
+    <radialGradient id="co_ring" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#d8dade"/>
+      <stop offset="100%" stop-color="#888c92"/>
+    </radialGradient>
+    <radialGradient id="co_tag" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffe07a"/>
+      <stop offset="100%" stop-color="#e0a82a"/>
+    </radialGradient>
+  </defs>
+  <!-- Collar band (curved strap) -->
+  <path d="M10 36 Q50 26 90 36 L90 52 Q50 44 10 52 Z" fill="url(#co_band)" stroke="#7a1d10" stroke-width="2.5"/>
+  <!-- Stitch line -->
+  <path d="M16 41 Q50 33 84 41" fill="none" stroke="#7a1d10" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- Buckle (left) -->
+  <rect x="20" y="37" width="13" height="13" rx="2" fill="none" stroke="url(#co_buckle)" stroke-width="4"/>
+  <rect x="20" y="37" width="13" height="13" rx="2" fill="none" stroke="#9a7010" stroke-width="1"/>
+  <line x1="26.5" y1="35" x2="26.5" y2="52" stroke="#d9a426" stroke-width="2.5"/>
+  <!-- Adjustment holes -->
+  <g fill="#7a1d10">
+    <circle cx="48" cy="42" r="2"/>
+    <circle cx="58" cy="41.5" r="2"/>
+    <circle cx="68" cy="42" r="2"/>
+  </g>
+  <!-- Hanging D-ring -->
+  <circle cx="50" cy="58" r="7" fill="none" stroke="url(#co_ring)" stroke-width="3.5"/>
+  <circle cx="50" cy="58" r="7" fill="none" stroke="#6a6e74" stroke-width="0.8"/>
+  <!-- Bone-shaped name tag -->
+  <g>
+    <path d="M58 66 q-4 -3 0 -6 q3 -3 6 0 q3 -3 6 0 q4 3 0 6 q3 3 0 6 q-3 3 -6 0 q-3 3 -6 0 q-4 -3 0 -6 Z"
+          fill="url(#co_tag)" stroke="#9a7010" stroke-width="2"/>
+    <ellipse cx="64" cy="66" rx="3" ry="2" fill="#fff0bc" opacity="0.6"/>
+  </g>
+</svg>

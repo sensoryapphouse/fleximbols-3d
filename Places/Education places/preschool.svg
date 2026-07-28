@@ -1,0 +1,59 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F8BBD9"/>
+ <stop offset="100%" stop-color="#F48FB1"/>
+ </linearGradient>
+ <linearGradient id="roofGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#C57500"/>
+ </linearGradient>
+ <linearGradient id="doorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#EC407A"/>
+ <stop offset="100%" stop-color="#AD1457"/>
+ </linearGradient>
+ <linearGradient id="winGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#7DBEFC"/>
+ <stop offset="100%" stop-color="#1565C0"/>
+ </linearGradient>
+ <linearGradient id="teddyGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFCC80"/>
+ <stop offset="100%" stop-color="#FF8F00"/>
+ </linearGradient>
+ <linearGradient id="ballGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#FF5252"/>
+ <stop offset="100%" stop-color="#C62828"/>
+ </linearGradient>
+ </defs>
+ <!-- Ground -->
+ <rect x="0" y="26" width="32" height="6" fill="#C8E6C9" opacity="0.5"/>
+ <!-- Building (small, low scale) -->
+ <rect x="5" y="16" width="20" height="12" fill="url(#wallGrad)" stroke="#F48FB1" stroke-width="0.6"/>
+ <!-- Roof (gentle slope) -->
+ <polygon points="3,16 15,7 27,16" fill="url(#roofGrad)"/>
+ <line x1="3" y1="16" x2="27" y2="16" stroke="#C57500" stroke-width="0.6"/>
+ <!-- Small windows -->
+ <rect x="6" y="18" width="4" height="4" rx="0.8" fill="url(#winGrad)" stroke="#1565C0" stroke-width="0.4"/>
+ <line x1="8" y1="18" x2="8" y2="22" stroke="#1565C0" stroke-width="0.4"/>
+ <line x1="6" y1="20" x2="10" y2="20" stroke="#1565C0" stroke-width="0.4"/>
+ <rect x="19" y="18" width="4" height="4" rx="0.8" fill="url(#winGrad)" stroke="#1565C0" stroke-width="0.4"/>
+ <line x1="21" y1="18" x2="21" y2="22" stroke="#1565C0" stroke-width="0.4"/>
+ <line x1="19" y1="20" x2="23" y2="20" stroke="#1565C0" stroke-width="0.4"/>
+ <!-- Child-scale door (short and rounded) -->
+ <rect x="12" y="21" width="5" height="7" rx="1.5" fill="url(#doorGrad)"/>
+ <circle cx="16.5" cy="24.5" r="0.5" fill="#FFD45E"/>
+ <!-- Teddy bear sign above door -->
+ <!-- Teddy head -->
+ <circle cx="14.5" cy="13.5" r="2" fill="url(#teddyGrad)"/>
+ <!-- Teddy ears -->
+ <circle cx="13" cy="12" r="0.9" fill="url(#teddyGrad)"/>
+ <circle cx="16" cy="12" r="0.9" fill="url(#teddyGrad)"/>
+ <!-- Teddy eyes -->
+ <circle cx="14" cy="13.5" r="0.35" fill="#5D4037"/>
+ <circle cx="15" cy="13.5" r="0.35" fill="#5D4037"/>
+ <!-- Teddy nose -->
+ <circle cx="14.5" cy="14.3" r="0.3" fill="#BF360C"/>
+ <!-- Bouncy ball outside -->
+ <circle cx="26" cy="25" r="2.5" fill="url(#ballGrad)"/>
+ <path d="M24 23.5 Q26 22.5 28 23.5" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.6"/>
+</svg>

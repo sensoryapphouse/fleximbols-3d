@@ -1,0 +1,87 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Coffin wood gradient (warm oak brown) -->
+ <linearGradient id="coffinMain" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#A0714F"/>
+ <stop offset="50%" stop-color="#7A4E2D"/>
+ <stop offset="100%" stop-color="#5C3317"/>
+ </linearGradient>
+ <!-- Coffin lid highlight -->
+ <linearGradient id="coffinLid" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#C49070"/>
+ <stop offset="100%" stop-color="#7A4E2D"/>
+ </linearGradient>
+ <!-- Coffin edge/side -->
+ <linearGradient id="coffinSide" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#5C3317"/>
+ <stop offset="100%" stop-color="#3A1F0A"/>
+ </linearGradient>
+ <!-- Cross gradient (muted grey-stone) -->
+ <linearGradient id="crossGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#AAAAAA"/>
+ <stop offset="100%" stop-color="#666677"/>
+ </linearGradient>
+ <!-- Lily petals white -->
+ <radialGradient id="petalGrad" cx="40%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#DDDDEE"/>
+ </radialGradient>
+ <!-- Lily center -->
+ <radialGradient id="lilyCenter" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFEE99"/>
+ <stop offset="100%" stop-color="#CCAA44"/>
+ </radialGradient>
+ <!-- Leaf gradient -->
+ <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#88AA77"/>
+ <stop offset="100%" stop-color="#446633"/>
+ </linearGradient>
+ <!-- Ground shadow -->
+ <!-- Wreath stems -->
+ <linearGradient id="wreathGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#558844"/>
+ <stop offset="100%" stop-color="#336622"/>
+ </linearGradient>
+ </defs>
+ <!-- Ground shadow beneath coffin -->
+ <!-- Grave marker cross (subdued, behind) -->
+ <rect x="14.5" y="5" width="3" height="8" rx="0.5" fill="url(#crossGrad)" opacity="0.55"/>
+ <rect x="12" y="7.5" width="8" height="2.5" rx="0.5" fill="url(#crossGrad)" opacity="0.55"/>
+ <!-- Coffin body — elongated hexagonal shape (traditional) -->
+ <!-- Main lid face -->
+ <path d="M7 18 L9 15 L23 15 L25 18 L25 25 L23 27 L9 27 L7 25 Z"
+ fill="url(#coffinLid)"/>
+ <!-- Side/depth band -->
+ <path d="M7 18 L7 19.5 L9 22 L9 27 L7 25 Z" fill="url(#coffinSide)"/>
+ <path d="M25 18 L25 19.5 L25 27 L23 27 L23 22 L25 19.5 Z" fill="url(#coffinSide)"/>
+ <!-- Wood grain lines on lid -->
+ <line x1="10" y1="15.5" x2="9.5" y2="26.5" stroke="#9A6040" stroke-width="0.35" opacity="0.5"/>
+ <line x1="13" y1="15.2" x2="12.5" y2="26.8" stroke="#9A6040" stroke-width="0.3" opacity="0.4"/>
+ <line x1="16" y1="15" x2="16" y2="27" stroke="#9A6040" stroke-width="0.3" opacity="0.35"/>
+ <line x1="19" y1="15.2" x2="19.5" y2="26.8" stroke="#9A6040" stroke-width="0.3" opacity="0.4"/>
+ <line x1="22" y1="15.5" x2="22.5" y2="26.5" stroke="#9A6040" stroke-width="0.35" opacity="0.5"/>
+ <!-- Coffin outline -->
+ <path d="M7 18 L9 15 L23 15 L25 18 L25 25 L23 27 L9 27 L7 25 Z"
+ fill="none" stroke="#3A1F0A" stroke-width="0.5" opacity="0.7"/>
+ <!-- White lily / wreath on top of coffin -->
+ <!-- Wreath arc (circular stems) -->
+ <path d="M10 19.5 Q16 16.5 22 19.5" stroke="url(#wreathGrad)" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <!-- Small leaves on wreath -->
+ <ellipse cx="11.5" cy="18.5" rx="1.2" ry="0.6" fill="url(#leafGrad)" transform="rotate(-20 11.5 18.5)" opacity="0.9"/>
+ <ellipse cx="14" cy="17.3" rx="1.2" ry="0.6" fill="url(#leafGrad)" transform="rotate(-5 14 17.3)" opacity="0.9"/>
+ <ellipse cx="18" cy="17.3" rx="1.2" ry="0.6" fill="url(#leafGrad)" transform="rotate(5 18 17.3)" opacity="0.9"/>
+ <ellipse cx="20.5" cy="18.5" rx="1.2" ry="0.6" fill="url(#leafGrad)" transform="rotate(20 20.5 18.5)" opacity="0.9"/>
+ <!-- Central white lily — 6 petals -->
+ <ellipse cx="16" cy="18.2" rx="1.4" ry="2.4" fill="url(#petalGrad)" transform="rotate(0 16 18.2)"/>
+ <ellipse cx="16" cy="18.2" rx="1.4" ry="2.4" fill="url(#petalGrad)" transform="rotate(60 16 18.2)"/>
+ <ellipse cx="16" cy="18.2" rx="1.4" ry="2.4" fill="url(#petalGrad)" transform="rotate(120 16 18.2)"/>
+ <!-- Lily center -->
+ <circle cx="16" cy="18.2" r="1" fill="url(#lilyCenter)"/>
+ <!-- Stamen dots -->
+ <circle cx="16" cy="16.9" r="0.28" fill="#FFDD66"/>
+ <circle cx="17" cy="17.3" r="0.28" fill="#FFDD66"/>
+ <circle cx="17.2" cy="18.4" r="0.28" fill="#FFDD66"/>
+ <circle cx="16.4" cy="19.3" r="0.28" fill="#FFDD66"/>
+ <circle cx="15.1" cy="19.1" r="0.28" fill="#FFDD66"/>
+ <circle cx="14.8" cy="18" r="0.28" fill="#FFDD66"/>
+</svg>

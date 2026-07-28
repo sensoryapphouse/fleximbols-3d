@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="enorm-sphere" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FF8B3D"/>
+ <stop offset="100%" stop-color="#E54A1E"/>
+ </radialGradient>
+ <!-- Grey cube face gradients -->
+ <linearGradient id="enorm-cube-top" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#A8ADB4"/>
+ </linearGradient>
+ <linearGradient id="enorm-cube-front" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#B0B5BC"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <linearGradient id="enorm-cube-side" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#9EA4AB"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <filter id="enorm-sh-sp" x="-30%" y="-30%" width="160%" height="160%">
+ <feGaussianBlur stdDeviation="0.8"/>
+ </filter>
+ <filter id="enorm-sh-cb" x="-60%" y="-60%" width="220%" height="220%">
+ <feGaussianBlur stdDeviation="0.3"/>
+ </filter>
+ </defs>
+ <!-- Shadow large sphere -->
+ <!-- Large orange sphere ~60% canvas (r≈9.6) -->
+ <circle cx="13" cy="15" r="9.6" fill="url(#enorm-sphere)"/>
+ <!-- Highlight -->
+ <ellipse cx="9.2" cy="10.5" rx="3.5" ry="2.1" fill="#FFFFFF" fill-opacity="0.6" transform="rotate(-30 9.2 10.5)"/>
+ <!-- Shadow small grey cube -->
+ 
+ <!-- Small grey 3-D cube lower-right (isometric, ~3.5 units) -->
+ <!-- top face -->
+ <polygon points="25,28.5 27,27.4 29,28.5 27,29.6" fill="url(#enorm-cube-top)"/>
+ <!-- front face -->
+ <polygon points="25,28.5 27,29.6 27,31.6 25,30.5" fill="url(#enorm-cube-front)"/>
+ <!-- right face -->
+ <polygon points="27,29.6 29,28.5 29,30.5 27,31.6" fill="url(#enorm-cube-side)"/>
+ <!-- Highlight top-left edge of top face -->
+ <ellipse cx="25.8" cy="28.6" rx="0.55" ry="0.3" fill="#FFFFFF" fill-opacity="0.6" transform="rotate(-20 25.8 28.6)"/>
+</svg>

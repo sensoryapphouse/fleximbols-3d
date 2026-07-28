@@ -1,0 +1,91 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bg_g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#c8d8f8"/>
+ <stop offset="100%" stop-color="#8090c0"/>
+ </linearGradient>
+ <linearGradient id="surface_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#dce8f8"/>
+ <stop offset="100%" stop-color="#b0c0e0"/>
+ </linearGradient>
+ <linearGradient id="crystal_g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f0f8ff"/>
+ <stop offset="100%" stop-color="#c8ddf8"/>
+ </linearGradient>
+ <linearGradient id="fern_g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#e8f4ff"/>
+ <stop offset="100%" stop-color="#a8c8f0"/>
+ </linearGradient>
+ <radialGradient id="flake_g" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#b8d0f0"/>
+ </radialGradient>
+ </defs>
+
+ <!-- Icy background -->
+ 
+ <!-- Frosted surface (window/leaf) -->
+ <rect x="2" y="2" width="28" height="28" rx="2" fill="url(#surface_g)" opacity="0.7"/>
+
+ <!-- FROST FERN patterns — crystalline ice on surface -->
+ <!-- Central large frost fern (left) -->
+ <!-- Main stem -->
+ <line x1="4" y1="28" x2="12" y2="8" stroke="url(#crystal_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <!-- Side branches left fern -->
+ <line x1="5.5" y1="25" x2="2" y2="21" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="5.5" y1="25" x2="3" y2="23" stroke="url(#fern_g)" stroke-width="0.4"/>
+ <line x1="7" y1="22" x2="3.5" y2="18" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="7" y1="22" x2="4.5" y2="20" stroke="url(#fern_g)" stroke-width="0.4"/>
+ <line x1="8.5" y1="18.5" x2="5" y2="15" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="8.5" y1="18.5" x2="6" y2="16.5" stroke="url(#fern_g)" stroke-width="0.4"/>
+ <line x1="10" y1="15" x2="7" y2="12" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="10" y1="15" x2="7.5" y2="13" stroke="url(#fern_g)" stroke-width="0.4"/>
+ <!-- Right-side branches -->
+ <line x1="5.5" y1="25" x2="9" y2="22" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="7" y1="22" x2="10.5" y2="19" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="8.5" y1="18.5" x2="12" y2="16" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="10" y1="15" x2="13.5" y2="13" stroke="url(#fern_g)" stroke-width="0.5"/>
+
+ <!-- Second frost fern (right, larger) -->
+ <line x1="28" y1="30" x2="18" y2="6" stroke="url(#crystal_g)" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="26.5" y1="27" x2="30" y2="23" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="25" y1="24" x2="29" y2="20" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="23.5" y1="20.5" x2="27.5" y2="17" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="22" y1="17" x2="26" y2="14" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="20" y1="13" x2="24" y2="10.5" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="26.5" y1="27" x2="23" y2="23" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="25" y1="24" x2="21" y2="20" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="23.5" y1="20.5" x2="19.5" y2="17" stroke="url(#fern_g)" stroke-width="0.5"/>
+ <line x1="22" y1="17" x2="18" y2="13" stroke="url(#fern_g)" stroke-width="0.5"/>
+
+ <!-- Third smaller fern (center) -->
+ <line x1="16" y1="32" x2="16" y2="18" stroke="url(#crystal_g)" stroke-width="0.5"/>
+ <line x1="16" y1="28" x2="12.5" y2="24" stroke="url(#fern_g)" stroke-width="0.4"/>
+ <line x1="16" y1="28" x2="19.5" y2="24" stroke="url(#fern_g)" stroke-width="0.4"/>
+ <line x1="16" y1="25" x2="13" y2="22" stroke="url(#fern_g)" stroke-width="0.4"/>
+ <line x1="16" y1="25" x2="19" y2="22" stroke="url(#fern_g)" stroke-width="0.4"/>
+ <line x1="16" y1="22" x2="13.5" y2="20" stroke="url(#fern_g)" stroke-width="0.4"/>
+ <line x1="16" y1="22" x2="18.5" y2="20" stroke="url(#fern_g)" stroke-width="0.4"/>
+
+ <!-- Snowflakes scattered -->
+ <!-- Flake 1 -->
+ <line x1="27" y1="5" x2="27" y2="9" stroke="url(#flake_g)" stroke-width="0.6"/>
+ <line x1="25" y1="7" x2="29" y2="7" stroke="url(#flake_g)" stroke-width="0.6"/>
+ <line x1="25.5" y1="5.5" x2="28.5" y2="8.5" stroke="url(#flake_g)" stroke-width="0.5"/>
+ <line x1="28.5" y1="5.5" x2="25.5" y2="8.5" stroke="url(#flake_g)" stroke-width="0.5"/>
+ <circle cx="27" cy="7" r="0.5" fill="#ffffff"/>
+
+ <!-- Flake 2 -->
+ <line x1="5" y1="4" x2="5" y2="8" stroke="url(#flake_g)" stroke-width="0.6"/>
+ <line x1="3" y1="6" x2="7" y2="6" stroke="url(#flake_g)" stroke-width="0.6"/>
+ <line x1="3.5" y1="4.5" x2="6.5" y2="7.5" stroke="url(#flake_g)" stroke-width="0.5"/>
+ <line x1="6.5" y1="4.5" x2="3.5" y2="7.5" stroke="url(#flake_g)" stroke-width="0.5"/>
+ <circle cx="5" cy="6" r="0.5" fill="#ffffff"/>
+
+ <!-- Flake 3 (smaller) -->
+ <line x1="20" y1="26" x2="20" y2="29" stroke="url(#flake_g)" stroke-width="0.5"/>
+ <line x1="18.5" y1="27.5" x2="21.5" y2="27.5" stroke="url(#flake_g)" stroke-width="0.5"/>
+ <line x1="18.9" y1="26.4" x2="21.1" y2="28.6" stroke="url(#flake_g)" stroke-width="0.4"/>
+ <line x1="21.1" y1="26.4" x2="18.9" y2="28.6" stroke="url(#flake_g)" stroke-width="0.4"/>
+ <circle cx="20" cy="27.5" r="0.4" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="hy-bale" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#e8c040"/>
+ <stop offset="60%" stop-color="#c09010"/>
+ <stop offset="100%" stop-color="#907000"/>
+ </linearGradient>
+ <linearGradient id="hy-end" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#d0a820"/>
+ <stop offset="100%" stop-color="#806000"/>
+ </linearGradient>
+ <linearGradient id="hy-twine" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#a08040"/>
+ <stop offset="100%" stop-color="#604010"/>
+ </linearGradient>
+ </defs>
+ <!-- bale cylinder body -->
+ <ellipse cx="16" cy="19" rx="12" ry="9" fill="url(#hy-bale)"/>
+ <!-- straw texture lines on body -->
+ <path d="M5 16 Q10 14 16 16 Q22 18 27 16" stroke="#907000" stroke-width="0.5" fill="none" stroke-opacity="0.5"/>
+ <path d="M5 19 Q10 17 16 19 Q22 21 27 19" stroke="#907000" stroke-width="0.5" fill="none" stroke-opacity="0.5"/>
+ <path d="M5 22 Q10 20 16 22 Q22 24 27 22" stroke="#907000" stroke-width="0.5" fill="none" stroke-opacity="0.5"/>
+ <!-- left end face -->
+ <ellipse cx="4" cy="19" rx="2.5" ry="9" fill="url(#hy-end)"/>
+ <!-- right end face -->
+ <ellipse cx="28" cy="19" rx="2.5" ry="9" fill="url(#hy-end)"/>
+ <!-- twine wrap 1 -->
+ <path d="M10 10.5 Q10 28 10 27.5" stroke="url(#hy-twine)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <!-- twine wrap 2 -->
+ <path d="M22 10.5 Q22 28 22 27.5" stroke="url(#hy-twine)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <!-- highlight -->
+ <ellipse cx="13" cy="13" rx="5" ry="2.5" fill="white" fill-opacity="0.18"/>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wallGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#F5ECD8"/>
+ <stop offset="100%" stop-color="#D8C4A0"/>
+ </linearGradient>
+ <linearGradient id="paperLayerGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFF8EC"/>
+ <stop offset="100%" stop-color="#EAD8B4"/>
+ </linearGradient>
+ <linearGradient id="peelGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#EAD8B4"/>
+ <stop offset="100%" stop-color="#C4A870"/>
+ </linearGradient>
+ <linearGradient id="flowerGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#C0392B"/>
+ <stop offset="100%" stop-color="#7B241C"/>
+ </linearGradient>
+ <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#5E9E60"/>
+ <stop offset="100%" stop-color="#2E6E30"/>
+ </linearGradient>
+ </defs>
+ <!-- Wall base -->
+ <rect x="1" y="1" width="30" height="30" rx="0.5" fill="url(#wallGrad)"/>
+ <!-- Wallpaper panel (mostly covering wall) -->
+ <path d="M2,2 L30,2 L30,30 L2,30 Q2,26 4,25 Q2,24 2,22 Z" fill="url(#paperLayerGrad)"/>
+ <!-- Repeating floral pattern - row 1 -->
+ <circle cx="8" cy="8" r="1.5" fill="url(#flowerGrad)" opacity="0.7"/>
+ <circle cx="8" cy="8" r="0.5" fill="#FFD700" opacity="0.8"/>
+ <path d="M6.5,7 Q8,5 9.5,7 Q8,9 6.5,7" fill="url(#leafGrad)" opacity="0.6"/>
+ <circle cx="16" cy="8" r="1.5" fill="url(#flowerGrad)" opacity="0.7"/>
+ <circle cx="16" cy="8" r="0.5" fill="#FFD700" opacity="0.8"/>
+ <path d="M14.5,7 Q16,5 17.5,7 Q16,9 14.5,7" fill="url(#leafGrad)" opacity="0.6"/>
+ <circle cx="24" cy="8" r="1.5" fill="url(#flowerGrad)" opacity="0.7"/>
+ <circle cx="24" cy="8" r="0.5" fill="#FFD700" opacity="0.8"/>
+ <path d="M22.5,7 Q24,5 25.5,7 Q24,9 22.5,7" fill="url(#leafGrad)" opacity="0.6"/>
+ <!-- Row 2 (offset) -->
+ <circle cx="12" cy="15" r="1.5" fill="url(#flowerGrad)" opacity="0.7"/>
+ <circle cx="12" cy="15" r="0.5" fill="#FFD700" opacity="0.8"/>
+ <path d="M10.5,14 Q12,12 13.5,14 Q12,16 10.5,14" fill="url(#leafGrad)" opacity="0.6"/>
+ <circle cx="20" cy="15" r="1.5" fill="url(#flowerGrad)" opacity="0.7"/>
+ <circle cx="20" cy="15" r="0.5" fill="#FFD700" opacity="0.8"/>
+ <path d="M18.5,14 Q20,12 21.5,14 Q20,16 18.5,14" fill="url(#leafGrad)" opacity="0.6"/>
+ <!-- Row 3 -->
+ <circle cx="8" cy="22" r="1.5" fill="url(#flowerGrad)" opacity="0.7"/>
+ <circle cx="8" cy="22" r="0.5" fill="#FFD700" opacity="0.8"/>
+ <path d="M6.5,21 Q8,19 9.5,21 Q8,23 6.5,21" fill="url(#leafGrad)" opacity="0.6"/>
+ <circle cx="16" cy="22" r="1.5" fill="url(#flowerGrad)" opacity="0.7"/>
+ <circle cx="16" cy="22" r="0.5" fill="#FFD700" opacity="0.8"/>
+ <circle cx="24" cy="22" r="1.5" fill="url(#flowerGrad)" opacity="0.7"/>
+ <circle cx="24" cy="22" r="0.5" fill="#FFD700" opacity="0.8"/>
+ <!-- Curled bottom-left corner showing paper layer -->
+ <path d="M2,28 Q4,26 6,28 Q5,30 2,30 Z" fill="url(#peelGrad)"/>
+ <!-- Shadow under curl -->
+ <path d="M2,28 Q4,26 6,28" fill="none" stroke="#B89A60" stroke-width="0.5" opacity="0.6"/>
+</svg>

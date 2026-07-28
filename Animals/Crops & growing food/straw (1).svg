@@ -1,0 +1,57 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="glassG2" x1="0" y1="0" x2="0.2" y2="1">
+ <stop offset="0%" stop-color="#c8e8f8" stop-opacity="0.7"/>
+ <stop offset="50%" stop-color="#a0cce8" stop-opacity="0.5"/>
+ <stop offset="100%" stop-color="#78a8c8" stop-opacity="0.7"/>
+ </linearGradient>
+ <linearGradient id="glassBody" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#b0d4ee" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#88b4d4" stop-opacity="0.3"/>
+ </linearGradient>
+ <linearGradient id="strawRed" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#e03030"/>
+ <stop offset="100%" stop-color="#a01010"/>
+ </linearGradient>
+ <linearGradient id="strawWhite" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#f0f0f0"/>
+ <stop offset="100%" stop-color="#c8c8c8"/>
+ </linearGradient>
+ <linearGradient id="liquidG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#f8e898" stop-opacity="0.85"/>
+ <stop offset="100%" stop-color="#d0c060" stop-opacity="0.7"/>
+ </linearGradient>
+ <linearGradient id="glassRim" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#c8e0f0"/>
+ <stop offset="100%" stop-color="#90b8d0"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- glass body -->
+ <path d="M11,14 Q10,28 13,30 L22,30 Q25,28 24,14 Z" fill="url(#glassG2)"/>
+ <!-- glass walls -->
+ <path d="M11,14 L24,14 L24,30 L11,30" fill="none" stroke="url(#glassBody)" stroke-width="1.5"/>
+ <!-- liquid inside glass -->
+ <path d="M12,18 Q12,28 13.5,29.5 L21.5,29.5 Q23,28 23,18 Z" fill="url(#liquidG)"/>
+ <!-- liquid surface -->
+ <ellipse cx="17.5" cy="18" rx="5.5" ry="1" fill="#f0e070" fill-opacity="0.7"/>
+ <!-- glass rim ellipse -->
+ <ellipse cx="17.5" cy="14" rx="6.5" ry="1.5" fill="url(#glassRim)"/>
+ <!-- glass front highlight -->
+ <path d="M11.5,16 Q11,20 11.5,26" stroke="#e0f4ff" stroke-width="1.2" fill="none" stroke-opacity="0.5" stroke-linecap="round"/>
+ <!-- straw - angled out of glass, striped -->
+ <!-- straw is a series of alternating bands along path -->
+ <!-- bottom portion in glass -->
+ <rect x="19" y="16" width="2" height="14" rx="0.8" fill="url(#strawRed)" transform="rotate(-15 19 16)"/>
+ <!-- stripe bands -->
+ <rect x="19" y="18" width="2" height="2" rx="0" fill="url(#strawWhite)" fill-opacity="0.85" transform="rotate(-15 19 18)"/>
+ <rect x="19" y="22" width="2" height="2" rx="0" fill="url(#strawWhite)" fill-opacity="0.85" transform="rotate(-15 19 22)"/>
+ <rect x="19" y="26" width="2" height="2" rx="0" fill="url(#strawWhite)" fill-opacity="0.85" transform="rotate(-15 19 26)"/>
+ <!-- bent portion above glass -->
+ <path d="M21,14 Q22,10 26,6" stroke="url(#strawRed)" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <path d="M21,13 Q22,9 26,5" stroke="url(#strawWhite)" stroke-width="0.6" fill="none" stroke-dasharray="2,2" stroke-linecap="round"/>
+ <!-- straw tip -->
+ <circle cx="26" cy="6" r="1" fill="url(#strawRed)"/>
+ <!-- bend crinkle dot -->
+ <circle cx="21.5" cy="13" r="0.8" fill="url(#strawRed)"/>
+</svg>

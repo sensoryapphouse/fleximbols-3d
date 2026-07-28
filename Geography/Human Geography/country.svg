@@ -1,0 +1,28 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="countryFill" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#88C880"/>
+ <stop offset="100%" stop-color="#3A7830"/>
+ </linearGradient>
+ <linearGradient id="flagRed" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#E03030"/>
+ <stop offset="100%" stop-color="#A01010"/>
+ </linearGradient>
+ </defs>
+ <!-- Country map outline (generic irregular shape) -->
+ 
+ <!-- Country outline stroke -->
+ <path d="M6 8 Q5 6 8 5 Q14 3 20 5 Q24 6 26 9 Q28 12 27 17 Q26 21 23 23 Q20 26 17 27 Q13 28 10 26 Q7 24 6 20 Q4 15 6 8 Z" fill="none" stroke="#2A6018" stroke-width="0.8"/>
+ <!-- Interior terrain marks -->
+ <path d="M10 12 Q13 10 16 12" fill="none" stroke="#4A9040" stroke-width="0.4" opacity="0.6"/>
+ <path d="M18 15 Q21 13 24 15" fill="none" stroke="#4A9040" stroke-width="0.4" opacity="0.6"/>
+ <path d="M12 18 Q15 16 18 18" fill="none" stroke="#4A9040" stroke-width="0.4" opacity="0.5"/>
+ <!-- Flag pin at centre -->
+ <line x1="16" y1="14" x2="16" y2="8" stroke="#606060" stroke-width="0.7"/>
+ <!-- Flag -->
+ <rect x="16" y="8" width="5" height="3" fill="url(#flagRed)"/>
+ <rect x="16" y="9.5" width="5" height="0.8" fill="#FFFFFF"/>
+ <!-- Pin head -->
+ <circle cx="16" cy="14.3" r="1.2" fill="#D02020"/>
+ <circle cx="15.6" cy="13.9" r="0.4" fill="#FF5050" fill-opacity="0.7"/>
+</svg>

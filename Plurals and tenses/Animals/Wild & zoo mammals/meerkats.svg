@@ -1,0 +1,70 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="mrk_fur" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#D4A96A"/>
+ <stop offset="100%" stop-color="#8B6534"/>
+ </linearGradient>
+ <linearGradient id="mrk_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#4E342E"/>
+ <stop offset="100%" stop-color="#2E1503"/>
+ </linearGradient>
+ <linearGradient id="mrk_belly" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#E8C898"/>
+ <stop offset="100%" stop-color="#C4A068"/>
+ </linearGradient>
+ <linearGradient id="mrk_ground" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#D4B896"/>
+ <stop offset="100%" stop-color="#A08060"/>
+ </linearGradient>
+ </defs>
+ <!-- Drop shadow -->
+ <!-- Ground mound -->
+ <!-- Tail (behind) -->
+ <path d="M16 26 Q19 26 22 24 Q24 22 24 19" stroke="url(#mrk_dark)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+ <!-- Back legs/feet -->
+ <path d="M13 26 Q12 28 11 30" stroke="url(#mrk_fur)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <path d="M19 26 Q20 28 21 30" stroke="url(#mrk_fur)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <!-- Feet -->
+ <ellipse cx="11" cy="30.5" rx="2" ry="1" fill="url(#mrk_dark)"/>
+ <ellipse cx="21" cy="30.5" rx="2" ry="1" fill="url(#mrk_dark)"/>
+ <!-- Body (upright, elongated) -->
+ <path d="M12 15 Q12 26 14 27 Q16 28 18 27 Q20 26 20 15 Q19 12 16 12 Q13 12 12 15 Z" fill="url(#mrk_fur)"/>
+ <!-- Belly lighter -->
+ <ellipse cx="16" cy="21" rx="3.5" ry="6" fill="url(#mrk_belly)" fill-opacity="0.7"/>
+ <!-- Dark back stripe -->
+ <line x1="16" y1="12" x2="16" y2="26" stroke="#8B6534" stroke-width="0.6" stroke-opacity="0.4"/>
+ <!-- Raised forepaws -->
+ <!-- Left arm raised -->
+ <path d="M12 18 Q8 16 7 13" stroke="url(#mrk_fur)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+ <ellipse cx="7" cy="12.5" rx="1.5" ry="1.2" fill="url(#mrk_fur)"/>
+ <!-- Right arm raised -->
+ <path d="M20 18 Q24 16 25 13" stroke="url(#mrk_fur)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+ <ellipse cx="25" cy="12.5" rx="1.5" ry="1.2" fill="url(#mrk_fur)"/>
+ <!-- Neck -->
+ <rect x="14.5" y="10" width="3" height="3.5" rx="1.5" fill="url(#mrk_fur)"/>
+ <!-- Head -->
+ <ellipse cx="16" cy="8" rx="4.5" ry="5" fill="url(#mrk_fur)"/>
+ <!-- Dark eye patches -->
+ <ellipse cx="13.5" cy="7.5" rx="2" ry="1.5" fill="url(#mrk_dark)" fill-opacity="0.7"/>
+ <ellipse cx="18.5" cy="7.5" rx="2" ry="1.5" fill="url(#mrk_dark)" fill-opacity="0.7"/>
+ <!-- Eyes (alert) -->
+ <ellipse cx="13.5" cy="7.5" rx="1" ry="1" fill="#1a2a4a"/>
+ <ellipse cx="18.5" cy="7.5" rx="1" ry="1" fill="#1a2a4a"/>
+ <circle cx="13.8" cy="7.1" r="0.35" fill="white"/>
+ <circle cx="18.8" cy="7.1" r="0.35" fill="white"/>
+ <!-- Ears (small rounded) -->
+ <ellipse cx="12.5" cy="4.5" rx="1.5" ry="1.8" fill="url(#mrk_fur)"/>
+ <ellipse cx="19.5" cy="4.5" rx="1.5" ry="1.8" fill="url(#mrk_fur)"/>
+ <!-- Inner ears -->
+ <ellipse cx="12.5" cy="4.5" rx="0.8" ry="1" fill="#C09878" fill-opacity="0.5"/>
+ <ellipse cx="19.5" cy="4.5" rx="0.8" ry="1" fill="#C09878" fill-opacity="0.5"/>
+ <!-- Nose (dark pointy) -->
+ <ellipse cx="16" cy="11" rx="1.2" ry="0.8" fill="url(#mrk_dark)"/>
+ <!-- Mouth (alert, straight) -->
+ <path d="M14.5 12 Q16 12.5 17.5 12" stroke="#8B6534" stroke-width="0.5" fill="none"/>
+ <!-- Alert scanning posture - whiskers -->
+ <line x1="13" y1="10.5" x2="9" y2="10" stroke="#D4A96A" stroke-width="0.4"/>
+ <line x1="13" y1="11.5" x2="9" y2="12" stroke="#D4A96A" stroke-width="0.4"/>
+ <line x1="19" y1="10.5" x2="23" y2="10" stroke="#D4A96A" stroke-width="0.4"/>
+ <line x1="19" y1="11.5" x2="23" y2="12" stroke="#D4A96A" stroke-width="0.4"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl419" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl419)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

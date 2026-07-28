@@ -1,0 +1,48 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A6D9F5"/>
+ <stop offset="100%" stop-color="#5CA3FF"/>
+ </linearGradient>
+ <linearGradient id="mountainL" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#7A7E84"/>
+ <stop offset="100%" stop-color="#C9CDD3"/>
+ </linearGradient>
+ <linearGradient id="mountainR" x1="1" y1="0" x2="0" y2="0">
+ <stop offset="0%" stop-color="#7A7E84"/>
+ <stop offset="100%" stop-color="#C9CDD3"/>
+ </linearGradient>
+ <linearGradient id="valley" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#9DC45A"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#5CC8D0"/>
+ <stop offset="100%" stop-color="#1F8A93"/>
+ </linearGradient>
+ </defs>
+ <!-- Sky -->
+ 
+ <!-- Left mountain (gentle slope - not sheer cliff, key distinction from canyon) -->
+ <polygon points="0,0 0,32 14,24" fill="url(#mountainL)"/>
+ <!-- Left mountain snow cap -->
+ <polygon points="0,0 5,8 0,10" fill="#FFFFFF" fill-opacity="0.9"/>
+ <!-- Left mountain tree line -->
+ <polygon points="0,22 8,18 14,24" fill="#7BAA48" fill-opacity="0.6"/>
+ <!-- Right mountain (gentle slope) -->
+ <polygon points="32,0 32,32 18,24" fill="url(#mountainR)"/>
+ <!-- Right mountain snow cap -->
+ <polygon points="32,0 27,8 32,10" fill="#FFFFFF" fill-opacity="0.9"/>
+ <!-- Right mountain tree line -->
+ <polygon points="32,22 24,18 18,24" fill="#7BAA48" fill-opacity="0.6"/>
+ <!-- Green valley floor (key gesture - green + gentle U-shape) -->
+ <ellipse cx="16" cy="30" rx="10" ry="8" fill="url(#valley)"/>
+ <rect x="8" y="24" width="16" height="8" fill="url(#valley)"/>
+ <!-- Valley forest -->
+ <ellipse cx="9" cy="26" rx="3" ry="2.5" fill="#33691E" fill-opacity="0.85"/>
+ <ellipse cx="23" cy="26" rx="3" ry="2.5" fill="#33691E" fill-opacity="0.85"/>
+ <!-- River through valley floor (key gesture) -->
+ <path d="M15,24 Q16,26 15,28 Q14,30 15,32 L17,32 Q16,30 17,28 Q18,26 17,24 Z" fill="url(#river)"/>
+ <!-- River glints -->
+ <path d="M15.5,26 Q16,27 15.5,28" stroke="#FFFFFF" stroke-width="0.4" fill="none" stroke-opacity="0.5"/>
+</svg>

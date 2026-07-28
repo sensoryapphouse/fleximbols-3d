@@ -1,0 +1,32 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="vt_cloth" x1="6" y1="4" x2="26" y2="29" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#C0563C"/>
+<stop offset="0.5" stop-color="#A4452F"/>
+<stop offset="1" stop-color="#7E3320"/>
+</linearGradient>
+<linearGradient id="vt_inner" x1="12" y1="4" x2="20" y2="14" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#F4DDB0"/>
+<stop offset="1" stop-color="#E2C387"/>
+</linearGradient>
+</defs>
+<!-- inner shirt / V-neck fill -->
+<path d="M11 4 H21 L18.5 13.5 H13.5 Z" fill="url(#vt_inner)"/>
+<!-- LEFT front panel -->
+<path d="M11 4 C8.5 4.5 6.8 5.4 6.2 6.4 L8.0 27.5 H15.2 L15.2 12.5 Z" fill="url(#vt_cloth)" stroke="#6E2C1B" stroke-width="0.4"/>
+<!-- RIGHT front panel -->
+<path d="M21 4 C23.5 4.5 25.2 5.4 25.8 6.4 L24.0 27.5 H16.8 L16.8 12.5 Z" fill="url(#vt_cloth)" stroke="#6E2C1B" stroke-width="0.4"/>
+<!-- shoulder seams -->
+<path d="M11 4 L13.5 9 M21 4 L18.5 9" stroke="#6E2C1B" stroke-width="0.4" opacity="0.5"/>
+<!-- centre opening -->
+<line x1="16" y1="12.8" x2="16" y2="27.3" stroke="#6E2C1B" stroke-width="0.45"/>
+<!-- buttons -->
+<circle cx="16" cy="15.5" r="0.7" fill="#F4C842" stroke="#B58A12" stroke-width="0.25"/>
+<circle cx="16" cy="19.0" r="0.7" fill="#F4C842" stroke="#B58A12" stroke-width="0.25"/>
+<circle cx="16" cy="22.5" r="0.7" fill="#F4C842" stroke="#B58A12" stroke-width="0.25"/>
+<!-- pockets -->
+<rect x="9.0" y="20.5" width="4.2" height="2.6" rx="0.5" fill="#8E3A26" stroke="#6E2C1B" stroke-width="0.3"/>
+<rect x="18.8" y="20.5" width="4.2" height="2.6" rx="0.5" fill="#8E3A26" stroke="#6E2C1B" stroke-width="0.3"/>
+<!-- gloss -->
+<path d="M9.0 7.5 L10.4 25.5" stroke="#FFFFFF" stroke-width="0.5" opacity="0.18" stroke-linecap="round"/>
+</svg>

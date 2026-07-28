@@ -1,0 +1,75 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="ar" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFE48A"/><stop offset="100%" stop-color="#E5A700"/></linearGradient>
+<radialGradient id="crown" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE48A"/><stop offset="100%" stop-color="#B47A00"/></radialGradient>
+</defs>
+<rect x="0" y="29" width="32" height="0.5" fill="#5A3A2A" opacity="0.5"/>
+
+<!-- legs -->
+<rect x="3.6399999999999997" y="24.91" width="1.105" height="5.1" fill="#1A237E"/>
+<rect x="5.255" y="24.91" width="1.105" height="5.1" fill="#1A237E"/>
+<!-- feet -->
+<ellipse cx="4.1925" cy="29" rx="0.935" ry="0.34" fill="#1A1F2C"/>
+<ellipse cx="5.8075" cy="29" rx="0.935" ry="0.34" fill="#1A1F2C"/>
+<!-- torso -->
+<rect x="3.3" y="20.66" width="3.4" height="4.25" rx="0.51" fill="#4FC3F7"/>
+<!-- arms -->
+<rect x="2.28" y="20.915" width="1.02" height="3.4" rx="0.34" fill="#4FC3F7"/>
+<rect x="6.7" y="20.915" width="1.02" height="3.4" rx="0.34" fill="#4FC3F7"/>
+<!-- hands -->
+<circle cx="2.79" cy="24.485" r="0.595" fill="#FFE0BD"/>
+<circle cx="7.21" cy="24.485" r="0.595" fill="#FFE0BD"/>
+<!-- head -->
+<circle cx="5" cy="18.8" r="1.36" fill="#FFE0BD"/>
+<path d="M3.776 18.392 Q 5 16.896 6.224 18.392 Q 6.36 18.8 5 19.072 Q 3.6399999999999997 18.8 3.776 18.392 Z" fill="#5C3018"/>
+<circle cx="4.575" cy="18.885" r="0.17" fill="#1A1F2C"/>
+<circle cx="5.425" cy="18.885" r="0.17" fill="#1A1F2C"/>
+<path d="M4.575 19.395 Q 5 19.650000000000002 5.425 19.395" stroke="#7B3A1E" stroke-width="0.2" fill="none" stroke-linecap="round"/>
+
+
+<!-- legs -->
+<rect x="13.16" y="23.29" width="1.4949999999999999" height="6.8999999999999995" fill="#0E5A0E"/>
+<rect x="15.345" y="23.29" width="1.4949999999999999" height="6.8999999999999995" fill="#0E5A0E"/>
+<!-- feet -->
+<ellipse cx="13.9075" cy="29" rx="1.265" ry="0.45999999999999996" fill="#1A1F2C"/>
+<ellipse cx="16.0925" cy="29" rx="1.265" ry="0.45999999999999996" fill="#1A1F2C"/>
+<!-- torso -->
+<rect x="12.7" y="17.54" width="4.6" height="5.75" rx="0.69" fill="#5AC85A"/>
+<!-- arms -->
+<rect x="11.32" y="17.884999999999998" width="1.38" height="4.6" rx="0.45999999999999996" fill="#5AC85A"/>
+<rect x="17.3" y="17.884999999999998" width="1.38" height="4.6" rx="0.45999999999999996" fill="#5AC85A"/>
+<!-- hands -->
+<circle cx="12.01" cy="22.715" r="0.8049999999999999" fill="#FFE0BD"/>
+<circle cx="17.99" cy="22.715" r="0.8049999999999999" fill="#FFE0BD"/>
+<!-- head -->
+<circle cx="15" cy="15.200000000000001" r="1.8399999999999999" fill="#FFE0BD"/>
+<path d="M13.344 14.648000000000001 Q 15 12.624000000000002 16.656 14.648000000000001 Q 16.84 15.200000000000001 15 15.568000000000001 Q 13.16 15.200000000000001 13.344 14.648000000000001 Z" fill="#5C3018"/>
+<circle cx="14.425" cy="15.315000000000001" r="0.22999999999999998" fill="#1A1F2C"/>
+<circle cx="15.575" cy="15.315000000000001" r="0.22999999999999998" fill="#1A1F2C"/>
+<path d="M14.425 16.005000000000003 Q 15 16.35 15.575 16.005000000000003" stroke="#7B3A1E" stroke-width="0.2" fill="none" stroke-linecap="round"/>
+
+
+<!-- legs -->
+<rect x="22.52" y="21.13" width="2.015" height="9.3" fill="#7E1A78"/>
+<rect x="25.465" y="21.13" width="2.015" height="9.3" fill="#7E1A78"/>
+<!-- feet -->
+<ellipse cx="23.5275" cy="29" rx="1.7050000000000003" ry="0.6200000000000001" fill="#1A1F2C"/>
+<ellipse cx="26.4725" cy="29" rx="1.7050000000000003" ry="0.6200000000000001" fill="#1A1F2C"/>
+<!-- torso -->
+<rect x="21.9" y="13.379999999999999" width="6.2" height="7.75" rx="0.9299999999999999" fill="#FF7BB5"/>
+<!-- arms -->
+<rect x="20.04" y="13.844999999999999" width="1.8599999999999999" height="6.2" rx="0.6200000000000001" fill="#FF7BB5"/>
+<rect x="28.1" y="13.844999999999999" width="1.8599999999999999" height="6.2" rx="0.6200000000000001" fill="#FF7BB5"/>
+<!-- hands -->
+<circle cx="20.97" cy="20.355" r="1.085" fill="#FFE0BD"/>
+<circle cx="29.03" cy="20.355" r="1.085" fill="#FFE0BD"/>
+<!-- head -->
+<circle cx="25" cy="10.399999999999999" r="2.4800000000000004" fill="#FFE0BD"/>
+<path d="M22.768 9.655999999999999 Q 25 6.927999999999998 27.232 9.655999999999999 Q 27.48 10.399999999999999 25 10.895999999999999 Q 22.52 10.399999999999999 22.768 9.655999999999999 Z" fill="#5C3018"/>
+<circle cx="24.225" cy="10.554999999999998" r="0.31000000000000005" fill="#1A1F2C"/>
+<circle cx="25.775" cy="10.554999999999998" r="0.31000000000000005" fill="#1A1F2C"/>
+<path d="M24.225 11.485 Q 25 11.95 25.775 11.485" stroke="#7B3A1E" stroke-width="0.2" fill="none" stroke-linecap="round"/>
+
+<!-- gold star above the tallest -->
+<path d="M25 5 L 25.7 6.5 L 27.3 6.5 L 26 7.5 L 26.5 9 L 25 8 L 23.5 9 L 24 7.5 L 22.7 6.5 L 24.3 6.5 Z" fill="url(#crown)"/>
+</svg>

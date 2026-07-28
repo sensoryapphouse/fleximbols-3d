@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="omPlate" cx="0.45" cy="0.35" r="0.7">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="0.8" stop-color="#e6eaee"/>
+<stop offset="1" stop-color="#c4ccd3"/>
+</radialGradient>
+<linearGradient id="omEgg" x1="40" y1="70" x2="160" y2="140" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#ffe27a"/>
+<stop offset="0.55" stop-color="#fcc62e"/>
+<stop offset="1" stop-color="#e09a14"/>
+</linearGradient>
+<radialGradient id="omGloss" cx="0.4" cy="0.3" r="0.5">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.6"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<!-- plate -->
+<ellipse cx="100" cy="138" rx="84" ry="30" fill="url(#omPlate)" stroke="#9aa3ab" stroke-width="2"/>
+<ellipse cx="100" cy="135" rx="62" ry="20" fill="none" stroke="#cdd4da" stroke-width="2"/>
+<!-- folded omelet (half-moon) -->
+<path d="M40 128 Q44 86 100 84 Q156 86 160 128 Q150 138 100 138 Q50 138 40 128 Z" fill="url(#omEgg)" stroke="#b07810" stroke-width="3" stroke-linejoin="round"/>
+<!-- fold crease -->
+<path d="M52 122 Q100 112 148 122" fill="none" stroke="#c98e16" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+<path d="M62 100 Q100 92 138 100" fill="none" stroke="#e7b94a" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+<!-- filling bits peeking out -->
+<ellipse cx="78" cy="124" rx="8" ry="4" fill="#e8552e" stroke="#a83417" stroke-width="1.5" transform="rotate(-12 78 124)"/>
+<ellipse cx="118" cy="123" rx="8" ry="4.5" fill="#4caa2e" stroke="#2f7019" stroke-width="1.5" transform="rotate(10 118 123)"/>
+<ellipse cx="100" cy="126" rx="5" ry="3" fill="#e8552e" stroke="#a83417" stroke-width="1.2"/>
+<!-- gloss -->
+<ellipse cx="84" cy="100" rx="30" ry="12" fill="url(#omGloss)"/>
+</svg>

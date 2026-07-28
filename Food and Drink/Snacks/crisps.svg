@@ -1,0 +1,37 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f0d040"/>
+ <stop offset="50%" stop-color="#d8a818"/>
+ <stop offset="100%" stop-color="#9a7008"/>
+ </linearGradient>
+ <radialGradient id="chipGrad" cx="0.35" cy="0.3" r="0.85">
+ <stop offset="0" stop-color="#FFE890"/>
+ <stop offset="0.55" stop-color="#F0B838"/>
+ <stop offset="1" stop-color="#B87808"/>
+ </radialGradient>
+ <linearGradient id="bagSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+ <stop offset="45%" stop-color="#fff4c0" stop-opacity="0.55"/>
+ <stop offset="55%" stop-color="#fff4c0" stop-opacity="0.55"/>
+ <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+ </linearGradient>
+ </defs>
+ <!-- Bag body (open at top) -->
+ <path d="M9 12 L23 12 L24 28 Q16 30 8 28 Z" fill="url(#bagGrad)" stroke="#7a5800" stroke-width="0.4"/>
+ <!-- Crimped top seal edges -->
+ <path d="M8.5 12 Q11 9.5 13 11 Q14.5 9 16 11 Q17.5 9 19 11 Q21 9.5 23.5 12 Z" fill="#c89810"/>
+ <!-- Bag sheen -->
+ <rect x="9" y="12" width="14" height="16" fill="url(#bagSheen)"/>
+ <!-- Open mouth of bag (dark) -->
+ <ellipse cx="16" cy="12" rx="7" ry="2" fill="#6a4c08"/>
+ <!-- Thin wavy crisps spilling out the top -->
+ <g stroke="#9a6204" stroke-width="0.35">
+  <path d="M7 9 Q9 6 13 7 Q11 10 7 9Z" fill="url(#chipGrad)" transform="rotate(-18 10 8)"/>
+  <path d="M18 8.5 Q21 5.5 25 7 Q22 10 18 8.5Z" fill="url(#chipGrad)" transform="rotate(15 21 8)"/>
+  <path d="M12.5 6 Q15.5 3.5 19.5 5 Q16.5 8 12.5 6Z" fill="url(#chipGrad)"/>
+ </g>
+ <path d="M8.5 8.4 Q10.5 7 12 8.2" stroke="#c88a14" stroke-width="0.45" fill="none" stroke-opacity="0.5"/>
+ <path d="M19.5 8 Q21.5 6.6 23.5 7.6" stroke="#c88a14" stroke-width="0.45" fill="none" stroke-opacity="0.5"/>
+ <path d="M14 5.6 Q16 4.4 18 5.4" stroke="#c88a14" stroke-width="0.45" fill="none" stroke-opacity="0.5"/>
+</svg>

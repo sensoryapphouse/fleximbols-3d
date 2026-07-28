@@ -1,0 +1,52 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,2.611) scale(0.9184)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="suitGray" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#3C3C4E"/>
+ <stop offset="100%" stop-color="#18181E"/>
+ </linearGradient>
+ <linearGradient id="shirtW" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#C8CEDE"/>
+ </linearGradient>
+ <linearGradient id="tieRed" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C02020"/>
+ <stop offset="100%" stop-color="#7A0808"/>
+ </linearGradient>
+ <linearGradient id="trouser" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#2E2E3E"/>
+ <stop offset="100%" stop-color="#141418"/>
+ </linearGradient>
+ </defs>
+ <!-- Hanger bar -->
+ <rect x="10" y="2" width="12" height="0.8" rx="0.4" fill="#B8A060"/>
+ <path d="M16 2 L16 4 Q14 4 12 5" fill="none" stroke="#B8A060" stroke-width="0.8"/>
+ <!-- Jacket left panel -->
+ 
+ <!-- Jacket right panel -->
+ <path d="M27 8 L18 6 L18 22 L27 22 Z" fill="url(#suitGray)"/>
+ <!-- White shirt showing -->
+ <path d="M14 6 L16 7 L18 6 L18 22 L16 22 L14 22 Z" fill="url(#shirtW)"/>
+ <!-- Left lapel -->
+ <path d="M5 8 L14 6 L12 13 L6 12 Z" fill="#2C2C3E"/>
+ <!-- Right lapel -->
+ <path d="M27 8 L18 6 L20 13 L26 12 Z" fill="#2C2C3E"/>
+ <!-- Tie -->
+ <path d="M15 7 L17 7 L17.5 14 L16 15.5 L14.5 14 Z" fill="url(#tieRed)"/>
+ <rect x="15.2" y="7" width="1.6" height="1" rx="0.3" fill="#A01818"/>
+ <!-- Jacket buttons -->
+ <circle cx="16" cy="17" r="0.6" fill="#888898"/>
+ <circle cx="16" cy="19.5" r="0.6" fill="#888898"/>
+ <!-- Pocket -->
+ <rect x="6" y="16" width="5" height="1.2" rx="0.3" fill="#18181E"/>
+ <!-- Pocket square -->
+ <rect x="6.5" y="15" width="2" height="1.5" rx="0.2" fill="#FFFFFF" fill-opacity="0.8"/>
+ <!-- Trousers -->
+ <rect x="10" y="22" width="12" height="8" rx="1" fill="url(#trouser)"/>
+ <!-- Trouser crease -->
+ <line x1="16" y1="22" x2="16" y2="30" stroke="#2E2E3E" stroke-width="0.5"/>
+ <line x1="13" y1="22" x2="13" y2="30" stroke="#2A2A3A" stroke-width="0.3" opacity="0.5"/>
+ <line x1="19" y1="22" x2="19" y2="30" stroke="#2A2A3A" stroke-width="0.3" opacity="0.5"/>
+ <!-- Jacket sleeves -->
+ <path d="M5 10 L2 16 L5 17 L7 12 Z" fill="url(#suitGray)"/>
+ <path d="M27 10 L30 16 L27 17 L25 12 Z" fill="url(#suitGray)"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl762" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl762)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<radialGradient id="dr_b" cx="35%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#C99878"/><stop offset="100%" stop-color="#5E3920"/></radialGradient>
+<radialGradient id="dr_k" cx="35%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#FFE0B8"/><stop offset="100%" stop-color="#8B5C3A"/></radialGradient>
+</defs>
+<!-- knob -->
+<rect x="14.5" y="3" width="3" height="2" rx="0.4" fill="url(#dr_k)"/>
+<rect x="14" y="5" width="4" height="1" fill="#5E3920"/>
+<!-- body square -->
+<rect x="9" y="6" width="14" height="14" rx="1.2" fill="url(#dr_b)" transform="rotate(3 16 13)"/>
+<ellipse cx="13" cy="9" rx="3" ry="1.5" fill="#FFFFFF" fill-opacity="0.3" transform="rotate(3 16 13)"/>
+<!-- Hebrew letter Nun (simplified as path-only abstract glyph: tall stroke + foot) -->
+<path d="M 14 10 L 14 17 L 19 17 L 19 14" stroke="#FFEF5B" stroke-width="1.2" fill="none" stroke-linecap="round" transform="rotate(3 16 13)"/>
+<!-- tapered point -->
+<path d="M 10 20 L 22 20 L 16 28 Z" fill="url(#dr_b)" transform="rotate(3 16 22)"/></svg>

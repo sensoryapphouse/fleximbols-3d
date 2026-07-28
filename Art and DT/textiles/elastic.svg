@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ela-band" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#e85a8a"/>
+ <stop offset="100%" stop-color="#a02050"/>
+ </linearGradient>
+ <linearGradient id="ela-skin" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f0c898"/>
+ <stop offset="100%" stop-color="#c89060"/>
+ </linearGradient>
+ </defs>
+ <!-- left hand fingers -->
+ <ellipse cx="4" cy="16" rx="2.5" ry="4" fill="url(#ela-skin)" filter="url(#ela-sh)"/>
+ <rect x="2" y="13" width="2" height="5" rx="1" fill="url(#ela-skin)"/>
+ <rect x="3" y="12.5" width="2" height="5" rx="1" fill="url(#ela-skin)"/>
+ <rect x="4" y="13.5" width="1.8" height="4" rx="0.9" fill="url(#ela-skin)"/>
+ <!-- right hand fingers -->
+ <ellipse cx="28" cy="16" rx="2.5" ry="4" fill="url(#ela-skin)" filter="url(#ela-sh)"/>
+ <rect x="28" y="13" width="2" height="5" rx="1" fill="url(#ela-skin)"/>
+ <rect x="27" y="12.5" width="2" height="5" rx="1" fill="url(#ela-skin)"/>
+ <rect x="26.2" y="13.5" width="1.8" height="4" rx="0.9" fill="url(#ela-skin)"/>
+ <!-- stretched rubber band top -->
+ <path d="M6 14.5 Q16 11 26 14.5" stroke="#e85a8a" stroke-width="1.2" fill="none" filter="url(#ela-sh)"/>
+ <!-- stretched rubber band bottom -->
+ <path d="M6 17.5 Q16 21 26 17.5" stroke="#a02050" stroke-width="1.2" fill="none"/>
+ <!-- band fill between paths -->
+ <path d="M6 14.5 Q16 11 26 14.5 L26 17.5 Q16 21 6 17.5 Z" fill="url(#ela-band)" fill-opacity="0.8"/>
+ <!-- tension highlight -->
+ <path d="M8 14 Q16 11.5 24 14" stroke="#ff88aa" stroke-width="0.4" fill="none" stroke-opacity="0.6"/>
+</svg>

@@ -1,0 +1,404 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <g transform="translate(0 0) scale(0.625)">
+<path d="M6.09192 4.42812C6.09192 4.23482 6.24862 4.07812 6.44192 4.07812H9.79061C9.98391 4.07812 10.1406 4.23483 10.1406 4.42812V14.7308H6.09192V4.42812Z" fill="url(#mudroom_a_paint0_radial_18_6002)"/>
+<path d="M6.09192 4.42812C6.09192 4.23482 6.24862 4.07812 6.44192 4.07812H9.79061C9.98391 4.07812 10.1406 4.23483 10.1406 4.42812V14.7308H6.09192V4.42812Z" fill="url(#mudroom_a_paint1_linear_18_6002)"/>
+<path d="M6.09192 4.42812C6.09192 4.23482 6.24862 4.07812 6.44192 4.07812H9.79061C9.98391 4.07812 10.1406 4.23483 10.1406 4.42812V14.7308H6.09192V4.42812Z" fill="url(#mudroom_a_paint2_linear_18_6002)"/>
+<path d="M6.09192 4.42812C6.09192 4.23482 6.24862 4.07812 6.44192 4.07812H9.79061C9.98391 4.07812 10.1406 4.23483 10.1406 4.42812V14.7308H6.09192V4.42812Z" fill="url(#mudroom_a_paint3_linear_18_6002)"/>
+<path d="M6.09192 4.42812C6.09192 4.23482 6.24862 4.07812 6.44192 4.07812H9.79061C9.98391 4.07812 10.1406 4.23483 10.1406 4.42812V14.7308H6.09192V4.42812Z" fill="url(#mudroom_a_paint4_radial_18_6002)"/>
+<path d="M27.6563 29.1593H4.64062V15.7182L16.1485 4.96533L27.6563 15.7182V29.1593Z" fill="url(#mudroom_a_paint5_linear_18_6002)"/>
+<path d="M27.6563 29.1593H4.64062V15.7182L16.1485 4.96533L27.6563 15.7182V29.1593Z" fill="url(#mudroom_a_paint6_linear_18_6002)"/>
+<path d="M27.6563 29.1593H4.64062V15.7182L16.1485 4.96533L27.6563 15.7182V29.1593Z" fill="url(#mudroom_a_paint7_radial_18_6002)"/>
+<path d="M27.6563 29.1593H4.64062V15.7182L16.1485 4.96533L27.6563 15.7182V29.1593Z" fill="url(#mudroom_a_paint8_linear_18_6002)"/>
+<path d="M27.6563 29.1593H4.64062V15.7182L16.1485 4.96533L27.6563 15.7182V29.1593Z" fill="url(#mudroom_a_paint9_radial_18_6002)"/>
+<path d="M27.6563 29.1593H4.64062V15.7182L16.1485 4.96533L27.6563 15.7182V29.1593Z" fill="url(#mudroom_a_paint10_linear_18_6002)"/>
+<path d="M27.6563 29.1593H4.64062V15.7182L16.1485 4.96533L27.6563 15.7182V29.1593Z" fill="url(#mudroom_a_paint11_linear_18_6002)"/>
+<g filter="url(#mudroom_a_filter0_f_18_6002)">
+<path d="M15.0662 29.1592H8.12341V18.1523C8.12341 17.3136 8.65569 16.6248 9.30368 16.6248H13.8859C14.5339 16.6248 15.0662 17.3136 15.0662 18.1523V29.1592V29.1592Z" fill="url(#mudroom_a_paint12_linear_18_6002)"/>
+</g>
+<g filter="url(#mudroom_a_filter1_i_18_6002)">
+<path d="M23.6493 21.8641H19.461C18.9907 21.8641 18.6233 21.4819 18.6233 21.0263V16.8377C18.6233 16.3674 19.0054 16 19.461 16H23.6493C24.1195 16 24.4869 16.3821 24.4869 16.8377V21.0263C24.4869 21.4966 24.1195 21.8641 23.6493 21.8641Z" fill="url(#mudroom_a_paint13_linear_18_6002)"/>
+<path d="M23.6493 21.8641H19.461C18.9907 21.8641 18.6233 21.4819 18.6233 21.0263V16.8377C18.6233 16.3674 19.0054 16 19.461 16H23.6493C24.1195 16 24.4869 16.3821 24.4869 16.8377V21.0263C24.4869 21.4966 24.1195 21.8641 23.6493 21.8641Z" fill="url(#mudroom_a_paint14_linear_18_6002)"/>
+</g>
+<path d="M23.6493 21.8641H19.461C18.9907 21.8641 18.6233 21.4819 18.6233 21.0263V16.8377C18.6233 16.3674 19.0054 16 19.461 16H23.6493C24.1195 16 24.4869 16.3821 24.4869 16.8377V21.0263C24.4869 21.4966 24.1195 21.8641 23.6493 21.8641Z" fill="url(#mudroom_a_paint15_linear_18_6002)"/>
+<path d="M23.6493 21.8641H19.461C18.9907 21.8641 18.6233 21.4819 18.6233 21.0263V16.8377C18.6233 16.3674 19.0054 16 19.461 16H23.6493C24.1195 16 24.4869 16.3821 24.4869 16.8377V21.0263C24.4869 21.4966 24.1195 21.8641 23.6493 21.8641Z" fill="url(#mudroom_a_paint16_linear_18_6002)"/>
+<g filter="url(#mudroom_a_filter2_ii_18_6002)">
+<path d="M16.2568 27.8979H8.51355V17.4636C8.51355 16.6687 9.1072 16.0156 9.82991 16.0156H14.9405C15.6632 16.0156 16.2568 16.6687 16.2568 17.4636V27.8979V27.8979Z" fill="url(#mudroom_a_paint17_linear_18_6002)"/>
+</g>
+<g filter="url(#mudroom_a_filter3_f_18_6002)">
+<path d="M14.3173 22.2729C14.6252 22.2729 14.8748 22.0233 14.8748 21.7154C14.8748 21.4075 14.6252 21.158 14.3173 21.158C14.0095 21.158 13.7599 21.4075 13.7599 21.7154C13.7599 22.0233 14.0095 22.2729 14.3173 22.2729Z" fill="#62393D"/>
+</g>
+<g filter="url(#mudroom_a_filter4_ii_18_6002)">
+<path d="M14.462 22.1888C14.773 22.1888 15.0251 21.9367 15.0251 21.6257C15.0251 21.3146 14.773 21.0625 14.462 21.0625C14.1509 21.0625 13.8988 21.3146 13.8988 21.6257C13.8988 21.9367 14.1509 22.1888 14.462 22.1888Z" fill="#895D56"/>
+</g>
+<path d="M29.7382 15.8467L16.9977 3.29507C16.5253 2.8227 15.756 2.8227 15.2836 3.29507C15.2836 3.29507 15.2701 3.29507 15.2701 3.30857L2.50259 15.8737C2.03022 16.346 2.03022 17.1018 2.50259 17.5607C2.97497 18.0196 3.74426 18.0331 4.21663 17.5607L15.9584 5.99176C16.0558 5.89587 16.212 5.89587 16.3093 5.99176L28.0107 17.5202C28.483 17.9926 29.2523 17.9926 29.7247 17.5202C30.1971 17.0478 30.2106 16.3055 29.7382 15.8467Z" fill="url(#mudroom_a_paint18_linear_18_6002)"/>
+<path d="M29.7382 15.8467L16.9977 3.29507C16.5253 2.8227 15.756 2.8227 15.2836 3.29507C15.2836 3.29507 15.2701 3.29507 15.2701 3.30857L2.50259 15.8737C2.03022 16.346 2.03022 17.1018 2.50259 17.5607C2.97497 18.0196 3.74426 18.0331 4.21663 17.5607L15.9584 5.99176C16.0558 5.89587 16.212 5.89587 16.3093 5.99176L28.0107 17.5202C28.483 17.9926 29.2523 17.9926 29.7247 17.5202C30.1971 17.0478 30.2106 16.3055 29.7382 15.8467Z" fill="url(#mudroom_a_paint19_radial_18_6002)"/>
+<g filter="url(#mudroom_a_filter5_f_18_6002)">
+<path d="M7.3584 27.2782H16.0001V28.4103H7.3584V27.2782Z" fill="#68552B"/>
+</g>
+<g filter="url(#mudroom_a_filter6_i_18_6002)">
+<path d="M2.14832 29.9317C2.14832 28.8149 3.05364 27.9095 4.17042 27.9095H28.0637C29.1805 27.9095 30.0858 28.8149 30.0858 29.9317V29.9317H2.14832V29.9317Z" fill="url(#mudroom_a_paint20_linear_18_6002)"/>
+</g>
+<path d="M2.14832 29.9317C2.14832 28.8149 3.05364 27.9095 4.17042 27.9095H28.0637C29.1805 27.9095 30.0858 28.8149 30.0858 29.9317V29.9317H2.14832V29.9317Z" fill="url(#mudroom_a_paint21_linear_18_6002)"/>
+<path d="M2.14832 29.9317C2.14832 28.8149 3.05364 27.9095 4.17042 27.9095H28.0637C29.1805 27.9095 30.0858 28.8149 30.0858 29.9317V29.9317H2.14832V29.9317Z" fill="url(#mudroom_a_paint22_radial_18_6002)"/>
+<path d="M7.56262 27.7776C7.56262 27.3634 7.89841 27.0276 8.31262 27.0276H16.3257C16.8128 27.0276 17.2077 27.4225 17.2077 27.9096V27.9096H7.56262V27.7776Z" fill="url(#mudroom_a_paint23_linear_18_6002)"/>
+<path d="M7.56262 27.7776C7.56262 27.3634 7.89841 27.0276 8.31262 27.0276H16.3257C16.8128 27.0276 17.2077 27.4225 17.2077 27.9096V27.9096H7.56262V27.7776Z" fill="url(#mudroom_a_paint24_linear_18_6002)"/>
+<path d="M7.56262 27.7776C7.56262 27.3634 7.89841 27.0276 8.31262 27.0276H16.3257C16.8128 27.0276 17.2077 27.4225 17.2077 27.9096V27.9096H7.56262V27.7776Z" fill="url(#mudroom_a_paint25_linear_18_6002)"/>
+<g filter="url(#mudroom_a_filter7_f_18_6002)">
+<path d="M16.3385 3.89661L29.1147 16.4768" stroke="url(#mudroom_a_paint26_linear_18_6002)" stroke-width="0.3" stroke-linecap="round"/>
+</g>
+<g filter="url(#mudroom_a_filter8_f_18_6002)">
+<path d="M16.3385 3.89661L3.56233 16.4768" stroke="url(#mudroom_a_paint27_linear_18_6002)" stroke-opacity="0.5" stroke-width="0.3" stroke-linecap="round"/>
+</g>
+<defs>
+<filter id="mudroom_a_filter0_f_18_6002" x="7.62341" y="16.1248" width="7.94275" height="13.5344" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.25" result="effect1_foregroundBlur_18_6002"/>
+</filter>
+<filter id="mudroom_a_filter1_i_18_6002" x="18.1233" y="16" width="6.36365" height="6.36401" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-0.5" dy="0.5"/>
+<feGaussianBlur stdDeviation="0.25"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0470588 0 0 0 0 0.47451 0 0 0 0 0.792157 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_18_6002"/>
+</filter>
+<filter id="mudroom_a_filter2_ii_18_6002" x="8.31355" y="16.0156" width="8.19329" height="11.8823" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.25"/>
+<feGaussianBlur stdDeviation="0.25"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.254902 0 0 0 0 0.188235 0 0 0 0 0.141176 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_18_6002"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-0.2"/>
+<feGaussianBlur stdDeviation="0.15"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.694118 0 0 0 0 0.470588 0 0 0 0 0.407843 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_18_6002" result="effect2_innerShadow_18_6002"/>
+</filter>
+<filter id="mudroom_a_filter3_f_18_6002" x="13.6099" y="21.008" width="1.41487" height="1.41487" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.075" result="effect1_foregroundBlur_18_6002"/>
+</filter>
+<filter id="mudroom_a_filter4_ii_18_6002" x="13.7988" y="21.0625" width="1.32634" height="1.12634" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-0.1"/>
+<feGaussianBlur stdDeviation="0.1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.694118 0 0 0 0 0.482353 0 0 0 0 0.419608 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_18_6002"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.1"/>
+<feGaussianBlur stdDeviation="0.1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.290196 0 0 0 0 0.184314 0 0 0 0 0.164706 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_18_6002" result="effect2_innerShadow_18_6002"/>
+</filter>
+<filter id="mudroom_a_filter5_f_18_6002" x="6.8584" y="26.7782" width="9.6416" height="2.13208" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.25" result="effect1_foregroundBlur_18_6002"/>
+</filter>
+<filter id="mudroom_a_filter6_i_18_6002" x="2.14832" y="27.9095" width="28.4375" height="2.02209" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.5"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.25098 0 0 0 0 0.545098 0 0 0 0 0.352941 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_18_6002"/>
+</filter>
+<filter id="mudroom_a_filter7_f_18_6002" x="15.5885" y="3.14658" width="14.2762" height="14.0802" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.3" result="effect1_foregroundBlur_18_6002"/>
+</filter>
+<filter id="mudroom_a_filter8_f_18_6002" x="2.81235" y="3.14658" width="14.2762" height="14.0802" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.3" result="effect1_foregroundBlur_18_6002"/>
+</filter>
+<radialGradient id="mudroom_a_paint0_radial_18_6002" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(9.59305 4.67442) rotate(90) scale(4.73002 2.5818)">
+<stop stop-color="#F1B379"/>
+<stop offset="1" stop-color="#CD915F"/>
+</radialGradient>
+<linearGradient id="mudroom_a_paint1_linear_18_6002" x1="5.81228" y1="8.19254" x2="7.50578" y2="8.19254" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8E694B"/>
+<stop offset="1" stop-color="#8E694B" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint2_linear_18_6002" x1="9.62498" y1="10.5625" x2="8.36723" y2="7.88223" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9F6A42"/>
+<stop offset="1" stop-color="#9F6A42" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint3_linear_18_6002" x1="8.11626" y1="4.02028" x2="8.11626" y2="4.19381" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D5AD80"/>
+<stop offset="1" stop-color="#D5AD80" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="mudroom_a_paint4_radial_18_6002" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.6154 4.26905) rotate(-180) scale(2.80503 0.548434)">
+<stop stop-color="#FFCB8C"/>
+<stop offset="1" stop-color="#FFCB8C" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="mudroom_a_paint5_linear_18_6002" x1="5.47765" y1="20.7771" x2="27.0212" y2="20.7771" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7905F"/>
+<stop offset="1" stop-color="#E8BC97"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint6_linear_18_6002" x1="6.08331" y1="29.7215" x2="13.7907" y2="17.8555" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BA8951"/>
+<stop offset="1" stop-color="#BA8951" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="mudroom_a_paint7_radial_18_6002" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.5636 28.3793) rotate(-118.804) scale(3.83795 4.81691)">
+<stop stop-color="#BEAB75"/>
+<stop offset="1" stop-color="#BEAB75" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="mudroom_a_paint8_linear_18_6002" x1="27.6563" y1="24.0765" x2="26.9168" y2="24.0765" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE6B1"/>
+<stop offset="1" stop-color="#FFE6B1" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="mudroom_a_paint9_radial_18_6002" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(27.9282 14.916) rotate(90) scale(4.71709 1.06597)">
+<stop offset="0.35" stop-color="#9E413E"/>
+<stop offset="1" stop-color="#9E413E" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="mudroom_a_paint10_linear_18_6002" x1="20.2259" y1="9.00546" x2="19.0774" y2="10.1796" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B55852"/>
+<stop offset="1" stop-color="#B55852" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint11_linear_18_6002" x1="4.49865" y1="26.3849" x2="5.28452" y2="26.3849" gradientUnits="userSpaceOnUse">
+<stop stop-color="#845F3D"/>
+<stop offset="1" stop-color="#845F3D" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint12_linear_18_6002" x1="11.5948" y1="16.6248" x2="11.5948" y2="29.1592" gradientUnits="userSpaceOnUse">
+<stop stop-color="#805139"/>
+<stop offset="1" stop-color="#6D4D2F"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint13_linear_18_6002" x1="18.6233" y1="22.3078" x2="24.9507" y2="16" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4CCCFF"/>
+<stop offset="1" stop-color="#3A9EE6"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint14_linear_18_6002" x1="21.5551" y1="22.232" x2="21.5551" y2="21.0785" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1E9FE4"/>
+<stop offset="1" stop-color="#1E9FE4" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint15_linear_18_6002" x1="18.6233" y1="20.3737" x2="19.801" y2="20.3737" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48E0FF"/>
+<stop offset="1" stop-color="#48E0FF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint16_linear_18_6002" x1="19.5102" y1="14.9738" x2="20.2994" y2="17.3415" gradientUnits="userSpaceOnUse">
+<stop stop-color="#43B3F2"/>
+<stop offset="1" stop-color="#43B3F2" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint17_linear_18_6002" x1="8.51355" y1="23.4679" x2="16.2566" y2="23.4232" gradientUnits="userSpaceOnUse">
+<stop stop-color="#70504D"/>
+<stop offset="1" stop-color="#9B665E"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint18_linear_18_6002" x1="16.1171" y1="2.9408" x2="16.1171" y2="17.9099" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EA6D2E"/>
+<stop offset="1" stop-color="#CA222B"/>
+</linearGradient>
+<radialGradient id="mudroom_a_paint19_radial_18_6002" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.9565 1.93029) rotate(97.3264) scale(3.60529 6.72868)">
+<stop stop-color="#FF853F"/>
+<stop offset="1" stop-color="#FF853F" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="mudroom_a_paint20_linear_18_6002" x1="29.3125" y1="29.9317" x2="1.43751" y2="29.9317" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3FD47B"/>
+<stop offset="1" stop-color="#40DC7F"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint21_linear_18_6002" x1="16.1171" y1="30.4683" x2="16.1171" y2="28.9206" gradientUnits="userSpaceOnUse">
+<stop offset="0.107097" stop-color="#3FD17B"/>
+<stop offset="1" stop-color="#3FD17B" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="mudroom_a_paint22_radial_18_6002" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(30.0858 27.6187) rotate(147.147) scale(3.35178 5.4961)">
+<stop stop-color="#5CEE92"/>
+<stop offset="1" stop-color="#5CEE92" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="mudroom_a_paint23_linear_18_6002" x1="7.82284" y1="27.9096" x2="16.856" y2="27.9096" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9FA1A3"/>
+<stop offset="1" stop-color="#C4C1C7"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint24_linear_18_6002" x1="7.40106" y1="27.9096" x2="8.55148" y2="27.9096" gradientUnits="userSpaceOnUse">
+<stop stop-color="#59675C"/>
+<stop offset="1" stop-color="#59675C" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint25_linear_18_6002" x1="17.2077" y1="27.4686" x2="15.6962" y2="28.4091" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E3DADD"/>
+<stop offset="1" stop-color="#E3DADD" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint26_linear_18_6002" x1="15.946" y1="3.70152" x2="29.6497" y2="17.8102" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8337"/>
+<stop offset="1" stop-color="#F24747"/>
+</linearGradient>
+<linearGradient id="mudroom_a_paint27_linear_18_6002" x1="16.731" y1="3.70152" x2="3.02732" y2="17.8102" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8337"/>
+<stop offset="1" stop-color="#F24747"/>
+</linearGradient>
+</defs>
+ </g>
+ <g transform="translate(14 14) scale(0.5625)">
+<path d="M4.375 8.8125C3.13235 8.8125 2.125 9.81986 2.125 11.0625V25.5H29.875C29.4529 21.3398 25.6887 20.1583 22.4754 19.1845C22.3577 19.1489 22.2409 19.1134 22.125 19.0781C20.1772 18.4845 19.2179 16.5539 19.0006 15.3074V11.0625C19.0006 9.81986 17.9933 8.8125 16.7506 8.8125H4.375Z" fill="url(#mudroom_b_paint0_radial_18_17251)"/>
+<path d="M4.375 8.8125C3.13235 8.8125 2.125 9.81986 2.125 11.0625V25.5H29.875C29.4529 21.3398 25.6887 20.1583 22.4754 19.1845C22.3577 19.1489 22.2409 19.1134 22.125 19.0781C20.1772 18.4845 19.2179 16.5539 19.0006 15.3074V11.0625C19.0006 9.81986 17.9933 8.8125 16.7506 8.8125H4.375Z" fill="url(#mudroom_b_paint1_radial_18_17251)"/>
+<path d="M4.375 8.8125C3.13235 8.8125 2.125 9.81986 2.125 11.0625V25.5H29.875C29.4529 21.3398 25.6887 20.1583 22.4754 19.1845C22.3577 19.1489 22.2409 19.1134 22.125 19.0781C20.1772 18.4845 19.2179 16.5539 19.0006 15.3074V11.0625C19.0006 9.81986 17.9933 8.8125 16.7506 8.8125H4.375Z" fill="url(#mudroom_b_paint2_linear_18_17251)"/>
+<path d="M4.375 8.8125C3.13235 8.8125 2.125 9.81986 2.125 11.0625V25.5H29.875C29.4529 21.3398 25.6887 20.1583 22.4754 19.1845C22.3577 19.1489 22.2409 19.1134 22.125 19.0781C20.1772 18.4845 19.2179 16.5539 19.0006 15.3074V11.0625C19.0006 9.81986 17.9933 8.8125 16.7506 8.8125H4.375Z" fill="url(#mudroom_b_paint3_linear_18_17251)"/>
+<path d="M4.375 8.8125C3.13235 8.8125 2.125 9.81986 2.125 11.0625V25.5H29.875C29.4529 21.3398 25.6887 20.1583 22.4754 19.1845C22.3577 19.1489 22.2409 19.1134 22.125 19.0781C20.1772 18.4845 19.2179 16.5539 19.0006 15.3074V11.0625C19.0006 9.81986 17.9933 8.8125 16.7506 8.8125H4.375Z" fill="url(#mudroom_b_paint4_radial_18_17251)"/>
+<path d="M4.375 8.8125C3.13235 8.8125 2.125 9.81986 2.125 11.0625V25.5H29.875C29.4529 21.3398 25.6887 20.1583 22.4754 19.1845C22.3577 19.1489 22.2409 19.1134 22.125 19.0781C20.1772 18.4845 19.2179 16.5539 19.0006 15.3074V11.0625C19.0006 9.81986 17.9933 8.8125 16.7506 8.8125H4.375Z" fill="url(#mudroom_b_paint5_linear_18_17251)"/>
+<g filter="url(#mudroom_b_filter0_i_18_17251)">
+<path d="M2.125 25.5H29.875V28.0312C29.875 29.0754 28.9971 29.9219 27.9141 29.9219C27.1689 29.9219 26.5209 29.5212 26.1891 28.9311C26.1192 28.8069 25.9935 28.7188 25.8509 28.7188H25.0866C24.944 28.7188 24.8183 28.8069 24.7484 28.9311C24.4166 29.5212 23.7686 29.9219 23.0234 29.9219C22.2783 29.9219 21.6303 29.5212 21.2984 28.9311C21.2285 28.8069 21.1029 28.7188 20.9603 28.7188H20.3522C20.2096 28.7188 20.084 28.8069 20.0141 28.9311C19.6822 29.5212 19.0342 29.9219 18.2891 29.9219C17.5439 29.9219 16.8959 29.5212 16.5641 28.9311C16.4942 28.8069 16.3685 28.7188 16.2259 28.7188H15.6178C15.4752 28.7188 15.3496 28.8069 15.2797 28.9311C14.9479 29.5212 14.2998 29.9219 13.5547 29.9219C12.8096 29.9219 12.1615 29.5212 11.8297 28.9311C11.7598 28.8069 11.6341 28.7188 11.4916 28.7188H10.8834C10.7409 28.7188 10.6152 28.8069 10.5453 28.9311C10.2135 29.5212 9.56544 29.9219 8.82031 29.9219C8.07519 29.9219 7.42714 29.5212 7.0953 28.9311C7.02542 28.8069 6.89975 28.7188 6.75719 28.7188H6.14906C6.0065 28.7188 5.88083 28.8069 5.81095 28.9311C5.47911 29.5212 4.83106 29.9219 4.08594 29.9219C3.00293 29.9219 2.125 29.0754 2.125 28.0312V25.5Z" fill="#834763"/>
+<path d="M2.125 25.5H29.875V28.0312C29.875 29.0754 28.9971 29.9219 27.9141 29.9219C27.1689 29.9219 26.5209 29.5212 26.1891 28.9311C26.1192 28.8069 25.9935 28.7188 25.8509 28.7188H25.0866C24.944 28.7188 24.8183 28.8069 24.7484 28.9311C24.4166 29.5212 23.7686 29.9219 23.0234 29.9219C22.2783 29.9219 21.6303 29.5212 21.2984 28.9311C21.2285 28.8069 21.1029 28.7188 20.9603 28.7188H20.3522C20.2096 28.7188 20.084 28.8069 20.0141 28.9311C19.6822 29.5212 19.0342 29.9219 18.2891 29.9219C17.5439 29.9219 16.8959 29.5212 16.5641 28.9311C16.4942 28.8069 16.3685 28.7188 16.2259 28.7188H15.6178C15.4752 28.7188 15.3496 28.8069 15.2797 28.9311C14.9479 29.5212 14.2998 29.9219 13.5547 29.9219C12.8096 29.9219 12.1615 29.5212 11.8297 28.9311C11.7598 28.8069 11.6341 28.7188 11.4916 28.7188H10.8834C10.7409 28.7188 10.6152 28.8069 10.5453 28.9311C10.2135 29.5212 9.56544 29.9219 8.82031 29.9219C8.07519 29.9219 7.42714 29.5212 7.0953 28.9311C7.02542 28.8069 6.89975 28.7188 6.75719 28.7188H6.14906C6.0065 28.7188 5.88083 28.8069 5.81095 28.9311C5.47911 29.5212 4.83106 29.9219 4.08594 29.9219C3.00293 29.9219 2.125 29.0754 2.125 28.0312V25.5Z" fill="url(#mudroom_b_paint6_linear_18_17251)"/>
+<path d="M2.125 25.5H29.875V28.0312C29.875 29.0754 28.9971 29.9219 27.9141 29.9219C27.1689 29.9219 26.5209 29.5212 26.1891 28.9311C26.1192 28.8069 25.9935 28.7188 25.8509 28.7188H25.0866C24.944 28.7188 24.8183 28.8069 24.7484 28.9311C24.4166 29.5212 23.7686 29.9219 23.0234 29.9219C22.2783 29.9219 21.6303 29.5212 21.2984 28.9311C21.2285 28.8069 21.1029 28.7188 20.9603 28.7188H20.3522C20.2096 28.7188 20.084 28.8069 20.0141 28.9311C19.6822 29.5212 19.0342 29.9219 18.2891 29.9219C17.5439 29.9219 16.8959 29.5212 16.5641 28.9311C16.4942 28.8069 16.3685 28.7188 16.2259 28.7188H15.6178C15.4752 28.7188 15.3496 28.8069 15.2797 28.9311C14.9479 29.5212 14.2998 29.9219 13.5547 29.9219C12.8096 29.9219 12.1615 29.5212 11.8297 28.9311C11.7598 28.8069 11.6341 28.7188 11.4916 28.7188H10.8834C10.7409 28.7188 10.6152 28.8069 10.5453 28.9311C10.2135 29.5212 9.56544 29.9219 8.82031 29.9219C8.07519 29.9219 7.42714 29.5212 7.0953 28.9311C7.02542 28.8069 6.89975 28.7188 6.75719 28.7188H6.14906C6.0065 28.7188 5.88083 28.8069 5.81095 28.9311C5.47911 29.5212 4.83106 29.9219 4.08594 29.9219C3.00293 29.9219 2.125 29.0754 2.125 28.0312V25.5Z" fill="url(#mudroom_b_paint7_linear_18_17251)"/>
+<path d="M2.125 25.5H29.875V28.0312C29.875 29.0754 28.9971 29.9219 27.9141 29.9219C27.1689 29.9219 26.5209 29.5212 26.1891 28.9311C26.1192 28.8069 25.9935 28.7188 25.8509 28.7188H25.0866C24.944 28.7188 24.8183 28.8069 24.7484 28.9311C24.4166 29.5212 23.7686 29.9219 23.0234 29.9219C22.2783 29.9219 21.6303 29.5212 21.2984 28.9311C21.2285 28.8069 21.1029 28.7188 20.9603 28.7188H20.3522C20.2096 28.7188 20.084 28.8069 20.0141 28.9311C19.6822 29.5212 19.0342 29.9219 18.2891 29.9219C17.5439 29.9219 16.8959 29.5212 16.5641 28.9311C16.4942 28.8069 16.3685 28.7188 16.2259 28.7188H15.6178C15.4752 28.7188 15.3496 28.8069 15.2797 28.9311C14.9479 29.5212 14.2998 29.9219 13.5547 29.9219C12.8096 29.9219 12.1615 29.5212 11.8297 28.9311C11.7598 28.8069 11.6341 28.7188 11.4916 28.7188H10.8834C10.7409 28.7188 10.6152 28.8069 10.5453 28.9311C10.2135 29.5212 9.56544 29.9219 8.82031 29.9219C8.07519 29.9219 7.42714 29.5212 7.0953 28.9311C7.02542 28.8069 6.89975 28.7188 6.75719 28.7188H6.14906C6.0065 28.7188 5.88083 28.8069 5.81095 28.9311C5.47911 29.5212 4.83106 29.9219 4.08594 29.9219C3.00293 29.9219 2.125 29.0754 2.125 28.0312V25.5Z" fill="url(#mudroom_b_paint8_linear_18_17251)"/>
+</g>
+<g filter="url(#mudroom_b_filter1_i_18_17251)">
+<rect x="15.9453" y="11.9766" width="3.61719" height="1.29688" rx="0.648438" fill="#A26262"/>
+<rect x="15.9453" y="11.9766" width="3.61719" height="1.29688" rx="0.648438" fill="url(#mudroom_b_paint9_radial_18_17251)"/>
+<rect x="15.9453" y="11.9766" width="3.61719" height="1.29688" rx="0.648438" fill="url(#mudroom_b_paint10_radial_18_17251)"/>
+</g>
+<g filter="url(#mudroom_b_filter2_i_18_17251)">
+<rect x="15.9453" y="14.7031" width="3.61719" height="1.29688" rx="0.648438" fill="#A26262"/>
+<rect x="15.9453" y="14.7031" width="3.61719" height="1.29688" rx="0.648438" fill="url(#mudroom_b_paint11_radial_18_17251)"/>
+<rect x="15.9453" y="14.7031" width="3.61719" height="1.29688" rx="0.648438" fill="url(#mudroom_b_paint12_radial_18_17251)"/>
+</g>
+<g filter="url(#mudroom_b_filter3_ii_18_17251)">
+<path d="M11.0312 8.8125V11.6562C11.0312 12.7608 10.1358 13.6562 9.03125 13.6562H2.125V11.0625C2.125 9.81986 3.13235 8.8125 4.375 8.8125H11.0312Z" fill="url(#mudroom_b_paint13_linear_18_17251)"/>
+<path d="M11.0312 8.8125V11.6562C11.0312 12.7608 10.1358 13.6562 9.03125 13.6562H2.125V11.0625C2.125 9.81986 3.13235 8.8125 4.375 8.8125H11.0312Z" fill="url(#mudroom_b_paint14_radial_18_17251)"/>
+</g>
+<g filter="url(#mudroom_b_filter4_f_18_17251)">
+<path d="M16.6719 12.4531H19.25" stroke="url(#mudroom_b_paint15_linear_18_17251)" stroke-width="0.3" stroke-linecap="round"/>
+</g>
+<g filter="url(#mudroom_b_filter5_f_18_17251)">
+<path d="M16.5586 15.2188H19.2031" stroke="url(#mudroom_b_paint16_linear_18_17251)" stroke-width="0.3" stroke-linecap="round"/>
+</g>
+<defs>
+<filter id="mudroom_b_filter0_i_18_17251" x="2.125" y="25.25" width="27.75" height="4.67188" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-0.25"/>
+<feGaussianBlur stdDeviation="0.175"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.505882 0 0 0 0 0.211765 0 0 0 0 0.447059 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_18_17251"/>
+</filter>
+<filter id="mudroom_b_filter1_i_18_17251" x="15.9453" y="11.7266" width="4.01719" height="1.54688" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.5" dy="-0.25"/>
+<feGaussianBlur stdDeviation="0.2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.635294 0 0 0 0 0.337255 0 0 0 0 0.313726 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_18_17251"/>
+</filter>
+<filter id="mudroom_b_filter2_i_18_17251" x="15.9453" y="14.4531" width="4.01719" height="1.54688" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.5" dy="-0.25"/>
+<feGaussianBlur stdDeviation="0.2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.635294 0 0 0 0 0.337255 0 0 0 0 0.313726 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_18_17251"/>
+</filter>
+<filter id="mudroom_b_filter3_ii_18_17251" x="2.025" y="8.7125" width="9.10625" height="5.24375" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-0.1" dy="-0.1"/>
+<feGaussianBlur stdDeviation="0.15"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.580392 0 0 0 0 0.286275 0 0 0 0 0.415686 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_18_17251"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.1" dy="0.3"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.564706 0 0 0 0 0.462745 0 0 0 0 0.439216 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_18_17251" result="effect2_innerShadow_18_17251"/>
+</filter>
+<filter id="mudroom_b_filter4_f_18_17251" x="16.222" y="12.0031" width="3.47793" height="0.899988" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.15" result="effect1_foregroundBlur_18_17251"/>
+</filter>
+<filter id="mudroom_b_filter5_f_18_17251" x="16.1087" y="14.7688" width="3.54434" height="0.899988" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.15" result="effect1_foregroundBlur_18_17251"/>
+</filter>
+<radialGradient id="mudroom_b_paint0_radial_18_17251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.5313 15.3125) rotate(136.019) scale(12.4205 16.2342)">
+<stop stop-color="#FFE06F"/>
+<stop offset="1" stop-color="#FFA25D"/>
+</radialGradient>
+<radialGradient id="mudroom_b_paint1_radial_18_17251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(25.8437 26.125) rotate(-90) scale(3.6875 13)">
+<stop stop-color="#FFCE70"/>
+<stop offset="1" stop-color="#FFCE70" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="mudroom_b_paint2_linear_18_17251" x1="1.78125" y1="25.5" x2="10.0313" y2="25.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B67F4A"/>
+<stop offset="1" stop-color="#EE944A" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_b_paint3_linear_18_17251" x1="16" y1="8.8125" x2="16" y2="12.375" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE05B"/>
+<stop offset="1" stop-color="#FFE05B" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="mudroom_b_paint4_radial_18_17251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.375 10.2813) rotate(90) scale(1.125 4.96875)">
+<stop stop-color="#FFEF7A"/>
+<stop offset="1" stop-color="#FFDC58" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="mudroom_b_paint5_linear_18_17251" x1="16" y1="8.5" x2="16" y2="9.4375" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DDC76C"/>
+<stop offset="1" stop-color="#DDC76C" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_b_paint6_linear_18_17251" x1="2.46875" y1="29.3125" x2="9.84375" y2="29.3125" gradientUnits="userSpaceOnUse">
+<stop offset="0.432203" stop-color="#5F383E"/>
+<stop offset="1" stop-color="#5F383E" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_b_paint7_linear_18_17251" x1="29.875" y1="28.6875" x2="21.7813" y2="28.8125" gradientUnits="userSpaceOnUse">
+<stop offset="0.500335" stop-color="#916366"/>
+<stop offset="1" stop-color="#916366" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_b_paint8_linear_18_17251" x1="29.875" y1="28.1875" x2="26.7813" y2="28.1875" gradientUnits="userSpaceOnUse">
+<stop stop-color="#875B59"/>
+<stop offset="1" stop-color="#875B59" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="mudroom_b_paint9_radial_18_17251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.4531 13) scale(1.125 0.75)">
+<stop offset="0.152778" stop-color="#A75476"/>
+<stop offset="1" stop-color="#A75476" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="mudroom_b_paint10_radial_18_17251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.7344 12.2187) rotate(153.204) scale(1.73297 4.83352)">
+<stop stop-color="#B28F87"/>
+<stop offset="1" stop-color="#A56666" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="mudroom_b_paint11_radial_18_17251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.4531 15.7266) scale(1.125 0.75)">
+<stop offset="0.152778" stop-color="#A75476"/>
+<stop offset="1" stop-color="#A75476" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="mudroom_b_paint12_radial_18_17251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.7344 14.9453) rotate(153.204) scale(1.73297 4.83352)">
+<stop stop-color="#B28F87"/>
+<stop offset="1" stop-color="#A56666" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="mudroom_b_paint13_linear_18_17251" x1="9.71875" y1="9.375" x2="1.03125" y2="12.5625" gradientUnits="userSpaceOnUse">
+<stop stop-color="#985A58"/>
+<stop offset="1" stop-color="#714C4C"/>
+</linearGradient>
+<radialGradient id="mudroom_b_paint14_radial_18_17251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.25 13.4375) rotate(-138.965) scale(3.35574 6.28936)">
+<stop stop-color="#9F5B6B"/>
+<stop offset="1" stop-color="#9F5B6B" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="mudroom_b_paint15_linear_18_17251" x1="16.6719" y1="12.4531" x2="20.3163" y2="12.4531" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BB8A86"/>
+<stop offset="1" stop-color="#BB8A86" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="mudroom_b_paint16_linear_18_17251" x1="16.5586" y1="15.2188" x2="20.2969" y2="15.2188" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BB8A86"/>
+<stop offset="1" stop-color="#BB8A86" stop-opacity="0"/>
+</linearGradient>
+</defs>
+ </g>
+</svg>

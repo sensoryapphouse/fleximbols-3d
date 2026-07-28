@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="coin" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#1a4488"/><stop offset="100%" stop-color="#0a1a44"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="0.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <!-- coin edge -->
+ 
+ <!-- coin face -->
+ 
+ <!-- rim highlight -->
+ <ellipse cx="16" cy="15" rx="13" ry="13" fill="none" stroke="#3060c0" stroke-width="0.8"/>
+ <!-- Cardano emblem: concentric circle dot pattern (stylized) -->
+ <!-- center dot -->
+ <circle cx="16" cy="15" r="1.2" fill="white" filter="url(#glow)"/>
+ <!-- inner ring of 6 dots -->
+ <circle cx="16" cy="11" r="0.8" fill="white" filter="url(#glow)"/>
+ <circle cx="19.5" cy="12" r="0.8" fill="white" filter="url(#glow)"/>
+ <circle cx="19.5" cy="18" r="0.8" fill="white" filter="url(#glow)"/>
+ <circle cx="16" cy="19" r="0.8" fill="white" filter="url(#glow)"/>
+ <circle cx="12.5" cy="18" r="0.8" fill="white" filter="url(#glow)"/>
+ <circle cx="12.5" cy="12" r="0.8" fill="white" filter="url(#glow)"/>
+ <!-- outer ring of 12 dots -->
+ <circle cx="16" cy="7" r="0.65" fill="#88aaff"/>
+ <circle cx="19.5" cy="8" r="0.65" fill="#88aaff"/>
+ <circle cx="22.5" cy="10.5" r="0.65" fill="#88aaff"/>
+ <circle cx="23.5" cy="14" r="0.65" fill="#88aaff"/>
+ <circle cx="23.5" cy="17" r="0.65" fill="#88aaff"/>
+ <circle cx="22.5" cy="20" r="0.65" fill="#88aaff"/>
+ <circle cx="19.5" cy="22.5" r="0.65" fill="#88aaff"/>
+ <circle cx="16" cy="23.5" r="0.65" fill="#88aaff"/>
+ <circle cx="12.5" cy="22.5" r="0.65" fill="#88aaff"/>
+ <circle cx="9.5" cy="20" r="0.65" fill="#88aaff"/>
+ <circle cx="8.5" cy="17" r="0.65" fill="#88aaff"/>
+ <circle cx="9.5" cy="10.5" r="0.65" fill="#88aaff"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="sct_a" cx="35%" cy="30%" r="70%">
+  <stop offset="0" stop-color="#7FB3FF"/><stop offset="1" stop-color="#3E72D6"/>
+ </radialGradient>
+ <radialGradient id="sct_b" cx="35%" cy="30%" r="70%">
+  <stop offset="0" stop-color="#FF9B6B"/><stop offset="1" stop-color="#E2531E"/>
+ </radialGradient>
+ <radialGradient id="sct_c" cx="35%" cy="30%" r="70%">
+  <stop offset="0" stop-color="#6FE0A0"/><stop offset="1" stop-color="#2FA85F"/>
+ </radialGradient>
+ <radialGradient id="sct_d" cx="35%" cy="30%" r="70%">
+  <stop offset="0" stop-color="#FFD86B"/><stop offset="1" stop-color="#F0A81E"/>
+ </radialGradient>
+ <radialGradient id="sct_e" cx="35%" cy="30%" r="70%">
+  <stop offset="0" stop-color="#C79BFF"/><stop offset="1" stop-color="#8A4FD6"/>
+ </radialGradient>
+</defs>
+<!-- faint origin point in the centre -->
+<circle cx="16" cy="16" r="1.5" fill="#c2c9d4"/>
+<!-- motion/dispersal dashes radiating outward -->
+<g stroke="#c2c9d4" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="1.4 1.6" opacity="0.8">
+ <path d="M16 16 L6.5 6.5"/>
+ <path d="M16 16 L25.5 7"/>
+ <path d="M16 16 L7 25"/>
+ <path d="M16 16 L26 25.5"/>
+ <path d="M16 16 L27 15.5"/>
+ <path d="M16 16 L5.5 16.5"/>
+</g>
+<!-- scattered items flung to the edges, varied sizes/angles -->
+<circle cx="5.4" cy="5.6" r="3" fill="url(#sct_a)"/>
+<ellipse cx="4.8" cy="4.9" rx="1" ry="0.6" fill="#fff" opacity="0.5"/>
+<rect x="24" y="4.2" width="5.2" height="5.2" rx="1.2" fill="url(#sct_b)" transform="rotate(18 26.6 6.8)"/>
+<circle cx="5.2" cy="26" r="2.6" fill="url(#sct_c)"/>
+<rect x="23.5" y="23.5" width="5" height="5" rx="1.2" fill="url(#sct_d)" transform="rotate(-15 26 26)"/>
+<circle cx="28.4" cy="15.5" r="2.3" fill="url(#sct_e)"/>
+<circle cx="4.2" cy="16.2" r="2" fill="url(#sct_b)"/>
+<rect x="14.3" y="2.6" width="3.7" height="3.7" rx="1" fill="url(#sct_c)" transform="rotate(12 16.1 4.4)"/>
+</svg>

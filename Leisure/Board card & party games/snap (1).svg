@@ -1,0 +1,61 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="snp_pencilA" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FFD700"/>
+ <stop offset="100%" stop-color="#DAA520"/>
+ </linearGradient>
+ <linearGradient id="snp_pencilB" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#E8C000"/>
+ <stop offset="100%" stop-color="#C8A000"/>
+ </linearGradient>
+ <linearGradient id="snp_tip" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#F5DEB3"/>
+ <stop offset="100%" stop-color="#D2B48C"/>
+ </linearGradient>
+ <linearGradient id="snp_eraser" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FFB6C1"/>
+ <stop offset="100%" stop-color="#FF69B4"/>
+ </linearGradient>
+ <linearGradient id="snp_crack" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FFD700"/>
+ <stop offset="100%" stop-color="#FF4500"/>
+ </linearGradient>
+ </defs>
+ <!-- Drop shadow -->
+ <!-- Top half of pencil (tilted up-left) -->
+ <g transform="rotate(-30, 10, 16)">
+ <!-- Pencil body -->
+ <rect x="3" y="14" width="10" height="4" rx="1" fill="url(#snp_pencilA)"/>
+ <!-- Metal band -->
+ <rect x="2.5" y="14" width="1" height="4" rx="0.3" fill="#C0C0C0"/>
+ <!-- Eraser -->
+ <rect x="1.5" y="14.2" width="1.2" height="3.6" rx="0.5" fill="url(#snp_eraser)"/>
+ <!-- Jagged break right end -->
+ <polygon points="13,14 12,15 13.5,15.5 12.5,16.5 13.5,17 13,18" fill="#B8960A"/>
+ <!-- Pencil line (lead strip) -->
+ <rect x="3.5" y="15.8" width="9" height="0.5" fill="#666666" fill-opacity="0.4"/>
+ </g>
+ <!-- Bottom half of pencil (tilted down-right) -->
+ <g transform="rotate(30, 22, 16)">
+ <!-- Pencil body -->
+ <rect x="19" y="14" width="10" height="4" rx="1" fill="url(#snp_pencilB)"/>
+ <!-- Tip cone -->
+ <polygon points="29,14 29,18 32,16" fill="url(#snp_tip)"/>
+ <!-- Lead tip -->
+ <polygon points="31,15.5 31,16.5 32.5,16" fill="#333333"/>
+ <!-- Jagged break left end -->
+ <polygon points="19,14 20,15 18.5,15.5 19.5,16.5 18.5,17 19,18" fill="#A07800"/>
+ <!-- Pencil line -->
+ <rect x="19.5" y="15.8" width="9" height="0.5" fill="#666666" fill-opacity="0.4"/>
+ </g>
+ <!-- Impact/crack star in center -->
+ <polygon points="16,13 17,15 19,14 17.5,16 20,16 17.5,17 19,19 17,18 16,20 15,18 13,19 14.5,17 12,16 14.5,16 13,14 15,15" fill="url(#snp_crack)" fill-opacity="0.9"/>
+ <!-- Motion lines -->
+ <line x1="13" y1="12" x2="10" y2="9" stroke="#FFD700" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.8"/>
+ <line x1="19" y1="12" x2="22" y2="9" stroke="#FFD700" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.8"/>
+ <line x1="13" y1="21" x2="10" y2="24" stroke="#FFD700" stroke-width="1" stroke-linecap="round" stroke-opacity="0.6"/>
+ <line x1="19" y1="21" x2="22" y2="24" stroke="#FFD700" stroke-width="1" stroke-linecap="round" stroke-opacity="0.6"/>
+ <!-- Splinter shards -->
+ <line x1="14" y1="14" x2="12" y2="11" stroke="#DAA520" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="18" y1="14" x2="20" y2="11" stroke="#DAA520" stroke-width="0.8" stroke-linecap="round"/>
+</svg>

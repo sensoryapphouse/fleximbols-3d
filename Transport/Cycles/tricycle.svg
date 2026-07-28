@@ -1,0 +1,36 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="tricWhlF" cx="40%" cy="40%" r="55%"><stop offset="0%" stop-color="#E84A4A"/><stop offset="100%" stop-color="#6B1A1A"/></radialGradient>
+ <radialGradient id="tricWhlR" cx="40%" cy="40%" r="55%"><stop offset="0%" stop-color="#7A7A8A"/><stop offset="100%" stop-color="#1A1A2A"/></radialGradient>
+ <linearGradient id="tricFrame" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#F6A623"/><stop offset="100%" stop-color="#A86010"/></linearGradient>
+ <linearGradient id="tricSeat" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#4A8AE8"/><stop offset="100%" stop-color="#1A3A98"/></linearGradient>
+ </defs>
+ <!-- Front large wheel -->
+ <circle cx="10" cy="24" r="7" fill="none" stroke="url(#tricWhlF)" stroke-width="2" filter="url(#sdTric)"/>
+ <circle cx="10" cy="24" r="3" fill="#8B1A1A"/>
+ <circle cx="10" cy="24" r="1.2" fill="#E84A4A"/>
+ <!-- Spokes -->
+ <line x1="10" y1="17" x2="10" y2="31" stroke="#8B1A1A" stroke-width="0.6"/>
+ <line x1="3" y1="24" x2="17" y2="24" stroke="#8B1A1A" stroke-width="0.6"/>
+ <line x1="5" y1="19" x2="15" y2="29" stroke="#8B1A1A" stroke-width="0.5"/>
+ <line x1="5" y1="29" x2="15" y2="19" stroke="#8B1A1A" stroke-width="0.5"/>
+ <!-- Pedals on front wheel axle -->
+ <line x1="10" y1="24" x2="7" y2="26" stroke="#5A3A10" stroke-width="1.2"/>
+ <rect x="5.5" y="25.5" width="3" height="1.2" rx="0.4" fill="#5A3A10"/>
+ <line x1="10" y1="24" x2="13" y2="22" stroke="#5A3A10" stroke-width="1.2"/>
+ <rect x="13" y="21.5" width="3" height="1.2" rx="0.4" fill="#5A3A10"/>
+ <!-- Frame -->
+ <line x1="10" y1="17" x2="20" y2="16" stroke="url(#tricFrame)" stroke-width="2" stroke-linecap="round" filter="url(#sdTric)"/>
+ <line x1="20" y1="16" x2="25" y2="24" stroke="url(#tricFrame)" stroke-width="2" stroke-linecap="round"/>
+ <line x1="20" y1="16" x2="20" y2="12" stroke="url(#tricFrame)" stroke-width="1.8" stroke-linecap="round"/>
+ <!-- Handlebar -->
+ <line x1="17" y1="12" x2="23" y2="12" stroke="url(#tricFrame)" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- Seat -->
+ <rect x="18" y="14" width="5" height="2" rx="0.8" fill="url(#tricSeat)" filter="url(#sdTric)"/>
+ <!-- Rear axle and two small wheels -->
+ <line x1="22" y1="24" x2="28" y2="24" stroke="url(#tricFrame)" stroke-width="1.2"/>
+ <circle cx="22" cy="25.5" r="4" fill="none" stroke="url(#tricWhlR)" stroke-width="1.5" filter="url(#sdTric)"/>
+ <circle cx="22" cy="25.5" r="1.5" fill="#3A3A4A"/>
+ <circle cx="28" cy="25.5" r="4" fill="none" stroke="url(#tricWhlR)" stroke-width="1.5" filter="url(#sdTric)"/>
+ <circle cx="28" cy="25.5" r="1.5" fill="#3A3A4A"/>
+</svg>

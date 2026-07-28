@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,3.485) scale(0.8911)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="sa1" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#f0c890"/><stop offset="55%" stop-color="#b8804a"/><stop offset="100%" stop-color="#5a3010"/></radialGradient>
+<radialGradient id="sa2" cx="35%" cy="30%" r="75%"><stop offset="0%" stop-color="#5a5060"/><stop offset="60%" stop-color="#2a2030"/><stop offset="100%" stop-color="#0a0410"/></radialGradient>
+<radialGradient id="sa3" cx="35%" cy="30%" r="75%"><stop offset="0%" stop-color="#ffcf4a"/><stop offset="60%" stop-color="#e88838"/><stop offset="100%" stop-color="#7a2808"/></radialGradient>
+</defs>
+<path d="M3 8 L16 3 L29 8 L29 28 L3 28 Z" fill="url(#sa1)"/>
+<path d="M3 8 L16 3 L29 8 L16 9 Z" fill="#8a5a28"/>
+<path d="M3 10 L29 10 M3 13 L29 13 M3 16 L29 16 M3 19 L29 19 M3 22 L29 22 M3 25 L29 25" stroke="#5a3010" stroke-width="0.3" opacity="0.7"/>
+<rect x="5" y="18" width="22" height="3" rx="0.4" fill="#8a5a28"/>
+<rect x="5" y="18" width="22" height="0.8" fill="#f0c890" opacity="0.5"/>
+<rect x="22" y="14" width="6" height="6" rx="0.4" fill="url(#sa2)"/>
+<g transform="translate(25 17)">
+<circle cx="-1" cy="0" r="0.7" fill="url(#sa3)"/>
+<circle cx="1" cy="-1" r="0.6" fill="url(#sa3)"/>
+<circle cx="0.5" cy="0.8" r="0.5" fill="url(#sa3)"/>
+<circle cx="1.2" cy="0.3" r="0.4" fill="url(#sa3)"/>
+</g>
+<path d="M22 13 Q23 11 22 9 M24 13 Q25 11 24 9 M26 13 Q27 11 26 9" stroke="#fff" stroke-width="0.4" fill="none" opacity="0.6"/>
+<ellipse cx="6" cy="11" rx="2" ry="0.8" fill="#fff" opacity="0.3"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2626" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2626)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

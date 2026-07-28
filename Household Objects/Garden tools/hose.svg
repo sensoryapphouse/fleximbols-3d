@@ -1,0 +1,22 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="hoseG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5AB85A"/><stop offset="100%" stop-color="#2A6A2A"/></linearGradient>
+ <linearGradient id="nozzleG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#C8C8A0"/><stop offset="100%" stop-color="#787840"/></linearGradient>
+ <linearGradient id="waterG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6AB8F8"/><stop offset="100%" stop-color="#1A58A8"/></linearGradient>
+ </defs>
+ <!-- Coiled hose loops -->
+ <g filter="url(#sdHose)">
+ <circle cx="14" cy="18" r="9" fill="none" stroke="url(#hoseG)" stroke-width="2.5"/>
+ <circle cx="14" cy="18" r="6" fill="none" stroke="url(#hoseG)" stroke-width="2.5"/>
+ <circle cx="14" cy="18" r="3" fill="none" stroke="url(#hoseG)" stroke-width="2.5"/>
+ </g>
+ <!-- Hose end leading to nozzle -->
+ <path d="M14 9 Q18 7 22 9" stroke="url(#hoseG)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <!-- Nozzle -->
+ <rect x="21" y="7" width="6" height="3" rx="0.8" fill="url(#nozzleG)" filter="url(#sdHose)"/>
+ <rect x="25" y="6" width="2" height="1.5" rx="0.5" fill="url(#nozzleG)"/>
+ <!-- Water spray lines -->
+ <line x1="27" y1="7.5" x2="30" y2="5" stroke="url(#waterG)" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="27" y1="8.5" x2="31" y2="7.5" stroke="url(#waterG)" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="27" y1="9.5" x2="30" y2="11" stroke="url(#waterG)" stroke-width="0.8" stroke-linecap="round"/>
+</svg>

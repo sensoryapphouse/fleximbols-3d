@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ecg-screen" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#1a2a1a"/>
+ <stop offset="100%" stop-color="#0a1a0a"/>
+ </linearGradient>
+ <linearGradient id="ecg-body" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#d0d8e0"/>
+ <stop offset="100%" stop-color="#8898a8"/>
+ </linearGradient>
+ <linearGradient id="ecg-stand" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#b0b8c0"/>
+ <stop offset="100%" stop-color="#788090"/>
+ </linearGradient>
+ </defs>
+ <!-- monitor body -->
+ <rect x="4" y="3" width="24" height="19" rx="2" fill="url(#ecg-body)" filter="url(#ecg-sh)"/>
+ <!-- screen -->
+ <rect x="5.5" y="4.5" width="21" height="15" rx="1" fill="url(#ecg-screen)"/>
+ <!-- ECG trace -->
+ <polyline points="7,12 9,12 10,9 11,16 12,7 13,17 14,12 16,12 18,12 20,12 22,12" stroke="#22ee44" stroke-width="0.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- BPM text replacement: small rectangle labels -->
+ <rect x="17" y="5.5" width="7" height="2.5" rx="0.5" fill="#00bb33" fill-opacity="0.25"/>
+ <rect x="17.5" y="6" width="1" height="1.5" rx="0.2" fill="#00dd44" fill-opacity="0.8"/>
+ <rect x="19" y="6" width="1" height="1.5" rx="0.2" fill="#00dd44" fill-opacity="0.8"/>
+ <rect x="20.5" y="6" width="1" height="1.5" rx="0.2" fill="#00dd44" fill-opacity="0.8"/>
+ <!-- stand -->
+ <rect x="14.5" y="22" width="3" height="3" rx="0.5" fill="url(#ecg-stand)"/>
+ <rect x="11" y="25" width="10" height="1.5" rx="0.75" fill="url(#ecg-stand)"/>
+</svg>

@@ -1,0 +1,64 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="4wd-body" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#508040"/>
+ <stop offset="100%" stop-color="#284020"/>
+ </linearGradient>
+ <radialGradient id="4wd-tire" cx="35%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#505050"/>
+ <stop offset="100%" stop-color="#202020"/>
+ </radialGradient>
+ <radialGradient id="4wd-rim" cx="40%" cy="40%" r="50%">
+ <stop offset="0%" stop-color="#d0d0d0"/>
+ <stop offset="100%" stop-color="#808080"/>
+ </radialGradient>
+ <linearGradient id="4wd-badge" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ffe060"/>
+ <stop offset="100%" stop-color="#c08010"/>
+ </linearGradient>
+ </defs>
+ <!-- ground shadow -->
+ <ellipse cx="16" cy="29.4" rx="13" ry="1.1" fill="#000" opacity="0.12"/>
+ <!-- raised vehicle body (high ground clearance) -->
+ <rect x="2.5" y="12.5" width="27" height="8.5" rx="1.6" fill="url(#4wd-body)"/>
+ <!-- cab roof -->
+ <path d="M6 12.5 Q8 6.5 14 6.5 L21 6.5 Q25 6.5 27 12.5 Z" fill="url(#4wd-body)"/>
+ <!-- cab windows -->
+ <path d="M8 12.5 Q9 8.5 13 8.5 L19 8.5 Q22 8.5 23 12.5 Z" fill="#a0d0e8" fill-opacity="0.7"/>
+ <line x1="16" y1="8.5" x2="16" y2="12.5" stroke="#7ab0c8" stroke-width="0.5"/>
+ <!-- roof rack -->
+ <rect x="9" y="5.4" width="11" height="1.2" rx="0.5" fill="#2a3a18"/>
+ <!-- front grill -->
+ <rect x="26" y="14.4" width="3.5" height="5" rx="0.5" fill="#304020"/>
+ <line x1="26" y1="15.8" x2="29.5" y2="15.8" stroke="#508040" stroke-width="0.4"/>
+ <line x1="26" y1="17.2" x2="29.5" y2="17.2" stroke="#508040" stroke-width="0.4"/>
+ <line x1="26" y1="18.6" x2="29.5" y2="18.6" stroke="#508040" stroke-width="0.4"/>
+ <!-- raised suspension struts -->
+ <rect x="6.6" y="20" width="2.8" height="3.4" fill="#202a14"/>
+ <rect x="22.6" y="20" width="2.8" height="3.4" fill="#202a14"/>
+ <!-- BIG knobbly off-road wheels (lowered, large) -->
+ <circle cx="24" cy="24.5" r="5.4" fill="url(#4wd-tire)"/>
+ <circle cx="24" cy="24.5" r="2.6" fill="url(#4wd-rim)"/>
+ <circle cx="8" cy="24.5" r="5.4" fill="url(#4wd-tire)"/>
+ <circle cx="8" cy="24.5" r="2.6" fill="url(#4wd-rim)"/>
+ <!-- chunky off-road tread lugs around both tyres -->
+ <g fill="#141414">
+  <rect x="23.1" y="18.4" width="1.8" height="2" rx="0.4"/>
+  <rect x="28" y="20.6" width="2" height="1.8" rx="0.4"/>
+  <rect x="28" y="26.6" width="2" height="1.8" rx="0.4"/>
+  <rect x="23.1" y="28.6" width="1.8" height="2" rx="0.4"/>
+  <rect x="18.2" y="26.6" width="2" height="1.8" rx="0.4"/>
+  <rect x="18.2" y="20.6" width="2" height="1.8" rx="0.4"/>
+  <rect x="7.1" y="18.4" width="1.8" height="2" rx="0.4"/>
+  <rect x="12" y="20.6" width="2" height="1.8" rx="0.4"/>
+  <rect x="12" y="26.6" width="2" height="1.8" rx="0.4"/>
+  <rect x="7.1" y="28.6" width="1.8" height="2" rx="0.4"/>
+  <rect x="2.2" y="26.6" width="2" height="1.8" rx="0.4"/>
+  <rect x="2.2" y="20.6" width="2" height="1.8" rx="0.4"/>
+ </g>
+ <!-- small 4x4 badge (secondary cue) -->
+ <rect x="13" y="15.4" width="6.6" height="3.4" rx="0.7" fill="url(#4wd-badge)"/>
+ <text x="16.3" y="18" font-family="Arial, Helvetica, sans-serif" font-size="2.7" font-weight="bold" text-anchor="middle" fill="#3a2a00">4x4</text>
+ <!-- body highlight -->
+ <path d="M2.5 13.5 Q16 12.5 29.5 13.5" stroke="white" stroke-width="0.6" stroke-opacity="0.25" fill="none"/>
+</svg>

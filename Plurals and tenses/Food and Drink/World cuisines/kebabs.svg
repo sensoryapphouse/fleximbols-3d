@@ -1,0 +1,56 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,6.957) scale(0.7826)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="skewer" cx="0.3" cy="0.3" r="0.9">
+ <stop offset="0%" stop-color="#f0d490"/>
+ <stop offset="50%" stop-color="#c89030"/>
+ <stop offset="100%" stop-color="#6a4810"/>
+ </radialGradient>
+ <radialGradient id="meat" cx="0.3" cy="0.3" r="0.9">
+ <stop offset="0%" stop-color="#c87040"/>
+ <stop offset="50%" stop-color="#8B4513"/>
+ <stop offset="100%" stop-color="#3A1000"/>
+ </radialGradient>
+ <radialGradient id="pepper" cx="0.3" cy="0.3" r="0.9">
+ <stop offset="0%" stop-color="#88ee66"/>
+ <stop offset="50%" stop-color="#44CC44"/>
+ <stop offset="100%" stop-color="#1A6A1A"/>
+ </radialGradient>
+ <radialGradient id="onion" cx="0.3" cy="0.3" r="0.9">
+ <stop offset="0%" stop-color="#ffffea"/>
+ <stop offset="50%" stop-color="#EEEEBB"/>
+ <stop offset="100%" stop-color="#AAAA70"/>
+ </radialGradient>
+ <radialGradient id="tomato" cx="0.3" cy="0.3" r="0.9">
+ <stop offset="0%" stop-color="#ff8888"/>
+ <stop offset="50%" stop-color="#FF4444"/>
+ <stop offset="100%" stop-color="#AA0000"/>
+ </radialGradient>
+ </defs>
+ <!-- Skewer -->
+ <line x1="2" y1="30" x2="30" y2="4" stroke="url(#skewer)" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- Meat cube 1 -->
+ <rect x="4.5" y="22.5" width="6" height="6" rx="0.8" fill="url(#meat)" transform="rotate(-45 7.5 25.5)"/>
+ <ellipse cx="6.5" cy="24.5" rx="1" ry="0.6" fill="#ffffff" opacity="0.25" transform="rotate(-45 7.5 25.5)"/>
+ <!-- Char marks on meat 1 -->
+ <line x1="5.5" y1="24" x2="9.5" y2="24" stroke="#1A0800" stroke-width="0.5" stroke-opacity="0.6" transform="rotate(-45,7.5,25.5)"/>
+ <!-- Onion -->
+ <ellipse cx="11" cy="22" rx="2.6" ry="2.6" fill="url(#onion)" transform="rotate(-45 11 22)"/>
+ <ellipse cx="11" cy="22" rx="1.6" ry="1.6" fill="none" stroke="#bbbb80" stroke-width="0.25"/>
+ <ellipse cx="11" cy="22" rx="0.8" ry="0.8" fill="none" stroke="#bbbb80" stroke-width="0.25"/>
+ <ellipse cx="10.2" cy="21.2" rx="0.7" ry="0.4" fill="#ffffff" opacity="0.5"/>
+ <!-- Meat cube 2 -->
+ <rect x="12.5" y="14.5" width="6" height="6" rx="0.8" fill="url(#meat)" transform="rotate(-45 15.5 17.5)"/>
+ <ellipse cx="14.5" cy="16.5" rx="1" ry="0.6" fill="#ffffff" opacity="0.25" transform="rotate(-45 15.5 17.5)"/>
+ <!-- Char marks 2 -->
+ <line x1="13.5" y1="15" x2="17.5" y2="15" stroke="#1A0800" stroke-width="0.5" stroke-opacity="0.6" transform="rotate(-45,15.5,16.5)"/>
+ <!-- Green pepper -->
+ <path d="M19 14 Q22 11 24 13 Q24 17 21 17 Q18 16 19 14 Z" fill="url(#pepper)"/>
+ <ellipse cx="20.5" cy="13.5" rx="0.8" ry="0.5" fill="#ffffff" opacity="0.4"/>
+ <!-- Tomato -->
+ <circle cx="25" cy="9" r="2.6" fill="url(#tomato)"/>
+ <ellipse cx="24" cy="8" rx="0.9" ry="0.6" fill="#ffffff" opacity="0.55"/>
+ <path d="M24 7 Q25 6.5 26 7 L25.5 8 Z" fill="#2a8a2a"/>
+ <!-- Skewer tip -->
+ <circle cx="29" cy="4.5" r="0.8" fill="#A08030"/>
+ <circle cx="28.7" cy="4.2" r="0.25" fill="#ffffff" opacity="0.7"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1596" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1596)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

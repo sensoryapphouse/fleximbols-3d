@@ -1,0 +1,24 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bu_top" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c9a36a"/><stop offset="100%" stop-color="#9c7338"/></linearGradient>
+ <linearGradient id="bu_side" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7d5828"/><stop offset="100%" stop-color="#553a17"/></linearGradient>
+ <radialGradient id="bu_bump" cx="38%" cy="30%" r="70%"><stop offset="0%" stop-color="#e0bf86"/><stop offset="100%" stop-color="#a87e44"/></radialGradient>
+ </defs>
+ <ellipse cx="16" cy="28" rx="13" ry="1.8" fill="#000000" fill-opacity="0.12"/>
+ <!-- ground slab front face -->
+ <path d="M3 18 L29 18 L29 25 L3 25 Z" fill="url(#bu_side)"/>
+ <!-- bumpy top surface (wavy) -->
+ <path d="M3 18
+   Q5 14 7.5 17.5 Q10 14 12.5 17.5 Q15 14 17.5 17.5 Q20 14 22.5 17.5 Q25 14 27.5 17.5 Q28.5 19 29 18
+   L29 18 L3 18 Z" fill="url(#bu_top)"/>
+ <!-- raised bumps on the surface -->
+ <ellipse cx="8" cy="16" rx="2.4" ry="1.5" fill="url(#bu_bump)"/>
+ <ellipse cx="14.5" cy="15.2" rx="2.6" ry="1.6" fill="url(#bu_bump)"/>
+ <ellipse cx="21" cy="16" rx="2.4" ry="1.5" fill="url(#bu_bump)"/>
+ <ellipse cx="26" cy="15.6" rx="2.2" ry="1.4" fill="url(#bu_bump)"/>
+ <!-- small highlights on bumps -->
+ <ellipse cx="7.2" cy="15.3" rx="0.8" ry="0.5" fill="#ffffff" fill-opacity="0.5"/>
+ <ellipse cx="13.6" cy="14.5" rx="0.9" ry="0.5" fill="#ffffff" fill-opacity="0.5"/>
+ <ellipse cx="20.2" cy="15.3" rx="0.8" ry="0.5" fill="#ffffff" fill-opacity="0.5"/>
+ <ellipse cx="25.2" cy="14.9" rx="0.7" ry="0.45" fill="#ffffff" fill-opacity="0.5"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#f0d060"/>
+ <stop offset="100%" stop-color="#b07810"/>
+ </linearGradient>
+ <linearGradient id="bottomGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#e8b840"/>
+ <stop offset="100%" stop-color="#a06010"/>
+ </linearGradient>
+ <linearGradient id="stretchGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#f8e070"/>
+ <stop offset="100%" stop-color="#c09020"/>
+ </linearGradient>
+ </defs>
+ <!-- top half (bread/pizza/food piece) -->
+ 
+ <!-- highlight on top piece -->
+ <rect x="4" y="4" width="22" height="3" rx="2" fill="#ffffff" fill-opacity="0.25"/>
+ <!-- bottom half -->
+ 
+ <!-- stretching strands of gooey substance -->
+ <path d="M7 13 Q6 16 7 19" stroke="url(#stretchGrad)" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <path d="M11 13 Q10 15 10 16 Q10 17 11 19" stroke="url(#stretchGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <path d="M15 13 Q14 14 14 16 Q14 18 15 19" stroke="url(#stretchGrad)" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <path d="M19 13 Q19 15 19 16 Q19 17 19 19" stroke="url(#stretchGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <path d="M23 13 Q23 15 24 16 Q24 18 23 19" stroke="url(#stretchGrad)" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <!-- pooling at bottom -->
+ <ellipse cx="16" cy="19" rx="12" ry="1.5" fill="#f8e070" fill-opacity="0.6"/>
+</svg>

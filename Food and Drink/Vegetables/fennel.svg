@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="bulbGrad" cx="40%" cy="40%" r="65%">
+ <stop offset="0%" stop-color="#e8f0d8"/>
+ <stop offset="50%" stop-color="#b8c898"/>
+ <stop offset="100%" stop-color="#708848"/>
+ </radialGradient>
+ <linearGradient id="stalkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#88a858"/>
+ <stop offset="100%" stop-color="#507030"/>
+ </linearGradient>
+ <linearGradient id="frondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#98c858"/>
+ <stop offset="100%" stop-color="#407028"/>
+ </linearGradient>
+ </defs>
+ <!-- Drop shadow -->
+ <!-- Bulb base -->
+ <ellipse cx="16" cy="24" rx="7" ry="4" fill="url(#bulbGrad)"/>
+ <!-- Bulb front ribs -->
+ <path d="M10,24 Q11,18 12,20 Q13,21 14,24" fill="url(#bulbGrad)" stroke="#a8b888" stroke-width="0.5"/>
+ <path d="M14,22 Q15,17 16,19 Q17,21 18,22" fill="url(#bulbGrad)" fill-opacity="0.8"/>
+ <path d="M18,22 Q19,18 20,20 Q21,22 22,24" fill="url(#bulbGrad)" fill-opacity="0.7"/>
+ <!-- Rib lines on bulb -->
+ <path d="M11,20 Q12,22 12,26" fill="none" stroke="#8a9870" stroke-width="0.7" stroke-opacity="0.6"/>
+ <path d="M14,19 Q15,21 15,27" fill="none" stroke="#8a9870" stroke-width="0.7" stroke-opacity="0.6"/>
+ <path d="M17,19 Q18,21 18,27" fill="none" stroke="#8a9870" stroke-width="0.7" stroke-opacity="0.6"/>
+ <path d="M20,20 Q21,22 21,26" fill="none" stroke="#8a9870" stroke-width="0.7" stroke-opacity="0.6"/>
+ <!-- Stalks emerging from bulb -->
+ <path d="M13,20 Q12,14 11,8" fill="none" stroke="url(#stalkGrad)" stroke-width="1.8" stroke-linecap="round"/>
+ <path d="M16,19 Q16,12 16,6" fill="none" stroke="url(#stalkGrad)" stroke-width="1.8" stroke-linecap="round"/>
+ <path d="M19,20 Q20,14 21,8" fill="none" stroke="url(#stalkGrad)" stroke-width="1.8" stroke-linecap="round"/>
+ <!-- Fronds — feathery dill-like -->
+ <path d="M11,8 Q9,7 8,5 M11,8 Q10,6 9,5 M11,8 Q12,6 12,4" fill="none" stroke="url(#frondGrad)" stroke-width="0.8" stroke-linecap="round"/>
+ <path d="M16,6 Q14,4 13,3 M16,6 Q15,4 15,2 M16,6 Q17,4 17,2 M16,6 Q18,4 19,3" fill="none" stroke="url(#frondGrad)" stroke-width="0.8" stroke-linecap="round"/>
+ <path d="M21,8 Q20,6 20,4 M21,8 Q22,6 23,5 M21,8 Q23,7 24,5" fill="none" stroke="url(#frondGrad)" stroke-width="0.8" stroke-linecap="round"/>
+ <!-- Mid-stalk fronds -->
+ <path d="M12,14 Q10,13 9,11 M12,14 Q11,12 11,10" fill="none" stroke="url(#frondGrad)" stroke-width="0.7" stroke-linecap="round"/>
+ <path d="M20,14 Q22,13 23,11 M20,14 Q21,12 21,10" fill="none" stroke="url(#frondGrad)" stroke-width="0.7" stroke-linecap="round"/>
+ <!-- Bulb highlight -->
+ <ellipse cx="13" cy="21" rx="2.5" ry="1.5" fill="#fff" fill-opacity="0.25"/>
+</svg>

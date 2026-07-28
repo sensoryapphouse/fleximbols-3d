@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="gl-flower" cx="40%" cy="35%" r="70%">
+ <stop offset="0%" stop-color="#ffc8e0"/>
+ <stop offset="60%" stop-color="#d84090"/>
+ <stop offset="100%" stop-color="#80104a"/>
+ </radialGradient>
+ <radialGradient id="gl-stem" cx="40%" cy="35%" r="70%">
+ <stop offset="0%" stop-color="#90c860"/>
+ <stop offset="100%" stop-color="#2a5018"/>
+ </radialGradient>
+ <radialGradient id="gl-bud" cx="40%" cy="35%" r="70%">
+ <stop offset="0%" stop-color="#c8e890"/>
+ <stop offset="100%" stop-color="#3a6018"/>
+ </radialGradient>
+ </defs>
+ <line x1="16" y1="6" x2="16" y2="30" stroke="url(#gl-stem)" stroke-width="1.2" stroke-linecap="round"/>
+ <path d="M 16 26 L 13 30 Q 13 28 14 26 Z" fill="url(#gl-stem)"/>
+ <path d="M 16 22 L 19 28 Q 18 26 17 22 Z" fill="url(#gl-stem)"/>
+ <ellipse cx="11" cy="20" rx="3.5" ry="2.5" fill="url(#gl-flower)"/>
+ <ellipse cx="20" cy="17" rx="3.5" ry="2.5" fill="url(#gl-flower)"/>
+ <ellipse cx="12" cy="14" rx="3" ry="2" fill="url(#gl-flower)"/>
+ <ellipse cx="19" cy="11" rx="2.5" ry="1.8" fill="url(#gl-flower)"/>
+ <ellipse cx="14" cy="9" rx="1.8" ry="1.4" fill="url(#gl-bud)"/>
+ <ellipse cx="17" cy="6.5" rx="1.2" ry="1" fill="url(#gl-bud)"/>
+ <circle cx="11" cy="20" r="0.5" fill="#ffe080"/>
+ <circle cx="20" cy="17" r="0.5" fill="#ffe080"/>
+ <circle cx="12" cy="14" r="0.5" fill="#ffe080"/>
+ <ellipse cx="10" cy="19" rx="1" ry="0.4" fill="#ffffff" opacity="0.6"/>
+ <ellipse cx="19" cy="16" rx="1" ry="0.4" fill="#ffffff" opacity="0.6"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl161" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl161)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

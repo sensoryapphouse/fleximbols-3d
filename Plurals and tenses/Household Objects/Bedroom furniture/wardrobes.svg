@@ -1,0 +1,81 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,4.246) scale(0.8673)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wardBody" x1="0" y1="0" x2="0.2" y2="1">
+ <stop offset="0%" stop-color="#d8b870"/>
+ <stop offset="50%" stop-color="#b89050"/>
+ <stop offset="100%" stop-color="#886828"/>
+ </linearGradient>
+ <linearGradient id="wardDoor" x1="0" y1="0" x2="0.3" y2="1">
+ <stop offset="0%" stop-color="#e8c880"/>
+ <stop offset="50%" stop-color="#c8a858"/>
+ <stop offset="100%" stop-color="#987030"/>
+ </linearGradient>
+ <linearGradient id="wardOpenDoor" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#c0a050"/>
+ <stop offset="100%" stop-color="#806020"/>
+ </linearGradient>
+ <linearGradient id="wardInside" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#f0e8d0"/>
+ <stop offset="100%" stop-color="#d0c0a0"/>
+ </linearGradient>
+ <linearGradient id="wardSide" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#c0a050"/>
+ <stop offset="100%" stop-color="#807028"/>
+ </linearGradient>
+ <linearGradient id="wardTop" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#e8d090"/>
+ <stop offset="100%" stop-color="#c0a860"/>
+ </linearGradient>
+ <linearGradient id="railG" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#c0c0c8"/>
+ <stop offset="100%" stop-color="#8090a0"/>
+ </linearGradient>
+ <linearGradient id="garment1" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#d07890"/>
+ <stop offset="100%" stop-color="#a04868"/>
+ </linearGradient>
+ <linearGradient id="garment2" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#6890d8"/>
+ <stop offset="100%" stop-color="#385898"/>
+ </linearGradient>
+ <linearGradient id="knobWard" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#e0d0a0"/>
+ <stop offset="100%" stop-color="#a09050"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- wardrobe body -->
+ <rect x="5" y="4" width="20" height="26" rx="1" fill="url(#wardBody)"/>
+ <!-- side depth -->
+ <rect x="24" y="5" width="2.5" height="24" rx="0.5" fill="url(#wardSide)"/>
+ <!-- top face isometric -->
+ <path d="M5,4 L24,4 L26.5,5 L5,5 Z" fill="url(#wardTop)"/>
+ <!-- right door (closed) -->
+ <rect x="15.5" y="5" width="8.5" height="24" rx="0.5" fill="url(#wardDoor)"/>
+ <!-- door panel moulding right door -->
+ <rect x="17" y="7" width="5.5" height="10" rx="0.4" fill="none" stroke="#907020" stroke-width="0.5" stroke-opacity="0.6"/>
+ <rect x="17" y="18.5" width="5.5" height="8" rx="0.4" fill="none" stroke="#907020" stroke-width="0.5" stroke-opacity="0.6"/>
+ <!-- knob right door -->
+ <circle cx="16.2" cy="17" r="1" fill="url(#knobWard)"/>
+ <!-- left door (open, swung outward) -->
+ <rect x="1" y="5" width="4" height="22" rx="0.5" fill="url(#wardOpenDoor)"/>
+ <!-- door hinge implied -->
+ <circle cx="5" cy="9" r="0.5" fill="#a08040"/>
+ <circle cx="5" cy="22" r="0.5" fill="#a08040"/>
+ <!-- inside visible on left -->
+ <rect x="5.5" y="5" width="10" height="24" fill="url(#wardInside)"/>
+ <!-- hanging rail -->
+ <rect x="6" y="9" width="9" height="0.7" rx="0.3" fill="url(#railG)"/>
+ <!-- hangers and garments -->
+ <!-- hanger hooks -->
+ <path d="M8,9 Q8,7.5 9.5,7.5 Q11,7.5 11,9" stroke="#b0b0c0" stroke-width="0.6" fill="none"/>
+ <path d="M12,9 Q12,7.5 13.5,7.5 Q15,7.5 15,9" stroke="#b0b0c0" stroke-width="0.6" fill="none"/>
+ <!-- garment 1 dress shape -->
+ <path d="M7,9 Q7.5,12 6.5,19 L11,19 Q10.5,12 11,9 Z" fill="url(#garment1)"/>
+ <!-- garment 2 shirt shape -->
+ <path d="M11.5,9 Q12,12 11.5,19 L15.5,19 Q15,12 15.5,9 Z" fill="url(#garment2)"/>
+ <!-- bottom area of wardrobe (shoes implied) -->
+ <rect x="6" y="21" width="9" height="7" fill="#e0d8c0" fill-opacity="0.3"/>
+ <!-- highlight -->
+ <rect x="5.5" y="4.2" width="9" height="0.7" rx="0.3" fill="#ffffff" fill-opacity="0.4"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1772" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1772)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

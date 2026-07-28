@@ -1,0 +1,36 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="pcbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#3a6aaa"/>
+ <stop offset="100%" stop-color="#1a3a6a"/>
+ </linearGradient>
+ <linearGradient id="shieldGrad" x1="10%" y1="10%" x2="90%" y2="90%">
+ <stop offset="0%" stop-color="#d8d8d8"/>
+ <stop offset="100%" stop-color="#909090"/>
+ </linearGradient>
+ <linearGradient id="usbGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#888888"/>
+ <stop offset="100%" stop-color="#cccccc"/>
+ </linearGradient>
+ </defs>
+ <!-- PCB board body -->
+ 
+ <!-- antenna trace top-right -->
+ <path d="M23 4 L25 4 L25 8 L23 8" fill="none" stroke="#88aadd" stroke-width="0.7" stroke-linecap="round"/>
+ <!-- ESP32 shield chip -->
+ <rect x="10" y="9" width="12" height="9" rx="0.8" fill="url(#shieldGrad)"/>
+ <!-- chip label lines (no text) -->
+ <line x1="12" y1="11.5" x2="20" y2="11.5" stroke="#444444" stroke-width="0.5" stroke-opacity="0.6"/>
+ <line x1="12" y1="13" x2="20" y2="13" stroke="#444444" stroke-width="0.5" stroke-opacity="0.6"/>
+ <line x1="12" y1="14.5" x2="20" y2="14.5" stroke="#444444" stroke-width="0.5" stroke-opacity="0.6"/>
+ <!-- micro-USB port at bottom -->
+ <rect x="12" y="26" width="8" height="3" rx="0.5" fill="url(#usbGrad)"/>
+ <!-- pin headers left edge -->
+ <rect x="5" y="8" width="1.5" height="16" rx="0.3" fill="#e8c840" fill-opacity="0.9"/>
+ <line x1="5.75" y1="9" x2="5.75" y2="23" stroke="#c0a020" stroke-width="0.4" stroke-dasharray="1,1.2"/>
+ <!-- pin headers right edge -->
+ <rect x="25.5" y="8" width="1.5" height="16" rx="0.3" fill="#e8c840" fill-opacity="0.9"/>
+ <line x1="26.25" y1="9" x2="26.25" y2="23" stroke="#c0a020" stroke-width="0.4" stroke-dasharray="1,1.2"/>
+ <!-- small LED indicator -->
+ <circle cx="22" cy="22.5" r="1" fill="#44ff44" fill-opacity="0.85"/>
+</svg>

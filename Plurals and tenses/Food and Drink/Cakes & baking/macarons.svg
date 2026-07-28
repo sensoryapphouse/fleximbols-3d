@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,1.843) scale(0.9424)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="mc_top" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 9) rotate(35) scale(16 9)">
+<stop stop-color="#FBE3E8"/>
+<stop offset="0.55" stop-color="#F4B9C6"/>
+<stop offset="1" stop-color="#E8909F"/>
+</radialGradient>
+<radialGradient id="mc_bot" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 21) rotate(20) scale(15 8)">
+<stop stop-color="#F6C7D1"/>
+<stop offset="0.6" stop-color="#EFA9B7"/>
+<stop offset="1" stop-color="#DD8294"/>
+</radialGradient>
+<linearGradient id="mc_fill" x1="16" y1="14.4" x2="16" y2="19" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF6E0"/>
+<stop offset="1" stop-color="#F3DFA8"/>
+</linearGradient>
+</defs>
+<!-- top shell dome -->
+<path d="M4.2 13.6C4.2 9.2 9.6 6.0 16 6.0C22.4 6.0 27.8 9.2 27.8 13.6C27.8 14.4 26.9 15.0 25.5 15.0H6.5C5.1 15.0 4.2 14.4 4.2 13.6Z" fill="url(#mc_top)"/>
+<!-- top shell ruffled feet -->
+<path d="M5.0 14.2C5.0 15.8 6.4 16.8 9.0 16.8C12.0 16.8 12.6 15.2 16 15.2C19.4 15.2 20.0 16.8 23.0 16.8C25.6 16.8 27.0 15.8 27.0 14.2C27.0 13.4 26.2 13.0 25.0 13.0H7.0C5.8 13.0 5.0 13.4 5.0 14.2Z" fill="#EBA1B0"/>
+<!-- filling band -->
+<path d="M5.6 16.0C5.6 15.1 6.3 14.7 8.4 14.7H23.6C25.7 14.7 26.4 15.1 26.4 16.0V17.6C26.4 18.5 25.7 18.9 23.6 18.9H8.4C6.3 18.9 5.6 18.5 5.6 17.6Z" fill="url(#mc_fill)"/>
+<!-- bottom shell ruffled feet -->
+<path d="M5.0 18.4C5.0 16.8 6.4 15.8 9.0 15.8C12.0 15.8 12.6 17.4 16 17.4C19.4 17.4 20.0 15.8 23.0 15.8C25.6 15.8 27.0 16.8 27.0 18.4C27.0 19.2 26.2 19.6 25.0 19.6H7.0C5.8 19.6 5.0 19.2 5.0 18.4Z" fill="#DD8FA0"/>
+<!-- bottom shell dome -->
+<path d="M4.2 18.8C4.2 18.0 5.1 17.4 6.5 17.4H25.5C26.9 17.4 27.8 18.0 27.8 18.8C27.8 23.2 22.4 26.0 16 26.0C9.6 26.0 4.2 23.2 4.2 18.8Z" fill="url(#mc_bot)"/>
+<!-- glossy highlight -->
+<ellipse cx="11.5" cy="9.6" rx="4.2" ry="1.7" transform="rotate(-18 11.5 9.6)" fill="#FFFFFF" fill-opacity="0.55"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1003" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1003)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

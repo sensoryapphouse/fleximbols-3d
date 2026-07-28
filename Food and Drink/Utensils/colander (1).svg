@@ -1,0 +1,62 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="colanBody" x1="0" y1="0" x2="0.2" y2="1">
+ <stop offset="0%" stop-color="#d8d8d8"/>
+ <stop offset="50%" stop-color="#b0b0b0"/>
+ <stop offset="100%" stop-color="#787878"/>
+ </linearGradient>
+ <linearGradient id="colanRim" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#e0e0e0"/>
+ <stop offset="100%" stop-color="#a0a0a0"/>
+ </linearGradient>
+ <linearGradient id="handleColan" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#c8c8c8"/>
+ <stop offset="100%" stop-color="#909090"/>
+ </linearGradient>
+ <linearGradient id="waterDrop" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#a8d4f8" stop-opacity="0.9"/>
+ <stop offset="100%" stop-color="#4888c8" stop-opacity="0.7"/>
+ </linearGradient>
+ <radialGradient id="colanInner" cx="50%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#c8c8c8"/>
+ <stop offset="100%" stop-color="#888888"/>
+ </radialGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- handles -->
+ <path d="M5,14 Q3,14 3,12 Q3,10 5,10 L7,10 L7,14 Z" fill="url(#handleColan)"/>
+ <path d="M27,14 Q29,14 29,12 Q29,10 27,10 L25,10 L25,14 Z" fill="url(#handleColan)"/>
+ <!-- colander bowl body -->
+ <path d="M6,10 Q5,22 16,24 Q27,22 26,10 Z" fill="url(#colanBody)"/>
+ <!-- inside bowl -->
+ <path d="M7.5,11 Q7,21 16,23 Q25,21 24.5,11 Z" fill="url(#colanInner)"/>
+ <!-- rim -->
+ <ellipse cx="16" cy="10" rx="10" ry="2.5" fill="url(#colanRim)"/>
+ <!-- holes pattern rows -->
+ <!-- row 1 -->
+ <circle cx="12" cy="13" r="0.5" fill="#606060"/>
+ <circle cx="14.5" cy="13" r="0.5" fill="#606060"/>
+ <circle cx="17" cy="13" r="0.5" fill="#606060"/>
+ <circle cx="19.5" cy="13" r="0.5" fill="#606060"/>
+ <!-- row 2 -->
+ <circle cx="11" cy="15.5" r="0.5" fill="#606060"/>
+ <circle cx="13.5" cy="15.5" r="0.5" fill="#606060"/>
+ <circle cx="16" cy="15.5" r="0.5" fill="#606060"/>
+ <circle cx="18.5" cy="15.5" r="0.5" fill="#606060"/>
+ <circle cx="21" cy="15.5" r="0.5" fill="#606060"/>
+ <!-- row 3 -->
+ <circle cx="12" cy="18" r="0.5" fill="#606060"/>
+ <circle cx="14.5" cy="18" r="0.5" fill="#606060"/>
+ <circle cx="17" cy="18" r="0.5" fill="#606060"/>
+ <circle cx="19.5" cy="18" r="0.5" fill="#606060"/>
+ <!-- row 4 -->
+ <circle cx="14" cy="20.5" r="0.5" fill="#606060"/>
+ <circle cx="16.5" cy="20.5" r="0.5" fill="#606060"/>
+ <circle cx="19" cy="20.5" r="0.5" fill="#606060"/>
+ <!-- water drops falling below -->
+ <ellipse cx="13" cy="26" rx="0.7" ry="1.2" fill="url(#waterDrop)"/>
+ <ellipse cx="16" cy="27.5" rx="0.7" ry="1.2" fill="url(#waterDrop)"/>
+ <ellipse cx="19" cy="26.5" rx="0.7" ry="1.2" fill="url(#waterDrop)"/>
+ <!-- highlight on rim -->
+ <path d="M10,9 Q13,8 16,8 Q19,8 22,9" stroke="#ffffff" stroke-width="0.8" fill="none" stroke-opacity="0.5"/>
+</svg>

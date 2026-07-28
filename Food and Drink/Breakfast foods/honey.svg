@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="4.4 6.4 23.2 23.2" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+
+ <path d="M10 14 L10 25 Q10 28 16 28 Q22 28 22 25 L22 14 Q20 11 16 11 Q12 11 10 14Z" fill="url(#hon_jar)"/>
+ <ellipse cx="16" cy="14" rx="6" ry="3" fill="url(#hon_top)"/>
+ <ellipse cx="16" cy="14" rx="5" ry="2.5" fill="url(#hon_honey)"/>
+ <rect x="13" y="8" width="6" height="3" rx="1.5" fill="url(#hon_cap)"/>
+ <path d="M13 20 Q16 18 19 20" stroke="url(#hon_drip)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <ellipse cx="13" cy="13" rx="2.5" ry="1.2" fill="url(#hon_shine)" opacity="0.4"/>
+
+<defs>
+
+ <radialGradient id="hon_jar" cx="0.3" cy="0.2" r="0.8">
+ <stop offset="0" stop-color="#FFE060"/>
+ <stop offset="0.5" stop-color="#F0B820"/>
+ <stop offset="1" stop-color="#C08000"/>
+ </radialGradient>
+ <radialGradient id="hon_top" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#FFE880"/>
+ <stop offset="1" stop-color="#D4A020"/>
+ </radialGradient>
+ <radialGradient id="hon_honey" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#FFCC20"/>
+ <stop offset="0.6" stop-color="#E0A000"/>
+ <stop offset="1" stop-color="#B07000"/>
+ </radialGradient>
+ <radialGradient id="hon_cap" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#F0B040"/>
+ <stop offset="1" stop-color="#C07010"/>
+ </radialGradient>
+ <linearGradient id="hon_drip" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+ <stop offset="0" stop-color="#C08000" stop-opacity="0.7"/>
+ <stop offset="1" stop-color="#C08000" stop-opacity="0"/>
+ </linearGradient>
+ <radialGradient id="hon_shine" cx="0.3" cy="0.3" r="0.7">
+ <stop offset="0" stop-color="#ffffff"/>
+ <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+ </radialGradient>
+
+</defs>
+</svg>

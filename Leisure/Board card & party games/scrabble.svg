@@ -1,0 +1,64 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <linearGradient id="sc_board" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#3E8E5A"/><stop offset="1" stop-color="#2C6B41"/>
+ </linearGradient>
+ <linearGradient id="sc_frame" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#8C5A2E"/><stop offset="1" stop-color="#5E3A18"/>
+ </linearGradient>
+ <linearGradient id="sc_tile" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FBF0D2"/><stop offset="1" stop-color="#E7CF98"/>
+ </linearGradient>
+</defs>
+<!-- wooden frame -->
+<rect x="2" y="2.5" width="28" height="27" rx="2.4" fill="url(#sc_frame)"/>
+<!-- green board -->
+<rect x="4" y="4.5" width="24" height="23" rx="1" fill="url(#sc_board)"/>
+<!-- grid lines -->
+<g stroke="#2a6440" stroke-width="0.4" opacity="0.7">
+ <path d="M9 4.5 V27.5 M14 4.5 V27.5 M19 4.5 V27.5 M24 4.5 V27.5"/>
+ <path d="M4 9.5 H28 M4 14.5 H28 M4 19.5 H28 M4 24.5 H28"/>
+</g>
+<!-- letter tiles forming crossing words: WORD (across) + DICE-ish (down) -->
+<!-- tile helper drawn inline -->
+<!-- Row across: W O R D at row y=10..14, cols 5..9..14..19 -->
+<g font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">
+ <!-- ACROSS word: P L A Y -->
+ <g>
+  <rect x="4.6" y="14.8" width="4.4" height="4.4" rx="0.7" fill="url(#sc_tile)" stroke="#c9ad74" stroke-width="0.25"/>
+  <text x="6.7" y="18.2" font-size="3.1" fill="#3a2a12">P</text>
+  <text x="8.5" y="18.9" font-size="1.3" fill="#3a2a12">3</text>
+ </g>
+ <g>
+  <rect x="9.3" y="14.8" width="4.4" height="4.4" rx="0.7" fill="url(#sc_tile)" stroke="#c9ad74" stroke-width="0.25"/>
+  <text x="11.4" y="18.2" font-size="3.1" fill="#3a2a12">L</text>
+  <text x="13.2" y="18.9" font-size="1.3" fill="#3a2a12">1</text>
+ </g>
+ <g>
+  <rect x="14" y="14.8" width="4.4" height="4.4" rx="0.7" fill="url(#sc_tile)" stroke="#c9ad74" stroke-width="0.25"/>
+  <text x="16.1" y="18.2" font-size="3.1" fill="#3a2a12">A</text>
+  <text x="17.9" y="18.9" font-size="1.3" fill="#3a2a12">1</text>
+ </g>
+ <g>
+  <rect x="18.7" y="14.8" width="4.4" height="4.4" rx="0.7" fill="url(#sc_tile)" stroke="#c9ad74" stroke-width="0.25"/>
+  <text x="20.8" y="18.2" font-size="3.1" fill="#3a2a12">Y</text>
+  <text x="22.6" y="18.9" font-size="1.3" fill="#3a2a12">4</text>
+ </g>
+ <!-- DOWN word sharing the A: W (above), then A, then R, then M  -> column at x=14 -->
+ <g>
+  <rect x="14" y="5.4" width="4.4" height="4.4" rx="0.7" fill="url(#sc_tile)" stroke="#c9ad74" stroke-width="0.25"/>
+  <text x="16.1" y="8.8" font-size="3.1" fill="#3a2a12">W</text>
+  <text x="17.9" y="9.5" font-size="1.3" fill="#3a2a12">4</text>
+ </g>
+ <g>
+  <rect x="14" y="10.1" width="4.4" height="4.4" rx="0.7" fill="url(#sc_tile)" stroke="#c9ad74" stroke-width="0.25"/>
+  <text x="16.1" y="13.5" font-size="3.1" fill="#3a2a12">O</text>
+  <text x="17.9" y="14.2" font-size="1.3" fill="#3a2a12">1</text>
+ </g>
+ <g>
+  <rect x="14" y="19.5" width="4.4" height="4.4" rx="0.7" fill="url(#sc_tile)" stroke="#c9ad74" stroke-width="0.25"/>
+  <text x="16.1" y="22.9" font-size="3.1" fill="#3a2a12">D</text>
+  <text x="17.9" y="23.6" font-size="1.3" fill="#3a2a12">2</text>
+ </g>
+</g>
+</svg>

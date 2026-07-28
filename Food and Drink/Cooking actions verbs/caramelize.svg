@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+  <linearGradient id="cz_pan" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0%" stop-color="#5a5f68"/>
+   <stop offset="50%" stop-color="#3a3e46"/>
+   <stop offset="100%" stop-color="#23262c"/>
+  </linearGradient>
+  <linearGradient id="cz_rim" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0%" stop-color="#6b7079"/>
+   <stop offset="100%" stop-color="#3a3e46"/>
+  </linearGradient>
+  <radialGradient id="cz_caramel" cx="42%" cy="32%" r="72%">
+   <stop offset="0%" stop-color="#f7b748"/>
+   <stop offset="55%" stop-color="#d6862a"/>
+   <stop offset="100%" stop-color="#a85916"/>
+  </radialGradient>
+  <linearGradient id="cz_handle" x1="0" y1="0" x2="1" y2="0">
+   <stop offset="0%" stop-color="#4a4e56"/>
+   <stop offset="100%" stop-color="#2a2d33"/>
+  </linearGradient>
+ </defs>
+ <!-- handle -->
+ <rect x="25" y="16.4" width="6.5" height="2.6" rx="1.3" fill="url(#cz_handle)"/>
+ <!-- pan body -->
+ <path d="M4 15 L26 15 L24.2 23 Q23.6 25.6 20.8 25.6 L9.2 25.6 Q6.4 25.6 5.8 23 Z" fill="url(#cz_pan)"/>
+ <!-- pan rim / top ellipse -->
+ <ellipse cx="15" cy="15" rx="11" ry="3.1" fill="url(#cz_rim)"/>
+ <!-- molten amber caramel surface -->
+ <ellipse cx="15" cy="15" rx="9.3" ry="2.5" fill="url(#cz_caramel)"/>
+ <!-- caramel sheen -->
+ <ellipse cx="12" cy="14.2" rx="3.4" ry="1.0" fill="#ffe09a" opacity="0.65"/>
+ <!-- bubbles in the caramelizing sugar -->
+ <circle cx="18.5" cy="15.2" r="1.0" fill="#f7c468" opacity="0.9"/>
+ <circle cx="16.5" cy="16.0" r="0.7" fill="#f7c468" opacity="0.85"/>
+ <circle cx="13" cy="15.8" r="0.6" fill="#f7c468" opacity="0.85"/>
+ <circle cx="20" cy="14.4" r="0.5" fill="#ffe0a0" opacity="0.9"/>
+ <!-- a couple of sugar granules melting in -->
+ <rect x="10.2" y="13.6" width="1.3" height="1.3" rx="0.25" fill="#fff6e0" opacity="0.9" transform="rotate(18 10.85 14.25)"/>
+ <rect x="17.6" y="13.4" width="1.1" height="1.1" rx="0.25" fill="#fff6e0" opacity="0.85" transform="rotate(-12 18.15 13.95)"/>
+ <!-- gentle steam wisps -->
+ <path d="M11 11 Q10 9.5 11 8 Q12 6.6 11 5" stroke="#dcdfe4" stroke-width="0.7" fill="none" stroke-linecap="round" opacity="0.6"/>
+ <path d="M16 10.5 Q15 9 16 7.5 Q17 6.1 16 4.6" stroke="#dcdfe4" stroke-width="0.7" fill="none" stroke-linecap="round" opacity="0.5"/>
+</svg>

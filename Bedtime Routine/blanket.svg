@@ -1,0 +1,58 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="fold1" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#e8a06a"/>
+ <stop offset="100%" stop-color="#c07840"/>
+ </linearGradient>
+ <linearGradient id="fold2" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#d08858"/>
+ <stop offset="100%" stop-color="#a86030"/>
+ </linearGradient>
+ <linearGradient id="fold3" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#b87040"/>
+ <stop offset="100%" stop-color="#904828"/>
+ </linearGradient>
+ <linearGradient id="tassGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#e0c090"/>
+ <stop offset="100%" stop-color="#b88848"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- bottom fold -->
+ <rect x="5" y="20" width="22" height="6" rx="1.5" fill="url(#fold3)"/>
+ <!-- checkerboard on bottom fold -->
+ <rect x="6" y="21" width="3" height="3" rx="0.3" fill="#7a3818" fill-opacity="0.35"/>
+ <rect x="12" y="21" width="3" height="3" rx="0.3" fill="#7a3818" fill-opacity="0.35"/>
+ <rect x="18" y="21" width="3" height="3" rx="0.3" fill="#7a3818" fill-opacity="0.35"/>
+ <rect x="9" y="21" width="3" height="3" rx="0.3" fill="#f0c080" fill-opacity="0.25"/>
+ <rect x="15" y="21" width="3" height="3" rx="0.3" fill="#f0c080" fill-opacity="0.25"/>
+ <rect x="21" y="21" width="3" height="3" rx="0.3" fill="#f0c080" fill-opacity="0.25"/>
+ <!-- middle fold -->
+ <rect x="5" y="14" width="22" height="7" rx="1.5" fill="url(#fold2)"/>
+ <!-- checkerboard on mid fold -->
+ <rect x="6" y="15.5" width="3" height="3" rx="0.3" fill="#7a3818" fill-opacity="0.35"/>
+ <rect x="12" y="15.5" width="3" height="3" rx="0.3" fill="#7a3818" fill-opacity="0.35"/>
+ <rect x="18" y="15.5" width="3" height="3" rx="0.3" fill="#7a3818" fill-opacity="0.35"/>
+ <rect x="9" y="15.5" width="3" height="3" rx="0.3" fill="#f0c080" fill-opacity="0.25"/>
+ <rect x="15" y="15.5" width="3" height="3" rx="0.3" fill="#f0c080" fill-opacity="0.25"/>
+ <rect x="21" y="15.5" width="3" height="3" rx="0.3" fill="#f0c080" fill-opacity="0.25"/>
+ <!-- top fold -->
+ <rect x="5" y="8" width="22" height="7" rx="1.5" fill="url(#fold1)"/>
+ <!-- checkerboard on top fold -->
+ <rect x="6" y="9.5" width="3" height="3" rx="0.3" fill="#7a3818" fill-opacity="0.35"/>
+ <rect x="12" y="9.5" width="3" height="3" rx="0.3" fill="#7a3818" fill-opacity="0.35"/>
+ <rect x="18" y="9.5" width="3" height="3" rx="0.3" fill="#7a3818" fill-opacity="0.35"/>
+ <rect x="9" y="9.5" width="3" height="3" rx="0.3" fill="#f0e0b0" fill-opacity="0.35"/>
+ <rect x="15" y="9.5" width="3" height="3" rx="0.3" fill="#f0e0b0" fill-opacity="0.35"/>
+ <rect x="21" y="9.5" width="3" height="3" rx="0.3" fill="#f0e0b0" fill-opacity="0.35"/>
+ <!-- tassels at bottom -->
+ <line x1="7" y1="26" x2="7" y2="29" stroke="url(#tassGrad)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="10" y1="26" x2="10" y2="29.5" stroke="url(#tassGrad)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="13" y1="26" x2="13" y2="29" stroke="url(#tassGrad)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="16" y1="26" x2="16" y2="29.5" stroke="url(#tassGrad)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="19" y1="26" x2="19" y2="29" stroke="url(#tassGrad)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="22" y1="26" x2="22" y2="29.5" stroke="url(#tassGrad)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="25" y1="26" x2="25" y2="29" stroke="url(#tassGrad)" stroke-width="1" stroke-linecap="round"/>
+ <!-- highlight -->
+ <rect x="6" y="8.5" width="10" height="1.5" rx="0.5" fill-opacity="0.25" fill="#ffffff"/>
+</svg>

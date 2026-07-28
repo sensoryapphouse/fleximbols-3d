@@ -1,0 +1,37 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="mach" cx="35%" cy="25%" r="80%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#9098a0"/>
+ </radialGradient>
+ <radialGradient id="screen" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#a0e0ff"/>
+ <stop offset="100%" stop-color="#205070"/>
+ </radialGradient>
+ <radialGradient id="blood" cx="35%" cy="25%" r="80%">
+ <stop offset="0%" stop-color="#ff6060"/>
+ <stop offset="100%" stop-color="#700808"/>
+ </radialGradient>
+ <radialGradient id="tube" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#ffb0c0"/>
+ <stop offset="100%" stop-color="#a04060"/>
+ </radialGradient>
+ </defs>
+ <rect x="4" y="6" width="16" height="22" rx="1" fill="url(#mach)"/>
+ <rect x="4.5" y="6.5" width="2" height="20" rx="0.4" fill="#fff" opacity="0.5"/>
+ <rect x="6" y="9" width="12" height="6" rx="0.4" fill="url(#screen)"/>
+ <rect x="6.3" y="9.3" width="11" height="0.5" fill="#fff" opacity="0.5"/>
+ <path d="M 7 13 L 9 12 L 11 13 L 13 11 L 15 13 L 17 12" stroke="#fff" stroke-width="0.4" fill="none"/>
+ <circle cx="8" cy="18" r="2.5" fill="url(#blood)"/>
+ <circle cx="7.5" cy="17.5" r="0.6" fill="#fff" opacity="0.6"/>
+ <circle cx="16" cy="18" r="2.5" fill="url(#blood)"/>
+ <circle cx="15.5" cy="17.5" r="0.6" fill="#fff" opacity="0.6"/>
+ <rect x="6" y="23" width="12" height="3" rx="0.3" fill="#3a4050"/>
+ <circle cx="8" cy="24.5" r="0.6" fill="#48a048"/>
+ <circle cx="11" cy="24.5" r="0.6" fill="#e08020"/>
+ <circle cx="14" cy="24.5" r="0.6" fill="#c84040"/>
+ <path d="M 20 15 Q 24 14 26 18 Q 27 22 24 24 Q 22 26 25 28" stroke="url(#tube)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <path d="M 20 21 Q 25 22 26 26" stroke="url(#blood)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <circle cx="27" cy="28" r="1" fill="url(#tube)"/>
+ <circle cx="26.7" cy="27.7" r="0.3" fill="#fff" opacity="0.7"/>
+</svg>

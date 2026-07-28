@@ -1,0 +1,15 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<radialGradient id="yellow" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFEE6A"/><stop offset="100%" stop-color="#E5A700"/></radialGradient>
+<radialGradient id="orange" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFB060"/><stop offset="100%" stop-color="#B05810"/></radialGradient>
+<radialGradient id="bird" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE0A0"/><stop offset="100%" stop-color="#A56424"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="40%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<circle cx="14" cy="16" r="10" fill="url(#bird)"/>
+<path d="M22 14 L30 16 L22 19 Z" fill="url(#yellow)"/>
+<path d="M22 16.5 L30 16 L22 17 Z" fill="url(#orange)"/>
+<path d="M22 14 L30 16" stroke="url(#orange)" stroke-width="0.4"/>
+<circle cx="17" cy="13" r="1.6" fill="#FFFFFF"/>
+<circle cx="17.5" cy="13" r="0.9" fill="#1A1A1A"/>
+<circle cx="17.7" cy="12.8" r="0.3" fill="#FFFFFF"/>
+<ellipse cx="11" cy="13" rx="4" ry="3" fill="url(#hi)" opacity="0.6"/>
+<path d="M6 12 Q5 8 9 8 Q8 10 6 12 M5 14 Q3 13 4 16 Q5 15 5 14" fill="url(#bird)"/><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl6" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl6)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

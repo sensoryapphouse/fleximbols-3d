@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="hn_body" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#c89050"/><stop offset="60%" stop-color="#8a5020"/><stop offset="100%" stop-color="#4a2800"/></radialGradient>
+ <radialGradient id="hn_wing" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#d4a060"/><stop offset="60%" stop-color="#a06830"/><stop offset="100%" stop-color="#5a3010"/></radialGradient>
+ <radialGradient id="hn_comb" cx="40%" cy="30%" r="60%"><stop offset="0%" stop-color="#ff4444"/><stop offset="100%" stop-color="#cc1111"/></radialGradient>
+ </defs>
+ <!-- tail feathers -->
+ <path d="M26 18 Q30 14 31 11 M26 20 Q31 18 32 18 M26 22 Q30 22 31 25" fill="none" stroke="#7a4820" stroke-width="2" stroke-linecap="round"/>
+ <!-- body -->
+ <ellipse cx="17" cy="22" rx="10" ry="7" fill="url(#hn_body)"/>
+ <!-- wing -->
+ <ellipse cx="19" cy="22" rx="7" ry="5" fill="url(#hn_wing)" transform="rotate(10,19,22)"/>
+ <!-- feather texture on wing -->
+ <path d="M16 19 Q20 18 24 20 M16 21 Q20 20 24 22 M16 23 Q20 22 23 24" fill="none" stroke="#7a4020" stroke-width="0.5" opacity="0.5"/>
+ <!-- legs -->
+ <path d="M12 28 L11 31 M12 28 L13 31" fill="none" stroke="#e8c060" stroke-width="1.5" stroke-linecap="round"/>
+ <path d="M18 28 L17 31 M18 28 L19 31" fill="none" stroke="#e8c060" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- head -->
+ <ellipse cx="8" cy="18" rx="6" ry="5.5" fill="url(#hn_body)"/>
+ <!-- comb -->
+ <path d="M7 13 Q6 11 7 12 Q7 10 8 11 Q8 9 9 11 Q10 10 10 12" fill="url(#hn_comb)"/>
+ <!-- wattle -->
+ <ellipse cx="5.5" cy="20" rx="1.5" ry="2" fill="url(#hn_comb)"/>
+ <!-- beak -->
+ <path d="M3 18 L1 18.5 L3 19Z" fill="#e8c060"/>
+ <!-- eye -->
+ <circle cx="6" cy="16.5" r="1.2" fill="#1a1a1a"/>
+ <circle cx="5.6" cy="16.1" r="0.4" fill="#fff" fill-opacity="0.7"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl117" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl117)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

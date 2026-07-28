@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="frame" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#F77B4B"/><stop offset="100%" stop-color="#7A1E08"/></radialGradient>
+<radialGradient id="seat" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE48A"/><stop offset="100%" stop-color="#8A5A0A"/></radialGradient>
+<radialGradient id="sk" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE0BD"/><stop offset="100%" stop-color="#D49D7A"/></radialGradient>
+<radialGradient id="sh" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#7BB8E6"/><stop offset="100%" stop-color="#0A4A78"/></radialGradient>
+<radialGradient id="pn" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#5C6BC0"/><stop offset="100%" stop-color="#1A237E"/></radialGradient>
+<radialGradient id="hr" cx="40%" cy="30%" r="60%"><stop offset="0%" stop-color="#7A4218"/><stop offset="100%" stop-color="#3A1808"/></radialGradient>
+<linearGradient id="arr" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFE48A"/><stop offset="100%" stop-color="#E5A700"/></linearGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="35%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- top bar -->
+<rect x="3" y="3" width="26" height="1.4" rx="0.4" fill="url(#frame)"/>
+<!-- A-frame legs -->
+<path d="M3 4 L 1 27 L 2.5 27 L 5 4 Z" fill="url(#frame)"/>
+<path d="M29 4 L 31 27 L 29.5 27 L 27 4 Z" fill="url(#frame)"/>
+<!-- chains (swinging at angle) -->
+<line x1="13" y1="4.4" x2="11" y2="18" stroke="#3A4250" stroke-width="0.4"/>
+<line x1="19" y1="4.4" x2="21" y2="18" stroke="#3A4250" stroke-width="0.4"/>
+<!-- seat -->
+<rect x="10" y="18" width="12" height="1.6" rx="0.4" fill="url(#seat)"/>
+<ellipse cx="13" cy="18.5" rx="3" ry="0.4" fill="url(#hi)"/>
+<!-- child on swing -->
+<!-- legs out front -->
+<path d="M14 19 Q 11 20 9 22" stroke="url(#pn)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M16 19 Q 14 21 13 24" stroke="url(#pn)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<!-- torso -->
+<rect x="14" y="14" width="5" height="5" rx="1" fill="url(#sh)"/>
+<!-- arms holding chains -->
+<path d="M13 16 L 11 18" stroke="url(#sh)" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<path d="M20 16 L 22 18" stroke="url(#sh)" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<circle cx="11" cy="18" r="0.6" fill="url(#sk)"/>
+<circle cx="22" cy="18" r="0.6" fill="url(#sk)"/>
+<!-- head -->
+<circle cx="16.5" cy="12" r="2.2" fill="url(#sk)"/>
+<path d="M14.5 11 Q 14 9 16.5 9 Q 19 9 18.5 11 Q 18 12 16.5 12 Q 15 12 14.5 11 Z" fill="url(#hr)"/>
+<circle cx="15.7" cy="12.3" r="0.3" fill="#1A1F2C"/>
+<circle cx="17.3" cy="12.3" r="0.3" fill="#1A1F2C"/>
+<path d="M15.7 13.3 Q 16.5 13.7 17.3 13.3" stroke="#7B3A1E" stroke-width="0.2" fill="none" stroke-linecap="round"/>
+<!-- motion arrow -->
+<path d="M4 22 Q 4 18 7 16" stroke="url(#arr)" stroke-width="0.6" fill="none" stroke-linecap="round"/>
+<path d="M7 16 L 5.5 15.5 L 6.5 17.5 Z" fill="url(#arr)"/>
+</svg>

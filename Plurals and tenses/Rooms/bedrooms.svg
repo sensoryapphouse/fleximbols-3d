@@ -1,0 +1,90 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,7.498) scale(0.7657)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F5ECD8"/>
+ <stop offset="100%" stop-color="#D8C4A0"/>
+ </linearGradient>
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="bedFrameGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="duvetGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F0C8A0"/>
+ <stop offset="100%" stop-color="#D4905A"/>
+ </linearGradient>
+ <linearGradient id="pillowGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#E8D8C8"/>
+ </linearGradient>
+ <linearGradient id="wardrobeGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="lampGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F5D060"/>
+ <stop offset="100%" stop-color="#C89820"/>
+ </linearGradient>
+ <linearGradient id="nightstandGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ </defs>
+ <!-- Wall -->
+ <rect x="2" y="2" width="28" height="20" fill="url(#wallGrad)"/>
+ <!-- Floor -->
+ <rect x="2" y="22" width="28" height="8" fill="url(#floorGrad)"/>
+ <!-- Floor planks -->
+ <line x1="2" y1="25" x2="30" y2="25" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="2" y1="28" x2="30" y2="28" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="10" y1="22" x2="10" y2="30" stroke="#8B5C3A" stroke-width="0.3" opacity="0.3"/>
+ <line x1="20" y1="22" x2="20" y2="30" stroke="#8B5C3A" stroke-width="0.3" opacity="0.3"/>
+ <!-- Wardrobe (left) -->
+ 
+ <!-- Wardrobe doors -->
+ <line x1="6" y1="4" x2="6" y2="22" stroke="#8B5C3A" stroke-width="0.4"/>
+ <!-- Door handles -->
+ <rect x="5.2" y="12" width="0.5" height="1.5" rx="0.2" fill="#C9CDD3"/>
+ <rect x="6.3" y="12" width="0.5" height="1.5" rx="0.2" fill="#C9CDD3"/>
+ <!-- Wardrobe top moulding -->
+ <rect x="2" y="4" width="8" height="1" rx="0.3" fill="#D4AA80"/>
+ <!-- Framed picture on wall -->
+ 
+ <rect x="13.5" y="4.5" width="5" height="3" rx="0.2" fill="#A8C8E0"/>
+ <!-- Painting simplified landscape -->
+ <ellipse cx="16" cy="6.5" rx="1" ry="0.8" fill="#E8A060" opacity="0.7"/>
+ <line x1="13.5" y1="7" x2="18.5" y2="7" stroke="#6A9A50" stroke-width="0.5" opacity="0.6"/>
+ <!-- BED (centre primary) -->
+ <!-- Bed frame / headboard -->
+ 
+ <!-- Headboard detail -->
+ <rect x="11" y="10.5" width="16" height="3" rx="0.5" fill="#C99878"/>
+ <!-- Bed base -->
+ 
+ <!-- Duvet fold -->
+ <rect x="10" y="14" width="18" height="2" rx="0.3" fill="#E8B888"/>
+ <!-- Duvet pattern lines -->
+ <line x1="14" y1="16" x2="14" y2="22" stroke="#C07840" stroke-width="0.3" opacity="0.5"/>
+ <line x1="19" y1="16" x2="19" y2="22" stroke="#C07840" stroke-width="0.3" opacity="0.5"/>
+ <line x1="24" y1="16" x2="24" y2="22" stroke="#C07840" stroke-width="0.3" opacity="0.5"/>
+ <!-- Pillows -->
+ 
+ 
+ <!-- Bed legs -->
+ <rect x="10.5" y="21.5" width="1" height="1" rx="0.2" fill="#8B5C3A"/>
+ <rect x="26.5" y="21.5" width="1" height="1" rx="0.2" fill="#8B5C3A"/>
+ <!-- Nightstand (right of bed) -->
+ 
+ <!-- Nightstand drawer -->
+ <line x1="28" y1="19" x2="30" y2="19" stroke="#8B5C3A" stroke-width="0.3"/>
+ <circle cx="29" cy="18.5" r="0.2" fill="#C9CDD3"/>
+ <!-- Lamp on nightstand -->
+ <rect x="28.5" y="14" width="0.7" height="2" rx="0.2" fill="#A07840"/>
+ <!-- Lamp shade -->
+ <polygon points="28,14 30,14 29.5,11.5 28.5,11.5" fill="url(#lampGrad)"/>
+ <!-- Lamp glow -->
+ <ellipse cx="29" cy="12" rx="1.5" ry="0.8" fill="#F5D060" opacity="0.3"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2802" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2802)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

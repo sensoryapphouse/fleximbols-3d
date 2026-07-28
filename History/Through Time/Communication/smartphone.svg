@@ -1,0 +1,39 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="b2_screen" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#1e3a5f"/>
+<stop offset="100%" stop-color="#0f172a"/>
+</linearGradient>
+<filter id="b2_glow"><feGaussianBlur stdDeviation="1" result="blur"/><feComposite in="SourceGraphic"/></filter>
+</defs>
+<!-- Phone body -->
+<rect x="7" y="1" width="18" height="30" rx="3" fill="#1f2937" filter="url(#b2_shd)"/>
+<!-- Camera bump -->
+<rect x="20" y="3" width="4.5" height="4.5" rx="1.5" fill="#374151"/>
+<circle cx="22.5" cy="5" r="1.3" fill="#0f172a"/>
+<circle cx="22.5" cy="5" r="0.6" fill="#374151"/>
+<!-- Screen area -->
+<rect x="8.5" y="2.5" width="15" height="27" rx="2.5" fill="url(#b2_screen)"/>
+<!-- Notch / dynamic island -->
+<rect x="13.5" y="3.5" width="5" height="2" rx="1" fill="#0f172a"/>
+<!-- App grid 4x6 colourful icons -->
+<rect x="9.5" y="7" width="3" height="3" rx="0.8" fill="#ef4444"/>
+<rect x="13.2" y="7" width="3" height="3" rx="0.8" fill="#f97316"/>
+<rect x="16.9" y="7" width="3" height="3" rx="0.8" fill="#eab308"/>
+<rect x="9.5" y="10.8" width="3" height="3" rx="0.8" fill="#22c55e"/>
+<rect x="13.2" y="10.8" width="3" height="3" rx="0.8" fill="#06b6d4"/>
+<rect x="16.9" y="10.8" width="3" height="3" rx="0.8" fill="#3b82f6"/>
+<rect x="9.5" y="14.6" width="3" height="3" rx="0.8" fill="#8b5cf6"/>
+<rect x="13.2" y="14.6" width="3" height="3" rx="0.8" fill="#ec4899"/>
+<rect x="16.9" y="14.6" width="3" height="3" rx="0.8" fill="#64748b"/>
+<rect x="9.5" y="18.4" width="3" height="3" rx="0.8" fill="#0891b2"/>
+<rect x="13.2" y="18.4" width="3" height="3" rx="0.8" fill="#16a34a"/>
+<rect x="16.9" y="18.4" width="3" height="3" rx="0.8" fill="#dc2626"/>
+<!-- Dock -->
+<rect x="9.5" y="24" width="10.4" height="3.5" rx="1.5" fill="#FFFFFF" fill-opacity="0.082"/>
+<rect x="10" y="24.4" width="2.8" height="2.7" rx="0.7" fill="#3b82f6"/>
+<rect x="13.4" y="24.4" width="2.8" height="2.7" rx="0.7" fill="#22c55e"/>
+<rect x="16.8" y="24.4" width="2.8" height="2.7" rx="0.7" fill="#f97316"/>
+<!-- Screen highlight glow -->
+<rect x="8.5" y="2.5" width="4" height="27" rx="2.5" fill="white" opacity="0.03"/>
+</svg>

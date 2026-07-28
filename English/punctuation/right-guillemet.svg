@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 240" width="290" height="240"><defs><radialGradient id="sphere" cx="30%" cy="25%" r="80%" fx="28%" fy="20%"><stop offset="0%" stop-color="#fae49c"/><stop offset="55%" stop-color="#f4ca3a"/><stop offset="100%" stop-color="#927923"/></radialGradient></defs>
+<circle cx="145" cy="120" r="98" fill="url(#sphere)"></circle>
+<path d="M145 218 Q65 200 60 130 Q65 200 145 205 Q225 200 230 130 Q225 200 145 218 Z" fill="#c8a82a" opacity="0.5"></path><g transform="translate(145.000 120.000) scale(0.160000 -0.160000) translate(-222.000 -271.500)"><path d="M199 340 42 463V343L132 272L42 200V80L199 205ZM402 340 245 463V343L335 272L245 200V80L402 205Z" fill="#1a1a1a"/></g></svg>

@@ -1,0 +1,79 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Wood frame gradient -->
+ <linearGradient id="gl-frame" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FFD089"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <!-- Metal bar gradient (chrome/silver) -->
+ <linearGradient id="gl-bar" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="30%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <!-- Mallet head gradient -->
+ <radialGradient id="gl-mallet" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#9AA0AA"/>
+ </radialGradient>
+ <!-- Frame side gradient -->
+ <linearGradient id="gl-side" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ </defs>
+
+ <!-- WOODEN FRAME (trapezoid — wider at left, narrower at right) -->
+ <!-- Bottom rail -->
+ <rect x="3" y="26" width="26" height="2.5" rx="1" fill="url(#gl-frame)"/>
+ <!-- Top rail -->
+ <rect x="3" y="11" width="26" height="2.5" rx="1" fill="url(#gl-frame)"/>
+ <!-- Left side post -->
+ <rect x="3" y="11" width="2" height="17.5" rx="0.8" fill="url(#gl-side)"/>
+ <!-- Right side post -->
+ <rect x="27" y="11" width="2" height="17.5" rx="0.8" fill="url(#gl-side)"/>
+
+ <!-- METAL BARS in decreasing length left to right (mandatory) -->
+ <!-- Bar 1 (longest) -->
+ <rect x="5.5" y="13.5" width="2.5" height="12" rx="0.5" fill="url(#gl-bar)"/>
+ <rect x="5.7" y="13.5" width="0.8" height="12" rx="0.3" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <!-- Bar 2 -->
+ <rect x="9" y="14" width="2.5" height="11" rx="0.5" fill="url(#gl-bar)"/>
+ <rect x="9.2" y="14" width="0.8" height="11" rx="0.3" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <!-- Bar 3 -->
+ <rect x="12.5" y="14.5" width="2.5" height="10" rx="0.5" fill="url(#gl-bar)"/>
+ <rect x="12.7" y="14.5" width="0.8" height="10" rx="0.3" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <!-- Bar 4 -->
+ <rect x="16" y="15" width="2.5" height="9" rx="0.5" fill="url(#gl-bar)"/>
+ <rect x="16.2" y="15" width="0.8" height="9" rx="0.3" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <!-- Bar 5 -->
+ <rect x="19.5" y="15.5" width="2.5" height="8" rx="0.5" fill="url(#gl-bar)"/>
+ <rect x="19.7" y="15.5" width="0.8" height="8" rx="0.3" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <!-- Bar 6 (shortest) -->
+ <rect x="23" y="16" width="2.5" height="7" rx="0.5" fill="url(#gl-bar)"/>
+ <rect x="23.2" y="16" width="0.8" height="7" rx="0.3" fill="#FFFFFF" fill-opacity="0.4"/>
+
+ <!-- No resonator tubes — glockenspiel distinction -->
+
+ <!-- TWO MALLETS (crossed beside the frame) -->
+ <!-- Mallet 1 -->
+ <line x1="20" y1="5" x2="12" y2="13" stroke="#8B5C3A" stroke-width="0.9" stroke-linecap="round"/>
+ <circle cx="20.5" cy="4.5" r="1.5" fill="url(#gl-mallet)"/>
+
+ <!-- Mallet 2 (crossed) -->
+ <line x1="14" y1="5" x2="22" y2="13" stroke="#8B5C3A" stroke-width="0.9" stroke-linecap="round"/>
+ <circle cx="13.5" cy="4.5" r="1.5" fill="url(#gl-mallet)"/>
+
+ <!-- Mount pins (damper pins between bars) -->
+ <circle cx="6.75" cy="26" r="0.35" fill="#9AA0AA" fill-opacity="0.7"/>
+ <circle cx="10.25" cy="26" r="0.35" fill="#9AA0AA" fill-opacity="0.7"/>
+ <circle cx="13.75" cy="26" r="0.35" fill="#9AA0AA" fill-opacity="0.7"/>
+ <circle cx="17.25" cy="26" r="0.35" fill="#9AA0AA" fill-opacity="0.7"/>
+ <circle cx="20.75" cy="26" r="0.35" fill="#9AA0AA" fill-opacity="0.7"/>
+ <circle cx="24.25" cy="26" r="0.35" fill="#9AA0AA" fill-opacity="0.7"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2396" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2396)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+
+ <path d="M8 26 L24 26 L24 18 L16 8 Z" fill="url(#parm_body)"/>
+ <path d="M8 26 L16 8 L16 26Z" fill="url(#parm_left)" opacity="0.35"/>
+ <path d="M8 26 L24 26 L24 22 L8 22Z" fill="url(#parm_bot)"/>
+ <circle cx="17" cy="20" r="0.8" fill="url(#parm_hole)"/>
+ <circle cx="20" cy="17" r="0.6" fill="url(#parm_hole)"/>
+ <circle cx="14" cy="22.5" r="0.7" fill="url(#parm_hole)"/>
+ <ellipse cx="14" cy="12" rx="3" ry="1.8" fill="url(#parm_shine)" opacity="0.35"/>
+
+<defs>
+
+ <radialGradient id="parm_body" cx="0.3" cy="0.2" r="0.9">
+ <stop offset="0" stop-color="#FFE060"/>
+ <stop offset="0.5" stop-color="#E0C020"/>
+ <stop offset="1" stop-color="#A88000"/>
+ </radialGradient>
+ <radialGradient id="parm_left" cx="0.5" cy="0.5" r="0.5">
+ <stop offset="0" stop-color="#806000"/>
+ <stop offset="1" stop-color="#806000" stop-opacity="0"/>
+ </radialGradient>
+ <radialGradient id="parm_bot" cx="0.3" cy="0.5" r="0.7">
+ <stop offset="0" stop-color="#C8A020"/>
+ <stop offset="1" stop-color="#906000"/>
+ </radialGradient>
+ <radialGradient id="parm_hole" cx="0.5" cy="0.5" r="0.7">
+ <stop offset="0" stop-color="#806000"/>
+ <stop offset="1" stop-color="#604000"/>
+ </radialGradient>
+ <radialGradient id="parm_shine" cx="0.3" cy="0.3" r="0.7">
+ <stop offset="0" stop-color="#ffffff"/>
+ <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+ </radialGradient>
+
+</defs>
+</svg>

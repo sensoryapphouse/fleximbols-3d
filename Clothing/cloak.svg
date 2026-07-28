@@ -1,0 +1,32 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="cloakGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#2a2038"/>
+ <stop offset="100%" stop-color="#0a0810"/>
+ </linearGradient>
+ <linearGradient id="innerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#4a2030"/>
+ <stop offset="100%" stop-color="#200810"/>
+ </linearGradient>
+ <linearGradient id="claspGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#c8a850"/>
+ <stop offset="100%" stop-color="#806020"/>
+ </linearGradient>
+ </defs>
+ <!-- Cloak body (flowing) -->
+ <path d="M16 8 Q11 8 9 12 Q6 18 5 30 Q10 28 12 30 Q14 28 16 30 Q18 28 20 30 Q22 28 27 30 Q26 18 23 12 Q21 8 16 8 Z" fill="url(#cloakGrad)"/>
+ <ellipse cx="11" cy="13" rx="2" ry="4" fill="#ffffff" opacity="0.07"/>
+ <!-- Inner lining peek -->
+ <path d="M12 10 Q14 9 16 9 Q18 9 20 10 L16 14Z" fill="url(#innerGrad)"/>
+ <!-- Hood -->
+ <path d="M16 3 Q9 3 8 10 Q12 8 16 8 Q20 8 24 10 Q23 3 16 3 Z" fill="url(#cloakGrad)"/>
+ <!-- Hood fold/shadow -->
+ <path d="M10 8 Q13 5 16 5 Q19 5 22 8 Q18 7 16 7 Q14 7 10 8Z" fill="#3a2848" fill-opacity="0.6"/>
+ <!-- Clasp at neck -->
+ <circle cx="16" cy="10" r="2" fill="url(#claspGrad)"/>
+ <circle cx="16" cy="10" r="1" fill="#e0c060"/>
+ <!-- Fabric folds -->
+ <path d="M10 14 Q9 20 8 28" stroke="#3a2848" stroke-width="1" fill="none" stroke-opacity="0.5"/>
+ <path d="M22 14 Q23 20 24 28" stroke="#3a2848" stroke-width="1" fill="none" stroke-opacity="0.5"/>
+ <path d="M16 11 Q15 20 14 31" stroke="#3a2848" stroke-width="0.8" fill="none" stroke-opacity="0.4"/>
+</svg>

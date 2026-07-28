@@ -1,0 +1,48 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="slg_body" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#A0785A"/>
+ <stop offset="100%" stop-color="#5A3A1A"/>
+ </linearGradient>
+ <linearGradient id="slg_belly" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#D4A882"/>
+ <stop offset="100%" stop-color="#8B5E38"/>
+ </linearGradient>
+ <linearGradient id="slg_trail" x1="0%" y1="100%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#C8E6C9"/>
+ <stop offset="100%" stop-color="#81C784"/>
+ </linearGradient>
+ <radialGradient id="slg_trail_rad" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.3"/>
+ </radialGradient>
+ </defs>
+ <!-- Drop shadow -->
+ <!-- Mucous trail (glistening) -->
+ <path d="M5 28 Q10 26 16 25 Q22 24 28 26 Q30 27 30 29 Q28 30 26 29 Q20 27 14 27 Q8 28 5 30 Q3 30 3 28 Z" fill="url(#slg_trail)" fill-opacity="0.5"/>
+ <!-- Trail shimmer highlight -->
+ <path d="M6 28 Q12 26.5 18 26 Q24 25.5 28 27" stroke="white" stroke-width="0.8" fill="none" stroke-opacity="0.5"/>
+ <!-- Slug body (elongated soft blob) -->
+ <path d="M7 20 Q5 22 5 25 Q5 28 8 28 Q20 29 26 25 Q30 22 28 19 Q25 16 20 16 Q14 15 10 17 Q7 18 7 20 Z" fill="url(#slg_body)"/>
+ <!-- Belly lighter underside -->
+ <path d="M7 25 Q10 27 18 28 Q24 28 27 25" stroke="url(#slg_belly)" stroke-width="2" fill="none" stroke-opacity="0.5"/>
+ <!-- Body highlight (shiny) -->
+ <path d="M10 18 Q18 16.5 25 19" stroke="white" stroke-width="1.2" fill="none" stroke-opacity="0.3" stroke-linecap="round"/>
+ <!-- Head area (front-left) -->
+ <ellipse cx="8" cy="19.5" rx="4.5" ry="4" fill="url(#slg_body)"/>
+ <!-- Mantle (shield-like hump on back) -->
+ <ellipse cx="14" cy="19" rx="5" ry="3" fill="#7A5A38" fill-opacity="0.5"/>
+ <!-- Eye stalks -->
+ <path d="M7 16 Q6.5 13 6 11" stroke="url(#slg_body)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <circle cx="6" cy="10.5" r="1.5" fill="#2A2A2A"/>
+ <circle cx="6.4" cy="10" r="0.5" fill="white" fill-opacity="0.8"/>
+ <!-- Second eye stalk (shorter) -->
+ <path d="M9 15.5 Q9 13 9.5 11.5" stroke="url(#slg_body)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <circle cx="9.5" cy="11" r="1.5" fill="#2A2A2A"/>
+ <circle cx="9.9" cy="10.5" r="0.5" fill="white" fill-opacity="0.8"/>
+ <!-- Short sensory tentacles below eyes -->
+ <path d="M6.5 17 Q5 16.5 4 16" stroke="url(#slg_body)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+ <path d="M8 17 Q7.5 16 7 15.5" stroke="url(#slg_body)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+ <!-- Mouth -->
+ <path d="M5.5 20.5 Q7 21.5 8.5 20.5" stroke="#5A3A1A" stroke-width="0.5" fill="none"/>
+</svg>

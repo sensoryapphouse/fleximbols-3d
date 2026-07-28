@@ -1,0 +1,43 @@
+<svg viewBox="0 0 100 100" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="cm_bin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6cab48"/>
+      <stop offset="50%" stop-color="#4d8a30"/>
+      <stop offset="100%" stop-color="#356420"/>
+    </linearGradient>
+    <linearGradient id="cm_lid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7cbb52"/>
+      <stop offset="100%" stop-color="#4d8a30"/>
+    </linearGradient>
+  </defs>
+  <!-- Bin body (tapered) -->
+  <path d="M24 36 L30 88 Q30 92 34 92 L66 92 Q70 92 70 88 L76 36 Z"
+        fill="url(#cm_bin)" stroke="#274d18" stroke-width="2.8" stroke-linejoin="round"/>
+  <!-- Ribs -->
+  <g stroke="#2c5a1c" stroke-width="1.6" opacity="0.6">
+    <path d="M27 50 L73 50"/>
+    <path d="M28 62 L72 62"/>
+    <path d="M29 74 L71 74"/>
+  </g>
+  <!-- highlight -->
+  <path d="M33 40 L37 86" stroke="#a6d488" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+  <!-- Open lid (tilted back) -->
+  <ellipse cx="50" cy="34" rx="30" ry="9" fill="url(#cm_lid)" stroke="#274d18" stroke-width="2.8"/>
+  <ellipse cx="50" cy="32" rx="23" ry="6" fill="#2c5a1c"/>
+  <!-- Recycle arrows on lid -->
+  <g fill="none" stroke="#bfe3a4" stroke-width="2" stroke-linecap="round">
+    <path d="M42 30 q4 -4 9 -1"/>
+    <path d="M58 31 q-2 5 -8 4"/>
+  </g>
+  <!-- Scraps spilling at top -->
+  <g stroke="#5a3a14" stroke-width="1.4">
+    <path d="M40 28 q-3 -8 4 -10 q5 6 -1 11 Z" fill="#e8d24a"/> <!-- banana peel -->
+    <ellipse cx="56" cy="26" rx="5" ry="4" fill="#d86a2a"/> <!-- carrot/peel -->
+    <circle cx="50" cy="24" r="4" fill="#c6452a"/> <!-- apple core -->
+    <path d="M48 21 q1 -3 3 -2" fill="none" stroke="#5a3a14" stroke-width="1.4"/>
+  </g>
+  <!-- green leaf scrap -->
+  <path d="M62 30 q6 -5 9 1 q-5 4 -9 -1 Z" fill="#5aaa3a" stroke="#2c5a1c" stroke-width="1.4"/>
+  <!-- eggshell -->
+  <path d="M36 32 q-3 -3 0 -5 q3 -1 3 3 Z" fill="#f2ead8" stroke="#9a9080" stroke-width="1.2"/>
+</svg>

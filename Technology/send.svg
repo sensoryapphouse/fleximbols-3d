@@ -1,0 +1,26 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <linearGradient id="sndTop" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#7FC3F5"/><stop offset="100%" stop-color="#3E8FE0"/>
+ </linearGradient>
+ <linearGradient id="sndBot" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#4F9EE8"/><stop offset="100%" stop-color="#2A6DC0"/>
+ </linearGradient>
+ <linearGradient id="sndTrail" x1="0" y1="1" x2="1" y2="0">
+  <stop offset="0" stop-color="#BFE0FF" stop-opacity="0"/><stop offset="100%" stop-color="#7FC3F5" stop-opacity="0.8"/>
+ </linearGradient>
+</defs>
+<!-- motion trail -->
+<path d="M3 26 Q10 22 16 18" stroke="url(#sndTrail)" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+<path d="M2 22 Q7 19.5 11 17" stroke="url(#sndTrail)" stroke-width="1.1" stroke-linecap="round" fill="none" opacity="0.7"/>
+<!-- paper plane flying up-right -->
+<!-- far (top) wing -->
+<path d="M4 18 L29 4 L17 19 Z" fill="url(#sndTop)"/>
+<!-- near (bottom) wing -->
+<path d="M4 18 L17 19 L13 28 Z" fill="url(#sndBot)"/>
+<!-- center fold / keel -->
+<path d="M17 19 L29 4 L13 28 Z" fill="#5AA8EE" opacity="0.55"/>
+<path d="M17 19 L29 4" stroke="#FFFFFF" stroke-width="0.5" opacity="0.6"/>
+<!-- nose highlight -->
+<path d="M25 6.6 L29 4 L26.5 8.5 Z" fill="#FFFFFF" opacity="0.25"/>
+</svg>

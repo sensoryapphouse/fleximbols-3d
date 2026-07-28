@@ -1,0 +1,34 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="ja-hand" cx="40%" cy="32%" r="75%">
+ <stop offset="0%" stop-color="#ffe0a8"/>
+ <stop offset="60%" stop-color="#f0b048"/>
+ <stop offset="100%" stop-color="#9c6418"/>
+ </radialGradient>
+ <radialGradient id="ja-wheel" cx="40%" cy="35%" r="70%">
+ <stop offset="0%" stop-color="#fff4d8"/>
+ <stop offset="100%" stop-color="#c08020"/>
+ </radialGradient>
+ </defs>
+ <!-- open palm: rounded square palm + 4 fingers + thumb -->
+ <path d="M9 14
+          L9 11.5 Q9 9.5 10.4 9.5 Q11.8 9.5 11.8 11.5 L11.8 13
+          L11.8 10 Q11.8 8 13.2 8 Q14.6 8 14.6 10 L14.6 13
+          L14.6 9.5 Q14.6 7.5 16 7.5 Q17.4 7.5 17.4 9.5 L17.4 13
+          L17.4 10.2 Q17.4 8.4 18.8 8.4 Q20.2 8.4 20.2 10.2 L20.2 13.5
+          Q22 12.5 22.8 13.5 Q23.4 14.4 22.8 15.4 L20 18.5
+          L20 23.5 Q20 27.5 16 27.5 Q11 27.5 9.6 23.5
+          Q8.5 20.5 9 14 Z" fill="url(#ja-hand)"/>
+ <!-- dharmachakra wheel in palm -->
+ <circle cx="15.6" cy="19.5" r="4" fill="url(#ja-wheel)"/>
+ <circle cx="15.6" cy="19.5" r="4" fill="none" stroke="#8a5210" stroke-width="0.7"/>
+ <circle cx="15.6" cy="19.5" r="1.1" fill="#8a5210"/>
+ <g stroke="#8a5210" stroke-width="0.6">
+  <line x1="15.6" y1="15.7" x2="15.6" y2="23.3"/>
+  <line x1="11.8" y1="19.5" x2="19.4" y2="19.5"/>
+  <line x1="12.9" y1="16.8" x2="18.3" y2="22.2"/>
+  <line x1="18.3" y1="16.8" x2="12.9" y2="22.2"/>
+ </g>
+ <!-- gloss -->
+ <ellipse cx="12" cy="12" rx="2.2" ry="1" fill="#ffffff" opacity="0.4" transform="rotate(-20 12 12)"/>
+</svg>

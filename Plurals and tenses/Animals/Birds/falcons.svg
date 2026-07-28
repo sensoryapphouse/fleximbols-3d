@@ -1,0 +1,66 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+  <linearGradient id="fc-body" x1="0" y1="0" x2="0.4" y2="1">
+   <stop offset="0%" stop-color="#8a98a8"/>
+   <stop offset="50%" stop-color="#5d6b7c"/>
+   <stop offset="100%" stop-color="#39424f"/>
+  </linearGradient>
+  <linearGradient id="fc-wing" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0%" stop-color="#5a6675"/>
+   <stop offset="100%" stop-color="#2c333d"/>
+  </linearGradient>
+  <radialGradient id="fc-belly" cx="0.5" cy="0.4" r="0.7">
+   <stop offset="0%" stop-color="#f3ead8"/>
+   <stop offset="100%" stop-color="#d8c6a4"/>
+  </radialGradient>
+  <linearGradient id="fc-beak" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0%" stop-color="#3a4350"/>
+   <stop offset="100%" stop-color="#11151c"/>
+  </linearGradient>
+  <linearGradient id="fc-cere" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0%" stop-color="#ffd45e"/>
+   <stop offset="100%" stop-color="#d89a16"/>
+  </linearGradient>
+ </defs>
+ <!-- perch -->
+ <rect x="6" y="27.4" width="16" height="1.8" rx="0.9" fill="#7a5230"/>
+ <rect x="6" y="27.4" width="16" height="0.7" rx="0.35" fill="#ffffff" fill-opacity="0.25"/>
+ <!-- tail (long, pointed, down behind) -->
+ <path d="M11 19 L8.5 28 L12 27.5 L13.5 19 Z" fill="url(#fc-wing)"/>
+ <!-- body, upright sleek raptor -->
+ <path d="M13 7
+          Q19 6.5 19.5 13
+          Q20 19 17 24
+          Q15 27 12.5 26.5
+          Q10 26 10.2 21
+          Q10.5 13 11.5 10
+          Q12 7.5 13 7 Z" fill="url(#fc-body)"/>
+ <!-- pale streaked belly -->
+ <path d="M14 13 Q16.5 13 16.6 17.5 Q16.5 22 14.5 24.5 Q12.8 25.6 12 23 Q11.5 18 12.4 14.5 Q13 13.2 14 13 Z" fill="url(#fc-belly)"/>
+ <g stroke="#7a5b3a" stroke-width="0.35" opacity="0.55">
+  <path d="M12.6 16 L15.4 16"/>
+  <path d="M12.4 18 L15.6 18"/>
+  <path d="M12.6 20 L15.4 20"/>
+  <path d="M13 22 L15 22"/>
+ </g>
+ <!-- folded pointed wing -->
+ <path d="M16.5 9 Q21 9 21 14 Q21 19 18 22 Q19.5 16 17.5 11 Q17 9.5 16.5 9 Z" fill="url(#fc-wing)"/>
+ <ellipse cx="18.2" cy="11.5" rx="1.1" ry="2.4" fill="#ffffff" fill-opacity="0.18"/>
+ <!-- head -->
+ <circle cx="14.5" cy="8" r="4.2" fill="url(#fc-body)"/>
+ <ellipse cx="13" cy="6.5" rx="1.4" ry="1.8" fill="#ffffff" fill-opacity="0.22"/>
+ <!-- malar (dark moustache) stripe -->
+ <path d="M14.8 8.2 Q14.2 11 13 11.6 Q13.8 9 13.7 8 Z" fill="#222a33"/>
+ <!-- eye -->
+ <circle cx="15" cy="7.2" r="1.5" fill="#ffd45e"/>
+ <circle cx="15" cy="7.2" r="0.8" fill="#10131a"/>
+ <circle cx="15.3" cy="6.9" r="0.28" fill="#ffffff"/>
+ <!-- hooked beak with yellow cere -->
+ <path d="M16.5 7.6 L19.2 7.9 Q20 8 19.6 8.7 L17 9 Z" fill="url(#fc-cere)"/>
+ <path d="M18.6 8.1 L20.4 8.5 Q21.2 8.8 20.2 9.6 Q19.4 10.2 18.6 9.2 Z" fill="url(#fc-beak)"/>
+ <!-- talons -->
+ <g stroke="#d89a16" stroke-width="0.7" stroke-linecap="round">
+  <path d="M12.5 26.5 L12.5 27.4 M11.7 26.7 L11.4 27.4 M13.3 26.7 L13.6 27.4"/>
+  <path d="M15 26 L15 27.4 M14.2 26.2 L13.9 27.4 M15.8 26.2 L16.1 27.4"/>
+ </g>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl54" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl54)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="leaf" cx="30%" cy="30%"><stop offset="0%" stop-color="#80e060"/><stop offset="100%" stop-color="#1a5018"/></radialGradient>
+<radialGradient id="pot" cx="35%" cy="30%"><stop offset="0%" stop-color="#d08070"/><stop offset="100%" stop-color="#601810"/></radialGradient>
+<radialGradient id="stem" cx="50%" cy="30%"><stop offset="0%" stop-color="#60a040"/><stop offset="100%" stop-color="#1a4010"/></radialGradient>
+</defs>
+<path d="M8 24 L24 24 L22 30 L10 30 Z" fill="url(#pot)"/>
+<ellipse cx="16" cy="24" rx="8" ry="1.5" fill="#7a2818"/>
+<line x1="14" y1="22" x2="12" y2="13" stroke="url(#stem)" stroke-width="0.8"/>
+<line x1="16" y1="22" x2="20" y2="10" stroke="url(#stem)" stroke-width="0.8"/>
+<line x1="18" y1="22" x2="22" y2="16" stroke="url(#stem)" stroke-width="0.8"/>
+<g fill="url(#leaf)">
+<path d="M12 13 Q6 11 6 6 Q6 3 10 4 Q14 5 14 10 Q14 13 12 13 Z"/>
+<path d="M8 7 L9 9 M9 5 L11 6 M7 9 L9 10 M10 4 L11 7" stroke="#082010" stroke-width="0.3" fill="none"/>
+<path d="M11 7 Q10 9 11 11" stroke="#082010" stroke-width="0.3" fill="none"/>
+</g>
+<g fill="url(#leaf)">
+<path d="M20 10 Q14 6 16 1 Q19 0 23 4 Q26 8 23 11 Q21 12 20 10 Z"/>
+<path d="M18 4 L20 6 M19 2 L21 4 M22 5 L23 7 M21 8 L23 9" stroke="#082010" stroke-width="0.3" fill="none"/>
+</g>
+<g fill="url(#leaf)">
+<path d="M22 16 Q28 14 28 9 Q28 7 25 8 Q21 10 21 14 Q21 17 22 16 Z"/>
+<path d="M24 10 L25 12 M26 9 L27 11" stroke="#082010" stroke-width="0.3" fill="none"/>
+</g>
+<ellipse cx="10" cy="25" rx="2" ry="0.4" fill="#fff" opacity="0.4"/>
+</svg>

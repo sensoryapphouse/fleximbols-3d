@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="-0.39 -0.015 31.03 31.03" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="zcout" cx="30%" cy="50%" r="60%">
+ <stop offset="0%" stop-color="#88cc44"/>
+ <stop offset="60%" stop-color="#336622"/>
+ <stop offset="100%" stop-color="#113311"/>
+</radialGradient>
+</defs>
+<!-- Zucchini body (slightly darker than courgette) -->
+<path d="M4 15 Q4 12 7 11 L25 9 Q28 10 28 13 Q28.5 16 28 19 Q27 21.5 25 22 L7 21 Q4 20 4 17 Z" fill="url(#zcout)"/>
+<!-- Stripes -->
+<path d="M7 11 Q16 10 25 9" stroke="#113311" stroke-width="0.5" stroke-opacity="0.4"/>
+<path d="M7 21 Q16 21.5 25 22" stroke="#113311" stroke-width="0.5" stroke-opacity="0.4"/>
+<path d="M9 10.5 L27 9.5 M9 21 L27 21.5" stroke="#224411" stroke-width="0.3" stroke-opacity="0.3"/>
+<!-- Blossom end -->
+<circle cx="27" cy="15.5" r="1.5" fill="#ddaa33"/>
+<!-- Stem -->
+<path d="M3 13 Q2 15.5 3 18" stroke="#4a7a22" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+<!-- Shine -->
+<path d="M9 10.5 Q18 10 25 9.5" stroke="white" stroke-width="0.8" stroke-opacity="0.3" fill="none"/>
+</svg>

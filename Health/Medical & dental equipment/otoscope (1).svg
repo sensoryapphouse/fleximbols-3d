@@ -1,0 +1,41 @@
+<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="otHandle" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#e6eaee"/>
+<stop offset="0.45" stop-color="#b6bdc4"/>
+<stop offset="1" stop-color="#7d858d"/>
+</linearGradient>
+<linearGradient id="otHead" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#5a626a"/>
+<stop offset="0.5" stop-color="#3b424a"/>
+<stop offset="1" stop-color="#23282e"/>
+</linearGradient>
+<linearGradient id="otCone" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#9aa2aa"/>
+<stop offset="1" stop-color="#5c646c"/>
+</linearGradient>
+<radialGradient id="otLens" cx="0.4" cy="0.35" r="0.7">
+<stop offset="0" stop-color="#fff7c8"/>
+<stop offset="1" stop-color="#e0b73a"/>
+</radialGradient>
+</defs>
+<!-- handle (tilted), bottom-right -->
+<g transform="rotate(20 120 130)">
+<rect x="104" y="86" width="32" height="92" rx="14" fill="url(#otHandle)" stroke="#6b727a" stroke-width="3"/>
+<!-- knurl rings -->
+<g stroke="#9aa1a8" stroke-width="2">
+<line x1="106" y1="110" x2="134" y2="110"/><line x1="106" y1="122" x2="134" y2="122"/><line x1="106" y1="134" x2="134" y2="134"/><line x1="106" y1="146" x2="134" y2="146"/><line x1="106" y1="158" x2="134" y2="158"/>
+</g>
+<!-- battery cap -->
+<rect x="108" y="170" width="24" height="10" rx="3" fill="#7d858d" stroke="#5b626a" stroke-width="2"/>
+</g>
+<!-- head (dark, angled) at top -->
+<g transform="rotate(20 120 130)">
+<rect x="92" y="56" width="56" height="34" rx="10" fill="url(#otHead)" stroke="#181c20" stroke-width="3"/>
+<!-- viewing lens window on top -->
+<circle cx="134" cy="73" r="9" fill="url(#otLens)" stroke="#1c1f23" stroke-width="2"/>
+<!-- speculum cone pointing left -->
+<path d="M92 66 L62 60 L62 86 L92 80 Z" fill="url(#otCone)" stroke="#41484f" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="62" cy="73" rx="3.5" ry="13" fill="#2b3137" stroke="#41484f" stroke-width="1.5"/>
+</g>
+</svg>

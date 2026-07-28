@@ -1,0 +1,28 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<radialGradient id="dy_st" cx="35%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#FF5252"/><stop offset="100%" stop-color="#7E0F0F"/></radialGradient>
+<radialGradient id="dy_tw" cx="35%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#D8B070"/><stop offset="100%" stop-color="#8B5C3A"/></radialGradient>
+<radialGradient id="dy_sp" cx="35%" cy="30%" r="80%">
+<stop offset="0%" stop-color="#FFFFFF"/><stop offset="40%" stop-color="#FFEF5B"/><stop offset="100%" stop-color="#FF5252"/></radialGradient>
+</defs>
+<!-- 3 sticks bundled -->
+<rect x="10" y="10" width="3.5" height="16" rx="0.6" fill="url(#dy_st)"/>
+<rect x="14" y="9" width="3.5" height="17" rx="0.6" fill="url(#dy_st)"/>
+<rect x="18" y="10" width="3.5" height="16" rx="0.6" fill="url(#dy_st)"/>
+<ellipse cx="11.5" cy="13" rx="1" ry="3" fill="#FFFFFF" fill-opacity="0.35"/>
+<ellipse cx="15.5" cy="12" rx="1" ry="3" fill="#FFFFFF" fill-opacity="0.35"/>
+<ellipse cx="19.5" cy="13" rx="1" ry="3" fill="#FFFFFF" fill-opacity="0.35"/>
+<!-- twine -->
+<rect x="9" y="15" width="14" height="1.2" fill="url(#dy_tw)"/>
+<rect x="9" y="20" width="14" height="1.2" fill="url(#dy_tw)"/>
+<!-- fuse -->
+<path d="M 15.5 9 Q 19 4 22 3" stroke="#FFFFFF" stroke-width="0.6" fill="none"/>
+<!-- spark -->
+<circle cx="22.5" cy="3" r="1.6" fill="url(#dy_sp)"/>
+<g stroke="#FFEF5B" stroke-width="0.4" stroke-linecap="round">
+<line x1="22.5" y1="0.5" x2="22.5" y2="1.5"/>
+<line x1="20.5" y1="3" x2="21.3" y2="3"/>
+<line x1="24" y1="2" x2="24.5" y2="1.5"/>
+<line x1="24" y1="4" x2="24.5" y2="4.5"/>
+</g></svg>

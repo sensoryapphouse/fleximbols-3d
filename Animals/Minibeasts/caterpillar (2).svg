@@ -1,0 +1,59 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="cat_seg1" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5CB85C"/>
+ <stop offset="100%" stop-color="#2E7D32"/>
+ </linearGradient>
+ <linearGradient id="cat_seg2" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#7EC87E"/>
+ <stop offset="100%" stop-color="#4A9A4A"/>
+ </linearGradient>
+ <linearGradient id="cat_stripe" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#F9D71C"/>
+ <stop offset="100%" stop-color="#C4A000"/>
+ </linearGradient>
+ <linearGradient id="cat_leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#4CAF50"/>
+ <stop offset="100%" stop-color="#1B5E20"/>
+ </linearGradient>
+ </defs>
+ <!-- Leaf -->
+ <path d="M2 28 Q10 20 28 22 Q20 30 2 28 Z" fill="url(#cat_leaf)"/>
+ <!-- Leaf vein -->
+ <path d="M4 27 Q14 23 26 23" stroke="#2E7D32" stroke-width="0.5" fill="none" stroke-opacity="0.5"/>
+ <!-- Caterpillar body segments (left to right on leaf) -->
+ <!-- Segment 1 -->
+ <circle cx="6" cy="21" r="3.5" fill="url(#cat_seg1)"/>
+ <circle cx="6" cy="21" r="3.5" fill="none" stroke="#2E7D32" stroke-width="0.5"/>
+ <!-- Segment 2 -->
+ <circle cx="11" cy="19.5" r="3.5" fill="url(#cat_seg2)"/>
+ <!-- Segment 3 -->
+ <circle cx="16" cy="18.5" r="3.5" fill="url(#cat_seg1)"/>
+ <!-- Segment 4 -->
+ <circle cx="21" cy="18.5" r="3" fill="url(#cat_seg2)"/>
+ <!-- Stripes on segments -->
+ <path d="M4 19 Q6 18 8 19" stroke="url(#cat_stripe)" stroke-width="0.8" fill="none"/>
+ <path d="M9 17.5 Q11 16.5 13 17.5" stroke="url(#cat_stripe)" stroke-width="0.8" fill="none"/>
+ <path d="M14 16.5 Q16 15.5 18 16.5" stroke="url(#cat_stripe)" stroke-width="0.8" fill="none"/>
+ <!-- Head (segment 5 / front) -->
+ <circle cx="25.5" cy="19" r="3.5" fill="#388E3C"/>
+ <!-- Eyes on head -->
+ <ellipse cx="24.5" cy="18" rx="0.8" ry="0.8" fill="#1a2a4a"/>
+ <ellipse cx="26.5" cy="18" rx="0.8" ry="0.8" fill="#1a2a4a"/>
+ <circle cx="24.7" cy="17.7" r="0.28" fill="white"/>
+ <circle cx="26.7" cy="17.7" r="0.28" fill="white"/>
+ <!-- Mouth smile -->
+ <path d="M24 20 Q25.5 21 27 20" stroke="#2E7D32" stroke-width="0.5" fill="none"/>
+ <!-- Antennae -->
+ <path d="M25 15.5 Q24 12 23 10" stroke="#2E7D32" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <circle cx="23" cy="9.5" r="1" fill="url(#cat_seg1)"/>
+ <path d="M26 15.5 Q27 12 28 10" stroke="#2E7D32" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <circle cx="28" cy="9.5" r="1" fill="url(#cat_seg1)"/>
+ <!-- Tiny legs under segments -->
+ <line x1="5" y1="24" x2="4" y2="27" stroke="#2E7D32" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="7" y1="24" x2="8" y2="27" stroke="#2E7D32" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="10" y1="23" x2="9" y2="26" stroke="#2E7D32" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="12" y1="23" x2="13" y2="26" stroke="#2E7D32" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="15" y1="22" x2="14.5" y2="25" stroke="#2E7D32" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="17" y1="22" x2="17.5" y2="25" stroke="#2E7D32" stroke-width="0.7" stroke-linecap="round"/>
+</svg>

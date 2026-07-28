@@ -1,0 +1,32 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#3B3F47"/>
+ <stop offset="100%" stop-color="#16181D"/>
+ </linearGradient>
+ <linearGradient id="top" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5A5F68"/>
+ <stop offset="100%" stop-color="#2C3038"/>
+ </linearGradient>
+ </defs>
+ <!-- WiFi waves -->
+ <path d="M11 10 C13 8, 19 8, 21 10" stroke="#7DBEFC" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.9"/>
+ <path d="M9 8 C12 5, 20 5, 23 8" stroke="#7DBEFC" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
+ <!-- Main box -->
+ <rect x="4" y="18" width="20" height="9" rx="1.5" fill="url(#body)"/>
+ <!-- Top face -->
+ <path d="M4 18 L7 14 L27 14 L24 18 Z" fill="url(#top)"/>
+ <!-- Right side -->
+ <path d="M24 18 L27 14 L27 23 L24 27 Z" fill="#20232A"/>
+ <!-- Antenna left -->
+ <line x1="9" y1="14" x2="7" y2="7" stroke="#5A5F68" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- Antenna center -->
+ <line x1="16" y1="14" x2="16" y2="6" stroke="#5A5F68" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- Antenna right -->
+ <line x1="21" y1="14" x2="23" y2="7" stroke="#5A5F68" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- Ethernet port LEDs on front -->
+ <circle cx="8" cy="23" r="0.9" fill="#40E060"/>
+ <circle cx="11" cy="23" r="0.9" fill="#40E060"/>
+ <circle cx="14" cy="23" r="0.9" fill="#40E060"/>
+ <circle cx="17" cy="23" r="0.9" fill="#F0A020"/>
+</svg>

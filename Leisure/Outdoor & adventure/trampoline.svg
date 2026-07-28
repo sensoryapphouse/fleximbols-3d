@@ -1,0 +1,45 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="tr_mat" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#5A5E68"/>
+ <stop offset="100%" stop-color="#16181D"/>
+ </radialGradient>
+ <radialGradient id="tr_pad" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#7DBEFC"/>
+ <stop offset="100%" stop-color="#1565C0"/>
+ </radialGradient>
+ <radialGradient id="tr_leg" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </radialGradient>
+ <radialGradient id="tr_hl" cx="30%" cy="25%" r="50%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ <radialGradient id="tr_ds" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#000" stop-opacity="0.22"/>
+ <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+ </radialGradient>
+</defs>
+<!-- legs -->
+<path d="M7 16 L5.5 26.5 L6.8 26.7 L8.3 16.4 Z" fill="url(#tr_leg)"/>
+<path d="M25 16 L26.5 26.5 L25.2 26.7 L23.7 16.4 Z" fill="url(#tr_leg)"/>
+<path d="M16 19 L15.4 27 L16.6 27 Z" fill="url(#tr_leg)"/>
+<!-- blue pad ring -->
+<ellipse cx="16" cy="14" rx="13.5" ry="4.2" fill="url(#tr_pad)"/>
+<!-- inner mat (black) -->
+<ellipse cx="16" cy="14" rx="10.5" ry="3.2" fill="url(#tr_mat)"/>
+<!-- spring pattern (subtle radial lines) -->
+<g stroke="#9AA0A8" stroke-width="0.5" opacity="0.55">
+ <line x1="6" y1="14" x2="9" y2="14"/>
+ <line x1="23" y1="14" x2="26" y2="14"/>
+ <line x1="10" y1="11.2" x2="11.5" y2="12.2"/>
+ <line x1="20.5" y1="12.2" x2="22" y2="11.2"/>
+ <line x1="10" y1="16.8" x2="11.5" y2="15.8"/>
+ <line x1="20.5" y1="15.8" x2="22" y2="16.8"/>
+ <line x1="16" y1="10.5" x2="16" y2="11.6"/>
+ <line x1="16" y1="16.4" x2="16" y2="17.5"/>
+</g>
+<!-- highlight on pad -->
+<ellipse cx="11" cy="11.5" rx="6" ry="1.2" fill="url(#tr_hl)"/>
+</svg>

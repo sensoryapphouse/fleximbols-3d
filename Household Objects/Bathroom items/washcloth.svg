@@ -1,0 +1,52 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wclothGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="50%" stop-color="#F0E8F8"/>
+ <stop offset="100%" stop-color="#D8C8EC"/>
+ </linearGradient>
+ <linearGradient id="wclothFoldGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#DDD0EC"/>
+ <stop offset="100%" stop-color="#BBA8D8"/>
+ </linearGradient>
+ <linearGradient id="wclothTrimGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#8860B0"/>
+ <stop offset="50%" stop-color="#B090D8"/>
+ <stop offset="100%" stop-color="#8860B0"/>
+ </linearGradient>
+ </defs>
+
+ <!-- Washcloth is SQUARE and SMALLER than towel, lavender/white tones -->
+ <!-- Main body (square-ish, smaller than a towel) -->
+ <rect x="7" y="9" width="18" height="17" rx="2" fill="url(#wclothGrad)"/>
+
+ <!-- Folded top flap -->
+ <rect x="7" y="9" width="18" height="5" rx="2" fill="url(#wclothFoldGrad)"/>
+
+ <!-- Terry-cloth texture (denser than towel — small square cloth) -->
+ <line x1="8" y1="15.5" x2="24" y2="15.5" stroke="#DECEF0" stroke-width="0.5" opacity="0.7"/>
+ <line x1="8" y1="17.5" x2="24" y2="17.5" stroke="#DECEF0" stroke-width="0.5" opacity="0.7"/>
+ <line x1="8" y1="19.5" x2="24" y2="19.5" stroke="#DECEF0" stroke-width="0.5" opacity="0.7"/>
+ <line x1="8" y1="21.5" x2="24" y2="21.5" stroke="#DECEF0" stroke-width="0.5" opacity="0.7"/>
+ <line x1="8" y1="23.5" x2="24" y2="23.5" stroke="#DECEF0" stroke-width="0.5" opacity="0.7"/>
+
+ <!-- Vertical texture -->
+ <line x1="10" y1="14" x2="10" y2="26" stroke="#E8D8F8" stroke-width="0.4" opacity="0.5"/>
+ <line x1="13" y1="14" x2="13" y2="26" stroke="#E8D8F8" stroke-width="0.4" opacity="0.5"/>
+ <line x1="16" y1="14" x2="16" y2="26" stroke="#E8D8F8" stroke-width="0.4" opacity="0.5"/>
+ <line x1="19" y1="14" x2="19" y2="26" stroke="#E8D8F8" stroke-width="0.4" opacity="0.5"/>
+ <line x1="22" y1="14" x2="22" y2="26" stroke="#E8D8F8" stroke-width="0.4" opacity="0.5"/>
+
+ <!-- Decorative trim/border (all four edges — distinguishes from plain towel) -->
+ <!-- Top trim -->
+ <rect x="7" y="9" width="18" height="1.5" rx="0.75" fill="url(#wclothTrimGrad)" opacity="0.6"/>
+ <!-- Bottom trim -->
+ <rect x="7" y="24.5" width="18" height="1.5" rx="0.75" fill="url(#wclothTrimGrad)" opacity="0.6"/>
+ <!-- Left trim -->
+ <rect x="7" y="9" width="1.5" height="17" rx="0.75" fill="url(#wclothTrimGrad)" opacity="0.6"/>
+ <!-- Right trim -->
+ <rect x="23.5" y="9" width="1.5" height="17" rx="0.75" fill="url(#wclothTrimGrad)" opacity="0.6"/>
+
+ <!-- Top fold highlight -->
+ <rect x="8" y="9.5" width="16" height="1.2" rx="0.6" fill="#FFFFFF" opacity="0.55"/>
+</svg>

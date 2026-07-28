@@ -1,0 +1,52 @@
+<svg viewBox="-1.4 4.55313 34.8 34.8" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="thatch" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C8A050"/>
+ <stop offset="100%" stop-color="#7A5820"/>
+ </linearGradient>
+ <linearGradient id="cotWall" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#F0E0C8"/>
+ <stop offset="100%" stop-color="#C8B090"/>
+ </linearGradient>
+ <linearGradient id="vilTree" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#40A830"/>
+ <stop offset="100%" stop-color="#186018"/>
+ </linearGradient>
+ <linearGradient id="pathGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D0C0A0"/>
+ <stop offset="100%" stop-color="#A09070"/>
+ </linearGradient>
+ <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#70C050"/>
+ <stop offset="100%" stop-color="#308020"/>
+ </linearGradient>
+ </defs>
+ <!-- Village green -->
+ <ellipse cx="16" cy="22" rx="10" ry="5" fill="url(#green)"/>
+ <!-- Winding path -->
+ <path d="M2 31 Q7 26 13 24 Q16 23 19 24 Q25 26 30 31" fill="none" stroke="url(#pathGrad)" stroke-width="2.5"/>
+ <!-- Cottage left -->
+ 
+ <path d="M1 20 Q6 14 11 20" fill="url(#thatch)"/>
+ <!-- Thatch texture left -->
+ <path d="M2 19.5 Q6 15 10 19.5" fill="none" stroke="#8A5C18" stroke-width="0.4" opacity="0.5"/>
+ <path d="M3 19 Q6 15.5 9 19" fill="none" stroke="#8A5C18" stroke-width="0.3" opacity="0.4"/>
+ <rect x="4.5" y="24" width="2" height="4" rx="0.3" fill="#80A0B8" fill-opacity="0.8"/>
+ <rect x="7.5" y="23" width="1.5" height="1.5" rx="0.2" fill="#80A0B8" fill-opacity="0.7"/>
+ <!-- Cottage right -->
+ 
+ <path d="M21 21 Q26 15.5 31 21" fill="url(#thatch)"/>
+ <path d="M22 20.5 Q26 16 30 20.5" fill="none" stroke="#8A5C18" stroke-width="0.4" opacity="0.5"/>
+ <rect x="23" y="25" width="2" height="4" rx="0.3" fill="#80A0B8" fill-opacity="0.8"/>
+ <rect x="27" y="24" width="1.5" height="1.5" rx="0.2" fill="#80A0B8" fill-opacity="0.7"/>
+ <!-- Cottage centre (smaller) -->
+ 
+ <path d="M12 15 Q16 10 20 15" fill="url(#thatch)"/>
+ <rect x="14.5" y="18" width="3" height="5" rx="0.3" fill="#80A0B8" fill-opacity="0.8"/>
+ <!-- Central oak tree -->
+ <rect x="15.5" y="19" width="1" height="5" rx="0.3" fill="#5A3010"/>
+ <circle cx="16" cy="17" r="4" fill="url(#vilTree)"/>
+ <circle cx="13.5" cy="18.5" r="2.5" fill="#50B838"/>
+ <circle cx="18.5" cy="18" r="2.5" fill="#50B838"/>
+ <circle cx="16" cy="15" r="3" fill="url(#vilTree)"/>
+</svg>

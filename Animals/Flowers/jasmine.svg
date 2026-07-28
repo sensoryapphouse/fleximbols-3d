@@ -1,0 +1,49 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="petal" cx="40%" cy="35%" r="70%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#e9e6ee"/>
+ </radialGradient>
+ <radialGradient id="center" cx="40%" cy="35%" r="70%">
+ <stop offset="0%" stop-color="#ffe98a"/>
+ <stop offset="100%" stop-color="#f0a51a"/>
+ </radialGradient>
+ <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#6fc15a"/>
+ <stop offset="100%" stop-color="#2f7d2a"/>
+ </linearGradient>
+ <linearGradient id="stem" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#5aa84a"/>
+ <stop offset="100%" stop-color="#2c6b27"/>
+ </linearGradient>
+ </defs>
+ <!-- stems -->
+ <path d="M16 30 L13 19" fill="none" stroke="url(#stem)" stroke-width="1.2" stroke-linecap="round"/>
+ <path d="M16 30 L20.5 17.5" fill="none" stroke="url(#stem)" stroke-width="1.2" stroke-linecap="round"/>
+ <!-- leaves -->
+ <path d="M16 26 Q11 24 9.5 26.5 Q13 28.5 16 26 Z" fill="url(#leaf)" stroke="#246322" stroke-width="0.3"/>
+ <path d="M16 24 Q21 22.5 22.5 25 Q19 27 16 24 Z" fill="url(#leaf)" stroke="#246322" stroke-width="0.3"/>
+ <!-- A reusable 5-point star jasmine flower drawn at two positions -->
+ <!-- flower 1 (left, lower) -->
+ <g transform="translate(11.5 14.5) scale(0.95)">
+ <g fill="url(#petal)" stroke="#cfcad6" stroke-width="0.25">
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2"/>
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2" transform="rotate(72)"/>
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2" transform="rotate(144)"/>
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2" transform="rotate(216)"/>
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2" transform="rotate(288)"/>
+ </g>
+ <circle cx="0" cy="0" r="1.7" fill="url(#center)" stroke="#d68f12" stroke-width="0.3"/>
+ </g>
+ <!-- flower 2 (right, upper, larger) -->
+ <g transform="translate(20.5 13) scale(1.12)">
+ <g fill="url(#petal)" stroke="#cfcad6" stroke-width="0.25">
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2"/>
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2" transform="rotate(72)"/>
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2" transform="rotate(144)"/>
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2" transform="rotate(216)"/>
+ <ellipse cx="0" cy="-4.2" rx="2.1" ry="3.2" transform="rotate(288)"/>
+ </g>
+ <circle cx="0" cy="0" r="1.7" fill="url(#center)" stroke="#d68f12" stroke-width="0.3"/>
+ </g>
+</svg>

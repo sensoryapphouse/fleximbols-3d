@@ -1,0 +1,46 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="hglass" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#C8A030"/><stop offset="100%" stop-color="#7A5800"/></linearGradient>
+ <linearGradient id="sand1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#F4C870"/><stop offset="100%" stop-color="#D4A030"/></linearGradient>
+ <linearGradient id="calGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#F5F5F5"/><stop offset="100%" stop-color="#D0D0D0"/></linearGradient>
+ <linearGradient id="calHdr" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#E84A4A"/><stop offset="100%" stop-color="#A81A1A"/></linearGradient>
+ </defs>
+ <!-- Stacked calendars background -->
+ <g filter="url(#sdMill)">
+ <rect x="18" y="6" width="12" height="9" rx="0.6" fill="url(#calGrad)"/>
+ <rect x="18" y="6" width="12" height="2" rx="0.6" fill="url(#calHdr)"/>
+ <rect x="18" y="16" width="12" height="9" rx="0.6" fill="url(#calGrad)"/>
+ <rect x="18" y="16" width="12" height="2" rx="0.6" fill="url(#calHdr)"/>
+ <rect x="19" y="9" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="22" y="9" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="25" y="9" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="19" y="11" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="22" y="11" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="25" y="11" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="19" y="19" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="22" y="19" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="25" y="19" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="19" y="21" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="22" y="21" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ <rect x="25" y="21" width="2" height="1" rx="0.2" fill="#9A9A9A"/>
+ </g>
+ <!-- Hourglass -->
+ <g filter="url(#sdMill)">
+ <!-- Frame top -->
+ <rect x="3" y="4" width="12" height="1.5" rx="0.5" fill="url(#hglass)"/>
+ <!-- Frame bottom -->
+ <rect x="3" y="26.5" width="12" height="1.5" rx="0.5" fill="url(#hglass)"/>
+ <!-- Frame sides -->
+ <line x1="4" y1="5.5" x2="9" y2="16" stroke="url(#hglass)" stroke-width="1.2" stroke-linecap="round"/>
+ <line x1="14" y1="5.5" x2="9" y2="16" stroke="url(#hglass)" stroke-width="1.2" stroke-linecap="round"/>
+ <line x1="4" y1="26.5" x2="9" y2="16" stroke="url(#hglass)" stroke-width="1.2" stroke-linecap="round"/>
+ <line x1="14" y1="26.5" x2="9" y2="16" stroke="url(#hglass)" stroke-width="1.2" stroke-linecap="round"/>
+ <!-- Sand top (half full) -->
+ <polygon points="5,5.5 13,5.5 9,14" fill="url(#sand1)"/>
+ <!-- Sand bottom trickle -->
+ <polygon points="6,26.5 12,26.5 9,20" fill="url(#sand1)"/>
+ <!-- '1000' label -->
+ <rect x="3.5" y="14.5" width="11" height="3.5" rx="0.5" fill="#F6A623"/>
+ <text x="9" y="16.8" font-size="2.8" fill="white" text-anchor="middle" font-weight="bold" font-family="'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Century Gothic', Verdana, sans-serif">1000</text>
+ </g>
+</svg>

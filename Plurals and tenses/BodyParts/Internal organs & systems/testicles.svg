@@ -1,0 +1,24 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="sk" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#FFE0BD"/><stop offset="100%" stop-color="#A66744"/></radialGradient>
+<radialGradient id="sk2" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#F7C8A8"/><stop offset="100%" stop-color="#8A4A2A"/></radialGradient>
+<radialGradient id="cord" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#E8B0A0"/><stop offset="100%" stop-color="#7A3A2A"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="35%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- spermatic cord coming down from top -->
+<path d="M14 3 Q 13 8 12 12" stroke="url(#cord)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<path d="M16 3 Q 17 8 18 12" stroke="url(#cord)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<!-- single ovoid testicle (anatomical) -->
+<ellipse cx="15" cy="20" rx="8" ry="9" fill="url(#sk)"/>
+<!-- subtle vein lines -->
+<path d="M10 18 Q 11 22 12 26" stroke="#8A4A2A" stroke-width="0.2" fill="none" opacity="0.5"/>
+<path d="M19 17 Q 20 22 19 27" stroke="#8A4A2A" stroke-width="0.2" fill="none" opacity="0.5"/>
+<path d="M14 14 Q 15 20 14 27" stroke="#8A4A2A" stroke-width="0.2" fill="none" opacity="0.4"/>
+<!-- skin texture wrinkles -->
+<path d="M9 22 Q 11 21 13 22" stroke="#8A4A2A" stroke-width="0.15" fill="none" opacity="0.5"/>
+<path d="M17 23 Q 19 22 21 23" stroke="#8A4A2A" stroke-width="0.15" fill="none" opacity="0.5"/>
+<!-- highlight -->
+<ellipse cx="11" cy="15" rx="3" ry="4" fill="url(#hi)"/>
+<!-- raphe seam top -->
+<path d="M15 12 Q 15.5 14 15 16" stroke="#7A3A2A" stroke-width="0.3" fill="none"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl654" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl654)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

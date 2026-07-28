@@ -1,0 +1,49 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#d4a96a"/>
+ <stop offset="100%" stop-color="#8b6030"/>
+ </linearGradient>
+ <linearGradient id="wallGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#f0e0c0"/>
+ <stop offset="100%" stop-color="#c8b090"/>
+ </linearGradient>
+ <linearGradient id="doorGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#8b5e2e"/>
+ <stop offset="100%" stop-color="#5a3a18"/>
+ </linearGradient>
+ <linearGradient id="tableGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#c0884a"/>
+ <stop offset="100%" stop-color="#7a5020"/>
+ </linearGradient>
+ <linearGradient id="hookGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#c0a060"/>
+ <stop offset="100%" stop-color="#806830"/>
+ </linearGradient>
+ </defs>
+ <!-- floor -->
+ 
+ <!-- back wall -->
+ <rect x="2" y="4" width="28" height="20" fill="url(#wallGrad)"/>
+ <!-- door frame opening -->
+ <rect x="7" y="6" width="12" height="18" rx="0.5" fill="#2a1a08" fill-opacity="0.85"/>
+ <!-- door panel left half (open) -->
+ 
+ <rect x="8" y="8" width="2" height="5" rx="0.3" fill="#c0884a" fill-opacity="0.7"/>
+ <rect x="8" y="15" width="2" height="5" rx="0.3" fill="#c0884a" fill-opacity="0.7"/>
+ <!-- door knob -->
+ <circle cx="13" cy="15" r="0.7" fill="url(#hookGrad)"/>
+ <!-- hallway glimpse -->
+ <rect x="13" y="6" width="6" height="18" fill="#b0c8e0" fill-opacity="0.4"/>
+ <!-- console table -->
+ 
+ <rect x="22" y="19.2" width="1" height="4.8" rx="0.3" fill="url(#tableGrad)"/>
+ <rect x="27" y="19.2" width="1" height="4.8" rx="0.3" fill="url(#tableGrad)"/>
+ <!-- coat rack pole -->
+ <rect x="3.5" y="7" width="0.8" height="16" rx="0.3" fill="url(#tableGrad)"/>
+ <!-- hooks -->
+ <path d="M3.9 10 Q6 9.5 6 12" stroke="url(#hookGrad)" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <path d="M3.9 14 Q6 13.5 6 16" stroke="url(#hookGrad)" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <!-- coat on hook -->
+ <path d="M4.5 12 Q7 11 7.5 14 L6 14.5 Q5.5 12.5 4.5 12.5Z" fill="#6080c0" fill-opacity="0.9"/>
+</svg>

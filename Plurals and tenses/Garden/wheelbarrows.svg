@@ -1,0 +1,22 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wbTray" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8AB84A"/><stop offset="100%" stop-color="#4A7A1A"/></linearGradient>
+ <linearGradient id="wbFrame" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#5A5A7A"/><stop offset="100%" stop-color="#2A2A4A"/></linearGradient>
+ <radialGradient id="wbWheel" cx="40%" cy="40%" r="55%"><stop offset="0%" stop-color="#7A7A8A"/><stop offset="100%" stop-color="#2A2A3A"/></radialGradient>
+ <linearGradient id="soilG" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#8B5E2E"/><stop offset="100%" stop-color="#5A3810"/></linearGradient>
+ </defs>
+ <!-- Wheel -->
+ <circle cx="8" cy="24" r="4.5" fill="url(#wbWheel)" filter="url(#sdWB)"/>
+ <circle cx="8" cy="24" r="2.5" fill="#3A3A4A" fill-opacity="0.7"/>
+ <circle cx="8" cy="24" r="1" fill="#C8C8D8"/>
+ <!-- Frame legs -->
+ <line x1="8" y1="22" x2="14" y2="28" stroke="url(#wbFrame)" stroke-width="1.5" stroke-linecap="round"/>
+ <line x1="8" y1="22" x2="20" y2="28" stroke="url(#wbFrame)" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- Tray -->
+ <polygon points="10,16 28,12 28,22 10,26" fill="url(#wbTray)" filter="url(#sdWB)"/>
+ <!-- Soil in tray -->
+ <polygon points="11,17 27,13.5 27,18 11,21" fill="url(#soilG)"/>
+ <!-- Handles -->
+ <line x1="28" y1="14" x2="32" y2="14" stroke="url(#wbFrame)" stroke-width="1.5" stroke-linecap="round"/>
+ <line x1="28" y1="22" x2="32" y2="22" stroke="url(#wbFrame)" stroke-width="1.5" stroke-linecap="round"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1721" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1721)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

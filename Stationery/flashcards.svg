@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="fc-a" cx="40%" cy="35%" r="70%">
+ <stop offset="0%" stop-color="#ffe080"/>
+ <stop offset="100%" stop-color="#d89020"/>
+ </radialGradient>
+ <radialGradient id="fc-b" cx="40%" cy="35%" r="70%">
+ <stop offset="0%" stop-color="#a8e0ff"/>
+ <stop offset="100%" stop-color="#2070b8"/>
+ </radialGradient>
+ <radialGradient id="fc-c" cx="40%" cy="35%" r="70%">
+ <stop offset="0%" stop-color="#ffb0c0"/>
+ <stop offset="100%" stop-color="#c04060"/>
+ </radialGradient>
+ </defs>
+ <g transform="rotate(-12 16 16)">
+ <rect x="5" y="9" width="20" height="14" rx="1.5" fill="url(#fc-c)"/>
+ <line x1="8" y1="14" x2="22" y2="14" stroke="#601020" stroke-width="0.4" opacity="0.5"/>
+ <line x1="8" y1="17" x2="22" y2="17" stroke="#601020" stroke-width="0.4" opacity="0.5"/>
+ <line x1="8" y1="20" x2="18" y2="20" stroke="#601020" stroke-width="0.4" opacity="0.5"/>
+ </g>
+ <g transform="rotate(-2 16 16)">
+ <rect x="5" y="9" width="20" height="14" rx="1.5" fill="url(#fc-b)"/>
+ <line x1="8" y1="14" x2="22" y2="14" stroke="#1a4080" stroke-width="0.4" opacity="0.5"/>
+ <line x1="8" y1="17" x2="22" y2="17" stroke="#1a4080" stroke-width="0.4" opacity="0.5"/>
+ <line x1="8" y1="20" x2="18" y2="20" stroke="#1a4080" stroke-width="0.4" opacity="0.5"/>
+ </g>
+ <g transform="rotate(8 16 16)">
+ <rect x="5" y="9" width="20" height="14" rx="1.5" fill="url(#fc-a)"/>
+ <rect x="13" y="14" width="4" height="4" fill="#5a3010"/>
+ <path d="M 13.5 15.5 L 16.5 15.5 M 13.5 17 L 16.5 17" stroke="#ffe080" stroke-width="0.3"/>
+ <line x1="8" y1="20" x2="22" y2="20" stroke="#5a3010" stroke-width="0.4" opacity="0.5"/>
+ <ellipse cx="9" cy="11" rx="2" ry="0.6" fill="#ffffff" opacity="0.6"/>
+ </g>
+</svg>

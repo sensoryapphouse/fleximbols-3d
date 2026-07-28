@@ -1,0 +1,84 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#3a4858"/>
+ <stop offset="100%" stop-color="#505868"/>
+ </linearGradient>
+ <linearGradient id="cloud_g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#505868"/>
+ <stop offset="100%" stop-color="#303840"/>
+ </linearGradient>
+ <linearGradient id="water_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#3888d8"/>
+ <stop offset="100%" stop-color="#103870"/>
+ </linearGradient>
+ <linearGradient id="house_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#d8b878"/>
+ <stop offset="100%" stop-color="#a07838"/>
+ </linearGradient>
+ <linearGradient id="roof_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#c84030"/>
+ <stop offset="100%" stop-color="#801010"/>
+ </linearGradient>
+ <linearGradient id="tree_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#3a8030"/>
+ <stop offset="100%" stop-color="#184010"/>
+ </linearGradient>
+ <linearGradient id="rain_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#80b8e8"/>
+ <stop offset="100%" stop-color="#3880c0"/>
+ </linearGradient>
+ </defs>
+
+ <!-- Sky -->
+ 
+
+ <!-- Storm clouds -->
+ <ellipse cx="10" cy="5" rx="9" ry="4" fill="url(#cloud_g)"/>
+ <ellipse cx="6" cy="4" rx="5" ry="3" fill="#484c58"/>
+ <ellipse cx="22" cy="4" rx="9" ry="4" fill="url(#cloud_g)"/>
+ <ellipse cx="28" cy="5" rx="5" ry="3" fill="#484c58"/>
+ <ellipse cx="16" cy="3" rx="6" ry="3" fill="#383c48"/>
+
+ <!-- Rising flood water (covering lower 2/3 of canvas) -->
+ <rect x="0" y="14" width="32" height="18" fill="url(#water_g)"/>
+ <!-- Water surface ripples -->
+ <path d="M 0 14 Q 4 13 8 14 Q 12 15 16 14 Q 20 13 24 14 Q 28 15 32 14" fill="url(#water_g)" stroke="#5aacf0" stroke-width="0.4"/>
+ <path d="M 2 15.5 Q 6 14.8 10 15.5 Q 14 16.2 18 15.5 Q 22 14.8 26 15.5 Q 30 16.2 32 15.5" stroke="#5aacf0" stroke-width="0.3" fill="none" opacity="0.6"/>
+
+ <!-- Partially submerged house (only top half above water) -->
+ <!-- Roof (above water) -->
+ <polygon points="8,7 18,7 23,14 3,14" fill="url(#roof_g)"/>
+ <!-- Chimney -->
+ <rect x="14" y="5" width="2" height="4" rx="0.3" fill="#906050"/>
+ <!-- House walls (visible only top half, lower below water) -->
+ <rect x="3" y="14" width="20" height="8" fill="url(#house_g)" opacity="0.5"/>
+ <!-- Submerged window hint -->
+ <rect x="6" y="14.5" width="3" height="3" rx="0.3" fill="#80b0d8" opacity="0.4"/>
+ <rect x="14" y="14.5" width="3" height="3" rx="0.3" fill="#80b0d8" opacity="0.4"/>
+
+ <!-- Partially submerged tree (right side, only canopy visible) -->
+ <circle cx="27" cy="12" r="4" fill="url(#tree_g)"/>
+ <circle cx="25" cy="13" r="2.5" fill="url(#tree_g)"/>
+ <circle cx="29" cy="13" r="2.5" fill="url(#tree_g)"/>
+ <!-- Tree trunk (below water) -->
+ <rect x="26.2" y="14" width="1.5" height="4" rx="0.3" fill="#7a5020" opacity="0.4"/>
+
+ <!-- Rain falling -->
+ <line x1="4" y1="8" x2="3.5" y2="11" stroke="url(#rain_g)" stroke-width="0.5" stroke-linecap="round"/>
+ <line x1="8" y1="9" x2="7.5" y2="12" stroke="url(#rain_g)" stroke-width="0.5" stroke-linecap="round"/>
+ <line x1="13" y1="8" x2="12.5" y2="11" stroke="url(#rain_g)" stroke-width="0.5" stroke-linecap="round"/>
+ <line x1="18" y1="9" x2="17.5" y2="12" stroke="url(#rain_g)" stroke-width="0.5" stroke-linecap="round"/>
+ <line x1="22" y1="8" x2="21.5" y2="11" stroke="url(#rain_g)" stroke-width="0.5" stroke-linecap="round"/>
+ <line x1="26" y1="9" x2="25.5" y2="12" stroke="url(#rain_g)" stroke-width="0.5" stroke-linecap="round"/>
+ <line x1="30" y1="8" x2="29.5" y2="11" stroke="url(#rain_g)" stroke-width="0.5" stroke-linecap="round"/>
+ <line x1="6" y1="7" x2="5.5" y2="9.5" stroke="url(#rain_g)" stroke-width="0.4" stroke-linecap="round"/>
+ <line x1="11" y1="7.5" x2="10.5" y2="10" stroke="url(#rain_g)" stroke-width="0.4" stroke-linecap="round"/>
+ <line x1="16" y1="7" x2="15.5" y2="9.5" stroke="url(#rain_g)" stroke-width="0.4" stroke-linecap="round"/>
+ <line x1="24" y1="7.5" x2="23.5" y2="10" stroke="url(#rain_g)" stroke-width="0.4" stroke-linecap="round"/>
+ <line x1="28" y1="7" x2="27.5" y2="9.5" stroke="url(#rain_g)" stroke-width="0.4" stroke-linecap="round"/>
+
+ <!-- Flood debris (floating) -->
+ <rect x="2" y="15" width="3" height="1" rx="0.3" fill="#a07030" opacity="0.8" transform="rotate(-5 2 15)"/>
+ <rect x="18" y="16" width="4" height="0.8" rx="0.3" fill="#a07030" opacity="0.7" transform="rotate(8 18 16)"/>
+</svg>

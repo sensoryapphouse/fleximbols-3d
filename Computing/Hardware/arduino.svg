@@ -1,0 +1,66 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ard-pcb" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#3ABCB0"/>
+ <stop offset="60%" stop-color="#1A9488"/>
+ <stop offset="100%" stop-color="#0E6860"/>
+ </linearGradient>
+ <linearGradient id="ard-usb" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#C0C0C0"/>
+ <stop offset="100%" stop-color="#888888"/>
+ </linearGradient>
+ <linearGradient id="ard-chip" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#444444"/>
+ <stop offset="100%" stop-color="#1A1A1A"/>
+ </linearGradient>
+ </defs>
+ <!-- PCB board -->
+ 
+ <!-- Board edge highlight -->
+ <rect x="4" y="5" width="22" height="22" rx="1.5" fill="none" stroke="#50D0C4" stroke-width="0.5" stroke-opacity="0.4"/>
+ <!-- USB jack on left -->
+ <rect x="1.5" y="12" width="4" height="5" rx="0.5" fill="url(#ard-usb)"/>
+ <rect x="2.2" y="12.8" width="2.6" height="3.4" rx="0.3" fill="#C8C8C8" fill-opacity="0.5"/>
+ <!-- Header pins top row -->
+ <rect x="6" y="4" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <rect x="8" y="4" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <rect x="10" y="4" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <rect x="12" y="4" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <rect x="14" y="4" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <rect x="16" y="4" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <!-- Header pin sockets top (black blocks) -->
+ <rect x="5.5" y="5.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <rect x="7.5" y="5.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <rect x="9.5" y="5.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <rect x="11.5" y="5.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <rect x="13.5" y="5.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <rect x="15.5" y="5.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <!-- Header pins bottom row -->
+ <rect x="6" y="25" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <rect x="8" y="25" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <rect x="10" y="25" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <rect x="12" y="25" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <rect x="14" y="25" width="1" height="3" rx="0.2" fill="#C8A060"/>
+ <!-- Header pin sockets bottom -->
+ <rect x="5.5" y="24.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <rect x="7.5" y="24.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <rect x="9.5" y="24.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <rect x="11.5" y="24.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <rect x="13.5" y="24.5" width="1.8" height="1.8" rx="0.2" fill="#1A1A1A"/>
+ <!-- Main chip -->
+ <rect x="13" y="11" width="8" height="10" rx="0.5" fill="url(#ard-chip)"/>
+ <rect x="14" y="12" width="6" height="8" rx="0.3" fill="#2A2A2A" fill-opacity="0.6"/>
+ <!-- Chip pin marks -->
+ <line x1="13" y1="12.5" x2="11.5" y2="12.5" stroke="#D0D0D0" stroke-width="0.4"/>
+ <line x1="13" y1="14.5" x2="11.5" y2="14.5" stroke="#D0D0D0" stroke-width="0.4"/>
+ <line x1="13" y1="16.5" x2="11.5" y2="16.5" stroke="#D0D0D0" stroke-width="0.4"/>
+ <line x1="13" y1="18.5" x2="11.5" y2="18.5" stroke="#D0D0D0" stroke-width="0.4"/>
+ <!-- Small component/capacitor -->
+ <rect x="6" y="10" width="4" height="6" rx="0.5" fill="#333388" fill-opacity="0.9"/>
+ <!-- Reset button -->
+ <circle cx="22" cy="22" r="1.5" fill="#CC3030"/>
+ <circle cx="22" cy="22" r="0.8" fill="#FF5050" fill-opacity="0.5"/>
+ <!-- Trace lines on PCB -->
+ <line x1="10" y1="16" x2="13" y2="16" stroke="#50D0B0" stroke-width="0.3" stroke-opacity="0.5"/>
+ <line x1="10" y1="14" x2="13" y2="14" stroke="#50D0B0" stroke-width="0.3" stroke-opacity="0.5"/>
+</svg>

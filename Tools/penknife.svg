@@ -1,0 +1,18 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="bG" cx="40%" cy="30%" r="75%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="0.5" stop-color="#C8D2DC"/><stop offset="1" stop-color="#5C6878"/></radialGradient>
+<radialGradient id="pG" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#FFC9A8"/><stop offset="0.5" stop-color="#D43A2A"/><stop offset="1" stop-color="#6A1408"/></radialGradient>
+</defs>
+<!-- red handle horizontal -->
+<path d="M3 19 L23 19 Q26 19 26 21.5 Q26 24 23 24 L3 24 Q1.5 24 1.5 21.5 Q1.5 19 3 19 Z" fill="url(#pG)"/>
+<ellipse cx="9" cy="21" rx="6" ry="0.8" fill="#FFFFFF" opacity="0.45"/>
+<!-- folded-out blade angled up-left from pivot at right end -->
+<path d="M24 21.5 L4 6 L3 7.3 L23.5 22.3 Z" fill="url(#bG)"/>
+<path d="M24 21.5 L4 6 L3.6 6.5 L23.7 21.7 Z" fill="#FFFFFF" opacity="0.6"/>
+<path d="M4 6 L3 7.3 L4.6 8.5 L5.5 7.1 Z" fill="#6A7484"/>
+<!-- pivot rivet -->
+<circle cx="23.5" cy="21.5" r="1.2" fill="#8A95A5"/>
+<circle cx="23.2" cy="21.2" r="0.45" fill="#FFFFFF" opacity="0.85"/>
+<!-- small bolster line -->
+<rect x="20.5" y="19.3" width="0.4" height="4.4" fill="#3A0A04" opacity="0.5"/>
+</svg>

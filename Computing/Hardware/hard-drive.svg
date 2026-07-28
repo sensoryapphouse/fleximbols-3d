@@ -1,0 +1,28 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#3B3F47"/>
+ <stop offset="100%" stop-color="#16181D"/>
+ </linearGradient>
+ <linearGradient id="top" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5A5F68"/>
+ <stop offset="100%" stop-color="#2C3038"/>
+ </linearGradient>
+ <linearGradient id="plug" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ </defs>
+ <!-- Main body (front face) -->
+ <rect x="5" y="14" width="20" height="11" rx="2" fill="url(#body)"/>
+ <!-- Top face (3/4 view) -->
+ <path d="M5 14 L9 10 L29 10 L25 14 Z" fill="url(#top)"/>
+ <!-- Right side face -->
+ <path d="M25 14 L29 10 L29 21 L25 25 Z" fill="#20232A"/>
+ <!-- LED indicator -->
+ <circle cx="22" cy="19" r="1.2" fill="#40E060"/>
+ <!-- USB port on right side -->
+ <rect x="24" y="17" width="3" height="3" rx="0.4" fill="url(#plug)"/>
+ <!-- Short USB cable -->
+ <path d="M27 18.5 L31 18.5" stroke="#3B3F47" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

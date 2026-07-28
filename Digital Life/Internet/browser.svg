@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="winGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="100%" stop-color="#9CA3AF"/>
+ </linearGradient>
+ <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#7DBEFC"/>
+ <stop offset="100%" stop-color="#1565C0"/>
+ </linearGradient>
+ <linearGradient id="addrGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#E5E7EB"/>
+ </linearGradient>
+ <linearGradient id="globeGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#7DBEFC"/>
+ <stop offset="100%" stop-color="#1565C0"/>
+ </linearGradient>
+ </defs>
+ <!-- Window frame -->
+ <rect x="2" y="3" width="28" height="26" rx="2" ry="2" fill="url(#winGrad)" stroke="#9CA3AF" stroke-width="0.8"/>
+ <!-- Title bar -->
+ <rect x="2" y="3" width="28" height="5" rx="2" ry="2" fill="url(#barGrad)"/>
+ <rect x="2" y="6" width="28" height="2" fill="url(#barGrad)"/>
+ <!-- Dots -->
+ <circle cx="5.5" cy="5.5" r="1" fill="#FF5252"/>
+ <circle cx="8.5" cy="5.5" r="1" fill="#FFD45E"/>
+ <circle cx="11.5" cy="5.5" r="1" fill="#43A047"/>
+ <!-- Address bar -->
+ <rect x="13" y="4" width="15" height="3" rx="1.2" fill="url(#addrGrad)"/>
+ <line x1="14" y1="5.5" x2="27" y2="5.5" stroke="#9CA3AF" stroke-width="0.5"/>
+ <!-- Globe in content area -->
+ <circle cx="16" cy="19" r="7" fill="url(#globeGrad)"/>
+ <!-- Globe latitude lines -->
+ <ellipse cx="16" cy="19" rx="7" ry="3" fill="none" stroke="#E5E7EB" stroke-width="0.5"/>
+ <ellipse cx="16" cy="19" rx="7" ry="5.5" fill="none" stroke="#E5E7EB" stroke-width="0.5"/>
+ <!-- Globe longitude lines -->
+ <line x1="16" y1="12" x2="16" y2="26" stroke="#E5E7EB" stroke-width="0.5"/>
+ <ellipse cx="16" cy="19" rx="3.5" ry="7" fill="none" stroke="#E5E7EB" stroke-width="0.5"/>
+ <!-- Globe outline -->
+ <circle cx="16" cy="19" r="7" fill="none" stroke="#1565C0" stroke-width="0.7"/>
+</svg>

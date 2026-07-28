@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="hd_soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a07c49"/>
+      <stop offset="1" stop-color="#6e5230"/>
+    </linearGradient>
+    <linearGradient id="hd_bush" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fc471"/>
+      <stop offset="1" stop-color="#3c9a40"/>
+    </linearGradient>
+  </defs>
+  <g stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- soil / planter -->
+    <rect x="40" y="380" width="432" height="40" rx="8" fill="url(#hd_soil)"/>
+    <!-- hedge body with bumpy top -->
+    <path d="M60 380 L60 220 C60 180 100 155 145 165 C160 130 220 130 240 165 C270 145 320 145 345 175 C390 165 440 195 440 240 L440 380 Z" fill="url(#hd_bush)"/>
+    <!-- foliage texture -->
+    <g stroke="none">
+      <circle cx="100" cy="225" r="22" fill="#79d07b"/>
+      <circle cx="170" cy="195" r="26" fill="#79d07b"/>
+      <circle cx="240" cy="200" r="28" fill="#79d07b"/>
+      <circle cx="320" cy="200" r="26" fill="#79d07b"/>
+      <circle cx="395" cy="230" r="22" fill="#79d07b"/>
+      <circle cx="130" cy="285" r="18" fill="#358b39"/>
+      <circle cx="220" cy="295" r="22" fill="#358b39"/>
+      <circle cx="305" cy="293" r="20" fill="#358b39"/>
+      <circle cx="380" cy="308" r="16" fill="#358b39"/>
+    </g>
+    <!-- trimmed top highlight line -->
+    <path d="M60 220 C100 200 180 180 240 185 C305 190 380 200 440 220" fill="none"/>
+  </g>
+</svg>

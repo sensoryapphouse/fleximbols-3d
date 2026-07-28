@@ -1,0 +1,67 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="tpTubeGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="40%" stop-color="#E8EEF8"/>
+ <stop offset="100%" stop-color="#B0C0D8"/>
+ </linearGradient>
+ <linearGradient id="tpStripeRedGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FF6060"/>
+ <stop offset="100%" stop-color="#CC2020"/>
+ </linearGradient>
+ <linearGradient id="tpStripeBlueGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#4488FF"/>
+ <stop offset="100%" stop-color="#2244CC"/>
+ </linearGradient>
+ <linearGradient id="tpCapGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D0D8F0"/>
+ <stop offset="100%" stop-color="#8090B8"/>
+ </linearGradient>
+ <linearGradient id="tpPasteGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="50%" stop-color="#E8EEF8"/>
+ <stop offset="100%" stop-color="#C8D8F0"/>
+ </linearGradient>
+ <linearGradient id="tpRollGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#A0B0C8"/>
+ <stop offset="50%" stop-color="#C8D8F0"/>
+ <stop offset="100%" stop-color="#808898"/>
+ </linearGradient>
+ </defs>
+
+ <!-- Tube body (rolled/squeezed at bottom) -->
+ <!-- Main body rectangle -->
+ <rect x="8" y="10" width="14" height="16" rx="2" fill="url(#tpTubeGrad)"/>
+
+ <!-- Red stripe across tube -->
+ <rect x="8" y="14" width="14" height="3" fill="url(#tpStripeRedGrad)"/>
+
+ <!-- Blue stripe -->
+ <rect x="8" y="19" width="14" height="2.5" fill="url(#tpStripeBlueGrad)"/>
+
+ <!-- Rolled/squeezed bottom end -->
+ <rect x="9" y="24" width="12" height="3" rx="1" fill="url(#tpRollGrad)"/>
+ <!-- Roll creases -->
+ <line x1="9" y1="25" x2="21" y2="25" stroke="#8090A8" stroke-width="0.5"/>
+ <line x1="9" y1="26" x2="21" y2="26" stroke="#8090A8" stroke-width="0.5"/>
+ <!-- Crimped flat end -->
+ <rect x="10" y="26.5" width="10" height="1.5" rx="0.5" fill="#909AB8"/>
+
+ <!-- Neck/shoulder -->
+ <rect x="11" y="7" width="8" height="4" rx="1" fill="url(#tpTubeGrad)"/>
+
+ <!-- Flip cap -->
+ <rect x="10.5" y="4" width="9" height="4" rx="1.5" fill="url(#tpCapGrad)"/>
+ <!-- Cap hinge -->
+ <rect x="10.5" y="7.5" width="9" height="1" rx="0.5" fill="#8090B8"/>
+
+ <!-- Paste at tip (squeeze) -->
+ <ellipse cx="15" cy="4" rx="3" ry="1.2" fill="url(#tpPasteGrad)"/>
+ <!-- Paste curl coming out -->
+ <path d="M15 3 Q17 1.5 18 3" stroke="url(#tpPasteGrad)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <!-- Paste stripe (red line in paste) -->
+ <path d="M16 3.2 Q17.5 1.8 18.2 3" stroke="#FF6060" stroke-width="0.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+
+ <!-- Tube highlight -->
+ <rect x="9" y="10.5" width="2" height="12" rx="1" fill="#FFFFFF" opacity="0.5"/>
+</svg>

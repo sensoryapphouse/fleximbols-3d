@@ -1,0 +1,45 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="el-beaker" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#a8d8f0"/>
+ <stop offset="100%" stop-color="#5898c8"/>
+ </linearGradient>
+ <linearGradient id="el-liquid" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#88c8f0"/>
+ <stop offset="100%" stop-color="#4488b8"/>
+ </linearGradient>
+ <linearGradient id="el-rod" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#c8ccd8"/>
+ <stop offset="100%" stop-color="#808898"/>
+ </linearGradient>
+ <linearGradient id="el-batt" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#d0e040"/>
+ <stop offset="100%" stop-color="#a0b000"/>
+ </linearGradient>
+ </defs>
+ <!-- beaker glass walls -->
+ <path d="M9 10 L9 27 Q9 29 12 29 L20 29 Q23 29 23 27 L23 10 Z" fill="url(#el-beaker)" fill-opacity="0.5" filter="url(#el-sh)"/>
+ <path d="M9 10 L23 10" stroke="#99cce0" stroke-width="0.7" fill="none"/>
+ <!-- beaker spout -->
+ <path d="M9 10 Q8 9 7 8 Q8 7 9 8 L9 10Z" fill="#99cce0" fill-opacity="0.6"/>
+ <!-- liquid inside -->
+ <path d="M9.5 15 L22.5 15 L22.5 27 Q22.5 28.5 20 28.5 L12 28.5 Q9.5 28.5 9.5 27 Z" fill="url(#el-liquid)" fill-opacity="0.75"/>
+ <!-- electrode left (rod) -->
+ <rect x="11" y="8" width="1.5" height="16" rx="0.75" fill="url(#el-rod)"/>
+ <!-- electrode right (rod) -->
+ <rect x="19.5" y="8" width="1.5" height="16" rx="0.75" fill="url(#el-rod)"/>
+ <!-- bubbles left electrode -->
+ <circle cx="11.75" cy="22" r="0.5" fill="#fff" fill-opacity="0.8"/>
+ <circle cx="11.25" cy="19" r="0.4" fill="#fff" fill-opacity="0.7"/>
+ <circle cx="12" cy="16.5" r="0.35" fill="#fff" fill-opacity="0.6"/>
+ <!-- bubbles right electrode -->
+ <circle cx="20.25" cy="22" r="0.5" fill="#fff" fill-opacity="0.8"/>
+ <circle cx="20.75" cy="18.5" r="0.4" fill="#fff" fill-opacity="0.7"/>
+ <circle cx="20" cy="16" r="0.35" fill="#fff" fill-opacity="0.6"/>
+ <!-- wires to battery -->
+ <path d="M11.75 8 L11.75 5 L14 5" stroke="#dd3333" stroke-width="0.6" fill="none"/>
+ <path d="M20.25 8 L20.25 5 L18 5" stroke="#222" stroke-width="0.6" fill="none"/>
+ <!-- battery -->
+ <rect x="14" y="3" width="4" height="4" rx="0.5" fill="url(#el-batt)"/>
+ <rect x="15.5" y="2.5" width="1" height="1" rx="0.2" fill="#a0b000"/>
+</svg>

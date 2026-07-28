@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="tep_tube" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="100%" stop-color="#9CA3AF"/>
+ </linearGradient>
+ <radialGradient id="tep_bulb" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FFB088"/>
+ <stop offset="100%" stop-color="#E5722E"/>
+ </radialGradient>
+ <linearGradient id="tep_fill" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FFC07A"/>
+ <stop offset="100%" stop-color="#E5722E"/>
+ </linearGradient>
+ <radialGradient id="tep_hi" cx="30%" cy="20%" r="35%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ </defs>
+ <!-- Thermometer tube outer -->
+ <rect x="13.5" y="4" width="5" height="20" rx="2.5" fill="url(#tep_tube)"/>
+ <!-- Bulb at base -->
+ <circle cx="16" cy="25" r="4" fill="url(#tep_bulb)"/>
+ <!-- Mercury fill (mid-level: tepid = mid temperature) -->
+ <rect x="14.5" y="15" width="3" height="10" fill="url(#tep_fill)"/>
+ <circle cx="16" cy="25" r="3" fill="url(#tep_fill)"/>
+ <!-- Highlight on bulb -->
+ <ellipse cx="14.5" cy="23.5" rx="1.5" ry="1.2" fill="url(#tep_hi)"/>
+ <!-- Highlight on tube -->
+ <rect x="14.2" y="6" width="0.8" height="16" fill="#FFFFFF" fill-opacity="0.5" rx="0.3"/>
+ <!-- Tick marks indicating mid range -->
+ <line x1="19" y1="9" x2="20.5" y2="9" stroke="#6B7280" stroke-width="0.5"/>
+ <line x1="19" y1="14" x2="20.5" y2="14" stroke="#6B7280" stroke-width="0.5"/>
+ <line x1="19" y1="19" x2="20.5" y2="19" stroke="#FF6B35" stroke-width="0.7"/>
+</svg>

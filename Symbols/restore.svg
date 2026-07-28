@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="rs_tile" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5CB7FF"/>
+<stop offset="1" stop-color="#4878DD"/>
+</linearGradient>
+<linearGradient id="rs_arrow" x1="8" y1="6" x2="24" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#E3ECFF"/>
+</linearGradient>
+</defs>
+<!-- rounded tile -->
+<rect x="2" y="2" width="28" height="28" rx="6" fill="url(#rs_tile)"/>
+<rect x="2.5" y="2.5" width="27" height="13" rx="5.5" fill="#ffffff" fill-opacity="0.12"/>
+<!-- circular restore arrow (counter-clockwise) -->
+<path d="M16 8.5C20.4 8.5 24 11.9 24 16C24 20.1 20.4 23.5 16 23.5C12.7 23.5 9.9 21.6 8.7 18.9" stroke="url(#rs_arrow)" stroke-width="3" stroke-linecap="round" fill="none"/>
+<!-- arrowhead -->
+<path d="M11.3 7.2L8.2 9.5L11.6 11.3Z" fill="url(#rs_arrow)"/>
+<path d="M8.7 8.7L8.2 9.5L9 10" stroke="url(#rs_arrow)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

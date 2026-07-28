@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="ci_body" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#4a3820"/><stop offset="60%" stop-color="#2a1e08"/><stop offset="100%" stop-color="#100c00"/></radialGradient>
+ <radialGradient id="ci_face" cx="50%" cy="50%" r="55%"><stop offset="0%" stop-color="#e8c0a0"/><stop offset="70%" stop-color="#c09070"/><stop offset="100%" stop-color="#885040"/></radialGradient>
+ <radialGradient id="ci_ear" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#e0a890"/><stop offset="100%" stop-color="#b07050"/></radialGradient>
+ </defs>
+ <!-- body (slimmer than gorilla/ape) -->
+ <ellipse cx="16" cy="23" rx="9" ry="7" fill="url(#ci_body)"/>
+ <!-- arms (long, chimp-like) -->
+ <path d="M7 20 Q5 25 6 28" fill="none" stroke="#2a1e08" stroke-width="4" stroke-linecap="round"/>
+ <path d="M25 20 Q27 25 26 28" fill="none" stroke="#2a1e08" stroke-width="4" stroke-linecap="round"/>
+ <!-- hands -->
+ <ellipse cx="6" cy="28" rx="2.5" ry="1.8" fill="url(#ci_body)"/>
+ <ellipse cx="26" cy="28" rx="2.5" ry="1.8" fill="url(#ci_body)"/>
+ <!-- legs -->
+ <ellipse cx="11" cy="29" rx="3.5" ry="2.2" fill="url(#ci_body)"/>
+ <ellipse cx="21" cy="29" rx="3.5" ry="2.2" fill="url(#ci_body)"/>
+ <!-- head (no sagittal crest - distinct from gorilla/ape) -->
+ <ellipse cx="16" cy="13" rx="7.5" ry="7" fill="url(#ci_body)"/>
+ <!-- PINK FACE (distinct chimp feature) -->
+ <ellipse cx="16" cy="14" rx="5.5" ry="5.5" fill="url(#ci_face)"/>
+ <!-- large ears (bigger than gorilla) -->
+ <ellipse cx="9" cy="13" rx="3" ry="3.5" fill="url(#ci_body)"/>
+ <ellipse cx="9" cy="13" rx="2" ry="2.5" fill="url(#ci_ear)"/>
+ <ellipse cx="23" cy="13" rx="3" ry="3.5" fill="url(#ci_body)"/>
+ <ellipse cx="23" cy="13" rx="2" ry="2.5" fill="url(#ci_ear)"/>
+ <!-- eyes (more expressive, forward facing) -->
+ <circle cx="13.5" cy="12" r="1.3" fill="#1a1a1a"/>
+ <circle cx="18.5" cy="12" r="1.3" fill="#1a1a1a"/>
+ <circle cx="13.1" cy="11.6" r="0.4" fill="#fff" fill-opacity="0.6"/>
+ <circle cx="18.1" cy="11.6" r="0.4" fill="#fff" fill-opacity="0.6"/>
+ <!-- protruding lips/muzzle area -->
+ <ellipse cx="16" cy="17" rx="3.5" ry="2.5" fill="url(#ci_face)"/>
+ <!-- nose -->
+ <ellipse cx="14.8" cy="15.5" rx="0.7" ry="0.5" fill="#8a5030"/>
+ <ellipse cx="17.2" cy="15.5" rx="0.7" ry="0.5" fill="#8a5030"/>
+ <!-- mouth (chimps can make expressions) -->
+ <path d="M13.5 18 Q16 19.5 18.5 18" fill="none" stroke="#8a5030" stroke-width="1" stroke-linecap="round"/>
+</svg>

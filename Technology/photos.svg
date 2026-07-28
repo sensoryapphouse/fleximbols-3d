@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="phs_paper" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#e6e8ec"/>
+</linearGradient>
+<linearGradient id="phs_bg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#aac4e6"/><stop offset="1" stop-color="#7fa3d2"/></linearGradient>
+<linearGradient id="phs_bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4b0cf"/><stop offset="1" stop-color="#e277aa"/></linearGradient>
+<linearGradient id="phs_bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset="1" stop-color="#f4c54a"/></linearGradient>
+<radialGradient id="phs_skin" cx="0.5" cy="0.4" r="0.6"><stop offset="0" stop-color="#ffd9b8"/><stop offset="1" stop-color="#e8a77c"/></radialGradient>
+<filter id="phs_sh" x="-30%" y="-30%" width="160%" height="160%">
+<feDropShadow dx="0" dy="0.5" stdDeviation="0.5" flood-color="#000" flood-opacity="0.22"/>
+</filter>
+<clipPath id="phs_win"><rect x="1.5" y="1.5" width="12" height="11" rx="0.5"/></clipPath>
+</defs>
+
+<!-- back photo (yellow) -->
+<g transform="translate(13.5 5) rotate(10)" filter="url(#phs_sh)">
+<rect x="0" y="0" width="15" height="17" rx="1" fill="url(#phs_paper)" stroke="#c4c8ce" stroke-width="0.4"/>
+<rect x="1.5" y="1.5" width="12" height="11" rx="0.5" fill="url(#phs_bg3)"/>
+<g clip-path="url(#phs_win)">
+<circle cx="7.5" cy="6" r="2.6" fill="url(#phs_skin)"/>
+<path d="M2.6 12.5 Q3 8.6 7.5 8.6 Q12 8.6 12.4 12.5 Z" fill="#b06a2e"/>
+</g>
+</g>
+<!-- middle photo (pink) -->
+<g transform="translate(9.5 8.5) rotate(-4)" filter="url(#phs_sh)">
+<rect x="0" y="0" width="15" height="17" rx="1" fill="url(#phs_paper)" stroke="#c4c8ce" stroke-width="0.4"/>
+<rect x="1.5" y="1.5" width="12" height="11" rx="0.5" fill="url(#phs_bg2)"/>
+<g clip-path="url(#phs_win)">
+<circle cx="7.5" cy="6" r="2.6" fill="url(#phs_skin)"/>
+<path d="M2.6 12.5 Q3 8.6 7.5 8.6 Q12 8.6 12.4 12.5 Z" fill="#a83b6e"/>
+</g>
+</g>
+<!-- front photo (blue) -->
+<g transform="translate(4 10) rotate(-14)" filter="url(#phs_sh)">
+<rect x="0" y="0" width="15" height="17" rx="1" fill="url(#phs_paper)" stroke="#c4c8ce" stroke-width="0.4"/>
+<rect x="1.5" y="1.5" width="12" height="11" rx="0.5" fill="url(#phs_bg1)"/>
+<g clip-path="url(#phs_win)">
+<circle cx="7.5" cy="6" r="2.6" fill="url(#phs_skin)"/>
+<path d="M2.6 12.5 Q3 8.6 7.5 8.6 Q12 8.6 12.4 12.5 Z" fill="#4a5b7a"/>
+</g>
+</g>
+</svg>

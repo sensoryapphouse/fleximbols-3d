@@ -1,0 +1,18 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="rc1" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#fff8e0"/><stop offset="60%" stop-color="#f0d99a"/><stop offset="100%" stop-color="#a07a44"/></radialGradient>
+</defs>
+<rect x="15" y="4" width="2" height="24" rx="0.8" fill="url(#rc1)"/>
+<path d="M16 6 Q9 8 9 12 Q9 14 12 14" stroke="url(#rc1)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<path d="M16 6 Q23 8 23 12 Q23 14 20 14" stroke="url(#rc1)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<path d="M16 10 Q8 12 8 16 Q8 18 11 18" stroke="url(#rc1)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<path d="M16 10 Q24 12 24 16 Q24 18 21 18" stroke="url(#rc1)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<path d="M16 14 Q7 16 7 20 Q7 22 10 22" stroke="url(#rc1)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<path d="M16 14 Q25 16 25 20 Q25 22 22 22" stroke="url(#rc1)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<path d="M16 18 Q8 20 8.5 24 Q9 26 12 25" stroke="url(#rc1)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M16 18 Q24 20 23.5 24 Q23 26 20 25" stroke="url(#rc1)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M16 22 Q10 23.5 11 26 Q12 27 14 26.5" stroke="url(#rc1)" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<path d="M16 22 Q22 23.5 21 26 Q20 27 18 26.5" stroke="url(#rc1)" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<rect x="13" y="4" width="6" height="2" rx="0.5" fill="url(#rc1)"/>
+<ellipse cx="14" cy="5" rx="1" ry="0.4" fill="#fff" opacity="0.6"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<linearGradient id="bt_rock" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#d98a5a"/>
+<stop offset="50%" stop-color="#bd5e30"/>
+<stop offset="100%" stop-color="#7a3414"/>
+</linearGradient>
+<linearGradient id="bt_top" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#e8a070"/>
+<stop offset="100%" stop-color="#c06838"/>
+</linearGradient>
+<radialGradient id="bt_sand" cx="50%" cy="30%" r="80%">
+<stop offset="0%" stop-color="#f6d79a"/>
+<stop offset="100%" stop-color="#d8a850"/>
+</radialGradient>
+<radialGradient id="bt_hi" cx="30%" cy="25%" r="50%">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0.4"/>
+<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<!-- desert ground -->
+<path d="M0 26 Q8 24 16 25 Q24 26 32 25 L32 32 L0 32 Z" fill="url(#bt_sand)"/>
+<!-- butte body: flat top, sloping sides, wider base -->
+<path d="M9 11 L23 11 L26 26 L6 26 Z" fill="url(#bt_rock)"/>
+<!-- flat top cap -->
+<path d="M9 11 L23 11 L24 13 L8 13 Z" fill="url(#bt_top)"/>
+<!-- horizontal strata -->
+<path d="M7.2 18 L24.8 18" stroke="#7a3414" stroke-width="0.4" opacity="0.5"/>
+<path d="M6.4 22 L25.6 22" stroke="#7a3414" stroke-width="0.4" opacity="0.5"/>
+<!-- vertical erosion grooves -->
+<g stroke="#7a3414" stroke-width="0.3" opacity="0.4">
+<line x1="13" y1="13" x2="12" y2="26"/>
+<line x1="17" y1="13" x2="17" y2="26"/>
+<line x1="20" y1="13" x2="21" y2="26"/>
+</g>
+<!-- sunlit highlight on left face -->
+<path d="M9 13 L11 13 L9 25 L7 25 Z" fill="url(#bt_hi)"/>
+</svg>

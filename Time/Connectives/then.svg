@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="clockFace" cx="40%" cy="35%" r="65%">
+ <stop offset="0%" stop-color="#FFF6E0"/>
+ <stop offset="100%" stop-color="#E5D4A8"/>
+ </radialGradient>
+ <linearGradient id="clockRim" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#C47A00"/>
+ </linearGradient>
+ <linearGradient id="shaftGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#E5A700"/>
+ </linearGradient>
+ </defs>
+ <!-- SMALL LEFT CLOCK (past/earlier, faded ~70%) -->
+ <g opacity="0.70">
+ 
+ <circle cx="8" cy="17" r="5.2" fill="url(#clockFace)"/>
+ <!-- Minimal markers -->
+ <circle cx="8" cy="12.5" r="0.35" fill="#C47A00"/>
+ <circle cx="11.2" cy="13.6" r="0.3" fill="#C47A00"/>
+ <circle cx="12.5" cy="17" r="0.35" fill="#C47A00"/>
+ <circle cx="11.2" cy="20.4" r="0.3" fill="#C47A00"/>
+ <circle cx="8" cy="21.5" r="0.35" fill="#C47A00"/>
+ <circle cx="4.8" cy="20.4" r="0.3" fill="#C47A00"/>
+ <circle cx="3.5" cy="17" r="0.35" fill="#C47A00"/>
+ <circle cx="4.8" cy="13.6" r="0.3" fill="#C47A00"/>
+ <!-- Left clock hands: ~10:10 position -->
+ <line x1="8" y1="17" x2="6" y2="14" stroke="#4B3200" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="8" y1="17" x2="10" y2="15" stroke="#4B3200" stroke-width="0.6" stroke-linecap="round"/>
+ <circle cx="8" cy="17" r="0.55" fill="#4B3200"/>
+ </g>
+ <!-- Arrow connecting left clock to right clock -->
+ <!-- Shaft -->
+ 
+ <rect x="14.5" y="15.5" width="4.5" height="0.75" rx="0.6" fill="rgba(255,255,255,0.38)"/>
+ <!-- Arrowhead pointing right toward big clock -->
+ <polygon points="21,16.5 18,14 18,19" fill="url(#shaftGrad)"/>
+ <polygon points="20.2,16.5 18,14.3 18,16" fill="rgba(255,255,255,0.25)"/>
+ <!-- BIG RIGHT CLOCK (current/'then' moment, full opacity) -->
+ 
+ <circle cx="26" cy="16" r="7.4" fill="url(#clockFace)"/>
+ <circle cx="23.5" cy="11.5" r="2.5" fill="rgba(255,255,255,0.22)"/>
+ <!-- Hour markers (larger clock) -->
+ <circle cx="26" cy="9.5" r="0.5" fill="#C47A00"/>
+ <circle cx="29.2" cy="10.6" r="0.4" fill="#C47A00"/>
+ <circle cx="31" cy="13.5" r="0.4" fill="#C47A00"/>
+ <circle cx="31.5" cy="16" r="0.5" fill="#C47A00" opacity="0.5"/>
+ <circle cx="29.2" cy="21.4" r="0.4" fill="#C47A00"/>
+ <circle cx="26" cy="22.5" r="0.5" fill="#C47A00"/>
+ <circle cx="22.8" cy="21.4" r="0.4" fill="#C47A00"/>
+ <circle cx="21" cy="18.5" r="0.4" fill="#C47A00"/>
+ <circle cx="20.5" cy="16" r="0.5" fill="#C47A00"/>
+ <circle cx="21" cy="13.5" r="0.4" fill="#C47A00"/>
+ <circle cx="22.8" cy="10.6" r="0.4" fill="#C47A00"/>
+ <!-- Right clock hands: ~3:00 position ('then') -->
+ <line x1="26" y1="16" x2="26" y2="11" stroke="#4B3200" stroke-width="1" stroke-linecap="round"/>
+ <line x1="26" y1="16" x2="30" y2="16" stroke="#4B3200" stroke-width="0.85" stroke-linecap="round"/>
+ <circle cx="26" cy="16" r="0.8" fill="#4B3200"/>
+</svg>

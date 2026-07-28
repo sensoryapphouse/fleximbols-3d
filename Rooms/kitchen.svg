@@ -1,0 +1,98 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F0EDE5"/>
+ <stop offset="100%" stop-color="#D4CFC5"/>
+ </linearGradient>
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C8C0B0"/>
+ <stop offset="100%" stop-color="#908878"/>
+ </linearGradient>
+ <linearGradient id="counterGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E0DDD5"/>
+ <stop offset="100%" stop-color="#B8B4AC"/>
+ </linearGradient>
+ <linearGradient id="cabinetGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="fridgeGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#D8DCE0"/>
+ </linearGradient>
+ <linearGradient id="stoveGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <linearGradient id="sinkGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#C8D0D8"/>
+ </linearGradient>
+ </defs>
+ <!-- Wall -->
+ <rect x="2" y="2" width="28" height="20" fill="url(#wallGrad)"/>
+ <!-- Backsplash tile -->
+ <rect x="2" y="12" width="28" height="4" fill="#E8EDF5" opacity="0.7"/>
+ <line x1="2" y1="14" x2="30" y2="14" stroke="#C0C8D4" stroke-width="0.3"/>
+ <line x1="8" y1="12" x2="8" y2="16" stroke="#C0C8D4" stroke-width="0.3"/>
+ <line x1="14" y1="12" x2="14" y2="16" stroke="#C0C8D4" stroke-width="0.3"/>
+ <line x1="20" y1="12" x2="20" y2="16" stroke="#C0C8D4" stroke-width="0.3"/>
+ <line x1="26" y1="12" x2="26" y2="16" stroke="#C0C8D4" stroke-width="0.3"/>
+ <!-- Floor -->
+ <rect x="2" y="22" width="28" height="8" fill="url(#floorGrad)"/>
+ <!-- Floor tiles -->
+ <line x1="2" y1="25" x2="30" y2="25" stroke="#807870" stroke-width="0.3" opacity="0.5"/>
+ <line x1="2" y1="28" x2="30" y2="28" stroke="#807870" stroke-width="0.3" opacity="0.5"/>
+ <line x1="9" y1="22" x2="9" y2="30" stroke="#807870" stroke-width="0.3" opacity="0.5"/>
+ <line x1="18" y1="22" x2="18" y2="30" stroke="#807870" stroke-width="0.3" opacity="0.5"/>
+ <line x1="25" y1="22" x2="25" y2="30" stroke="#807870" stroke-width="0.3" opacity="0.5"/>
+ <!-- UPPER CABINETS -->
+ 
+ <!-- Cabinet doors -->
+ <line x1="8" y1="3" x2="8" y2="10" stroke="#8B5C3A" stroke-width="0.4"/>
+ <line x1="14" y1="3" x2="14" y2="10" stroke="#8B5C3A" stroke-width="0.4"/>
+ <!-- Handles -->
+ <rect x="10.5" y="6.5" width="1.5" height="0.4" rx="0.2" fill="#C9CDD3"/>
+ <rect x="5" y="6.5" width="1.5" height="0.4" rx="0.2" fill="#C9CDD3"/>
+ <rect x="16" y="6.5" width="1.5" height="0.4" rx="0.2" fill="#C9CDD3"/>
+ <!-- COUNTER / LOWER CABINETS -->
+ 
+ <rect x="2" y="16" width="19" height="1.5" rx="0.3" fill="url(#counterGrad)"/>
+ <!-- Lower cabinet doors -->
+ <line x1="8" y1="17.5" x2="8" y2="22" stroke="#8B5C3A" stroke-width="0.4"/>
+ <line x1="14" y1="17.5" x2="14" y2="22" stroke="#8B5C3A" stroke-width="0.4"/>
+ <!-- Lower handles -->
+ <rect x="10.5" y="19.5" width="1.5" height="0.4" rx="0.2" fill="#C9CDD3"/>
+ <rect x="5" y="19.5" width="1.5" height="0.4" rx="0.2" fill="#C9CDD3"/>
+ <rect x="16" y="19.5" width="1.5" height="0.4" rx="0.2" fill="#C9CDD3"/>
+ <!-- SINK (in counter) -->
+ <rect x="3" y="16" width="7" height="1.5" rx="0.3" fill="url(#sinkGrad)"/>
+ <rect x="3.5" y="16.2" width="6" height="1" rx="0.3" fill="#D8E4F0"/>
+ <!-- Faucet -->
+ <rect x="5.5" y="14.5" width="0.6" height="1.8" rx="0.2" fill="#C9CDD3"/>
+ <rect x="4.5" y="14.5" width="2.5" height="0.5" rx="0.2" fill="#C9CDD3"/>
+ <!-- STOVE (centre of counter) -->
+ <rect x="10" y="16" width="9" height="1.5" rx="0.3" fill="url(#stoveGrad)"/>
+ <!-- Burners -->
+ <circle cx="12" cy="16.5" r="1" fill="#5A5E64" stroke="#3A3E44" stroke-width="0.3"/>
+ <circle cx="12" cy="16.5" r="0.5" fill="#3A3E44"/>
+ <circle cx="15" cy="16.5" r="1" fill="#5A5E64" stroke="#3A3E44" stroke-width="0.3"/>
+ <circle cx="15" cy="16.5" r="0.5" fill="#3A3E44"/>
+ <circle cx="18" cy="16.5" r="1" fill="#5A5E64" stroke="#3A3E44" stroke-width="0.3"/>
+ <circle cx="18" cy="16.5" r="0.5" fill="#3A3E44"/>
+ <!-- Stove knobs -->
+ <circle cx="11" cy="15" r="0.5" fill="#9A9EA4"/>
+ <circle cx="13.5" cy="15" r="0.5" fill="#9A9EA4"/>
+ <circle cx="16" cy="15" r="0.5" fill="#9A9EA4"/>
+ <circle cx="18.5" cy="15" r="0.5" fill="#9A9EA4"/>
+ <!-- FRIDGE (right, floor-to-counter) -->
+ 
+ <!-- Fridge door split -->
+ <line x1="22" y1="10" x2="29" y2="10" stroke="#C0C4C8" stroke-width="0.4"/>
+ <!-- Freezer handle -->
+ <rect x="23" y="5.5" width="4" height="0.6" rx="0.3" fill="#C9CDD3"/>
+ <!-- Fridge handle -->
+ <rect x="23" y="13" width="4" height="0.6" rx="0.3" fill="#C9CDD3"/>
+ <!-- Fridge logo -->
+ <circle cx="25.5" cy="8" r="0.5" fill="#C0C4C8"/>
+</svg>

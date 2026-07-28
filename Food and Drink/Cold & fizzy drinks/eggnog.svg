@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="glass" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#e0f0ff" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#7090a8" stop-opacity="0.7"/>
+ </radialGradient>
+ <radialGradient id="nog" cx="35%" cy="25%" r="80%">
+ <stop offset="0%" stop-color="#fff8d0"/>
+ <stop offset="100%" stop-color="#c89868"/>
+ </radialGradient>
+ <radialGradient id="cream" cx="35%" cy="25%" r="80%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#e8d8b8"/>
+ </radialGradient>
+ </defs>
+ <path d="M 8 8 L 24 8 L 22 28 L 10 28 Z" fill="url(#glass)"/>
+ <path d="M 8.5 12 L 23.5 12 L 22 28 L 10 28 Z" fill="url(#nog)"/>
+ <ellipse cx="16" cy="12" rx="7.5" ry="1.5" fill="url(#cream)"/>
+ <ellipse cx="13" cy="11.5" rx="3" ry="1" fill="#fff"/>
+ <ellipse cx="19" cy="11.5" rx="2" ry="0.8" fill="#fff"/>
+ <ellipse cx="16" cy="11" rx="2.5" ry="0.7" fill="#fff"/>
+ <rect x="10" y="13" width="0.8" height="14" fill="#fff" opacity="0.5"/>
+ <circle cx="13" cy="11" r="0.3" fill="#a06010"/>
+ <circle cx="17" cy="10.5" r="0.3" fill="#a06010"/>
+ <circle cx="14" cy="10.5" r="0.2" fill="#7a4818"/>
+ <path d="M 24 10 L 28 6 L 27 10 Z" fill="#7a4818"/>
+ <path d="M 24 10 L 27 8" stroke="#5a3008" stroke-width="0.3"/>
+ <ellipse cx="26" cy="8" rx="0.5" ry="0.3" fill="#fff" opacity="0.6"/>
+ <circle cx="15" cy="18" r="0.3" fill="#fff" opacity="0.5"/>
+ <circle cx="18" cy="22" r="0.3" fill="#fff" opacity="0.5"/>
+</svg>

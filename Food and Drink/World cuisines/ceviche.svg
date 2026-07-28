@@ -1,0 +1,59 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="bowl" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#C9CDD3"/>
+ </radialGradient>
+ <radialGradient id="lime" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#A5E68A"/>
+ <stop offset="100%" stop-color="#43A047"/>
+ </radialGradient>
+ <radialGradient id="fish" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#E6E8EC"/>
+ </radialGradient>
+ <radialGradient id="onion" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#A78BFA"/>
+ <stop offset="100%" stop-color="#6D4FD9"/>
+ </radialGradient>
+ <radialGradient id="tom" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#FF5252"/>
+ <stop offset="100%" stop-color="#8B1A1A"/>
+ </radialGradient>
+ <radialGradient id="herb" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </radialGradient>
+ <radialGradient id="hl" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ </defs>
+ <!-- Bowl -->
+ <path d="M 3 14 L 29 14 Q 27 28 16 28 Q 5 28 3 14 Z" fill="url(#bowl)"/>
+ <!-- Lime-juice cured liquid -->
+ <ellipse cx="16" cy="14" rx="13" ry="3" fill="#E6F4D5" fill-opacity="0.9"/>
+ <!-- Diced white fish cubes -->
+ <rect x="7" y="13" width="2.5" height="2.5" rx="0.3" fill="url(#fish)"/>
+ <rect x="11" y="13.5" width="2.5" height="2.5" rx="0.3" fill="url(#fish)"/>
+ <rect x="15" y="13" width="2.5" height="2.5" rx="0.3" fill="url(#fish)"/>
+ <rect x="19" y="13.5" width="2.5" height="2.5" rx="0.3" fill="url(#fish)"/>
+ <rect x="23" y="13" width="2" height="2.5" rx="0.3" fill="url(#fish)"/>
+ <rect x="9" y="16" width="2.5" height="2" rx="0.3" fill="url(#fish)"/>
+ <rect x="17" y="16" width="2.5" height="2" rx="0.3" fill="url(#fish)"/>
+ <rect x="21" y="16" width="2.5" height="2" rx="0.3" fill="url(#fish)"/>
+ <!-- Red onion slices -->
+ <path d="M 7 17 Q 9 16.5 11 17" fill="none" stroke="url(#onion)" stroke-width="0.8"/>
+ <path d="M 13 17.5 Q 15 17 17 17.5" fill="none" stroke="url(#onion)" stroke-width="0.8"/>
+ <path d="M 20 18 Q 22 17.5 24 18" fill="none" stroke="url(#onion)" stroke-width="0.8"/>
+ <!-- Tomato/red pepper bits -->
+ <circle cx="12" cy="14.5" r="0.5" fill="url(#tom)"/>
+ <circle cx="20" cy="15" r="0.5" fill="url(#tom)"/>
+ <!-- Lime wedge garnish -->
+ <path d="M 23 11 L 27 11 L 26 14 L 24 14 Z" fill="url(#lime)"/>
+ <line x1="25" y1="11" x2="25" y2="14" stroke="#FFFFFF" stroke-width="0.2"/>
+ <!-- Cilantro -->
+ <ellipse cx="9" cy="11" rx="1" ry="0.5" fill="url(#herb)"/>
+ <ellipse cx="13" cy="11.5" rx="0.7" ry="0.4" fill="url(#herb)"/>
+ <ellipse cx="6" cy="16" rx="3" ry="0.8" fill="url(#hl)"/>
+</svg>

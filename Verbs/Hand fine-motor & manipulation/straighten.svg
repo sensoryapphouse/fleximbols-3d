@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="200" height="200" viewBox="0 0 512 512" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <radialGradient id="loc3d_ball" cx="40%" cy="32%" r="65%">
+      <stop offset="0%"   stop-color="#ffd4d4"/>
+      <stop offset="25%"  stop-color="#ff8080"/>
+      <stop offset="65%"  stop-color="#e52d2d"/>
+      <stop offset="100%" stop-color="#8b0000"/>
+    </radialGradient>
+    <radialGradient id="loc3d_ball_spec" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="60%"  stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="loc3d_grey" cx="40%" cy="32%" r="65%">
+      <stop offset="0%"   stop-color="#e0e0e0"/>
+      <stop offset="60%"  stop-color="#909090"/>
+      <stop offset="100%" stop-color="#505050"/>
+    </radialGradient>
+    <radialGradient id="loc3d_grey_spec" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="loc3d_front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#e8a96d"/>
+      <stop offset="50%"  stop-color="#c8873a"/>
+      <stop offset="100%" stop-color="#8a5a20"/>
+    </linearGradient>
+    <linearGradient id="loc3d_front_sheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="loc3d_back" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="loc3d_floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#a06838"/>
+      <stop offset="100%" stop-color="#6a4419"/>
+    </linearGradient>
+    <linearGradient id="loc3d_lid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#c8893a"/>
+      <stop offset="100%" stop-color="#7a5018"/>
+    </linearGradient>
+    <linearGradient id="loc3d_arrow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#7be87b"/>
+      <stop offset="50%"  stop-color="#22aa22"/>
+      <stop offset="100%" stop-color="#0a6a0a"/>
+    </linearGradient>
+    <linearGradient id="loc3d_yellow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#fce060"/>
+      <stop offset="50%"  stop-color="#f5c020"/>
+      <stop offset="100%" stop-color="#c09010"/>
+    </linearGradient>
+    <linearGradient id="loc3d_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#88bbff"/>
+      <stop offset="50%"  stop-color="#4488dd"/>
+      <stop offset="100%" stop-color="#1a4488"/>
+    </linearGradient>
+    <linearGradient id="loc3d_red2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ff8080"/>
+      <stop offset="50%"  stop-color="#e52d2d"/>
+      <stop offset="100%" stop-color="#8b0000"/>
+    </linearGradient>
+    <linearGradient id="loc3d_green_fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#88ee88"/>
+      <stop offset="50%"  stop-color="#22aa22"/>
+      <stop offset="100%" stop-color="#0a6a0a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- wavy/bent line (before) -->
+  <path d="M 56,168 Q 130,90 204,168 Q 278,246 352,168 Q 390,130 456,168" fill="none" stroke="#cc2222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- downward transformation arrow -->
+  <line x1="256" y1="224" x2="256" y2="296" stroke="#2a1a08" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="256,320 236,292 276,292" fill="#1a1a1a" stroke="#2a1a08" stroke-width="2"/>
+  <!-- straight line (after) -->
+  <line x1="56" y1="380" x2="432" y2="380" stroke="#0a6a0a" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="458,380 430,362 430,398" fill="url(#loc3d_arrow)" stroke="#2a1a08" stroke-width="2" stroke-linejoin="round"/>
+</svg>

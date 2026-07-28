@@ -1,0 +1,19 @@
+<svg viewBox="4.255 4.255 23.49 23.49" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="xGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FF5252"/>
+ <stop offset="100%" stop-color="#B71C1C"/>
+ </linearGradient>
+ </defs>
+ <!-- Two empty dots + red X on each — neither = not either of two -->
+ <!-- Left dot: empty outline -->
+ <circle cx="9" cy="16" r="2.8" fill="none" stroke="#9CA3AF" stroke-width="0.6"/>
+ <!-- Red X over left -->
+ <path d="M6.9 13.9 L11.1 18.1" stroke="url(#xGrad)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+ <path d="M11.1 13.9 L6.9 18.1" stroke="url(#xGrad)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+ <!-- Right dot: empty outline -->
+ <circle cx="23" cy="16" r="2.8" fill="none" stroke="#9CA3AF" stroke-width="0.6"/>
+ <!-- Red X over right -->
+ <path d="M20.9 13.9 L25.1 18.1" stroke="url(#xGrad)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+ <path d="M25.1 13.9 L20.9 18.1" stroke="url(#xGrad)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+</svg>

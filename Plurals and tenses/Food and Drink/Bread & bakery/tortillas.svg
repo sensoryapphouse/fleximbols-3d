@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+
+ <ellipse cx="16" cy="19" rx="13" ry="9" fill="url(#tort_body)"/>
+ <ellipse cx="16" cy="18" rx="12" ry="7.5" fill="url(#tort_face)"/>
+ <ellipse cx="16" cy="17.5" rx="11" ry="6.5" fill="url(#tort_inner)"/>
+ <path d="M8 16 Q16 13 24 16" stroke="url(#tort_line)" stroke-width="0.6" fill="none" stroke-linecap="round" opacity="0.5"/>
+ <path d="M9 19 Q16 16 23 19" stroke="url(#tort_line)" stroke-width="0.6" fill="none" stroke-linecap="round" opacity="0.5"/>
+ <ellipse cx="12" cy="15" rx="4" ry="2" fill="url(#tort_shine)" opacity="0.3"/>
+
+<defs>
+
+ <radialGradient id="tort_body" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#E0C870"/>
+ <stop offset="1" stop-color="#A07830"/>
+ </radialGradient>
+ <radialGradient id="tort_face" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#F0D880"/>
+ <stop offset="1" stop-color="#C0A050"/>
+ </radialGradient>
+ <radialGradient id="tort_inner" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#FFF8E0"/>
+ <stop offset="0.7" stop-color="#F0E0A0"/>
+ <stop offset="1" stop-color="#D4B860"/>
+ </radialGradient>
+ <linearGradient id="tort_line" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+ <stop offset="0" stop-color="#907030" stop-opacity="0"/>
+ <stop offset="0.5" stop-color="#907030"/>
+ <stop offset="1" stop-color="#907030" stop-opacity="0"/>
+ </linearGradient>
+ <radialGradient id="tort_shine" cx="0.3" cy="0.3" r="0.7">
+ <stop offset="0" stop-color="#ffffff"/>
+ <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+ </radialGradient>
+
+</defs>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl950" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl950)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

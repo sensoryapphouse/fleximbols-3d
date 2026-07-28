@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="topBody" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#7EC8E0"/>
+ <stop offset="100%" stop-color="#2A7A9A"/>
+ </linearGradient>
+ <linearGradient id="topSheen" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#AADFF5" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#AADFF5" stop-opacity="0"/>
+ </linearGradient>
+ </defs>
+ <!-- Hanger hook -->
+ <path d="M16 3 Q18 3 18 5 Q18 6 16 6 Q14 6 14 5" fill="none" stroke="#B8A060" stroke-width="0.8"/>
+ <rect x="8" y="6" width="16" height="0.7" rx="0.35" fill="#B8A060"/>
+ <!-- Shirt body -->
+ 
+ <!-- Sheen -->
+ <path d="M9 12 L13 10 L15 10 L13 20 L9 20 Z" fill="url(#topSheen)"/>
+ <!-- Left sleeve -->
+ <path d="M8 12 L4 15 L5 20 L8 19 L9 14 Z" fill="url(#topBody)"/>
+ <!-- Right sleeve -->
+ <path d="M24 12 L28 15 L27 20 L24 19 L23 14 Z" fill="url(#topBody)"/>
+ <!-- Collar -->
+ <path d="M12 9 Q16 11 20 9 L20 10 Q16 12 12 10 Z" fill="#2A7A9A"/>
+ <!-- Hem -->
+ <rect x="8" y="27" width="16" height="1" rx="0.4" fill="#2A7A9A" fill-opacity="0.7"/>
+ <!-- Seam detail -->
+ <line x1="16" y1="10" x2="16" y2="28" stroke="#2A7A9A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="8" y1="12" x2="8" y2="28" stroke="#2A7A9A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="24" y1="12" x2="24" y2="28" stroke="#2A7A9A" stroke-width="0.3" opacity="0.4"/>
+</svg>

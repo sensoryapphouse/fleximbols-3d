@@ -1,0 +1,52 @@
+<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="osCase" x1="20" y1="40" x2="180" y2="170" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#c9ced4"/>
+<stop offset="0.5" stop-color="#9aa2ab"/>
+<stop offset="1" stop-color="#6c747c"/>
+</linearGradient>
+<linearGradient id="osScreen" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0a3d1e"/>
+<stop offset="1" stop-color="#052812"/>
+</linearGradient>
+<radialGradient id="osKnob" cx="0.4" cy="0.35" r="0.7">
+<stop offset="0" stop-color="#e2e6ea"/>
+<stop offset="1" stop-color="#7b838b"/>
+</radialGradient>
+</defs>
+<!-- instrument case -->
+<rect x="20" y="36" width="160" height="128" rx="12" fill="url(#osCase)" stroke="#565d64" stroke-width="3"/>
+<!-- screen bezel -->
+<rect x="32" y="48" width="98" height="80" rx="6" fill="#2b2f33" stroke="#3c4146" stroke-width="2"/>
+<!-- screen -->
+<rect x="38" y="54" width="86" height="68" rx="3" fill="url(#osScreen)"/>
+<!-- grid -->
+<g stroke="#1f7a3f" stroke-width="1" opacity="0.75">
+<line x1="38" y1="71" x2="124" y2="71"/><line x1="38" y1="88" x2="124" y2="88"/><line x1="38" y1="105" x2="124" y2="105"/>
+<line x1="59.5" y1="54" x2="59.5" y2="122"/><line x1="81" y1="54" x2="81" y2="122"/><line x1="102.5" y1="54" x2="102.5" y2="122"/>
+</g>
+<!-- centre axis brighter -->
+<line x1="38" y1="88" x2="124" y2="88" stroke="#2fae5a" stroke-width="1.2" opacity="0.6"/>
+<!-- waveform (sine) -->
+<path d="M40 88 Q50 60 60 88 Q70 116 81 88 Q92 60 102 88 Q112 116 122 88" fill="none" stroke="#5dff8e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- control knobs (right column) -->
+<g stroke="#565d64" stroke-width="2">
+<circle cx="152" cy="58" r="11" fill="url(#osKnob)"/>
+<circle cx="152" cy="88" r="11" fill="url(#osKnob)"/>
+<circle cx="152" cy="118" r="11" fill="url(#osKnob)"/>
+</g>
+<g stroke="#4a5158" stroke-width="2.5" stroke-linecap="round">
+<line x1="152" y1="58" x2="158" y2="52"/>
+<line x1="152" y1="88" x2="146" y2="82"/>
+<line x1="152" y1="118" x2="158" y2="124"/>
+</g>
+<!-- bottom row: BNC connectors + buttons -->
+<g stroke="#565d64" stroke-width="2">
+<circle cx="44" cy="146" r="8" fill="#3a4046"/>
+<circle cx="68" cy="146" r="8" fill="#3a4046"/>
+</g>
+<circle cx="44" cy="146" r="3" fill="#9aa2ab"/>
+<circle cx="68" cy="146" r="3" fill="#9aa2ab"/>
+<circle cx="98" cy="146" r="6" fill="#46c85a" stroke="#2a7a37" stroke-width="1.5"/>
+<rect x="116" y="140" width="48" height="12" rx="3" fill="#3a4046" stroke="#565d64" stroke-width="1.5"/>
+</svg>

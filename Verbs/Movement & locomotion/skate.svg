@@ -1,0 +1,45 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="sk" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FFDFC4"/><stop offset="100%" stop-color="#C68642"/>
+ </radialGradient>
+ <radialGradient id="bd" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#EC407A"/><stop offset="100%" stop-color="#880E4F"/>
+ </radialGradient>
+ <linearGradient id="ice" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#B3E5FC"/><stop offset="100%" stop-color="#E1F5FE"/>
+ </linearGradient>
+ </defs>
+ <!-- ice surface -->
+ <rect x="2" y="27" width="28" height="3" rx="1" fill="url(#ice)"/>
+ <!-- ice sheen -->
+ <path d="M4 27.5 Q10 27 16 27.5 Q22 28 28 27.5" stroke="#FFFFFF" stroke-opacity="0.533" stroke-width="0.5" fill="none"/>
+ <!-- skate blade left -->
+ <path d="M8 27 L14 27" stroke="#90A4AE" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <!-- skate boot left -->
+ <rect x="8" y="24" width="5" height="3.5" rx="1.5" fill="#1565C0"/>
+ <!-- skate blade right -->
+ <path d="M18 27 L26 27" stroke="#90A4AE" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <!-- skate boot right -->
+ <rect x="19" y="24" width="5" height="3.5" rx="1.5" fill="#1565C0"/>
+ <!-- legs -->
+ <path d="M11 19 L10.5 24" stroke-width="4" stroke="url(#bd)" stroke-linecap="round" fill="none"/>
+ <path d="M17 18 L21.5 24" stroke-width="4" stroke="url(#bd)" stroke-linecap="round" fill="none"/>
+ <!-- torso gliding forward, slight lean -->
+ <rect x="10" y="11" width="10" height="8" rx="3" fill="url(#bd)"/>
+ <!-- arms out -->
+ <path d="M10 14 L4 12" stroke-width="3" stroke="url(#sk)" stroke-linecap="round" fill="none"/>
+ <path d="M20 13 L26 11" stroke-width="3" stroke="url(#sk)" stroke-linecap="round" fill="none"/>
+ <circle cx="4" cy="12" r="1.5" fill="url(#sk)"/>
+ <circle cx="26" cy="11" r="1.5" fill="url(#sk)"/>
+ <!-- head -->
+ <circle cx="15" cy="7.5" r="4" fill="url(#sk)"/>
+ <ellipse cx="13.5" cy="6.3" rx="1.7" ry="1.2" fill="#FFFFFF" fill-opacity="0.333"/>
+ <circle cx="13.5" cy="7.5" r="0.65" fill="#3E2723"/>
+ <circle cx="16.5" cy="7.5" r="0.65" fill="#3E2723"/>
+ <!-- smile -->
+ <path d="M13.5 9 Q15 10.5 16.5 9" stroke="#3E2723" stroke-width="0.6" fill="none" stroke-linecap="round"/>
+ <!-- speed lines -->
+ <path d="M2 15 L6 15" stroke="#EC407A" stroke-opacity="0.267" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <path d="M1 17 L5 17" stroke="#EC407A" stroke-opacity="0.267" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+</svg>

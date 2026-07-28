@@ -1,0 +1,91 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="bk_oven" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#ccbbaa"/>
+ <stop offset="60%" stop-color="#997766"/>
+ <stop offset="100%" stop-color="#664433"/>
+ </radialGradient>
+ <radialGradient id="bk_int" cx="50%" cy="50%" r="60%">
+ <stop offset="0%" stop-color="#ffcc66"/>
+ <stop offset="70%" stop-color="#ee8800"/>
+ <stop offset="100%" stop-color="#aa4400"/>
+ </radialGradient>
+ <radialGradient id="bk_cake" cx="40%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#ffe0a0"/>
+ <stop offset="60%" stop-color="#ddaa44"/>
+ <stop offset="100%" stop-color="#aa7711"/>
+ </radialGradient>
+ <radialGradient id="bk_top" cx="40%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#ffeeaa"/>
+ <stop offset="70%" stop-color="#cc9922"/>
+ <stop offset="100%" stop-color="#885500"/>
+ </radialGradient>
+ <linearGradient id="bk_mitt" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#cc6633"/>
+ <stop offset="100%" stop-color="#882200"/>
+ </linearGradient>
+ <linearGradient id="bk_tray" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#cccccc"/>
+ <stop offset="100%" stop-color="#888888"/>
+ </linearGradient>
+</defs>
+<!-- ground shadow -->
+<!-- OVEN BODY -->
+<rect x="3" y="7" width="26" height="23" rx="1.5" fill="url(#bk_oven)" filter="url(#bk_sh)"/>
+<!-- Oven door frame -->
+<rect x="5" y="9" width="22" height="18" rx="1" fill="#bbaa99"/>
+<!-- Oven interior WARM ORANGE GLOW -->
+<rect x="6.5" y="10.5" width="19" height="15" rx="0.8" fill="url(#bk_int)" filter="url(#bk_sh)"/>
+<!-- Interior orange warmth -->
+<rect x="7" y="11" width="18" height="1.2" rx="0.5" fill="#ffeeaa" fill-opacity="0.3"/>
+<!-- HEATING ELEMENTS (glowing orange top) -->
+<path d="M8,12 L24,12" stroke="#ff6600" stroke-width="1" stroke-linecap="round" fill="none"/>
+<path d="M8,12 L24,12" stroke="#ffcc22" stroke-width="0.4" stroke-linecap="round" fill="none" stroke-opacity="0.7"/>
+<!-- BAKING TRAY -->
+<rect x="8" y="20" width="16" height="4" rx="0.8" fill="url(#bk_tray)" filter="url(#bk_sh)"/>
+<rect x="7" y="21" width="1.5" height="1.5" rx="0.5" fill="#aaa"/>
+<rect x="23.5" y="21" width="1.5" height="1.5" rx="0.5" fill="#aaa"/>
+<!-- Tray shine -->
+<path d="M9,20.5 Q16,20 23,20.5" stroke="#fff" stroke-width="0.4" fill="none" stroke-opacity="0.4"/>
+<!-- BAKED CAKE / BREAD on tray (golden top — NOT meat) -->
+<!-- Cake body -->
+<ellipse cx="16" cy="20.5" rx="6.5" ry="2.8" fill="url(#bk_cake)" filter="url(#bk_sh)"/>
+<!-- Cake top dome (golden-brown, cooked) -->
+<path d="M10,20 Q16,16 22,20" fill="url(#bk_top)" filter="url(#bk_sh)"/>
+<ellipse cx="16" cy="20" rx="6" ry="1.2" fill="url(#bk_top)" fill-opacity="0.8"/>
+<!-- Cake top highlight (golden glow) -->
+<ellipse cx="14" cy="18.5" rx="2.5" ry="1.2" fill="#fffacc" fill-opacity="0.5"/>
+<!-- Cake texture lines -->
+<path d="M11,19.5 Q16,17.5 21,19.5" stroke="#cc8822" stroke-width="0.5" fill="none" stroke-opacity="0.5"/>
+<!-- Small cookies around cake for context -->
+<circle cx="10.5" cy="22.5" r="1.5" fill="#ddaa55" filter="url(#bk_sh)"/>
+<circle cx="10.5" cy="22.5" r="1" fill="#eecc77" fill-opacity="0.8"/>
+<circle cx="21.5" cy="22.5" r="1.5" fill="#ddaa55" filter="url(#bk_sh)"/>
+<circle cx="21.5" cy="22.5" r="1" fill="#eecc77" fill-opacity="0.8"/>
+<!-- HEAT-WAVE lines rising from cake/tray -->
+<path d="M12,19 Q11.5,17 12,15" stroke="#ffaa44" stroke-width="0.5" fill="none" stroke-opacity="0.7"/>
+<path d="M16,18 Q15.5,16 16,14" stroke="#ffaa44" stroke-width="0.6" fill="none" stroke-opacity="0.75"/>
+<path d="M20,19 Q20.5,17 20,15" stroke="#ffaa44" stroke-width="0.5" fill="none" stroke-opacity="0.7"/>
+<!-- OVEN MITT HANDS reaching in to retrieve tray -->
+<!-- Left mitt -->
+<ellipse cx="5.5" cy="20" rx="2.5" ry="3.2" fill="url(#bk_mitt)" filter="url(#bk_sh)"/>
+<!-- Left mitt texture lines -->
+<line x1="5.5" y1="18" x2="5.5" y2="22" stroke="#cc4411" stroke-width="0.3" stroke-opacity="0.5"/>
+<ellipse cx="4.5" cy="18.5" rx="1" ry="1.5" fill="#dd5522" fill-opacity="0.85"/>
+<!-- Left fingers of mitt -->
+<ellipse cx="6.5" cy="17.5" rx="1" ry="0.7" fill="#bb3311" fill-opacity="0.8"/>
+<!-- Right mitt -->
+<ellipse cx="26.5" cy="20" rx="2.5" ry="3.2" fill="url(#bk_mitt)" filter="url(#bk_sh)"/>
+<line x1="26.5" y1="18" x2="26.5" y2="22" stroke="#cc4411" stroke-width="0.3" stroke-opacity="0.5"/>
+<ellipse cx="27.5" cy="18.5" rx="1" ry="1.5" fill="#dd5522" fill-opacity="0.85"/>
+<ellipse cx="25.5" cy="17.5" rx="1" ry="0.7" fill="#bb3311" fill-opacity="0.8"/>
+<!-- Oven door handle at bottom -->
+<rect x="10" y="28.5" width="12" height="1.5" rx="0.6" fill="#9a7755" filter="url(#bk_sh)"/>
+<!-- Oven knobs top -->
+<circle cx="8" cy="8" r="1" fill="#888" filter="url(#bk_sh)"/>
+<circle cx="8" cy="8" r="0.5" fill="#555"/>
+<circle cx="16" cy="8" r="1" fill="#888" filter="url(#bk_sh)"/>
+<circle cx="16" cy="8" r="0.5" fill="#555"/>
+<circle cx="24" cy="8" r="1" fill="#888" filter="url(#bk_sh)"/>
+<circle cx="24" cy="8" r="0.5" fill="#555"/>
+</svg>

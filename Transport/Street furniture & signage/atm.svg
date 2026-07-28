@@ -1,0 +1,52 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="atmBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aeb6bd"/>
+      <stop offset="1" stop-color="#7c858d"/>
+    </linearGradient>
+    <linearGradient id="atmScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fd3ff"/>
+      <stop offset="1" stop-color="#2f93d6"/>
+    </linearGradient>
+    <linearGradient id="atmCash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ad99a"/>
+      <stop offset="1" stop-color="#5fae5f"/>
+    </linearGradient>
+  </defs>
+  <!-- machine body -->
+  <rect x="6" y="3" width="20" height="26" rx="2.4" fill="url(#atmBody)" stroke="#5e666d" stroke-width="0.6"/>
+  <!-- top gloss -->
+  <rect x="7.2" y="4" width="17.6" height="3" rx="1.2" fill="#ffffff" opacity="0.12"/>
+  <!-- screen -->
+  <rect x="8.5" y="5.8" width="15" height="9" rx="1.2" fill="url(#atmScreen)" stroke="#23628f" stroke-width="0.5"/>
+  <!-- screen content: currency + lines -->
+  <text x="16" y="12.4" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff" text-anchor="middle">$</text>
+  <rect x="9.6" y="6.8" width="5" height="1" rx="0.5" fill="#ffffff" opacity="0.5"/>
+  <rect x="9.6" y="13" width="6" height="0.9" rx="0.45" fill="#ffffff" opacity="0.4"/>
+  <!-- side soft keys -->
+  <g fill="#5e666d">
+    <rect x="8.6" y="7.6" width="0.7" height="1.4" rx="0.3"/>
+    <rect x="8.6" y="10.2" width="0.7" height="1.4" rx="0.3"/>
+    <rect x="22.7" y="7.6" width="0.7" height="1.4" rx="0.3"/>
+    <rect x="22.7" y="10.2" width="0.7" height="1.4" rx="0.3"/>
+  </g>
+  <!-- keypad -->
+  <g fill="#5b636a">
+    <rect x="9.5" y="17" width="2.4" height="2.1" rx="0.5"/>
+    <rect x="12.6" y="17" width="2.4" height="2.1" rx="0.5"/>
+    <rect x="15.7" y="17" width="2.4" height="2.1" rx="0.5"/>
+    <rect x="9.5" y="19.7" width="2.4" height="2.1" rx="0.5"/>
+    <rect x="12.6" y="19.7" width="2.4" height="2.1" rx="0.5"/>
+    <rect x="15.7" y="19.7" width="2.4" height="2.1" rx="0.5"/>
+    <rect x="9.5" y="22.4" width="2.4" height="2.1" rx="0.5"/>
+    <rect x="12.6" y="22.4" width="2.4" height="2.1" rx="0.5"/>
+    <rect x="15.7" y="22.4" width="2.4" height="2.1" rx="0.5"/>
+  </g>
+  <!-- card slot -->
+  <rect x="19.6" y="17.2" width="4.6" height="1.4" rx="0.7" fill="#3a4147"/>
+  <rect x="20" y="17.5" width="3.8" height="0.5" rx="0.25" fill="#5fae5f"/>
+  <!-- cash dispenser with notes -->
+  <rect x="8.5" y="25.4" width="15" height="2.6" rx="0.8" fill="#3a4147"/>
+  <rect x="10.5" y="25.9" width="11" height="2.4" rx="0.5" fill="url(#atmCash)" stroke="#3f8a3f" stroke-width="0.4"/>
+  <circle cx="16" cy="27" r="0.9" fill="#cdeccd"/>
+</svg>

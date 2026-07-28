@@ -1,0 +1,47 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,6.848) scale(0.786)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ladleMetal" x1="0" y1="0" x2="0.2" y2="1">
+ <stop offset="0%" stop-color="#d8d8d8"/>
+ <stop offset="50%" stop-color="#b0b0b0"/>
+ <stop offset="100%" stop-color="#787878"/>
+ </linearGradient>
+ <linearGradient id="ladleBowl" x1="0" y1="0" x2="0.2" y2="1">
+ <stop offset="0%" stop-color="#c8c8c8"/>
+ <stop offset="50%" stop-color="#a0a0a0"/>
+ <stop offset="100%" stop-color="#686868"/>
+ </linearGradient>
+ <linearGradient id="soupG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#d89858" stop-opacity="0.9"/>
+ <stop offset="100%" stop-color="#a86828" stop-opacity="0.8"/>
+ </linearGradient>
+ <radialGradient id="ladleSheen" cx="35%" cy="30%" r="55%">
+ <stop offset="0%" stop-color="#f0f0f0" stop-opacity="0.5"/>
+ <stop offset="100%" stop-color="#a0a0a0" stop-opacity="0"/>
+ </radialGradient>
+ <linearGradient id="dropG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#c88848" stop-opacity="0.9"/>
+ <stop offset="100%" stop-color="#a06020" stop-opacity="0.7"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- handle - long, angled -->
+ <path d="M20,7 Q24,5 27,4 Q29,4 29,6 Q29,7.5 27,8 Q24,9 21,11" stroke="url(#ladleMetal)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <!-- handle hook at top -->
+ <path d="M27,4 Q29.5,4 29.5,6.5 Q29.5,9 27,9" stroke="url(#ladleMetal)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <!-- connection joint -->
+ <circle cx="20" cy="11" r="1.5" fill="url(#ladleMetal)"/>
+ <!-- ladle bowl body -->
+ <path d="M10,13 Q7,17 8,22 Q9,26 14,27 Q19,27 21,23 Q22,19 20,15 Q18,12 15,11 Q12,11 10,13 Z" fill="url(#ladleBowl)"/>
+ <!-- bowl sheen overlay -->
+ <path d="M10,13 Q7,17 8,22 Q9,26 14,27 Q19,27 21,23 Q22,19 20,15 Q18,12 15,11 Q12,11 10,13 Z" fill="url(#ladleSheen)"/>
+ <!-- soup fill inside bowl -->
+ <path d="M10,17 Q9,21 11,24 Q13,26.5 15,26.5 Q18,26.5 20,24 Q21.5,21 21,17 Z" fill="url(#soupG)"/>
+ <!-- soup surface -->
+ <ellipse cx="15.5" cy="17" rx="5.5" ry="1.2" fill="#d89858" fill-opacity="0.7"/>
+ <!-- soup drip below bowl -->
+ <path d="M14,27 Q14,29 15,30 Q16,30 16.5,28 Q15.5,27.5 14,27 Z" fill="url(#dropG)"/>
+ <!-- handle highlight -->
+ <path d="M21,10 Q24.5,8.5 26.5,7" stroke="#e0e0e0" stroke-width="0.7" fill="none" stroke-opacity="0.5" stroke-linecap="round"/>
+ <!-- bowl highlight -->
+ <path d="M10,15 Q9.5,19 10,22" stroke="#d8d8d8" stroke-width="1.2" fill="none" stroke-opacity="0.4" stroke-linecap="round"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1483" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1483)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

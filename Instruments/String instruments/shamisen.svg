@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="sh_neck" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0%" stop-color="#7a4f1c"/><stop offset="45%" stop-color="#a6741c"/><stop offset="100%" stop-color="#5a3a10"/>
+</linearGradient>
+<linearGradient id="sh_head" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0%" stop-color="#6b4518"/><stop offset="50%" stop-color="#8a5a1c"/><stop offset="100%" stop-color="#4a300e"/>
+</linearGradient>
+<radialGradient id="sh_body" cx="38%" cy="30%" r="85%">
+<stop offset="0%" stop-color="#fff6e4"/><stop offset="60%" stop-color="#f0dcba"/><stop offset="100%" stop-color="#d9bf90"/>
+</radialGradient>
+<linearGradient id="sh_rim" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#8a5a1c"/><stop offset="100%" stop-color="#4a300e"/>
+</linearGradient>
+</defs>
+<!-- peg head -->
+<path d="M13.4 2.2C13.4 1.6 13.9 1.3 14.4 1.5L18.1 2.8C18.6 3 18.7 3.7 18.3 4.1L17 5.4H15L13.6 3.2Z" fill="url(#sh_head)"/>
+<!-- tuning pegs -->
+<rect x="11.6" y="2.3" width="3.4" height="1.2" rx="0.6" fill="#3a2810"/>
+<rect x="12" y="4.0" width="3.4" height="1.2" rx="0.6" fill="#3a2810"/>
+<rect x="17.0" y="2.6" width="3.4" height="1.2" rx="0.6" fill="#3a2810"/>
+<circle cx="11.7" cy="2.9" r="0.7" fill="#5a3a10"/>
+<circle cx="12.1" cy="4.6" r="0.7" fill="#5a3a10"/>
+<circle cx="20.3" cy="3.2" r="0.7" fill="#5a3a10"/>
+<!-- long neck -->
+<rect x="14.6" y="5" width="2.8" height="15" fill="url(#sh_neck)"/>
+<rect x="14.8" y="5" width="0.6" height="15" fill="#fff" opacity="0.28"/>
+<!-- square body (drum) -->
+<rect x="8.5" y="18.5" width="15" height="12" rx="1.2" fill="url(#sh_rim)"/>
+<rect x="9.8" y="19.8" width="12.4" height="9.4" rx="0.6" fill="url(#sh_body)"/>
+<rect x="9.8" y="19.8" width="12.4" height="2.4" rx="0.6" fill="#fff" opacity="0.35"/>
+<!-- neck overlaps body to the tailpiece -->
+<rect x="14.6" y="19.5" width="2.8" height="9.5" fill="url(#sh_neck)"/>
+<!-- bridge -->
+<rect x="12.5" y="25.2" width="7" height="1.1" rx="0.3" fill="#6b4818"/>
+<!-- tailpiece -->
+<rect x="14.4" y="28.4" width="3.2" height="1.6" rx="0.4" fill="#3a2810"/>
+<!-- 3 strings full length -->
+<line x1="15.2" y1="3.2" x2="15.2" y2="28.6" stroke="#f5ead2" stroke-width="0.28"/>
+<line x1="16" y1="3.2" x2="16" y2="28.6" stroke="#f5ead2" stroke-width="0.28"/>
+<line x1="16.8" y1="3.2" x2="16.8" y2="28.6" stroke="#f5ead2" stroke-width="0.28"/>
+</svg>

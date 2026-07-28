@@ -1,0 +1,15 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="cv-curve" x1="0%" y1="100%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#1060e0"/>
+<stop offset="50%" stop-color="#4aa0ff"/>
+<stop offset="100%" stop-color="#0840c0"/>
+</linearGradient>
+</defs>
+<!-- subtle ground baseline -->
+<line x1="4" y1="25" x2="28" y2="25" stroke="#9aa6ba" stroke-width="0.7" stroke-opacity="0.6" stroke-linecap="round"/>
+<!-- glossy arched curve, lower-left sweeping up and over to lower-right -->
+<path d="M5 25 C7 9 25 9 27 25" fill="none" stroke="url(#cv-curve)" stroke-width="3.2" stroke-linecap="round"/>
+<!-- soft highlight along the top of the stroke -->
+<path d="M7 21 C9 12 23 12 25 21" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-opacity="0.55" stroke-linecap="round"/>
+</svg>

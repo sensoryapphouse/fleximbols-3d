@@ -1,0 +1,84 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="bull-head" cx="0.4" cy="0.3" r="0.7">
+ <stop offset="0%" stop-color="#d8c0a0"/>
+ <stop offset="50%" stop-color="#8a6048"/>
+ <stop offset="100%" stop-color="#3a2418"/>
+ </radialGradient>
+ <radialGradient id="body-mino" cx="0.4" cy="0.3" r="0.7">
+ <stop offset="0%" stop-color="#d8c8b8"/>
+ <stop offset="50%" stop-color="#7a5848"/>
+ <stop offset="100%" stop-color="#2a1810"/>
+ </radialGradient>
+ <radialGradient id="axe-blade" cx="0.3" cy="0.3" r="0.9">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="50%" stop-color="#a0b0bc"/>
+ <stop offset="100%" stop-color="#3a4048"/>
+ </radialGradient>
+ <radialGradient id="axe-handle" cx="0.3" cy="0.3" r="0.9">
+ <stop offset="0%" stop-color="#c8a888"/>
+ <stop offset="100%" stop-color="#3a2010"/>
+ </radialGradient>
+ <radialGradient id="eye-mino" cx="0.35" cy="0.3" r="0.7">
+ <stop offset="0%" stop-color="#ffa080"/>
+ <stop offset="50%" stop-color="#e02810"/>
+ <stop offset="100%" stop-color="#700808"/>
+ </radialGradient>
+ <radialGradient id="horn-grad" cx="0.3" cy="0.3" r="0.9">
+ <stop offset="0%" stop-color="#fff9c4"/>
+ <stop offset="50%" stop-color="#c8a040"/>
+ <stop offset="100%" stop-color="#3a2810"/>
+ </radialGradient>
+ <radialGradient id="laby-grad" cx="0.3" cy="0.3" r="0.9">
+ <stop offset="0%" stop-color="#a0b0bc"/>
+ <stop offset="100%" stop-color="#1a2028"/>
+ </radialGradient>
+ </defs>
+ <!-- Labyrinth hint (background wall segments) -->
+ <g fill="none" stroke="url(#laby-grad)" stroke-width="0.8" stroke-opacity="0.35">
+ <path d="M2,30 L2,20 L6,20"/>
+ <path d="M30,30 L30,20 L26,20"/>
+ <path d="M2,5 L2,2 L10,2"/>
+ <path d="M30,5 L30,2 L22,2"/>
+ </g>
+ <!-- Body (muscular torso) -->
+ <path d="M10 19 Q9 25 11 30 L21 30 Q23 25 22 19 Q19 17 16 17 Q13 17 10 19 Z" fill="url(#body-mino)"/>
+ <!-- Chest highlight -->
+ <ellipse cx="13" cy="22" rx="1.5" ry="3" fill="#fff" fill-opacity="0.25"/>
+ <!-- Left arm (raised) -->
+ <path d="M10 19 Q7 17 6 14 Q5 13 6.5 12.5 Q8 13 9 16 Z" fill="url(#body-mino)"/>
+ <!-- Right arm (holding axe, raised) -->
+ <path d="M22 19 Q25 16 26 13 Q26 12 25 12 Q23 13 22 16 Z" fill="url(#body-mino)"/>
+ <!-- Axe handle -->
+ <rect x="25" y="3" width="1.2" height="12" rx="0.4" fill="url(#axe-handle)" transform="rotate(15 25.5 9)"/>
+ <!-- Axe blade (large crescent) -->
+ <path d="M27 4 Q31 5 30 9 Q28 8 26 7 Z" fill="url(#axe-blade)"/>
+ <ellipse cx="28" cy="5.5" rx="0.8" ry="0.4" fill="#ffffff" opacity="0.7"/>
+ <!-- Neck -->
+ <rect x="13.5" y="15" width="5" height="4" rx="2" fill="url(#bull-head)"/>
+ <!-- Bull head -->
+ <ellipse cx="16" cy="12" rx="6" ry="5" fill="url(#bull-head)"/>
+ <ellipse cx="13" cy="10" rx="1.5" ry="1.5" fill="#ffffff" opacity="0.25"/>
+ <!-- Snout / muzzle -->
+ <ellipse cx="16" cy="16.5" rx="4" ry="2.8" fill="#a1887f"/>
+ <ellipse cx="16" cy="15.5" rx="2.5" ry="0.6" fill="#ffffff" opacity="0.3"/>
+ <ellipse cx="14.5" cy="17" rx="1" ry="0.7" fill="#3a1a10"/>
+ <ellipse cx="17.5" cy="17" rx="1" ry="0.7" fill="#3a1a10"/>
+ <!-- Eyes (angry red) -->
+ <ellipse cx="12.5" cy="12.5" rx="1" ry="1" fill="url(#eye-mino)"/>
+ <ellipse cx="12.5" cy="12.5" rx="0.5" ry="0.5" fill="#1a1a1a"/>
+ <ellipse cx="12.3" cy="12.2" rx="0.2" ry="0.2" fill="#fff" fill-opacity="0.9"/>
+ <ellipse cx="19.5" cy="12.5" rx="1" ry="1" fill="url(#eye-mino)"/>
+ <ellipse cx="19.5" cy="12.5" rx="0.5" ry="0.5" fill="#1a1a1a"/>
+ <ellipse cx="19.3" cy="12.2" rx="0.2" ry="0.2" fill="#fff" fill-opacity="0.9"/>
+ <!-- Horns -->
+ <path d="M10 8 Q7 4 6 7 Q7 9 10 10 Z" fill="url(#horn-grad)"/>
+ <path d="M22 8 Q25 4 26 7 Q25 9 22 10 Z" fill="url(#horn-grad)"/>
+ <!-- Ears -->
+ <ellipse cx="9.5" cy="13" rx="1.5" ry="2" fill="url(#bull-head)"/>
+ <ellipse cx="9.5" cy="13" rx="1" ry="1.4" fill="#ef9a9a" fill-opacity="0.5"/>
+ <ellipse cx="22.5" cy="13" rx="1.5" ry="2" fill="url(#bull-head)"/>
+ <ellipse cx="22.5" cy="13" rx="1" ry="1.4" fill="#ef9a9a" fill-opacity="0.5"/>
+ <!-- Nose ring -->
+ <circle cx="16" cy="18" r="0.6" fill="none" stroke="#d4af37" stroke-width="0.3"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="fe_table" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#d4a870"/><stop offset="70%" stop-color="#a07040"/><stop offset="100%" stop-color="#604010"/></radialGradient>
+ <radialGradient id="fe_plate" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#d0d0d0"/></radialGradient>
+ <radialGradient id="fe_food1" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#e87050"/><stop offset="100%" stop-color="#a03020"/></radialGradient>
+ <radialGradient id="fe_food2" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#88cc44"/><stop offset="100%" stop-color="#448820"/></radialGradient>
+ <radialGradient id="fe_food3" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#f5d080"/><stop offset="100%" stop-color="#c09040"/></radialGradient>
+ </defs>
+ <!-- table surface -->
+ <path d="M2 22 Q2 26 16 26 Q30 26 30 22 L28 19 L4 19Z" fill="url(#fe_table)"/>
+ <ellipse cx="16" cy="19" rx="14" ry="3.5" fill="#c09050"/>
+ <!-- plate 1 left -->
+ <ellipse cx="7" cy="19" rx="4.5" ry="1.8" fill="url(#fe_plate)"/>
+ <ellipse cx="7" cy="19" rx="3" ry="1.2" fill="url(#fe_food1)"/>
+ <!-- plate 2 center -->
+ <ellipse cx="16" cy="17.5" rx="5" ry="2" fill="url(#fe_plate)"/>
+ <ellipse cx="16" cy="17.5" rx="3.5" ry="1.4" fill="url(#fe_food2)"/>
+ <!-- plate 3 right -->
+ <ellipse cx="25" cy="19" rx="4.5" ry="1.8" fill="url(#fe_plate)"/>
+ <ellipse cx="25" cy="19" rx="3" ry="1.2" fill="url(#fe_food3)"/>
+ <!-- candles -->
+ <rect x="15" y="10" width="2" height="7" rx="1" fill="#fff8e8"/>
+ <ellipse cx="16" cy="10" rx="1" ry="0.5" fill="#ffcc44"/>
+ <path d="M16 8 Q16.5 9 16 10 Q15.5 9 16 8Z" fill="#ff8800"/>
+ <!-- wine glasses -->
+ <path d="M10 15 Q10 18 11 19 M10 18 L12 18" fill="none" stroke="#88aacc" stroke-width="0.8"/>
+ <path d="M20 15 Q20 18 21 19 M20 18 L22 18" fill="none" stroke="#88aacc" stroke-width="0.8"/>
+</svg>

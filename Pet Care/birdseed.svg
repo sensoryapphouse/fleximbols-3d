@@ -1,0 +1,23 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<radialGradient id="bag" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE0A0"/><stop offset="100%" stop-color="#A56424"/></radialGradient>
+<radialGradient id="dark" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#6A4828"/><stop offset="100%" stop-color="#2E1A0A"/></radialGradient>
+<radialGradient id="seed" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#C99878"/><stop offset="100%" stop-color="#6A4828"/></radialGradient>
+<radialGradient id="yellow" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFEE6A"/><stop offset="100%" stop-color="#E5A700"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="40%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<path d="M8 28 Q6 26 7 22 L8 12 Q8 10 10 9 L14 8 L18 8 L22 9 Q24 10 24 12 L25 22 Q26 26 24 28 Z" fill="url(#bag)"/>
+<path d="M8 28 L11 28 L11 8.5 L10 9 Q8 10 8 12 Z" fill="url(#hi)" opacity="0.5"/>
+<rect x="13" y="6" width="6" height="3" rx="0.5" fill="url(#dark)"/>
+<ellipse cx="16" cy="14" rx="6" ry="3" fill="url(#yellow)" opacity="0.6"/>
+<g fill="url(#seed)">
+<ellipse cx="11" cy="14" rx="0.7" ry="1"/>
+<ellipse cx="13.5" cy="13" rx="0.7" ry="1"/>
+<ellipse cx="16" cy="14.5" rx="0.7" ry="1"/>
+<ellipse cx="18.5" cy="13" rx="0.7" ry="1"/>
+<ellipse cx="21" cy="14" rx="0.7" ry="1"/>
+<ellipse cx="12" cy="16" rx="0.7" ry="1"/>
+<ellipse cx="15" cy="17" rx="0.7" ry="1"/>
+<ellipse cx="18" cy="16.5" rx="0.7" ry="1"/>
+<ellipse cx="20" cy="17" rx="0.7" ry="1"/>
+</g>
+<path d="M10 24 L22 24" stroke="url(#dark)" stroke-width="0.3" opacity="0.5"/></svg>

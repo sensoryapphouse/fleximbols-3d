@@ -1,0 +1,51 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="boot" cx="0.3" cy="0.3" r="0.85">
+ <stop offset="0" stop-color="#d8e8ff"/>
+ <stop offset="0.6" stop-color="#5a78b8"/>
+ <stop offset="1" stop-color="#1a2858"/>
+ </radialGradient>
+ <radialGradient id="boot2" cx="0.3" cy="0.3" r="0.85">
+ <stop offset="0" stop-color="#ffd0d0"/>
+ <stop offset="0.6" stop-color="#d04050"/>
+ <stop offset="1" stop-color="#4a0810"/>
+ </radialGradient>
+ <radialGradient id="frame" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#a8b0c0"/>
+ <stop offset="1" stop-color="#202840"/>
+ </radialGradient>
+ <radialGradient id="whl" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#fff4a8"/>
+ <stop offset="1" stop-color="#a86a08"/>
+ </radialGradient>
+ </defs>
+ 
+ <g transform="translate(0 -2)">
+ <path d="M 1 14 Q 1 10 5 10 L 11 10 Q 14 10 14 14 L 14 19 L 1 19 Z" fill="url(#boot)"/>
+ <rect x="1" y="19" width="13" height="2" rx="0.4" fill="#1a1a28"/>
+ <rect x="2" y="21" width="11" height="2" rx="0.5" fill="url(#frame)"/>
+ <circle cx="3.5" cy="24" r="1.5" fill="url(#whl)"/>
+ <circle cx="6.5" cy="24.3" r="1.5" fill="url(#whl)"/>
+ <circle cx="9.5" cy="24.3" r="1.5" fill="url(#whl)"/>
+ <circle cx="12.5" cy="24" r="1.5" fill="url(#whl)"/>
+ <g stroke="#fff" stroke-width="0.3" opacity="0.5">
+ <line x1="3" y1="13" x2="11" y2="13"/>
+ <line x1="3" y1="15" x2="11" y2="15"/>
+ <line x1="3" y1="17" x2="11" y2="17"/>
+ </g>
+ </g>
+ <g transform="translate(16 4)">
+ <path d="M 1 14 Q 1 10 5 10 L 11 10 Q 14 10 14 14 L 14 19 L 1 19 Z" fill="url(#boot2)"/>
+ <rect x="1" y="19" width="13" height="2" rx="0.4" fill="#1a1a28"/>
+ <rect x="2" y="21" width="11" height="2" rx="0.5" fill="url(#frame)"/>
+ <circle cx="3.5" cy="24" r="1.5" fill="url(#whl)"/>
+ <circle cx="6.5" cy="24.3" r="1.5" fill="url(#whl)"/>
+ <circle cx="9.5" cy="24.3" r="1.5" fill="url(#whl)"/>
+ <circle cx="12.5" cy="24" r="1.5" fill="url(#whl)"/>
+ <g stroke="#fff" stroke-width="0.3" opacity="0.5">
+ <line x1="3" y1="13" x2="11" y2="13"/>
+ <line x1="3" y1="15" x2="11" y2="15"/>
+ <line x1="3" y1="17" x2="11" y2="17"/>
+ </g>
+ </g>
+</svg>

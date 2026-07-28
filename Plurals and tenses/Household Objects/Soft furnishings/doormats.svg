@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,6.867) scale(0.7854)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="dm_door" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9a6a40"/><stop offset="100%" stop-color="#6e4424"/></linearGradient>
+<linearGradient id="dm_wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e4ddd2"/><stop offset="100%" stop-color="#c9c0b2"/></linearGradient>
+<linearGradient id="dm_mat" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#cf9d76"/><stop offset="100%" stop-color="#8b5c3a"/></linearGradient>
+<linearGradient id="dm_matside" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8b5c3a"/><stop offset="100%" stop-color="#5a3520"/></linearGradient>
+<linearGradient id="dm_border" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#5a3520"/><stop offset="100%" stop-color="#3a2010"/></linearGradient>
+<filter id="dm_shd" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="0.6" stdDeviation="0.5" flood-color="#000" flood-opacity="0.25"/></filter>
+</defs>
+<!-- Wall behind -->
+<rect x="3" y="2" width="26" height="20" fill="url(#dm_wall)" stroke="#b3aa9c" stroke-width="0.5"/>
+<!-- Door in the wall -->
+<rect x="10" y="3" width="12" height="17" rx="0.6" fill="url(#dm_door)" stroke="#4e3015" stroke-width="0.7"/>
+<rect x="11.2" y="4.4" width="9.6" height="6.6" rx="0.4" fill="#5e3a1e" opacity="0.5"/>
+<rect x="11.2" y="12" width="9.6" height="6.6" rx="0.4" fill="#5e3a1e" opacity="0.5"/>
+<circle cx="19.7" cy="11.6" r="0.7" fill="#e9c558" stroke="#a8730f" stroke-width="0.25"/>
+<!-- Doormat in front of the threshold (perspective) -->
+<g filter="url(#dm_shd)">
+<polygon points="6,22.5 26,22.5 29,28.5 3,28.5" fill="url(#dm_mat)" stroke="#4e3015" stroke-width="0.6"/>
+<!-- mat front edge thickness -->
+<polygon points="3,28.5 29,28.5 28.6,29.6 3.4,29.6" fill="url(#dm_matside)" stroke="#4e3015" stroke-width="0.4"/>
+</g>
+<!-- Woven texture: cross-hatch (no text) -->
+<g stroke="#6e4424" stroke-width="0.4" opacity="0.55">
+<line x1="6.6" y1="23.6" x2="25.4" y2="23.6"/>
+<line x1="5.6" y1="25.4" x2="26.4" y2="25.4"/>
+<line x1="4.6" y1="27.2" x2="27.4" y2="27.2"/>
+</g>
+<g stroke="#6e4424" stroke-width="0.4" opacity="0.45">
+<line x1="9" y1="22.7" x2="7" y2="28.4"/>
+<line x1="13" y1="22.7" x2="11.6" y2="28.4"/>
+<line x1="16" y1="22.7" x2="16" y2="28.4"/>
+<line x1="19" y1="22.7" x2="20.4" y2="28.4"/>
+<line x1="23" y1="22.7" x2="25" y2="28.4"/>
+</g>
+<!-- Inner border frame on the mat -->
+<polygon points="7.4,23.6 24.6,23.6 26.6,27.6 5.4,27.6" fill="none" stroke="url(#dm_border)" stroke-width="0.7"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2229" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2229)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

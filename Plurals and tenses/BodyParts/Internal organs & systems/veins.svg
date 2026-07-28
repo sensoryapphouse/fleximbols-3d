@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,2.275) scale(0.9289)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="vein" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5080E0"/>
+ <stop offset="100%" stop-color="#2040A0"/>
+ </linearGradient>
+ <radialGradient id="hi" cx="30%" cy="20%" r="50%">
+ <stop offset="0%" stop-color="#ffffff" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+ </radialGradient>
+ </defs>
+ <!-- main vein trunk -->
+ <path d="M16 4 C16 10 14 14 12 18 C10 22 9 26 9 28" stroke="url(#vein)" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <!-- branches -->
+ <path d="M16 8 C20 7 24 8 26 10" stroke="url(#vein)" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <path d="M15 12 C19 11 22 13 23 16" stroke="url(#vein)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+ <path d="M13 16 C9 15 7 12 6 9" stroke="url(#vein)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+ <path d="M11 21 C7 21 5 19 4 17" stroke="url(#vein)" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+ <path d="M12 18 C16 18 19 20 20 23" stroke="url(#vein)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <!-- highlight line -->
+ <path d="M16 4 C16.8 10 15 14 13 18" stroke="white" stroke-width="0.8" stroke-opacity="0.5" fill="none" stroke-linecap="round"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl659" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl659)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

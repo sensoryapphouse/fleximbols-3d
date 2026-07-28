@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="bc1" cx="40%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#FCD34D"/>
+ <stop offset="100%" stop-color="#B45309"/>
+ </radialGradient>
+ <radialGradient id="bc2" cx="40%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#F472B6"/>
+ <stop offset="100%" stop-color="#BE185D"/>
+ </radialGradient>
+</defs>
+<!-- Brooch frame oval - gold -->
+<ellipse cx="16" cy="16" rx="11" ry="9" fill="url(#bc1)"/>
+<ellipse cx="16" cy="16" rx="9" ry="7" fill="#1E1B4B"/>
+<!-- Floral gem arrangement - center -->
+<circle cx="16" cy="16" r="2.5" fill="url(#bc2)"/>
+<!-- Surrounding gems -->
+<circle cx="16" cy="11" r="1.8" fill="#60A5FA"/>
+<circle cx="20.5" cy="13.5" r="1.8" fill="#34D399"/>
+<circle cx="20.5" cy="18.5" r="1.8" fill="#FBBF24"/>
+<circle cx="16" cy="21" r="1.8" fill="#F87171"/>
+<circle cx="11.5" cy="18.5" r="1.8" fill="#A78BFA"/>
+<circle cx="11.5" cy="13.5" r="1.8" fill="#FB923C"/>
+<!-- Pin clasp -->
+<line x1="24" y1="14" x2="29" y2="12" stroke="#9CA3AF" stroke-width="0.8"/>
+<circle cx="29" cy="11.8" r="0.6" fill="#D1D5DB"/>
+<!-- Gem sheens -->
+<circle cx="15.2" cy="15.2" r="0.7" fill="rgba(255,255,255,0.5)"/>
+<circle cx="15.5" cy="10.5" r="0.5" fill="rgba(255,255,255,0.5)"/>
+</svg>

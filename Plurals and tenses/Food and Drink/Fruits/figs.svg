@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="figbody" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#cc99cc"/>
+ <stop offset="50%" stop-color="#7a2a7a"/>
+ <stop offset="100%" stop-color="#3d0d3d"/>
+</radialGradient>
+<radialGradient id="figshine" cx="30%" cy="25%" r="40%">
+ <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+ <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<!-- Fig teardrop body -->
+<path d="M16 5 Q22 9 22 18 Q22 28 16 29 Q10 28 10 18 Q10 9 16 5 Z" fill="url(#figbody)"/>
+<!-- Small bottom nub -->
+<circle cx="16" cy="28" r="1.5" fill="#3d0d3d"/>
+<!-- Shine -->
+<ellipse cx="12.5" cy="14" rx="2.5" ry="5" fill="url(#figshine)"/>
+<!-- Stem -->
+<path d="M16 5 Q16 3 17 2" stroke="#4a7a2a" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1217" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1217)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

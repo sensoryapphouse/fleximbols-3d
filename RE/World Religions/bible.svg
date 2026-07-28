@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bbl-cover" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#8B1A2C"/><stop offset="100%" stop-color="#4A0A14"/>
+ </linearGradient>
+ <linearGradient id="bbl-spine" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#5A0A18"/><stop offset="100%" stop-color="#8B1A2C"/>
+ </linearGradient>
+ <linearGradient id="bbl-pages" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#FFF8E0"/><stop offset="100%" stop-color="#F0E8C0"/>
+ </linearGradient>
+ <linearGradient id="bbl-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FFD700"/><stop offset="100%" stop-color="#B8860B"/>
+ </linearGradient>
+ </defs>
+ <!-- Pages (gilded edges) - visible on right and bottom -->
+ <rect x="9" y="5" width="17" height="24" rx="1" fill="url(#bbl-pages)"/>
+ <!-- Gold edge strip right -->
+ <rect x="24" y="5.5" width="2" height="23" rx="0.5" fill="url(#bbl-gold)" fill-opacity="0.7"/>
+ <!-- Book cover -->
+ <rect x="5" y="4" width="20" height="25" rx="2" fill="url(#bbl-cover)" filter="url(#bbl-shad)"/>
+ <!-- Spine highlight -->
+ <rect x="5" y="4" width="3" height="25" rx="1" fill="url(#bbl-spine)"/>
+ <!-- Gold cross embossed -->
+ <rect x="13.5" y="10" width="2" height="9" rx="0.5" fill="url(#bbl-gold)"/>
+ <rect x="11" y="13" width="7" height="2" rx="0.5" fill="url(#bbl-gold)"/>
+ <!-- Gold corner ornaments -->
+ <circle cx="8" cy="7" r="0.8" fill="url(#bbl-gold)"/>
+ <circle cx="23" cy="7" r="0.8" fill="url(#bbl-gold)"/>
+ <circle cx="8" cy="26" r="0.8" fill="url(#bbl-gold)"/>
+ <circle cx="23" cy="26" r="0.8" fill="url(#bbl-gold)"/>
+ <!-- Red ribbon bookmark -->
+ <rect x="18" y="4" width="1.5" height="20" rx="0.5" fill="#CC0000"/>
+ <path d="M18 24 L19.5 24 L18.75 27 Z" fill="#CC0000"/>
+</svg>

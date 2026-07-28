@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wallGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#c8b898"/>
+ <stop offset="100%" stop-color="#807050"/>
+ </linearGradient>
+ <linearGradient id="hillGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#5a9040"/>
+ <stop offset="100%" stop-color="#2a5018"/>
+ </linearGradient>
+ <linearGradient id="towerGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#d0c0a0"/>
+ <stop offset="100%" stop-color="#908060"/>
+ </linearGradient>
+ </defs>
+ <!-- green mountain ridges -->
+ <path d="M0 28 Q4 18 8 20 Q12 22 16 16 Q20 10 24 14 Q28 18 32 16 L32 32 L0 32Z"
+ fill="url(#hillGrad)"/>
+ <!-- wall body winding -->
+ 
+ <!-- crenellations on wall -->
+ <rect x="2" y="20.5" width="1.5" height="2" rx="0.3" fill="url(#towerGrad)"/>
+ <rect x="5" y="17.5" width="1.5" height="2" rx="0.3" fill="url(#towerGrad)"/>
+ <rect x="9" y="16.5" width="1.5" height="2" rx="0.3" fill="url(#towerGrad)"/>
+ <rect x="13" y="14.5" width="1.5" height="2" rx="0.3" fill="url(#towerGrad)"/>
+ <rect x="17" y="12.5" width="1.5" height="2" rx="0.3" fill="url(#towerGrad)"/>
+ <rect x="21" y="10.5" width="1.5" height="2" rx="0.3" fill="url(#towerGrad)"/>
+ <rect x="25" y="12.5" width="1.5" height="2" rx="0.3" fill="url(#towerGrad)"/>
+ <!-- watchtower 1 -->
+ 
+ <rect x="6.5" y="13" width="6" height="2" rx="0.3" fill="url(#wallGrad)"/>
+ <!-- watchtower 2 -->
+ 
+ <rect x="19.5" y="7" width="6" height="2" rx="0.3" fill="url(#wallGrad)"/>
+ <!-- tower windows -->
+ <rect x="9" y="16" width="1.5" height="2" rx="0.3" fill="#605040" fill-opacity="0.6"/>
+ <rect x="22" y="10" width="1.5" height="2" rx="0.3" fill="#605040" fill-opacity="0.6"/>
+</svg>

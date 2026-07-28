@@ -1,0 +1,49 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="afBody" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#404040"/>
+ <stop offset="100%" stop-color="#181818"/>
+ </linearGradient>
+ <linearGradient id="afAccent" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#D03020"/>
+ <stop offset="100%" stop-color="#801010"/>
+ </linearGradient>
+ <linearGradient id="afScreen" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#20A8A8"/>
+ <stop offset="100%" stop-color="#086060"/>
+ </linearGradient>
+ <linearGradient id="afDrawer" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#303030"/>
+ <stop offset="100%" stop-color="#101010"/>
+ </linearGradient>
+ </defs>
+ <!-- Body (egg-shaped) -->
+ 
+ <!-- Red accent band -->
+ <ellipse cx="16" cy="14" rx="11" ry="12" fill="none" stroke="url(#afAccent)" stroke-width="1.5"/>
+ <!-- Highlight on body -->
+ <ellipse cx="12" cy="9" rx="4" ry="5" fill="#606060" fill-opacity="0.3"/>
+ <!-- Control panel (front top) -->
+ <rect x="9" y="6" width="14" height="7" rx="2" fill="#282828"/>
+ <!-- Digital display -->
+ <rect x="10" y="7" width="8" height="4" rx="1" fill="url(#afScreen)"/>
+ <!-- Display digits (simple lines) -->
+ <rect x="11" y="8" width="1.5" height="2" rx="0.3" fill="#80FFE0" fill-opacity="0.8"/>
+ <rect x="13" y="8" width="1.5" height="2" rx="0.3" fill="#80FFE0" fill-opacity="0.7"/>
+ <rect x="15" y="8" width="1.5" height="2" rx="0.3" fill="#80FFE0" fill-opacity="0.8"/>
+ <!-- Buttons right of display -->
+ <circle cx="19.5" cy="8.5" r="0.8" fill="#D03020"/>
+ <circle cx="21.5" cy="8.5" r="0.8" fill="#888"/>
+ <circle cx="20.5" cy="10.5" r="0.8" fill="#888"/>
+ <!-- Drawer slot line -->
+ <rect x="7" y="19" width="18" height="0.8" rx="0.3" fill="#505050"/>
+ <!-- Drawer -->
+ <rect x="7" y="19.5" width="18" height="9" rx="1.5" fill="url(#afDrawer)"/>
+ <!-- Drawer handle -->
+ <rect x="11" y="23" width="10" height="1.5" rx="0.7" fill="#D03020"/>
+ <rect x="12" y="23.3" width="8" height="0.8" rx="0.3" fill="#FF5040" fill-opacity="0.5"/>
+ <!-- Ventilation dots on side -->
+ <circle cx="5" cy="12" r="0.5" fill="#383838"/>
+ <circle cx="5" cy="14.5" r="0.5" fill="#383838"/>
+ <circle cx="5" cy="17" r="0.5" fill="#383838"/>
+</svg>

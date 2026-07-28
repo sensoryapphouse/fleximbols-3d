@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="d_fruit" cx="35%" cy="35%" r="65%">
+<stop offset="0%" stop-color="#ffce54"/>
+<stop offset="100%" stop-color="#ff8c00"/>
+</radialGradient>
+</defs>
+<!-- Pumpkin-flat satsuma body -->
+<ellipse cx="13" cy="19" rx="9.5" ry="7.5" fill="url(#d_fruit)" filter="url(#d_shd)"/>
+<!-- Peel half-removed (loose skin flap) -->
+<path d="M6 16 Q4 13 8 11 Q10 10 13 10 Q11 14 10 17Z" fill="#ffab00" opacity="0.85"/>
+<path d="M13 10 Q16 9 18 11 Q20 13 19 16 Q16 14 13 10Z" fill="#ffab00" opacity="0.7"/>
+<!-- Stem -->
+<rect x="12.4" y="11.5" width="1.2" height="2.5" rx="0.6" fill="#4a7c3f"/>
+<ellipse cx="13" cy="11.5" rx="1.5" ry="0.8" fill="#5a9a4f"/>
+<!-- Two separated segments beside -->
+<ellipse cx="24.5" cy="18" rx="3" ry="4.5" fill="#ff9500" filter="url(#d_shd)"/>
+<path d="M24.5 13.5 L24.5 22.5" stroke="#cc6600" stroke-width="0.6" opacity="0.6"/>
+<ellipse cx="27.8" cy="18.5" rx="2.5" ry="4" fill="#ff9500" filter="url(#d_shd)"/>
+<path d="M27.8 14.5 L27.8 22.5" stroke="#cc6600" stroke-width="0.6" opacity="0.6"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1265" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1265)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

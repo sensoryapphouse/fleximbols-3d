@@ -1,0 +1,29 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs><radialGradient id="tc_sq" cx="40%" cy="30%" r="80%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.55"/></radialGradient></defs><g transform="translate(4 6) scale(0.5625)">
+<path d="M29.7573 15.625C29.7573 23.357 23.4893 29.625 15.7573 29.625C8.02534 29.625 1.75732 23.357 1.75732 15.625C1.75732 7.89301 8.02534 1.625 15.7573 1.625C23.4893 1.625 29.7573 7.89301 29.7573 15.625Z" fill="url(#bc_paint0_radial_18590_3060)"/>
+<path d="M29.7573 15.625C29.7573 23.357 23.4893 29.625 15.7573 29.625C8.02534 29.625 1.75732 23.357 1.75732 15.625C1.75732 7.89301 8.02534 1.625 15.7573 1.625C23.4893 1.625 29.7573 7.89301 29.7573 15.625Z" fill="url(#bc_paint1_linear_18590_3060)"/>
+<path d="M29.7573 15.625C29.7573 23.357 23.4893 29.625 15.7573 29.625C8.02534 29.625 1.75732 23.357 1.75732 15.625C1.75732 7.89301 8.02534 1.625 15.7573 1.625C23.4893 1.625 29.7573 7.89301 29.7573 15.625Z" fill="url(#bc_paint2_radial_18590_3060)"/>
+<path d="M29.7573 15.625C29.7573 23.357 23.4893 29.625 15.7573 29.625C8.02534 29.625 1.75732 23.357 1.75732 15.625C1.75732 7.89301 8.02534 1.625 15.7573 1.625C23.4893 1.625 29.7573 7.89301 29.7573 15.625Z" fill="url(#bc_paint3_radial_18590_3060)"/>
+<path d="M29.7573 15.625C29.7573 23.357 23.4893 29.625 15.7573 29.625C8.02534 29.625 1.75732 23.357 1.75732 15.625C1.75732 7.89301 8.02534 1.625 15.7573 1.625C23.4893 1.625 29.7573 7.89301 29.7573 15.625Z" fill="url(#bc_paint4_radial_18590_3060)"/>
+<defs>
+<radialGradient id="bc_paint0_radial_18590_3060" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.9365 8.375) rotate(130.168) scale(27.8086)">
+<stop offset="0.115849" stop-color="#4DA0DA"/>
+<stop offset="0.853086" stop-color="#3557C3"/>
+</radialGradient>
+<linearGradient id="bc_paint1_linear_18590_3060" x1="15.7573" y1="1.625" x2="15.7573" y2="8.125" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5B9CCE"/>
+<stop offset="1" stop-color="#5B9CCE" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="bc_paint2_radial_18590_3060" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24.4365 10.375) rotate(136.38) scale(14.6767 15.816)">
+<stop offset="0.178657" stop-color="#62A5E9"/>
+<stop offset="1" stop-color="#4579D7" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="bc_paint3_radial_18590_3060" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.249 15.625) rotate(180) scale(19.25 20)">
+<stop offset="0.62013" stop-color="#416AA9" stop-opacity="0"/>
+<stop offset="0.951299" stop-color="#859BC6"/>
+</radialGradient>
+<radialGradient id="bc_paint4_radial_18590_3060" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(15.7573 8.625) rotate(90) scale(21 23.3208)">
+<stop offset="0.863095" stop-color="#3E4DCB" stop-opacity="0"/>
+<stop offset="1" stop-color="#695FD4"/>
+</radialGradient>
+</defs>
+</g><rect x="10" y="11" width="20" height="20" rx="2" fill="url(#tc_sq)" stroke="#7A7E84" stroke-width="0.5"/></svg>

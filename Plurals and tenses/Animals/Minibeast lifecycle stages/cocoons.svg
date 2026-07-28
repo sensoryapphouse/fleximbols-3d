@@ -1,0 +1,33 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,4.038) scale(0.8738)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="branchGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#8B5E3C"/>
+ <stop offset="100%" stop-color="#c49060"/>
+ </linearGradient>
+ <radialGradient id="cocoonGrad" cx="35%" cy="30%">
+ <stop offset="0%" stop-color="#f0e8d0"/>
+ <stop offset="100%" stop-color="#c0a870"/>
+ </radialGradient>
+ <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#60b030"/>
+ <stop offset="100%" stop-color="#206010"/>
+ </linearGradient>
+ </defs>
+ <!-- Branch -->
+ <path d="M2 6 Q10 5 30 6.5 L30 8 Q10 7 2 8 Z" fill="url(#branchGrad)"/>
+ <!-- Leaf on branch -->
+ <path d="M8 8 Q6 4 9 3 Q12 2 11 8Z" fill="url(#leafGrad)"/>
+ <path d="M9 7.5 Q9 5 10 4" stroke="#3a7a10" stroke-width="0.5" fill="none"/>
+ <!-- Thread attaching cocoon -->
+ <line x1="16" y1="7" x2="16" y2="10" stroke="#d0c090" stroke-width="0.8"/>
+ <!-- Cocoon -->
+ <path d="M16 10 Q11 12 11 20 Q11 28 16 29.5 Q21 28 21 20 Q21 12 16 10 Z" fill="url(#cocoonGrad)"/>
+ <!-- Silk wrapping lines -->
+ <path d="M10 16 Q16 14 22 16" stroke="#d8c878" stroke-width="0.7" fill="none" stroke-opacity="0.7"/>
+ <path d="M10 19 Q16 17 22 19" stroke="#d8c878" stroke-width="0.7" fill="none" stroke-opacity="0.7"/>
+ <path d="M10 22 Q16 20 22 22" stroke="#d8c878" stroke-width="0.7" fill="none" stroke-opacity="0.7"/>
+ <path d="M11 25 Q16 23 21 25" stroke="#d8c878" stroke-width="0.7" fill="none" stroke-opacity="0.7"/>
+ <path d="M12 28 Q16 27 20 28" stroke="#d8c878" stroke-width="0.6" fill="none" stroke-opacity="0.6"/>
+ <!-- Diagonal silk threads -->
+ <path d="M10 18 Q14 15 18 18 Q22 15 22 20" stroke="#e0d080" stroke-width="0.5" fill="none" stroke-opacity="0.5"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl226" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl226)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

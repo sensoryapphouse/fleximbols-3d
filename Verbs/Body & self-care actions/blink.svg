@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="face" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FFDFC4"/><stop offset="100%" stop-color="#D49D7A"/>
+ </radialGradient>
+ </defs>
+ <circle cx="16" cy="17" r="11" fill="url(#face)"/>
+ <ellipse cx="13" cy="13" rx="4.5" ry="3" fill="#FFFFFF" fill-opacity="0.267"/>
+ <!-- one eye open (left) -->
+ <circle cx="12" cy="15.5" r="2.5" fill="#FAFAFA"/>
+ <circle cx="12" cy="15.5" r="1.5" fill="#5D4037"/>
+ <circle cx="12" cy="15.5" r="0.8" fill="#1A1A1A"/>
+ <circle cx="11.5" cy="15" r="0.4" fill="#FFFFFF"/>
+ <!-- one eye closed/blinking (right) - just a curved line -->
+ <path d="M17.5 15 Q20 14 22.5 15" stroke="#3E2723" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <!-- eyelashes on closed eye -->
+ <path d="M18.5 14.5 L18 13.5 M20 14 L19.8 13 M21.5 14.5 L21.5 13.5" stroke="#3E2723" stroke-width="0.5" fill="none" stroke-linecap="round"/>
+ <!-- eyelid fill on closed eye -->
+ <path d="M17.5 15.5 Q20 16.5 22.5 15.5 Q20 15 17.5 15.5 Z" fill="#FFDFC4"/>
+ <!-- normal eyebrows -->
+ <path d="M9.5 12.5 Q12 11.5 14.5 12.5" stroke="#795548" stroke-width="0.7" fill="none"/>
+ <path d="M17.5 12.5 Q20 11.5 22.5 12.5" stroke="#795548" stroke-width="0.7" fill="none"/>
+ <!-- slight smile -->
+ <path d="M13.5 21 Q16 23 18.5 21" stroke="#C68642" stroke-width="1" fill="none" stroke-linecap="round"/>
+</svg>

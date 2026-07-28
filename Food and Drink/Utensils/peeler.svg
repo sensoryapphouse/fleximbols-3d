@@ -1,0 +1,36 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="pe-handle-l" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#8B4513"/>
+ <stop offset="100%" stop-color="#4a2008"/>
+ </linearGradient>
+ <linearGradient id="pe-handle-r" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#8B4513"/>
+ <stop offset="100%" stop-color="#4a2008"/>
+ </linearGradient>
+ <linearGradient id="pe-blade" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#e0e0e0"/>
+ <stop offset="100%" stop-color="#909090"/>
+ </linearGradient>
+ <linearGradient id="pe-peel" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#d4a040"/>
+ <stop offset="100%" stop-color="#a07020"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- Y left arm -->
+ <rect x="8" y="4" width="3" height="12" rx="1.5" fill="url(#pe-handle-l)" transform="rotate(-15 9.5 10)"/>
+ <!-- Y right arm -->
+ <rect x="13" y="4" width="3" height="12" rx="1.5" fill="url(#pe-handle-r)" transform="rotate(15 14.5 10)"/>
+ <!-- Y stem -->
+ <rect x="10" y="14" width="3" height="12" rx="1.5" fill="url(#pe-handle-l)"/>
+ <!-- horizontal blade -->
+ <rect x="7" y="14" width="12" height="2.5" rx="0.5" fill="url(#pe-blade)"/>
+ <rect x="7" y="14" width="12" height="0.8" rx="0.5" fill="white" fill-opacity="0.4"/>
+ <!-- blade edge -->
+ <rect x="7.5" y="16" width="11" height="0.6" fill="#555"/>
+ <!-- peel strip 1 -->
+ <path d="M20 18 Q23 17 24 20 Q22 21 20 19 Z" fill="url(#pe-peel)" transform="rotate(10 22 19)"/>
+ <!-- peel strip 2 -->
+ <path d="M21 22 Q25 20 26 24 Q23 25 21 23 Z" fill="url(#pe-peel)" transform="rotate(-5 23 22)"/>
+</svg>

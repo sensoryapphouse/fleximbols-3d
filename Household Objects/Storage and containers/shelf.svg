@@ -1,0 +1,59 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="shelfWood" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#d8a860"/>
+ <stop offset="100%" stop-color="#a07830"/>
+ </linearGradient>
+ <linearGradient id="shelfEdge" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#c89850"/>
+ <stop offset="100%" stop-color="#906820"/>
+ </linearGradient>
+ <linearGradient id="bookR" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#e05848"/>
+ <stop offset="100%" stop-color="#a02820"/>
+ </linearGradient>
+ <linearGradient id="bookB" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#4888e0"/>
+ <stop offset="100%" stop-color="#2858a8"/>
+ </linearGradient>
+ <linearGradient id="plantPot" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#c07848"/>
+ <stop offset="100%" stop-color="#804828"/>
+ </linearGradient>
+ <linearGradient id="plantLeaf" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#50c040"/>
+ <stop offset="100%" stop-color="#207820"/>
+ </linearGradient>
+ <linearGradient id="wallBrack" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#b09080"/>
+ <stop offset="100%" stop-color="#807060"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow under shelf (on wall) -->
+ 
+ <!-- wall brackets -->
+ <path d="M9,17 L9,22 L7,22 Z" fill="url(#wallBrack)"/>
+ <path d="M23,17 L23,22 L25,22 Z" fill="url(#wallBrack)"/>
+ <!-- shelf plank -->
+ <rect x="5" y="15" width="22" height="3" rx="0.5" fill="url(#shelfWood)"/>
+ <!-- shelf underside edge -->
+ <rect x="5" y="17.5" width="22" height="0.8" rx="0.3" fill="url(#shelfEdge)"/>
+ <!-- left book red -->
+ <rect x="7" y="8" width="3" height="7" rx="0.4" fill="url(#bookR)"/>
+ <!-- book spine line -->
+ <line x1="8.5" y1="8.2" x2="8.5" y2="14.8" stroke="#801010" stroke-width="0.3" stroke-opacity="0.5"/>
+ <!-- middle book blue (slightly taller) -->
+ <rect x="11" y="7" width="3.5" height="8" rx="0.4" fill="url(#bookB)"/>
+ <line x1="12.75" y1="7.2" x2="12.75" y2="14.8" stroke="#102050" stroke-width="0.3" stroke-opacity="0.5"/>
+ <!-- plant pot on right -->
+ <path d="M19,14.5 L20.5,18 L24.5,18 L26,14.5 Z" fill="url(#plantPot)"/>
+ <rect x="20" y="13.5" width="5" height="1.2" rx="0.3" fill="url(#plantPot)"/>
+ <!-- plant leaves -->
+ <path d="M22.5,13.5 Q20,10 19,7" stroke="url(#plantLeaf)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <path d="M22.5,13.5 Q25,10 26,7" stroke="url(#plantLeaf)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <path d="M22.5,13.5 Q22,10 22.5,7" stroke="url(#plantLeaf)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <!-- small decorative object (vase) -->
+ <path d="M16,14.5 Q15,12 16.5,10 Q18,12 17,14.5 Z" fill="#d09060" fill-opacity="0.8"/>
+ <!-- highlight on shelf -->
+ <rect x="6" y="15.2" width="10" height="1" rx="0.3" fill="#ffffff" fill-opacity="0.35"/>
+</svg>

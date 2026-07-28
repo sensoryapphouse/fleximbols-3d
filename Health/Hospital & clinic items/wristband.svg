@@ -1,0 +1,40 @@
+<svg viewBox="0 0 100 100" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="wb_skin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f7cda3"/>
+      <stop offset="55%" stop-color="#eab682"/>
+      <stop offset="100%" stop-color="#cf9560"/>
+    </linearGradient>
+    <linearGradient id="wb_band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbfbfb"/>
+      <stop offset="100%" stop-color="#dfe2e6"/>
+    </linearGradient>
+  </defs>
+  <!-- Forearm -->
+  <rect x="34" y="60" width="32" height="36" rx="6" fill="url(#wb_skin)" stroke="#9a6b3e" stroke-width="2.5"/>
+  <!-- Hand / fist -->
+  <path d="M34 60 Q34 40 50 38 Q66 40 66 60 Z" fill="url(#wb_skin)" stroke="#9a6b3e" stroke-width="2.5"/>
+  <!-- Fingers (curled fist) -->
+  <g fill="url(#wb_skin)" stroke="#9a6b3e" stroke-width="2">
+    <rect x="37" y="30" width="7" height="16" rx="3.5"/>
+    <rect x="45" y="27" width="7" height="19" rx="3.5"/>
+    <rect x="53" y="29" width="7" height="17" rx="3.5"/>
+    <rect x="60" y="33" width="6.5" height="14" rx="3.2"/>
+  </g>
+  <!-- thumb -->
+  <path d="M34 48 Q26 50 28 58 Q33 58 36 53 Z" fill="url(#wb_skin)" stroke="#9a6b3e" stroke-width="2"/>
+  <!-- Knuckle creases -->
+  <path d="M41 45 L41 41 M49 45 L49 39 M57 45 L57 41" stroke="#b07c48" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+  <!-- Wristband (terry sweatband) around wrist -->
+  <rect x="30" y="62" width="40" height="18" rx="5" fill="url(#wb_band)" stroke="#2a2a2a" stroke-width="2.5"/>
+  <!-- Stripes -->
+  <rect x="30" y="67" width="40" height="3.4" fill="#1f6fe0"/>
+  <rect x="30" y="71.5" width="40" height="3.4" fill="#2aa34a"/>
+  <!-- terry texture dots -->
+  <g fill="#c8ccd2">
+    <circle cx="35" cy="65" r="0.7"/><circle cx="40" cy="65" r="0.7"/><circle cx="45" cy="65" r="0.7"/>
+    <circle cx="50" cy="65" r="0.7"/><circle cx="55" cy="65" r="0.7"/><circle cx="60" cy="65" r="0.7"/>
+    <circle cx="35" cy="77" r="0.7"/><circle cx="40" cy="77" r="0.7"/><circle cx="45" cy="77" r="0.7"/>
+    <circle cx="50" cy="77" r="0.7"/><circle cx="55" cy="77" r="0.7"/><circle cx="60" cy="77" r="0.7"/>
+  </g>
+</svg>

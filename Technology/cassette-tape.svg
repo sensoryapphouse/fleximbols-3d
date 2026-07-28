@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#303030"/>
+ <stop offset="100%" stop-color="#0a0a0a"/>
+ </linearGradient>
+ <linearGradient id="tapeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#604020"/>
+ <stop offset="100%" stop-color="#301000"/>
+ </linearGradient>
+ <radialGradient id="reelGrad" cx="40%" cy="35%">
+ <stop offset="0%" stop-color="#666"/>
+ <stop offset="100%" stop-color="#222"/>
+ </radialGradient>
+ </defs>
+ <!-- Spilling tape curl -->
+ <path d="M22 22 Q28 26 26 30 Q24 32 20 31 Q18 30 20 28 Q22 26 24 27 Q26 28 25 30" fill="none" stroke="url(#tapeGrad)" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- Cassette body -->
+ 
+ <!-- Window -->
+ <rect x="8" y="9" width="16" height="10" rx="1.5" fill="#200808"/>
+ <!-- Left reel -->
+ <circle cx="12" cy="14" r="4" fill="url(#reelGrad)"/>
+ <circle cx="12" cy="14" r="2.5" fill="#333"/>
+ <!-- Right reel (less tape) -->
+ <circle cx="20" cy="14" r="3" fill="url(#reelGrad)"/>
+ <circle cx="20" cy="14" r="1.8" fill="#333"/>
+ <!-- Label -->
+ <rect x="5" y="6.5" width="22" height="3.5" rx="0.5" fill="#c04020" fill-opacity="0.7"/>
+ <!-- Corner screws -->
+ <circle cx="5.5" cy="7.5" r="1" fill="#444"/>
+ <circle cx="26.5" cy="7.5" r="1" fill="#444"/>
+ <circle cx="5.5" cy="21.5" r="1" fill="#444"/>
+ <circle cx="26.5" cy="21.5" r="1" fill="#444"/>
+</svg>

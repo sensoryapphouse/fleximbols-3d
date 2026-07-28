@@ -1,0 +1,49 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="screenG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#1E3A5F"/>
+ <stop offset="100%" stop-color="#0D1B2A"/>
+ </linearGradient>
+ <radialGradient id="scanBeamG" cx="50%" cy="0%" r="100%">
+ <stop offset="0%" stop-color="#4A90D9" stop-opacity="0.7"/>
+ <stop offset="100%" stop-color="#0D3B6B" stop-opacity="0.95"/>
+ </radialGradient>
+ <linearGradient id="wandG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="100%" stop-color="#6B7280"/>
+ </linearGradient>
+ <radialGradient id="gloveG" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FFE0BD"/>
+ <stop offset="100%" stop-color="#D49D7A"/>
+ </radialGradient>
+ <linearGradient id="frameG" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="100%" stop-color="#9CA3AF"/>
+ </linearGradient>
+ </defs>
+ <!-- Screen frame -->
+ <rect x="2" y="2" width="28" height="22" rx="2.5" fill="url(#frameG)"/>
+ <!-- Screen -->
+ <rect x="3.5" y="3.5" width="25" height="19" rx="1.5" fill="url(#screenG)"/>
+ <!-- D-shaped ultrasound scan cone — KEY GESTURE -->
+ <path d="M16 5 L4 22 Q16 26 28 22 Z" fill="url(#scanBeamG)"/>
+ <!-- Scan lines within cone -->
+ <line x1="16" y1="5" x2="7" y2="21" stroke="#7DBEFC" stroke-width="0.3" opacity="0.4"/>
+ <line x1="16" y1="5" x2="12" y2="22" stroke="#7DBEFC" stroke-width="0.3" opacity="0.4"/>
+ <line x1="16" y1="5" x2="20" y2="22" stroke="#7DBEFC" stroke-width="0.3" opacity="0.4"/>
+ <line x1="16" y1="5" x2="25" y2="21" stroke="#7DBEFC" stroke-width="0.3" opacity="0.4"/>
+ <!-- Fetus silhouette inside cone — KEY GESTURE -->
+ <!-- Fetus body (curled C-shape) -->
+ <path d="M15 12 Q18 10 19 14 Q20 18 16 19 Q12 20 11 16 Q10 12 13 11 Q14 10.5 15 12Z" fill="#FFFFFF" opacity="0.85"/>
+ <!-- Fetus head -->
+ <circle cx="18" cy="11" r="2.2" fill="#FFFFFF" opacity="0.85"/>
+ <!-- Fetus highlight -->
+ <circle cx="17.3" cy="10.3" r="0.7" fill="#FFFFFF" opacity="0.55"/>
+ <!-- Screen edge glow -->
+ <rect x="3.5" y="3.5" width="25" height="19" rx="1.5" fill="none" stroke="#4A90D9" stroke-width="0.5" opacity="0.4"/>
+ <!-- Ultrasound wand/probe below screen — KEY GESTURE -->
+ <rect x="13" y="24.5" width="6" height="2" rx="1" fill="url(#frameG)"/>
+ <rect x="14.5" y="26.5" width="3" height="4" rx="1.2" fill="url(#wandG)"/>
+ <!-- Hand holding wand -->
+ <ellipse cx="16" cy="30.5" rx="3.5" ry="1.5" fill="url(#gloveG)"/>
+</svg>

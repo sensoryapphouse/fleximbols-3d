@@ -1,0 +1,162 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+
+  <!-- Background gradient -->
+  <radialGradient id="bg_grad" cx="50%" cy="40%" r="60%">
+    <stop offset="0%" stop-color="#f0f8e8"/>
+    <stop offset="100%" stop-color="#d4ecb8"/>
+  </radialGradient>
+
+  <!-- Bowl body gradient -->
+  <linearGradient id="bowl_body" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#f5f0e8"/>
+    <stop offset="40%" stop-color="#ede5d5"/>
+    <stop offset="100%" stop-color="#c8baa0"/>
+  </linearGradient>
+
+  <!-- Bowl rim gradient -->
+  <linearGradient id="bowl_rim" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#d9cfc0"/>
+  </linearGradient>
+
+  <!-- Bowl shadow -->
+  <radialGradient id="bowl_shadow" cx="50%" cy="100%" r="50%">
+    <stop offset="0%" stop-color="#00000030"/>
+    <stop offset="100%" stop-color="#00000000"/>
+  </radialGradient>
+
+  <!-- Stem gradient – pale yellow-green -->
+  <linearGradient id="stem_light" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#c8e878"/>
+    <stop offset="50%" stop-color="#e8f8a0"/>
+    <stop offset="100%" stop-color="#b0d455"/>
+  </linearGradient>
+
+  <!-- Darker stem variant -->
+  <linearGradient id="stem_mid" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#a8d040"/>
+    <stop offset="50%" stop-color="#d0ec70"/>
+    <stop offset="100%" stop-color="#90c030"/>
+  </linearGradient>
+
+  <!-- Leaf tip gradient -->
+  <radialGradient id="leaf_grad" cx="30%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#68b828"/>
+    <stop offset="100%" stop-color="#3a7010"/>
+  </radialGradient>
+
+  <!-- Leaf tip highlight -->
+  <radialGradient id="leaf_hi" cx="25%" cy="25%" r="50%">
+    <stop offset="0%" stop-color="#90e040" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#90e040" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Bowl inner shadow -->
+  <radialGradient id="bowl_inner" cx="50%" cy="0%" r="80%">
+    <stop offset="0%" stop-color="#00000018"/>
+    <stop offset="100%" stop-color="#00000000"/>
+  </radialGradient>
+
+</defs>
+
+<!-- Bowl body (lower half ellipse shape) -->
+<path d="M7,22 Q7,29 16,29 Q25,29 25,22 Z" fill="url(#bowl_body)"/>
+<!-- Bowl sheen -->
+<path d="M7,22 Q7,29 16,29 Q25,29 25,22 Z" fill="url(#bowl_inner)"/>
+
+<!-- Bowl rim (ellipse) -->
+<ellipse cx="16" cy="22" rx="9" ry="2.2" fill="url(#bowl_rim)"/>
+<ellipse cx="16" cy="22" rx="9" ry="2.2" fill="none" stroke="#c8bfae" stroke-width="0.3"/>
+<!-- Rim highlight -->
+<ellipse cx="16" cy="21.6" rx="6" ry="1" fill="#ffffff" fill-opacity="0.45"/>
+
+<!-- ===== SPROUT SHOOTS ===== -->
+<!-- Each shoot is a thin curved path, stroke only, pale yellow-green -->
+<!-- Using stroke-linecap="round" for organic look -->
+
+<!-- Shoot 1 – centre, tall, bends left -->
+<path d="M16,22 C15.5,19 14,16 13,11 C12.5,8.5 13.5,6.5 14,5.5"
+      fill="none" stroke="url(#stem_light)" stroke-width="0.7" stroke-linecap="round"/>
+
+<!-- Shoot 2 – slight right lean, medium height -->
+<path d="M15.5,22 C16,19.5 17,17 17.5,13.5 C18,11 17.5,9 17,8"
+      fill="none" stroke="url(#stem_mid)" stroke-width="0.65" stroke-linecap="round"/>
+
+<!-- Shoot 3 – far left, curves right -->
+<path d="M13.5,22 C12,19 10.5,16.5 10,13 C9.5,10.5 10.5,8.5 11,7.5"
+      fill="none" stroke="url(#stem_light)" stroke-width="0.6" stroke-linecap="round"/>
+
+<!-- Shoot 4 – far right, curves left -->
+<path d="M18.5,22 C20,19.5 21,17 21,14 C21,11.5 20,9.5 19.5,8.5"
+      fill="none" stroke="url(#stem_mid)" stroke-width="0.6" stroke-linecap="round"/>
+
+<!-- Shoot 5 – left of centre, shorter -->
+<path d="M14.5,22 C13.5,20 12.5,18 12,15 C11.5,12.5 12,11 12.5,10"
+      fill="none" stroke="url(#stem_light)" stroke-width="0.55" stroke-linecap="round"/>
+
+<!-- Shoot 6 – right of centre, shorter -->
+<path d="M17,22 C18,20 18.5,18 19,15.5 C19.5,13.5 19,12 18.5,11.2"
+      fill="none" stroke="url(#stem_light)" stroke-width="0.55" stroke-linecap="round"/>
+
+<!-- Shoot 7 – very left, short -->
+<path d="M12.5,22 C11,20 9.5,18 9,15.5 C8.5,13.5 9,12 9.5,11"
+      fill="none" stroke="url(#stem_mid)" stroke-width="0.5" stroke-linecap="round"/>
+
+<!-- Shoot 8 – very right, short -->
+<path d="M19.5,22 C21,20.5 22,18.5 22.5,16 C23,14 22.5,12.5 22,11.5"
+      fill="none" stroke="url(#stem_light)" stroke-width="0.5" stroke-linecap="round"/>
+
+<!-- Shoot 9 – wispy extra left -->
+<path d="M13,22 C11.5,20.5 10,18.5 9.5,16.5 C9,15 9.5,13.5 10,12.5"
+      fill="none" stroke="#b8d858" stroke-width="0.4" stroke-linecap="round"/>
+
+<!-- Shoot 10 – wispy extra right -->
+<path d="M19,22 C20,20.5 21.5,18.5 22,16.5"
+      fill="none" stroke="#b8d858" stroke-width="0.4" stroke-linecap="round"/>
+
+<!-- ===== LEAF TIPS ===== -->
+<!-- Small dark-green ovals at the top of select shoots -->
+
+<!-- Tip 1 – shoot 1 top (14, 5.5) – two tiny paired leaflets -->
+<ellipse cx="13.2" cy="5.1" rx="1.0" ry="0.55" transform="rotate(-30,13.2,5.1)" fill="url(#leaf_grad)"/>
+<ellipse cx="13.2" cy="5.1" rx="1.0" ry="0.55" transform="rotate(-30,13.2,5.1)" fill="url(#leaf_hi)"/>
+<ellipse cx="14.8" cy="5.2" rx="0.9" ry="0.5" transform="rotate(20,14.8,5.2)" fill="url(#leaf_grad)"/>
+<ellipse cx="14.8" cy="5.2" rx="0.9" ry="0.5" transform="rotate(20,14.8,5.2)" fill="url(#leaf_hi)"/>
+
+<!-- Tip 2 – shoot 2 top (17, 8) -->
+<ellipse cx="16.4" cy="7.6" rx="0.95" ry="0.5" transform="rotate(-20,16.4,7.6)" fill="url(#leaf_grad)"/>
+<ellipse cx="16.4" cy="7.6" rx="0.95" ry="0.5" transform="rotate(-20,16.4,7.6)" fill="url(#leaf_hi)"/>
+<ellipse cx="17.6" cy="7.7" rx="0.85" ry="0.48" transform="rotate(25,17.6,7.7)" fill="url(#leaf_grad)"/>
+
+<!-- Tip 3 – shoot 3 top (11, 7.5) -->
+<ellipse cx="10.3" cy="7.1" rx="0.9" ry="0.5" transform="rotate(-15,10.3,7.1)" fill="url(#leaf_grad)"/>
+<ellipse cx="10.3" cy="7.1" rx="0.9" ry="0.5" transform="rotate(-15,10.3,7.1)" fill="url(#leaf_hi)"/>
+<ellipse cx="11.7" cy="7.2" rx="0.8" ry="0.45" transform="rotate(18,11.7,7.2)" fill="url(#leaf_grad)"/>
+
+<!-- Tip 4 – shoot 4 top (19.5, 8.5) -->
+<ellipse cx="18.8" cy="8.1" rx="0.9" ry="0.5" transform="rotate(-22,18.8,8.1)" fill="url(#leaf_grad)"/>
+<ellipse cx="20.2" cy="8.2" rx="0.8" ry="0.45" transform="rotate(20,20.2,8.2)" fill="url(#leaf_grad)"/>
+<ellipse cx="20.2" cy="8.2" rx="0.8" ry="0.45" transform="rotate(20,20.2,8.2)" fill="url(#leaf_hi)"/>
+
+<!-- Tip 5 – shoot 5 top (12.5, 10) -->
+<ellipse cx="12" cy="9.6" rx="0.85" ry="0.46" transform="rotate(-18,12,9.6)" fill="url(#leaf_grad)"/>
+<ellipse cx="13.1" cy="9.7" rx="0.75" ry="0.43" transform="rotate(15,13.1,9.7)" fill="url(#leaf_grad)"/>
+
+<!-- Tip 6 – shoot 6 top (18.5, 11.2) -->
+<ellipse cx="18" cy="10.8" rx="0.8" ry="0.44" transform="rotate(-15,18,10.8)" fill="url(#leaf_grad)"/>
+<ellipse cx="19" cy="10.9" rx="0.8" ry="0.44" transform="rotate(20,19,10.9)" fill="url(#leaf_grad)"/>
+<ellipse cx="19" cy="10.9" rx="0.8" ry="0.44" transform="rotate(20,19,10.9)" fill="url(#leaf_hi)"/>
+
+<!-- Tip 7 – shoot 7 top (9.5, 11) -->
+<ellipse cx="9" cy="10.6" rx="0.75" ry="0.42" transform="rotate(-12,9,10.6)" fill="url(#leaf_grad)"/>
+<ellipse cx="10" cy="10.7" rx="0.7" ry="0.4" transform="rotate(16,10,10.7)" fill="url(#leaf_grad)"/>
+
+<!-- Tip 8 – shoot 8 top (22, 11.5) -->
+<ellipse cx="21.4" cy="11.1" rx="0.78" ry="0.43" transform="rotate(-18,21.4,11.1)" fill="url(#leaf_grad)"/>
+<ellipse cx="22.5" cy="11.2" rx="0.7" ry="0.4" transform="rotate(22,22.5,11.2)" fill="url(#leaf_grad)"/>
+
+<!-- Bowl highlight arc (glossy rim sheen) -->
+<path d="M8.5,21.5 Q16,19.8 23.5,21.5" fill="none" stroke="#ffffff" stroke-width="0.55" stroke-opacity="0.6" stroke-linecap="round"/>
+
+</svg>

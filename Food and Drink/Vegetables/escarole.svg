@@ -1,0 +1,32 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="outerLeaf" cx="50%" cy="50%" r="60%">
+ <stop offset="0%" stop-color="#6ab840"/>
+ <stop offset="100%" stop-color="#2a7010"/>
+ </radialGradient>
+ <radialGradient id="midLeaf" cx="50%" cy="50%" r="60%">
+ <stop offset="0%" stop-color="#9acc60"/>
+ <stop offset="100%" stop-color="#558828"/>
+ </radialGradient>
+ <radialGradient id="innerLeaf" cx="50%" cy="50%" r="60%">
+ <stop offset="0%" stop-color="#f0e890"/>
+ <stop offset="100%" stop-color="#c8c040"/>
+ </radialGradient>
+ </defs>
+ <!-- outer frilly leaves -->
+ 
+ <!-- leaf ruffles outer ring -->
+ <path d="M4 16 Q5 12 8 11 Q6 14 7 17 Q5 18 4 16 Z" fill="#4a9820" fill-opacity="0.7"/>
+ <path d="M10 5 Q13 3 15 5 Q13 7 11 8 Q9 7 10 5 Z" fill="#4a9820" fill-opacity="0.7"/>
+ <path d="M21 5 Q23 3 25 5 Q24 7 22 8 Q20 7 21 5 Z" fill="#4a9820" fill-opacity="0.7"/>
+ <path d="M28 16 Q27 12 24 11 Q26 14 25 17 Q27 18 28 16 Z" fill="#4a9820" fill-opacity="0.7"/>
+ <path d="M6 22 Q7 25 10 25 Q9 23 10 21 Z" fill="#4a9820" fill-opacity="0.65"/>
+ <path d="M26 22 Q25 25 22 25 Q23 23 22 21 Z" fill="#4a9820" fill-opacity="0.65"/>
+ <path d="M14 27 Q16 29 18 27 Q17 25 16 26 Q15 25 14 27 Z" fill="#4a9820" fill-opacity="0.65"/>
+ <!-- mid leaves -->
+ <ellipse cx="16" cy="16" rx="9" ry="8" fill="url(#midLeaf)"/>
+ <!-- inner cream/yellow heart -->
+ <ellipse cx="16" cy="16" rx="5.5" ry="5" fill="url(#innerLeaf)"/>
+ <!-- center core -->
+ <ellipse cx="16" cy="16" rx="2.5" ry="2" fill="#ece888" fill-opacity="0.9"/>
+</svg>

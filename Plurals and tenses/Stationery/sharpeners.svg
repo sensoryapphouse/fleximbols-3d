@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,1.197) scale(0.9626)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#4CAF50"/>
+ <stop offset="100%" stop-color="#1B5E20"/>
+ </linearGradient>
+ <linearGradient id="topGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#81C784"/>
+ <stop offset="100%" stop-color="#4CAF50"/>
+ </linearGradient>
+ <linearGradient id="holeGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#111827"/>
+ <stop offset="100%" stop-color="#374151"/>
+ </linearGradient>
+ <linearGradient id="bladeGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="100%" stop-color="#9CA3AF"/>
+ </linearGradient>
+ <linearGradient id="shavingGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#C57500"/>
+ </linearGradient>
+ </defs>
+ <!-- Sharpener block body (3D) -->
+ <!-- Side face (darker) -->
+ <polygon points="22,10 28,12 28,24 22,22" fill="#2E7D32"/>
+ <!-- Top face -->
+ <polygon points="8,8 22,8 28,10 14,10" fill="url(#topGrad)"/>
+ <!-- Front face -->
+ <rect x="8" y="8" width="14" height="14" rx="1.5" fill="url(#bodyGrad)"/>
+ <!-- Circular hole -->
+ <circle cx="13" cy="14" r="3.5" fill="url(#holeGrad)"/>
+ <circle cx="13" cy="14" r="2.5" fill="#1F2937"/>
+ <!-- Metal blade visible on hole edge -->
+ <path d="M10 14 L16 14" stroke="url(#bladeGrad)" stroke-width="1.2" stroke-linecap="round"/>
+ <rect x="9.5" y="13.5" width="7" height="1" rx="0.4" fill="url(#bladeGrad)" opacity="0.8"/>
+ <!-- Pencil shavings curling out of hole -->
+ <path d="M9 14 Q6 12 4 13 Q3 15 5 16" fill="none" stroke="url(#shavingGrad)" stroke-width="1.2" stroke-linecap="round"/>
+ <path d="M9.5 15.5 Q7 17 6 19 Q8 20.5 10 19" fill="none" stroke="url(#shavingGrad)" stroke-width="1" stroke-linecap="round"/>
+ <!-- Screw on blade -->
+ <circle cx="9.5" cy="11" r="1" fill="url(#bladeGrad)" stroke="#9CA3AF" stroke-width="0.4"/>
+ <line x1="9.1" y1="10.6" x2="9.9" y2="11.4" stroke="#9CA3AF" stroke-width="0.4"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2999" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2999)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

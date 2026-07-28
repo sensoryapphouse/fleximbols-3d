@@ -1,0 +1,49 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,6.758) scale(0.7888)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="algo-card" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f8f8ff"/>
+ <stop offset="100%" stop-color="#dde4f0"/>
+ </linearGradient>
+ <linearGradient id="algo-box1" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5090e8"/>
+ <stop offset="100%" stop-color="#2060c0"/>
+ </linearGradient>
+ <linearGradient id="algo-box2" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#50c090"/>
+ <stop offset="100%" stop-color="#208060"/>
+ </linearGradient>
+ <linearGradient id="algo-diamond" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#e08030"/>
+ <stop offset="100%" stop-color="#b05010"/>
+ </linearGradient>
+ <linearGradient id="algo-box3" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#9060e0"/>
+ <stop offset="100%" stop-color="#6030b0"/>
+ </linearGradient>
+ </defs>
+ <!-- Card background -->
+ 
+ <!-- Card border -->
+ <rect x="3" y="2" width="26" height="28" rx="2.5" fill="none" stroke="#c0c8dc" stroke-width="0.5"/>
+ <!-- Box 1 (top) -->
+ <rect x="9" y="5" width="14" height="5" rx="1.5" fill="url(#algo-box1)"/>
+ <rect x="10" y="6" width="6" height="1" rx="0.3" fill="white" fill-opacity="0.5"/>
+ <!-- Arrow 1→diamond -->
+ <line x1="16" y1="10" x2="16" y2="13" stroke="#6080a0" stroke-width="0.8"/>
+ <polygon points="16,13 14.8,11.5 17.2,11.5" fill="#6080a0"/>
+ <!-- Diamond (decision) -->
+ <polygon points="16,13 21,17 16,21 11,17" fill="url(#algo-diamond)"/>
+ <!-- Diamond highlight -->
+ <polygon points="16,14 19.5,17 16,17.5 12.5,17" fill="white" fill-opacity="0.2"/>
+ <!-- Arrow diamond→box2 (yes, down) -->
+ <line x1="16" y1="21" x2="16" y2="24" stroke="#6080a0" stroke-width="0.8"/>
+ <polygon points="16,24 14.8,22.5 17.2,22.5" fill="#6080a0"/>
+ <!-- Box 2 (bottom, yes path) -->
+ <rect x="9" y="24" width="14" height="5" rx="1.5" fill="url(#algo-box2)"/>
+ <rect x="10" y="25" width="6" height="1" rx="0.3" fill="white" fill-opacity="0.5"/>
+ <!-- Arrow diamond→box3 (no, right) -->
+ <line x1="21" y1="17" x2="25" y2="17" stroke="#6080a0" stroke-width="0.8"/>
+ <polygon points="25,17 23.5,15.8 23.5,18.2" fill="#6080a0"/>
+ <!-- Box 3 (side, no path — small) -->
+ <rect x="25" y="14" width="1" height="6" rx="0.4" fill="url(#algo-box3)"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl794" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl794)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

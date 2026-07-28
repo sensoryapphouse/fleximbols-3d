@@ -1,0 +1,56 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="crHull" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#F5F5F5"/><stop offset="100%" stop-color="#C8C8D8"/></linearGradient>
+ <linearGradient id="crWater" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#3A8ABF"/><stop offset="100%" stop-color="#1A4A7A"/></linearGradient>
+ <linearGradient id="crFunnel" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#E84A4A"/><stop offset="100%" stop-color="#6B1A1A"/></linearGradient>
+ <linearGradient id="crPool" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#4A9AE8"/><stop offset="100%" stop-color="#1A4A98"/></linearGradient>
+ </defs>
+ <!-- Water -->
+ <rect x="0" y="24" width="32" height="8" fill="url(#crWater)"/>
+ <!-- Hull (dark band) -->
+ <path d="M1 24 L1 26 Q1 29 5 29 L27 29 Q31 29 31 26 L31 24 Z" fill="#2A2A3A" filter="url(#sdCR)"/>
+ <!-- Main ship body (white) - many decks -->
+ <rect x="2" y="8" width="28" height="16" fill="url(#crHull)" filter="url(#sdCR)"/>
+ <!-- Windows/portholes row 1 -->
+ <circle cx="5" cy="12" r="0.7" fill="#3A6A9A"/>
+ <circle cx="8" cy="12" r="0.7" fill="#3A6A9A"/>
+ <circle cx="11" cy="12" r="0.7" fill="#3A6A9A"/>
+ <circle cx="14" cy="12" r="0.7" fill="#3A6A9A"/>
+ <circle cx="17" cy="12" r="0.7" fill="#3A6A9A"/>
+ <circle cx="20" cy="12" r="0.7" fill="#3A6A9A"/>
+ <circle cx="23" cy="12" r="0.7" fill="#3A6A9A"/>
+ <circle cx="26" cy="12" r="0.7" fill="#3A6A9A"/>
+ <!-- Windows row 2 -->
+ <circle cx="5" cy="15" r="0.7" fill="#3A6A9A"/>
+ <circle cx="8" cy="15" r="0.7" fill="#3A6A9A"/>
+ <circle cx="11" cy="15" r="0.7" fill="#3A6A9A"/>
+ <circle cx="14" cy="15" r="0.7" fill="#3A6A9A"/>
+ <circle cx="17" cy="15" r="0.7" fill="#3A6A9A"/>
+ <circle cx="20" cy="15" r="0.7" fill="#3A6A9A"/>
+ <circle cx="23" cy="15" r="0.7" fill="#3A6A9A"/>
+ <circle cx="26" cy="15" r="0.7" fill="#3A6A9A"/>
+ <!-- Windows row 3 -->
+ <circle cx="5" cy="18" r="0.7" fill="#3A6A9A"/>
+ <circle cx="8" cy="18" r="0.7" fill="#3A6A9A"/>
+ <circle cx="11" cy="18" r="0.7" fill="#3A6A9A"/>
+ <circle cx="14" cy="18" r="0.7" fill="#3A6A9A"/>
+ <circle cx="17" cy="18" r="0.7" fill="#3A6A9A"/>
+ <circle cx="20" cy="18" r="0.7" fill="#3A6A9A"/>
+ <circle cx="23" cy="18" r="0.7" fill="#3A6A9A"/>
+ <circle cx="26" cy="18" r="0.7" fill="#3A6A9A"/>
+ <!-- Deck line marks -->
+ <line x1="2" y1="10" x2="30" y2="10" stroke="#D0D0E0" stroke-width="0.4"/>
+ <line x1="2" y1="13" x2="30" y2="13" stroke="#D0D0E0" stroke-width="0.4"/>
+ <line x1="2" y1="16" x2="30" y2="16" stroke="#D0D0E0" stroke-width="0.4"/>
+ <line x1="2" y1="20" x2="30" y2="20" stroke="#D0D0E0" stroke-width="0.4"/>
+ <!-- Pool on top deck -->
+ <rect x="8" y="6" width="10" height="3" rx="0.5" fill="url(#crPool)"/>
+ <!-- Twin funnels -->
+ <rect x="14" y="2" width="3" height="5" rx="0.8" fill="url(#crFunnel)" filter="url(#sdCR)"/>
+ <rect x="19" y="3" width="3" height="4" rx="0.8" fill="url(#crFunnel)" filter="url(#sdCR)"/>
+ <!-- Smoke from funnels -->
+ <circle cx="15.5" cy="1.5" r="1" fill="#9A9A9A" fill-opacity="0.5"/>
+ <circle cx="20.5" cy="2" r="0.8" fill="#9A9A9A" fill-opacity="0.4"/>
+ <!-- Wave -->
+ <path d="M0 26 Q4 25 8 26 Q12 27 16 26 Q20 25 24 26 Q28 27 32 26" stroke="white" stroke-opacity="0.35" stroke-width="0.5" fill="none"/>
+</svg>

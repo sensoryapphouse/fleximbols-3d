@@ -1,0 +1,78 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="ds_glass" cx="35%" cy="25%" r="65%">
+ <stop offset="0%" stop-color="#d8f4ff" stop-opacity="0.75"/>
+ <stop offset="100%" stop-color="#88ccee" stop-opacity="0.4"/>
+ </radialGradient>
+ <radialGradient id="ds_water" cx="40%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#ccf0ff"/>
+ <stop offset="60%" stop-color="#66bbee"/>
+ <stop offset="100%" stop-color="#2288cc"/>
+ </radialGradient>
+ <radialGradient id="ds_tablet" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="60%" stop-color="#ddddff"/>
+ <stop offset="100%" stop-color="#8888cc"/>
+ </radialGradient>
+ <radialGradient id="ds_cloud" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#ddddff" stop-opacity="0.7"/>
+ <stop offset="100%" stop-color="#8888cc" stop-opacity="0.1"/>
+ </radialGradient>
+</defs>
+<!-- ground shadow -->
+<!-- GLASS OF WATER (clear, with dissolving item inside) -->
+<!-- Glass body -->
+<path d="M7.5,8 L9,30 L23,30 L24.5,8 Z" fill="url(#ds_glass)" filter="url(#ds_sh)"/>
+<!-- Glass side highlight -->
+<line x1="8.5" y1="9" x2="9.8" y2="30" stroke="#fff" stroke-width="0.6" stroke-opacity="0.4"/>
+<!-- Water fill (slightly coloured by dissolving substance) -->
+<path d="M8,11 L9,30 L23,30 L24,11 Z" fill="url(#ds_water)" fill-opacity="0.85"/>
+<!-- Water discolouration from dissolving (faint cloud near bottom) -->
+<ellipse cx="16" cy="24" rx="5" ry="3" fill="#ccddff" fill-opacity="0.5"/>
+<ellipse cx="16" cy="26" rx="6" ry="2.5" fill="#aabbee" fill-opacity="0.4"/>
+<!-- Water surface ripple -->
+<ellipse cx="16" cy="11" rx="8" ry="1.2" fill="#aaeeff" fill-opacity="0.85"/>
+<!-- Glass rim -->
+<ellipse cx="16" cy="8" rx="8.5" ry="1.3" fill="#b8e8f8" fill-opacity="0.8" filter="url(#ds_sh)"/>
+<!-- Glass front face highlight -->
+<path d="M8.5,10 L10,30 L12,30 L10.5,10 Z" fill="#fff" fill-opacity="0.1"/>
+<!-- DISSOLVING TABLET (partially disintegrated, floating mid-glass) -->
+<!-- Tablet ghost shape (eroding edges) -->
+<rect x="12" y="16" width="8" height="4" rx="1.5" fill="url(#ds_tablet)" fill-opacity="0.7" filter="url(#ds_sh)"/>
+<!-- Tablet erosion chips (breaking off) -->
+<rect x="11.5" y="16.5" width="1.5" height="1" rx="0.5" fill="url(#ds_tablet)" fill-opacity="0.5"/>
+<rect x="19.5" y="18" width="1.8" height="1.5" rx="0.6" fill="url(#ds_tablet)" fill-opacity="0.45"/>
+<rect x="12" y="19.5" width="1.2" height="1.2" rx="0.4" fill="url(#ds_tablet)" fill-opacity="0.4"/>
+<rect x="18" y="15.5" width="1.5" height="1" rx="0.4" fill="url(#ds_tablet)" fill-opacity="0.4"/>
+<!-- Tablet surface score line -->
+<line x1="13" y1="18" x2="19" y2="18" stroke="#aaaadd" stroke-width="0.5" stroke-opacity="0.7"/>
+<!-- BUBBLE STREAMS rising from tablet -->
+<!-- Left stream -->
+<circle cx="13" cy="15.5" r="0.6" fill="#fff" fill-opacity="0.75"/>
+<circle cx="12.5" cy="13.5" r="0.5" fill="#fff" fill-opacity="0.6"/>
+<circle cx="13.2" cy="11.5" r="0.45" fill="#fff" fill-opacity="0.5"/>
+<!-- Centre stream -->
+<circle cx="16" cy="15" r="0.7" fill="#fff" fill-opacity="0.8"/>
+<circle cx="15.8" cy="13" r="0.6" fill="#fff" fill-opacity="0.65"/>
+<circle cx="16.2" cy="11" r="0.5" fill="#fff" fill-opacity="0.55"/>
+<!-- Right stream -->
+<circle cx="19" cy="15.5" r="0.6" fill="#fff" fill-opacity="0.75"/>
+<circle cx="19.5" cy="13.5" r="0.5" fill="#fff" fill-opacity="0.6"/>
+<circle cx="19" cy="11.5" r="0.45" fill="#fff" fill-opacity="0.5"/>
+<!-- DISPERSING PARTICLE CLOUD around dissolving tablet -->
+<ellipse cx="16" cy="18" rx="7" ry="4" fill="url(#ds_cloud)" filter="url(#ds_sh)"/>
+<!-- Individual particles dispersing -->
+<circle cx="10.5" cy="17" r="0.5" fill="#9999ee" fill-opacity="0.6"/>
+<circle cx="10" cy="19.5" r="0.45" fill="#aaaaee" fill-opacity="0.55"/>
+<circle cx="22" cy="16.5" r="0.5" fill="#9999ee" fill-opacity="0.6"/>
+<circle cx="22.5" cy="19.5" r="0.45" fill="#aaaaee" fill-opacity="0.55"/>
+<circle cx="13.5" cy="14.5" r="0.4" fill="#bbbbff" fill-opacity="0.5"/>
+<circle cx="18.5" cy="14.5" r="0.4" fill="#bbbbff" fill-opacity="0.5"/>
+<circle cx="12" cy="21.5" r="0.4" fill="#bbbbff" fill-opacity="0.5"/>
+<circle cx="20" cy="22" r="0.4" fill="#bbbbff" fill-opacity="0.5"/>
+<!-- Dispersal arrows -->
+<line x1="11" y1="18" x2="9.5" y2="18" stroke="#8888cc" stroke-width="0.4" stroke-opacity="0.55"/>
+<polygon points="9.5,18 11,17.4 11,18.6" fill="#8888cc" fill-opacity="0.55"/>
+<line x1="21" y1="18" x2="22.5" y2="18" stroke="#8888cc" stroke-width="0.4" stroke-opacity="0.55"/>
+<polygon points="22.5,18 21,17.4 21,18.6" fill="#8888cc" fill-opacity="0.55"/>
+</svg>

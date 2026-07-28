@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFF5E0"/>
+ <stop offset="100%" stop-color="#FFE8B8"/>
+ </linearGradient>
+ <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C8A96A"/>
+ <stop offset="100%" stop-color="#8B6540"/>
+ </linearGradient>
+ <linearGradient id="torsoGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A0D468"/>
+ <stop offset="100%" stop-color="#5A8E3C"/>
+ </linearGradient>
+ <linearGradient id="skinGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F5C88A"/>
+ <stop offset="100%" stop-color="#D4915A"/>
+ </linearGradient>
+ <!-- Motion streak gradient — gold -->
+ <linearGradient id="streakGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#FFD45E" stop-opacity="0"/>
+ <stop offset="60%" stop-color="#FFD45E" stop-opacity="0.9"/>
+ <stop offset="100%" stop-color="#E5A700" stop-opacity="0.5"/>
+ </linearGradient>
+ </defs>
+
+ 
+ <rect x="0" y="27.5" width="32" height="4.5" fill="url(#ground)" rx="0.5"/>
+
+ <!-- Motion streaks (3 bold gold horizontal lines) trailing behind figure -->
+ <line x1="1" y1="18" x2="15" y2="18" stroke="url(#streakGrad)" stroke-width="1.0" stroke-linecap="round"/>
+ <line x1="1" y1="20.5" x2="13" y2="20.5" stroke="url(#streakGrad)" stroke-width="0.85" stroke-linecap="round"/>
+ <line x1="1" y1="23" x2="11" y2="23" stroke="url(#streakGrad)" stroke-width="0.7" stroke-linecap="round"/>
+
+ <!-- Running figure — leaning forward sharply, both feet off ground, arms pumping -->
+ <!-- The figure is centred ~right of canvas, leaning forward -->
+ <!-- Torso — tilted forward -->
+ <rect x="18" y="15.5" width="4.8" height="6.0" fill="url(#torsoGrad)" rx="1.0" transform="rotate(-20 20.4 18.5)"/>
+ <!-- Head -->
+ <circle cx="22.5" cy="13.5" r="2.2" fill="url(#skinGrad)"/>
+ <circle cx="21.8" cy="12.8" r="0.7" fill="#F8DEB8" opacity="0.55"/>
+ <!-- Left arm pumping back -->
+ <line x1="18.5" y1="17.5" x2="15" y2="20.5" stroke="#A88A60" stroke-width="1.0" stroke-linecap="round"/>
+ <!-- Right arm pumping forward -->
+ <line x1="22.5" y1="16.5" x2="25.5" y2="14" stroke="#A88A60" stroke-width="1.0" stroke-linecap="round"/>
+ <!-- Left leg — back kick -->
+ <line x1="19.5" y1="21.5" x2="16" y2="26" stroke="#A88A60" stroke-width="1.1" stroke-linecap="round"/>
+ <!-- Right leg — forward stride -->
+ <line x1="21.5" y1="21.5" x2="25" y2="25" stroke="#A88A60" stroke-width="1.1" stroke-linecap="round"/>
+
+ <!-- Heel dust puff -->
+ <circle cx="15.5" cy="26.5" r="1.0" fill="#D8C0A0" opacity="0.5"/>
+ <circle cx="14.2" cy="25.8" r="0.6" fill="#D8C0A0" opacity="0.35"/>
+</svg>

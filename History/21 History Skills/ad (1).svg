@@ -1,0 +1,107 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+  <!-- Background gradient -->
+  <radialGradient id="bgGrad" cx="40%" cy="35%" r="65%">
+    <stop offset="0%" stop-color="#4A90D9"/>
+    <stop offset="100%" stop-color="#1A4E8A"/>
+  </radialGradient>
+  <!-- Card face gradient -->
+  <linearGradient id="cardFace" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#D8E8F8"/>
+  </linearGradient>
+  <!-- Card top edge -->
+  <linearGradient id="cardTop" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#B0CCE8"/>
+  </linearGradient>
+  <!-- Card right edge -->
+  <linearGradient id="cardRight" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#C8DCF0"/>
+    <stop offset="100%" stop-color="#8AAED0"/>
+  </linearGradient>
+  <!-- Badge gradient (orange) -->
+  <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#FF9F2E"/>
+    <stop offset="50%" stop-color="#FF7A00"/>
+    <stop offset="100%" stop-color="#D45E00"/>
+  </linearGradient>
+  <!-- Badge highlight -->
+  <linearGradient id="badgeShine" x1="0%" y1="0%" x2="0%" y2="60%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <!-- Badge shadow under -->
+  <linearGradient id="badgeShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#000000" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </linearGradient>
+  <!-- Drop shadow filter -->
+  <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+    <feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#000000" flood-opacity="0.35"/>
+  </filter>
+</defs>
+
+<!-- Opaque background -->
+<rect width="32" height="32" rx="6" fill="url(#bgGrad)"/>
+
+<!-- 3D Card — right side edge -->
+<rect x="8.5" y="9.5" width="2" height="14" rx="0.5" fill="url(#cardRight)"/>
+<!-- 3D Card — bottom edge -->
+<rect x="8.5" y="22.5" width="16" height="2" rx="0.5" fill="#9ABCD8"/>
+<!-- 3D Card — top edge -->
+<rect x="7" y="8" width="17" height="2" rx="1" fill="url(#cardTop)"/>
+<!-- 3D Card — main face -->
+<rect x="7" y="8" width="16" height="15" rx="1.2" fill="url(#cardFace)" filter="url(#shadow)"/>
+<!-- Glossy sheen on card face -->
+<rect x="7" y="8" width="16" height="6" rx="1.2" fill="white" fill-opacity="0.35"/>
+
+<!-- Faint content lines on card for decoration -->
+<rect x="9.5" y="14" width="8" height="1.2" rx="0.6" fill="#BBCCDD" fill-opacity="0.7"/>
+<rect x="9.5" y="16.5" width="10" height="1.2" rx="0.6" fill="#BBCCDD" fill-opacity="0.5"/>
+<rect x="9.5" y="19" width="6" height="1.2" rx="0.6" fill="#BBCCDD" fill-opacity="0.4"/>
+
+<!-- AD badge — shadow -->
+<rect x="15.3" y="19.8" width="12.4" height="7" rx="2.2" fill="#000000" fill-opacity="0.22"/>
+<!-- AD badge — body -->
+<rect x="14.8" y="19" width="12.4" height="7" rx="2.2" fill="url(#badgeGrad)"/>
+<!-- AD badge — shine overlay -->
+<rect x="14.8" y="19" width="12.4" height="3.5" rx="2.2" fill="url(#badgeShine)"/>
+<!-- AD badge — inner bevel highlight -->
+<rect x="14.8" y="19" width="12.4" height="7" rx="2.2" fill="none" stroke="white" stroke-opacity="0.3" stroke-width="0.5"/>
+
+<!-- AD text -->
+<text
+  x="21"
+  y="24.3"
+  font-family="Helvetica, Arial, sans-serif"
+  font-weight="900"
+  font-size="5.5"
+  fill="white"
+  text-anchor="middle"
+  letter-spacing="0.3"
+  style="text-shadow: 0 1px 2px rgba(0,0,0,0.4);"
+>AD</text>
+<!-- Subtle text shadow for depth -->
+<text
+  x="21.2"
+  y="24.5"
+  font-family="Helvetica, Arial, sans-serif"
+  font-weight="900"
+  font-size="5.5"
+  fill="#7A3300"
+  fill-opacity="0.3"
+  text-anchor="middle"
+  letter-spacing="0.3"
+>AD</text>
+<text
+  x="21"
+  y="24.3"
+  font-family="Helvetica, Arial, sans-serif"
+  font-weight="900"
+  font-size="5.5"
+  fill="white"
+  text-anchor="middle"
+  letter-spacing="0.3"
+>AD</text>
+</svg>

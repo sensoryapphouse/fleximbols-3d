@@ -1,0 +1,24 @@
+<svg viewBox="-1.4 -2.4 34.8 34.8" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="pp-trunk" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#a08848"/>
+ <stop offset="100%" stop-color="#6a5820"/>
+ </linearGradient>
+ <radialGradient id="pp-canopy" cx="40%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#50c030"/>
+ <stop offset="100%" stop-color="#206010"/>
+ </radialGradient>
+ </defs>
+ <!-- tall narrow trunk -->
+ <rect x="14.5" y="18" width="3" height="12" rx="1" fill="url(#pp-trunk)"/>
+ <!-- bark lines -->
+ <line x1="15.5" y1="19" x2="15.5" y2="29" stroke="#6a5820" stroke-width="0.4" stroke-opacity="0.4"/>
+ <!-- columnar canopy - very narrow, tall, pointed top -->
+ <ellipse cx="16" cy="12" rx="5" ry="14" fill="url(#pp-canopy)"/>
+ <!-- tight foliage texture -->
+ <ellipse cx="16" cy="6" rx="3.5" ry="5" fill="#60d040" fill-opacity="0.5"/>
+ <ellipse cx="13" cy="14" rx="2.5" ry="5" fill="#40a020" fill-opacity="0.5"/>
+ <ellipse cx="19" cy="14" rx="2.5" ry="5" fill="#40a020" fill-opacity="0.5"/>
+ <!-- pointed tip highlight -->
+ <ellipse cx="15" cy="4" rx="1.5" ry="3" fill="white" fill-opacity="0.15"/>
+<g transform="translate(-1.4,-2.4) scale(0.068) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl395" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl395)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

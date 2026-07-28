@@ -1,0 +1,53 @@
+<svg viewBox="0 0 100 100" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="zc_road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a6e74"/>
+      <stop offset="100%" stop-color="#43474d"/>
+    </linearGradient>
+    <linearGradient id="zc_stripe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dcdfe3"/>
+    </linearGradient>
+    <radialGradient id="zc_beacon" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffd24a"/>
+      <stop offset="100%" stop-color="#e08a10"/>
+    </radialGradient>
+    <linearGradient id="zc_skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe0c4"/>
+      <stop offset="100%" stop-color="#e8b48c"/>
+    </linearGradient>
+  </defs>
+  <!-- Road -->
+  <rect x="8" y="26" width="84" height="64" rx="3" fill="url(#zc_road)" stroke="#2a2d31" stroke-width="2.5"/>
+  <!-- White crossing stripes (horizontal bars) -->
+  <g fill="url(#zc_stripe)" stroke="#b8bcc2" stroke-width="0.8">
+    <rect x="16" y="40" width="68" height="8" rx="1.5"/>
+    <rect x="16" y="54" width="68" height="8" rx="1.5"/>
+    <rect x="16" y="68" width="68" height="8" rx="1.5"/>
+    <rect x="16" y="82" width="68" height="6" rx="1.5"/>
+  </g>
+  <!-- Belisha beacon (pole + amber globe) -->
+  <g>
+    <rect x="84" y="34" width="4" height="46" rx="1.5" fill="#d8d8d8" stroke="#5a5a5a" stroke-width="1.4"/>
+    <g stroke="#5a5a5a" stroke-width="1">
+      <rect x="84" y="40" width="4" height="4" fill="#3a3a3a"/>
+      <rect x="84" y="48" width="4" height="4" fill="#3a3a3a"/>
+      <rect x="84" y="56" width="4" height="4" fill="#3a3a3a"/>
+    </g>
+    <circle cx="86" cy="30" r="6" fill="url(#zc_beacon)" stroke="#9a6010" stroke-width="1.6"/>
+    <ellipse cx="84" cy="28" rx="2" ry="1.4" fill="#fff3c8" opacity="0.8"/>
+  </g>
+  <!-- Person crossing -->
+  <g>
+    <circle cx="44" cy="22" r="8" fill="url(#zc_skin)" stroke="#9a6b46" stroke-width="2"/>
+    <path d="M36 19 Q44 10 52 19 Q52 14 44 13 Q36 14 36 19 Z" fill="#5a3a1c" stroke="#3a240e" stroke-width="1"/>
+    <!-- torso -->
+    <rect x="38" y="30" width="12" height="20" rx="4" fill="#3a6fd0" stroke="#23457f" stroke-width="2"/>
+    <!-- arms (walking) -->
+    <path d="M38 34 L30 44" stroke="#23457f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M50 34 L58 42" stroke="#23457f" stroke-width="4" stroke-linecap="round"/>
+    <!-- legs (mid-stride) -->
+    <path d="M42 50 L37 66" stroke="#2a2d31" stroke-width="5" stroke-linecap="round"/>
+    <path d="M47 50 L52 66" stroke="#2a2d31" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

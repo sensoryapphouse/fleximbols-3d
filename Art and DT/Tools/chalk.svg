@@ -1,0 +1,28 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ck-slate" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#303838"/>
+ <stop offset="100%" stop-color="#181e1e"/>
+ </linearGradient>
+ <linearGradient id="ck-chalk" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#f8f8f8"/>
+ <stop offset="50%" stop-color="#e0e0e0"/>
+ <stop offset="100%" stop-color="#c0c0c0"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- dark slate surface -->
+ <rect x="2" y="20" width="28" height="9" rx="1.5" fill="url(#ck-slate)"/>
+ <!-- chalk dust mark on slate -->
+ <ellipse cx="12" cy="25" rx="6" ry="1.5" fill="white" fill-opacity="0.25"/>
+ <!-- chalk stick (diagonal on slate) -->
+ <rect x="8" y="18" width="18" height="5" rx="2.5" fill="url(#ck-chalk)" transform="rotate(-5 17 20.5)"/>
+ <!-- chalk end tip (used end) -->
+ <polygon points="8,18 8,23 9.5,20.5" fill="#e8e8e8" transform="rotate(-5 8 20.5)"/>
+ <!-- chalk grip lines -->
+ <line x1="12" y1="18.5" x2="12" y2="22.5" stroke="#d0d0d0" stroke-width="0.4" stroke-opacity="0.5" transform="rotate(-5 12 20)"/>
+ <line x1="15" y1="18.5" x2="15" y2="22.5" stroke="#d0d0d0" stroke-width="0.4" stroke-opacity="0.5" transform="rotate(-5 15 20)"/>
+ <line x1="18" y1="18.5" x2="18" y2="22.5" stroke="#d0d0d0" stroke-width="0.4" stroke-opacity="0.5" transform="rotate(-5 18 20)"/>
+ <!-- chalk highlight -->
+ <rect x="8.5" y="18.3" width="16" height="1.5" rx="1.5" fill="white" fill-opacity="0.3" transform="rotate(-5 16 19)"/>
+</svg>

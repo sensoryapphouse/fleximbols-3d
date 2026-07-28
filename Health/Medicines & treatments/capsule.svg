@@ -1,0 +1,29 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="red" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FF8FAB"/>
+ <stop offset="100%" stop-color="#C62828"/>
+ </radialGradient>
+ <radialGradient id="white" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#C9CDD3"/>
+ </radialGradient>
+ <radialGradient id="hl" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ </defs>
+ <!-- Two-tone capsule, diagonal (red half + white half) -->
+ <g transform="rotate(-30 16 16)">
+ <!-- Red half (left) -->
+ <path d="M 4 12 Q 4 8 8 8 L 16 8 L 16 20 L 8 20 Q 4 20 4 16 Z" fill="url(#red)"/>
+ <!-- White half (right) -->
+ <path d="M 16 8 L 24 8 Q 28 8 28 12 L 28 16 Q 28 20 24 20 L 16 20 Z" fill="url(#white)"/>
+ <!-- Seam line between halves -->
+ <line x1="16" y1="8" x2="16" y2="20" stroke="#7A7E84" stroke-width="0.3"/>
+ <!-- Highlight on red half -->
+ <ellipse cx="9" cy="11" rx="3" ry="1.5" fill="#FFFFFF" fill-opacity="0.5"/>
+ <!-- Highlight on white half -->
+ <ellipse cx="21" cy="11" rx="3" ry="1.5" fill="url(#hl)"/>
+ </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A6D9F5"/>
+ <stop offset="100%" stop-color="#5CA3FF"/>
+ </linearGradient>
+ <linearGradient id="bank" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A6D9F5"/>
+ <stop offset="100%" stop-color="#5CC8D0"/>
+ </linearGradient>
+ <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ </defs>
+ <!-- Sky -->
+ <rect x="0" y="0" width="32" height="12" fill="url(#sky)"/>
+ <!-- Grassy/rocky terrain -->
+ <rect x="0" y="12" width="32" height="20" fill="url(#bank)"/>
+ <!-- Narrow winding stream (key gesture - narrow width + winding) -->
+ <path d="M12,12 Q14,16 11,20 Q8,24 12,28 Q14,30 14,32 L17,32 Q17,30 15,28 Q11,24 14,20 Q17,16 15,12 Z" fill="url(#water)"/>
+ <!-- Stream ripple lines -->
+ <path d="M13,15 Q14,16 13,17" stroke="#FFFFFF" stroke-width="0.4" fill="none" stroke-opacity="0.6"/>
+ <path d="M12,21 Q13,22 12,23" stroke="#FFFFFF" stroke-width="0.4" fill="none" stroke-opacity="0.6"/>
+ <!-- Visible stones in/around stream (key gesture) -->
+ <ellipse cx="11" cy="19" rx="1.5" ry="0.9" fill="url(#stone)" fill-opacity="0.9"/>
+ <ellipse cx="15" cy="22" rx="1.2" ry="0.7" fill="url(#stone)" fill-opacity="0.9"/>
+ <ellipse cx="12" cy="26" rx="1.3" ry="0.8" fill="url(#stone)" fill-opacity="0.85"/>
+ <ellipse cx="9" cy="23" rx="1" ry="0.7" fill="url(#stone)" fill-opacity="0.8"/>
+ <ellipse cx="16" cy="17" rx="1.1" ry="0.7" fill="url(#stone)" fill-opacity="0.8"/>
+ <!-- White splash over stones -->
+ <ellipse cx="11" cy="19" rx="1.2" ry="0.5" fill="#FFFFFF" fill-opacity="0.5"/>
+ <ellipse cx="15" cy="22" rx="1" ry="0.4" fill="#FFFFFF" fill-opacity="0.5"/>
+ <!-- Small wooden bridge -->
+ <rect x="8" y="15" width="9" height="1.2" fill="#8B5C3A" fill-opacity="0.85"/>
+ <rect x="8.5" y="13.5" width="0.8" height="2.5" fill="#C99878" fill-opacity="0.85"/>
+ <rect x="15.5" y="13.5" width="0.8" height="2.5" fill="#C99878" fill-opacity="0.85"/>
+ <!-- Planks -->
+ <line x1="10" y1="15" x2="10" y2="16.2" stroke="#C99878" stroke-width="0.4" stroke-opacity="0.7"/>
+ <line x1="12" y1="15" x2="12" y2="16.2" stroke="#C99878" stroke-width="0.4" stroke-opacity="0.7"/>
+ <line x1="14" y1="15" x2="14" y2="16.2" stroke="#C99878" stroke-width="0.4" stroke-opacity="0.7"/>
+ <!-- Grass tufts beside stream -->
+ <line x1="7" y1="18" x2="6.5" y2="15" stroke="#7BAA48" stroke-width="0.7" stroke-opacity="0.8"/>
+ <line x1="9" y1="22" x2="8.5" y2="19" stroke="#33691E" stroke-width="0.7" stroke-opacity="0.8"/>
+ <line x1="18" y1="20" x2="18.5" y2="17" stroke="#7BAA48" stroke-width="0.7" stroke-opacity="0.8"/>
+ <line x1="20" y1="24" x2="20.5" y2="21" stroke="#33691E" stroke-width="0.7" stroke-opacity="0.8"/>
+</svg>

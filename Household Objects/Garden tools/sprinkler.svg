@@ -1,0 +1,29 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sprinkHead" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7A9AC8"/><stop offset="100%" stop-color="#2A5A98"/></linearGradient>
+ <linearGradient id="sprinkBase" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#5A5A7A"/><stop offset="100%" stop-color="#2A2A4A"/></linearGradient>
+ <linearGradient id="grassG" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#4ABA4A"/><stop offset="100%" stop-color="#2A7A2A"/></linearGradient>
+ <linearGradient id="waterArc" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6AB8F8"/><stop offset="100%" stop-color="#1A58A8"/></linearGradient>
+ </defs>
+ <!-- Grass -->
+ <ellipse cx="16" cy="28" rx="15" ry="4" fill="url(#grassG)"/>
+ <!-- Base pipe -->
+ <rect x="14" y="22" width="4" height="5" rx="0.8" fill="url(#sprinkBase)" filter="url(#sdSpr)"/>
+ <!-- Sprinkler arm/head -->
+ <rect x="6" y="20" width="20" height="2.5" rx="1.2" fill="url(#sprinkHead)" filter="url(#sdSpr)"/>
+ <!-- Nozzle holes -->
+ <circle cx="8" cy="21.2" r="0.5" fill="#0A2A5A"/>
+ <circle cx="12" cy="21.2" r="0.5" fill="#0A2A5A"/>
+ <circle cx="20" cy="21.2" r="0.5" fill="#0A2A5A"/>
+ <circle cx="24" cy="21.2" r="0.5" fill="#0A2A5A"/>
+ <!-- Water arcs -->
+ <path d="M8 20.5 Q4 14 2 8" stroke="url(#waterArc)" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <path d="M12 20.5 Q10 14 9 8" stroke="url(#waterArc)" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <path d="M20 20.5 Q22 14 23 8" stroke="url(#waterArc)" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <path d="M24 20.5 Q28 14 30 8" stroke="url(#waterArc)" stroke-width="1" fill="none" stroke-linecap="round"/>
+ <!-- Water droplets -->
+ <circle cx="2" cy="7.5" r="0.8" fill="#6AB8F8"/>
+ <circle cx="9" cy="7.5" r="0.8" fill="#6AB8F8"/>
+ <circle cx="23" cy="7.5" r="0.8" fill="#6AB8F8"/>
+ <circle cx="30" cy="7.5" r="0.8" fill="#6AB8F8"/>
+</svg>

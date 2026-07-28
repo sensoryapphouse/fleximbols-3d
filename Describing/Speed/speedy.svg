@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFE8B0"/>
+ <stop offset="100%" stop-color="#FFD060"/>
+ </linearGradient>
+ <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C8A96A"/>
+ <stop offset="100%" stop-color="#8B6540"/>
+ </linearGradient>
+ <linearGradient id="torsoGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A0D468"/>
+ <stop offset="100%" stop-color="#5A8E3C"/>
+ </linearGradient>
+ <linearGradient id="skinGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F5C88A"/>
+ <stop offset="100%" stop-color="#D4915A"/>
+ </linearGradient>
+ <linearGradient id="streakGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#FF8B3D" stop-opacity="0"/>
+ <stop offset="65%" stop-color="#FFD45E" stop-opacity="0.95"/>
+ <stop offset="100%" stop-color="#E5A700" stop-opacity="0.7"/>
+ </linearGradient>
+ <!-- Star burst gradient -->
+ <radialGradient id="starGrad" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="50%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#E5A700" stop-opacity="0"/>
+ </radialGradient>
+ </defs>
+
+ 
+ <rect x="0" y="28.5" width="32" height="3.5" fill="url(#ground)" rx="0.5"/>
+
+ <!-- 7 bold motion streaks -->
+ <line x1="0.5" y1="13" x2="17" y2="13" stroke="url(#streakGrad)" stroke-width="1.05" stroke-linecap="round"/>
+ <line x1="0.5" y1="15" x2="16" y2="15" stroke="url(#streakGrad)" stroke-width="1.0" stroke-linecap="round"/>
+ <line x1="0.5" y1="17" x2="15" y2="17" stroke="url(#streakGrad)" stroke-width="0.95" stroke-linecap="round"/>
+ <line x1="0.5" y1="19" x2="14.5" y2="19" stroke="url(#streakGrad)" stroke-width="0.9" stroke-linecap="round"/>
+ <line x1="0.5" y1="21" x2="14" y2="21" stroke="url(#streakGrad)" stroke-width="0.85" stroke-linecap="round"/>
+ <line x1="0.5" y1="23" x2="13" y2="23" stroke="url(#streakGrad)" stroke-width="0.75" stroke-linecap="round"/>
+ <line x1="0.5" y1="25" x2="12" y2="25" stroke="url(#streakGrad)" stroke-width="0.65" stroke-linecap="round"/>
+
+ <!-- Star burst at leading edge of figure -->
+ <circle cx="28.5" cy="16" r="2.5" fill="url(#starGrad)"/>
+ <!-- Star points -->
+ <line x1="28.5" y1="13.5" x2="28.5" y2="12" stroke="#FFD45E" stroke-width="0.5" opacity="0.8"/>
+ <line x1="30" y1="14.5" x2="31" y2="13.5" stroke="#FFD45E" stroke-width="0.5" opacity="0.8"/>
+ <line x1="30.5" y1="16" x2="32" y2="16" stroke="#FFD45E" stroke-width="0.5" opacity="0.8"/>
+
+ <!-- Figure — nearly horizontal lean, extreme forward angle, slight motion stretch -->
+ <!-- Torso — very stretched/lean horizontally -->
+ <rect x="20" y="14" width="6.5" height="5.0" fill="url(#torsoGrad)" rx="1.0" transform="rotate(-32 23.3 16.5)"/>
+ <!-- Head -->
+ <ellipse cx="26" cy="11.5" rx="2.3" ry="2.0" fill="url(#skinGrad)" transform="rotate(-15 26 11.5)"/>
+ <circle cx="25.4" cy="10.9" r="0.65" fill="#F8DEB8" opacity="0.55"/>
+ <!-- Arms -->
+ <line x1="20.5" y1="15.5" x2="17" y2="19" stroke="#A88A60" stroke-width="1.0" stroke-linecap="round"/>
+ <line x1="25" y1="14" x2="28.5" y2="11" stroke="#A88A60" stroke-width="1.0" stroke-linecap="round"/>
+ <!-- Legs — very stretched -->
+ <line x1="22" y1="19.5" x2="18.5" y2="28" stroke="#A88A60" stroke-width="1.1" stroke-linecap="round"/>
+ <line x1="24.5" y1="19" x2="28" y2="24" stroke="#A88A60" stroke-width="1.1" stroke-linecap="round"/>
+
+ <!-- Lightning-bolt heel sparks -->
+ <!-- Left heel spark -->
+ <polygon points="18,27.5 17.5,26 16.5,27 17,25.5 15.5,26.5" fill="#FFD45E" opacity="0.9"/>
+ <!-- Right heel spark -->
+ <polygon points="27.5,24 27,22.5 26,23.5 26.5,22 25,23" fill="#FF8B3D" opacity="0.85"/>
+</svg>

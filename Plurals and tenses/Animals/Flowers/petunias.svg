@@ -1,0 +1,25 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,3.152) scale(0.9015)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="petal" cx="40%" cy="35%"><stop offset="0%" stop-color="#ffb0e0"/><stop offset="60%" stop-color="#c050a0"/><stop offset="100%" stop-color="#601040"/></radialGradient>
+<radialGradient id="center" cx="35%" cy="30%"><stop offset="0%" stop-color="#fff080"/><stop offset="100%" stop-color="#a04020"/></radialGradient>
+<radialGradient id="stem" cx="50%" cy="30%"><stop offset="0%" stop-color="#70b040"/><stop offset="100%" stop-color="#205010"/></radialGradient>
+</defs>
+<path d="M16 16 L16 30" stroke="url(#stem)" stroke-width="1.4" stroke-linecap="round"/>
+<ellipse cx="11" cy="22" rx="3" ry="1.5" fill="url(#stem)" transform="rotate(-30 11 22)"/>
+<g>
+<ellipse cx="16" cy="6" rx="4" ry="5" fill="url(#petal)"/>
+<ellipse cx="16" cy="6" rx="4" ry="5" fill="url(#petal)" transform="rotate(72 16 12)"/>
+<ellipse cx="16" cy="6" rx="4" ry="5" fill="url(#petal)" transform="rotate(144 16 12)"/>
+<ellipse cx="16" cy="6" rx="4" ry="5" fill="url(#petal)" transform="rotate(216 16 12)"/>
+<ellipse cx="16" cy="6" rx="4" ry="5" fill="url(#petal)" transform="rotate(288 16 12)"/>
+</g>
+<circle cx="16" cy="12" r="2" fill="url(#center)"/>
+<g stroke="#400020" stroke-width="0.3" fill="none" opacity="0.5">
+<line x1="16" y1="12" x2="16" y2="4"/>
+<line x1="16" y1="12" x2="22" y2="9"/>
+<line x1="16" y1="12" x2="22" y2="16"/>
+<line x1="16" y1="12" x2="10" y2="16"/>
+<line x1="16" y1="12" x2="10" y2="9"/>
+</g>
+<circle cx="15.5" cy="11.5" r="0.5" fill="#fff" opacity="0.7"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl175" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl175)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

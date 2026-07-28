@@ -1,0 +1,26 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<radialGradient id="gb_b" cx="35%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#5CA3FF"/><stop offset="100%" stop-color="#0D47A1"/></radialGradient>
+<radialGradient id="gb_w" cx="35%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#C8CFDA"/></radialGradient>
+<radialGradient id="gb_r" cx="35%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#FF5252"/><stop offset="100%" stop-color="#7E0F0F"/></radialGradient>
+<clipPath id="gb_clip"><path d="M 3.8 4 Q 12 3 20 5 Q 25 6 28 4 L 28 18 Q 25 20 20 19 Q 12 17 3.8 18 Z"/></clipPath>
+</defs>
+<rect x="3" y="3" width="0.8" height="26" fill="#7A7E84"/>
+<circle cx="3.4" cy="2.5" r="0.8" fill="#FFEF5B"/>
+<path d="M 3.8 4 Q 12 3 20 5 Q 25 6 28 4 L 28 18 Q 25 20 20 19 Q 12 17 3.8 18 Z" fill="url(#gb_b)"/>
+<g clip-path="url(#gb_clip)">
+<!-- white diagonals (X-shape) -->
+<line x1="3.8" y1="4" x2="28" y2="19" stroke="url(#gb_w)" stroke-width="3"/>
+<line x1="28" y1="4" x2="3.8" y2="19" stroke="url(#gb_w)" stroke-width="3"/>
+<!-- red diagonals (narrower) -->
+<line x1="3.8" y1="4" x2="28" y2="19" stroke="url(#gb_r)" stroke-width="1.2"/>
+<line x1="28" y1="4" x2="3.8" y2="19" stroke="url(#gb_r)" stroke-width="1.2"/>
+<!-- white cross -->
+<rect x="3.8" y="9.5" width="24.2" height="3.2" fill="url(#gb_w)"/>
+<rect x="14.4" y="3" width="3.2" height="17" fill="url(#gb_w)"/>
+<!-- red cross -->
+<rect x="3.8" y="10.4" width="24.2" height="1.4" fill="url(#gb_r)"/>
+<rect x="15.3" y="3" width="1.4" height="17" fill="url(#gb_r)"/>
+</g></svg>

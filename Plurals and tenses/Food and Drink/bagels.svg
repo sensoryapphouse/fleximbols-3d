@@ -1,0 +1,41 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,2.720) scale(0.915)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <radialGradient id="bglBody" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#e8b878"/>
+      <stop offset="0.7" stop-color="#cf9a52"/>
+      <stop offset="1" stop-color="#a9742f"/>
+    </radialGradient>
+    <radialGradient id="bglHole" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#d9a96a"/>
+      <stop offset="1" stop-color="#b07e3e"/>
+    </radialGradient>
+  </defs>
+  <!-- outer torus -->
+  <circle cx="16" cy="16.5" r="12.5" fill="url(#bglBody)" stroke="#9a6a2c" stroke-width="0.6"/>
+  <!-- glossy top sheen -->
+  <path d="M6 11 Q16 5 26 11" fill="none" stroke="#f5d9a8" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+  <!-- inner hole (recessed, shaded) -->
+  <circle cx="16" cy="16.5" r="4.6" fill="url(#bglHole)" stroke="#8a5e28" stroke-width="0.6"/>
+  <ellipse cx="16" cy="15.2" rx="3.2" ry="1.6" fill="#c9954f" opacity="0.6"/>
+  <!-- inner rim shadow to give torus depth -->
+  <circle cx="16" cy="16.5" r="5.4" fill="none" stroke="#8a5e28" stroke-width="0.8" opacity="0.45"/>
+  <!-- sesame seeds scattered on the ring -->
+  <g fill="#f5e9c8" stroke="#c9a85f" stroke-width="0.18">
+    <ellipse cx="16" cy="6.6" rx="0.9" ry="0.45" transform="rotate(8 16 6.6)"/>
+    <ellipse cx="11" cy="7.8" rx="0.9" ry="0.45" transform="rotate(-30 11 7.8)"/>
+    <ellipse cx="21" cy="7.6" rx="0.9" ry="0.45" transform="rotate(28 21 7.6)"/>
+    <ellipse cx="7.6" cy="11.5" rx="0.9" ry="0.45" transform="rotate(-55 7.6 11.5)"/>
+    <ellipse cx="24.6" cy="11.5" rx="0.9" ry="0.45" transform="rotate(55 24.6 11.5)"/>
+    <ellipse cx="6.4" cy="16.5" rx="0.9" ry="0.45" transform="rotate(90 6.4 16.5)"/>
+    <ellipse cx="25.6" cy="16.5" rx="0.9" ry="0.45" transform="rotate(90 25.6 16.5)"/>
+    <ellipse cx="7.6" cy="21.5" rx="0.9" ry="0.45" transform="rotate(55 7.6 21.5)"/>
+    <ellipse cx="24.4" cy="21.5" rx="0.9" ry="0.45" transform="rotate(-55 24.4 21.5)"/>
+    <ellipse cx="11" cy="25.2" rx="0.9" ry="0.45" transform="rotate(30 11 25.2)"/>
+    <ellipse cx="21" cy="25.2" rx="0.9" ry="0.45" transform="rotate(-30 21 25.2)"/>
+    <ellipse cx="16" cy="26.4" rx="0.9" ry="0.45"/>
+    <ellipse cx="9.5" cy="13" rx="0.9" ry="0.45" transform="rotate(-40 9.5 13)"/>
+    <ellipse cx="22.5" cy="13" rx="0.9" ry="0.45" transform="rotate(40 22.5 13)"/>
+    <ellipse cx="9.5" cy="20" rx="0.9" ry="0.45" transform="rotate(40 9.5 20)"/>
+    <ellipse cx="22.5" cy="20" rx="0.9" ry="0.45" transform="rotate(-40 22.5 20)"/>
+  </g>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1624" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1624)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<radialGradient id="box" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFB050"/><stop offset="100%" stop-color="#9C5C2A"/></radialGradient>
+<radialGradient id="dark" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#7A4520"/><stop offset="100%" stop-color="#3A1F0A"/></radialGradient>
+<radialGradient id="tape" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#E0B070"/><stop offset="100%" stop-color="#7A4520"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="40%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<path d="M3 7 L29 7 L29 28 L3 28 Z" fill="url(#box)"/>
+<path d="M3 7 L29 7 L29 9 L3 9 Z" fill="url(#hi)" opacity="0.5"/>
+<path d="M3 7 L8 4 L26 4 L29 7 Z" fill="url(#tape)"/>
+<path d="M3 7 L8 4 L8 6 L4 8 Z" fill="url(#hi)" opacity="0.5"/>
+<rect x="15" y="4" width="2" height="3" fill="url(#dark)"/>
+<rect x="15" y="9" width="2" height="19" fill="url(#dark)"/>
+<rect x="3" y="17" width="26" height="2" fill="url(#dark)"/>
+<path d="M3 7 L3 28" stroke="url(#dark)" stroke-width="0.4"/>
+<path d="M29 7 L29 28" stroke="url(#dark)" stroke-width="0.4"/></svg>

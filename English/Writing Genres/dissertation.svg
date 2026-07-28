@@ -1,0 +1,60 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="dis-page" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#fbfaf4"/>
+<stop offset="100%" stop-color="#e6e3d6"/>
+</linearGradient>
+<linearGradient id="dis-stack" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#d8d4c4"/>
+<stop offset="100%" stop-color="#b4ad98"/>
+</linearGradient>
+<linearGradient id="dis-bind" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#5a3a20"/>
+<stop offset="100%" stop-color="#3a2412"/>
+</linearGradient>
+<linearGradient id="dis-cap" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#3a3a4a"/>
+<stop offset="100%" stop-color="#16161e"/>
+</linearGradient>
+</defs>
+<!-- Dissertation: a thick bound written manuscript (thesis) with text lines -->
+<!-- page stack edges (thick document) -->
+<rect x="7.5" y="6.5" width="17.5" height="22.5" rx="0.8" fill="url(#dis-stack)"/>
+<rect x="7" y="6" width="17.5" height="22.5" rx="0.8" fill="url(#dis-stack)"/>
+<!-- top page -->
+<rect x="6.5" y="5.5" width="17.5" height="22.5" rx="0.8" fill="url(#dis-page)" stroke="#cfc9b6" stroke-width="0.3"/>
+<!-- comb binding spine on left -->
+<rect x="6.5" y="5.5" width="2.4" height="22.5" rx="0.6" fill="url(#dis-bind)"/>
+<g fill="#1f1308">
+<rect x="6.3" y="7" width="2.8" height="0.9" rx="0.45"/>
+<rect x="6.3" y="9.4" width="2.8" height="0.9" rx="0.45"/>
+<rect x="6.3" y="11.8" width="2.8" height="0.9" rx="0.45"/>
+<rect x="6.3" y="14.2" width="2.8" height="0.9" rx="0.45"/>
+<rect x="6.3" y="16.6" width="2.8" height="0.9" rx="0.45"/>
+<rect x="6.3" y="19" width="2.8" height="0.9" rx="0.45"/>
+<rect x="6.3" y="21.4" width="2.8" height="0.9" rx="0.45"/>
+<rect x="6.3" y="23.8" width="2.8" height="0.9" rx="0.45"/>
+</g>
+<!-- title bar (bold) -->
+<rect x="10.4" y="8.2" width="11.4" height="1.5" rx="0.3" fill="#3a3a4a"/>
+<rect x="10.4" y="10.4" width="7.5" height="0.9" rx="0.3" fill="#8a8a94"/>
+<!-- text lines -->
+<g fill="#aeaea0">
+<rect x="10.4" y="13" width="11.4" height="0.8" rx="0.3"/>
+<rect x="10.4" y="14.8" width="11.4" height="0.8" rx="0.3"/>
+<rect x="10.4" y="16.6" width="11.4" height="0.8" rx="0.3"/>
+<rect x="10.4" y="18.4" width="11.4" height="0.8" rx="0.3"/>
+<rect x="10.4" y="20.2" width="11.4" height="0.8" rx="0.3"/>
+<rect x="10.4" y="22" width="11.4" height="0.8" rx="0.3"/>
+<rect x="10.4" y="23.8" width="7.8" height="0.8" rx="0.3"/>
+</g>
+<!-- page gloss -->
+<polygon points="10.4,6 13,6 9.6,27 8.6,27" fill="#ffffff" fill-opacity="0.18"/>
+<!-- small graduation cap (academic cue) top-right corner -->
+<g transform="translate(20.5 3.2)">
+<polygon points="0,3 6,0.6 12,3 6,5.4" fill="url(#dis-cap)"/>
+<path d="M2.4 4 L2.4 6.4 Q6 8 9.6 6.4 L9.6 4" fill="#2a2a36"/>
+<line x1="11" y1="3.2" x2="11" y2="6" stroke="#e0b020" stroke-width="0.4"/>
+<circle cx="11" cy="6.2" r="0.7" fill="#f0c83a"/>
+</g>
+</svg>

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="frameGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <linearGradient id="fabricL" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#C0392B"/>
+ <stop offset="100%" stop-color="#7B241C"/>
+ </linearGradient>
+ <linearGradient id="fabricR" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#7B241C"/>
+ <stop offset="100%" stop-color="#C0392B"/>
+ </linearGradient>
+ <linearGradient id="valGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E74C3C"/>
+ <stop offset="100%" stop-color="#922B21"/>
+ </linearGradient>
+ <linearGradient id="lightGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFF9E6"/>
+ <stop offset="100%" stop-color="#D4E8F0"/>
+ </linearGradient>
+ <linearGradient id="tieback" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#D4AC0D"/>
+ <stop offset="100%" stop-color="#9A7D0A"/>
+ </linearGradient>
+ </defs>
+ <!-- Window frame -->
+ <rect x="2" y="3" width="28" height="27" rx="1" fill="url(#frameGrad)"/>
+ <!-- Light through window -->
+ <rect x="11" y="6" width="10" height="21" fill="url(#lightGrad)"/>
+ <!-- Left curtain panel with folds -->
+ <path d="M2,6 Q5,8 4,12 Q5,16 4,20 Q5,24 4,27 L11,27 L11,6 Z" fill="url(#fabricL)"/>
+ <!-- Left fold lines -->
+ <path d="M6,6 Q7,12 6,20 Q7,24 6,27" fill="none" stroke="#922B21" stroke-width="0.6" opacity="0.7"/>
+ <path d="M8,6 Q9,12 8,20 Q9,24 8,27" fill="none" stroke="#922B21" stroke-width="0.6" opacity="0.7"/>
+ <!-- Right curtain panel with folds -->
+ <path d="M21,6 L28,6 Q27,8 28,12 Q27,16 28,20 Q27,24 28,27 L21,27 Z" fill="url(#fabricR)"/>
+ <!-- Right fold lines -->
+ <path d="M24,6 Q23,12 24,20 Q23,24 24,27" fill="none" stroke="#922B21" stroke-width="0.6" opacity="0.7"/>
+ <path d="M26,6 Q25,12 26,20 Q25,24 26,27" fill="none" stroke="#922B21" stroke-width="0.6" opacity="0.7"/>
+ <!-- Valance top -->
+ <rect x="2" y="3" width="28" height="4" rx="0.5" fill="url(#valGrad)"/>
+ <path d="M2,7 Q8,5 16,7 Q24,5 30,7" fill="none" stroke="#7B241C" stroke-width="0.7"/>
+ <!-- Left tieback -->
+ <path d="M4,18 Q9,17 11,19" fill="none" stroke="url(#tieback)" stroke-width="1.2" stroke-linecap="round"/>
+ <!-- Right tieback -->
+ <path d="M21,19 Q23,17 28,18" fill="none" stroke="url(#tieback)" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

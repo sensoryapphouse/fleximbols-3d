@@ -1,0 +1,41 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+
+ <ellipse cx="16" cy="23" rx="11" ry="5" fill="url(#sug_bowl)"/>
+ <ellipse cx="16" cy="22" rx="9" ry="3.5" fill="url(#sug_rim)"/>
+ <ellipse cx="16" cy="18.5" rx="8.5" ry="4.5" fill="url(#sug_mound)"/>
+ <circle cx="12" cy="18" r="0.6" fill="url(#sug_grain)"/>
+ <circle cx="14" cy="16.5" r="0.5" fill="url(#sug_grain)"/>
+ <circle cx="16" cy="17.5" r="0.6" fill="url(#sug_grain)"/>
+ <circle cx="18" cy="16.5" r="0.5" fill="url(#sug_grain)"/>
+ <circle cx="20" cy="18" r="0.6" fill="url(#sug_grain)"/>
+ <circle cx="13" cy="20" r="0.5" fill="url(#sug_grain)"/>
+ <circle cx="17" cy="20.5" r="0.6" fill="url(#sug_grain)"/>
+ <circle cx="21" cy="20" r="0.5" fill="url(#sug_grain)"/>
+ <ellipse cx="13" cy="15.5" rx="3" ry="1.5" fill="url(#sug_shine)" opacity="0.45"/>
+
+<defs>
+
+ <radialGradient id="sug_bowl" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#E0E0E8"/>
+ <stop offset="1" stop-color="#909098"/>
+ </radialGradient>
+ <radialGradient id="sug_rim" cx="0.5" cy="0.5" r="0.8">
+ <stop offset="0" stop-color="#686870"/>
+ <stop offset="1" stop-color="#484850"/>
+ </radialGradient>
+ <radialGradient id="sug_mound" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#FFFFFF"/>
+ <stop offset="0.7" stop-color="#F5F5F8"/>
+ <stop offset="1" stop-color="#E0E0E8"/>
+ </radialGradient>
+ <radialGradient id="sug_grain" cx="0.3" cy="0.3" r="0.7">
+ <stop offset="0" stop-color="#FFFFFF"/>
+ <stop offset="1" stop-color="#D0D0D8"/>
+ </radialGradient>
+ <radialGradient id="sug_shine" cx="0.3" cy="0.3" r="0.7">
+ <stop offset="0" stop-color="#ffffff"/>
+ <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+ </radialGradient>
+
+</defs>
+</svg>

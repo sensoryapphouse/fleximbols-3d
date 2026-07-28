@@ -1,0 +1,37 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bns_body" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#f3d49a"/>
+ <stop offset="45%" stop-color="#e6b96a"/>
+ <stop offset="100%" stop-color="#c08a36"/>
+ </linearGradient>
+ <radialGradient id="bns_bulb" cx="38%" cy="34%" r="72%">
+ <stop offset="0%" stop-color="#f5d89e"/>
+ <stop offset="65%" stop-color="#e3b362"/>
+ <stop offset="100%" stop-color="#b07f30"/>
+ </radialGradient>
+ <linearGradient id="bns_stem" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#9c7b3a"/>
+ <stop offset="100%" stop-color="#6a4f1e"/>
+ </linearGradient>
+ <radialGradient id="bns_hi" cx="30%" cy="25%" r="45%">
+ <stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/>
+ <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+ </radialGradient>
+ </defs>
+ <!-- soft shadow -->
+ <ellipse cx="16" cy="28" rx="8" ry="1.8" fill="#8a6a30" opacity="0.3"/>
+ <!-- stem -->
+ <path d="M14.6 3.4 Q15.5 2.6 16.4 3.4 L16.2 6 L14.8 6 Z" fill="url(#bns_stem)"/>
+ <!-- long neck -->
+ <path d="M13.4 6 Q13 6 13 7 L13 16 Q13 17 14 17.2 L18 17.2 Q19 17 19 16 L19 7 Q19 6 18.6 6 Q16 5.2 13.4 6 Z" fill="url(#bns_body)"/>
+ <!-- bulbous base -->
+ <path d="M16 14 Q23 14.5 23 21.5 Q23 27.5 16 27.5 Q9 27.5 9 21.5 Q9 14.5 16 14 Z" fill="url(#bns_bulb)"/>
+ <!-- subtle ridge lines on bulb -->
+ <path d="M16 15 Q16 21 16 27" stroke="#a87c34" stroke-width="0.3" fill="none" opacity="0.45"/>
+ <path d="M12.5 15.5 Q11.5 21 13 26.5" stroke="#a87c34" stroke-width="0.3" fill="none" opacity="0.35"/>
+ <path d="M19.5 15.5 Q20.5 21 19 26.5" stroke="#a87c34" stroke-width="0.3" fill="none" opacity="0.35"/>
+ <!-- highlights -->
+ <ellipse cx="14.5" cy="9.5" rx="1.1" ry="3.5" fill="url(#bns_hi)"/>
+ <ellipse cx="12.5" cy="19" rx="2.6" ry="3.4" fill="url(#bns_hi)"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="uw_box" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#D8A867"/>
+<stop offset="1" stop-color="#B07F3E"/>
+</linearGradient>
+<linearGradient id="uw_lid" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#E6BC7C"/>
+<stop offset="1" stop-color="#C8975A"/>
+</linearGradient>
+<linearGradient id="uw_paper" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#5AA9F0"/>
+<stop offset="1" stop-color="#2E7BD0"/>
+</linearGradient>
+<linearGradient id="uw_paperR" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#4E9CE6"/>
+<stop offset="1" stop-color="#2A72C4"/>
+</linearGradient>
+<linearGradient id="uw_skin" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFD6B0"/>
+<stop offset="1" stop-color="#EBAF82"/>
+</linearGradient>
+</defs>
+<!-- open box base -->
+<path d="M9.5 17.5 H22.5 V26.5 C22.5 27.1 22.0 27.5 21.4 27.5 H10.6 C10.0 27.5 9.5 27.1 9.5 26.5 Z" fill="url(#uw_box)" stroke="#8E6630" stroke-width="0.4"/>
+<!-- box inner rim (open top) -->
+<ellipse cx="16" cy="17.5" rx="6.5" ry="1.7" fill="#7A5526"/>
+<ellipse cx="16" cy="17.2" rx="6.0" ry="1.3" fill="#3A2A14"/>
+<!-- sparkle (revealed surprise) -->
+<path d="M16 9.5 l0.7 2.0 2.0 0.7 -2.0 0.7 -0.7 2.0 -0.7 -2.0 -2.0 -0.7 2.0 -0.7 z" fill="#FFD23F"/>
+<circle cx="11.5" cy="11.5" r="0.6" fill="#FFD23F"/>
+<circle cx="20.5" cy="10.0" r="0.5" fill="#FFD23F"/>
+<!-- LEFT torn wrapping paper being pulled away -->
+<path d="M3.0 12.0 C5.5 11.5 8.5 12.5 9.6 15.0 C8.8 16.2 6.6 17.0 4.2 16.6 C5.4 15.2 5.2 13.4 3.0 12.0 Z" fill="url(#uw_paper)" stroke="#1F5FA8" stroke-width="0.35"/>
+<path d="M9.6 15.0 l-1.0 0.5 0.6 0.6 -1.1 0.3 0.5 0.6" fill="none" stroke="#1F5FA8" stroke-width="0.3"/>
+<g fill="#BFE0FF" opacity="0.8"><circle cx="5.0" cy="13.4" r="0.3"/><circle cx="6.6" cy="14.6" r="0.3"/><circle cx="4.4" cy="15.0" r="0.3"/></g>
+<!-- RIGHT torn wrapping paper being pulled away -->
+<path d="M29.0 12.0 C26.5 11.5 23.5 12.5 22.4 15.0 C23.2 16.2 25.4 17.0 27.8 16.6 C26.6 15.2 26.8 13.4 29.0 12.0 Z" fill="url(#uw_paperR)" stroke="#1F5FA8" stroke-width="0.35"/>
+<g fill="#BFE0FF" opacity="0.8"><circle cx="27.0" cy="13.4" r="0.3"/><circle cx="25.4" cy="14.6" r="0.3"/><circle cx="27.6" cy="15.0" r="0.3"/></g>
+<!-- hands gripping torn paper -->
+<ellipse cx="3.4" cy="14.2" rx="1.6" ry="1.3" fill="url(#uw_skin)" stroke="#D79A6E" stroke-width="0.3"/>
+<ellipse cx="28.6" cy="14.2" rx="1.6" ry="1.3" fill="url(#uw_skin)" stroke="#D79A6E" stroke-width="0.3"/>
+</svg>

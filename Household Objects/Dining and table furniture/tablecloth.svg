@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="tcTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aebbe6"/>
+      <stop offset="1" stop-color="#8b9bd6"/>
+    </linearGradient>
+    <linearGradient id="tcFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8090cf"/>
+      <stop offset="1" stop-color="#5f72bb"/>
+    </linearGradient>
+    <linearGradient id="tcSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7283c6"/>
+      <stop offset="1" stop-color="#536aad"/>
+    </linearGradient>
+    <linearGradient id="tcLeg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9774a"/>
+      <stop offset="1" stop-color="#7c5230"/>
+    </linearGradient>
+  </defs>
+  <!-- Table legs peeking below the cloth drape -->
+  <rect x="48" y="150" width="11" height="34" rx="2" fill="url(#tcLeg)" stroke="#5c3c20" stroke-width="2.5"/>
+  <rect x="141" y="150" width="11" height="34" rx="2" fill="url(#tcLeg)" stroke="#5c3c20" stroke-width="2.5"/>
+  <!-- Draped cloth: top face (slight 3D perspective) -->
+  <polygon points="58,70 150,70 178,96 86,96"
+           fill="url(#tcTop)" stroke="#41538f" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Left side drape -->
+  <polygon points="58,70 86,96 86,150 30,150 30,96"
+           fill="url(#tcSide)" stroke="#41538f" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Front drape -->
+  <polygon points="86,96 178,96 178,150 86,150"
+           fill="url(#tcFront)" stroke="#41538f" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Scalloped hem along the front bottom -->
+  <path d="M86,150 q9,11 18,0 q9,11 18,0 q9,11 18,0 q9,11 18,0 q9,11 20,0"
+        fill="url(#tcFront)" stroke="#41538f" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Scalloped hem along the left side bottom -->
+  <path d="M30,150 q7,11 14,0 q7,11 14,0 q7,11 14,0 q7,11 14,0"
+        fill="url(#tcSide)" stroke="#41538f" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Top gloss highlight -->
+  <polygon points="66,75 120,75 134,87 80,87" fill="#ffffff" opacity="0.3"/>
+  <!-- Fold lines on front -->
+  <line x1="108" y1="98" x2="108" y2="150" stroke="#41538f" stroke-width="1.6" opacity="0.45"/>
+  <line x1="132" y1="98" x2="132" y2="150" stroke="#41538f" stroke-width="1.6" opacity="0.45"/>
+  <line x1="156" y1="98" x2="156" y2="150" stroke="#41538f" stroke-width="1.6" opacity="0.45"/>
+</svg>

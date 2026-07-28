@@ -1,0 +1,27 @@
+<svg viewBox="-1.11 -1.235 34.22 34.22" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="board" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2a5040"/><stop offset="100%" stop-color="#0e2a1e"/></linearGradient>
+ <filter id="chalk"><feGaussianBlur stdDeviation="0.3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <!-- chalkboard -->
+ 
+ <!-- board frame -->
+ <rect x="2" y="4" width="28" height="22" rx="1.5" fill="none" stroke="#5a4020" stroke-width="1.5"/>
+ <!-- integral sign (bold) -->
+ <path d="M9 8 Q11 7 11 9 L11 21 Q11 23 13 22" stroke="white" stroke-width="1.6" fill="none" stroke-linecap="round" filter="url(#chalk)"/>
+ <!-- limits 0 to 1 hints -->
+ <path d="M12 8 L13 7 L13 10" stroke="white" stroke-width="0.6" fill="none" stroke-linecap="round" fill-opacity="0.7" filter="url(#chalk)"/>
+ <!-- function expression f(x)dx -->
+ <path d="M15 14 Q17 12 18 15 Q19 18 20 14" stroke="white" stroke-width="1" fill="none" stroke-linecap="round" filter="url(#chalk)"/>
+ <!-- dx -->
+ <path d="M21 12 Q21 17 21 17" stroke="white" stroke-width="0.8" fill="none" filter="url(#chalk)"/>
+ <path d="M21 14 Q23 12 23 17" stroke="white" stroke-width="0.8" fill="none" filter="url(#chalk)"/>
+ <!-- corner graph -->
+ <rect x="19" y="18" width="9" height="6" rx="0.5" fill="#1e4030" fill-opacity="0.7"/>
+ <line x1="20" y1="23" x2="20" y2="18.5" stroke="#88cc88" stroke-width="0.4"/>
+ <line x1="20" y1="23" x2="27.5" y2="23" stroke="#88cc88" stroke-width="0.4"/>
+ <path d="M21 23 Q22 20 23 19 Q24 18.5 25 20 Q26 22 27 23" stroke="#88ffcc" stroke-width="0.6" fill="none"/>
+ <!-- chalk tray -->
+ <rect x="2" y="26" width="28" height="2.5" rx="0.5" fill="#5a4020"/>
+ <rect x="6" y="26" width="5" height="2" rx="0.3" fill="#f8f8e8" fill-opacity="0.8"/>
+</svg>

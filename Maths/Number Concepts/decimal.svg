@@ -1,0 +1,33 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+  <linearGradient id="dec-seg" x1="0%" y1="0%" x2="0%" y2="100%">
+   <stop offset="0%" stop-color="#5b9be8"/>
+   <stop offset="55%" stop-color="#2f6fc7"/>
+   <stop offset="100%" stop-color="#16459e"/>
+  </linearGradient>
+  <radialGradient id="dec-dot" cx="35%" cy="30%" r="70%">
+   <stop offset="0%" stop-color="#ff5a4d"/>
+   <stop offset="55%" stop-color="#e03020"/>
+   <stop offset="100%" stop-color="#a00010"/>
+  </radialGradient>
+ </defs>
+ <!-- seven-segment "3" (a,b,c,d,g) — vector paths, font-independent -->
+ <g fill="url(#dec-seg)" stroke="#0e3aa8" stroke-width="0.25">
+  <rect x="3.2" y="6.5"  width="6.2" height="2.1" rx="1"/>
+  <rect x="9.0" y="8.0"  width="2.1" height="6.4" rx="1"/>
+  <rect x="9.0" y="16.0" width="2.1" height="6.4" rx="1"/>
+  <rect x="3.2" y="21.8" width="6.2" height="2.1" rx="1"/>
+  <rect x="3.2" y="14.0" width="6.2" height="2.1" rx="1"/>
+ </g>
+ <!-- enlarged decimal point -->
+ <circle cx="15.5" cy="22.4" r="2.1" fill="url(#dec-dot)" stroke="#7a000c" stroke-width="0.3"/>
+ <ellipse cx="14.8" cy="21.6" rx="0.7" ry="0.5" fill="#ffffff" fill-opacity="0.6"/>
+ <!-- seven-segment "5" (a,f,g,c,d) — vector paths -->
+ <g fill="url(#dec-seg)" stroke="#0e3aa8" stroke-width="0.25">
+  <rect x="19.6" y="6.5"  width="6.2" height="2.1" rx="1"/>
+  <rect x="18.8" y="8.0"  width="2.1" height="6.4" rx="1"/>
+  <rect x="19.6" y="14.0" width="6.2" height="2.1" rx="1"/>
+  <rect x="25.4" y="16.0" width="2.1" height="6.4" rx="1"/>
+  <rect x="19.6" y="21.8" width="6.2" height="2.1" rx="1"/>
+ </g>
+</svg>

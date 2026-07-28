@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="jsHull" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#ff7a4d"/>
+ <stop offset="55%" stop-color="#e8431f"/>
+ <stop offset="100%" stop-color="#a82812"/>
+ </linearGradient>
+ <linearGradient id="jsSeat" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#4a4a52"/>
+ <stop offset="100%" stop-color="#23232a"/>
+ </linearGradient>
+ <linearGradient id="jsWater" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#74c4ef"/>
+ <stop offset="100%" stop-color="#2f8fd0"/>
+ </linearGradient>
+ </defs>
+ <!-- water -->
+ <path d="M1 23 Q6 21.5 11 23 Q16 24.5 21 23 Q26 21.5 31 23 L31 30 L1 30 Z" fill="url(#jsWater)"/>
+ <path d="M2 22.4 Q6 21.2 10 22.4 Q14 23.6 18 22.4" fill="none" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.6" stroke-linecap="round"/>
+ <!-- jet-ski hull (sleek, pointed bow to the right) -->
+ <path d="M3 22 Q3 18.5 9 18 L23 17.2 Q29 17 30 19.5 Q30.5 21.5 27 22.6 Q16 24.6 7 23.6 Q3.5 23.2 3 22 Z"
+ fill="url(#jsHull)" stroke="#8a2210" stroke-width="0.5"/>
+ <!-- side accent stripe -->
+ <path d="M5 21 Q15 22 28 20.2" fill="none" stroke="#ffd24a" stroke-width="0.8" stroke-linecap="round"/>
+ <!-- seat -->
+ <path d="M10 17.6 Q11 15.4 15 15.5 L19 15.6 Q21 15.7 21 17.4 Z" fill="url(#jsSeat)"/>
+ <!-- handlebars / console -->
+ <path d="M19 15.8 L21.6 11.8" stroke="#2a2a30" stroke-width="1.2" stroke-linecap="round"/>
+ <path d="M20 11.2 L23.6 12.6" stroke="#2a2a30" stroke-width="1.2" stroke-linecap="round"/>
+ <!-- hull gloss -->
+ <ellipse cx="12" cy="19" rx="6" ry="1" fill="#ffffff" fill-opacity="0.25"/>
+ <!-- spray at bow -->
+ <path d="M29.5 19.8 Q31 18.8 31 20.3 M29.8 21.3 Q31.2 21 31 22.2" fill="none" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.7" stroke-linecap="round"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl3544" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl3544)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

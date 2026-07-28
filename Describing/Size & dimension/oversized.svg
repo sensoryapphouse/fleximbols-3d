@@ -1,0 +1,41 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Small shirt gradient -->
+ <linearGradient id="smallG" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#88ddff"/>
+ <stop offset="100%" stop-color="#0055aa"/>
+ </linearGradient>
+ <!-- Big shirt gradient -->
+ <linearGradient id="bigG" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ffaa55"/>
+ <stop offset="100%" stop-color="#bb3300"/>
+ </linearGradient>
+ <!-- Arrow gradient -->
+ <linearGradient id="arrowG" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#888888"/>
+ <stop offset="100%" stop-color="#333333"/>
+ </linearGradient>
+ </defs>
+ <!-- Small T-shirt on left (scaled small) -->
+ <!-- Body -->
+ <path d="M3 13 L5 11 L6.5 13 L8 11 L10 13 L10 20 L3 20 Z" fill="url(#smallG)" filter="url(#shad)"/>
+ <!-- Collar -->
+ <path d="M5 11 Q6.5 12.5 8 11" fill="none" stroke="url(#smallG)" stroke-width="0.8"/>
+ <!-- Sleeves -->
+ <path d="M3 13 L2 11 L4 10 L5 11" fill="url(#smallG)"/>
+ <path d="M10 13 L11 11 L9 10 L8 11" fill="url(#smallG)"/>
+ <!-- Double-headed horizontal arrow between shirts -->
+ <line x1="12.5" y1="16" x2="16.5" y2="16" stroke="url(#arrowG)" stroke-width="1.2" stroke-linecap="round"/>
+ <polygon points="12.5,14.8 11,16 12.5,17.2" fill="url(#arrowG)"/>
+ <polygon points="16.5,14.8 18,16 16.5,17.2" fill="url(#arrowG)"/>
+ <!-- Large oversized T-shirt on right -->
+ <!-- Body -->
+ <path d="M18 7 L22 3 L24.5 7.5 L27 3 L31 7 L31 29 L18 29 Z" fill="url(#bigG)" filter="url(#shad)"/>
+ <!-- Collar -->
+ <path d="M22 3 Q24.5 5.5 27 3" fill="none" stroke="url(#bigG)" stroke-width="1"/>
+ <!-- Sleeves -->
+ <path d="M18 7 L15 4 L19 2 L22 3" fill="url(#bigG)"/>
+ <path d="M31 7 L34 4 L30 2 L27 3" fill="url(#bigG)"/>
+ <!-- Highlight on large shirt -->
+ <path d="M20 8 L22 6 L22 14 L20 14 Z" fill="white" fill-opacity="0.15"/>
+</svg>

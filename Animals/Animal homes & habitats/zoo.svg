@@ -1,0 +1,82 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="stoneGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="100%" stop-color="#9CA3AF"/>
+ </linearGradient>
+ <linearGradient id="columnGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="100%" stop-color="#9CA3AF"/>
+ </linearGradient>
+ <linearGradient id="archGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#C57500"/>
+ </linearGradient>
+ <linearGradient id="giraffeGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#C57500"/>
+ </linearGradient>
+ <linearGradient id="elephantGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#9CA3AF"/>
+ <stop offset="100%" stop-color="#6B7280"/>
+ </linearGradient>
+ <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#BDE3FE" stop-opacity="0.4"/>
+ <stop offset="100%" stop-color="#7DBEFC" stop-opacity="0.2"/>
+ </linearGradient>
+ <linearGradient id="treeGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#81C784"/>
+ <stop offset="100%" stop-color="#2E7D32"/>
+ </linearGradient>
+ <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A5D6A7"/>
+ <stop offset="100%" stop-color="#388E3C"/>
+ </linearGradient>
+ </defs>
+ <!-- Sky -->
+ 
+ <!-- Ground -->
+ <rect x="0" y="24" width="32" height="8" fill="url(#groundGrad)"/>
+ <!-- Left tree -->
+ <rect x="1" y="18" width="2" height="8" fill="#795548"/>
+ <ellipse cx="2" cy="17" rx="3" ry="4" fill="url(#treeGrad)"/>
+ <!-- Right tree -->
+ <rect x="29" y="18" width="2" height="8" fill="#795548"/>
+ <ellipse cx="30" cy="17" rx="3" ry="4" fill="url(#treeGrad)"/>
+ <!-- Left column -->
+ <rect x="5" y="12" width="4" height="14" rx="0.8" fill="url(#columnGrad)" stroke="#9CA3AF" stroke-width="0.5"/>
+ <!-- Right column -->
+ <rect x="23" y="12" width="4" height="14" rx="0.8" fill="url(#columnGrad)" stroke="#9CA3AF" stroke-width="0.5"/>
+ <!-- Column capitals -->
+ <rect x="4.5" y="11" width="5" height="2" rx="0.5" fill="url(#stoneGrad)"/>
+ <rect x="22.5" y="11" width="5" height="2" rx="0.5" fill="url(#stoneGrad)"/>
+ <!-- Arch beam with ZOO band -->
+ <rect x="4" y="9" width="24" height="3.5" rx="0.8" fill="url(#archGrad)"/>
+ <!-- ZOO lettering implied as 3 bold strokes -->
+ <!-- Z shape -->
+ <polyline points="9,9.5 12,9.5 9,12 12,12" fill="none" stroke="#7F3B00" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- O shape (center) -->
+ <ellipse cx="16" cy="10.75" rx="1.8" ry="1.4" fill="none" stroke="#7F3B00" stroke-width="1.2"/>
+ <!-- O shape (right) -->
+ <ellipse cx="21" cy="10.75" rx="1.8" ry="1.4" fill="none" stroke="#7F3B00" stroke-width="1.2"/>
+ <!-- Gate opening -->
+ <rect x="10" y="14" width="12" height="12" fill="#BDE3FE" opacity="0.25"/>
+ <!-- Giraffe silhouette (long neck, distinctive) -->
+ <rect x="16" y="10" width="2" height="9" rx="0.8" fill="url(#giraffeGrad)"/>
+ <ellipse cx="17" cy="10" rx="2" ry="2.5" fill="url(#giraffeGrad)"/>
+ <!-- Giraffe horns (ossicones) -->
+ <line x1="16.2" y1="7.5" x2="15.5" y2="5.5" stroke="#C57500" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="17.8" y1="7.5" x2="18.5" y2="5.5" stroke="#C57500" stroke-width="0.7" stroke-linecap="round"/>
+ <!-- Giraffe body (visible behind gate) -->
+ <ellipse cx="17" cy="20" rx="3" ry="2.5" fill="url(#giraffeGrad)" opacity="0.7"/>
+ <!-- Giraffe spots -->
+ <circle cx="16" cy="11" r="0.5" fill="#C57500" opacity="0.6"/>
+ <circle cx="17.5" cy="12.5" r="0.5" fill="#C57500" opacity="0.6"/>
+ <!-- Elephant silhouette (right, trunk visible) -->
+ <ellipse cx="24" cy="21" rx="4" ry="3" fill="url(#elephantGrad)" opacity="0.75"/>
+ <ellipse cx="24" cy="18" rx="2.5" ry="2" fill="url(#elephantGrad)" opacity="0.75"/>
+ <!-- Elephant trunk curving down -->
+ <path d="M22 19.5 Q20 21 21.5 23" fill="none" stroke="url(#elephantGrad)" stroke-width="1.8" stroke-linecap="round"/>
+ <!-- Elephant ear -->
+ <ellipse cx="26.5" cy="18.5" rx="1.5" ry="2" fill="#9CA3AF" opacity="0.6"/>
+</svg>

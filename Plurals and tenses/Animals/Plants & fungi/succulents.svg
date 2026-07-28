@@ -1,0 +1,41 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="su-pot" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#d07040"/>
+ <stop offset="100%" stop-color="#9a4010"/>
+ </linearGradient>
+ <radialGradient id="su-leaf" cx="40%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#a0d090"/>
+ <stop offset="60%" stop-color="#60b050"/>
+ <stop offset="100%" stop-color="#2a6020"/>
+ </radialGradient>
+ <radialGradient id="su-leaf2" cx="40%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#c0e0a0"/>
+ <stop offset="100%" stop-color="#70c050"/>
+ </radialGradient>
+ <linearGradient id="su-soil" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#7a5020"/>
+ <stop offset="100%" stop-color="#4a2808"/>
+ </linearGradient>
+ </defs>
+ <!-- pot body -->
+ <path d="M9 20 Q8 30 16 30 Q24 30 23 20 Z" fill="url(#su-pot)"/>
+ <!-- pot rim -->
+ <ellipse cx="16" cy="20" rx="7.5" ry="2" fill="#c06030"/>
+ <!-- soil in pot -->
+ <ellipse cx="16" cy="20" rx="7" ry="1.5" fill="url(#su-soil)"/>
+ <!-- succulent rosette leaves -->
+ <!-- outer ring leaves -->
+ <path d="M16 19 Q10 15 9 19 Q11 22 16 21 Z" fill="url(#su-leaf)"/>
+ <path d="M16 19 Q22 15 23 19 Q21 22 16 21 Z" fill="url(#su-leaf)"/>
+ <path d="M16 19 Q14 12 16 11 Q18 12 16 19 Z" fill="url(#su-leaf2)"/>
+ <path d="M16 19 Q10 13 11 10 Q13 11 16 19 Z" fill="url(#su-leaf)"/>
+ <path d="M16 19 Q22 13 21 10 Q19 11 16 19 Z" fill="url(#su-leaf)"/>
+ <path d="M16 19 Q8 17 7 14 Q10 13 16 19 Z" fill="url(#su-leaf2)"/>
+ <path d="M16 19 Q24 17 25 14 Q22 13 16 19 Z" fill="url(#su-leaf2)"/>
+ <!-- center bud -->
+ <circle cx="16" cy="16" r="2.5" fill="url(#su-leaf2)"/>
+ <circle cx="16" cy="15.5" r="1" fill="#d0f0c0"/>
+ <!-- pot highlight -->
+ <path d="M9.5 21 Q9 25 10 29" stroke="white" stroke-width="0.7" stroke-opacity="0.2" fill="none"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl305" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl305)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

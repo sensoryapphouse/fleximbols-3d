@@ -1,0 +1,43 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <radialGradient id="noon_sun" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#fff1a8"/>
+      <stop offset="0.6" stop-color="#ffd23a"/>
+      <stop offset="1" stop-color="#f3a712"/>
+    </radialGradient>
+    <linearGradient id="noon_clock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3e8ee"/>
+    </linearGradient>
+  </defs>
+  <!-- sun high in the sky -->
+  <g>
+    <g stroke="#f3a712" stroke-width="1.3" stroke-linecap="round">
+      <line x1="11" y1="1.5" x2="11" y2="4"/>
+      <line x1="4.5" y1="4" x2="6" y2="6"/>
+      <line x1="17.5" y1="4" x2="16" y2="6"/>
+      <line x1="2" y1="10" x2="4.5" y2="10"/>
+      <line x1="20" y1="10" x2="17.5" y2="10"/>
+      <line x1="4.5" y1="16" x2="6" y2="14"/>
+      <line x1="17.5" y1="16" x2="16" y2="14"/>
+    </g>
+    <circle cx="11" cy="10" r="5.2" fill="url(#noon_sun)" stroke="#e0950f" stroke-width="0.7"/>
+    <ellipse cx="9" cy="8" rx="1.4" ry="0.9" fill="#fff7d6" opacity="0.7" transform="rotate(-25 9 8)"/>
+  </g>
+  <!-- clock reading 12:00 -->
+  <circle cx="21" cy="21" r="9" fill="url(#noon_clock)" stroke="#3a4654" stroke-width="1.1"/>
+  <circle cx="21" cy="21" r="9" fill="none" stroke="#c2c9d2" stroke-width="0.5"/>
+  <!-- tick marks -->
+  <g stroke="#3a4654" stroke-width="0.8" stroke-linecap="round">
+    <line x1="21" y1="13.2" x2="21" y2="14.6"/>
+    <line x1="21" y1="27.4" x2="21" y2="28.8"/>
+    <line x1="13.2" y1="21" x2="14.6" y2="21"/>
+    <line x1="27.4" y1="21" x2="28.8" y2="21"/>
+  </g>
+  <!-- "12" mark emphasised -->
+  <text x="21" y="16.6" text-anchor="middle" font-family="Verdana, sans-serif" font-weight="bold" font-size="3.2" fill="#3a4654">12</text>
+  <!-- hands both pointing up to 12 (noon) -->
+  <line x1="21" y1="21" x2="21" y2="15.5" stroke="#e8392b" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="21" y1="21" x2="21" y2="16.5" stroke="#3a4654" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="21" cy="21" r="1.1" fill="#3a4654"/>
+</svg>

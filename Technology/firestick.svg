@@ -1,0 +1,37 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="stickGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#3a3a3a"/>
+ <stop offset="50%" stop-color="#222222"/>
+ <stop offset="100%" stop-color="#111111"/>
+ </linearGradient>
+ <linearGradient id="hdmiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#555555"/>
+ <stop offset="100%" stop-color="#333333"/>
+ </linearGradient>
+ <linearGradient id="cableGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#444"/>
+ <stop offset="100%" stop-color="#1a1a1a"/>
+ </linearGradient>
+ </defs>
+ <!-- Drop shadow -->
+ <!-- HDMI stick body -->
+ <rect x="5" y="12" width="18" height="8" rx="2" fill="url(#stickGrad)"/>
+ <!-- Stick highlight -->
+ <path d="M6,13 Q14,11.5 22,13" fill="none" stroke="#555" stroke-width="0.7" stroke-linecap="round" stroke-opacity="0.5"/>
+ <!-- HDMI connector plug on right -->
+ <rect x="23" y="13.5" width="4" height="5" rx="0.8" fill="url(#hdmiGrad)"/>
+ <!-- HDMI connector tapered front -->
+ <polygon points="27,14 29,14.5 29,17.5 27,18" fill="#404040"/>
+ <!-- Logo / text area on stick (white ring/oval represents Amazon logo) -->
+ <ellipse cx="14" cy="16" rx="5" ry="2" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.8"/>
+ <!-- Power/status LED -->
+ <circle cx="7.5" cy="16" r="1" fill="#f04830" fill-opacity="0.9"/>
+ <circle cx="7.5" cy="16" r="0.5" fill="#ffa080" fill-opacity="0.8"/>
+ <!-- Micro-USB port on bottom edge of stick -->
+ <rect x="12.5" y="19.5" width="3" height="1.5" rx="0.5" fill="#333"/>
+ <!-- Micro-USB cable -->
+ <path d="M14,21 Q14,24 12,25 Q9,26 8,25" fill="none" stroke="url(#cableGrad)" stroke-width="1.2" stroke-linecap="round"/>
+ <!-- Cable connector end -->
+ <rect x="6" y="24" width="2.5" height="1.5" rx="0.4" fill="#333"/>
+</svg>

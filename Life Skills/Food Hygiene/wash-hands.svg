@@ -1,0 +1,91 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="skin" cx="50%" cy="35%" r="55%">
+ <stop offset="0%" stop-color="#FFE0BD"/>
+ <stop offset="100%" stop-color="#D49D7A"/>
+ </radialGradient>
+ <radialGradient id="hair" cx="50%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#5C3018"/>
+ <stop offset="100%" stop-color="#2A1408"/>
+ </radialGradient>
+ <linearGradient id="top" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FF8B3D"/>
+ <stop offset="100%" stop-color="#E54A1E"/>
+ </linearGradient>
+ <linearGradient id="sink" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#D8D8D8"/>
+ <stop offset="100%" stop-color="#A0A0A0"/>
+ </linearGradient>
+ <radialGradient id="water" cx="50%" cy="40%" r="60%">
+ <stop offset="0%" stop-color="#88CCFF" stop-opacity="0.75"/>
+ <stop offset="100%" stop-color="#4488AA" stop-opacity="0.9"/>
+ </radialGradient>
+ <linearGradient id="pant" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#4A6A9A"/>
+ <stop offset="100%" stop-color="#2A4A7A"/>
+ </linearGradient>
+ </defs>
+ <!-- shadow -->
+ <!-- SINK COUNTER -->
+ <rect x="3" y="22" width="26" height="4" rx="0.5" fill="#C8C8C8" fill-opacity="0.85"/>
+ <rect x="3" y="22" width="26" height="0.7" rx="0.3" fill="#E0E0E0" fill-opacity="0.6"/>
+ <!-- SINK BASIN -->
+ <rect x="7" y="18" width="18" height="6.5" rx="1.5" fill="url(#sink)" filter="url(#sh)"/>
+ <!-- Water in basin -->
+ <rect x="7.5" y="21.5" width="17" height="2.5" rx="1" fill="url(#water)"/>
+ <!-- TAP (running water — key gesture!) -->
+ <!-- Tap base/faucet -->
+ <rect x="14.5" y="14" width="3" height="5" rx="1" fill="#BBBBBB" fill-opacity="0.9"/>
+ <rect x="13" y="14" width="6" height="1" rx="0.5" fill="#CCCCCC" fill-opacity="0.9"/>
+ <!-- Tap handle left -->
+ <rect x="11.5" y="14" width="3" height="0.8" rx="0.4" fill="#BBBBBB" fill-opacity="0.9"/>
+ <!-- Tap handle right -->
+ <rect x="17.5" y="14" width="3" height="0.8" rx="0.4" fill="#BBBBBB" fill-opacity="0.9"/>
+ <!-- RUNNING WATER STREAM from tap down to hands (key gesture!) -->
+ <path d="M16 19 Q15.8 20.5 15.5 22" stroke="#88CCFF" stroke-width="1" fill="none" stroke-opacity="0.85" stroke-linecap="round"/>
+ <path d="M16 19 Q16.2 20.5 16.5 22" stroke="#88CCFF" stroke-width="0.8" fill="none" stroke-opacity="0.7" stroke-linecap="round"/>
+ <!-- Water splash -->
+ <circle cx="16" cy="22.3" r="0.5" fill="#AADDFF" fill-opacity="0.7"/>
+ <circle cx="15" cy="22.8" r="0.35" fill="#AADDFF" fill-opacity="0.6"/>
+ <circle cx="17" cy="22.6" r="0.3" fill="#AADDFF" fill-opacity="0.55"/>
+ <!-- BOTH HANDS TOGETHER under running tap with SOAP FOAM (key gesture!) -->
+ <!-- Left hand under tap -->
+ <ellipse cx="14" cy="22.5" rx="1.8" ry="1" fill="url(#skin)"/>
+ <!-- Right hand over/interlaced with left -->
+ <ellipse cx="17.5" cy="22.5" rx="1.8" ry="1" fill="url(#skin)" fill-opacity="0.9"/>
+ <!-- Soap foam on hands -->
+ <circle cx="14.5" cy="22" r="0.8" fill="white" fill-opacity="0.78"/>
+ <circle cx="16" cy="21.7" r="0.65" fill="white" fill-opacity="0.7"/>
+ <circle cx="17" cy="22.1" r="0.7" fill="white" fill-opacity="0.72"/>
+ <circle cx="15" cy="22.8" r="0.5" fill="white" fill-opacity="0.6"/>
+ <circle cx="17.5" cy="22.8" r="0.45" fill="white" fill-opacity="0.55"/>
+ <!-- LEGS -->
+ <rect x="13" y="24.5" width="2.3" height="5.2" rx="1.1" fill="url(#pant)"/>
+ <rect x="16.5" y="24.5" width="2.3" height="5.2" rx="1.1" fill="url(#pant)" fill-opacity="0.85"/>
+ <!-- FEET -->
+ <ellipse cx="14.1" cy="29.8" rx="1.6" ry="0.75" fill="#1A1A2E" fill-opacity="0.9"/>
+ <ellipse cx="17.7" cy="29.8" rx="1.6" ry="0.75" fill="#1A1A2E" fill-opacity="0.9"/>
+ <!-- TORSO -->
+ <rect x="11.5" y="14.5" width="9" height="9.5" rx="2.2" fill="url(#top)" filter="url(#sh)"/>
+ <!-- LEFT ARM down to sink -->
+ <path d="M11.5 16.5 Q12 19 13.5 22" stroke="#E54A1E" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+ <!-- RIGHT ARM down to sink -->
+ <path d="M20.5 16.5 Q20 19 17.5 22" stroke="#FF8B3D" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+ <!-- NECK -->
+ <rect x="14" y="12.3" width="3" height="2.5" rx="1.2" fill="url(#skin)"/>
+ <!-- HEAD (looking down at hands) -->
+ <ellipse cx="15.5" cy="10.5" rx="4" ry="4" fill="url(#skin)" filter="url(#sh)"/>
+ <!-- HAIR -->
+ <ellipse cx="15.5" cy="6.8" rx="4" ry="2.3" fill="url(#hair)"/>
+ <ellipse cx="11.7" cy="8.9" rx="1.3" ry="2.2" fill="url(#hair)"/>
+ <ellipse cx="19.1" cy="8.9" rx="1.2" ry="2.2" fill="url(#hair)"/>
+ <!-- EYES looking down at hands -->
+ <ellipse cx="13.8" cy="10.8" rx="0.92" ry="0.85" fill="#1A1A3A"/>
+ <ellipse cx="17.2" cy="10.8" rx="0.92" ry="0.85" fill="#1A1A3A"/>
+ <circle cx="14.05" cy="10.55" r="0.22" fill="white" fill-opacity="0.9"/>
+ <circle cx="17.45" cy="10.55" r="0.22" fill="white" fill-opacity="0.9"/>
+ <path d="M13" cy="10.2 Q13.8 9.7 14.6 10.1" stroke="#3A1A08" stroke-width="0.38" fill="none" stroke-linecap="round"/>
+ <path d="M16.4 10.1 Q17.2 9.7 18" stroke="#3A1A08" stroke-width="0.38" fill="none" stroke-linecap="round"/>
+ <!-- MOUTH focused slight smile -->
+ <path d="M14.2 12.4 Q15.5 13 16.8 12.4" stroke="#B07050" stroke-width="0.42" fill="none" stroke-linecap="round"/>
+</svg>

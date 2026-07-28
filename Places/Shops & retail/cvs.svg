@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="belly" cx="35%" cy="25%" r="80%">
+ <stop offset="0%" stop-color="#ffd8b8"/>
+ <stop offset="100%" stop-color="#a06030"/>
+ </radialGradient>
+ <radialGradient id="uterus" cx="35%" cy="25%" r="80%">
+ <stop offset="0%" stop-color="#ff80a0"/>
+ <stop offset="100%" stop-color="#80103a"/>
+ </radialGradient>
+ <radialGradient id="metal" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#707880"/>
+ </radialGradient>
+ </defs>
+ <ellipse cx="14" cy="22" rx="11" ry="8" fill="url(#belly)"/>
+ <ellipse cx="10" cy="18" rx="3" ry="1.5" fill="#fff" opacity="0.4"/>
+ <ellipse cx="14" cy="22" rx="6" ry="4.5" fill="url(#uterus)"/>
+ <ellipse cx="12" cy="20" rx="1.5" ry="0.8" fill="#fff" opacity="0.4"/>
+ <circle cx="13" cy="22" r="1.5" fill="#ffc098"/>
+ <circle cx="13" cy="22" r="0.5" fill="#fff" opacity="0.7"/>
+ <ellipse cx="14" cy="24" rx="0.8" ry="1.5" fill="#a04060"/>
+ <g transform="rotate(45 22 12)">
+ <rect x="18" y="11" width="10" height="2" rx="0.3" fill="url(#metal)"/>
+ <rect x="18" y="11.2" width="10" height="0.4" fill="#fff" opacity="0.5"/>
+ <rect x="28" y="11.5" width="3" height="1" fill="url(#metal)"/>
+ <rect x="17" y="10" width="0.5" height="4" fill="url(#metal)"/>
+ <rect x="15" y="11" width="2" height="2" rx="0.2" fill="url(#metal)"/>
+ <rect x="13" y="11.7" width="2" height="0.6" fill="url(#metal)"/>
+ </g>
+</svg>

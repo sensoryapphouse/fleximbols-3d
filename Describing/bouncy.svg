@@ -1,0 +1,23 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="bcy-ball" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FF8888"/>
+ <stop offset="40%" stop-color="#EE2222"/>
+ <stop offset="100%" stop-color="#990000"/>
+ </radialGradient>
+ </defs>
+ <!-- Shadow on ground -->
+ 
+ <!-- Bounce trajectory dots -->
+ <circle cx="16" cy="27" r="0.6" fill="#CC4444" fill-opacity="0.5"/>
+ <circle cx="14" cy="23" r="0.5" fill="#CC4444" fill-opacity="0.4"/>
+ <circle cx="11" cy="20" r="0.5" fill="#CC4444" fill-opacity="0.35"/>
+ <circle cx="9" cy="16" r="0.4" fill="#CC4444" fill-opacity="0.3"/>
+ <!-- Previous impact marks on ground -->
+ 
+ <!-- Ball mid-air (main position) -->
+ <circle cx="20" cy="10" r="7" fill="url(#bcy-ball)" filter="url(#bcy-shad)"/>
+ <!-- Ball highlight -->
+ <ellipse cx="17.5" cy="7.5" rx="3" ry="2" fill="white" fill-opacity="0.3" transform="rotate(-15,17.5,7.5)"/>
+ <!-- Squish indicator at ground -->
+</svg>

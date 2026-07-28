@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="roadMain" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#5A5A6A"/><stop offset="100%" stop-color="#3A3A4A"/></linearGradient>
+ <linearGradient id="roadShoulder" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#8A8A6A"/><stop offset="100%" stop-color="#6A6A4A"/></linearGradient>
+ <linearGradient id="roadSky" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#87CEEB"/><stop offset="100%" stop-color="#D0ECFF"/></linearGradient>
+ </defs>
+ <!-- Sky -->
+ <rect x="0" y="0" width="32" height="20" fill="url(#roadSky)" fill-opacity="0.85"/>
+ <!-- Road surface (perspective) -->
+ <polygon points="0,32 32,32 22,16 10,16" fill="url(#roadMain)"/>
+ <!-- Shoulders -->
+ <polygon points="0,32 10,32 10,16 0,20" fill="url(#roadShoulder)"/>
+ <polygon points="22,16 32,20 32,32 22,32" fill="url(#roadShoulder)"/>
+ <!-- Dashed centre line (vanishing) -->
+ <line x1="16" y1="32" x2="16" y2="27" stroke="white" stroke-width="0.8" stroke-dasharray="2,2"/>
+ <line x1="16" y1="24" x2="16.1" y2="21" stroke="white" stroke-width="0.6" stroke-dasharray="1.5,1.5"/>
+ <line x1="16" y1="20" x2="16.1" y2="18" stroke="white" stroke-width="0.4" stroke-dasharray="1,1"/>
+ <!-- Edge white lines -->
+ <line x1="0" y1="32" x2="10" y2="16" stroke="white" stroke-width="0.5" stroke-opacity="0.6"/>
+ <line x1="32" y1="32" x2="22" y2="16" stroke="white" stroke-width="0.5" stroke-opacity="0.6"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="tpg1" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FFE0A0"/>
+ <stop offset="100%" stop-color="#F5A623"/>
+ </radialGradient>
+ <radialGradient id="tpg2" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#E0F7FA"/>
+ <stop offset="100%" stop-color="#00838F"/>
+ </radialGradient>
+ <radialGradient id="tpg3" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#B2EBF2"/>
+ <stop offset="100%" stop-color="#0097A7"/>
+ </radialGradient>
+ </defs>
+ <!-- Tape dispenser body -->
+ <path d="M8 28 L8 12 Q8 8 12 8 L20 8 Q24 8 24 12 L24 28Z" fill="#9E9E9E"/>
+ <!-- Inner circle of tape roll -->
+ <circle cx="16" cy="16" r="8" fill="url(#tpg3)"/>
+ <circle cx="16" cy="16" r="4.5" fill="white"/>
+ <circle cx="16" cy="16" r="3" fill="#ECEFF1"/>
+ <!-- Tape strip coming out -->
+ <path d="M22 14 L30 10" stroke="url(#tpg2)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.85"/>
+ <!-- Serrated edge of tape -->
+ <path d="M29 9 L31 10 L29 11 L31 12" stroke="url(#tpg2)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <!-- Tape piece being applied -->
+ <rect x="3" y="6" width="9" height="3" rx="0.5" fill="url(#tpg2)" opacity="0.75"/>
+ <!-- Two papers being joined -->
+ <rect x="2" y="11" width="8" height="6" rx="0.5" fill="white" stroke="#E0E0E0" stroke-width="0.5"/>
+ <rect x="2" y="19" width="8" height="6" rx="0.5" fill="white" stroke="#E0E0E0" stroke-width="0.5"/>
+ <!-- Tape strip across the join -->
+ <rect x="1.5" y="16" width="9" height="2.5" rx="0.3" fill="url(#tpg2)" opacity="0.7"/>
+</svg>

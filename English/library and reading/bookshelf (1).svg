@@ -1,0 +1,70 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="shelfUnit" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#c0a060"/>
+ <stop offset="100%" stop-color="#907030"/>
+ </linearGradient>
+ <linearGradient id="shelfBoard" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#d0b070"/>
+ <stop offset="100%" stop-color="#a07840"/>
+ </linearGradient>
+ <linearGradient id="book1" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#e05040"/>
+ <stop offset="100%" stop-color="#a02820"/>
+ </linearGradient>
+ <linearGradient id="book2" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#4080d0"/>
+ <stop offset="100%" stop-color="#205098"/>
+ </linearGradient>
+ <linearGradient id="book3" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#40b060"/>
+ <stop offset="100%" stop-color="#207838"/>
+ </linearGradient>
+ <linearGradient id="book4" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#d09030"/>
+ <stop offset="100%" stop-color="#986010"/>
+ </linearGradient>
+ <linearGradient id="book5" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#9060c0"/>
+ <stop offset="100%" stop-color="#603090"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- bookcase frame left side -->
+ <rect x="4" y="3" width="2.5" height="27" rx="0.5" fill="url(#shelfUnit)"/>
+ <!-- bookcase frame right side -->
+ <rect x="25.5" y="3" width="2.5" height="27" rx="0.5" fill="url(#shelfUnit)"/>
+ <!-- top panel -->
+ <rect x="4" y="3" width="24" height="2" rx="0.5" fill="url(#shelfBoard)"/>
+ <!-- bottom panel -->
+ <rect x="4" y="28" width="24" height="2" rx="0.5" fill="url(#shelfBoard)"/>
+ <!-- shelf 1 -->
+ <rect x="4" y="11" width="24" height="1.5" rx="0.3" fill="url(#shelfBoard)"/>
+ <!-- shelf 2 -->
+ <rect x="4" y="19" width="24" height="1.5" rx="0.3" fill="url(#shelfBoard)"/>
+ <!-- books row 1 (top section 5-11) -->
+ <rect x="6.5" y="5.5" width="2.5" height="5" rx="0.3" fill="url(#book1)"/>
+ <rect x="9.5" y="6" width="2" height="4.5" rx="0.3" fill="url(#book2)"/>
+ <rect x="12" y="5.5" width="3" height="5" rx="0.3" fill="url(#book3)"/>
+ <rect x="15.5" y="6" width="2" height="4.5" rx="0.3" fill="url(#book4)"/>
+ <rect x="18" y="5.5" width="2.5" height="5" rx="0.3" fill="url(#book5)"/>
+ <rect x="21" y="6" width="2" height="4.5" rx="0.3" fill="url(#book1)"/>
+ <rect x="23.5" y="5.5" width="1.5" height="5" rx="0.3" fill="url(#book3)"/>
+ <!-- books row 2 (middle section) -->
+ <rect x="6.5" y="13" width="2" height="5.5" rx="0.3" fill="url(#book4)"/>
+ <rect x="9" y="13.5" width="2.5" height="5" rx="0.3" fill="url(#book5)"/>
+ <rect x="12" y="13" width="2" height="5.5" rx="0.3" fill="url(#book1)"/>
+ <rect x="14.5" y="13.5" width="3" height="5" rx="0.3" fill="url(#book2)"/>
+ <rect x="18" y="13" width="2" height="5.5" rx="0.3" fill="url(#book3)"/>
+ <rect x="20.5" y="13.5" width="2.5" height="5" rx="0.3" fill="url(#book4)"/>
+ <rect x="23.5" y="13" width="1.5" height="5.5" rx="0.3" fill="url(#book1)"/>
+ <!-- books row 3 (bottom section) -->
+ <rect x="6.5" y="21" width="3" height="6.5" rx="0.3" fill="url(#book2)"/>
+ <rect x="10" y="21.5" width="2" height="6" rx="0.3" fill="url(#book5)"/>
+ <rect x="12.5" y="21" width="2.5" height="6.5" rx="0.3" fill="url(#book3)"/>
+ <rect x="15.5" y="21.5" width="2" height="6" rx="0.3" fill="url(#book1)"/>
+ <rect x="18" y="21" width="3" height="6.5" rx="0.3" fill="url(#book4)"/>
+ <rect x="21.5" y="21.5" width="2" height="6" rx="0.3" fill="url(#book2)"/>
+ <!-- highlight on frame top -->
+ <rect x="4.5" y="3.2" width="8" height="0.8" rx="0.3" fill="#ffffff" fill-opacity="0.35"/>
+</svg>

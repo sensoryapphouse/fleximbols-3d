@@ -1,0 +1,57 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="rol-body1" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f8bbd9"/>
+ <stop offset="100%" stop-color="#ad1457"/>
+ </linearGradient>
+ <linearGradient id="rol-body2" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f48fb1"/>
+ <stop offset="100%" stop-color="#880e4f"/>
+ </linearGradient>
+ <linearGradient id="rol-hair" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#d7ccc8"/>
+ <stop offset="100%" stop-color="#5d4037"/>
+ </linearGradient>
+ <linearGradient id="rol-end" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#fce4ec"/>
+ <stop offset="100%" stop-color="#e91e63"/>
+ </linearGradient>
+ </defs>
+ <!-- 3 cylindrical foam rollers in a row -->
+ <!-- Left roller (plain pink) -->
+ 
+ <!-- Left roller texture (foam holes) -->
+ <circle cx="5" cy="15" r="0.7" fill="#fff" fill-opacity="0.2"/>
+ <circle cx="8" cy="17" r="0.7" fill="#fff" fill-opacity="0.2"/>
+ <circle cx="5" cy="20" r="0.7" fill="#fff" fill-opacity="0.2"/>
+ <circle cx="8" cy="23" r="0.7" fill="#fff" fill-opacity="0.2"/>
+ <!-- Left roller end caps -->
+ <ellipse cx="6.5" cy="12" rx="3.5" ry="1" fill="url(#rol-end)"/>
+ <ellipse cx="6.5" cy="26" rx="3.5" ry="1" fill="url(#rol-end)"/>
+ <!-- Middle roller (with hair wound around) -->
+ 
+ <!-- Hair strands wound around -->
+ <path d="M12 13 Q16 12 20 13" stroke="#4e342e" stroke-width="0.8" fill="none" stroke-opacity="0.7"/>
+ <path d="M12 15.5 Q16 14.5 20 15.5" stroke="#4e342e" stroke-width="0.8" fill="none" stroke-opacity="0.7"/>
+ <path d="M12 18 Q16 17 20 18" stroke="#4e342e" stroke-width="0.8" fill="none" stroke-opacity="0.7"/>
+ <path d="M12 20.5 Q16 19.5 20 20.5" stroke="#4e342e" stroke-width="0.8" fill="none" stroke-opacity="0.7"/>
+ <path d="M12 23 Q16 22 20 23" stroke="#4e342e" stroke-width="0.8" fill="none" stroke-opacity="0.7"/>
+ <!-- Middle roller end caps -->
+ <ellipse cx="16" cy="10" rx="4" ry="1.2" fill="#fce4ec" fill-opacity="0.7"/>
+ <ellipse cx="16" cy="26" rx="4" ry="1.2" fill="#fce4ec" fill-opacity="0.7"/>
+ <!-- Right roller (darker pink) -->
+ 
+ <!-- Right roller texture -->
+ <circle cx="24" cy="15" r="0.7" fill="#fff" fill-opacity="0.2"/>
+ <circle cx="27" cy="17" r="0.7" fill="#fff" fill-opacity="0.2"/>
+ <circle cx="24" cy="20" r="0.7" fill="#fff" fill-opacity="0.2"/>
+ <circle cx="27" cy="23" r="0.7" fill="#fff" fill-opacity="0.2"/>
+ <!-- Right roller end caps -->
+ <ellipse cx="25.5" cy="12" rx="3.5" ry="1" fill="url(#rol-end)"/>
+ <ellipse cx="25.5" cy="26" rx="3.5" ry="1" fill="url(#rol-end)"/>
+ <!-- Pins/clips on rollers -->
+ <line x1="5" y1="12" x2="5" y2="10" stroke="#e91e63" stroke-width="0.8"/>
+ <line x1="8" y1="12" x2="8" y2="10" stroke="#e91e63" stroke-width="0.8"/>
+ <line x1="24" y1="12" x2="24" y2="10" stroke="#c2185b" stroke-width="0.8"/>
+ <line x1="27" y1="12" x2="27" y2="10" stroke="#c2185b" stroke-width="0.8"/>
+</svg>

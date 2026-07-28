@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="gf_body" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#ff9933"/><stop offset="60%" stop-color="#e86600"/><stop offset="100%" stop-color="#aa3300"/></radialGradient>
+ <radialGradient id="gf_tail" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#ffaa44"/><stop offset="100%" stop-color="#cc5500"/></radialGradient>
+ <radialGradient id="gf_belly" cx="50%" cy="55%" r="50%"><stop offset="0%" stop-color="#ffddaa"/><stop offset="100%" stop-color="#ff9944"/></radialGradient>
+ <radialGradient id="gf_shine" cx="30%" cy="25%" r="50%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+ </defs>
+ <!-- fancy tail fins -->
+ <path d="M24 16 Q28 13 30 10 Q28 16 30 22 Q28 19 24 16Z" fill="url(#gf_tail)"/>
+ <path d="M24 18 Q30 16 31 16 Q28 18 30 22 Q27 20 24 18Z" fill="url(#gf_tail)" fill-opacity="0.7"/>
+ <!-- body -->
+ <ellipse cx="16" cy="17" rx="9" ry="6" fill="url(#gf_body)"/>
+ <!-- belly -->
+ <ellipse cx="16" cy="19" rx="7" ry="3.5" fill="url(#gf_belly)"/>
+ <!-- dorsal fin -->
+ <path d="M12 11 Q14 8 18 10 Q16 11 12 11Z" fill="url(#gf_body)"/>
+ <!-- pectoral fin -->
+ <ellipse cx="14" cy="18" rx="3" ry="1.5" fill="url(#gf_tail)" transform="rotate(20,14,18)"/>
+ <!-- eye -->
+ <circle cx="8.5" cy="15.5" r="2" fill="#1a1a1a"/>
+ <circle cx="7.8" cy="14.8" r="0.6" fill="#fff" fill-opacity="0.8"/>
+ <!-- mouth -->
+ <path d="M5.5 17 Q6 17.5 6.5 17" fill="none" stroke="#cc4400" stroke-width="0.7" stroke-linecap="round"/>
+ <!-- shine -->
+ <ellipse cx="12" cy="13" rx="3" ry="2.5" fill="url(#gf_shine)"/>
+ <!-- scales hint -->
+ <path d="M14 13 Q16 12 18 13 M12 16 Q14 15 16 16" fill="none" stroke="#cc5500" stroke-width="0.5" opacity="0.4"/>
+</svg>

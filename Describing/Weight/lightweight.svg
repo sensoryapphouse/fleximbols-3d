@@ -1,0 +1,70 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="feather" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="40%" stop-color="#a8d8ff"/>
+ <stop offset="100%" stop-color="#1a4a90"/>
+ </radialGradient>
+ <radialGradient id="quill" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#5a4830"/>
+ </radialGradient>
+ <radialGradient id="puffG" cx="40%" cy="40%" r="60%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#a8c8e8" stop-opacity="0.6"/>
+ </radialGradient>
+ <radialGradient id="scaleG" cx="40%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="50%" stop-color="#ffd066"/>
+ <stop offset="100%" stop-color="#a87018"/>
+ </radialGradient>
+ </defs>
+
+ <!-- BIG FEATHER tilted, floating diagonally -->
+ <g transform="translate(16 14) rotate(-25)">
+ <!-- vane/blade -->
+ <path d="M0 -12 Q-5 -8 -6 -4 Q-7 0 -6 4 Q-5 8 -2 10 Q0 11 2 10 Q5 8 6 4 Q7 0 6 -4 Q5 -8 0 -12 Z" fill="url(#feather)"/>
+ <!-- barbs (lines off central quill) -->
+ <g stroke="#0a3068" stroke-width="0.25" opacity="0.6">
+ <path d="M0 -10 L-3.5 -8"/>
+ <path d="M0 -8 L-4.5 -6"/>
+ <path d="M0 -6 L-5.2 -4"/>
+ <path d="M0 -4 L-5.5 -2"/>
+ <path d="M0 -2 L-5.6 0"/>
+ <path d="M0 0 L-5.5 2"/>
+ <path d="M0 2 L-5 4"/>
+ <path d="M0 4 L-4 6"/>
+ <path d="M0 6 L-3 7.5"/>
+ <path d="M0 -10 L3.5 -8"/>
+ <path d="M0 -8 L4.5 -6"/>
+ <path d="M0 -6 L5.2 -4"/>
+ <path d="M0 -4 L5.5 -2"/>
+ <path d="M0 -2 L5.6 0"/>
+ <path d="M0 0 L5.5 2"/>
+ <path d="M0 2 L5 4"/>
+ <path d="M0 4 L4 6"/>
+ <path d="M0 6 L3 7.5"/>
+ </g>
+ <!-- quill (central shaft) -->
+ <path d="M0 -12 L0 10 Q0 12 -0.3 13 L0.3 13 Q0 12 0 10" fill="url(#quill)" stroke="#3a2810" stroke-width="0.15"/>
+ <!-- highlight -->
+ <ellipse cx="-2.5" cy="-5" rx="1.2" ry="3" fill="#ffffff" opacity="0.55"/>
+ </g>
+
+ <!-- UP arrow next to feather — showing "light, going up" -->
+ <g transform="translate(27 8)" fill="url(#scaleG)" stroke="#7a4808" stroke-width="0.15">
+ <path d="M0 0 L-1.5 2 L-0.6 2 L-0.6 5 L0.6 5 L0.6 2 L1.5 2 Z"/>
+ </g>
+ <g transform="translate(28 16)" fill="url(#scaleG)" stroke="#7a4808" stroke-width="0.15">
+ <path d="M0 0 L-1.2 1.5 L-0.4 1.5 L-0.4 4 L0.4 4 L0.4 1.5 L1.2 1.5 Z" opacity="0.85"/>
+ </g>
+
+ <!-- wisp lines below showing floating/air -->
+ <path d="M5 26 Q10 25 14 26" fill="none" stroke="#a8c8e8" stroke-width="0.5" stroke-linecap="round" opacity="0.8"/>
+ <path d="M16 28 Q20 27 25 28" fill="none" stroke="#a8c8e8" stroke-width="0.5" stroke-linecap="round" opacity="0.8"/>
+ <path d="M8 30 Q14 29.5 22 30" fill="none" stroke="#a8c8e8" stroke-width="0.4" stroke-linecap="round" opacity="0.7"/>
+
+ <!-- airy puff hint -->
+ <circle cx="4" cy="6" r="1.2" fill="url(#puffG)"/>
+ <circle cx="6" cy="4" r="0.8" fill="url(#puffG)"/>
+</svg>

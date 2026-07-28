@@ -1,0 +1,35 @@
+<svg viewBox="0 0 512 512" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <radialGradient id="pp_disc" cx="0.4" cy="0.32" r="0.8">
+      <stop offset="0" stop-color="#e8533c"/>
+      <stop offset="0.6" stop-color="#cc3a26"/>
+      <stop offset="1" stop-color="#a02414"/>
+    </radialGradient>
+    <linearGradient id="pp_edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c2331e"/>
+      <stop offset="1" stop-color="#8a1d0f"/>
+    </linearGradient>
+  </defs>
+  <!-- edge thickness -->
+  <ellipse cx="256" cy="270" rx="190" ry="190" fill="url(#pp_edge)"/>
+  <!-- disc -->
+  <circle cx="256" cy="256" r="190" fill="url(#pp_disc)" stroke="#8a1d0f" stroke-width="5"/>
+  <!-- fat flecks (lighter marbling spots) -->
+  <g fill="#f0a896" opacity="0.92">
+    <ellipse cx="186" cy="170" rx="26" ry="20" transform="rotate(20 186 170)"/>
+    <ellipse cx="300" cy="160" rx="22" ry="28" transform="rotate(-15 300 160)"/>
+    <ellipse cx="356" cy="246" rx="28" ry="22" transform="rotate(10 356 246)"/>
+    <ellipse cx="180" cy="300" rx="30" ry="22" transform="rotate(-20 180 300)"/>
+    <ellipse cx="270" cy="320" rx="22" ry="28" transform="rotate(25 270 320)"/>
+    <ellipse cx="330" cy="340" rx="20" ry="24" transform="rotate(-10 330 340)"/>
+    <ellipse cx="244" cy="234" rx="18" ry="22"/>
+  </g>
+  <!-- small darker specks -->
+  <g fill="#7a160a" opacity="0.5">
+    <circle cx="226" cy="200" r="7"/>
+    <circle cx="316" cy="288" r="6"/>
+    <circle cx="206" cy="346" r="6"/>
+  </g>
+  <!-- gloss -->
+  <ellipse cx="196" cy="186" rx="52" ry="32" fill="#ffffff" opacity="0.18"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bps-field" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#C8E8F8"/><stop offset="100%" stop-color="#88B8D8"/>
+ </linearGradient>
+ <linearGradient id="bps-needle" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#DDDDDD"/><stop offset="100%" stop-color="#888"/>
+ </linearGradient>
+ <linearGradient id="bps-barrel" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#BBDDFF" stop-opacity="0.8"/><stop offset="100%" stop-color="#88AACC" stop-opacity="0.7"/>
+ </linearGradient>
+ <linearGradient id="bps-tissue" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FF9999"/><stop offset="100%" stop-color="#CC4444"/>
+ </linearGradient>
+ <linearGradient id="bps-sample" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FF6666"/><stop offset="100%" stop-color="#CC2222"/>
+ </linearGradient>
+ </defs>
+ <!-- Sterile blue field -->
+ <rect x="1" y="1" width="30" height="30" rx="3" fill="url(#bps-field)"/>
+ <!-- Tissue cube -->
+ <rect x="16" y="18" width="10" height="8" rx="1.5" fill="url(#bps-tissue)" filter="url(#bps-shad)"/>
+ <!-- Cube top face -->
+ <path d="M16 18 L18 16 L28 16 L26 18 Z" fill="#FF8888"/>
+ <!-- Cube right face -->
+ <path d="M26 18 L28 16 L28 24 L26 26 Z" fill="#BB3333"/>
+ <!-- Needle body -->
+ <rect x="4" y="12" width="16" height="3" rx="1.5" fill="url(#bps-needle)" filter="url(#bps-shad)"/>
+ <!-- Needle tip (going into tissue) -->
+ <polygon points="20,12.5 20,14.5 24,13.5" fill="#AAAAAA"/>
+ <!-- Barrel (syringe body) -->
+ <rect x="2" y="11" width="10" height="5" rx="1.5" fill="url(#bps-barrel)"/>
+ <!-- Sample drawn into barrel (red) -->
+ <rect x="3" y="12" width="4" height="3" rx="0.5" fill="url(#bps-sample)" fill-opacity="0.8"/>
+ <!-- Plunger -->
+ <rect x="1.5" y="11.5" width="2" height="4" rx="1" fill="#888"/>
+ <rect x="1" y="12" width="1.5" height="3" rx="0.5" fill="#666"/>
+ <!-- Tissue puncture point -->
+ <circle cx="22" cy="19" r="1.5" fill="#AA2222" fill-opacity="0.8"/>
+ <!-- Tiny sample detail -->
+ <path d="M20 13.5 L22 18" stroke="#CC3333" stroke-width="0.5" stroke-dasharray="1,0.5" fill="none"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="py_sh" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#16181D" stop-opacity="0.32"/><stop offset="100%" stop-color="#16181D" stop-opacity="0"/></radialGradient>
+<linearGradient id="py_sand" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFD45E"/><stop offset="100%" stop-color="#E5A700"/></linearGradient>
+<linearGradient id="py_front1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#E5A700"/><stop offset="100%" stop-color="#8B5C1A"/></linearGradient>
+<linearGradient id="py_side1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8B5C1A"/><stop offset="100%" stop-color="#4A2E0A"/></linearGradient>
+<linearGradient id="py_front2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FFCB6E"/><stop offset="100%" stop-color="#A67423"/></linearGradient>
+<linearGradient id="py_side2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#A67423"/><stop offset="100%" stop-color="#5C3A0A"/></linearGradient>
+<radialGradient id="py_sun" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFE066"/><stop offset="100%" stop-color="#FF8B3D"/></radialGradient>
+<radialGradient id="py_hl" cx="30%" cy="25%" r="50%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- sun -->
+<circle cx="25" cy="8" r="3" fill="url(#py_sun)"/>
+<!-- back pyramid -->
+<path d="M16 8 L23 25 L9 25 Z" fill="url(#py_front2)"/>
+<path d="M16 8 L23 25 L19 25 Z" fill="url(#py_side2)"/>
+<!-- front pyramid (overlapping) -->
+<path d="M11 11 L21 26 L1 26 Z" fill="url(#py_front1)"/>
+<path d="M11 11 L21 26 L16 26 Z" fill="url(#py_side1)"/>
+<!-- another small pyramid -->
+<path d="M25 17 L31 26 L19 26 Z" fill="url(#py_front2)"/>
+<path d="M25 17 L31 26 L28 26 Z" fill="url(#py_side2)"/>
+<!-- sand ground -->
+<rect x="0" y="26" width="32" height="2" fill="url(#py_sand)"/>
+<ellipse cx="9" cy="14" rx="0.7" ry="2.5" fill="url(#py_hl)"/>
+</svg>

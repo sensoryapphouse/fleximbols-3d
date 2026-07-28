@@ -1,0 +1,65 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="ml_ice" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#d8f4ff"/>
+ <stop offset="60%" stop-color="#80c8f0"/>
+ <stop offset="100%" stop-color="#3a88bf"/>
+ </radialGradient>
+ <radialGradient id="ml_water" cx="30%" cy="25%" r="65%">
+ <stop offset="0%" stop-color="#aaeeff"/>
+ <stop offset="60%" stop-color="#44aadd"/>
+ <stop offset="100%" stop-color="#1166aa"/>
+ </radialGradient>
+ <radialGradient id="ml_puddle" cx="40%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#bbddff"/>
+ <stop offset="70%" stop-color="#44aadd"/>
+ <stop offset="100%" stop-color="#1166aa" stop-opacity="0.5"/>
+ </radialGradient>
+ <radialGradient id="ml_sun" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#ffe880"/>
+ <stop offset="70%" stop-color="#ff9900"/>
+ <stop offset="100%" stop-color="#cc4400"/>
+ </radialGradient>
+</defs>
+<!-- ground shadow -->
+<!-- PUDDLE at bottom (water pool from melted ice) -->
+<!-- Puddle shine -->
+<path d="M9,28 Q16,27 23,28" stroke="#fff" stroke-width="0.5" fill="none" stroke-opacity="0.45"/>
+<!-- Puddle ripple -->
+<!-- DRIPS falling from ice cube to puddle -->
+<path d="M13,22 Q13.2,24 13,26 Q13.2,27 13.5,28" stroke="url(#ml_water)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+<path d="M16,23 Q16.1,25.5 16,27.5" stroke="url(#ml_water)" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+<path d="M19,22 Q18.8,24 19,26 Q18.8,27 18.5,28" stroke="url(#ml_water)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+<!-- Drip drops -->
+<ellipse cx="13.5" cy="28" rx="0.6" ry="0.9" fill="url(#ml_water)" fill-opacity="0.8"/>
+<ellipse cx="16" cy="27.5" rx="0.7" ry="1" fill="url(#ml_water)" fill-opacity="0.8"/>
+<ellipse cx="18.5" cy="28" rx="0.6" ry="0.9" fill="url(#ml_water)" fill-opacity="0.8"/>
+<!-- ICE CUBE (rounded corners — softening/melting) -->
+<rect x="10" y="14" width="12" height="10" rx="3.5" fill="url(#ml_ice)" filter="url(#ml_sh)"/>
+<!-- Ice interior highlights -->
+<rect x="11.5" y="15.5" width="4" height="2.5" rx="1" fill="#fff" fill-opacity="0.5"/>
+<ellipse cx="18" cy="17" rx="1.5" ry="1.2" fill="#fff" fill-opacity="0.35"/>
+<!-- Ice facets -->
+<path d="M11,16 L21,16" stroke="#fff" stroke-width="0.35" stroke-opacity="0.4"/>
+<path d="M11,19 L21,19" stroke="#aaddff" stroke-width="0.3" stroke-opacity="0.35"/>
+<!-- Ice translucent depth -->
+<rect x="10" y="14" width="12" height="10" rx="3.5" fill="#ffffff" fill-opacity="0.12"/>
+<!-- Rounded drip channels on bottom edge -->
+<path d="M12,24 Q12.5,25 13,24" stroke="#80c8f0" stroke-width="0.6" fill="none"/>
+<path d="M15.3,24 Q16,25.2 16.7,24" stroke="#80c8f0" stroke-width="0.7" fill="none"/>
+<path d="M18.5,24 Q19,25 19.5,24" stroke="#80c8f0" stroke-width="0.6" fill="none"/>
+<!-- SUN (heat source, upper right) -->
+<circle cx="27" cy="8" r="3" fill="url(#ml_sun)" filter="url(#ml_sh)"/>
+<!-- Sun rays -->
+<line x1="27" y1="4.5" x2="27" y2="3.2" stroke="#ffcc44" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="29.8" y1="5.5" x2="30.8" y2="4.5" stroke="#ffcc44" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="30.5" y1="8" x2="31.8" y2="8" stroke="#ffcc44" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="29.8" y1="10.5" x2="30.8" y2="11.5" stroke="#ffcc44" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="24.2" y1="5.5" x2="23.2" y2="4.5" stroke="#ffcc44" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="23.5" y1="8" x2="22.2" y2="8" stroke="#ffcc44" stroke-width="0.6" stroke-linecap="round"/>
+<!-- Sun shine -->
+<circle cx="26" cy="7" r="0.9" fill="#fff" fill-opacity="0.5"/>
+<!-- Heat-wave lines from sun to ice -->
+<path d="M24,10 Q22,12 20,13" stroke="#ffaa44" stroke-width="0.5" fill="none" stroke-opacity="0.6"/>
+<path d="M24,12 Q22.5,13.5 21,14.5" stroke="#ffaa44" stroke-width="0.45" fill="none" stroke-opacity="0.55"/>
+</svg>

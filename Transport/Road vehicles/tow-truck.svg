@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-copyright="© 2026 Sensory App House"><defs><radialGradient id="s3d_e08a3a" cx="0.35" cy="0.28" r="0.9"><stop offset="0" stop-color="#e9ad75"/><stop offset="0.45" stop-color="#e08a3a"/><stop offset="1" stop-color="#b36e2e"/></radialGradient><radialGradient id="s3d_bfe3f5" cx="0.35" cy="0.28" r="0.9"><stop offset="0" stop-color="#d2ebf8"/><stop offset="0.45" stop-color="#bfe3f5"/><stop offset="1" stop-color="#99b6c4"/></radialGradient><radialGradient id="s3d_3a3a3a" cx="0.35" cy="0.28" r="0.9"><stop offset="0" stop-color="#757575"/><stop offset="0.45" stop-color="#3a3a3a"/><stop offset="1" stop-color="#2e2e2e"/></radialGradient><radialGradient id="s3d_cfd6dc" cx="0.35" cy="0.28" r="0.9"><stop offset="0" stop-color="#dde2e6"/><stop offset="0.45" stop-color="#cfd6dc"/><stop offset="1" stop-color="#a6abb0"/></radialGradient></defs><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><g>
+<!-- flatbed/chassis -->
+<path d="M 60 320 L 60 280 L 250 280 L 250 200 L 330 200 L 380 250 L 452 250 L 452 320 Z" fill="url(#s3d_e08a3a)" data-flat="#e08a3a" stroke="#1a1a1a" stroke-width="9" stroke-linejoin="round"/>
+<!-- cab window -->
+<path d="M 268 218 L 322 218 L 356 252 L 268 252 Z" fill="url(#s3d_bfe3f5)" data-flat="#bfe3f5" stroke="#1a1a1a" stroke-width="7" stroke-linejoin="round"/>
+<!-- flatbed top line -->
+<line x1="60" y1="280" x2="250" y2="280" stroke="#1a1a1a" stroke-width="9" stroke-linecap="round"/>
+<!-- crane mast -->
+<line x1="92" y1="280" x2="92" y2="120" stroke="#6b4a2b" stroke-width="14" stroke-linecap="round"/>
+<!-- crane boom -->
+<line x1="92" y1="128" x2="240" y2="172" stroke="#6b4a2b" stroke-width="14" stroke-linecap="round"/>
+<!-- gusset brace -->
+<line x1="92" y1="200" x2="170" y2="152" stroke="#6b4a2b" stroke-width="9" stroke-linecap="round"/>
+<!-- hook cable -->
+<line x1="238" y1="172" x2="238" y2="232" stroke="#1a1a1a" stroke-width="6" stroke-linecap="round"/>
+<!-- hook -->
+<path d="M 238 232 Q 238 250 252 250 Q 262 250 260 240" fill="none" stroke="#1a1a1a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- amber beacon -->
+<rect x="276" y="196" width="26" height="14" rx="4" fill="#f4c430" stroke="#1a1a1a" stroke-width="6"/>
+<!-- wheels -->
+<circle cx="150" cy="332" r="40" fill="url(#s3d_3a3a3a)" data-flat="#3a3a3a" stroke="#1a1a1a" stroke-width="9"/>
+<circle cx="150" cy="332" r="15" fill="url(#s3d_cfd6dc)" data-flat="#cfd6dc" stroke="#1a1a1a" stroke-width="7"/>
+<circle cx="372" cy="332" r="40" fill="url(#s3d_3a3a3a)" data-flat="#3a3a3a" stroke="#1a1a1a" stroke-width="9"/>
+<circle cx="372" cy="332" r="15" fill="url(#s3d_cfd6dc)" data-flat="#cfd6dc" stroke="#1a1a1a" stroke-width="7"/>
+</g></svg>

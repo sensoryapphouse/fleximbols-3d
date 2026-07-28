@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="carBody" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8B5E2E"/><stop offset="100%" stop-color="#4A2E0E"/></linearGradient>
+ <radialGradient id="wheelL" cx="40%" cy="40%" r="55%"><stop offset="0%" stop-color="#6A5A3A"/><stop offset="100%" stop-color="#2A1A00"/></radialGradient>
+ <radialGradient id="wheelS" cx="40%" cy="40%" r="55%"><stop offset="0%" stop-color="#6A5A3A"/><stop offset="100%" stop-color="#2A1A00"/></radialGradient>
+ <linearGradient id="horseG" cx="40%" cy="40%" r="55%" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8B6040"/><stop offset="100%" stop-color="#4A2A10"/></linearGradient>
+ <linearGradient id="carRoof" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5A3A1A"/><stop offset="100%" stop-color="#2A1A00"/></linearGradient>
+ </defs>
+ <!-- Horse -->
+ <g filter="url(#sdCar)">
+ <ellipse cx="6" cy="22" rx="5" ry="2.5" fill="url(#horseG)"/>
+ <rect x="3" y="18" width="3" height="4" rx="0.5" fill="url(#horseG)"/>
+ <ellipse cx="4" cy="18" rx="1.5" ry="1" fill="url(#horseG)" transform="rotate(-30 4 18)"/>
+ <!-- Legs -->
+ <line x1="3" y1="24.5" x2="2.5" y2="28" stroke="#4A2A10" stroke-width="1"/>
+ <line x1="5" y1="24.5" x2="4.5" y2="28" stroke="#4A2A10" stroke-width="1"/>
+ <line x1="8" y1="24.5" x2="8.5" y2="28" stroke="#4A2A10" stroke-width="1"/>
+ <line x1="10" y1="24.5" x2="10.5" y2="28" stroke="#4A2A10" stroke-width="1"/>
+ <!-- Tail -->
+ <path d="M11 22 Q13 21 12 23" stroke="#2A1A00" stroke-width="0.8" fill="none"/>
+ </g>
+ <!-- Harness poles -->
+ <line x1="10" y1="21" x2="15" y2="21" stroke="#5A3A1A" stroke-width="0.8"/>
+ <!-- Carriage body -->
+ <g filter="url(#sdCar)">
+ <rect x="14" y="16" width="14" height="8" rx="1.5" fill="url(#carBody)"/>
+ <!-- Roof -->
+ <rect x="14" y="14" width="14" height="3" rx="1" fill="url(#carRoof)"/>
+ <!-- Windows -->
+ <rect x="16" y="17" width="3.5" height="3" rx="0.5" fill="#4A6A9A"/>
+ <rect x="21" y="17" width="3.5" height="3" rx="0.5" fill="#4A6A9A"/>
+ <!-- Door -->
+ <line x1="20" y1="16" x2="20" y2="24" stroke="#2A1A00" stroke-width="0.4"/>
+ </g>
+ <!-- Big rear wheels -->
+ <circle cx="19" cy="26" r="5" fill="none" stroke="url(#wheelL)" stroke-width="1.5" filter="url(#sdCar)"/>
+ <circle cx="19" cy="26" r="1.5" fill="url(#wheelL)"/>
+ <line x1="19" y1="21" x2="19" y2="31" stroke="#4A2A00" stroke-width="0.6"/>
+ <line x1="14" y1="26" x2="24" y2="26" stroke="#4A2A00" stroke-width="0.6"/>
+ <!-- Smaller front wheels -->
+ <circle cx="15" cy="27" r="3" fill="none" stroke="url(#wheelS)" stroke-width="1.2" filter="url(#sdCar)"/>
+ <circle cx="15" cy="27" r="1" fill="url(#wheelS)"/>
+</svg>

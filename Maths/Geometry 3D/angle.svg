@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <!-- 3D angle: extruded rays with depth, gradient sheens -->
+  <defs>
+    <linearGradient id="rayBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a5fa8"/>
+      <stop offset="50%" stop-color="#2a3a78"/>
+      <stop offset="100%" stop-color="#1a2658"/>
+    </linearGradient>
+    <linearGradient id="raySheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vertexGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffcc44"/>
+      <stop offset="60%" stop-color="#cc8800"/>
+      <stop offset="100%" stop-color="#664400"/>
+    </radialGradient>
+    <radialGradient id="arcGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6688"/>
+      <stop offset="100%" stop-color="#aa1144"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8eaf0"/>
+      <stop offset="100%" stop-color="#b8bcc8"/>
+    </linearGradient>
+  </defs>
+  <!-- Subtle 3D background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- Drop shadows under the rays for depth -->
+  <line x1="100" y1="394" x2="464" y2="394" stroke="#000000" stroke-width="22" stroke-linecap="round" opacity="0.25"/>
+  <line x1="100" y1="394" x2="357" y2="137" stroke="#000000" stroke-width="22" stroke-linecap="round" opacity="0.25"/>
+  <!-- Horizontal ray body -->
+  <line x1="96" y1="384" x2="460" y2="384" stroke="url(#rayBody)" stroke-width="22" stroke-linecap="round"/>
+  <!-- Horizontal ray top sheen -->
+  <line x1="96" y1="378" x2="460" y2="378" stroke="url(#raySheen)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Upper-right ray body -->
+  <line x1="96" y1="384" x2="353" y2="127" stroke="url(#rayBody)" stroke-width="22" stroke-linecap="round"/>
+  <!-- Upper-right ray sheen -->
+  <line x1="100" y1="380" x2="357" y2="123" stroke="url(#raySheen)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Red arc (extruded) -->
+  <path d="M 196 384 A 100 100 0 0 0 166.7 313.3" fill="none" stroke="#000000" stroke-width="18" stroke-linecap="round" opacity="0.3"/>
+  <path d="M 196 384 A 100 100 0 0 0 166.7 313.3" fill="none" stroke="url(#arcGrad)" stroke-width="14" stroke-linecap="round"/>
+  <!-- Vertex sphere with glow -->
+  <circle cx="96" cy="384" r="18" fill="#000000" opacity="0.4"/>
+  <circle cx="96" cy="384" r="16" fill="url(#vertexGlow)"/>
+  <circle cx="90" cy="378" r="5" fill="#ffffff" opacity="0.8"/>
+</svg>

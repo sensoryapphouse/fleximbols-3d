@@ -1,0 +1,53 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="mlSky" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#cdeefb"/>
+ <stop offset="100%" stop-color="#a9def5"/>
+ </linearGradient>
+ <linearGradient id="mlWater" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#6fb8e6"/>
+ <stop offset="100%" stop-color="#3a86c0"/>
+ </linearGradient>
+ <linearGradient id="mlBank" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#7cbf4f"/>
+ <stop offset="100%" stop-color="#4a8a2c"/>
+ </linearGradient>
+ <linearGradient id="mlReed" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#6aa83f"/>
+ <stop offset="100%" stop-color="#3a6e22"/>
+ </linearGradient>
+ <linearGradient id="mlCat" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#a9682f"/>
+ <stop offset="100%" stop-color="#6e3e16"/>
+ </linearGradient>
+ </defs>
+ <!-- sky -->
+ <rect x="2" y="3" width="28" height="13" rx="1" fill="url(#mlSky)"/>
+ <!-- grassy bank band -->
+ <rect x="2" y="13" width="28" height="6" fill="url(#mlBank)"/>
+ <!-- water -->
+ <rect x="2" y="18" width="28" height="11" rx="1" fill="url(#mlWater)"/>
+ <rect x="2" y="13" width="28" height="16" rx="1" fill="none" stroke="#7aa9c4" stroke-width="0.4"/>
+ <!-- cattails / bulrushes rising from the marsh -->
+ <g>
+ <!-- reed stalks -->
+ <path d="M8 26 L7 9" stroke="url(#mlReed)" stroke-width="0.9" stroke-linecap="round"/>
+ <path d="M11 26 L12 11" stroke="url(#mlReed)" stroke-width="0.9" stroke-linecap="round"/>
+ <path d="M22 26 L21.5 8" stroke="url(#mlReed)" stroke-width="0.9" stroke-linecap="round"/>
+ <path d="M25 26 L26 12" stroke="url(#mlReed)" stroke-width="0.9" stroke-linecap="round"/>
+ <!-- thin blade leaves -->
+ <path d="M8 20 Q5 16 5.5 11" fill="none" stroke="url(#mlReed)" stroke-width="0.7" stroke-linecap="round"/>
+ <path d="M22 20 Q25 16 24.5 11" fill="none" stroke="url(#mlReed)" stroke-width="0.7" stroke-linecap="round"/>
+ <!-- cattail seed heads (brown) -->
+ <rect x="6.2" y="8.5" width="1.7" height="4.5" rx="0.85" fill="url(#mlCat)"/>
+ <path d="M7.05 8.5 L7.05 6.5" stroke="#6e3e16" stroke-width="0.5" stroke-linecap="round"/>
+ <rect x="20.6" y="7.5" width="1.8" height="4.8" rx="0.9" fill="url(#mlCat)"/>
+ <path d="M21.5 7.5 L21.5 5.4" stroke="#6e3e16" stroke-width="0.5" stroke-linecap="round"/>
+ </g>
+ <!-- lily pads on the water -->
+ <path d="M9 24 a3 1.4 0 1 0 6 0 a3 1.4 0 1 0 -6 0 Z" fill="#5aa83a" stroke="#3f7d28" stroke-width="0.3"/>
+ <path d="M9 24 L12 24" stroke="#3f7d28" stroke-width="0.3"/>
+ <path d="M18 26 a2.4 1.1 0 1 0 4.8 0 a2.4 1.1 0 1 0 -4.8 0 Z" fill="#5aa83a" stroke="#3f7d28" stroke-width="0.3"/>
+ <!-- water ripples -->
+ <path d="M4 21 Q6 20.5 8 21 M24 22 Q26 21.5 28 22" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="0.4" stroke-linecap="round"/>
+</svg>

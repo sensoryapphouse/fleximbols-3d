@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="tt-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#f8f8f8"/>
+ <stop offset="100%" stop-color="#e0e0e0"/>
+ </linearGradient>
+ <linearGradient id="tt-header" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#4060c0"/>
+ <stop offset="100%" stop-color="#2040a0"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- table background -->
+ <rect x="2" y="3" width="28" height="27" rx="1.5" fill="url(#tt-bg)"/>
+ <!-- header row -->
+ <rect x="2" y="3" width="28" height="5" rx="1.5" fill="url(#tt-header)"/>
+ <!-- column headers (day indicators) as small colored bars -->
+ <rect x="6" y="4" width="3" height="3" rx="0.5" fill="white" fill-opacity="0.3"/>
+ <rect x="10" y="4" width="3" height="3" rx="0.5" fill="white" fill-opacity="0.3"/>
+ <rect x="14" y="4" width="3" height="3" rx="0.5" fill="white" fill-opacity="0.3"/>
+ <rect x="18" y="4" width="3" height="3" rx="0.5" fill="white" fill-opacity="0.3"/>
+ <rect x="22" y="4" width="3" height="3" rx="0.5" fill="white" fill-opacity="0.3"/>
+ <!-- side time column -->
+ <rect x="2" y="3" width="4" height="27" rx="0.5" fill="#c0c8e0"/>
+ <!-- grid lines -->
+ <line x1="6" y1="8" x2="30" y2="8" stroke="#c0c0c0" stroke-width="0.5"/>
+ <line x1="6" y1="13" x2="30" y2="13" stroke="#c0c0c0" stroke-width="0.5"/>
+ <line x1="6" y1="18" x2="30" y2="18" stroke="#c0c0c0" stroke-width="0.5"/>
+ <line x1="6" y1="23" x2="30" y2="23" stroke="#c0c0c0" stroke-width="0.5"/>
+ <line x1="10" y1="8" x2="10" y2="30" stroke="#c0c0c0" stroke-width="0.5"/>
+ <line x1="14" y1="8" x2="14" y2="30" stroke="#c0c0c0" stroke-width="0.5"/>
+ <line x1="18" y1="8" x2="18" y2="30" stroke="#c0c0c0" stroke-width="0.5"/>
+ <line x1="22" y1="8" x2="22" y2="30" stroke="#c0c0c0" stroke-width="0.5"/>
+ <line x1="26" y1="8" x2="26" y2="30" stroke="#c0c0c0" stroke-width="0.5"/>
+ <!-- coloured time-slot blocks -->
+ <rect x="6.3" y="8.3" width="3.4" height="4.4" rx="0.5" fill="#e06040" fill-opacity="0.75"/>
+ <rect x="10.3" y="13.3" width="3.4" height="4.4" rx="0.5" fill="#40a060" fill-opacity="0.75"/>
+ <rect x="14.3" y="8.3" width="3.4" height="9.4" rx="0.5" fill="#4080e0" fill-opacity="0.75"/>
+ <rect x="18.3" y="18.3" width="3.4" height="4.4" rx="0.5" fill="#e0a020" fill-opacity="0.75"/>
+ <rect x="22.3" y="8.3" width="3.4" height="4.4" rx="0.5" fill="#a040c0" fill-opacity="0.75"/>
+ <rect x="10.3" y="23.3" width="3.4" height="4.4" rx="0.5" fill="#e06040" fill-opacity="0.75"/>
+</svg>

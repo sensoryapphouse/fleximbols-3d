@@ -1,0 +1,50 @@
+<svg viewBox="2.08 7.08 27.84 27.84" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="matTop" x1="0" y1="0" x2="0.2" y2="1">
+ <stop offset="0%" stop-color="#f0f4fc"/>
+ <stop offset="100%" stop-color="#c8d8f0"/>
+ </linearGradient>
+ <linearGradient id="matSide" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#d0dcf0"/>
+ <stop offset="100%" stop-color="#8898c0"/>
+ </linearGradient>
+ <linearGradient id="matEnd" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#b8c8e4"/>
+ <stop offset="100%" stop-color="#9098b8"/>
+ </linearGradient>
+ <radialGradient id="buttonG" cx="50%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#d0dcf0"/>
+ <stop offset="100%" stop-color="#8898c0"/>
+ </radialGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- mattress side face -->
+ <rect x="4" y="19" width="24" height="8" rx="1" fill="url(#matSide)"/>
+ <!-- end face right -->
+ <rect x="26" y="15" width="2" height="12" rx="0.5" fill="url(#matEnd)"/>
+ <!-- mattress top face - slightly isometric -->
+ <path d="M4,15 L26,15 L28,19 L4,19 Z" fill="url(#matTop)"/>
+ <!-- quilted top pattern lines -->
+ <line x1="8" y1="15.3" x2="9.3" y2="18.7" stroke="#b0c0e0" stroke-width="0.5"/>
+ <line x1="13" y1="15.3" x2="14.3" y2="18.7" stroke="#b0c0e0" stroke-width="0.5"/>
+ <line x1="18" y1="15.3" x2="19.3" y2="18.7" stroke="#b0c0e0" stroke-width="0.5"/>
+ <line x1="23" y1="15.3" x2="24.3" y2="18.7" stroke="#b0c0e0" stroke-width="0.5"/>
+ <!-- buttons/tufts on top -->
+ <circle cx="10.5" cy="17" r="0.8" fill="url(#buttonG)"/>
+ <circle cx="16" cy="17" r="0.8" fill="url(#buttonG)"/>
+ <circle cx="21.5" cy="17" r="0.8" fill="url(#buttonG)"/>
+ <!-- buttons on side face -->
+ <circle cx="10" cy="22" r="0.7" fill="url(#buttonG)"/>
+ <circle cx="16" cy="22" r="0.7" fill="url(#buttonG)"/>
+ <circle cx="22" cy="22" r="0.7" fill="url(#buttonG)"/>
+ <!-- side handle straps -->
+ <path d="M7,19.5 Q7.5,18.5 8,19.5" stroke="#9098b8" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <path d="M24,19.5 Q24.5,18.5 25,19.5" stroke="#9098b8" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <!-- spring lines on side -->
+ <path d="M6,20.5 Q7,20 8,20.5 Q9,21 10,20.5" stroke="#b0c0e0" stroke-width="0.5" fill="none"/>
+ <path d="M10,20.5 Q11,20 12,20.5 Q13,21 14,20.5" stroke="#b0c0e0" stroke-width="0.5" fill="none"/>
+ <path d="M14,20.5 Q15,20 16,20.5 Q17,21 18,20.5" stroke="#b0c0e0" stroke-width="0.5" fill="none"/>
+ <path d="M18,20.5 Q19,20 20,20.5 Q21,21 22,20.5" stroke="#b0c0e0" stroke-width="0.5" fill="none"/>
+ <!-- sheen -->
+ <rect x="5" y="15.3" width="10" height="1" rx="0.4" fill-opacity="0.4" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="pramBody" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#E87ABF"/><stop offset="100%" stop-color="#8B3A6A"/></linearGradient>
+ <linearGradient id="pramHood" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#C84A9A"/><stop offset="100%" stop-color="#6A1A5A"/></linearGradient>
+ <radialGradient id="pramWh" cx="40%" cy="40%" r="55%"><stop offset="0%" stop-color="#7A7A8A"/><stop offset="100%" stop-color="#1A1A2A"/></radialGradient>
+ <linearGradient id="pramFrame" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8A8A9A"/><stop offset="100%" stop-color="#3A3A4A"/></linearGradient>
+ </defs>
+ <!-- Pram body (deep cradle shape) -->
+ <path d="M6 18 Q6 26 16 26 Q26 26 26 18 Q24 14 16 14 Q8 14 6 18 Z" fill="url(#pramBody)" filter="url(#sdPram)"/>
+ <!-- Hood (curved over) -->
+ <path d="M6 18 Q6 8 16 8 L26 18 Q22 14 16 14 Q10 14 6 18 Z" fill="url(#pramHood)" filter="url(#sdPram)"/>
+ <!-- Hood ribs -->
+ <path d="M9 17 Q12 10 16 9" stroke="white" stroke-opacity="0.2" stroke-width="0.6" fill="none"/>
+ <path d="M14 17 Q16 10 16 9" stroke="white" stroke-opacity="0.2" stroke-width="0.6" fill="none"/>
+ <path d="M19 17 Q20 10 16 9" stroke="white" stroke-opacity="0.2" stroke-width="0.6" fill="none"/>
+ <!-- Body highlight -->
+ <ellipse cx="13" cy="19" rx="4" ry="3" fill="white" fill-opacity="0.15"/>
+ <!-- Frame/chassis -->
+ <line x1="10" y1="26" x2="8" y2="30" stroke="url(#pramFrame)" stroke-width="1.2"/>
+ <line x1="22" y1="26" x2="24" y2="30" stroke="url(#pramFrame)" stroke-width="1.2"/>
+ <line x1="8" y1="30" x2="24" y2="30" stroke="url(#pramFrame)" stroke-width="0.8"/>
+ <!-- Handle -->
+ <path d="M26 18 Q30 18 30 14 L30 12" stroke="url(#pramFrame)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+ <!-- Wheels (four large spoked) -->
+ <circle cx="8" cy="29.5" r="3.5" fill="none" stroke="url(#pramWh)" stroke-width="1.2" filter="url(#sdPram)"/>
+ <circle cx="8" cy="29.5" r="1.2" fill="url(#pramWh)"/>
+ <line x1="8" y1="26" x2="8" y2="33" stroke="#4A4A5A" stroke-width="0.5"/>
+ <line x1="4.5" y1="29.5" x2="11.5" y2="29.5" stroke="#4A4A5A" stroke-width="0.5"/>
+ <circle cx="24" cy="29.5" r="3.5" fill="none" stroke="url(#pramWh)" stroke-width="1.2" filter="url(#sdPram)"/>
+ <circle cx="24" cy="29.5" r="1.2" fill="url(#pramWh)"/>
+ <line x1="24" y1="26" x2="24" y2="33" stroke="#4A4A5A" stroke-width="0.5"/>
+ <line x1="20.5" y1="29.5" x2="27.5" y2="29.5" stroke="#4A4A5A" stroke-width="0.5"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl3280" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl3280)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="screwShaft" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#7A7A9A"/><stop offset="50%" stop-color="#D8D8F0"/><stop offset="100%" stop-color="#4A4A6A"/></linearGradient>
+ <radialGradient id="screwHead" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#C8C8E0"/><stop offset="100%" stop-color="#5A5A7A"/></radialGradient>
+ </defs>
+ <!-- Screw head (round) -->
+ <ellipse cx="16" cy="5.5" rx="5.5" ry="2" fill="url(#screwHead)" filter="url(#sdScrew)"/>
+ <!-- Philips cross on head -->
+ <line x1="16" y1="4" x2="16" y2="7" stroke="#2A2A4A" stroke-width="1" stroke-linecap="round"/>
+ <line x1="14" y1="5.5" x2="18" y2="5.5" stroke="#2A2A4A" stroke-width="1" stroke-linecap="round"/>
+ <!-- Shaft -->
+ <rect x="14.5" y="7.5" width="3" height="18" fill="url(#screwShaft)" filter="url(#sdScrew)"/>
+ <!-- Thread spirals -->
+ <path d="M14.5 9 Q16 8.5 17.5 9" stroke="#5A5A7A" stroke-width="0.5" fill="none"/>
+ <path d="M14.5 11 Q16 10.5 17.5 11" stroke="#5A5A7A" stroke-width="0.5" fill="none"/>
+ <path d="M14.5 13 Q16 12.5 17.5 13" stroke="#5A5A7A" stroke-width="0.5" fill="none"/>
+ <path d="M14.5 15 Q16 14.5 17.5 15" stroke="#5A5A7A" stroke-width="0.5" fill="none"/>
+ <path d="M14.5 17 Q16 16.5 17.5 17" stroke="#5A5A7A" stroke-width="0.5" fill="none"/>
+ <path d="M14.5 19 Q16 18.5 17.5 19" stroke="#5A5A7A" stroke-width="0.5" fill="none"/>
+ <path d="M14.5 21 Q16 20.5 17.5 21" stroke="#5A5A7A" stroke-width="0.5" fill="none"/>
+ <path d="M14.5 23 Q16 22.5 17.5 23" stroke="#5A5A7A" stroke-width="0.5" fill="none"/>
+ <!-- Pointed tip -->
+ <polygon points="14.5,25.5 17.5,25.5 16,29" fill="url(#screwShaft)"/>
+ <!-- Shaft highlight -->
+ <rect x="14.8" y="7.5" width="1" height="18" fill="white" fill-opacity="0.25"/>
+</svg>

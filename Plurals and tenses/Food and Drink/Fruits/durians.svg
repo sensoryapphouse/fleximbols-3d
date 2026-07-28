@@ -1,0 +1,44 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,2.157) scale(0.9326)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="duBody" cx="40%" cy="33%" r="72%"><stop offset="0%" stop-color="#aed581"/><stop offset="55%" stop-color="#7cb342"/><stop offset="100%" stop-color="#33691e"/></radialGradient>
+ <linearGradient id="duSpike" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9ccc65"/><stop offset="100%" stop-color="#33691e"/></linearGradient>
+ <linearGradient id="duStem" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8d6e63"/><stop offset="100%" stop-color="#4e342e"/></linearGradient>
+ </defs>
+ <!-- Spikes radiating around the body (drawn first, behind) -->
+ <g fill="url(#duSpike)" stroke="#33691e" stroke-width="0.2">
+ <!-- top -->
+ <polygon points="13,5 15,7.5 11.5,7.5"/>
+ <polygon points="17.5,4.5 19,7.5 15.5,7.5"/>
+ <!-- upper sides -->
+ <polygon points="5.5,10 9,11 7,8"/>
+ <polygon points="26.5,10 23,11 25,8"/>
+ <polygon points="4,15 7.5,15.5 5,13"/>
+ <polygon points="28,15 24.5,15.5 27,13"/>
+ <!-- lower sides -->
+ <polygon points="4.5,20 8,19.5 5.5,22.5"/>
+ <polygon points="27.5,20 24,19.5 26.5,22.5"/>
+ <!-- bottom -->
+ <polygon points="10,27 12,24.5 14,27"/>
+ <polygon points="18,27.5 20,24.5 22,27.5"/>
+ <polygon points="14.5,28 16,25.5 17.5,28"/>
+ </g>
+ <!-- Durian body -->
+ <ellipse cx="16" cy="17" rx="10.5" ry="11" fill="url(#duBody)" stroke="#2e5a14" stroke-width="0.5"/>
+ <!-- gloss -->
+ <ellipse cx="12" cy="11.5" rx="3" ry="2" fill="#dcedc8" opacity="0.45"/>
+ <!-- Surface spikes (on the body, as a textured pattern of small triangles) -->
+ <g fill="url(#duSpike)" stroke="#2e5a14" stroke-width="0.18">
+ <polygon points="11,12 12.4,13.7 9.6,13.7"/>
+ <polygon points="16,11 17.4,12.7 14.6,12.7"/>
+ <polygon points="21,12.5 22.4,14.2 19.6,14.2"/>
+ <polygon points="9,17 10.4,18.7 7.6,18.7"/>
+ <polygon points="14,16.5 15.4,18.2 12.6,18.2"/>
+ <polygon points="19,16.5 20.4,18.2 17.6,18.2"/>
+ <polygon points="23,17.5 24.4,19.2 21.6,19.2"/>
+ <polygon points="11.5,21.5 12.9,23.2 10.1,23.2"/>
+ <polygon points="16.5,21.5 17.9,23.2 15.1,23.2"/>
+ <polygon points="21,21.5 22.4,23.2 19.6,23.2"/>
+ </g>
+ <!-- Stem -->
+ <path d="M15 5.5 Q16 2.5 17.5 3 Q18 4.5 16.8 6.3 Z" fill="url(#duStem)" stroke="#3e2723" stroke-width="0.3"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1215" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1215)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

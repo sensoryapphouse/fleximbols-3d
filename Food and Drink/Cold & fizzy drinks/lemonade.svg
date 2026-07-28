@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="lemGlass" cx="30%" cy="25%" r="80%">
+ <stop offset="0%" stop-color="#DAEFFE" stop-opacity="0.95"/>
+ <stop offset="100%" stop-color="#A8D8F8" stop-opacity="0.6"/>
+ </radialGradient>
+ <linearGradient id="lemLiquid" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#F8F040"/>
+ <stop offset="100%" stop-color="#E0D000"/>
+ </linearGradient>
+ <radialGradient id="lemon1" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FFE840"/>
+ <stop offset="100%" stop-color="#D0B000"/>
+ </radialGradient>
+</defs>
+<path d="M9 8 L8 27 Q8 29 10 29 L22 29 Q24 29 24 27 L23 8 Z" fill="url(#lemGlass)"/>
+<path d="M9.5 12 L9 27 Q9 28 10 28 L22 28 Q23 28 23 27 L22.5 12 Z" fill="url(#lemLiquid)"/><rect x="18" y="3" width="1.5" height="17" rx="0.75" fill="#FF8040"/><path d="M9 8 L23 8" stroke="white" stroke-width="0.5" opacity="0.6"/><ellipse cx="11.5" cy="16" rx="1" ry="5" fill="white" opacity="0.18" transform="rotate(-5 11.5 16)"/>
+<circle cx="11" cy="14" r="2" fill="url(#lemon1)" opacity="0.85"/>
+<path d="M11 12 L11 16 M9 14 L13 14" stroke="white" stroke-width="0.4" opacity="0.5"/>
+</svg>

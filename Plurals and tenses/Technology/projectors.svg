@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,0.694) scale(0.9783)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <linearGradient id="top" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#E0E4E8"/>
+ <stop offset="100%" stop-color="#9AA0A8"/>
+ </linearGradient>
+ <radialGradient id="lens" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#7DBEFC"/>
+ <stop offset="100%" stop-color="#1565C0"/>
+ </radialGradient>
+ <linearGradient id="cone" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#FFFFF0" stop-opacity="0.8"/>
+ <stop offset="100%" stop-color="#FFEE88" stop-opacity="0.2"/>
+ </linearGradient>
+ </defs>
+ <!-- Light cone first (behind body) -->
+ <path d="M22 14 L31 9 L31 21 Z" fill="url(#cone)"/>
+ <!-- Projected image at far end -->
+ <rect x="30" y="10" width="1.5" height="10" rx="0.3" fill="#C8D8F0" opacity="0.6"/>
+ <!-- Main body -->
+ <rect x="5" y="13" width="17" height="11" rx="2" fill="url(#body)"/>
+ <!-- Top face -->
+ <path d="M5 13 L8 9 L25 9 L22 13 Z" fill="url(#top)"/>
+ <!-- Right side -->
+ <path d="M22 13 L25 9 L25 20 L22 24 Z" fill="#909498"/>
+ <!-- Lens on front face -->
+ <circle cx="10" cy="18.5" r="3.5" fill="#3B3F47"/>
+ <circle cx="10" cy="18.5" r="2.5" fill="url(#lens)"/>
+ <circle cx="9.2" cy="17.7" r="0.8" fill="#AADDFF" opacity="0.6"/>
+ <!-- Vent slots on top -->
+ <line x1="14" y1="10" x2="15" y2="13" stroke="#909498" stroke-width="0.6"/>
+ <line x1="16" y1="10" x2="17" y2="13" stroke="#909498" stroke-width="0.6"/>
+ <line x1="18" y1="10" x2="19" y2="13" stroke="#909498" stroke-width="0.6"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl3142" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl3142)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

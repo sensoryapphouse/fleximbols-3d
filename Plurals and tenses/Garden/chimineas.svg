@@ -1,0 +1,48 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="terra-g" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#e8a070"/>
+ <stop offset="50%" stop-color="#c06030"/>
+ <stop offset="100%" stop-color="#7a2800"/>
+ </radialGradient>
+ <linearGradient id="neck-g" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#9a4010"/>
+ <stop offset="45%" stop-color="#d77c46"/>
+ <stop offset="100%" stop-color="#8a3808"/>
+ </linearGradient>
+ <radialGradient id="fire-g" cx="50%" cy="80%" r="60%">
+ <stop offset="0%" stop-color="#ffff60"/>
+ <stop offset="40%" stop-color="#ff8000"/>
+ <stop offset="100%" stop-color="#c03000"/>
+ </radialGradient>
+ </defs>
+ <!-- Three legs -->
+ <path d="M11.5 23 L9.5 30 L11 30 L13 23 Z" fill="#8a3808"/>
+ <path d="M20.5 23 L22.5 30 L21 30 L19 23 Z" fill="#8a3808"/>
+ <rect x="15.2" y="23" width="1.6" height="7.4" rx="0.6" fill="#9a4010"/>
+ <!-- Bulb body (one connected piece with neck) -->
+ <path d="M16 6
+          C14.4 6 13.2 6.6 13.2 8
+          L13.2 11.5
+          C9.6 12.6 7.4 16.2 7.4 20
+          C7.4 24.4 11.2 26.6 16 26.6
+          C20.8 26.6 24.6 24.4 24.6 20
+          C24.6 16.2 22.4 12.6 18.8 11.5
+          L18.8 8
+          C18.8 6.6 17.6 6 16 6 Z" fill="url(#terra-g)"/>
+ <!-- chimney top rim -->
+ <ellipse cx="16" cy="5.8" rx="3.1" ry="1.1" fill="#e8a070"/>
+ <ellipse cx="16" cy="5.6" rx="2" ry="0.6" fill="#5a2208"/>
+ <!-- neck banding -->
+ <rect x="13" y="10.6" width="6" height="1.3" rx="0.6" fill="url(#neck-g)"/>
+ <!-- Body highlight -->
+ <ellipse cx="12.5" cy="16.5" rx="3" ry="3.4" fill="#f0b890" fill-opacity="0.35"/>
+ <!-- Front opening (arch) -->
+ <path d="M12 21 Q12 17 16 16.6 Q20 17 20 21 Q20 23.6 16 23.8 Q12 23.6 12 21 Z" fill="#3a1400" fill-opacity="0.9"/>
+ <!-- Flames -->
+ <path d="M14 23 Q14 19.6 16 18.6 Q18 19.6 18 23 Z" fill="url(#fire-g)"/>
+ <path d="M14.6 23 Q14.2 20.4 15.6 19.6 Q16.4 20.4 16 23 Z" fill="#ffcc40" fill-opacity="0.85"/>
+ <!-- Smoke -->
+ <path d="M15 4 Q14 2 15 0.8" stroke="#c0c0c0" stroke-width="0.6" fill="none" stroke-opacity="0.5"/>
+ <path d="M17 4.4 Q18 2.4 17 1.2" stroke="#c0c0c0" stroke-width="0.5" fill="none" stroke-opacity="0.4"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1687" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1687)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

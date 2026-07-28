@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="card" cx="25%" cy="20%" r="75%">
+ <stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#E3F2FD"/>
+ </radialGradient>
+ <radialGradient id="img" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#FF8A65"/><stop offset="100%" stop-color="#BF360C"/>
+ </radialGradient>
+ <radialGradient id="btn" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#42A5F5"/><stop offset="100%" stop-color="#1565C0"/>
+ </radialGradient>
+ </defs>
+ <!-- post card frame -->
+ <rect x="2" y="3" width="28" height="26" rx="3" fill="url(#card)" stroke="#BBDEFB" stroke-width="0.7"/>
+ <!-- profile pic area -->
+ <circle cx="7" cy="9" r="3.5" fill="url(#img)"/>
+ <ellipse cx="6" cy="7.5" rx="1.5" ry="1.2" fill="#FFFFFF" fill-opacity="0.200"/>
+ <!-- username lines -->
+ <rect x="12" y="7" width="10" height="2" rx="1" fill="#90A4AE"/>
+ <rect x="12" y="10" width="7" height="1.5" rx="0.7" fill="#CFD8DC"/>
+ <!-- post image -->
+ <rect x="3" y="14" width="26" height="10" rx="1.5" fill="url(#img)"/>
+ <!-- image highlight -->
+ <rect x="4" y="15" width="24" height="4" rx="1" fill="#FFFFFF" fill-opacity="0.133"/>
+ <!-- sun in image -->
+ <circle cx="8" cy="17" r="2.5" fill="#FFF176" opacity="0.8"/>
+ <!-- hills in image -->
+ <path d="M3 24 Q8 19 13 22 Q18 25 26 20 L29 24 Z" fill="#4CAF50" fill-opacity="0.467"/>
+ <!-- like/comment bar -->
+ <path d="M5 26 Q6 24.5 7 26 Q8 27.5 9 26 Q10 24.5 11 26 Q10 27 7 28 Q4 27 5 26 Z" fill="#EF5350"/>
+ <rect x="13" y="26" width="6" height="1.5" rx="0.7" fill="#90A4AE"/>
+ <!-- post/upload arrow -->
+ <path d="M24 25 L27 23 L30 25 L28.5 25 L28.5 28 L25.5 28 L25.5 25 Z" fill="url(#btn)"/>
+</svg>

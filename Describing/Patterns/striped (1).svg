@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="sw_bg" cx="35%" cy="30%" r="75%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#D8DDE5"/>
+ </radialGradient>
+ <radialGradient id="sw_band" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#3B3F47"/>
+ <stop offset="100%" stop-color="#16181D"/>
+ </radialGradient>
+ <radialGradient id="sw_band2" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#5CA3FF"/>
+ <stop offset="100%" stop-color="#1565C0"/>
+ </radialGradient>
+ <radialGradient id="sw_hl" cx="30%" cy="25%" r="40%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ <clipPath id="sw_clip">
+ <rect x="4.5" y="4.5" width="23" height="23" rx="2.5"/>
+ </clipPath>
+ </defs>
+ <rect x="4.5" y="4.5" width="23" height="23" rx="2.5" fill="url(#sw_bg)" stroke="#7A7E84" stroke-width="0.4"/>
+ <g clip-path="url(#sw_clip)">
+ <polygon points="-2,12 8,2 14,2 -2,18" fill="url(#sw_band)"/>
+ <polygon points="6,22 22,6 28,6 12,22" fill="url(#sw_band2)"/>
+ <polygon points="20,30 34,16 38,16 38,24 24,30" fill="url(#sw_band)"/>
+ </g>
+ <ellipse cx="11" cy="9" rx="6" ry="2" fill="url(#sw_hl)"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f0f4f8"/><stop offset="100%" stop-color="#8898b0"/></linearGradient>
+ <linearGradient id="deck" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d8e8f5"/><stop offset="100%" stop-color="#9ab0c8"/></linearGradient>
+ <linearGradient id="sail" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f8f8f8"/><stop offset="100%" stop-color="#d0d8e8"/></linearGradient>
+ <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4488cc"/><stop offset="100%" stop-color="#1a4488"/></linearGradient>
+ </defs>
+ <!-- water -->
+ <path d="M0 24 Q4 22 8 24 Q12 26 16 24 Q20 22 24 24 Q28 26 32 24 L32 32 L0 32 Z" fill="url(#water)"/>
+ <!-- left hull -->
+ 
+ <rect x="4" y="18" width="4" height="4" rx="1.5" fill="url(#hull)"/>
+ <!-- right hull -->
+ 
+ <rect x="24" y="18" width="4" height="4" rx="1.5" fill="url(#hull)"/>
+ <!-- deck/cabin connecting hulls -->
+ 
+ <!-- cabin top -->
+ <rect x="11" y="13" width="9" height="3" rx="1" fill="url(#deck)"/>
+ <!-- windows -->
+ <rect x="12.5" y="13.5" width="2" height="1.5" rx="0.4" fill="#88c8f0" fill-opacity="0.8"/>
+ <rect x="16.5" y="13.5" width="2" height="1.5" rx="0.4" fill="#88c8f0" fill-opacity="0.8"/>
+ <!-- mast -->
+ <line x1="16" y1="16" x2="16" y2="3" stroke="#8898b0" stroke-width="0.8"/>
+ <!-- sail (large, filled with wind) -->
+ 
+ <!-- sail curve/billow -->
+ <path d="M16 4 Q24 10 27 12 Q22 14 16 16" fill="url(#sail)" fill-opacity="0.5"/>
+ <!-- boom -->
+ <line x1="16" y1="16" x2="25" y2="17" stroke="#8898b0" stroke-width="0.6"/>
+</svg>

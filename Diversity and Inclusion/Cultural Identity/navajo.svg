@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="nav-border" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#c03020"/>
+ <stop offset="100%" stop-color="#801810"/>
+ </linearGradient>
+ <linearGradient id="nav-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#f0e0c0"/>
+ <stop offset="100%" stop-color="#d8c090"/>
+ </linearGradient>
+ </defs>
+ <!-- Rug base -->
+ 
+ <!-- Outer border red -->
+ <rect x="2" y="2" width="28" height="2" fill="url(#nav-border)"/>
+ <rect x="2" y="28" width="28" height="2" fill="url(#nav-border)"/>
+ <rect x="2" y="2" width="2" height="28" fill="url(#nav-border)"/>
+ <rect x="28" y="2" width="2" height="28" fill="url(#nav-border)"/>
+ <!-- Inner black border -->
+ <rect x="4" y="4" width="24" height="1" fill="#181810"/>
+ <rect x="4" y="27" width="24" height="1" fill="#181810"/>
+ <rect x="4" y="4" width="1" height="24" fill="#181810"/>
+ <rect x="27" y="4" width="1" height="24" fill="#181810"/>
+ <!-- Central diamond motif -->
+ <polygon points="16,6 22,16 16,26 10,16" fill="#c03020" fill-opacity="0.85"/>
+ <polygon points="16,9 20,16 16,23 12,16" fill="#f0e0c0"/>
+ <polygon points="16,11 18.5,16 16,21 13.5,16" fill="#181810" fill-opacity="0.8"/>
+ <polygon points="16,13 17.5,16 16,19 14.5,16" fill="#c03020"/>
+ <!-- Stepped diamond corners -->
+ <rect x="6" y="10" width="3" height="3" fill="#181810" fill-opacity="0.7"/>
+ <rect x="7" y="9" width="1" height="1" fill="#181810" fill-opacity="0.7"/>
+ <rect x="23" y="10" width="3" height="3" fill="#181810" fill-opacity="0.7"/>
+ <rect x="24" y="9" width="1" height="1" fill="#181810" fill-opacity="0.7"/>
+ <rect x="6" y="19" width="3" height="3" fill="#181810" fill-opacity="0.7"/>
+ <rect x="7" y="22" width="1" height="1" fill="#181810" fill-opacity="0.7"/>
+ <rect x="23" y="19" width="3" height="3" fill="#181810" fill-opacity="0.7"/>
+ <rect x="24" y="22" width="1" height="1" fill="#181810" fill-opacity="0.7"/>
+ <!-- Zigzag band top -->
+ <polyline points="5,7 7,6 9,7 11,6 13,7 15,6 17,7 19,6 21,7 23,6 25,7 27,6" stroke="#c03020" stroke-width="0.7" fill="none"/>
+ <!-- Zigzag band bottom -->
+ <polyline points="5,25 7,26 9,25 11,26 13,25 15,26 17,25 19,26 21,25 23,26 25,25 27,26" stroke="#c03020" stroke-width="0.7" fill="none"/>
+</svg>

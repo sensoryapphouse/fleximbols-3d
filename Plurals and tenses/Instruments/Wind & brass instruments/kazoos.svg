@@ -1,0 +1,16 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="kazBody" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#FFE082"/><stop offset="100%" stop-color="#C8A030"/></radialGradient>
+ <radialGradient id="kazMouth" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#FF5252"/><stop offset="100%" stop-color="#C62828"/></radialGradient>
+ </defs>
+ <!-- tapered body -->
+ <ellipse cx="13" cy="18" rx="10" ry="5.5" fill="url(#kazBody)"/>
+ <rect x="3" y="14.5" width="20" height="7" rx="1" fill="url(#kazBody)"/>
+ <!-- mouthpiece (red flared end) -->
+ <ellipse cx="23" cy="18" rx="2.5" ry="5.5" fill="url(#kazMouth)"/>
+ <!-- resonator turret on top -->
+ <circle cx="13" cy="13.2" r="2.6" fill="#16181D"/>
+ <circle cx="13" cy="13.2" r="1" fill="#FFFFFF"/>
+ <!-- body gloss -->
+ <ellipse cx="9" cy="16" rx="4" ry="1.1" fill="#FFFFFF" fill-opacity="0.45"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2442" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2442)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

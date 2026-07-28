@@ -1,0 +1,50 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="bgDip" cx="0.42" cy="0.35" r="0.85">
+ <stop offset="0%" stop-color="#efe2c2"/>
+ <stop offset="60%" stop-color="#e2cfa2"/>
+ <stop offset="100%" stop-color="#cdb37e"/>
+ </radialGradient>
+ <linearGradient id="bgBowl" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#f4f6f8"/>
+ <stop offset="55%" stop-color="#dfe6ec"/>
+ <stop offset="100%" stop-color="#b9c4cd"/>
+ </linearGradient>
+ <linearGradient id="bgRim" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#cdd6dd"/>
+ </linearGradient>
+ <linearGradient id="bgEgg" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#8a5fb0"/>
+ <stop offset="100%" stop-color="#5a3580"/>
+ </linearGradient>
+ </defs>
+ <!-- shadow -->
+ <ellipse cx="16" cy="26.5" rx="12" ry="2.2" fill="#000000" opacity="0.12"/>
+ <!-- bowl body -->
+ <path d="M4 15 a12 5 0 0 0 24 0 V15.5 C28 21.5 23 25.5 16 25.5 C9 25.5 4 21.5 4 15.5 Z" fill="url(#bgBowl)"/>
+ <!-- dip surface -->
+ <ellipse cx="16" cy="15" rx="11.5" ry="4.5" fill="url(#bgDip)"/>
+ <!-- bowl rim -->
+ <ellipse cx="16" cy="15" rx="12" ry="5" fill="none" stroke="url(#bgRim)" stroke-width="1.1"/>
+ <!-- olive-oil drizzle wells -->
+ <ellipse cx="13.5" cy="14.4" rx="2.2" ry="0.9" fill="#c79a3a" opacity="0.55"/>
+ <ellipse cx="18.5" cy="15.6" rx="2.6" ry="1.0" fill="#c79a3a" opacity="0.5"/>
+ <!-- parsley garnish -->
+ <circle cx="14" cy="13.6" r="0.7" fill="#4e9a3a"/>
+ <circle cx="15.2" cy="13.9" r="0.55" fill="#5fb04a"/>
+ <circle cx="19" cy="15.2" r="0.6" fill="#4e9a3a"/>
+ <!-- paprika sprinkle -->
+ <circle cx="17" cy="13.8" r="0.35" fill="#c0532a"/>
+ <circle cx="12.4" cy="15.6" r="0.32" fill="#c0532a"/>
+ <circle cx="20.4" cy="14.2" r="0.3" fill="#c0532a"/>
+ <!-- eggplant cue (the dip's ingredient) resting at the rim -->
+ <g transform="rotate(-22 24 12)">
+ <ellipse cx="24" cy="12" rx="2.0" ry="3.4" fill="url(#bgEgg)"/>
+ <ellipse cx="23.3" cy="10.8" rx="0.7" ry="1.4" fill="#ffffff" opacity="0.22"/>
+ <path d="M24 8.7 q0.4 -1.4 1.4 -1.7" stroke="#3f7a2a" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <ellipse cx="24" cy="8.8" rx="1.1" ry="0.7" fill="#5aa03a"/>
+ </g>
+ <!-- surface highlight -->
+ <ellipse cx="11.5" cy="13.2" rx="3.2" ry="1.0" fill="#ffffff" opacity="0.25"/>
+</svg>

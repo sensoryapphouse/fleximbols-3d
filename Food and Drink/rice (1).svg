@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+
+ <ellipse cx="16" cy="23" rx="11" ry="5.5" fill="url(#rice_bowl)"/>
+ <ellipse cx="16" cy="22" rx="9" ry="4" fill="url(#rice_bowl_inner)"/>
+ <ellipse cx="16" cy="17" rx="9" ry="5" fill="url(#rice_mound)"/>
+ <ellipse cx="12" cy="15" rx="1.5" ry="0.8" fill="url(#rice_grain)" opacity="0.7"/>
+ <ellipse cx="16" cy="14" rx="1.5" ry="0.8" fill="url(#rice_grain)" opacity="0.7"/>
+ <ellipse cx="20" cy="15" rx="1.5" ry="0.8" fill="url(#rice_grain)" opacity="0.7"/>
+ <ellipse cx="14" cy="17" rx="1.5" ry="0.8" fill="url(#rice_grain)" opacity="0.7"/>
+ <ellipse cx="18" cy="17" rx="1.5" ry="0.8" fill="url(#rice_grain)" opacity="0.7"/>
+ <ellipse cx="13" cy="13" rx="3" ry="1.5" fill="url(#rice_shine)" opacity="0.4"/>
+
+<defs>
+
+ <radialGradient id="rice_bowl" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#E0D0B0"/>
+ <stop offset="0.6" stop-color="#B8A070"/>
+ <stop offset="1" stop-color="#887040"/>
+ </radialGradient>
+ <radialGradient id="rice_bowl_inner" cx="0.5" cy="0.5" r="0.8">
+ <stop offset="0" stop-color="#8A7050"/>
+ <stop offset="1" stop-color="#6A5030"/>
+ </radialGradient>
+ <radialGradient id="rice_mound" cx="0.3" cy="0.3" r="0.8">
+ <stop offset="0" stop-color="#FDFDF8"/>
+ <stop offset="0.6" stop-color="#F0F0E8"/>
+ <stop offset="1" stop-color="#D8D8D0"/>
+ </radialGradient>
+ <radialGradient id="rice_grain" cx="0.3" cy="0.3" r="0.7">
+ <stop offset="0" stop-color="#FFFFFF"/>
+ <stop offset="1" stop-color="#E0E0D8"/>
+ </radialGradient>
+ <radialGradient id="rice_shine" cx="0.3" cy="0.3" r="0.7">
+ <stop offset="0" stop-color="#ffffff"/>
+ <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+ </radialGradient>
+
+</defs>
+</svg>

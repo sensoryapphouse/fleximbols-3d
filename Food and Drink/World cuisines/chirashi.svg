@@ -1,0 +1,32 @@
+<svg viewBox="0.92 4.42 30.16 30.16" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="bowl" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#404048"/>
+ <stop offset="100%" stop-color="#0a0a10"/>
+ </radialGradient>
+ <radialGradient id="rice" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#c8c8b0"/>
+ </radialGradient>
+ <radialGradient id="salmon" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#ffb088"/>
+ <stop offset="100%" stop-color="#c04018"/>
+ </radialGradient>
+ <radialGradient id="tuna" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#e04050"/>
+ <stop offset="100%" stop-color="#700818"/>
+ </radialGradient>
+ </defs>
+ <path d="M 3 14 Q 3 28 16 28 Q 29 28 29 14 Z" fill="url(#bowl)"/>
+ <ellipse cx="16" cy="14" rx="13" ry="3" fill="url(#rice)"/>
+ <ellipse cx="11" cy="13" rx="3" ry="0.8" fill="#fff" opacity="0.6"/>
+ <ellipse cx="10" cy="13.5" rx="2.5" ry="1.2" fill="url(#salmon)"/>
+ <path d="M 8 13 L 12 13" stroke="#fff" stroke-width="0.3" opacity="0.5"/>
+ <path d="M 8 14 L 12 14" stroke="#fff" stroke-width="0.3" opacity="0.5"/>
+ <ellipse cx="17" cy="13" rx="2.5" ry="1.2" fill="url(#tuna)"/>
+ <ellipse cx="22" cy="14" rx="2" ry="1" fill="url(#salmon)"/>
+ <ellipse cx="14" cy="14.5" rx="1" ry="0.6" fill="#fff"/>
+ <ellipse cx="14" cy="14.5" rx="0.4" ry="0.4" fill="#ffc830"/>
+ <circle cx="19" cy="14.5" r="0.4" fill="#5a2818"/>
+ <circle cx="12" cy="14.2" r="0.3" fill="#5a7028"/>
+</svg>

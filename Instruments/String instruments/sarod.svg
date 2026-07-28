@@ -1,0 +1,54 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="sr-body" cx="45%" cy="40%" r="60%">
+ <stop offset="0%" stop-color="#d7ccc8"/>
+ <stop offset="100%" stop-color="#4e342e"/>
+ </radialGradient>
+ <radialGradient id="sr-skin" cx="50%" cy="40%" r="55%">
+ <stop offset="0%" stop-color="#ffe0b2"/>
+ <stop offset="100%" stop-color="#e65100"/>
+ </radialGradient>
+ <linearGradient id="sr-neck" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#90a4ae"/>
+ <stop offset="100%" stop-color="#263238"/>
+ </linearGradient>
+ <linearGradient id="sr-string" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#eceff1"/>
+ <stop offset="100%" stop-color="#90a4ae"/>
+ </linearGradient>
+ <linearGradient id="sr-peg" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#bcaaa4"/>
+ <stop offset="100%" stop-color="#5d4037"/>
+ </linearGradient>
+ </defs>
+ <!-- Large round resonator (skin-covered) -->
+ 
+ <!-- Skin membrane look -->
+ <circle cx="16" cy="22" r="8.5" fill="none" stroke="#bf360c" stroke-width="0.3" stroke-opacity="0.5"/>
+ <circle cx="16" cy="22" r="7" fill="none" stroke="#e65100" stroke-width="0.3" stroke-opacity="0.3"/>
+ <!-- Wooden body section (upper bowl) -->
+ 
+ <!-- Metal fingerboard (shiny, no frets) -->
+ 
+ <!-- Fingerboard shine -->
+ <rect x="14" y="4.5" width="1.5" height="10" rx="0.5" fill="#fff" fill-opacity="0.25"/>
+ <!-- Pegbox at top -->
+ 
+ <!-- Tuning pegs -->
+ <ellipse cx="13" cy="3" rx="1" ry="0.7" fill="url(#sr-peg)"/>
+ <ellipse cx="16" cy="2.5" rx="1" ry="0.7" fill="url(#sr-peg)"/>
+ <ellipse cx="19" cy="3" rx="1" ry="0.7" fill="url(#sr-peg)"/>
+ <!-- Main strings (4) -->
+ <line x1="14" y1="6" x2="14" y2="28" stroke="url(#sr-string)" stroke-width="0.5"/>
+ <line x1="15.3" y1="6" x2="15.3" y2="28" stroke="url(#sr-string)" stroke-width="0.5"/>
+ <line x1="16.7" y1="6" x2="16.7" y2="28" stroke="url(#sr-string)" stroke-width="0.5"/>
+ <line x1="18" y1="6" x2="18" y2="28" stroke="url(#sr-string)" stroke-width="0.5"/>
+ <!-- Sympathetic strings (thinner, more) -->
+ <line x1="14.5" y1="6" x2="14.5" y2="28" stroke="#b0bec5" stroke-width="0.25" stroke-opacity="0.6"/>
+ <line x1="15.8" y1="6" x2="15.8" y2="28" stroke="#b0bec5" stroke-width="0.25" stroke-opacity="0.6"/>
+ <line x1="17.2" y1="6" x2="17.2" y2="28" stroke="#b0bec5" stroke-width="0.25" stroke-opacity="0.6"/>
+ <!-- Bridge -->
+ <rect x="13" y="20" width="6" height="1" rx="0.5" fill="#8d6e63"/>
+ <!-- Body connect detail -->
+ <ellipse cx="16" cy="16" rx="4" ry="1.5" fill="#6d4c41" fill-opacity="0.6"/>
+</svg>

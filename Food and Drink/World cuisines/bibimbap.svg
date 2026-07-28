@@ -1,0 +1,56 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="stone" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#5A5E64"/>
+ <stop offset="100%" stop-color="#16181D"/>
+ </radialGradient>
+ <radialGradient id="rice" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#E6E8EC"/>
+ </radialGradient>
+ <radialGradient id="carrot" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#FF8B3D"/>
+ <stop offset="100%" stop-color="#C03A14"/>
+ </radialGradient>
+ <radialGradient id="spinach" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </radialGradient>
+ <radialGradient id="beef" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#A0673A"/>
+ <stop offset="100%" stop-color="#5E3920"/>
+ </radialGradient>
+ <radialGradient id="yolk" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#E5A700"/>
+ </radialGradient>
+ <radialGradient id="gochu" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#FF5252"/>
+ <stop offset="100%" stop-color="#C62828"/>
+ </radialGradient>
+ <radialGradient id="hl" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ </defs>
+ <!-- Stone bowl -->
+ <path d="M 2 14 L 30 14 Q 28 28 16 28 Q 4 28 2 14 Z" fill="url(#stone)"/>
+ <ellipse cx="16" cy="14" rx="14" ry="3.5" fill="#3B3F47"/>
+ <!-- Rice base -->
+ <ellipse cx="16" cy="14" rx="12" ry="2.8" fill="url(#rice)"/>
+ <!-- Colourful toppings arranged in sections -->
+ <!-- Carrot strips (top) -->
+ <ellipse cx="11" cy="13" rx="3" ry="1.2" fill="url(#carrot)"/>
+ <!-- Spinach -->
+ <ellipse cx="21" cy="13" rx="3" ry="1.2" fill="url(#spinach)"/>
+ <!-- Beef (front) -->
+ <ellipse cx="11" cy="15.5" rx="3" ry="1.2" fill="url(#beef)"/>
+ <!-- Mushroom/zucchini (front-right) -->
+ <ellipse cx="21" cy="15.5" rx="3" ry="1.2" fill="#7A7E84"/>
+ <!-- Central egg yolk -->
+ <circle cx="16" cy="14" r="2" fill="url(#yolk)"/>
+ <circle cx="15.5" cy="13.5" r="0.6" fill="#FFE082"/>
+ <!-- Red chili paste swipe -->
+ <path d="M 16 11 Q 18 12 17 14" fill="none" stroke="url(#gochu)" stroke-width="0.6" stroke-linecap="round"/>
+ <ellipse cx="8" cy="16" rx="4" ry="1" fill="url(#hl)"/>
+</svg>

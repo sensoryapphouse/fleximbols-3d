@@ -1,0 +1,41 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ag-cover" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#4080e0"/>
+ <stop offset="100%" stop-color="#1840a0"/>
+ </linearGradient>
+ <linearGradient id="ag-page" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#faf8f0"/>
+ <stop offset="100%" stop-color="#e8e0cc"/>
+ </linearGradient>
+ <linearGradient id="ag-spiral" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#a0a0a0"/>
+ <stop offset="100%" stop-color="#606060"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- notebook back cover -->
+ <rect x="5" y="5" width="22" height="25" rx="1.5" fill="url(#ag-cover)"/>
+ <!-- open pages -->
+ <rect x="6" y="4" width="20" height="24" rx="1" fill="url(#ag-page)"/>
+ <!-- spiral loops at top -->
+ <ellipse cx="10" cy="4" rx="1.2" ry="1.2" fill="none" stroke="url(#ag-spiral)" stroke-width="1"/>
+ <ellipse cx="14" cy="4" rx="1.2" ry="1.2" fill="none" stroke="url(#ag-spiral)" stroke-width="1"/>
+ <ellipse cx="18" cy="4" rx="1.2" ry="1.2" fill="none" stroke="url(#ag-spiral)" stroke-width="1"/>
+ <ellipse cx="22" cy="4" rx="1.2" ry="1.2" fill="none" stroke="url(#ag-spiral)" stroke-width="1"/>
+ <!-- date heading bar -->
+ <rect x="7" y="6" width="18" height="3" rx="0.5" fill="#4080e0" fill-opacity="0.3"/>
+ <!-- bullet points with lines -->
+ <circle cx="9" cy="12" r="0.7" fill="#4080e0"/>
+ <rect x="11" y="11.3" width="12" height="1.4" rx="0.5" fill="#a0b0c0"/>
+ <circle cx="9" cy="16" r="0.7" fill="#4080e0"/>
+ <rect x="11" y="15.3" width="10" height="1.4" rx="0.5" fill="#a0b0c0"/>
+ <circle cx="9" cy="20" r="0.7" fill="#4080e0"/>
+ <rect x="11" y="19.3" width="11" height="1.4" rx="0.5" fill="#a0b0c0"/>
+ <!-- checkboxes -->
+ <rect x="9" y="11.2" width="1.6" height="1.6" rx="0.3" fill="none" stroke="#4080e0" stroke-width="0.6"/>
+ <rect x="9" y="15.2" width="1.6" height="1.6" rx="0.3" fill="none" stroke="#4080e0" stroke-width="0.6"/>
+ <!-- checkmark in first box -->
+ <polyline points="9.2,11.9 9.7,12.4 10.4,11.4" stroke="#4080e0" stroke-width="0.5" fill="none"/>
+ <rect x="9" y="19.2" width="1.6" height="1.6" rx="0.3" fill="none" stroke="#4080e0" stroke-width="0.6"/>
+</svg>

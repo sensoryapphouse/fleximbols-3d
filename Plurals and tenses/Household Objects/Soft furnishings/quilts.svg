@@ -1,0 +1,56 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,4.307) scale(0.8654)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="patchA" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#e87878"/>
+ <stop offset="100%" stop-color="#b84848"/>
+ </linearGradient>
+ <linearGradient id="patchB" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#78b8e8"/>
+ <stop offset="100%" stop-color="#3878b0"/>
+ </linearGradient>
+ <linearGradient id="patchC" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#e8c878"/>
+ <stop offset="100%" stop-color="#b89838"/>
+ </linearGradient>
+ <linearGradient id="patchD" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#88d888"/>
+ <stop offset="100%" stop-color="#489848"/>
+ </linearGradient>
+ <linearGradient id="patchE" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#d888d8"/>
+ <stop offset="100%" stop-color="#986898"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- quilt outer border -->
+ <rect x="4" y="6" width="24" height="22" rx="1.5" fill="#f0e8d8"/>
+ <!-- patchwork patches row 1 -->
+ <rect x="5" y="7" width="5" height="5" rx="0.5" fill="url(#patchA)"/>
+ <rect x="10.5" y="7" width="5" height="5" rx="0.5" fill="url(#patchB)"/>
+ <rect x="16" y="7" width="5" height="5" rx="0.5" fill="url(#patchC)"/>
+ <rect x="21.5" y="7" width="5.5" height="5" rx="0.5" fill="url(#patchD)"/>
+ <!-- row 2 -->
+ <rect x="5" y="12.5" width="5" height="5" rx="0.5" fill="url(#patchD)"/>
+ <rect x="10.5" y="12.5" width="5" height="5" rx="0.5" fill="url(#patchE)"/>
+ <rect x="16" y="12.5" width="5" height="5" rx="0.5" fill="url(#patchA)"/>
+ <rect x="21.5" y="12.5" width="5.5" height="5" rx="0.5" fill="url(#patchB)"/>
+ <!-- row 3 -->
+ <rect x="5" y="18" width="5" height="5" rx="0.5" fill="url(#patchC)"/>
+ <rect x="10.5" y="18" width="5" height="5" rx="0.5" fill="url(#patchA)"/>
+ <rect x="16" y="18" width="5" height="5" rx="0.5" fill="url(#patchD)"/>
+ <rect x="21.5" y="18" width="5.5" height="5" rx="0.5" fill="url(#patchE)"/>
+ <!-- row 4 partial -->
+ <rect x="5" y="23.5" width="5" height="3.5" rx="0.5" fill="url(#patchB)"/>
+ <rect x="10.5" y="23.5" width="5" height="3.5" rx="0.5" fill="url(#patchC)"/>
+ <rect x="16" y="23.5" width="5" height="3.5" rx="0.5" fill="url(#patchE)"/>
+ <rect x="21.5" y="23.5" width="5.5" height="3.5" rx="0.5" fill="url(#patchA)"/>
+ <!-- seam lines -->
+ <line x1="4" y1="12" x2="28" y2="12" stroke="#c0a878" stroke-width="0.5" stroke-opacity="0.7"/>
+ <line x1="4" y1="17.5" x2="28" y2="17.5" stroke="#c0a878" stroke-width="0.5" stroke-opacity="0.7"/>
+ <line x1="4" y1="23" x2="28" y2="23" stroke="#c0a878" stroke-width="0.5" stroke-opacity="0.7"/>
+ <line x1="10" y1="6" x2="10" y2="28" stroke="#c0a878" stroke-width="0.5" stroke-opacity="0.7"/>
+ <line x1="15.5" y1="6" x2="15.5" y2="28" stroke="#c0a878" stroke-width="0.5" stroke-opacity="0.7"/>
+ <line x1="21" y1="6" x2="21" y2="28" stroke="#c0a878" stroke-width="0.5" stroke-opacity="0.7"/>
+ <!-- highlight -->
+ <rect x="5" y="7" width="10" height="1.2" rx="0.5" fill="#ffffff" fill-opacity="0.3"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2238" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2238)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

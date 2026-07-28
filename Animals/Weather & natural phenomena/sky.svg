@@ -1,0 +1,63 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky_g" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#2880e8"/>
+ <stop offset="50%" stop-color="#58a8ff"/>
+ <stop offset="100%" stop-color="#90c8ff"/>
+ </linearGradient>
+ <radialGradient id="sun_g" cx="40%" cy="40%" r="60%">
+ <stop offset="0%" stop-color="#fff8a0"/>
+ <stop offset="60%" stop-color="#ffd020"/>
+ <stop offset="100%" stop-color="#f0a800"/>
+ </radialGradient>
+ <linearGradient id="cloud1_g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#d8e8f8"/>
+ </linearGradient>
+ <linearGradient id="cloud2_g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f0f6ff"/>
+ <stop offset="100%" stop-color="#c8d8f0"/>
+ </linearGradient>
+ <linearGradient id="cloud3_g" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#e8f2ff"/>
+ <stop offset="100%" stop-color="#b8ccee"/>
+ </linearGradient>
+ </defs>
+
+ <!-- Blue sky fills canvas -->
+ 
+
+ <!-- Sun (upper-right corner) -->
+ <circle cx="26" cy="5" r="3.5" fill="url(#sun_g)"/>
+ <!-- Sun glow halo -->
+ <circle cx="26" cy="5" r="4.5" fill="#ffd020" opacity="0.2"/>
+ <!-- Sun rays -->
+ <line x1="26" y1="0.5" x2="26" y2="1.5" stroke="#ffc020" stroke-width="0.6"/>
+ <line x1="29.5" y1="1.5" x2="28.8" y2="2.2" stroke="#ffc020" stroke-width="0.6"/>
+ <line x1="31.5" y1="5" x2="30.5" y2="5" stroke="#ffc020" stroke-width="0.6"/>
+ <line x1="29.5" y1="8.5" x2="28.8" y2="7.8" stroke="#ffc020" stroke-width="0.6"/>
+ <line x1="26" y1="9.5" x2="26" y2="8.5" stroke="#ffc020" stroke-width="0.6"/>
+ <line x1="22.5" y1="8.5" x2="23.2" y2="7.8" stroke="#ffc020" stroke-width="0.6"/>
+ <line x1="20.5" y1="5" x2="21.5" y2="5" stroke="#ffc020" stroke-width="0.6"/>
+ <line x1="22.5" y1="1.5" x2="23.2" y2="2.2" stroke="#ffc020" stroke-width="0.6"/>
+
+ <!-- Cloud 1 (large, white, fluffy — center-left) -->
+ <ellipse cx="10" cy="12" rx="8" ry="4" fill="url(#cloud1_g)"/>
+ <ellipse cx="7" cy="11" rx="4.5" ry="3.5" fill="url(#cloud1_g)"/>
+ <ellipse cx="13" cy="11" rx="4" ry="3" fill="url(#cloud1_g)"/>
+ <ellipse cx="10" cy="9.5" rx="3.5" ry="2.5" fill="#f8fcff"/>
+
+ <!-- Cloud 2 (medium — right side) -->
+ <ellipse cx="22" cy="20" rx="7" ry="3.5" fill="url(#cloud2_g)"/>
+ <ellipse cx="19" cy="19" rx="4" ry="3" fill="url(#cloud2_g)"/>
+ <ellipse cx="24" cy="18.5" rx="3.5" ry="2.5" fill="#f0f8ff"/>
+ <ellipse cx="27" cy="20" rx="3" ry="2.5" fill="url(#cloud2_g)"/>
+
+ <!-- Cloud 3 (small — lower left) -->
+ <ellipse cx="6" cy="25" rx="5" ry="2.5" fill="url(#cloud3_g)"/>
+ <ellipse cx="4" cy="24.2" rx="3" ry="2" fill="url(#cloud3_g)"/>
+ <ellipse cx="8" cy="24" rx="2.5" ry="2" fill="#eaf4ff"/>
+
+ <!-- Horizon blue brightening -->
+ <rect x="0" y="28" width="32" height="4" fill="#b8dcff" opacity="0.3"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sheetG" x1="0" y1="0" x2="0.2" y2="1">
+ <stop offset="0%" stop-color="#f8faff"/>
+ <stop offset="60%" stop-color="#e0e8f8"/>
+ <stop offset="100%" stop-color="#c0cce8"/>
+ </linearGradient>
+ <linearGradient id="sheetSide" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#c8d4ec"/>
+ <stop offset="100%" stop-color="#98a8c8"/>
+ </linearGradient>
+ <linearGradient id="cornerG" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#d8e4f8"/>
+ <stop offset="100%" stop-color="#a8b8d8"/>
+ </linearGradient>
+ </defs>
+ <!-- drop shadow -->
+ <!-- bed platform implied -->
+ <rect x="4" y="22" width="24" height="5" rx="1" fill="#d8c8b0" fill-opacity="0.5"/>
+ <!-- sheet draped over -->
+ <path d="M4,12 Q4,10 6,10 L26,10 Q28,10 28,12 L28,24 Q28,26 26,26 L6,26 Q4,26 4,24 Z" fill="url(#sheetG)"/>
+ <!-- side depth -->
+ <path d="M28,12 L30,14 L30,25 L28,26 Z" fill="url(#sheetSide)"/>
+ <!-- tucked corner -->
+ <path d="M4,22 Q5,24 6,26 L4,26 Z" fill="url(#cornerG)"/>
+ <!-- subtle wrinkle lines -->
+ <path d="M8,11 Q9,14 8.5,18 Q8,22 8,25" stroke="#c0ccec" stroke-width="0.5" fill="none" stroke-opacity="0.6"/>
+ <path d="M16,11 Q17,15 16.5,19 Q16,23 16,25" stroke="#c0ccec" stroke-width="0.5" fill="none" stroke-opacity="0.6"/>
+ <path d="M22,11 Q23,14 22.5,18 Q22,22 22,25" stroke="#c0ccec" stroke-width="0.5" fill="none" stroke-opacity="0.6"/>
+ <!-- horizontal wrinkles -->
+ <path d="M5,17 Q10,16.5 16,17 Q22,17.5 27,17" stroke="#c0ccec" stroke-width="0.4" fill="none" stroke-opacity="0.5"/>
+ <!-- fold back at top -->
+ <rect x="4" y="10" width="24" height="3" rx="1" fill="#e8f0ff" fill-opacity="0.6"/>
+ <!-- fitted corner detail -->
+ <path d="M4,22 Q4.5,24 5.5,25.5" stroke="#a8b8d8" stroke-width="0.6" fill="none" stroke-opacity="0.7"/>
+ <!-- sheen -->
+ <rect x="5" y="10.5" width="14" height="1.5" rx="0.5" fill="#ffffff" fill-opacity="0.5"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2240" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2240)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

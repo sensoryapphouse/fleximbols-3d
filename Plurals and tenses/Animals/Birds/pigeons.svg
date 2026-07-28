@@ -1,0 +1,54 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="bodyG" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#9E9E9E"/>
+ <stop offset="100%" stop-color="#424242"/>
+ </radialGradient>
+ <radialGradient id="iridNeckG" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#CE93D8"/>
+ <stop offset="50%" stop-color="#80CBC4"/>
+ <stop offset="100%" stop-color="#4CAF50"/>
+ </radialGradient>
+ <radialGradient id="headG" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#BDBDBD"/>
+ <stop offset="100%" stop-color="#616161"/>
+ </radialGradient>
+ <linearGradient id="wingG" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#757575"/>
+ <stop offset="100%" stop-color="#212121"/>
+ </linearGradient>
+ <linearGradient id="feetG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#EF9A9A"/>
+ <stop offset="100%" stop-color="#C62828"/>
+ </linearGradient>
+ </defs>
+ <!-- Ground/perch line -->
+ <line x1="4" y1="28" x2="28" y2="28" stroke="#9E9E9E" stroke-width="0.5" opacity="0.4"/>
+ <!-- Plump body — KEY GESTURE -->
+ <ellipse cx="17" cy="21" rx="9.5" ry="6.5" fill="url(#bodyG)"/>
+ <!-- Wing bar detail -->
+ <path d="M10 19.5 Q17 17 23 20" stroke="#424242" stroke-width="0.7" fill="none" opacity="0.6"/>
+ <path d="M10 21 Q17 18.5 23 21.5" stroke="#424242" stroke-width="0.5" fill="none" opacity="0.5"/>
+ <!-- Tail -->
+ <path d="M24 22 L30 25 L29 27 L23 24Z" fill="url(#wingG)"/>
+ <!-- Iridescent neck patch — KEY GESTURE: purple-green sheen -->
+ <ellipse cx="11" cy="18.5" rx="3.5" ry="3" fill="url(#iridNeckG)" opacity="0.85"/>
+ <!-- Head (small, round) — KEY GESTURE: small head -->
+ <ellipse cx="9" cy="16" rx="4" ry="3.8" fill="url(#headG)"/>
+ <ellipse cx="7.5" cy="14.5" rx="1.5" ry="1" fill="#FFFFFF" opacity="0.25"/>
+ <!-- Eye (orange ring) -->
+ <circle cx="7.5" cy="16" r="1.4" fill="#FF6F00"/>
+ <circle cx="7.5" cy="16" r="0.9" fill="#1A1A1A"/>
+ <circle cx="7.2" cy="15.7" r="0.4" fill="#FFFFFF" opacity="0.8"/>
+ <!-- Beak (small, curved) -->
+ <path d="M5.5 15.5 L2.5 15 Q2.5 16.5 5 16.5Z" fill="#9E9E9E"/>
+ <!-- Cere (white) at beak base -->
+ <circle cx="5.5" cy="15.5" r="0.7" fill="#F5F5F5"/>
+ <!-- Pink feet — KEY GESTURE -->
+ <line x1="14" y1="26.5" x2="13" y2="28" stroke="url(#feetG)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="18" y1="26.5" x2="18.5" y2="28" stroke="url(#feetG)" stroke-width="1" stroke-linecap="round"/>
+ <line x1="13" y1="28" x2="11" y2="28.7" stroke="url(#feetG)" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="13" y1="28" x2="14" y2="29" stroke="url(#feetG)" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="18.5" y1="28" x2="16.8" y2="28.7" stroke="url(#feetG)" stroke-width="0.7" stroke-linecap="round"/>
+ <line x1="18.5" y1="28" x2="20" y2="28.8" stroke="url(#feetG)" stroke-width="0.7" stroke-linecap="round"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl70" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl70)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

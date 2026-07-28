@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="wallGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f5e8d0"/>
+ <stop offset="100%" stop-color="#d4b880"/>
+ </linearGradient>
+ <linearGradient id="awningGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#ff6644"/>
+ <stop offset="100%" stop-color="#cc3300"/>
+ </linearGradient>
+ <linearGradient id="windowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#c8e8ff"/>
+ <stop offset="100%" stop-color="#80c0f0"/>
+ </linearGradient>
+ <linearGradient id="breadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#e8c070"/>
+ <stop offset="100%" stop-color="#b07830"/>
+ </linearGradient>
+ </defs>
+ <!-- Building wall -->
+ 
+ <!-- Roof -->
+ <polygon points="3,12 29,12 27,7 5,7" fill="#c8a850" stroke="#a07820" stroke-width="0.5"/>
+ <!-- Awning -->
+ <path d="M4 15 L28 15 L28 18 L4 18Z" fill="url(#awningGrad)"/>
+ <!-- Awning stripes -->
+ <line x1="7" y1="15" x2="7" y2="18" stroke="#ff9977" stroke-width="1"/>
+ <line x1="11" y1="15" x2="11" y2="18" stroke="#ff9977" stroke-width="1"/>
+ <line x1="15" y1="15" x2="15" y2="18" stroke="#ff9977" stroke-width="1"/>
+ <line x1="19" y1="15" x2="19" y2="18" stroke="#ff9977" stroke-width="1"/>
+ <line x1="23" y1="15" x2="23" y2="18" stroke="#ff9977" stroke-width="1"/>
+ <!-- Window -->
+ <rect x="5" y="19" width="14" height="9" rx="0.5" fill="url(#windowGrad)" stroke="#80a0c0" stroke-width="0.5"/>
+ <!-- Baguette in window -->
+ <path d="M6 25 C7 22 9 21 11 22 C13 23 14 25 13 26 C12 27 10 27 8 26 C7 25.5 6.5 25 6 25Z"
+ fill="url(#breadGrad)" stroke="#a06020" stroke-width="0.4"/>
+ <!-- Croissant hint -->
+ <path d="M8 23 C9 21.5 11 21.5 12 22.5" fill="none" stroke="#a06020" stroke-width="0.7" stroke-linecap="round"/>
+ <!-- Door -->
+ <rect x="21" y="22" width="6" height="8" rx="0.5" fill="#d0a060" stroke="#a06020" stroke-width="0.5"/>
+ <circle cx="24" cy="26" r="0.4" fill="#806040"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Dark brown/black slim wooden tube -->
+ <linearGradient id="ob-body" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#8B5C3A"/>
+ <stop offset="40%" stop-color="#4A2810"/>
+ <stop offset="100%" stop-color="#2A1408"/>
+ </linearGradient>
+ <!-- Silver keys -->
+ <linearGradient id="ob-key" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#D0D4DA"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <!-- Double reed -->
+ <linearGradient id="ob-reed" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#C0A060"/>
+ <stop offset="100%" stop-color="#806030"/>
+ </linearGradient>
+ <!-- Bell gradient -->
+ <linearGradient id="ob-bell" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#6B3A1A"/>
+ <stop offset="100%" stop-color="#3B1A08"/>
+ </linearGradient>
+ </defs>
+
+ <!-- SLIM TUBE: oboe is slimmer than clarinet, held diagonally -->
+ <!-- Tube at ~75 degree angle (more vertical than diagonal) -->
+ <rect x="14" y="3" width="4" height="25" rx="1.5" fill="url(#ob-body)"/>
+
+ <!-- Wood grain highlight -->
+ <rect x="14.3" y="3" width="1" height="25" rx="0.4" fill="#C99878" fill-opacity="0.18"/>
+
+ <!-- BELL at bottom (slight flare) -->
+ <ellipse cx="16" cy="28" rx="3.5" ry="2" fill="url(#ob-bell)"/>
+ 
+ <!-- Bell flare sides -->
+ <path d="M 14 27 Q 12.5 28 12.5 29 Q 14 29.5 16 29.5 Q 18 29.5 19.5 29 Q 19.5 28 18 27 Z" fill="url(#ob-bell)" fill-opacity="0.7"/>
+
+ <!-- SILVER KEYS along tube (multiple key pads) -->
+ <!-- Left side keys -->
+ <circle cx="13" cy="9" r="0.9" fill="url(#ob-key)"/>
+ <circle cx="13" cy="12" r="0.9" fill="url(#ob-key)"/>
+ <circle cx="13" cy="15" r="0.9" fill="url(#ob-key)"/>
+ <circle cx="13" cy="18" r="0.9" fill="url(#ob-key)"/>
+
+ <!-- Right side keys -->
+ <circle cx="19" cy="9" r="0.9" fill="url(#ob-key)"/>
+ <circle cx="19" cy="12" r="0.9" fill="url(#ob-key)"/>
+ <circle cx="19" cy="15" r="0.9" fill="url(#ob-key)"/>
+ <circle cx="19" cy="18" r="0.9" fill="url(#ob-key)"/>
+
+ <!-- Key connecting rods -->
+ <line x1="13" y1="7" x2="13" y2="21" stroke="#9AA0AA" stroke-width="0.6" stroke-opacity="0.7"/>
+ <line x1="19" y1="7" x2="19" y2="21" stroke="#9AA0AA" stroke-width="0.6" stroke-opacity="0.7"/>
+
+ <!-- DOUBLE REED at top (two thin reeds tied together — the mandatory distinction) -->
+ <!-- Left reed -->
+ <path d="M 15 3 Q 14.5 1.5 15.2 0.8 Q 15.8 0.2 16 1 Q 16 2 16 3 Z" fill="url(#ob-reed)"/>
+ <!-- Right reed -->
+ <path d="M 17 3 Q 17.5 1.5 16.8 0.8 Q 16.2 0.2 16 1 Q 16 2 16 3 Z" fill="url(#ob-reed)"/>
+ <!-- Reed tip line (two reeds visible) -->
+ <line x1="15.2" y1="0.9" x2="16.8" y2="0.9" stroke="#604820" stroke-width="0.4"/>
+ <!-- Reed binding -->
+ <rect x="15" y="2.2" width="2" height="1" rx="0.3" fill="#9AA0AA" fill-opacity="0.7"/>
+
+ <!-- Tone holes (finger holes on front) -->
+ <circle cx="16" cy="10" r="0.4" fill="#1A0A04" fill-opacity="0.7"/>
+ <circle cx="16" cy="12.5" r="0.4" fill="#1A0A04" fill-opacity="0.7"/>
+ <circle cx="16" cy="15" r="0.4" fill="#1A0A04" fill-opacity="0.7"/>
+ <circle cx="16" cy="17.5" r="0.4" fill="#1A0A04" fill-opacity="0.7"/>
+ <circle cx="16" cy="20" r="0.4" fill="#1A0A04" fill-opacity="0.7"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,2.275) scale(0.9289)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="raftLog" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#8B6040"/><stop offset="50%" stop-color="#C8A060"/><stop offset="100%" stop-color="#8B6040"/></linearGradient>
+ <linearGradient id="raftLog2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#7A5030"/><stop offset="50%" stop-color="#B89050"/><stop offset="100%" stop-color="#7A5030"/></linearGradient>
+ <linearGradient id="raftWater" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#3A8ABF"/><stop offset="100%" stop-color="#1A5A8A"/></linearGradient>
+ <linearGradient id="raftRope" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#C8A030"/><stop offset="100%" stop-color="#7A5800"/></linearGradient>
+ <linearGradient id="raftPaddle" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#D4A030"/><stop offset="100%" stop-color="#7A5010"/></linearGradient>
+ </defs>
+ <!-- Water ripples -->
+ <rect x="0" y="22" width="32" height="10" fill="url(#raftWater)"/>
+ <path d="M0 25 Q4 24 8 25 Q12 26 16 25 Q20 24 24 25 Q28 26 32 25" stroke="white" stroke-opacity="0.25" stroke-width="0.5" fill="none"/>
+ <!-- Raft logs (horizontal, lashed together) -->
+ <g filter="url(#sdRaft)">
+ <rect x="2" y="18" width="28" height="3.5" rx="1.7" fill="url(#raftLog)"/>
+ <rect x="2" y="20.5" width="28" height="3.5" rx="1.7" fill="url(#raftLog2)"/>
+ <rect x="2" y="23" width="28" height="3.5" rx="1.7" fill="url(#raftLog)"/>
+ <rect x="2" y="25.5" width="28" height="3.5" rx="1.7" fill="url(#raftLog2)"/>
+ </g>
+ <!-- Rope lashings -->
+ <line x1="8" y1="17.5" x2="8" y2="29" stroke="url(#raftRope)" stroke-width="0.9"/>
+ <line x1="16" y1="17.5" x2="16" y2="29" stroke="url(#raftRope)" stroke-width="0.9"/>
+ <line x1="24" y1="17.5" x2="24" y2="29" stroke="url(#raftRope)" stroke-width="0.9"/>
+ <!-- Knot crosses -->
+ <circle cx="8" cy="21.8" r="0.8" fill="#A87820"/>
+ <circle cx="16" cy="21.8" r="0.8" fill="#A87820"/>
+ <circle cx="24" cy="21.8" r="0.8" fill="#A87820"/>
+ <!-- Paddle -->
+ <line x1="24" y1="6" x2="18" y2="22" stroke="url(#raftPaddle)" stroke-width="1.5" stroke-linecap="round" filter="url(#sdRaft)"/>
+ <ellipse cx="17.5" cy="22.5" rx="3" ry="1.8" fill="url(#raftPaddle)" transform="rotate(-30 17.5 22.5)" filter="url(#sdRaft)"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl3557" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl3557)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

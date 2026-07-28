@@ -1,0 +1,41 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <!-- it — abstract neutral object (NOT a person) + gold arrow pointing at it -->
+ <defs>
+ <!-- Neutral grey-blue cube gradient -->
+ <linearGradient id="it_front" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#CBD5E1"/>
+ <stop offset="100%" stop-color="#94A3B8"/>
+ </linearGradient>
+ <linearGradient id="it_top" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#E2E8F0"/>
+ <stop offset="100%" stop-color="#CBD5E1"/>
+ </linearGradient>
+ <linearGradient id="it_right" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#94A3B8"/>
+ <stop offset="100%" stop-color="#64748B"/>
+ </linearGradient>
+ <!-- Gold arrow -->
+ <linearGradient id="it_gold" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#C57500"/>
+ </linearGradient>
+ </defs>
+ <!-- Drop shadow under object -->
+ <!-- 3D CUBE — isometric-style abstract object, clearly NOT a person -->
+ <!-- Right face (darker) -->
+ <polygon points="22,13 27,16 27,26 22,23" fill="url(#it_right)"/>
+ <!-- Front face -->
+ <polygon points="10,13 22,13 22,23 10,23" fill="url(#it_front)"/>
+ <!-- Top face (lighter) -->
+ <polygon points="10,13 15,10 27,10 22,13" fill="url(it_top)"/>
+ <!-- Top face proper fill (fix for polygon gradient issue) -->
+ <polygon points="10,13 15,10 27,10 22,13" fill="url(#it_top)"/>
+ <!-- Front face highlight -->
+ <ellipse cx="14.5" cy="16.5" rx="3.5" ry="2.5" fill="#ffffff" fill-opacity="0.28"/>
+ <!-- Right face subtle edge -->
+ <line x1="22" y1="13" x2="22" y2="23" stroke="#64748B" stroke-width="0.4"/>
+ <!-- GOLD ARROW — from upper-left, pointing at the object (thing, not person) -->
+ <line x1="2.5" y1="8" x2="9.5" y2="13.5" stroke="url(#it_gold)" stroke-width="2" stroke-linecap="round"/>
+ <!-- Arrowhead pointing at cube front -->
+ <polygon points="9.5,13.5 7.2,11.5 11.5,11.8" fill="url(#it_gold)"/>
+</svg>

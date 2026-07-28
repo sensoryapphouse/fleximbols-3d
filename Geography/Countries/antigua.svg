@@ -1,0 +1,52 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="ant2-black" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#2a2a2a"/>
+ <stop offset="100%" stop-color="#000000"/>
+ </linearGradient>
+ <linearGradient id="ant2-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#1060d0"/>
+ <stop offset="100%" stop-color="#0030a0"/>
+ </linearGradient>
+ <linearGradient id="ant2-white-v" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ffffff"/>
+ <stop offset="100%" stop-color="#e0e8f0"/>
+ </linearGradient>
+ <linearGradient id="ant2-yellow-v" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#ffd700"/>
+ <stop offset="100%" stop-color="#c09000"/>
+ </linearGradient>
+ <linearGradient id="ant2-red" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#cc0000"/>
+ <stop offset="100%" stop-color="#880000"/>
+ </linearGradient>
+ <radialGradient id="ant2-sun" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#ffe080"/>
+ <stop offset="100%" stop-color="#ffa000"/>
+ </radialGradient>
+ </defs>
+ <!-- Flag field (black) -->
+ 
+ <!-- Inverted V bands: blue, white, yellow from outer to inner -->
+ <!-- Blue V -->
+ <polygon points="3,26 16,10 29,26 26,26 16,14 6,26" fill="url(#ant2-blue)"/>
+ <!-- White V -->
+ <polygon points="5,26 16,13 27,26 24,26 16,17 8,26" fill="url(#ant2-white-v)"/>
+ <!-- Yellow V -->
+ <polygon points="7,26 16,16 25,26 22,26 16,20 10,26" fill="url(#ant2-yellow-v)"/>
+ <!-- Red bottom strip (base of V) -->
+ <rect x="3" y="23" width="26" height="3" rx="0.5" fill="url(#ant2-red)"/>
+ <!-- Sun half-circle (yellow, rising) -->
+ <path d="M13 16 A3 3 0 0 1 19 16 Z" fill="url(#ant2-sun)"/>
+ <!-- Sun rays -->
+ <line x1="16" y1="13" x2="16" y2="11" stroke="#ffd700" stroke-width="0.8"/>
+ <line x1="14" y1="13.5" x2="12.5" y2="12" stroke="#ffd700" stroke-width="0.6"/>
+ <line x1="18" y1="13.5" x2="19.5" y2="12" stroke="#ffd700" stroke-width="0.6"/>
+ <line x1="13.2" y1="15" x2="11.5" y2="14.5" stroke="#ffd700" stroke-width="0.5"/>
+ <line x1="18.8" y1="15" x2="20.5" y2="14.5" stroke="#ffd700" stroke-width="0.5"/>
+ <!-- Flag sheen -->
+ <rect x="3" y="6" width="26" height="6" rx="1.5" fill="white" fill-opacity="0.07"/>
+ <!-- Pole -->
+ <rect x="2" y="4" width="1.5" height="26" rx="0.5" fill="#c0a050"/>
+ <circle cx="2.75" cy="4" r="1.5" fill="#d4b060"/>
+</svg>

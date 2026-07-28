@@ -1,0 +1,38 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bgBoard" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8B5E2E"/><stop offset="100%" stop-color="#4A2E0E"/></linearGradient>
+ <linearGradient id="bgTri1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#E84A4A"/><stop offset="100%" stop-color="#8B1A1A"/></linearGradient>
+ <linearGradient id="bgTri2" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#F5F5DC"/><stop offset="100%" stop-color="#C8C8A0"/></linearGradient>
+ <radialGradient id="bgPiece1" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#F8D8B8"/><stop offset="100%" stop-color="#C8A878"/></radialGradient>
+ <radialGradient id="bgPiece2" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#4A3A2A"/><stop offset="100%" stop-color="#1A0A00"/></radialGradient>
+ </defs>
+ <!-- Board -->
+ <rect x="2" y="4" width="28" height="24" rx="1.5" fill="url(#bgBoard)" filter="url(#sdBG)"/>
+ <rect x="3.5" y="5.5" width="25" height="21" rx="1" fill="#2D7A2D"/>
+ <!-- Centre bar -->
+ <rect x="15" y="5.5" width="2" height="21" fill="#5A3E1E"/>
+ <!-- Triangular points top row left side -->
+ <polygon points="4,5.5 6,5.5 5,13" fill="url(#bgTri1)"/>
+ <polygon points="6.5,5.5 8.5,5.5 7.5,13" fill="url(#bgTri2)"/>
+ <polygon points="9,5.5 11,5.5 10,13" fill="url(#bgTri1)"/>
+ <polygon points="11.5,5.5 13.5,5.5 12.5,13" fill="url(#bgTri2)"/>
+ <!-- Triangular points top row right side -->
+ <polygon points="17,5.5 19,5.5 18,13" fill="url(#bgTri1)"/>
+ <polygon points="19.5,5.5 21.5,5.5 20.5,13" fill="url(#bgTri2)"/>
+ <polygon points="22,5.5 24,5.5 23,13" fill="url(#bgTri1)"/>
+ <polygon points="24.5,5.5 26.5,5.5 25.5,13" fill="url(#bgTri2)"/>
+ <!-- Triangular points bottom row (flipped) -->
+ <polygon points="4,26.5 6,26.5 5,19" fill="url(#bgTri2)"/>
+ <polygon points="6.5,26.5 8.5,26.5 7.5,19" fill="url(#bgTri1)"/>
+ <polygon points="9,26.5 11,26.5 10,19" fill="url(#bgTri2)"/>
+ <polygon points="11.5,26.5 13.5,26.5 12.5,19" fill="url(#bgTri1)"/>
+ <polygon points="17,26.5 19,26.5 18,19" fill="url(#bgTri2)"/>
+ <polygon points="19.5,26.5 21.5,26.5 20.5,19" fill="url(#bgTri1)"/>
+ <polygon points="22,26.5 24,26.5 23,19" fill="url(#bgTri2)"/>
+ <polygon points="24.5,26.5 26.5,26.5 25.5,19" fill="url(#bgTri1)"/>
+ <!-- Pieces -->
+ <circle cx="5" cy="15" r="1.3" fill="url(#bgPiece1)"/>
+ <circle cx="5" cy="17.5" r="1.3" fill="url(#bgPiece1)"/>
+ <circle cx="25.5" cy="15" r="1.3" fill="url(#bgPiece2)"/>
+ <circle cx="25.5" cy="17.5" r="1.3" fill="url(#bgPiece2)"/>
+</svg>

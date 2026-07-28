@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="sp_env" cx="30%" cy="25%" r="85%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#D8D0B8"/>
+ </radialGradient>
+ <radialGradient id="sp_env_back" cx="30%" cy="25%" r="85%">
+ <stop offset="0%" stop-color="#E8DFC8"/>
+ <stop offset="100%" stop-color="#B8AC90"/>
+ </radialGradient>
+ <radialGradient id="sp_stamp" cx="35%" cy="30%" r="75%">
+ <stop offset="0%" stop-color="#FF5252"/>
+ <stop offset="100%" stop-color="#931C1C"/>
+ </radialGradient>
+</defs>
+<!-- Drop shadow -->
+<!-- ENVELOPE body -->
+<rect x="3" y="8" width="26" height="18" rx="0.8" fill="url(#sp_env)" stroke="#8B7E62" stroke-width="0.25"/>
+<!-- Envelope flap (open, showing inside back) -->
+<path d="M 3 8 L 16 18 L 29 8 Z" fill="url(#sp_env_back)" stroke="#8B7E62" stroke-width="0.25"/>
+<!-- Flap highlight -->
+<path d="M 4 8.5 L 8 11 L 7 11.5 L 4 9.5 Z" fill="#FFFFFF" fill-opacity="0.4"/>
+<!-- Body highlight -->
+<rect x="3.5" y="19" width="6" height="0.6" fill="#FFFFFF" fill-opacity="0.5"/>
+<!-- Lower envelope fold lines -->
+<path d="M 3 26 L 16 18 L 29 26" fill="none" stroke="#8B7E62" stroke-width="0.2" opacity="0.5"/>
+<!-- SPAM STAMP: diagonal red rectangle outline with internal diagonal slash -->
+<!-- Stamp is rotated ~-15 deg, positioned across center -->
+<g transform="rotate(-18 16 19)">
+ <!-- Outer rectangle (stamp border) -->
+ <rect x="6" y="16" width="20" height="6" rx="0.5" fill="none" stroke="url(#sp_stamp)" stroke-width="0.9"/>
+ <!-- Inner rectangle -->
+ <rect x="6.8" y="16.8" width="18.4" height="4.4" rx="0.3" fill="none" stroke="url(#sp_stamp)" stroke-width="0.45"/>
+ <!-- Diagonal slash through stamp (suggests "rejected/spam" marking) -->
+ <path d="M 7 21 L 25 17" stroke="url(#sp_stamp)" stroke-width="0.9" stroke-linecap="round"/>
+ <!-- Decorative ticks at corners -->
+ <line x1="6.5" y1="17" x2="7.5" y2="17" stroke="url(#sp_stamp)" stroke-width="0.45"/>
+ <line x1="24.5" y1="17" x2="25.5" y2="17" stroke="url(#sp_stamp)" stroke-width="0.45"/>
+ <line x1="6.5" y1="21" x2="7.5" y2="21" stroke="url(#sp_stamp)" stroke-width="0.45"/>
+ <line x1="24.5" y1="21" x2="25.5" y2="21" stroke="url(#sp_stamp)" stroke-width="0.45"/>
+</g>
+</svg>

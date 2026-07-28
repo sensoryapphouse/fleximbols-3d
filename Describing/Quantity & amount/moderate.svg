@@ -1,0 +1,36 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="mod-arcLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#30cc50"/>
+ <stop offset="100%" stop-color="#a0dd40"/>
+ </linearGradient>
+ <linearGradient id="mod-arcRight" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#ffcc20"/>
+ <stop offset="100%" stop-color="#ff4020"/>
+ </linearGradient>
+ <linearGradient id="mod-needle" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#f0f0f0"/>
+ <stop offset="100%" stop-color="#888888"/>
+ </linearGradient>
+ <linearGradient id="mod-dial" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#e8eaf0"/>
+ <stop offset="100%" stop-color="#b0b8cc"/>
+ </linearGradient>
+ </defs>
+ <!-- Dial base circle -->
+ 
+ <!-- Green arc (left) -->
+ <path d="M 5.5 19 A 10.5 10.5 0 0 1 16 9.5" stroke="url(#mod-arcLeft)" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <!-- Red arc (right) -->
+ <path d="M 16 9.5 A 10.5 10.5 0 0 1 26.5 19" stroke="url(#mod-arcRight)" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <!-- Yellow center zone mark -->
+ <circle cx="16" cy="9.8" r="1.5" fill="#ffdd20"/>
+ <!-- Needle pointing straight up -->
+ 
+ <!-- Pivot point -->
+ <circle cx="16" cy="20" r="2" fill="#c0c8d8"/>
+ <circle cx="16" cy="20" r="1" fill="#888a9a"/>
+ <!-- Scale marks -->
+ <line x1="5.5" y1="19" x2="7" y2="19" stroke="#606070" stroke-width="0.8" stroke-linecap="round"/>
+ <line x1="26.5" y1="19" x2="25" y2="19" stroke="#606070" stroke-width="0.8" stroke-linecap="round"/>
+</svg>

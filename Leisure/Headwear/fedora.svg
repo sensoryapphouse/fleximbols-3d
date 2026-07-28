@@ -1,0 +1,40 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="crownGrad" cx="50%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#b07840"/>
+ <stop offset="60%" stop-color="#7a4e20"/>
+ <stop offset="100%" stop-color="#4a2c08"/>
+ </radialGradient>
+ <linearGradient id="brimGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#8a5828"/>
+ <stop offset="100%" stop-color="#4a2c08"/>
+ </linearGradient>
+ <linearGradient id="bandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#3a2210"/>
+ <stop offset="50%" stop-color="#5a3418"/>
+ <stop offset="100%" stop-color="#2e1a08"/>
+ </linearGradient>
+ </defs>
+ <!-- Drop shadow -->
+ <!-- Wide brim -->
+ <ellipse cx="16" cy="22" rx="13" ry="3.5" fill="url(#brimGrad)"/>
+ <!-- Brim highlight -->
+ <ellipse cx="16" cy="21.5" rx="12" ry="2.5" fill="#a06838" fill-opacity="0.4"/>
+ <!-- Crown back curve -->
+ <path d="M7,22 Q7,8 16,7 Q25,8 25,22" fill="url(#crownGrad)"/>
+ <!-- Crown front shape (trapezoid tapered to top) -->
+ <path d="M7,22 Q7,8 16,7 Q25,8 25,22 Z" fill="url(#crownGrad)"/>
+ <!-- Crown crease front center -->
+ <path d="M16,7 Q15,11 14,14 Q13,17 13,20" fill="none" stroke="#4a2c08" stroke-width="0.7" stroke-linecap="round" stroke-opacity="0.5"/>
+ <path d="M16,7 Q17,11 18,14 Q19,17 19,20" fill="none" stroke="#4a2c08" stroke-width="0.7" stroke-linecap="round" stroke-opacity="0.5"/>
+ <!-- Crown top slight pinch -->
+ <ellipse cx="16" cy="7.5" rx="4" ry="1.5" fill="#6a4020" fill-opacity="0.6"/>
+ <!-- Hat band -->
+ <path d="M7,21 Q16,19 25,21" fill="none" stroke="url(#bandGrad)" stroke-width="2.5" stroke-linecap="round"/>
+ <!-- Band highlight -->
+ <path d="M7.5,21 Q16,19.2 24.5,21" fill="none" stroke="#7a5030" stroke-width="0.6" stroke-linecap="round" stroke-opacity="0.5"/>
+ <!-- Brim curl highlight -->
+ <path d="M4,22.5 Q16,25 28,22.5" fill="none" stroke="#c08040" stroke-width="0.7" stroke-linecap="round" stroke-opacity="0.5"/>
+ <!-- Brim curl shadow under -->
+ <path d="M5,23.5 Q16,26.5 27,23.5" fill="none" stroke="#3a1c00" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.4"/>
+</svg>

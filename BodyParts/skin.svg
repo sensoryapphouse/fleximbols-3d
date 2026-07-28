@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="sk_base" cx="38%" cy="30%" r="80%">
+<stop offset="0%" stop-color="#FFD9B8"/><stop offset="60%" stop-color="#F3B98C"/><stop offset="100%" stop-color="#D99A6B"/>
+</radialGradient>
+<linearGradient id="sk_derm" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#E8A87C"/><stop offset="100%" stop-color="#C77F52"/>
+</linearGradient>
+<linearGradient id="sk_fat" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#FFE08A"/><stop offset="100%" stop-color="#F0C24A"/>
+</linearGradient>
+<linearGradient id="sk_sheen" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<!-- skin block with rounded top, layered cross-section -->
+<path d="M7 5H25C26.7 5 28 6.3 28 8V27H4V8C4 6.3 5.3 5 7 5Z" fill="url(#sk_base)"/>
+<!-- epidermis surface sheen -->
+<path d="M7 5H25C26.7 5 28 6.3 28 8V11H4V8C4 6.3 5.3 5 7 5Z" fill="url(#sk_sheen)"/>
+<!-- pores / texture -->
+<circle cx="9" cy="9" r="0.7" fill="#C77F52" opacity="0.7"/>
+<circle cx="14" cy="8" r="0.6" fill="#C77F52" opacity="0.7"/>
+<circle cx="19" cy="9.2" r="0.7" fill="#C77F52" opacity="0.7"/>
+<circle cx="23" cy="8" r="0.6" fill="#C77F52" opacity="0.7"/>
+<circle cx="11.5" cy="12" r="0.6" fill="#C77F52" opacity="0.6"/>
+<circle cx="16.5" cy="12.5" r="0.6" fill="#C77F52" opacity="0.6"/>
+<circle cx="21.5" cy="12" r="0.6" fill="#C77F52" opacity="0.6"/>
+<!-- dermis layer -->
+<rect x="4" y="15.5" width="24" height="6.5" fill="url(#sk_derm)"/>
+<!-- subcutaneous fat layer -->
+<rect x="4" y="22" width="24" height="5" fill="url(#sk_fat)"/>
+<!-- a couple of hair follicles -->
+<path d="M10 5C10 3.5 11 3 11.5 2.5" stroke="#8a5a35" stroke-width="0.7" stroke-linecap="round" fill="none"/>
+<path d="M20 5C20 3.6 19 3 18.5 2.7" stroke="#8a5a35" stroke-width="0.7" stroke-linecap="round" fill="none"/>
+</svg>

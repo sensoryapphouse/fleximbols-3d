@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="celbody" cx="40%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#aada60"/>
+ <stop offset="60%" stop-color="#66aa2a"/>
+ <stop offset="100%" stop-color="#336611"/>
+</radialGradient>
+<radialGradient id="celleaf" cx="50%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#88cc44"/>
+ <stop offset="100%" stop-color="#336611"/>
+</radialGradient>
+</defs>
+<!-- Three celery stalks -->
+<!-- Left stalk -->
+<path d="M10 26 Q9 18 11 8" stroke="url(#celbody)" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path d="M10 26 Q9 18 11 8" stroke="#336611" stroke-width="0.4" stroke-opacity="0.5" stroke-linecap="round" fill="none"/>
+<!-- Middle stalk -->
+<path d="M16 27 Q15 18 16 6" stroke="url(#celbody)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<!-- Right stalk -->
+<path d="M22 26 Q23 18 21 8" stroke="url(#celbody)" stroke-width="3" stroke-linecap="round" fill="none"/>
+<!-- Ribs on middle stalk -->
+<path d="M14.5 22 Q16 23 17.5 22 M14.5 18 Q16 19 17.5 18 M14.5 14 Q16 15 17.5 14" stroke="#336611" stroke-width="0.4" fill="none" stroke-opacity="0.6"/>
+<!-- Leaves at top -->
+<path d="M11 8 Q9 5 10 4 Q12 5 11 8" fill="url(#celleaf)"/>
+<path d="M16 6 Q14 3 15 2 Q17 3 16 6" fill="url(#celleaf)"/>
+<path d="M21 8 Q23 5 22 4 Q20 5 21 8" fill="url(#celleaf)"/>
+<!-- Base joining -->
+<path d="M9 26 Q16 28 23 26" stroke="#9a7a40" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="dsf-body" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#30d0f8"/>
+<stop offset="40%" stop-color="#0898d0"/>
+<stop offset="100%" stop-color="#0060a0"/>
+</linearGradient>
+<linearGradient id="dsf-wing" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#e8fbff" stop-opacity="0.85"/>
+<stop offset="100%" stop-color="#a8d8f0" stop-opacity="0.45"/>
+</linearGradient>
+<radialGradient id="dsf-eye" cx="35%" cy="30%" r="65%">
+<stop offset="0%" stop-color="#60e040"/>
+<stop offset="100%" stop-color="#208010"/>
+</radialGradient>
+</defs>
+<!-- Damselfly, side view: head + thorax at left, long slender abdomen sweeping right, paired narrow wings -->
+<!-- Wings (two pairs, long and narrow, swept up-right) -->
+<g stroke="#7fb8d8" stroke-width="0.3">
+<path d="M13 15 Q19 9 27 9.5 Q28 11 26.5 12 Q18 14.5 13.5 16.2 Z" fill="url(#dsf-wing)"/>
+<path d="M13.2 15.6 Q19 11 27 12 Q28 13.3 26.5 14.3 Q18 16 13.7 17 Z" fill="url(#dsf-wing)"/>
+</g>
+<!-- wing veins -->
+<g stroke="#7fb8d8" stroke-width="0.18" stroke-opacity="0.7" fill="none">
+<path d="M14 15.5 Q20 11 26.5 10.8"/>
+<path d="M14.2 16.2 Q20 12.5 26.5 13.3"/>
+</g>
+<!-- Long slender segmented abdomen sweeping to the right -->
+<path d="M12.5 17.2 Q20 17.6 28.5 19.8 Q29 20.6 28.4 21 Q20 19.6 12.5 18.6 Z" fill="url(#dsf-body)"/>
+<!-- abdomen segment markings -->
+<g stroke="#0a4a78" stroke-width="0.32" stroke-opacity="0.85">
+<line x1="16" y1="17.5" x2="16.2" y2="18.5"/>
+<line x1="19" y1="17.9" x2="19.2" y2="18.9"/>
+<line x1="22" y1="18.4" x2="22.2" y2="19.4"/>
+<line x1="25" y1="19" x2="25.2" y2="20"/>
+</g>
+<!-- Thorax -->
+<ellipse cx="11.6" cy="17.4" rx="2.6" ry="2.2" fill="url(#dsf-body)" transform="rotate(-18 11.6 17.4)"/>
+<!-- Head -->
+<ellipse cx="8.4" cy="16" rx="2.1" ry="1.9" fill="url(#dsf-body)"/>
+<!-- Compound eye -->
+<ellipse cx="7.7" cy="15.3" rx="1.4" ry="1.3" fill="url(#dsf-eye)"/>
+<circle cx="7.2" cy="14.8" r="0.4" fill="#fff" fill-opacity="0.75"/>
+<!-- Legs -->
+<g stroke="#0a4a78" stroke-width="0.45" stroke-linecap="round">
+<line x1="10.5" y1="19" x2="9.5" y2="22"/>
+<line x1="11.8" y1="19.3" x2="11.4" y2="22.5"/>
+<line x1="13" y1="19.2" x2="13.4" y2="22.3"/>
+</g>
+<!-- body highlight -->
+<ellipse cx="11" cy="16.4" rx="0.6" ry="1" fill="#bff0ff" fill-opacity="0.6" transform="rotate(-18 11 16.4)"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl240" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl240)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="bldg" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFF1D6"/><stop offset="100%" stop-color="#C49560"/></radialGradient>
+<radialGradient id="roof" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#F77B4B"/><stop offset="100%" stop-color="#9A2A08"/></radialGradient>
+<radialGradient id="sign" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE48A"/><stop offset="100%" stop-color="#C28508"/></radialGradient>
+<radialGradient id="window" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#BFE6FF"/><stop offset="100%" stop-color="#4A8AB8"/></radialGradient>
+<radialGradient id="cart" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#E04A4A"/><stop offset="100%" stop-color="#7A0C0C"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="35%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- building body -->
+<rect x="3" y="10" width="26" height="18" fill="url(#bldg)"/>
+<!-- roof / awning -->
+<path d="M2 10 L 30 10 L 28 7 L 4 7 Z" fill="url(#roof)"/>
+<ellipse cx="14" cy="8" rx="8" ry="0.6" fill="url(#hi)"/>
+<!-- awning stripes -->
+<path d="M6 7 L 5 10 M 10 7 L 9 10 M 14 7 L 13 10 M 18 7 L 17 10 M 22 7 L 21 10 M 26 7 L 25 10" stroke="#FFFFFF" stroke-width="0.5" opacity="0.6"/>
+<!-- sign panel above awning -->
+<rect x="6" y="3" width="20" height="3" rx="0.5" fill="url(#sign)"/>
+<!-- cart icon on sign (no text) -->
+<rect x="13" y="4" width="3.5" height="1.5" fill="none" stroke="#5A3A0A" stroke-width="0.3"/>
+<path d="M11.5 4 L 13 4 L 13.5 5.5 L 16.5 5.5" stroke="#5A3A0A" stroke-width="0.3" fill="none"/>
+<circle cx="14" cy="6" r="0.3" fill="#5A3A0A"/>
+<circle cx="16" cy="6" r="0.3" fill="#5A3A0A"/>
+<!-- big windows -->
+<rect x="5" y="13" width="9" height="8" fill="url(#window)"/>
+<rect x="18" y="13" width="9" height="8" fill="url(#window)"/>
+<ellipse cx="8" cy="15" rx="3" ry="1" fill="url(#hi)"/>
+<ellipse cx="21" cy="15" rx="3" ry="1" fill="url(#hi)"/>
+<!-- window cross frames -->
+<line x1="9.5" y1="13" x2="9.5" y2="21" stroke="#7A5A2A" stroke-width="0.3"/>
+<line x1="5" y1="17" x2="14" y2="17" stroke="#7A5A2A" stroke-width="0.3"/>
+<line x1="22.5" y1="13" x2="22.5" y2="21" stroke="#7A5A2A" stroke-width="0.3"/>
+<line x1="18" y1="17" x2="27" y2="17" stroke="#7A5A2A" stroke-width="0.3"/>
+<!-- automatic doors centre -->
+<rect x="14.5" y="18" width="3" height="10" fill="url(#window)"/>
+<line x1="16" y1="18" x2="16" y2="28" stroke="#7A5A2A" stroke-width="0.3"/>
+<!-- shopping cart out front -->
+<rect x="22" y="23" width="4" height="2.5" fill="none" stroke="url(#cart)" stroke-width="0.6"/>
+<path d="M20 22.5 L 22 22.5 L 22.7 25.5 L 26 25.5" stroke="url(#cart)" stroke-width="0.6" fill="none"/>
+<circle cx="23" cy="27" r="0.5" fill="#1A1F2C"/>
+<circle cx="25.5" cy="27" r="0.5" fill="#1A1F2C"/>
+<!-- ground line -->
+<rect x="2" y="28" width="28" height="0.5" fill="#5A3A2A"/>
+</svg>

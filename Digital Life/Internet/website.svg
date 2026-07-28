@@ -1,0 +1,55 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="winGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#E5E7EB"/>
+ <stop offset="100%" stop-color="#D1D5DB"/>
+ </linearGradient>
+ <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#7DBEFC"/>
+ <stop offset="100%" stop-color="#1565C0"/>
+ </linearGradient>
+ <linearGradient id="addrGrad" x1="0" y1="1" x2="1" y2="0">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="100%" stop-color="#E5E7EB"/>
+ </linearGradient>
+ <linearGradient id="headingGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#1565C0"/>
+ <stop offset="100%" stop-color="#7DBEFC"/>
+ </linearGradient>
+ <linearGradient id="imgGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#7DBEFC"/>
+ <stop offset="100%" stop-color="#9CA3AF"/>
+ </linearGradient>
+ <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#9CA3AF"/>
+ <stop offset="100%" stop-color="#6B7280"/>
+ </linearGradient>
+ </defs>
+ <!-- Window -->
+ <rect x="2" y="2" width="28" height="28" rx="2" fill="url(#winGrad)" stroke="#9CA3AF" stroke-width="0.7"/>
+ <!-- Title bar -->
+ <rect x="2" y="2" width="28" height="5" rx="2" fill="url(#barGrad)"/>
+ <rect x="2" y="5" width="28" height="2" fill="url(#barGrad)"/>
+ <!-- Dots -->
+ <circle cx="5.5" cy="4.5" r="1" fill="#FF5252"/>
+ <circle cx="8.5" cy="4.5" r="1" fill="#FFD45E"/>
+ <circle cx="11.5" cy="4.5" r="1" fill="#43A047"/>
+ <!-- Address bar -->
+ <rect x="13" y="3.2" width="15" height="2.6" rx="1.1" fill="url(#addrGrad)"/>
+ <line x1="14" y1="4.5" x2="27" y2="4.5" stroke="#9CA3AF" stroke-width="0.4"/>
+ <!-- Content: heading bar -->
+ <rect x="4" y="9" width="24" height="3.5" rx="0.8" fill="url(#headingGrad)"/>
+ <!-- Image box left -->
+ <rect x="4" y="14" width="10" height="7" rx="0.8" fill="url(#imgGrad)"/>
+ <!-- Mountain shape in image box -->
+ <polygon points="4.5,21 9,15.5 13.5,21" fill="#1565C0" opacity="0.5"/>
+ <polygon points="7,21 11,17 13.5,21" fill="#7DBEFC" opacity="0.6"/>
+ <!-- Text lines right of image -->
+ <line x1="16" y1="15.5" x2="27" y2="15.5" stroke="url(#textGrad)" stroke-width="1.2"/>
+ <line x1="16" y1="17.5" x2="27" y2="17.5" stroke="url(#textGrad)" stroke-width="1.2"/>
+ <line x1="16" y1="19.5" x2="25" y2="19.5" stroke="url(#textGrad)" stroke-width="1.2"/>
+ <!-- Lower text block -->
+ <line x1="4" y1="23" x2="28" y2="23" stroke="url(#textGrad)" stroke-width="1"/>
+ <line x1="4" y1="25" x2="28" y2="25" stroke="url(#textGrad)" stroke-width="1"/>
+ <line x1="4" y1="27" x2="22" y2="27" stroke="url(#textGrad)" stroke-width="1"/>
+</svg>

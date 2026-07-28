@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="lu_bread" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#f5d080"/><stop offset="70%" stop-color="#d4943a"/><stop offset="100%" stop-color="#a06820"/></radialGradient>
+ <radialGradient id="lu_fill" cx="45%" cy="45%" r="55%"><stop offset="0%" stop-color="#88cc44"/><stop offset="100%" stop-color="#448820"/></radialGradient>
+ <radialGradient id="lu_meat" cx="40%" cy="40%" r="55%"><stop offset="0%" stop-color="#e87858"/><stop offset="100%" stop-color="#c04428"/></radialGradient>
+ <radialGradient id="lu_cup" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#aaddff"/><stop offset="100%" stop-color="#4488cc"/></radialGradient>
+ </defs>
+ <!-- sandwich -->
+ <!-- top bread -->
+ <path d="M5 15 Q5 12 10 12 L22 12 Q27 12 27 15 L26 17 L6 17Z" fill="url(#lu_bread)"/>
+ <!-- lettuce -->
+ <ellipse cx="16" cy="17.5" rx="10" ry="1.5" fill="url(#lu_fill)"/>
+ <!-- meat -->
+ <rect x="6" y="18" width="20" height="2.5" rx="1" fill="url(#lu_meat)"/>
+ <!-- bottom bread -->
+ <path d="M6 20.5 L26 20.5 L25 24 Q25 25 16 25 Q7 25 7 24Z" fill="url(#lu_bread)"/>
+ <!-- cup on right -->
+ <path d="M22 20 L23 28 L30 28 L31 20Z" fill="url(#lu_cup)"/>
+ <ellipse cx="26.5" cy="20" rx="4.5" ry="1" fill="#88ccee"/>
+ <!-- straw -->
+ <rect x="28" y="14" width="1" height="8" rx="0.5" fill="#ff8888"/>
+</svg>

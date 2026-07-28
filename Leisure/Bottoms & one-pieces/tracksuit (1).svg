@@ -1,0 +1,39 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="jkt" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#5A8BE0"/><stop offset="100%" stop-color="#0A1F6A"/></radialGradient>
+<radialGradient id="pn" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#5A8BE0"/><stop offset="100%" stop-color="#0A1F6A"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="35%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- jacket top -->
+<path d="M7 4 L 12 2 L 20 2 L 25 4 L 25 14 L 7 14 Z" fill="url(#jkt)"/>
+<!-- jacket sleeves -->
+<path d="M7 4 L 3 8 L 4 14 L 7 14 Z" fill="url(#jkt)"/>
+<path d="M25 4 L 29 8 L 28 14 L 25 14 Z" fill="url(#jkt)"/>
+<!-- collar V -->
+<path d="M14 2 L 16 5 L 18 2" fill="#0A1F6A"/>
+<!-- zipper line -->
+<line x1="16" y1="5" x2="16" y2="14" stroke="#FFFFFF" stroke-width="0.3"/>
+<circle cx="16" cy="14" r="0.4" fill="#FFE48A"/>
+<!-- white stripes on sleeves -->
+<rect x="4" y="9" width="2" height="0.3" fill="#FFFFFF"/>
+<rect x="4" y="10" width="2" height="0.3" fill="#FFFFFF"/>
+<rect x="4" y="11" width="2" height="0.3" fill="#FFFFFF"/>
+<rect x="26" y="9" width="2" height="0.3" fill="#FFFFFF"/>
+<rect x="26" y="10" width="2" height="0.3" fill="#FFFFFF"/>
+<rect x="26" y="11" width="2" height="0.3" fill="#FFFFFF"/>
+<!-- highlight on jacket -->
+<ellipse cx="10" cy="6" rx="2" ry="1" fill="url(#hi)"/>
+<!-- pants bottom (matching) -->
+<rect x="9" y="15" width="14" height="1.5" rx="0.3" fill="#0A1F6A"/>
+<path d="M9 16.5 L 10 27 Q 10 28 11.5 28 L 13.5 28 Q 15 28 15 26 L 15.5 16.5 Z" fill="url(#pn)"/>
+<path d="M23 16.5 L 22 27 Q 22 28 20.5 28 L 18.5 28 Q 17 28 17 26 L 16.5 16.5 Z" fill="url(#pn)"/>
+<!-- white side stripes -->
+<rect x="9.5" y="17" width="0.4" height="11" fill="#FFFFFF"/>
+<rect x="10.2" y="17" width="0.4" height="11" fill="#FFFFFF"/>
+<rect x="21.4" y="17" width="0.4" height="11" fill="#FFFFFF"/>
+<rect x="22.1" y="17" width="0.4" height="11" fill="#FFFFFF"/>
+<!-- ankle openings -->
+<rect x="10" y="27" width="5" height="1" fill="#000000" opacity="0.5"/>
+<rect x="17" y="27" width="5" height="1" fill="#000000" opacity="0.5"/>
+<ellipse cx="11" cy="20" rx="0.6" ry="4" fill="url(#hi)"/>
+</svg>

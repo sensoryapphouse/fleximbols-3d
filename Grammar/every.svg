@@ -1,0 +1,33 @@
+<svg viewBox="4.72625 4.22625 22.5475 22.5475" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="dot" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FF8B3D"/>
+ <stop offset="100%" stop-color="#E54A1E"/>
+ </radialGradient>
+ <linearGradient id="ckGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#81C784"/>
+ <stop offset="100%" stop-color="#2E7D32"/>
+ </linearGradient>
+ </defs>
+ <!-- All 5 filled — every = each-and-every-one, with per-dot checkmark emphasis -->
+ <!-- TOP -->
+ <circle cx="16" cy="8" r="2.2" fill="url(#dot)"/>
+ <ellipse cx="15.4" cy="7.4" rx="0.8" ry="0.5" fill="#FFFFFF" fill-opacity="0.6"/>
+ <path d="M14.8 8.0 L15.7 9.0 L17.2 6.8" stroke="url(#ckGrad)" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+ <!-- UPPER-LEFT -->
+ <circle cx="9" cy="14" r="2.2" fill="url(#dot)"/>
+ <ellipse cx="8.4" cy="13.4" rx="0.8" ry="0.5" fill="#FFFFFF" fill-opacity="0.6"/>
+ <path d="M7.8 14.0 L8.7 15.0 L10.2 12.8" stroke="url(#ckGrad)" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+ <!-- UPPER-RIGHT -->
+ <circle cx="23" cy="14" r="2.2" fill="url(#dot)"/>
+ <ellipse cx="22.4" cy="13.4" rx="0.8" ry="0.5" fill="#FFFFFF" fill-opacity="0.6"/>
+ <path d="M21.8 14.0 L22.7 15.0 L24.2 12.8" stroke="url(#ckGrad)" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+ <!-- LOWER-LEFT -->
+ <circle cx="11" cy="23" r="2.2" fill="url(#dot)"/>
+ <ellipse cx="10.4" cy="22.4" rx="0.8" ry="0.5" fill="#FFFFFF" fill-opacity="0.6"/>
+ <path d="M9.8 23.0 L10.7 24.0 L12.2 21.8" stroke="url(#ckGrad)" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+ <!-- LOWER-RIGHT -->
+ <circle cx="21" cy="23" r="2.2" fill="url(#dot)"/>
+ <ellipse cx="20.4" cy="22.4" rx="0.8" ry="0.5" fill="#FFFFFF" fill-opacity="0.6"/>
+ <path d="M19.8 23.0 L20.7 24.0 L22.2 21.8" stroke="url(#ckGrad)" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

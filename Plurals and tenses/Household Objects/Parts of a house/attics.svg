@@ -1,0 +1,87 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Sloped roof beam gradient -->
+ <linearGradient id="beamGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <!-- Floor gradient -->
+ <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <!-- Dormer window gradient -->
+ <linearGradient id="dormerGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#B8D4F0"/>
+ <stop offset="100%" stop-color="#7AABDE"/>
+ </linearGradient>
+ <!-- Box gradient -->
+ <linearGradient id="boxGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#D4AA80"/>
+ <stop offset="100%" stop-color="#9B6A3A"/>
+ </linearGradient>
+ <!-- Trunk gradient -->
+ <linearGradient id="trunkGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#8B5C3A"/>
+ <stop offset="100%" stop-color="#5A3520"/>
+ </linearGradient>
+ <!-- Lamp gradient -->
+ <linearGradient id="lampGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#F5D060"/>
+ <stop offset="100%" stop-color="#C89820"/>
+ </linearGradient>
+ <!-- Ceiling interior -->
+ <linearGradient id="ceilGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#6B4226" stop-opacity="0.7"/>
+ <stop offset="100%" stop-color="#3A2010" stop-opacity="0.5"/>
+ </linearGradient>
+ <!-- Drop shadow -->
+ </defs>
+ <!-- Floor -->
+ 
+ <!-- Floor planks -->
+ <line x1="2" y1="26" x2="30" y2="26" stroke="#8B5C3A" stroke-width="0.3" opacity="0.5"/>
+ <line x1="2" y1="28" x2="30" y2="28" stroke="#8B5C3A" stroke-width="0.3" opacity="0.5"/>
+ <line x1="8" y1="24" x2="8" y2="30" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="16" y1="24" x2="16" y2="30" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <line x1="23" y1="24" x2="23" y2="30" stroke="#8B5C3A" stroke-width="0.3" opacity="0.4"/>
+ <!-- A-frame ceiling left slope beam -->
+ <polygon points="2,24 16,3 16,5 3.5,24" fill="url(#beamGrad)"/>
+ <!-- A-frame ceiling right slope beam -->
+ <polygon points="30,24 16,3 16,5 28.5,24" fill="url(#beamGrad)"/>
+ <!-- Interior ceiling fill -->
+ <polygon points="3.5,24 16,5 28.5,24" fill="url(#ceilGrad)"/>
+ <!-- Dormer window (centre top) -->
+ 
+ <!-- Dormer frame -->
+ <rect x="12" y="7" width="8" height="5" rx="0.5" fill="none" stroke="#8B5C3A" stroke-width="0.6"/>
+ <!-- Dormer panes -->
+ <line x1="16" y1="7" x2="16" y2="12" stroke="#8B5C3A" stroke-width="0.4"/>
+ <line x1="12" y1="9.5" x2="20" y2="9.5" stroke="#8B5C3A" stroke-width="0.4"/>
+ <!-- Dormer mini roof -->
+ <polygon points="11,7 16,4.5 21,7" fill="url(#beamGrad)"/>
+ <!-- Box 1 (left stack) -->
+ 
+ <rect x="3" y="18" width="7" height="2" rx="0.3" fill="url(#boxGrad)"/>
+ <!-- Box tape -->
+ <line x1="6.5" y1="18" x2="6.5" y2="24" stroke="#C99878" stroke-width="0.4"/>
+ <line x1="3" y1="20.5" x2="10" y2="20.5" stroke="#C99878" stroke-width="0.4"/>
+ <!-- Box 2 (right stack, taller) -->
+ 
+ <rect x="22" y="17" width="6" height="2" rx="0.3" fill="url(#boxGrad)"/>
+ <!-- Vintage trunk -->
+ 
+ <!-- Trunk lid -->
+ <rect x="11" y="20" width="9" height="1.5" rx="0.4" fill="#8B5C3A"/>
+ <!-- Trunk clasp -->
+ <rect x="14.8" y="20.5" width="1.4" height="0.8" rx="0.2" fill="#C9CDD3"/>
+ <!-- Trunk straps -->
+ <line x1="14" y1="20" x2="14" y2="24" stroke="#C99878" stroke-width="0.4"/>
+ <line x1="18" y1="20" x2="18" y2="24" stroke="#C99878" stroke-width="0.4"/>
+ <!-- Old lamp -->
+ <line x1="25" y1="16" x2="25" y2="18" stroke="#8B5C3A" stroke-width="0.5"/>
+ <polygon points="23,16 27,16 26.5,13 23.5,13" fill="url(#lampGrad)"/>
+ <rect x="24.5" y="15.8" width="1" height="2.5" rx="0.2" fill="url(#beamGrad)"/>
+ <!-- Lamp glow -->
+ <ellipse cx="25" cy="13.5" rx="1.5" ry="0.5" fill="#F5D060" opacity="0.35"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2095" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2095)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

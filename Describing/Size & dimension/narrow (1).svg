@@ -1,0 +1,25 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="narr-left" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#2060c0"/>
+ <stop offset="100%" stop-color="#5090f0"/>
+ </linearGradient>
+ <linearGradient id="narr-right" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#5090f0"/>
+ <stop offset="100%" stop-color="#2060c0"/>
+ </linearGradient>
+ <linearGradient id="narr-gap" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#d0e0ff"/>
+ <stop offset="100%" stop-color="#a0c0f0"/>
+ </linearGradient>
+ </defs>
+ <!-- Left arrow pointing right -->
+ <polygon points="2,11 14,11 14,7 18,16 14,25 14,21 2,21" fill="url(#narr-left)"/>
+ <!-- Right arrow pointing left -->
+ <polygon points="30,11 18,11 18,7 14,16 18,25 18,21 30,21" fill="url(#narr-right)"/>
+ <!-- Thin vertical gap highlight -->
+ <rect x="15.2" y="8" width="1.6" height="16" rx="0.8" fill="url(#narr-gap)" fill-opacity="0.7"/>
+ <!-- Arrow shine highlights -->
+ <polygon points="2,11 14,11 14,9 2,13" fill="#ffffff" fill-opacity="0.2"/>
+ <polygon points="30,11 18,11 18,9 30,13" fill="#ffffff" fill-opacity="0.2"/>
+</svg>

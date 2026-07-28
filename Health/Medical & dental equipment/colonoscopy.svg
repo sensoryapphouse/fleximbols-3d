@@ -1,0 +1,23 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="scope" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#909098"/>
+ <stop offset="100%" stop-color="#202028"/>
+ </radialGradient>
+ <radialGradient id="intes" cx="35%" cy="25%" r="80%">
+ <stop offset="0%" stop-color="#ffb0a0"/>
+ <stop offset="100%" stop-color="#a04030"/>
+ </radialGradient>
+ <radialGradient id="lens" cx="35%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#a0e0ff"/>
+ <stop offset="100%" stop-color="#206080"/>
+ </radialGradient>
+ </defs>
+ <path d="M 8 22 Q 6 18 10 16 Q 14 14 14 11 Q 14 7 18 7 Q 22 7 22 11 Q 22 14 18 16 Q 14 18 16 22 Q 18 26 22 24" stroke="url(#intes)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+ <ellipse cx="10" cy="20" rx="1.2" ry="0.6" fill="#fff" opacity="0.4"/>
+ <path d="M 12 17 L 13 18 M 16 14 L 17 15 M 19 10 L 20 11 M 16 22 L 17 23" stroke="#7a2818" stroke-width="0.3"/>
+ <rect x="22" y="22" width="8" height="2.5" rx="0.5" fill="url(#scope)" transform="rotate(20 22 22)"/>
+ <circle cx="29" cy="28" r="2" fill="url(#scope)"/>
+ <circle cx="29" cy="28" r="1.2" fill="url(#lens)"/>
+ <circle cx="28.7" cy="27.7" r="0.4" fill="#fff" opacity="0.8"/>
+</svg>

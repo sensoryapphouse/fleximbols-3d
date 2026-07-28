@@ -1,0 +1,26 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="sbBody" x1="6" y1="3" x2="26" y2="29" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#FF8A5C"/>
+<stop offset="0.5" stop-color="#F4613A"/>
+<stop offset="1" stop-color="#C73E22"/>
+</linearGradient>
+<linearGradient id="sbStripe" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFF3DC"/>
+<stop offset="1" stop-color="#FFD79A"/>
+</linearGradient>
+<linearGradient id="sbFin" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4A4F58"/>
+<stop offset="1" stop-color="#23262C"/>
+</linearGradient>
+</defs>
+<!-- fin at the tail -->
+<path d="M20.5 24 q3 0.4 4.8 3.4 q-2.8 0.6 -5.4 -1 Z" fill="url(#sbFin)"/>
+<!-- board: pointed at both ends (surfboard outline), tilted -->
+<path d="M22.5 4 C26 7.5 26 12 22 18 C18 24 13 27.5 9.5 28 C7.5 24.5 7.5 20 11.5 14 C15.5 8 20 4.5 22.5 4 Z" fill="url(#sbBody)"/>
+<!-- center stringer stripe -->
+<path d="M21.8 4.9 C24.6 8 24.4 12 20.9 17.4 C17.4 22.8 13.3 26 10.4 26.8 C12.2 22 14.6 17 18 12.2 C20 9.4 21 6.8 21.8 4.9 Z" fill="url(#sbStripe)" opacity="0.0"/>
+<path d="M22 5 C24.6 8 24.4 11.8 21 17 C17.6 22.2 13.6 25.5 10.6 26.6" fill="none" stroke="#FFF1D6" stroke-width="1.4" stroke-linecap="round"/>
+<!-- gloss highlight -->
+<path d="M20.8 5.4 C23 7.6 23 10.6 20.4 14.6 C19.2 12 19.8 8.6 20.8 5.4 Z" fill="#FFFFFF" fill-opacity="0.3"/>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFF5C0"/>
+ <stop offset="100%" stop-color="#FFE060"/>
+ </linearGradient>
+ <linearGradient id="tubeGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#E8E8E8"/>
+ <stop offset="40%" stop-color="#FFFFFF"/>
+ <stop offset="70%" stop-color="#F0F0F0"/>
+ <stop offset="100%" stop-color="#D0D0D0"/>
+ </linearGradient>
+ <linearGradient id="mercuryGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FF5252"/>
+ <stop offset="50%" stop-color="#E54A1E"/>
+ <stop offset="100%" stop-color="#7A0E0E"/>
+ </linearGradient>
+ <radialGradient id="bulbGrad" cx="38%" cy="35%" r="62%">
+ <stop offset="0%" stop-color="#FF7070"/>
+ <stop offset="50%" stop-color="#E54A1E"/>
+ <stop offset="100%" stop-color="#7A0E0E"/>
+ </radialGradient>
+ <!-- Flame gradients -->
+ <linearGradient id="flame1Grad" x1="0" y1="1" x2="0" y2="0">
+ <stop offset="0%" stop-color="#E54A1E"/>
+ <stop offset="50%" stop-color="#FF8B3D"/>
+ <stop offset="100%" stop-color="#FFD45E" stop-opacity="0.6"/>
+ </linearGradient>
+ <linearGradient id="flame2Grad" x1="0" y1="1" x2="0" y2="0">
+ <stop offset="0%" stop-color="#C62828"/>
+ <stop offset="50%" stop-color="#FF5252"/>
+ <stop offset="100%" stop-color="#FFD45E" stop-opacity="0.5"/>
+ </linearGradient>
+ <!-- Sun icon -->
+ <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#FFEA80"/>
+ <stop offset="60%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#E5A700"/>
+ </radialGradient>
+ </defs>
+
+ 
+
+ <!-- Mini sun in upper-right corner -->
+ <circle cx="27" cy="5" r="2.8" fill="url(#sunGrad)"/>
+ <!-- Sun rays -->
+ <line x1="27" y1="1.5" x2="27" y2="0.5" stroke="#FFD45E" stroke-width="0.55"/>
+ <line x1="29.8" y1="2.2" x2="30.6" y2="1.4" stroke="#FFD45E" stroke-width="0.55"/>
+ <line x1="31" y1="5" x2="32" y2="5" stroke="#FFD45E" stroke-width="0.55"/>
+ <line x1="29.8" y1="7.8" x2="30.6" y2="8.6" stroke="#FFD45E" stroke-width="0.55"/>
+ <line x1="24.2" y1="2.2" x2="23.4" y2="1.4" stroke="#FFD45E" stroke-width="0.55"/>
+ <line x1="23" y1="5" x2="22" y2="5" stroke="#FFD45E" stroke-width="0.55"/>
+
+ <!-- Thermometer tube -->
+ <rect x="9" y="4" width="5" height="22" fill="url(#tubeGrad)" rx="2.5"/>
+ <rect x="9" y="4" width="5" height="22" fill="none" stroke="#C0C0C0" stroke-width="0.4" rx="2.5"/>
+
+ <!-- Mercury — maxed to top, bulging -->
+ <rect x="10.5" y="5.5" width="2" height="19" fill="url(#mercuryGrad)" rx="1"/>
+ <circle cx="11.5" cy="5.0" r="1.6" fill="#FF5252"/>
+ <circle cx="11.1" cy="4.5" r="0.55" fill="#FF9090" opacity="0.7"/>
+
+ <!-- Bulb -->
+ <circle cx="11.5" cy="26.5" r="3.5" fill="url(#bulbGrad)"/>
+ <circle cx="10.5" cy="25.5" r="1.1" fill="#FF9090" opacity="0.5"/>
+ <line x1="10" y1="6" x2="10" y2="24" stroke="#FFFFFF" stroke-width="0.45" opacity="0.7" stroke-linecap="round"/>
+
+ <!-- Scale ticks -->
+ <line x1="14" y1="8" x2="15.5" y2="8" stroke="#B0B0B0" stroke-width="0.4"/>
+ <line x1="14" y1="12" x2="15.5" y2="12" stroke="#B0B0B0" stroke-width="0.4"/>
+ <line x1="14" y1="16" x2="15.5" y2="16" stroke="#B0B0B0" stroke-width="0.4"/>
+ <line x1="14" y1="20" x2="15.5" y2="20" stroke="#B0B0B0" stroke-width="0.4"/>
+
+ <!-- Heat shimmer on tube (faint wavy lines) -->
+ <path d="M 9.5 8 Q 10.5 9 9.5 10 Q 8.5 11 9.5 12" fill="none" stroke="#E0C060" stroke-width="0.35" opacity="0.4" stroke-linecap="round"/>
+
+ <!-- Three flame tongues rising right of thermometer -->
+ <!-- Flame 1 — central/tallest -->
+ <path d="M 20 28 Q 19 22 21 18 Q 22 14 20.5 10 Q 22 14 23.5 17 Q 25 21 24 26 Q 22 29 20 28 Z" fill="url(#flame1Grad)"/>
+ <!-- Flame 1 inner yellow core -->
+ <path d="M 20.5 26 Q 20 22 21.5 19 Q 22.5 17 22 20 Q 23 23 22.5 25 Q 21.5 27 20.5 26 Z" fill="#FFD45E" opacity="0.7"/>
+
+ <!-- Flame 2 — left -->
+ <path d="M 17 28 Q 16.5 24 18 21 Q 19 18 17.5 15 Q 18.5 18 20 21 Q 21 24.5 20 27.5 Q 18.5 29 17 28 Z" fill="url(#flame2Grad)" opacity="0.85"/>
+
+ <!-- Flame 3 — right -->
+ <path d="M 24.5 28 Q 24 25 25.5 22 Q 26.5 19 25 17 Q 26 19.5 27 22 Q 28 25 27 27.5 Q 25.5 29.5 24.5 28 Z" fill="url(#flame1Grad)" opacity="0.8"/>
+
+ <!-- Embers floating up -->
+ <circle cx="22" cy="9" r="0.45" fill="#FF8B3D" opacity="0.7"/>
+ <circle cx="25" cy="7" r="0.35" fill="#FFD45E" opacity="0.65"/>
+ <circle cx="19.5" cy="8" r="0.3" fill="#FF5252" opacity="0.6"/>
+</svg>

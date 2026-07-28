@@ -1,0 +1,62 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Warm tan/cream wood tube -->
+ <linearGradient id="rc-body" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#FFD089"/>
+ <stop offset="50%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#A07848"/>
+ </linearGradient>
+ <!-- Fipple mouthpiece -->
+ <linearGradient id="rc-mouth" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#E8C870"/>
+ <stop offset="100%" stop-color="#A07848"/>
+ </linearGradient>
+ <!-- Bell -->
+ <linearGradient id="rc-bell" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <!-- Finger hole -->
+ <radialGradient id="rc-hole" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#3B2010"/>
+ <stop offset="100%" stop-color="#5A3A1A"/>
+ </radialGradient>
+ </defs>
+
+ <!-- FIPPLE MOUTHPIECE at top (tapered with window notch — mandatory) -->
+ <rect x="14" y="1" width="4.5" height="5.5" rx="1.5" fill="url(#rc-mouth)"/>
+ <!-- Fipple window/notch (the defining feature of a recorder) -->
+ <rect x="14.5" y="4" width="3.5" height="1.2" rx="0.3" fill="#3B2010" fill-opacity="0.85"/>
+ <!-- Mouthpiece tip taper -->
+ <path d="M 15 1 Q 16.25 0.5 17.5 1" fill="#E8C870" fill-opacity="0.6"/>
+
+ <!-- JOINT band between mouthpiece and body -->
+ <rect x="13.8" y="6" width="4.9" height="1.5" rx="0.4" fill="#8B5C3A" fill-opacity="0.7"/>
+
+ <!-- MAIN TUBE: simple straight wooden tube (held vertically) -->
+ <rect x="14.2" y="7" width="4" height="20" rx="1.2" fill="url(#rc-body)"/>
+
+ <!-- Tube highlight (grain) -->
+ <rect x="14.5" y="7" width="1.2" height="20" rx="0.4" fill="#FFE8B0" fill-opacity="0.25"/>
+
+ <!-- SEVEN FINGER-HOLES along front (mandatory) -->
+ <circle cx="16.2" cy="9.5" r="0.55" fill="url(#rc-hole)"/>
+ <circle cx="16.2" cy="11.5" r="0.55" fill="url(#rc-hole)"/>
+ <circle cx="16.2" cy="13.5" r="0.55" fill="url(#rc-hole)"/>
+ <!-- Gap between groups -->
+ <circle cx="16.2" cy="15.8" r="0.55" fill="url(#rc-hole)"/>
+ <circle cx="16.2" cy="17.8" r="0.55" fill="url(#rc-hole)"/>
+ <circle cx="16.2" cy="19.8" r="0.55" fill="url(#rc-hole)"/>
+ <circle cx="16.2" cy="21.8" r="0.55" fill="url(#rc-hole)"/>
+
+ <!-- Thumb hole on back (visible as partial circle) -->
+ <circle cx="18.2" cy="9.5" r="0.45" fill="url(#rc-hole)" fill-opacity="0.5"/>
+
+ <!-- Middle joint band -->
+ <rect x="13.8" y="15" width="4.9" height="0.9" rx="0.3" fill="#8B5C3A" fill-opacity="0.5"/>
+
+ <!-- BELL (slight flare at bottom) -->
+ <path d="M 14.2 27 Q 13 28 13 29 Q 14 30 16.2 30 Q 18.4 30 19.4 29 Q 19.4 28 18.2 27 Z" fill="url(#rc-bell)"/>
+ <!-- Bell opening shadow -->
+ <ellipse cx="16.2" cy="29.5" rx="2.5" ry="0.8" fill="#3B2010" fill-opacity="0.5"/>
+</svg>

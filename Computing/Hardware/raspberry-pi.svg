@@ -1,0 +1,58 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="rpi-board" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#66bb6a"/>
+ <stop offset="100%" stop-color="#1b5e20"/>
+ </linearGradient>
+ <linearGradient id="rpi-chip" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#90a4ae"/>
+ <stop offset="100%" stop-color="#263238"/>
+ </linearGradient>
+ <linearGradient id="rpi-usb" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#b0bec5"/>
+ <stop offset="100%" stop-color="#546e7a"/>
+ </linearGradient>
+ <linearGradient id="rpi-hdmi" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#78909c"/>
+ <stop offset="100%" stop-color="#263238"/>
+ </linearGradient>
+ </defs>
+ <!-- PCB board (credit card sized, slight angle for 3D feel) -->
+ 
+ <!-- Board highlight -->
+ <rect x="3.5" y="6.5" width="8" height="18" rx="1" fill="#fff" fill-opacity="0.08"/>
+ <!-- Main SoC chip -->
+ 
+ <!-- Chip label dots -->
+ <circle cx="13.5" cy="14.5" r="0.5" fill="#eceff1" fill-opacity="0.5"/>
+ <!-- GPIO pin header (double row of pins) -->
+ <rect x="4" y="7.5" width="14" height="3" rx="0.3" fill="#37474f" fill-opacity="0.9"/>
+ <!-- Individual GPIO pins -->
+ <line x1="5" y1="7.5" x2="5" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="6.2" y1="7.5" x2="6.2" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="7.4" y1="7.5" x2="7.4" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="8.6" y1="7.5" x2="8.6" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="9.8" y1="7.5" x2="9.8" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="11" y1="7.5" x2="11" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="12.2" y1="7.5" x2="12.2" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="13.4" y1="7.5" x2="13.4" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="14.6" y1="7.5" x2="14.6" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="15.8" y1="7.5" x2="15.8" y2="6" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="5" y1="10.5" x2="5" y2="12" stroke="#b0bec5" stroke-width="0.5"/>
+ <line x1="6.2" y1="10.5" x2="6.2" y2="12" stroke="#b0bec5" stroke-width="0.5"/>
+ <!-- USB ports -->
+ 
+ 
+ <!-- HDMI port -->
+ 
+ <!-- Raspberry logo (stylized) -->
+ <circle cx="26" cy="13" r="1.5" fill="#c62828" fill-opacity="0.6"/>
+ <!-- SD card slot (bottom) -->
+ <rect x="8" y="25.5" width="5" height="0.8" rx="0.3" fill="#b0bec5" fill-opacity="0.8"/>
+ <!-- LED indicator -->
+ <circle cx="5.5" cy="22" r="0.8" fill="#76ff03" fill-opacity="0.9"/>
+ <circle cx="7.5" cy="22" r="0.8" fill="#ff1744" fill-opacity="0.9"/>
+ <!-- Traces on board -->
+ <path d="M18 15 L21 15" stroke="#81c784" stroke-width="0.4" stroke-opacity="0.5"/>
+ <path d="M17 13 L17 11 L21 11" stroke="#81c784" stroke-width="0.4" stroke-opacity="0.5"/>
+</svg>

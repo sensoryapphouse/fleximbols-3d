@@ -1,0 +1,24 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="golfBall" cx="38%" cy="32%" r="60%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#C8C8C8"/></radialGradient>
+ <linearGradient id="teeG" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#E84A4A"/><stop offset="100%" stop-color="#A81A1A"/></linearGradient>
+ <linearGradient id="clubG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8B8B8B"/><stop offset="100%" stop-color="#3A3A3A"/></linearGradient>
+ </defs>
+ <!-- Club shaft -->
+ <line x1="28" y1="4" x2="20" y2="20" stroke="url(#clubG)" stroke-width="1.2" stroke-linecap="round"/>
+ <!-- Club head -->
+ <rect x="18" y="18.5" width="5" height="3" rx="0.8" fill="url(#clubG)" filter="url(#sdGolf)"/>
+ <!-- Tee -->
+ <path d="M16 22 L14.5 26 L17.5 26 Z" fill="url(#teeG)"/>
+ <ellipse cx="16" cy="22" rx="2" ry="0.5" fill="url(#teeG)"/>
+ <!-- Golf ball with dimples -->
+ <circle cx="16" cy="18.5" r="4.5" fill="url(#golfBall)" filter="url(#sdGolf)"/>
+ <circle cx="14.5" cy="17" r="0.5" fill="#D0D0D0"/>
+ <circle cx="17" cy="17" r="0.5" fill="#D0D0D0"/>
+ <circle cx="13.5" cy="19" r="0.5" fill="#D0D0D0"/>
+ <circle cx="16" cy="19.5" r="0.5" fill="#D0D0D0"/>
+ <circle cx="18.5" cy="19" r="0.5" fill="#D0D0D0"/>
+ <circle cx="15" cy="21" r="0.5" fill="#D0D0D0"/>
+ <circle cx="17.5" cy="20.5" r="0.5" fill="#D0D0D0"/>
+ <circle cx="14.5" cy="16.5" r="0.4" fill="white" fill-opacity="0.6"/>
+</svg>

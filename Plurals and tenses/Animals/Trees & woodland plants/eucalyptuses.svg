@@ -1,0 +1,45 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="stemGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#9ab88a"/>
+ <stop offset="100%" stop-color="#5a7a4a"/>
+ </linearGradient>
+ <radialGradient id="leafA" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#bcd4c0"/>
+ <stop offset="60%" stop-color="#88ac8e"/>
+ <stop offset="100%" stop-color="#4f7a58"/>
+ </radialGradient>
+ <radialGradient id="leafB" cx="35%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#cfe0d2"/>
+ <stop offset="60%" stop-color="#9abaa0"/>
+ <stop offset="100%" stop-color="#5e8a66"/>
+ </radialGradient>
+ </defs>
+ <!-- main stem (curving up) -->
+ <path d="M16 30 Q15.4 20 15.7 12 Q15.9 8 16 5" fill="none" stroke="url(#stemGrad)" stroke-width="1.1" stroke-linecap="round"/>
+ <!-- leaf pairs along stem (round eucalyptus leaves) -->
+ <!-- helper: each leaf is an ellipse with a small stalk -->
+ <!-- pair 1 (bottom) -->
+ <path d="M15.6 26 L11.5 27.5" stroke="url(#stemGrad)" stroke-width="0.5"/>
+ <ellipse cx="10" cy="27.6" rx="2.8" ry="2.1" fill="url(#leafA)" stroke="#4f7a58" stroke-width="0.2" transform="rotate(-22 10 27.6)"/>
+ <path d="M15.8 25.4 L20 27" stroke="url(#stemGrad)" stroke-width="0.5"/>
+ <ellipse cx="21.5" cy="27" rx="2.8" ry="2.1" fill="url(#leafB)" stroke="#5e8a66" stroke-width="0.2" transform="rotate(22 21.5 27)"/>
+ <!-- pair 2 -->
+ <path d="M15.6 21 L11 21.8" stroke="url(#stemGrad)" stroke-width="0.5"/>
+ <ellipse cx="9.4" cy="21.8" rx="2.9" ry="2.2" fill="url(#leafB)" stroke="#5e8a66" stroke-width="0.2" transform="rotate(-16 9.4 21.8)"/>
+ <path d="M15.8 20.6 L20.4 21.4" stroke="url(#stemGrad)" stroke-width="0.5"/>
+ <ellipse cx="22" cy="21.4" rx="2.9" ry="2.2" fill="url(#leafA)" stroke="#4f7a58" stroke-width="0.2" transform="rotate(16 22 21.4)"/>
+ <!-- pair 3 -->
+ <path d="M15.6 16 L11.4 16" stroke="url(#stemGrad)" stroke-width="0.5"/>
+ <ellipse cx="9.8" cy="15.8" rx="2.7" ry="2.0" fill="url(#leafA)" stroke="#4f7a58" stroke-width="0.2" transform="rotate(-10 9.8 15.8)"/>
+ <path d="M15.9 15.6 L20.2 15.6" stroke="url(#stemGrad)" stroke-width="0.5"/>
+ <ellipse cx="21.8" cy="15.4" rx="2.7" ry="2.0" fill="url(#leafB)" stroke="#5e8a66" stroke-width="0.2" transform="rotate(10 21.8 15.4)"/>
+ <!-- pair 4 (smaller) -->
+ <path d="M15.7 11 L12.4 10.6" stroke="url(#stemGrad)" stroke-width="0.45"/>
+ <ellipse cx="11" cy="10.4" rx="2.2" ry="1.6" fill="url(#leafB)" stroke="#5e8a66" stroke-width="0.2" transform="rotate(-8 11 10.4)"/>
+ <path d="M15.9 10.8 L19.2 10.4" stroke="url(#stemGrad)" stroke-width="0.45"/>
+ <ellipse cx="20.6" cy="10.2" rx="2.2" ry="1.6" fill="url(#leafA)" stroke="#4f7a58" stroke-width="0.2" transform="rotate(8 20.6 10.2)"/>
+ <!-- top bud leaf -->
+ <ellipse cx="16" cy="5.2" rx="2.0" ry="2.4" fill="url(#leafA)" stroke="#4f7a58" stroke-width="0.2"/>
+ <ellipse cx="15.3" cy="4.5" rx="0.7" ry="1.0" fill="#fff" opacity="0.3"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl373" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl373)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

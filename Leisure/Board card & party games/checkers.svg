@@ -1,0 +1,44 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="boardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#c89850"/>
+ <stop offset="100%" stop-color="#906030"/>
+ </linearGradient>
+ <radialGradient id="redPiece" cx="35%" cy="30%">
+ <stop offset="0%" stop-color="#ff6060"/>
+ <stop offset="100%" stop-color="#800000"/>
+ </radialGradient>
+ <radialGradient id="blackPiece" cx="35%" cy="30%">
+ <stop offset="0%" stop-color="#555"/>
+ <stop offset="100%" stop-color="#111"/>
+ </radialGradient>
+ </defs>
+ <!-- Board base -->
+ 
+ <!-- Dark squares (8x8 simplified to key ones) -->
+ <rect x="2" y="2" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="9" y="2" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="16" y="2" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="23" y="2" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="5.5" y="5.5" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="12.5" y="5.5" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="19.5" y="5.5" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="26.5" y="5.5" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="2" y="9" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="9" y="9" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="16" y="9" width="3.5" height="3.5" fill="#401808"/>
+ <rect x="23" y="9" width="3.5" height="3.5" fill="#401808"/>
+ <!-- Red pieces (top rows) -->
+ 
+ <circle cx="7.25" cy="3.5" r="1.5" fill="url(#redPiece)"/>
+ <circle cx="14.25" cy="3.5" r="1.5" fill="url(#redPiece)"/>
+ <circle cx="21.25" cy="3.5" r="1.5" fill="url(#redPiece)"/>
+ <circle cx="3.75" cy="7" r="1.5" fill="url(#redPiece)"/>
+ <circle cx="17.75" cy="7" r="1.5" fill="url(#redPiece)"/>
+ <!-- Black pieces (bottom rows) -->
+ <circle cx="10.75" cy="28" r="1.5" fill="url(#blackPiece)"/>
+ <circle cx="17.75" cy="28" r="1.5" fill="url(#blackPiece)"/>
+ <circle cx="24.75" cy="28" r="1.5" fill="url(#blackPiece)"/>
+ <circle cx="7.25" cy="24.5" r="1.5" fill="url(#blackPiece)"/>
+ <circle cx="21.25" cy="24.5" r="1.5" fill="url(#blackPiece)"/>
+</svg>

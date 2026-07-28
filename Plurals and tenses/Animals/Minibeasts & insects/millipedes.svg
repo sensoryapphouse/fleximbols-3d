@@ -1,0 +1,59 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,4.829) scale(0.8491)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="mil_body" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#5D4037"/>
+ <stop offset="100%" stop-color="#2E1503"/>
+ </linearGradient>
+ <linearGradient id="mil_seg" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#795548"/>
+ <stop offset="100%" stop-color="#4E342E"/>
+ </linearGradient>
+ <linearGradient id="mil_head" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#8D6E63"/>
+ <stop offset="100%" stop-color="#4E342E"/>
+ </linearGradient>
+ </defs>
+ <!-- Drop shadow -->
+ <!-- Coiled spiral body - draw as concentric arc segments -->
+ <!-- Outer coil -->
+ <path d="M16 3 Q27 3 29 14 Q31 25 22 29 Q13 32 7 26 Q2 21 5 13 Q8 6 16 6"
+ stroke="url(#mil_body)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+ <!-- Segment marks on outer coil -->
+ <path d="M16 3 Q27 3 29 14 Q31 25 22 29 Q13 32 7 26 Q2 21 5 13 Q8 6 16 6"
+ stroke="#4E342E" stroke-width="0.5" fill="none" stroke-linecap="round" stroke-dasharray="2,1.5"/>
+ <!-- Middle coil -->
+ <path d="M16 8 Q24 8 26 16 Q27 24 19 27 Q11 29 7 23 Q4 18 7 13 Q10 9 16 9"
+ stroke="url(#mil_seg)" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <!-- Inner coil -->
+ <path d="M16 13 Q21 13 22 18 Q23 23 18 25 Q13 26 11 22 Q9 18 11 15 Q13 13 16 13"
+ stroke="url(#mil_body)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+ <!-- Head -->
+ <circle cx="16" cy="5.5" r="3" fill="url(#mil_head)"/>
+ <!-- Antennae -->
+ <path d="M14.5 3 Q12 1 10 0" stroke="#795548" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <circle cx="10" cy="0" r="0.6" fill="#8D6E63"/>
+ <path d="M17.5 3 Q20 1 22 0" stroke="#795548" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <circle cx="22" cy="0" r="0.6" fill="#8D6E63"/>
+ <!-- Eyes -->
+ <ellipse cx="14.5" cy="5.5" rx="0.8" ry="0.8" fill="#1a2a4a"/>
+ <ellipse cx="17.5" cy="5.5" rx="0.8" ry="0.8" fill="#1a2a4a"/>
+ <circle cx="14.7" cy="5.2" r="0.28" fill="white"/>
+ <circle cx="17.7" cy="5.2" r="0.28" fill="white"/>
+ <!-- Dense tiny legs along the body (both sides of coil) -->
+ <!-- Outer coil legs - top arc -->
+ <line x1="20" y1="3.5" x2="20" y2="1" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="24" y1="5" x2="26" y2="3" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="27.5" y1="9" x2="30" y2="8" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="29.5" y1="14" x2="32" y2="13" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="29" y1="19" x2="32" y2="20" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="26" y1="24" x2="28" y2="26" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="22" y1="28" x2="23" y2="31" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="16" y1="30" x2="16" y2="32" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="10" y1="29" x2="9" y2="32" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="6" y1="25" x2="4" y2="27" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="3.5" y1="20" x2="1" y2="21" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="4" y1="15" x2="1" y2="14" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="6" y1="10" x2="4" y2="8" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="9" y1="7" x2="7" y2="5" stroke="#5D4037" stroke-width="0.5"/>
+ <line x1="12" y1="5" x2="11" y2="3" stroke="#5D4037" stroke-width="0.5"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl251" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl251)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

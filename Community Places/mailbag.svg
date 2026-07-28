@@ -1,0 +1,26 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="mb_bag" x1="0" y1="10" x2="0" y2="30" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#b08a64"/><stop offset="0.55" stop-color="#8a6748"/><stop offset="1" stop-color="#6b4d32"/></linearGradient>
+<linearGradient id="mb_env" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="1" stop-color="#dfe6ee"/></linearGradient>
+</defs>
+<!-- shoulder strap -->
+<path d="M7 16 C2.5 17 2.5 24 6.5 27.5" fill="none" stroke="#5e442c" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M7 16 C3.6 17 3.6 23.5 6.8 26.8" fill="none" stroke="#7a5a3a" stroke-width="0.8" stroke-linecap="round"/>
+<!-- envelopes poking out of the open top -->
+<g stroke="#9aa7b5" stroke-width="0.3" stroke-linejoin="round">
+<rect x="9" y="6.5" width="6.5" height="7.5" rx="0.6" fill="url(#mb_env)" transform="rotate(-12 12 10)"/>
+<rect x="14.5" y="5.5" width="6.5" height="8" rx="0.6" fill="url(#mb_env)" transform="rotate(6 17 9)"/>
+<rect x="18.5" y="6.8" width="6" height="7.5" rx="0.6" fill="url(#mb_env)" transform="rotate(16 21 10)"/>
+</g>
+<!-- envelope flap hints -->
+<path d="M9.4 8.2 L12 10.5 L15 8.6" fill="none" stroke="#c2ccd6" stroke-width="0.4" transform="rotate(-12 12 10)"/>
+<path d="M15 7.2 L17.7 9.5 L20.8 7.6" fill="none" stroke="#c2ccd6" stroke-width="0.4" transform="rotate(6 17 9)"/>
+<!-- the bag body -->
+<path d="M7 13 C7 11.8 8 11 9.2 11 L22.8 11 C24 11 25 11.8 25.2 13 L26.6 26 C26.8 28 25.4 29.5 23.4 29.5 L8.6 29.5 C6.6 29.5 5.2 28 5.4 26 Z" fill="url(#mb_bag)" stroke="#4e3820" stroke-width="0.5"/>
+<!-- top fold/flap of bag -->
+<path d="M6.6 13.5 C6.6 12.3 7.6 11.5 9 11.5 L23 11.5 C24.4 11.5 25.4 12.3 25.4 13.5 L25.4 15 C25.4 16 24.6 16.6 23.6 16.6 L8.4 16.6 C7.4 16.6 6.6 16 6.6 15 Z" fill="#7a5a3a" stroke="#4e3820" stroke-width="0.4"/>
+<!-- gloss highlight -->
+<path d="M8.5 18 C8.2 21 8.4 25 9 28.5" fill="none" stroke="#c79e74" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
+<!-- buckle -->
+<rect x="14.5" y="19" width="3" height="3.5" rx="0.6" fill="#e0b878" stroke="#9a7740" stroke-width="0.4"/>
+</svg>

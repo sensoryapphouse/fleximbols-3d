@@ -1,0 +1,36 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#A6D9F5"/>
+ <stop offset="100%" stop-color="#5CA3FF"/>
+ </linearGradient>
+ <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C9CDD3"/>
+ <stop offset="100%" stop-color="#7A7E84"/>
+ </linearGradient>
+ <linearGradient id="caveDark" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#1a1a2e" stop-opacity="0.95"/>
+ <stop offset="100%" stop-color="#0a0a14" stop-opacity="1"/>
+ </linearGradient>
+ <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ </defs>
+ <!-- Sky -->
+ <rect x="0" y="0" width="32" height="20" fill="url(#sky)"/>
+ <!-- Mountain body -->
+ <polygon points="2,32 8,8 16,4 26,10 30,32" fill="url(#mountain)"/>
+ <!-- Mountain highlight -->
+ <polygon points="8,8 16,4 20,12 12,15" fill="#FFFFFF" fill-opacity="0.15"/>
+ <!-- Cave entrance – dark arch -->
+ <ellipse cx="16" cy="24" rx="5" ry="6" fill="url(#caveDark)"/>
+ <!-- Cave entrance arch top cutout matching mountain -->
+ <rect x="11" y="24" width="10" height="8" fill="url(#caveDark)"/>
+ <!-- Stalactites -->
+ <polygon points="12,18 13,22 14,18" fill="#2c2c3e" fill-opacity="0.9"/>
+ <polygon points="15,17 16,21 17,17" fill="#2c2c3e" fill-opacity="0.9"/>
+ <polygon points="18,18 19,22 20,18" fill="#2c2c3e" fill-opacity="0.9"/>
+ <!-- Ground -->
+ <rect x="0" y="30" width="32" height="2" fill="url(#ground)"/>
+</svg>

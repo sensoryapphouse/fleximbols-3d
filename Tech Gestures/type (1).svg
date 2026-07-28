@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="sk" cx="35%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#FFDFC4"/><stop offset="100%" stop-color="#C68642"/>
+ </radialGradient>
+ <radialGradient id="laptop" cx="25%" cy="20%" r="75%">
+ <stop offset="0%" stop-color="#546E7A"/><stop offset="100%" stop-color="#263238"/>
+ </radialGradient>
+ <radialGradient id="screen" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#90CAF9"/>
+ </radialGradient>
+ </defs>
+ <!-- laptop base -->
+ <rect x="3" y="21" width="26" height="5" rx="1.5" fill="url(#laptop)"/>
+ <!-- keyboard keys suggested -->
+ <rect x="5" y="22.5" width="2" height="1.5" rx="0.4" fill="#546E7A"/>
+ <rect x="8" y="22.5" width="2" height="1.5" rx="0.4" fill="#546E7A"/>
+ <rect x="11" y="22.5" width="2" height="1.5" rx="0.4" fill="#546E7A"/>
+ <rect x="14" y="22.5" width="2" height="1.5" rx="0.4" fill="#546E7A"/>
+ <rect x="17" y="22.5" width="2" height="1.5" rx="0.4" fill="#546E7A"/>
+ <rect x="20" y="22.5" width="2" height="1.5" rx="0.4" fill="#546E7A"/>
+ <rect x="23" y="22.5" width="2" height="1.5" rx="0.4" fill="#546E7A"/>
+ <!-- touchpad -->
+ <rect x="13" y="24.5" width="6" height="2" rx="0.5" fill="#455A64"/>
+ <!-- screen hinge open -->
+ <rect x="4" y="7" width="24" height="15" rx="2" fill="url(#laptop)"/>
+ <rect x="5.5" y="8.5" width="21" height="12" rx="1" fill="url(#screen)"/>
+ <!-- screen glow -->
+ <ellipse cx="12" cy="12" rx="7" ry="4" fill="#FFFFFF" fill-opacity="0.200"/>
+ <!-- cursor blinking on screen -->
+ <rect x="8" y="11" width="10" height="1" rx="0.5" fill="#1565C0" fill-opacity="0.565"/>
+ <rect x="8" y="13" width="7" height="1" rx="0.5" fill="#1565C0" fill-opacity="0.439"/>
+ <rect x="18" y="11" width="1" height="3" rx="0.5" fill="#1565C0"/>
+ <!-- typing hands suggestion -->
+ <ellipse cx="10" cy="21" rx="3" ry="1.5" fill="url(#sk)"/>
+ <ellipse cx="22" cy="21" rx="3" ry="1.5" fill="url(#sk)"/>
+ <!-- tap motion -->
+ <path d="M10 18 L10 21 M22 18 L22 21" stroke="#C68642" stroke-width="0.7" stroke-dasharray="1,0.5" fill="none"/>
+</svg>

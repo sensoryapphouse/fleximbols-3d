@@ -1,0 +1,93 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="sk" cx="45%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FFE0BD"/>
+ <stop offset="100%" stop-color="#D49D7A"/>
+ </radialGradient>
+ <linearGradient id="hr" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#5C3018"/>
+ <stop offset="100%" stop-color="#2A1408"/>
+ </linearGradient>
+ <linearGradient id="top1" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FF8FAB"/>
+ <stop offset="100%" stop-color="#D63060"/>
+ </linearGradient>
+ <linearGradient id="top2" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#5CC8D0"/>
+ <stop offset="100%" stop-color="#1F8A93"/>
+ </linearGradient>
+ <linearGradient id="leg" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#4A6FA5"/>
+ <stop offset="100%" stop-color="#1E3A6E"/>
+ </linearGradient>
+ <radialGradient id="hrtG" cx="45%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#FF8FAB"/>
+ <stop offset="100%" stop-color="#D63060"/>
+ </radialGradient>
+ </defs>
+ <!-- Foot shadows -->
+ 
+ 
+ <!-- === LEFT FIGURE (pink top) === -->
+ <rect x="5.8" y="23" width="1.8" height="7" rx="0.9" fill="url(#leg)"/>
+ <rect x="8.3" y="23" width="1.8" height="7" rx="0.9" fill="url(#leg)"/>
+ <ellipse cx="6.7" cy="30.1" rx="1.4" ry="0.7" fill="url(#hr)"/>
+ <ellipse cx="9.2" cy="30.1" rx="1.4" ry="0.7" fill="url(#hr)"/>
+ <ellipse cx="8" cy="19.2" rx="2.8" ry="4" fill="url(#top1)" filter="url(#sh)"/>
+ <rect x="7.2" y="13.8" width="1.5" height="2.2" rx="0.7" fill="url(#sk)"/>
+ <circle cx="8" cy="11.5" r="2.8" fill="url(#sk)" filter="url(#sh)"/>
+ <ellipse cx="8" cy="9.7" rx="2.8" ry="1.5" fill="url(#hr)"/>
+ <circle cx="7" cy="11.3" r="0.5" fill="#1a2040"/>
+ <circle cx="9" cy="11.3" r="0.5" fill="#1a2040"/>
+ <circle cx="7.15" cy="11.15" r="0.18" fill="#fff"/>
+ <circle cx="9.15" cy="11.15" r="0.18" fill="#fff"/>
+ <!-- Soft apologetic smile -->
+ <path d="M7.1 12.5 Q8 13.1 8.9 12.5" stroke="#C47A55" stroke-width="0.33" fill="none" stroke-linecap="round"/>
+ <!-- Eyes slightly downcast (soft) -->
+ <path d="M6.6 10.8 Q7 10.5 7.4 10.8" stroke="#5C3018" stroke-width="0.3" fill="none"/>
+ <path d="M8.6 10.8 Q9 10.5 9.4 10.8" stroke="#5C3018" stroke-width="0.3" fill="none"/>
+ <!-- HANDSHAKE: right arm extending toward center -->
+ <path d="M10 18.5 Q13 18 15 18.5" stroke="url(#sk)" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <!-- Left shoulder touch: left arm extending to right figure's shoulder -->
+ <path d="M6 17 Q9 15 12 16" stroke="url(#sk)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+ <!-- === RIGHT FIGURE (teal top) === -->
+ <rect x="21.8" y="23" width="1.8" height="7" rx="0.9" fill="url(#leg)"/>
+ <rect x="24.3" y="23" width="1.8" height="7" rx="0.9" fill="url(#leg)"/>
+ <ellipse cx="22.7" cy="30.1" rx="1.4" ry="0.7" fill="url(#hr)"/>
+ <ellipse cx="25.2" cy="30.1" rx="1.4" ry="0.7" fill="url(#hr)"/>
+ <ellipse cx="24" cy="19.2" rx="2.8" ry="4" fill="url(#top2)" filter="url(#sh)"/>
+ <rect x="23.2" y="13.8" width="1.5" height="2.2" rx="0.7" fill="url(#sk)"/>
+ <circle cx="24" cy="11.5" r="2.8" fill="url(#sk)" filter="url(#sh)"/>
+ <ellipse cx="24" cy="9.7" rx="2.8" ry="1.5" fill="url(#hr)"/>
+ <circle cx="23" cy="11.3" r="0.5" fill="#1a2040"/>
+ <circle cx="25" cy="11.3" r="0.5" fill="#1a2040"/>
+ <circle cx="23.15" cy="11.15" r="0.18" fill="#fff"/>
+ <circle cx="25.15" cy="11.15" r="0.18" fill="#fff"/>
+ <path d="M23.1 12.5 Q24 13.1 24.9 12.5" stroke="#C47A55" stroke-width="0.33" fill="none" stroke-linecap="round"/>
+ <path d="M22.6 10.8 Q23 10.5 23.4 10.8" stroke="#5C3018" stroke-width="0.3" fill="none"/>
+ <path d="M24.6 10.8 Q25 10.5 25.4 10.8" stroke="#5C3018" stroke-width="0.3" fill="none"/>
+ <!-- Right figure left arm toward center handshake -->
+ <path d="M22 18.5 Q19 18 17 18.5" stroke="url(#sk)" stroke-width="2" fill="none" stroke-linecap="round"/>
+ <!-- Right figure right arm on left figure's shoulder -->
+ <path d="M26 17 Q23 15 20 16" stroke="url(#sk)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+ <!-- HANDSHAKE CLASPED at center -->
+ <ellipse cx="16" cy="18.5" rx="2" ry="1.2" fill="url(#sk)"/>
+ <!-- Finger lines on clasped hands -->
+ <line x1="14.5" y1="18" x2="15" y2="19.5" stroke="#D49D7A" stroke-width="0.3"/>
+ <line x1="15.3" y1="17.6" x2="15.5" y2="19.5" stroke="#D49D7A" stroke-width="0.3"/>
+ <line x1="16" y1="17.5" x2="16" y2="19.5" stroke="#D49D7A" stroke-width="0.3"/>
+ <line x1="16.7" y1="17.6" x2="16.5" y2="19.5" stroke="#D49D7A" stroke-width="0.3"/>
+ <line x1="17.5" y1="18" x2="17" y2="19.5" stroke="#D49D7A" stroke-width="0.3"/>
+ <!-- MENDING BROKEN HEART ABOVE — two halves drifting together with sparkle -->
+ <!-- Left half of heart (drifting right) -->
+ <path d="M14.5 5.5 C14.5 4.3 13.2 3.5 12.5 4.5 C11.8 3.5 10.5 4.3 10.5 5.5 C10.5 7 12.5 8.5 12.5 8.5 L14.5 6Z" fill="#D63060"/>
+ <!-- Right half of heart (drifting left) -->
+ <path d="M17.5 5.5 C17.5 4.3 18.8 3.5 19.5 4.5 C20.2 3.5 21.5 4.3 21.5 5.5 C21.5 7 19.5 8.5 19.5 8.5 L17.5 6Z" fill="#D63060"/>
+ <!-- Crack / break line -->
+ <line x1="15" y1="3.5" x2="17" y2="9" stroke="#fff" stroke-width="0.4" stroke-opacity="0.8"/>
+ <!-- Sparkle at join point -->
+ <circle cx="16" cy="6.5" r="0.6" fill="#FFD45E"/>
+ <line x1="16" y1="5.5" x2="16" y2="4.5" stroke="#FFD45E" stroke-width="0.4"/>
+ <line x1="15" y1="6" x2="14.2" y2="5.5" stroke="#FFD45E" stroke-width="0.4"/>
+ <line x1="17" y1="6" x2="17.8" y2="5.5" stroke="#FFD45E" stroke-width="0.4"/>
+</svg>

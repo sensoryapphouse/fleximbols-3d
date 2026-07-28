@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Shampoo: teal/green-blue bottle (visually different from pink conditioner) -->
+ <linearGradient id="shamBottleGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#2A8A6A"/>
+ <stop offset="40%" stop-color="#50C090"/>
+ <stop offset="70%" stop-color="#2A8A6A"/>
+ <stop offset="100%" stop-color="#1A5A48"/>
+ </linearGradient>
+ <linearGradient id="shamCapGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#60D0A0"/>
+ <stop offset="100%" stop-color="#1A5A48"/>
+ </linearGradient>
+ <linearGradient id="shamLabelGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+ <stop offset="100%" stop-color="#C8F0E0" stop-opacity="0.9"/>
+ </linearGradient>
+ </defs>
+
+ <!-- Bottle body: cylindrical, teal-green -->
+ <rect x="10" y="11" width="12" height="19" rx="5" fill="url(#shamBottleGrad)"/>
+
+ <!-- Shoulder taper at top -->
+ <ellipse cx="16" cy="11" rx="6" ry="2" fill="url(#shamBottleGrad)"/>
+
+ <!-- Neck -->
+ <rect x="13" y="7" width="6" height="5" rx="2" fill="url(#shamBottleGrad)"/>
+
+ <!-- Flip-cap (closed, different style from conditioner — hinge on left) -->
+ <rect x="12.5" y="4" width="7" height="4" rx="1.5" fill="url(#shamCapGrad)"/>
+ <!-- Flip lid tab -->
+ <rect x="12" y="3" width="3" height="2" rx="0.5" fill="#2A8A6A"/>
+
+ <!-- Label area (white rectangle) -->
+ <rect x="11.5" y="16" width="9" height="10" rx="1" fill="url(#shamLabelGrad)"/>
+
+ <!-- Green stripe on label (shampoo symbol — different stripe position from conditioner) -->
+ <rect x="11.5" y="17.5" width="9" height="2" rx="0.5" fill="#2A8A6A" opacity="0.6"/>
+ <rect x="11.5" y="22.5" width="9" height="2" rx="0.5" fill="#2A8A6A" opacity="0.4"/>
+
+ <!-- Highlight on bottle -->
+ <rect x="11" y="12" width="2" height="16" rx="1" fill="#70E0B0" opacity="0.45"/>
+</svg>

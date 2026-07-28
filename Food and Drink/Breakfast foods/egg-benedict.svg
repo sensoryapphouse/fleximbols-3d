@@ -1,0 +1,39 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="eb-muffin" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#e8c880"/>
+ <stop offset="100%" stop-color="#b88040"/>
+ </linearGradient>
+ <linearGradient id="eb-ham" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#e87878"/>
+ <stop offset="100%" stop-color="#b84040"/>
+ </linearGradient>
+ <linearGradient id="eb-egg" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#fffdf0"/>
+ <stop offset="100%" stop-color="#e8e0c0"/>
+ </linearGradient>
+ <linearGradient id="eb-holl" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f0d840"/>
+ <stop offset="100%" stop-color="#c8a000"/>
+ </linearGradient>
+ </defs>
+ <!-- muffin base -->
+ <ellipse cx="16" cy="26" rx="11" ry="3" fill="#d09040"/>
+ <rect x="5" y="22" width="22" height="5" fill="url(#eb-muffin)" filter="url(#eb-sh)"/>
+ <ellipse cx="16" cy="22" rx="11" ry="3" fill="#e8c880"/>
+ <!-- ham slice -->
+ <ellipse cx="16" cy="20.5" rx="10" ry="2.5" fill="url(#eb-ham)"/>
+ <ellipse cx="16" cy="20.5" rx="10" ry="2.5" fill="url(#eb-ham)" fill-opacity="0.8"/>
+ <!-- poached egg white -->
+ <ellipse cx="16" cy="17.5" rx="9" ry="4.5" fill="url(#eb-egg)" filter="url(#eb-sh)"/>
+ <!-- yolk -->
+ <circle cx="16" cy="17" r="3.5" fill="#f0b820"/>
+ <circle cx="16" cy="17" r="2.5" fill="#f8d040"/>
+ <circle cx="15" cy="15.8" r="0.8" fill="#fff" fill-opacity="0.4"/>
+ <!-- hollandaise drizzle -->
+ <path d="M8 15 Q12 13 16 14 Q20 13 24 15 Q22 17 16 16.5 Q10 17 8 15Z" fill="url(#eb-holl)" fill-opacity="0.85"/>
+ <!-- chive dots -->
+ <rect x="13" y="12.5" width="1" height="0.4" rx="0.2" fill="#228833"/>
+ <rect x="17" y="13" width="1" height="0.4" rx="0.2" fill="#228833"/>
+ <rect x="15" y="12" width="0.8" height="0.4" rx="0.2" fill="#228833"/>
+</svg>

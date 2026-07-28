@@ -1,0 +1,40 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="cd_pantsGrad" cx="40%" cy="30%" r="70%">
+ <stop offset="0%" stop-color="#D4C8A0"/>
+ <stop offset="100%" stop-color="#A09870"/>
+ </radialGradient>
+</defs>
+<g filter="url(#cd_drop)">
+ <!-- Hanger at top -->
+ <path d="M16 3 Q17 1 20 2 Q22 3 24 5 L26 7" stroke="#888" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <path d="M16 3 Q15 1 12 2 Q10 3 8 5 L6 7" stroke="#888" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <line x1="6" y1="7" x2="26" y2="7" stroke="#888" stroke-width="1.5"/>
+ <!-- Belt threaded through belt-loops -->
+ <rect x="5" y="8" width="22" height="2.5" rx="0.5" fill="#7A5A30"/>
+ <!-- Belt loops -->
+ <rect x="7" y="7.5" width="1.5" height="3" rx="0.3" fill="#9A7A50"/>
+ <rect x="12" y="7.5" width="1.5" height="3" rx="0.3" fill="#9A7A50"/>
+ <rect x="19" y="7.5" width="1.5" height="3" rx="0.3" fill="#9A7A50"/>
+ <rect x="24" y="7.5" width="1.5" height="3" rx="0.3" fill="#9A7A50"/>
+ <!-- Belt buckle -->
+ <rect x="14" y="7.8" width="4" height="2" rx="0.4" fill="#C0A040" stroke="#A08020" stroke-width="0.4"/>
+ <!-- Dress/chino trousers - beige/khaki, smooth fabric, pleated front -->
+ <!-- Waistband -->
+ <rect x="5" y="10.5" width="22" height="3" rx="0.5" fill="#B0A870"/>
+ <!-- Trouser legs with slight taper to plain hem -->
+ <path d="M5 13 L5 30 L13 30 L16 17 L19 30 L27 30 L27 13Z" fill="url(#cd_pantsGrad)"/>
+ <!-- Pleated front (front crease) -->
+ <line x1="12.5" y1="13" x2="11.5" y2="30" stroke="#A09060" stroke-width="0.6" opacity="0.6"/>
+ <line x1="19.5" y1="13" x2="20.5" y2="30" stroke="#A09060" stroke-width="0.6" opacity="0.6"/>
+ <!-- Pleat fold at waist -->
+ <path d="M13 13 Q14 14 15 13" stroke="#A09060" stroke-width="0.5" fill="none"/>
+ <path d="M17 13 Q18 14 19 13" stroke="#A09060" stroke-width="0.5" fill="none"/>
+ <!-- Smooth fabric highlight (no denim stitching) -->
+ <path d="M6 15 Q9 14.5 12 15" stroke="white" stroke-width="0.5" fill="none" opacity="0.3"/>
+ <path d="M20 15 Q23 14.5 26 15" stroke="white" stroke-width="0.5" fill="none" opacity="0.3"/>
+ <!-- Plain hem at bottom (no cuff) -->
+ <line x1="5" y1="29.5" x2="13" y2="29.5" stroke="#A09060" stroke-width="0.7"/>
+ <line x1="19" y1="29.5" x2="27" y2="29.5" stroke="#A09060" stroke-width="0.7"/>
+</g>
+</svg>

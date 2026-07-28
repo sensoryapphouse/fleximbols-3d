@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="ca_body" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#fff066"/><stop offset="60%" stop-color="#f0c000"/><stop offset="100%" stop-color="#b08800"/></radialGradient>
+ <radialGradient id="ca_head" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#fff288"/><stop offset="70%" stop-color="#f0d020"/><stop offset="100%" stop-color="#c09000"/></radialGradient>
+ <radialGradient id="ca_wing" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#e8c000"/><stop offset="60%" stop-color="#b89000"/><stop offset="100%" stop-color="#806000"/></radialGradient>
+ </defs>
+ <!-- tail -->
+ <path d="M16 26 Q14 30 13 31 M16 26 Q16 31 16 32 M16 26 Q18 30 19 31" fill="none" stroke="#b08800" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- body - slightly plumper than budgie -->
+ <ellipse cx="16" cy="22" rx="7.5" ry="6" fill="url(#ca_body)"/>
+ <!-- wing -->
+ <ellipse cx="18.5" cy="22" rx="5" ry="4" fill="url(#ca_wing)" transform="rotate(15,18.5,22)"/>
+ <!-- head - rounder -->
+ <ellipse cx="16" cy="14.5" rx="6.5" ry="6" fill="url(#ca_head)"/>
+ <!-- no cheek patches on canary - distinguishes from budgie -->
+ <!-- eye -->
+ <circle cx="13.5" cy="13.5" r="1.5" fill="#1a1a1a"/>
+ <circle cx="14" cy="13" r="0.5" fill="#fff" fill-opacity="0.7"/>
+ <!-- beak - smaller, more pointed -->
+ <path d="M16 17 Q14.5 18 16 19 Q17.5 18 16 17Z" fill="#cc8833"/>
+ <!-- tiny breast blush -->
+ <ellipse cx="16" cy="21" rx="3.5" ry="2.5" fill="#fff8aa" fill-opacity="0.4"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl51" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl51)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

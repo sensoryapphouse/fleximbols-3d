@@ -1,0 +1,105 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Step top surface (tread) -->
+ <linearGradient id="treadGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#A07848"/>
+ </linearGradient>
+ <!-- Step riser (front face) -->
+ <linearGradient id="riserGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#8B5C3A"/>
+ <stop offset="100%" stop-color="#5A3520"/>
+ </linearGradient>
+ <!-- Step side face -->
+ <linearGradient id="sideGrad" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#7A4A20"/>
+ <stop offset="100%" stop-color="#5A3010"/>
+ </linearGradient>
+ <!-- Handrail -->
+ <linearGradient id="railGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#C99878"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ <!-- Newel post -->
+ <linearGradient id="newelGrad" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D4AA80"/>
+ <stop offset="100%" stop-color="#8B5C3A"/>
+ </linearGradient>
+ </defs>
+ <!-- Background (wall) -->
+ <!-- STAIRCASE in 3/4 view, ascending lower-left to upper-right -->
+ <!-- Each step: tread (top), riser (front), side (right face) -->
+ <!-- Step 1 (bottom, largest visible) -->
+ <!-- Tread -->
+ <polygon points="2,28 12,28 14,25 4,25" fill="url(#treadGrad)"/>
+ <!-- Riser -->
+ <polygon points="2,28 12,28 12,30 2,30" fill="url(#riserGrad)"/>
+ <!-- Side -->
+ <polygon points="12,28 14,25 14,27 12,30" fill="url(#sideGrad)"/>
+ <!-- Step 2 -->
+ <!-- Tread -->
+ <polygon points="4,25 14,25 16,22 6,22" fill="url(#treadGrad)"/>
+ <!-- Riser -->
+ <polygon points="4,25 14,25 14,28 4,28" fill="url(#riserGrad)"/>
+ <!-- Side -->
+ <polygon points="14,25 16,22 16,25 14,28" fill="url(#sideGrad)"/>
+ <!-- Step 3 -->
+ <!-- Tread -->
+ <polygon points="6,22 16,22 18,19 8,19" fill="url(#treadGrad)"/>
+ <!-- Riser -->
+ <polygon points="6,22 16,22 16,25 6,25" fill="url(#riserGrad)"/>
+ <!-- Side -->
+ <polygon points="16,22 18,19 18,22 16,25" fill="url(#sideGrad)"/>
+ <!-- Step 4 -->
+ <!-- Tread -->
+ <polygon points="8,19 18,19 20,16 10,16" fill="url(#treadGrad)"/>
+ <!-- Riser -->
+ <polygon points="8,19 18,19 18,22 8,22" fill="url(#riserGrad)"/>
+ <!-- Side -->
+ <polygon points="18,19 20,16 20,19 18,22" fill="url(#sideGrad)"/>
+ <!-- Step 5 -->
+ <!-- Tread -->
+ <polygon points="10,16 20,16 22,13 12,13" fill="url(#treadGrad)"/>
+ <!-- Riser -->
+ <polygon points="10,16 20,16 20,19 10,19" fill="url(#riserGrad)"/>
+ <!-- Side -->
+ <polygon points="20,16 22,13 22,16 20,19" fill="url(#sideGrad)"/>
+ <!-- Step 6 (top) -->
+ <!-- Tread -->
+ <polygon points="12,13 22,13 24,10 14,10" fill="url(#treadGrad)"/>
+ <!-- Riser -->
+ <polygon points="12,13 22,13 22,16 12,16" fill="url(#riserGrad)"/>
+ <!-- Side -->
+ <polygon points="22,13 24,10 24,13 22,16" fill="url(#sideGrad)"/>
+ <!-- Landing at top (partial) -->
+ <polygon points="14,10 24,10 26,7 16,7" fill="url(#treadGrad)" opacity="0.7"/>
+ <!-- HANDRAIL (left side of steps) -->
+ <!-- Rail rod -->
+ <line x1="3" y1="27" x2="15" y2="9" stroke="url(#railGrad)" stroke-width="1.2" stroke-linecap="round"/>
+ <!-- Rail highlight -->
+ <line x1="3" y1="26.5" x2="15" y2="8.5" stroke="#D4AA80" stroke-width="0.4" opacity="0.5"/>
+ <!-- Balusters (vertical spindles along left) -->
+ <line x1="3" y1="28" x2="3" y2="27" stroke="url(#newelGrad)" stroke-width="0.7"/>
+ <line x1="5" y1="26" x2="5" y2="24.5" stroke="url(#newelGrad)" stroke-width="0.6"/>
+ <line x1="7" y1="23" x2="7" y2="21.5" stroke="url(#newelGrad)" stroke-width="0.6"/>
+ <line x1="9" y1="20" x2="9" y2="18.5" stroke="url(#newelGrad)" stroke-width="0.6"/>
+ <line x1="11" y1="17" x2="11" y2="15.5" stroke="url(#newelGrad)" stroke-width="0.6"/>
+ <line x1="13" y1="14" x2="13" y2="12.5" stroke="url(#newelGrad)" stroke-width="0.6"/>
+ <line x1="15" y1="11" x2="15" y2="9.5" stroke="url(#newelGrad)" stroke-width="0.6"/>
+ <!-- RIGHT HANDRAIL (right side, partial) -->
+ <line x1="13" y1="27" x2="25" y2="9" stroke="url(#railGrad)" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+ <!-- Newel post (bottom) -->
+ 
+ <!-- Newel cap -->
+ <ellipse cx="2.25" cy="27" rx="1" ry="0.4" fill="#D4AA80"/>
+ <!-- Newel post (top) -->
+ 
+ <ellipse cx="14.75" cy="7.5" rx="1" ry="0.4" fill="#D4AA80"/>
+ <!-- Tread nosing highlights -->
+ <line x1="2" y1="28" x2="12" y2="28" stroke="#D4AA80" stroke-width="0.4" opacity="0.6"/>
+ <line x1="4" y1="25" x2="14" y2="25" stroke="#D4AA80" stroke-width="0.4" opacity="0.5"/>
+ <line x1="6" y1="22" x2="16" y2="22" stroke="#D4AA80" stroke-width="0.4" opacity="0.5"/>
+ <line x1="8" y1="19" x2="18" y2="19" stroke="#D4AA80" stroke-width="0.4" opacity="0.5"/>
+ <line x1="10" y1="16" x2="20" y2="16" stroke="#D4AA80" stroke-width="0.4" opacity="0.5"/>
+ <line x1="12" y1="13" x2="22" y2="13" stroke="#D4AA80" stroke-width="0.4" opacity="0.5"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#8B4513"/>
+ <stop offset="100%" stop-color="#D2691E"/>
+ </linearGradient>
+ <linearGradient id="cylGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#888"/>
+ <stop offset="50%" stop-color="#eee"/>
+ <stop offset="100%" stop-color="#777"/>
+ </linearGradient>
+ <linearGradient id="beadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#d4a800"/>
+ <stop offset="100%" stop-color="#8a6a00"/>
+ </linearGradient>
+ </defs>
+ <!-- Handle -->
+ <rect x="4" y="14.5" width="10" height="3" rx="1.2" fill="url(#handleGrad)"/>
+ <!-- Cylinder body -->
+ <rect x="13" y="10" width="14" height="12" rx="1.5" fill="url(#cylGrad)"/>
+ <!-- Beads/chain around cylinder -->
+ <circle cx="15" cy="9.5" r="1.2" fill="url(#beadGrad)"/>
+ <circle cx="18" cy="9" r="1.2" fill="url(#beadGrad)"/>
+ <circle cx="21" cy="9.5" r="1.2" fill="url(#beadGrad)"/>
+ <circle cx="24" cy="9" r="1.2" fill="url(#beadGrad)"/>
+ <circle cx="15" cy="22.5" r="1.2" fill="url(#beadGrad)"/>
+ <circle cx="18" cy="23" r="1.2" fill="url(#beadGrad)"/>
+ <circle cx="21" cy="22.5" r="1.2" fill="url(#beadGrad)"/>
+ <circle cx="24" cy="23" r="1.2" fill="url(#beadGrad)"/>
+</svg>

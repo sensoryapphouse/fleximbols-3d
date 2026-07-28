@@ -1,0 +1,39 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,3.846) scale(0.8798)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="accelPedal" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#9ab0c8"/>
+ <stop offset="100%" stop-color="#4a6888"/>
+ </linearGradient>
+ <linearGradient id="accelFoot" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f0dcc8"/>
+ <stop offset="100%" stop-color="#c09070"/>
+ </linearGradient>
+ <linearGradient id="accelFloor" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#505060"/>
+ <stop offset="100%" stop-color="#30303a"/>
+ </linearGradient>
+ <linearGradient id="accelArrow" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#ff8c00"/>
+ <stop offset="100%" stop-color="#ffcc00"/>
+ </linearGradient>
+ </defs>
+ <!-- Floor -->
+ <rect x="4" y="25" width="24" height="4" rx="1" fill="url(#accelFloor)"/>
+ <!-- Pedal arm -->
+ <rect x="15" y="16" width="2" height="9" rx="0.8" fill="url(#accelPedal)"/>
+ <!-- Pedal plate — tilted rectangle with ribs -->
+ <rect x="9" y="20" width="10" height="6" rx="1.5" fill="url(#accelPedal)" filter="url(#accelShad)" transform="rotate(-12, 14, 23)"/>
+ <!-- Ribs on pedal -->
+ <line x1="10" y1="20.5" x2="10.8" y2="26.2" stroke="#fff" stroke-width="0.5" stroke-opacity="0.4" transform="rotate(-12,14,23)"/>
+ <line x1="12" y1="20.5" x2="12.8" y2="26.2" stroke="#fff" stroke-width="0.5" stroke-opacity="0.4" transform="rotate(-12,14,23)"/>
+ <line x1="14" y1="20.5" x2="14.8" y2="26.2" stroke="#fff" stroke-width="0.5" stroke-opacity="0.4" transform="rotate(-12,14,23)"/>
+ <line x1="16" y1="20.5" x2="16.8" y2="26.2" stroke="#fff" stroke-width="0.5" stroke-opacity="0.4" transform="rotate(-12,14,23)"/>
+ <!-- Foot pressing pedal -->
+ <ellipse cx="15" cy="21" rx="5" ry="2.5" fill="url(#accelFoot)" transform="rotate(-12,15,21)"/>
+ <!-- shoe toe -->
+ <ellipse cx="11" cy="22.5" rx="2" ry="1.2" fill="url(#accelFoot)" fill-opacity="0.8"/>
+ <!-- Speed arrow -->
+ <path d="M20 8 L26 8 L24 5.5 M26 8 L24 10.5" stroke="url(#accelArrow)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M20 11.5 L24 11.5 L22.5 9.5 M24 11.5 L22.5 13.5" stroke="url(#accelArrow)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+ <!-- Drop shadow -->
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl3335" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl3335)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

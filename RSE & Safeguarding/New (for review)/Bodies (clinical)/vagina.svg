@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="vg_outer" cx="40%" cy="30%" r="75%">
+ <stop offset="0%" stop-color="#FFD0C0"/>
+ <stop offset="100%" stop-color="#C88070"/>
+ </radialGradient>
+ <radialGradient id="vg_labia" cx="40%" cy="30%" r="80%">
+ <stop offset="0%" stop-color="#FFB6CB"/>
+ <stop offset="100%" stop-color="#C8528A"/>
+ </radialGradient>
+ <radialGradient id="vg_inner" cx="50%" cy="40%" r="60%">
+ <stop offset="0%" stop-color="#9A2860"/>
+ <stop offset="100%" stop-color="#5A0F38"/>
+ </radialGradient>
+ <radialGradient id="vg_hl" cx="30%" cy="25%" r="50%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ <radialGradient id="vg_ds" cx="50%" cy="50%" r="50%">
+ <stop offset="0%" stop-color="#000" stop-opacity="0.2"/>
+ <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+ </radialGradient>
+</defs>
+<!-- outer labia (majora) - rounded teardrop pair -->
+<path d="M16 4 Q9 5 8 14 Q7.5 22 11 26 Q14 28 16 28 Q18 28 21 26 Q24.5 22 24 14 Q23 5 16 4 Z" fill="url(#vg_outer)"/>
+<!-- inner labia (minora) -->
+<path d="M16 8 Q12 10 11.5 16 Q11.5 22 13.5 25 Q15 26.5 16 26.5 Q17 26.5 18.5 25 Q20.5 22 20.5 16 Q20 10 16 8 Z" fill="url(#vg_labia)"/>
+<!-- central opening (canal) -->
+<ellipse cx="16" cy="18" rx="1.4" ry="5" fill="url(#vg_inner)"/>
+<!-- highlight on outer -->
+<ellipse cx="12" cy="9" rx="2" ry="3" fill="url(#vg_hl)"/>
+<ellipse cx="14" cy="11" rx="0.8" ry="1.4" fill="#FFFFFF" fill-opacity="0.4"/>
+<!-- subtle midline shadow -->
+<path d="M16 8 L16 26.5" stroke="#8B2A60" stroke-width="0.5" opacity="0.4"/>
+</svg>

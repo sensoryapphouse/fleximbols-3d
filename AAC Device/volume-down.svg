@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="vdSpk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5fa9e0"/>
+      <stop offset="1" stop-color="#2f6fb0"/>
+    </linearGradient>
+  </defs>
+  <!-- shadow -->
+  <ellipse cx="15" cy="26" rx="11" ry="1.8" fill="#000000" opacity="0.12"/>
+  <!-- speaker box + cone -->
+  <path d="M4 13 H9 L15 8 V24 L9 19 H4 Z" fill="url(#vdSpk)" stroke="#235a92" stroke-width="0.5" stroke-linejoin="round"/>
+  <!-- speaker box front face shade -->
+  <path d="M4 13 H9 V19 H4 Z" fill="#7fbfe8" opacity="0.5"/>
+  <!-- single small sound wave (low volume) -->
+  <path d="M18.5 13 Q21 16 18.5 19" fill="none" stroke="#3a3f47" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- minus sign (volume DOWN) -->
+  <g transform="translate(25.5 16)">
+    <circle cx="0" cy="0" r="3.6" fill="#e7eaef" stroke="#9aa0ab" stroke-width="0.4"/>
+    <rect x="-2.0" y="-0.7" width="4.0" height="1.4" rx="0.7" fill="#c63340"/>
+  </g>
+</svg>

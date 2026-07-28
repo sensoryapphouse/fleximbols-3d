@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 240" width="290" height="240"><defs><radialGradient id="s3d_3a7838" cx="0.35" cy="0.28" r="0.9"><stop offset="0" stop-color="#75a074"/><stop offset="0.45" stop-color="#3a7838"/><stop offset="1" stop-color="#2e602d"/></radialGradient></defs><defs><radialGradient id="sphere" cx="30%" cy="25%" r="80%" fx="28%" fy="20%"><stop offset="0%" stop-color="#acd8a4"/><stop offset="55%" stop-color="#5ab048"/><stop offset="100%" stop-color="#366a2b"/></radialGradient></defs>
+<circle cx="145" cy="120" r="98" fill="url(#sphere)"></circle>
+<path d="M145 218 Q65 200 60 130 Q65 200 145 205 Q225 200 230 130 Q225 200 145 218 Z" fill="url(#s3d_3a7838)" data-flat="#3a7838" opacity="0.5"></path>
+<g transform="translate(145.000 120.000) scale(0.160000 -0.160000) translate(-512.000 -360.000)"><path d="M26 290V389H149L122 485H26V584H93L55 720H215L245 584H406L433 720H591L619 584H787L817 720H970L932 584H998V485H903L876 389H998V290H849L767 0H624L565 290H457L399 0H259L177 290ZM659 389H743L764 485H639ZM288 389H369L387 485H267ZM477 389H545L526 485H496ZM699 193 720 290H679ZM331 193 349 290H309Z" fill="#1a1a1a"/></g>
+</svg>

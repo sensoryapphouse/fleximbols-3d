@@ -1,0 +1,19 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+
+<!-- Monitor screen bezel -->
+<rect x="3" y="3" width="26" height="20" rx="2" fill="#1f2937" filter="url(#j_shd)"/>
+<rect x="4.5" y="4.5" width="23" height="17" rx="1" fill="#0a0a0a"/>
+<!-- Test pattern colour bars -->
+<rect x="4.5" y="4.5" width="3.3" height="17" fill="#ffffff"/>
+<rect x="7.8" y="4.5" width="3.3" height="17" fill="#ffff00"/>
+<rect x="11.1" y="4.5" width="3.3" height="17" fill="#00ffff"/>
+<rect x="14.4" y="4.5" width="3.3" height="17" fill="#00ff00"/>
+<rect x="17.7" y="4.5" width="3.3" height="17" fill="#ff00ff"/>
+<rect x="21" y="4.5" width="3.3" height="17" fill="#ff0000"/>
+<rect x="24.2" y="4.5" width="3.3" height="17" fill="#0000ff"/>
+<!-- Slim adjustable stand -->
+<rect x="14.5" y="23" width="3" height="5" rx="0.5" fill="#374151"/>
+<rect x="11" y="28" width="10" height="2" rx="1" fill="#374151"/>
+<!-- Adjustment notch -->
+<circle cx="16" cy="25.5" r="0.8" fill="#6b7280"/>
+</svg>

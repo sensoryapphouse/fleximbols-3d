@@ -1,0 +1,32 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="cellMembrane" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#d0eeff"/>
+ <stop offset="60%" stop-color="#7ec8e3"/>
+ <stop offset="100%" stop-color="#3a9abf"/>
+ </radialGradient>
+ <radialGradient id="nucleus" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#a070d0"/>
+ <stop offset="100%" stop-color="#5a2090"/>
+ </radialGradient>
+ <radialGradient id="organelle1" cx="40%" cy="40%" r="60%">
+ <stop offset="0%" stop-color="#f0c0ff"/>
+ <stop offset="100%" stop-color="#c080e0"/>
+ </radialGradient>
+ </defs>
+ <!-- Cell body -->
+ 
+ <!-- Membrane border -->
+ <ellipse cx="16" cy="16" rx="13" ry="12" fill="none" stroke="#3a9abf" stroke-width="0.8" stroke-opacity="0.7"/>
+ <!-- Small organelles -->
+ <ellipse cx="9" cy="13" rx="2" ry="1.2" fill="url(#organelle1)" fill-opacity="0.7" transform="rotate(-20,9,13)"/>
+ <ellipse cx="22" cy="19" rx="1.5" ry="0.9" fill="url(#organelle1)" fill-opacity="0.7" transform="rotate(15,22,19)"/>
+ <ellipse cx="12" cy="21" rx="1.2" ry="0.8" fill="url(#organelle1)" fill-opacity="0.6"/>
+ <!-- Nucleus -->
+ <ellipse cx="17" cy="15" rx="5" ry="4.5" fill="url(#nucleus)" fill-opacity="0.85"/>
+ <ellipse cx="17" cy="15" rx="5" ry="4.5" fill="none" stroke="#7a30b0" stroke-width="0.5" stroke-opacity="0.6"/>
+ <!-- Nucleolus -->
+ <circle cx="17" cy="14.5" r="1.5" fill="#8040c0" fill-opacity="0.9"/>
+ <!-- Highlight -->
+ <ellipse cx="13" cy="11" rx="2.5" ry="1.5" fill="#ffffff" fill-opacity="0.35" transform="rotate(-15,13,11)"/>
+</svg>

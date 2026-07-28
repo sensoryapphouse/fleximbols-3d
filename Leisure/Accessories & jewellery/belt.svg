@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+ <radialGradient id="be1" cx="40%" cy="40%" r="65%">
+ <stop offset="0%" stop-color="#92400E"/>
+ <stop offset="100%" stop-color="#451A03"/>
+ </radialGradient>
+ <radialGradient id="be2" cx="50%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#B45309"/>
+ <stop offset="100%" stop-color="#78350F"/>
+ </radialGradient>
+</defs>
+<!-- Belt strap long -->
+<rect x="3" y="13" width="20" height="5" rx="2.5" fill="url(#be1)"/>
+<!-- Buckle frame (silver) -->
+<rect x="20" y="11.5" width="9" height="8" rx="1.5" fill="#9CA3AF"/>
+<rect x="21" y="12.5" width="7" height="6" rx="1" fill="#6B7280"/>
+<!-- Buckle inner opening -->
+<rect x="22" y="13.5" width="5" height="4" rx="0.5" fill="#374151"/>
+<!-- Buckle prong -->
+<rect x="24.5" y="12.5" width="1" height="6" rx="0.4" fill="#D1D5DB"/>
+<!-- Strap tip -->
+<path d="M3 13 L3 18 L1.5 15.5 Z" fill="#451A03"/>
+<!-- Stitching lines -->
+<line x1="4" y1="14.5" x2="20" y2="14.5" stroke="rgba(255,220,150,0.4)" stroke-width="0.4" stroke-dasharray="2,2"/>
+<line x1="4" y1="16.5" x2="20" y2="16.5" stroke="rgba(255,220,150,0.4)" stroke-width="0.4" stroke-dasharray="2,2"/>
+<!-- Sheen on leather -->
+<path d="M5 14 Q12 13 18 14" stroke="rgba(255,255,255,0.25)" stroke-width="0.7" fill="none"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="200" height="200" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="el_body" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#c09050"/><stop offset="60%" stop-color="#8a5820"/><stop offset="100%" stop-color="#4a2800"/></radialGradient>
+ <radialGradient id="el_antler" cx="40%" cy="30%" r="60%"><stop offset="0%" stop-color="#d4b070"/><stop offset="100%" stop-color="#8a5820"/></radialGradient>
+ <radialGradient id="el_neck" cx="40%" cy="35%" r="60%"><stop offset="0%" stop-color="#d4aa60"/><stop offset="100%" stop-color="#a07030"/></radialGradient>
+ </defs>
+ <!-- body -->
+ <ellipse cx="19" cy="23" rx="11" ry="7" fill="url(#el_body)"/>
+ <!-- legs (long) -->
+ <rect x="10" y="28" width="3" height="4" rx="1" fill="url(#el_body)"/>
+ <rect x="14.5" y="28" width="3" height="4" rx="1" fill="url(#el_body)"/>
+ <rect x="20" y="28" width="3" height="4" rx="1" fill="url(#el_body)"/>
+ <rect x="24.5" y="28" width="3" height="4" rx="1" fill="url(#el_body)"/>
+ <!-- hooves -->
+ <ellipse cx="11.5" cy="32" rx="1.8" ry="0.8" fill="#3a2810"/>
+ <ellipse cx="16" cy="32" rx="1.8" ry="0.8" fill="#3a2810"/>
+ <ellipse cx="21.5" cy="32" rx="1.8" ry="0.8" fill="#3a2810"/>
+ <ellipse cx="26" cy="32" rx="1.8" ry="0.8" fill="#3a2810"/>
+ <!-- neck - long, thick -->
+ <path d="M9 20 Q8 14 9 11" fill="none" stroke="#c09848" stroke-width="6" stroke-linecap="round"/>
+ <!-- head -->
+ <ellipse cx="9" cy="10" rx="6" ry="5.5" fill="url(#el_body)"/>
+ <!-- LARGE ANTLERS (elk feature - palmated/branched) -->
+ <!-- left antler -->
+ <path d="M7 6 Q5 2 3 1 M7 6 Q6 3 8 1 M7 6 Q4 4 2 5 M7 6 Q5 5 5 3" fill="none" stroke="url(#el_antler)" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- right antler -->
+ <path d="M11 6 Q13 2 15 1 M11 6 Q12 3 10 1 M11 6 Q14 4 16 5 M11 6 Q13 5 13 3" fill="none" stroke="url(#el_antler)" stroke-width="1.5" stroke-linecap="round"/>
+ <!-- antler base -->
+ <ellipse cx="7" cy="6" rx="1.5" ry="1" fill="url(#el_antler)"/>
+ <ellipse cx="11" cy="6" rx="1.5" ry="1" fill="url(#el_antler)"/>
+ <!-- muzzle -->
+ <ellipse cx="5" cy="12" rx="3.5" ry="2.5" fill="url(#el_neck)"/>
+ <!-- eye -->
+ <circle cx="7.5" cy="9" r="1.2" fill="#1a1a1a"/>
+ <circle cx="7.1" cy="8.6" r="0.4" fill="#fff" fill-opacity="0.7"/>
+ <!-- ear -->
+ <path d="M13 9 Q15 7 15 10 Q14 10 13 9Z" fill="url(#el_body)"/>
+</svg>

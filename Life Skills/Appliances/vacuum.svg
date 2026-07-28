@@ -1,0 +1,35 @@
+<svg width="200" height="200" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <radialGradient id="body" cx="35%" cy="28%" r="65%">
+ <stop offset="0%" stop-color="#FF6040"/>
+ <stop offset="100%" stop-color="#C02010"/>
+ </radialGradient>
+ <radialGradient id="tube" cx="35%" cy="28%" r="65%">
+ <stop offset="0%" stop-color="#808090"/>
+ <stop offset="100%" stop-color="#404050"/>
+ </radialGradient>
+ <radialGradient id="head2" cx="35%" cy="28%" r="65%">
+ <stop offset="0%" stop-color="#606070"/>
+ <stop offset="100%" stop-color="#303040"/>
+ </radialGradient>
+ <radialGradient id="hi" cx="30%" cy="22%" r="50%">
+ <stop offset="0%" stop-color="#ffffff" stop-opacity="0.6"/>
+ <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+ </radialGradient>
+ </defs>
+ <!-- vacuum body -->
+ <ellipse cx="22" cy="12" rx="8" ry="6" fill="url(#body)"/>
+ <!-- wheels -->
+ <circle cx="16" cy="16" r="2.5" fill="#303040"/>
+ <circle cx="28" cy="16" r="2.5" fill="#303040"/>
+ <!-- hose tube -->
+ <path d="M14 12 C10 12 8 14 6 16 C4 18 3 20 4 22" stroke="url(#tube)" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <!-- floor head -->
+ <rect x="2" y="22" width="12" height="4" rx="2" fill="url(#head2)"/>
+ <!-- suction sparkles -->
+ <path d="M3 20 L3.3 18.8 L4.5 18.5 L3.3 18.2 L3 17 L2.7 18.2 L1.5 18.5 L2.7 18.8 Z" fill="#FFD020"/>
+ <!-- highlight on body -->
+ <ellipse cx="18" cy="9" rx="4" ry="2.5" fill="url(#hi)"/>
+ <!-- cord -->
+ <path d="M30 10 C31 8 31 6 30 5" stroke="#404040" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+</svg>

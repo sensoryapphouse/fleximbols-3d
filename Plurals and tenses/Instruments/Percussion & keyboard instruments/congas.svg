@@ -1,0 +1,53 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="cg_body" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#6e3408"/>
+<stop offset="32%" stop-color="#b15c1e"/>
+<stop offset="60%" stop-color="#d97e3c"/>
+<stop offset="100%" stop-color="#7a3d12"/>
+</linearGradient>
+<radialGradient id="cg_head" cx="40%" cy="35%" r="68%">
+<stop offset="0%" stop-color="#f3e6c6"/>
+<stop offset="65%" stop-color="#cdb079"/>
+<stop offset="100%" stop-color="#8c6a2e"/>
+</radialGradient>
+<linearGradient id="cg_ring" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#8a929a"/>
+<stop offset="50%" stop-color="#e0e4ec"/>
+<stop offset="100%" stop-color="#737b83"/>
+</linearGradient>
+<radialGradient id="cg_base" cx="50%" cy="30%" r="70%">
+<stop offset="0%" stop-color="#9a5a26"/>
+<stop offset="100%" stop-color="#5e3210"/>
+</radialGradient>
+<filter id="cg_shd" x="-30%" y="-10%" width="160%" height="130%">
+<feDropShadow dx="0" dy="0.5" stdDeviation="0.5" flood-color="#000" flood-opacity="0.28"/>
+</filter>
+</defs>
+<!-- Drum body (tapered barrel) -->
+<path d="M11 7 Q9 8 8 25 Q8 28.5 16 28.5 Q24 28.5 24 25 Q23 8 21 7 Z" fill="url(#cg_body)" stroke="#3a1e08" stroke-width="0.7" filter="url(#cg_shd)"/>
+<!-- left highlight -->
+<path d="M11.3 8 Q9.7 9 8.8 24.5 Q9.5 26 10.6 25.8 Q10 13 12 8.6 Z" fill="#f0a05a" opacity="0.22"/>
+<!-- wood grain -->
+<path d="M13 8 Q12.4 16 12.7 25.5" stroke="#7a3d12" stroke-width="0.3" opacity="0.45" fill="none"/>
+<path d="M16 8 L16 26" stroke="#7a3d12" stroke-width="0.3" opacity="0.4" fill="none"/>
+<path d="M19 8 Q19.6 16 19.3 25.5" stroke="#7a3d12" stroke-width="0.3" opacity="0.45" fill="none"/>
+<!-- Tension rods -->
+<rect x="9.4" y="9" width="0.9" height="13" rx="0.4" fill="#9098a0" stroke="#5a6068" stroke-width="0.25"/>
+<rect x="21.7" y="9" width="0.9" height="13" rx="0.4" fill="#9098a0" stroke="#5a6068" stroke-width="0.25"/>
+<!-- Lugs -->
+<rect x="8.8" y="13" width="2.1" height="1.5" rx="0.5" fill="#aeb4bd" stroke="#5a6068" stroke-width="0.3"/>
+<rect x="21.1" y="13" width="2.1" height="1.5" rx="0.5" fill="#aeb4bd" stroke="#5a6068" stroke-width="0.3"/>
+<rect x="8.8" y="17.5" width="2.1" height="1.5" rx="0.5" fill="#aeb4bd" stroke="#5a6068" stroke-width="0.3"/>
+<rect x="21.1" y="17.5" width="2.1" height="1.5" rx="0.5" fill="#aeb4bd" stroke="#5a6068" stroke-width="0.3"/>
+<!-- Metal tuning ring (top rim) -->
+<ellipse cx="16" cy="7" rx="5.4" ry="1.8" fill="url(#cg_ring)" stroke="#5a6068" stroke-width="0.45"/>
+<!-- Skin drum head -->
+<ellipse cx="16" cy="6.4" rx="4.5" ry="1.5" fill="url(#cg_head)" stroke="#8c6a2e" stroke-width="0.45"/>
+<!-- head sheen -->
+<ellipse cx="14.6" cy="6" rx="2" ry="0.7" fill="#fbf2d8" opacity="0.5"/>
+<!-- Stand ring (lower) -->
+<ellipse cx="16" cy="22.5" rx="7.4" ry="1.5" fill="none" stroke="url(#cg_ring)" stroke-width="0.8"/>
+<!-- Base -->
+<ellipse cx="16" cy="28.2" rx="8" ry="1.8" fill="url(#cg_base)" stroke="#3a1e08" stroke-width="0.6"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl2386" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl2386)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

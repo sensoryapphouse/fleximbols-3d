@@ -1,0 +1,43 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="nic-wall" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#c0b8a8"/>
+ <stop offset="100%" stop-color="#908070"/>
+ </linearGradient>
+ <linearGradient id="nic-alcove" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#2a2030"/>
+ <stop offset="100%" stop-color="#180e20"/>
+ </linearGradient>
+ <radialGradient id="nic-spotlight" cx="50%" cy="0%" r="80%">
+ <stop offset="0%" stop-color="#fff8c0" stop-opacity="0.9"/>
+ <stop offset="60%" stop-color="#ffe060" stop-opacity="0.4"/>
+ <stop offset="100%" stop-color="#ffa020" stop-opacity="0.0"/>
+ </radialGradient>
+ <linearGradient id="nic-object" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#60c0e0"/>
+ <stop offset="100%" stop-color="#2080a0"/>
+ </linearGradient>
+ <filter id="nic-glow">
+ <feGaussianBlur stdDeviation="1.5" result="blur"/>
+ <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+ </defs>
+ <!-- Wall left panel -->
+ 
+ <!-- Wall right panel -->
+ 
+ <!-- Wall top bar -->
+ <rect x="1" y="3" width="30" height="5" rx="1" fill="url(#nic-wall)"/>
+ <!-- Arched alcove -->
+ <path d="M8 31 L8 14 Q8 6 16 6 Q24 6 24 14 L24 31 Z" fill="url(#nic-alcove)"/>
+ <!-- Spotlight beam -->
+ <path d="M16 6 L10 31 L22 31 Z" fill="url(#nic-spotlight)" fill-opacity="0.7"/>
+ <!-- Decorative object (vase-like) centered in alcove -->
+ <ellipse cx="16" cy="24" rx="3.5" ry="4.5" fill="url(#nic-object)" filter="url(#nic-glow)"/>
+ <ellipse cx="16" cy="19.5" rx="2" ry="1.5" fill="#80e0f8"/>
+ <ellipse cx="16" cy="19" rx="2.5" ry="0.8" fill="#a0e8ff" fill-opacity="0.6"/>
+ <!-- Shelf -->
+ <rect x="10" y="28" width="12" height="1.5" rx="0.5" fill="#b0a890"/>
+ <!-- Object shine -->
+ <ellipse cx="14.5" cy="22" rx="1" ry="2" fill="#ffffff" fill-opacity="0.25"/>
+</svg>

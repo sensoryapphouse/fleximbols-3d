@@ -1,0 +1,56 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="bb_stem" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ <radialGradient id="bb_bell" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#C4B0FC"/>
+ <stop offset="50%" stop-color="#A78BFA"/>
+ <stop offset="100%" stop-color="#6D4FD9"/>
+ </radialGradient>
+ <radialGradient id="bb_bell2" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#B89FFB"/>
+ <stop offset="50%" stop-color="#9278F0"/>
+ <stop offset="100%" stop-color="#5B3EC8"/>
+ </radialGradient>
+ <radialGradient id="bb_bell3" cx="30%" cy="25%" r="70%">
+ <stop offset="0%" stop-color="#D0BFFD"/>
+ <stop offset="50%" stop-color="#B09CF9"/>
+ <stop offset="100%" stop-color="#7B60E0"/>
+ </radialGradient>
+ <radialGradient id="bb_leaf" cx="30%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#A5D46A"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </radialGradient>
+ </defs>
+
+ <!-- Tall main stem -->
+ <path d="M16 30 Q15.5 22 15 12 Q15 8 15 5" stroke="url(#bb_stem)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+ <!-- Bell 1 — lowest, largest, hanging down from pedicel -->
+ <path d="M15 24 Q12 24 11 25" stroke="url(#bb_stem)" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+ <path d="M9 24.5 Q8.5 28 11 28.8 Q11.5 29.3 11 29.8 Q10.5 30.2 12 30.2 Q13.5 30.2 13 29.8 Q12.5 29.3 13 28.8 Q15 28 15 24.5 Q13 23.5 11 24 Q10 24 9 24.5 Z" fill="url(#bb_bell)"/>
+ <path d="M9.3 25.5 Q9 28 11 28.5" stroke="#FFFFFF" stroke-width="0.35" fill="none" opacity="0.45"/>
+ <ellipse cx="12" cy="24.8" rx="3" ry="0.7" fill="#5B3EC8" fill-opacity="0.45"/>
+
+ <!-- Bell 2 — mid -->
+ <path d="M15 18 Q12.5 18 12 19" stroke="url(#bb_stem)" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+ <path d="M10 18.5 Q9.5 22 12 22.8 Q12.5 23.2 12 23.6 Q11.5 24 12.8 24 Q14.2 24 13.7 23.6 Q13.2 23.2 13.7 22.8 Q16 22 15.5 18.5 Q13.5 17.5 12 18 Q11 18 10 18.5 Z" fill="url(#bb_bell2)"/>
+ <path d="M10.3 19.5 Q10 22 12 22.5" stroke="#FFFFFF" stroke-width="0.35" fill="none" opacity="0.45"/>
+ <ellipse cx="12.8" cy="18.8" rx="2.8" ry="0.65" fill="#5B3EC8" fill-opacity="0.4"/>
+
+ <!-- Bell 3 — upper -->
+ <path d="M15 12 Q12.5 12 12 13" stroke="url(#bb_stem)" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+ <path d="M10.5 12.5 Q10 15.8 12 16.5 Q12.5 16.9 12 17.2 Q11.5 17.5 12.8 17.5 Q14 17.5 13.5 17.2 Q13 16.9 13.5 16.5 Q15.5 15.8 15 12.5 Q13 11.5 11.5 12 Q11 12 10.5 12.5 Z" fill="url(#bb_bell3)"/>
+ <path d="M10.8 13.5 Q10.5 15.8 12 16.2" stroke="#FFFFFF" stroke-width="0.35" fill="none" opacity="0.4"/>
+ <ellipse cx="12.7" cy="12.8" rx="2.5" ry="0.6" fill="#6D4FD9" fill-opacity="0.35"/>
+
+ <!-- Bud at top -->
+ <path d="M15 6 Q15.5 4 15 2.5 Q14 4 14.5 6 Z" fill="#A78BFA"/>
+ <path d="M15 6 Q16 4 16 2.5 Q15.5 4 15 6 Z" fill="#7B6CD6"/>
+
+ <!-- Long narrow leaves at base -->
+ <path d="M16 29 Q20 24 21 16 Q19 21 17 28 Z" fill="url(#bb_leaf)"/>
+ <path d="M16 29 Q11 26 10 19 Q12.5 23 15 28 Z" fill="url(#bb_leaf)"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="vBody" cx="0.4" cy="0.35" r="0.7"><stop offset="0" stop-color="#9b6fd6"/><stop offset="0.6" stop-color="#7a45c2"/><stop offset="1" stop-color="#532b8c"/></radialGradient>
+<radialGradient id="vKnob" cx="0.4" cy="0.35" r="0.7"><stop offset="0" stop-color="#b48ce4"/><stop offset="1" stop-color="#6a39ad"/></radialGradient>
+<radialGradient id="vGloss" cx="0.35" cy="0.3" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<line x1="100.0" y1="57.7" x2="100.0" y2="36.0" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="121.2" y1="63.3" x2="132.0" y2="44.6" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="136.7" y1="78.8" x2="155.4" y2="68.0" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="142.3" y1="100.0" x2="164.0" y2="100.0" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="136.7" y1="121.2" x2="155.4" y2="132.0" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="121.2" y1="136.7" x2="132.0" y2="155.4" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="100.0" y1="142.3" x2="100.0" y2="164.0" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="78.8" y1="136.7" x2="68.0" y2="155.4" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="63.3" y1="121.2" x2="44.6" y2="132.0" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="57.7" y1="100.0" x2="36.0" y2="100.0" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="63.3" y1="78.8" x2="44.6" y2="68.0" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<line x1="78.8" y1="63.3" x2="68.0" y2="44.6" stroke="#4a2580" stroke-width="5" stroke-linecap="round"/>
+<circle cx="100.0" cy="36.0" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="132.0" cy="44.6" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="155.4" cy="68.0" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="164.0" cy="100.0" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="155.4" cy="132.0" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="132.0" cy="155.4" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="100.0" cy="164.0" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="68.0" cy="155.4" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="44.6" cy="132.0" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="36.0" cy="100.0" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="44.6" cy="68.0" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="68.0" cy="44.6" r="6.5" fill="url(#vKnob)" stroke="#4a2580" stroke-width="2"/>
+<circle cx="100" cy="100" r="46" fill="url(#vBody)" stroke="#3d1f6b" stroke-width="3"/>
+<circle cx="84" cy="90" r="5.5" fill="#3d1f6b" opacity="0.55"/>
+<circle cx="114" cy="86" r="5.5" fill="#3d1f6b" opacity="0.55"/>
+<circle cx="100" cy="104" r="5.5" fill="#3d1f6b" opacity="0.55"/>
+<circle cx="92" cy="118" r="5.5" fill="#3d1f6b" opacity="0.55"/>
+<circle cx="118" cy="108" r="5.5" fill="#3d1f6b" opacity="0.55"/>
+<circle cx="108" cy="98" r="5.5" fill="#3d1f6b" opacity="0.55"/>
+<circle cx="80" cy="106" r="5.5" fill="#3d1f6b" opacity="0.55"/>
+<ellipse cx="88" cy="86" rx="22" ry="14" fill="url(#vGloss)"/>
+</svg>

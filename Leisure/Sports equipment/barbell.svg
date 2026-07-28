@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><defs>
+<radialGradient id="metal" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#D8DCE3"/><stop offset="100%" stop-color="#7E828A"/></radialGradient>
+<radialGradient id="black" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#3B3F47"/><stop offset="100%" stop-color="#16181D"/></radialGradient>
+<radialGradient id="red" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FF5252"/><stop offset="100%" stop-color="#C62828"/></radialGradient>
+<radialGradient id="blue" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#7DBEFC"/><stop offset="100%" stop-color="#1565C0"/></radialGradient>
+<radialGradient id="hi" cx="30%" cy="25%" r="40%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="2" y="15" width="28" height="2" rx="0.5" fill="url(#metal)"/>
+<rect x="2" y="15" width="28" height="0.6" fill="url(#hi)" opacity="0.8"/>
+<rect x="5" y="13" width="2" height="6" rx="0.3" fill="url(#metal)"/>
+<rect x="25" y="13" width="2" height="6" rx="0.3" fill="url(#metal)"/>
+<ellipse cx="7.5" cy="16" rx="1.5" ry="6" fill="url(#red)"/>
+<ellipse cx="7.5" cy="16" rx="0.8" ry="4" fill="url(#hi)" opacity="0.5"/>
+<ellipse cx="10" cy="16" rx="1.2" ry="5" fill="url(#blue)"/>
+<ellipse cx="10" cy="16" rx="0.6" ry="3.5" fill="url(#hi)" opacity="0.4"/>
+<ellipse cx="12" cy="16" rx="1" ry="3.5" fill="url(#black)"/>
+<ellipse cx="24.5" cy="16" rx="1.5" ry="6" fill="url(#red)"/>
+<ellipse cx="24.5" cy="16" rx="0.8" ry="4" fill="url(#hi)" opacity="0.5"/>
+<ellipse cx="22" cy="16" rx="1.2" ry="5" fill="url(#blue)"/>
+<ellipse cx="22" cy="16" rx="0.6" ry="3.5" fill="url(#hi)" opacity="0.4"/>
+<ellipse cx="20" cy="16" rx="1" ry="3.5" fill="url(#black)"/></svg>

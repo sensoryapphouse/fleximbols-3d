@@ -1,0 +1,52 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<ellipse cx="16" cy="27.6" rx="12.5" ry="1.4" fill="#000000" fill-opacity="0.12"/>
+<!-- board body -->
+<rect x="4" y="6" width="24" height="20" rx="2" fill="url(#bb_body)"/>
+<rect x="4" y="6" width="24" height="20" rx="2" fill="url(#bb_sh)"/>
+<rect x="4.6" y="6.6" width="22.8" height="2.2" rx="1" fill="#FFFFFF" fill-opacity="0.25"/>
+<!-- power rails -->
+<rect x="6" y="8.4" width="20" height="0.5" rx="0.25" fill="#E0504F"/>
+<rect x="6" y="9.6" width="20" height="0.5" rx="0.25" fill="#3F7FE0"/>
+<rect x="6" y="22" width="20" height="0.5" rx="0.25" fill="#E0504F"/>
+<rect x="6" y="23.2" width="20" height="0.5" rx="0.25" fill="#3F7FE0"/>
+<!-- center channel -->
+<rect x="6" y="15.7" width="20" height="0.6" rx="0.3" fill="#9AA3AC"/>
+<!-- hole grid -->
+<g fill="#8A929B">
+<!-- upper bank rows -->
+<g>
+<circle cx="7" cy="11.4" r="0.34"/><circle cx="8.6" cy="11.4" r="0.34"/><circle cx="10.2" cy="11.4" r="0.34"/><circle cx="11.8" cy="11.4" r="0.34"/><circle cx="13.4" cy="11.4" r="0.34"/><circle cx="15" cy="11.4" r="0.34"/><circle cx="16.6" cy="11.4" r="0.34"/><circle cx="18.2" cy="11.4" r="0.34"/><circle cx="19.8" cy="11.4" r="0.34"/><circle cx="21.4" cy="11.4" r="0.34"/><circle cx="23" cy="11.4" r="0.34"/><circle cx="24.6" cy="11.4" r="0.34"/>
+</g>
+<g transform="translate(0 1.4)">
+<circle cx="7" cy="11.4" r="0.34"/><circle cx="8.6" cy="11.4" r="0.34"/><circle cx="10.2" cy="11.4" r="0.34"/><circle cx="11.8" cy="11.4" r="0.34"/><circle cx="13.4" cy="11.4" r="0.34"/><circle cx="15" cy="11.4" r="0.34"/><circle cx="16.6" cy="11.4" r="0.34"/><circle cx="18.2" cy="11.4" r="0.34"/><circle cx="19.8" cy="11.4" r="0.34"/><circle cx="21.4" cy="11.4" r="0.34"/><circle cx="23" cy="11.4" r="0.34"/><circle cx="24.6" cy="11.4" r="0.34"/>
+</g>
+<g transform="translate(0 2.8)">
+<circle cx="7" cy="11.4" r="0.34"/><circle cx="8.6" cy="11.4" r="0.34"/><circle cx="10.2" cy="11.4" r="0.34"/><circle cx="11.8" cy="11.4" r="0.34"/><circle cx="13.4" cy="11.4" r="0.34"/><circle cx="15" cy="11.4" r="0.34"/><circle cx="16.6" cy="11.4" r="0.34"/><circle cx="18.2" cy="11.4" r="0.34"/><circle cx="19.8" cy="11.4" r="0.34"/><circle cx="21.4" cy="11.4" r="0.34"/><circle cx="23" cy="11.4" r="0.34"/><circle cx="24.6" cy="11.4" r="0.34"/>
+</g>
+<!-- lower bank rows -->
+<g transform="translate(0 6.4)">
+<circle cx="7" cy="11.4" r="0.34"/><circle cx="8.6" cy="11.4" r="0.34"/><circle cx="10.2" cy="11.4" r="0.34"/><circle cx="11.8" cy="11.4" r="0.34"/><circle cx="13.4" cy="11.4" r="0.34"/><circle cx="15" cy="11.4" r="0.34"/><circle cx="16.6" cy="11.4" r="0.34"/><circle cx="18.2" cy="11.4" r="0.34"/><circle cx="19.8" cy="11.4" r="0.34"/><circle cx="21.4" cy="11.4" r="0.34"/><circle cx="23" cy="11.4" r="0.34"/><circle cx="24.6" cy="11.4" r="0.34"/>
+</g>
+<g transform="translate(0 7.8)">
+<circle cx="7" cy="11.4" r="0.34"/><circle cx="8.6" cy="11.4" r="0.34"/><circle cx="10.2" cy="11.4" r="0.34"/><circle cx="11.8" cy="11.4" r="0.34"/><circle cx="13.4" cy="11.4" r="0.34"/><circle cx="15" cy="11.4" r="0.34"/><circle cx="16.6" cy="11.4" r="0.34"/><circle cx="18.2" cy="11.4" r="0.34"/><circle cx="19.8" cy="11.4" r="0.34"/><circle cx="21.4" cy="11.4" r="0.34"/><circle cx="23" cy="11.4" r="0.34"/><circle cx="24.6" cy="11.4" r="0.34"/>
+</g>
+<g transform="translate(0 9.2)">
+<circle cx="7" cy="11.4" r="0.34"/><circle cx="8.6" cy="11.4" r="0.34"/><circle cx="10.2" cy="11.4" r="0.34"/><circle cx="11.8" cy="11.4" r="0.34"/><circle cx="13.4" cy="11.4" r="0.34"/><circle cx="15" cy="11.4" r="0.34"/><circle cx="16.6" cy="11.4" r="0.34"/><circle cx="18.2" cy="11.4" r="0.34"/><circle cx="19.8" cy="11.4" r="0.34"/><circle cx="21.4" cy="11.4" r="0.34"/><circle cx="23" cy="11.4" r="0.34"/><circle cx="24.6" cy="11.4" r="0.34"/>
+</g>
+</g>
+<!-- jumper wires -->
+<path d="M8.6 12.8 q1 -2.4 4.8 0" stroke="#E0504F" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="8.6" cy="12.8" r="0.5" fill="#E0504F"/><circle cx="13.4" cy="12.8" r="0.5" fill="#E0504F"/>
+<path d="M11.8 17.8 q2 2.6 6.4 0" stroke="#3FA050" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="11.8" cy="17.8" r="0.5" fill="#3FA050"/><circle cx="18.2" cy="17.8" r="0.5" fill="#3FA050"/>
+<path d="M16.6 19.2 q1.6 2.2 5 0" stroke="#9B6BE0" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="16.6" cy="19.2" r="0.5" fill="#9B6BE0"/><circle cx="21.6" cy="19.2" r="0.5" fill="#9B6BE0"/>
+<defs>
+<linearGradient id="bb_body" x1="16" y1="6" x2="16" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F4F6F8"/><stop offset="1" stop-color="#D2D8DE"/>
+</linearGradient>
+<linearGradient id="bb_sh" x1="16" y1="20" x2="16" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B7BFC8" stop-opacity="0"/><stop offset="1" stop-color="#B7BFC8" stop-opacity="0.5"/>
+</linearGradient>
+</defs>
+</svg>

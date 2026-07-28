@@ -1,0 +1,24 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="rbRoad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6A6A7A"/><stop offset="100%" stop-color="#4A4A5A"/></linearGradient>
+ <linearGradient id="rbIsland" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5AB85A"/><stop offset="100%" stop-color="#2A7A2A"/></linearGradient>
+ <linearGradient id="rbArrow" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFD700"/><stop offset="100%" stop-color="#A88000"/></linearGradient>
+ </defs>
+ <!-- Top road approach -->
+ <rect x="13.5" y="0" width="5" height="9" fill="url(#rbRoad)"/>
+ <!-- Bottom road -->
+ <rect x="13.5" y="23" width="5" height="9" fill="url(#rbRoad)"/>
+ <!-- Left road -->
+ <rect x="0" y="13.5" width="9" height="5" fill="url(#rbRoad)"/>
+ <!-- Right road -->
+ <rect x="23" y="13.5" width="9" height="5" fill="url(#rbRoad)"/>
+ <!-- Main ring road (donut) -->
+ <circle cx="16" cy="16" r="13" fill="url(#rbRoad)" filter="url(#sdRB)"/>
+ <!-- Centre island (grass) -->
+ <circle cx="16" cy="16" r="7" fill="url(#rbIsland)" filter="url(#sdRB)"/>
+ <!-- Traffic arrows (one-way round) -->
+ <path d="M16 10 A6 6 0 1 1 10 16" stroke="url(#rbArrow)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <polygon points="10,14 10,18 13,16" fill="url(#rbArrow)"/>
+ <!-- Lane dashes -->
+ <circle cx="16" cy="16" r="10" fill="none" stroke="white" stroke-width="0.4" stroke-dasharray="2,2"/>
+</svg>

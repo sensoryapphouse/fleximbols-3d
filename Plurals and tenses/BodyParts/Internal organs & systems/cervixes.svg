@@ -1,0 +1,31 @@
+<svg viewBox="0 0 512 512" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,48.896) scale(0.9045)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<linearGradient id="cx_ut" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#f3b3a0"/><stop offset="1" stop-color="#dc8a76"/>
+</linearGradient>
+<linearGradient id="cx_cvx" x1="0" y1="0" x2="0" y2="1">
+<stop stop-color="#d27e6e"/><stop offset="1" stop-color="#a8503f"/>
+</linearGradient>
+<radialGradient id="cx_ov" cx="0.35" cy="0.3" r="0.8">
+<stop stop-color="#ffd0c0"/><stop offset="1" stop-color="#e8a48f"/>
+</radialGradient>
+</defs>
+<!-- uterus body -->
+<path d="M 110 110 Q 80 200 100 290 Q 120 360 200 380 L 200 410 Q 200 450 240 470 L 272 470 Q 312 450 312 410 L 312 380 Q 392 360 412 290 Q 432 200 402 110 Q 340 70 256 70 Q 172 70 110 110 Z" fill="url(#cx_ut)" stroke="#7a3a2c" stroke-width="5"/>
+<!-- cervix (lower neck) highlighted -->
+<path d="M 200 380 L 200 410 Q 200 450 240 470 L 272 470 Q 312 450 312 410 L 312 380 Q 290 392 256 392 Q 222 392 200 380 Z" fill="url(#cx_cvx)" stroke="#7a3a2c" stroke-width="5"/>
+<!-- cervical os opening -->
+<ellipse cx="256" cy="438" rx="22" ry="9" fill="#5a2020" stroke="#7a3a2c" stroke-width="4"/>
+<!-- canal dashed -->
+<path d="M 256 230 Q 240 330 256 438" fill="none" stroke="#8a4636" stroke-width="3" stroke-dasharray="6 4"/>
+<!-- fallopian tube ends + ovaries -->
+<path d="M 130 180 Q 160 200 200 210" fill="none" stroke="#7a3a2c" stroke-width="6"/>
+<path d="M 382 180 Q 352 200 312 210" fill="none" stroke="#7a3a2c" stroke-width="6"/>
+<ellipse cx="100" cy="170" rx="35" ry="22" fill="url(#cx_ov)" stroke="#7a3a2c" stroke-width="6"/>
+<ellipse cx="412" cy="170" rx="35" ry="22" fill="url(#cx_ov)" stroke="#7a3a2c" stroke-width="6"/>
+<circle cx="75" cy="155" r="8" fill="#d89888" stroke="#7a3a2c" stroke-width="3"/>
+<circle cx="437" cy="155" r="8" fill="#d89888" stroke="#7a3a2c" stroke-width="3"/>
+<!-- cervix indicator arrow -->
+<line x1="380" y1="430" x2="320" y2="430" stroke="#444" stroke-width="5" stroke-linecap="round"/>
+<path d="M 322 423 L 308 430 L 322 437 Z" fill="#444"/>
+</g><g transform="translate(360 8) scale(0.2812)"><defs><radialGradient id="pl628" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl628)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

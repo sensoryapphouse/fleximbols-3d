@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<defs>
+<radialGradient id="leekwhite" cx="40%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#f0f0e0"/>
+ <stop offset="60%" stop-color="#c8c8a0"/>
+ <stop offset="100%" stop-color="#9a9a70"/>
+</radialGradient>
+<radialGradient id="leekgreen" cx="40%" cy="30%" r="60%">
+ <stop offset="0%" stop-color="#88cc44"/>
+ <stop offset="60%" stop-color="#44882a"/>
+ <stop offset="100%" stop-color="#224411"/>
+</radialGradient>
+</defs>
+<!-- Leek white/pale lower part -->
+<rect x="13" y="18" width="6" height="12" rx="3" fill="url(#leekwhite)"/>
+<!-- Leek green leaves upper -->
+<path d="M11 4 Q10 10 13 18 L16 18 L19 18 Q22 10 21 4" fill="url(#leekgreen)"/>
+<!-- Leaf ridges -->
+<line x1="14" y1="6" x2="13" y2="18" stroke="#224411" stroke-width="0.4" stroke-opacity="0.5"/>
+<line x1="18" y1="6" x2="19" y2="18" stroke="#224411" stroke-width="0.4" stroke-opacity="0.5"/>
+<!-- Root end -->
+<path d="M14 30 Q13 31 12 31 M16 30 L16 31 M18 30 Q19 31 20 31" stroke="#9a9a70" stroke-width="0.5" fill="none"/>
+<!-- Shine on white part -->
+<rect x="14" y="19" width="1" height="9" rx="0.5" fill="white" fill-opacity="0.4"/>
+</svg>

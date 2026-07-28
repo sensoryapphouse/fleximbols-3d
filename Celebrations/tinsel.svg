@@ -1,0 +1,53 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+  <defs>
+    <linearGradient id="tinStrand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ad0ff"/>
+      <stop offset="0.25" stop-color="#bfeeff"/>
+      <stop offset="0.5" stop-color="#5ab8e0"/>
+      <stop offset="0.75" stop-color="#bfeeff"/>
+      <stop offset="1" stop-color="#7ad0ff"/>
+    </linearGradient>
+    <linearGradient id="tinStrand2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9be0c0"/>
+      <stop offset="0.3" stop-color="#e8fff2"/>
+      <stop offset="0.6" stop-color="#6fc79e"/>
+      <stop offset="1" stop-color="#9be0c0"/>
+    </linearGradient>
+    <radialGradient id="tinSpark" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Fluffy tinsel garland: several thick wavy shimmering strands stacked -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M14 56 q24 -26 46 0 q24 26 46 0 q24 -26 46 0 q12 13 18 6"
+          stroke="url(#tinStrand)" stroke-width="13"/>
+    <path d="M14 92 q24 -26 46 0 q24 26 46 0 q24 -26 46 0 q12 13 18 6"
+          stroke="url(#tinStrand2)" stroke-width="13"/>
+    <path d="M14 128 q24 -26 46 0 q24 26 46 0 q24 -26 46 0 q12 13 18 6"
+          stroke="url(#tinStrand)" stroke-width="13"/>
+    <path d="M14 164 q24 -26 46 0 q24 26 46 0 q24 -26 46 0 q12 13 18 6"
+          stroke="url(#tinStrand2)" stroke-width="13"/>
+  </g>
+  <!-- Bristly tinsel fringe (short spokes) to read as fluffy garland -->
+  <g stroke="#cdeaff" stroke-width="2" opacity="0.85" stroke-linecap="round">
+    <line x1="30" y1="48" x2="26" y2="36"/><line x1="60" y1="66" x2="60" y2="52"/>
+    <line x1="92" y1="48" x2="96" y2="36"/><line x1="128" y1="66" x2="130" y2="52"/>
+    <line x1="44" y1="100" x2="40" y2="112"/><line x1="76" y1="82" x2="76" y2="70"/>
+    <line x1="110" y1="100" x2="112" y2="112"/><line x1="150" y1="118" x2="156" y2="126"/>
+    <line x1="30" y1="138" x2="26" y2="150"/><line x1="92" y1="138" x2="96" y2="150"/>
+    <line x1="60" y1="176" x2="60" y2="188"/><line x1="124" y1="176" x2="126" y2="188"/>
+  </g>
+  <!-- Sparkles -->
+  <g fill="url(#tinSpark)">
+    <circle cx="58" cy="40" r="9"/>
+    <circle cx="120" cy="86" r="8"/>
+    <circle cx="40" cy="150" r="7"/>
+    <circle cx="150" cy="150" r="8"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" opacity="0.95">
+    <line x1="58" y1="31" x2="58" y2="49"/><line x1="49" y1="40" x2="67" y2="40"/>
+    <line x1="120" y1="78" x2="120" y2="94"/><line x1="112" y1="86" x2="128" y2="86"/>
+    <line x1="150" y1="142" x2="150" y2="158"/><line x1="142" y1="150" x2="158" y2="150"/>
+  </g>
+</svg>

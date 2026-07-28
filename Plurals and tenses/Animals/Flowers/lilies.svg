@@ -1,0 +1,93 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><g transform="translate(0.000,2.573) scale(0.9196)"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <!-- Large white/orange trumpet petals — KEY GESTURE -->
+ <radialGradient id="lil_petal" cx="30%" cy="25%" r="72%">
+ <stop offset="0%" stop-color="#FFFFFF"/>
+ <stop offset="40%" stop-color="#FFF3E8"/>
+ <stop offset="100%" stop-color="#FFB347"/>
+ </radialGradient>
+ <radialGradient id="lil_petal2" cx="30%" cy="25%" r="72%">
+ <stop offset="0%" stop-color="#FFFDE4"/>
+ <stop offset="40%" stop-color="#FFE0A0"/>
+ <stop offset="100%" stop-color="#FF8C00"/>
+ </radialGradient>
+ <radialGradient id="lil_hl" cx="30%" cy="22%" r="55%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.65"/>
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+ </radialGradient>
+ <!-- Prominent stamens — KEY GESTURE -->
+ <linearGradient id="lil_stamen" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#A5C665"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ <radialGradient id="lil_anther" cx="40%" cy="35%" r="60%">
+ <stop offset="0%" stop-color="#8B3A00"/>
+ <stop offset="100%" stop-color="#4A1800"/>
+ </radialGradient>
+ <!-- Stem and leaves -->
+ <linearGradient id="lil_stem" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#7BAA48"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </linearGradient>
+ <radialGradient id="lil_leaf" cx="30%" cy="30%" r="65%">
+ <stop offset="0%" stop-color="#9CCC65"/>
+ <stop offset="100%" stop-color="#33691E"/>
+ </radialGradient>
+ <!-- Stripe on petals -->
+ <linearGradient id="lil_stripe" x1="0%" y1="0%" x2="0%" y2="100%">
+ <stop offset="0%" stop-color="#FF6200"/>
+ <stop offset="100%" stop-color="#FF6200" stop-opacity="0"/>
+ </linearGradient>
+ </defs>
+
+ <!-- Tall green stem -->
+ <path d="M16 22 Q15.5 26.5 15 31" stroke="url(#lil_stem)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+ <!-- Narrow leaves along stem -->
+ <path d="M15.5 27 Q11 25 10 20 Q13 23.5 15.5 27 Z" fill="url(#lil_leaf)"/>
+ <path d="M15.8 24 Q20.5 22 21 17 Q18.5 20.5 15.8 24 Z" fill="url(#lil_leaf)"/>
+ <path d="M12.5 25 Q8.5 23.5 8 19 Q10.5 22 12.5 25 Z" fill="url(#lil_leaf)"/>
+
+ <!-- SIX-PETAL TRUMPET-SHAPED FLOWER — KEY GESTURE -->
+ <!-- Three outer petals (spread back) -->
+ <path d="M16 18 Q8 14 7 7 Q12 12 16 18 Z" fill="url(#lil_petal2)"/>
+ <path d="M12.5 16.5 Q9 12 9 8" stroke="#FFFFFF" stroke-width="0.4" fill="none" opacity="0.4"/>
+ <!-- Stripe on outer petal -->
+ <path d="M14.5 17 Q11 13.5 11 9" stroke="url(#lil_stripe)" stroke-width="0.5" fill="none" opacity="0.6"/>
+ <path d="M16 18 Q16 8 16 2 Q16.5 9 16 18 Z" fill="url(#lil_petal)"/>
+ <path d="M15.7 17 Q15.7 9 16 3" stroke="#FFFFFF" stroke-width="0.4" fill="none" opacity="0.4"/>
+ <path d="M16 18 Q24 14 25 7 Q20 12 16 18 Z" fill="url(#lil_petal2)"/>
+ <path d="M19.5 16.5 Q23 12 23 8" stroke="#FFFFFF" stroke-width="0.4" fill="none" opacity="0.4"/>
+ <path d="M17.5 17 Q21 13.5 21 9" stroke="url(#lil_stripe)" stroke-width="0.5" fill="none" opacity="0.6"/>
+
+ <!-- Three inner petals (slightly angled, filling out) -->
+ <path d="M16 18 Q6 16 5 11 Q11 15 16 18 Z" fill="url(#lil_petal)"/>
+ <ellipse cx="10.5" cy="16" rx="1.2" ry="2.5" fill="url(#lil_hl)" transform="rotate(-25 10.5 16)"/>
+ <path d="M16 18 Q26 16 27 11 Q21 15 16 18 Z" fill="url(#lil_petal)"/>
+ <ellipse cx="21.5" cy="16" rx="1.2" ry="2.5" fill="url(#lil_hl)" transform="rotate(25 21.5 16)"/>
+ <!-- Highlights on inner front petals -->
+ <ellipse cx="16" cy="11" rx="1.5" ry="5" fill="url(#lil_hl)" opacity="0.5"/>
+
+ <!-- Speckle dots on petals (lily characteristic) -->
+ <circle cx="13.5" cy="14" r="0.45" fill="#8B3A00" fill-opacity="0.6"/>
+ <circle cx="15" cy="12" r="0.4" fill="#8B3A00" fill-opacity="0.6"/>
+ <circle cx="17" cy="12" r="0.4" fill="#8B3A00" fill-opacity="0.55"/>
+ <circle cx="18.5" cy="14" r="0.45" fill="#8B3A00" fill-opacity="0.6"/>
+ <circle cx="12" cy="16" r="0.4" fill="#8B3A00" fill-opacity="0.5"/>
+ <circle cx="20" cy="16" r="0.4" fill="#8B3A00" fill-opacity="0.5"/>
+
+ <!-- PROMINENT STAMENS — KEY GESTURE (6 long, curving) -->
+ <path d="M16 18 Q12 17 10 14" stroke="url(#lil_stamen)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+ <path d="M16 18 Q13 15 12 12" stroke="url(#lil_stamen)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+ <path d="M16 18 Q15 14 15 11" stroke="url(#lil_stamen)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+ <path d="M16 18 Q17 14 17 11" stroke="url(#lil_stamen)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+ <path d="M16 18 Q19 15 20 12" stroke="url(#lil_stamen)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+ <path d="M16 18 Q20 17 22 14" stroke="url(#lil_stamen)" stroke-width="0.7" fill="none" stroke-linecap="round"/>
+ <!-- Anther tips (elongated, rust coloured) -->
+ <ellipse cx="10" cy="13.8" rx="1.1" ry="0.45" fill="url(#lil_anther)" transform="rotate(-30 10 13.8)"/>
+ <ellipse cx="12" cy="11.8" rx="1.1" ry="0.45" fill="url(#lil_anther)" transform="rotate(-15 12 11.8)"/>
+ <ellipse cx="15" cy="11" rx="1.1" ry="0.45" fill="url(#lil_anther)"/>
+ <ellipse cx="17" cy="11" rx="1.1" ry="0.45" fill="url(#lil_anther)"/>
+ <ellipse cx="20" cy="11.8" rx="1.1" ry="0.45" fill="url(#lil_anther)" transform="rotate(15 20 11.8)"/>
+ <ellipse cx="22" cy="13.8" rx="1.1" ry="0.45" fill="url(#lil_anther)" transform="rotate(30 22 13.8)"/>
+</g><g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl163" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl163)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

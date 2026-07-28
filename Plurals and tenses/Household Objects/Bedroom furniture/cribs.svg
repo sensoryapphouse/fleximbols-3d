@@ -1,0 +1,42 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="woodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#e0b870"/>
+ <stop offset="100%" stop-color="#a07830"/>
+ </linearGradient>
+ <linearGradient id="mattressGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#f0f0f8"/>
+ <stop offset="100%" stop-color="#c8c8d8"/>
+ </linearGradient>
+ <radialGradient id="babyGrad" cx="40%" cy="30%">
+ <stop offset="0%" stop-color="#ffe8c8"/>
+ <stop offset="100%" stop-color="#d4a870"/>
+ </radialGradient>
+ </defs>
+ <!-- Crib frame -->
+ <!-- End rails -->
+ 
+ 
+ <!-- Top rail -->
+ <rect x="2" y="10" width="28" height="3" rx="1.5" fill="url(#woodGrad)"/>
+ <!-- Bottom rail -->
+ <rect x="2" y="25" width="28" height="3" rx="1.5" fill="url(#woodGrad)"/>
+ <!-- Vertical bars -->
+ <rect x="7" y="12" width="2" height="13" rx="1" fill="url(#woodGrad)"/>
+ <rect x="11" y="12" width="2" height="13" rx="1" fill="url(#woodGrad)"/>
+ <rect x="15" y="12" width="2" height="13" rx="1" fill="url(#woodGrad)"/>
+ <rect x="19" y="12" width="2" height="13" rx="1" fill="url(#woodGrad)"/>
+ <rect x="23" y="12" width="2" height="13" rx="1" fill="url(#woodGrad)"/>
+ <!-- Mattress -->
+ <rect x="3" y="22" width="26" height="4" rx="1" fill="url(#mattressGrad)"/>
+ <!-- Baby sleeping -->
+ 
+ <path d="M8.5 21 Q10 22 11.5 21" fill="none" stroke="#c06040" stroke-width="0.6" stroke-linecap="round"/>
+ <circle cx="9.2" cy="19.5" r="0.4" fill="#333"/>
+ <circle cx="11.2" cy="19.5" r="0.4" fill="#333"/>
+ <!-- Baby blanket -->
+ <path d="M7 22 Q10 21 13 22 L13 23 Q10 22 7 23Z" fill="#80a8e0" fill-opacity="0.8"/>
+ <!-- Legs of crib -->
+ <rect x="2" y="27" width="3" height="5" rx="1" fill="url(#woodGrad)"/>
+ <rect x="27" y="27" width="3" height="5" rx="1" fill="url(#woodGrad)"/>
+<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl1760" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl1760)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>

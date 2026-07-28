@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+ <defs>
+ <linearGradient id="footGrad" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#FFE0BD"/>
+ <stop offset="100%" stop-color="#D49D7A"/>
+ </linearGradient>
+ <radialGradient id="heelGrad" cx="70%" cy="55%" r="55%">
+ <stop offset="0%" stop-color="#FFF6E0"/>
+ <stop offset="50%" stop-color="#E8C890"/>
+ <stop offset="100%" stop-color="#D4B896"/>
+ </radialGradient>
+ <linearGradient id="goldRing" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#FFD45E"/>
+ <stop offset="100%" stop-color="#E5A700"/>
+ </linearGradient>
+ <linearGradient id="sole" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0%" stop-color="#D49D7A"/>
+ <stop offset="100%" stop-color="#A07050"/>
+ </linearGradient>
+ </defs>
+ <!-- Foot body (side profile, toes left, heel right) -->
+ <path d="M6,18 Q8,12 12,11 Q18,10 22,12 Q26,14 26,18 Q26,22 24,24 Q22,26 18,27 Q12,27 8,25 Q5,23 5,20 Q5,18.5 6,18 Z" fill="url(#footGrad)"/>
+ <!-- Toes (left side hints) -->
+ <ellipse cx="7" cy="15" rx="1.2" ry="1.5" fill="url(#footGrad)"/>
+ <ellipse cx="9" cy="13.5" rx="1.2" ry="1.5" fill="url(#footGrad)"/>
+ <ellipse cx="11.5" cy="12.5" rx="1.1" ry="1.4" fill="url(#footGrad)"/>
+ <!-- Heel area (right, prominent) -->
+ <ellipse cx="24" cy="21" rx="5.5" ry="5" fill="url(#heelGrad)"/>
+ <!-- Gold ring around heel -->
+ <ellipse cx="24" cy="21" rx="6" ry="5.5" fill="none" stroke="url(#goldRing)" stroke-width="1.4"/>
+ <!-- Sole -->
+ <path d="M8,26 Q14,28 20,27.5 Q23,27 24,26" fill="none" stroke="url(#sole)" stroke-width="0.8"/>
+ <!-- Heel crease -->
+ <path d="M22,19 Q24,22 26,19" fill="none" stroke="#C4996A" stroke-width="0.5" opacity="0.6"/>
+</svg>
