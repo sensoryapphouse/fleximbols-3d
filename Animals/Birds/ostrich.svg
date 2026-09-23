@@ -1,48 +1,24 @@
-<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
- <defs>
- <radialGradient id="bodyG" cx="35%" cy="30%" r="65%">
- <stop offset="0%" stop-color="#424242"/>
- <stop offset="100%" stop-color="#121212"/>
- </radialGradient>
- <radialGradient id="fluffG" cx="40%" cy="35%" r="60%">
- <stop offset="0%" stop-color="#616161"/>
- <stop offset="100%" stop-color="#1A1A1A"/>
- </radialGradient>
- <linearGradient id="neckG" x1="0" y1="0" x2="1" y2="0">
- <stop offset="0%" stop-color="#EF9A9A"/>
- <stop offset="100%" stop-color="#C62828"/>
- </linearGradient>
- <radialGradient id="headG" cx="40%" cy="35%" r="60%">
- <stop offset="0%" stop-color="#FFCDD2"/>
- <stop offset="100%" stop-color="#E57373"/>
- </radialGradient>
- <linearGradient id="legG" x1="0" y1="0" x2="0" y2="1">
- <stop offset="0%" stop-color="#EF9A9A"/>
- <stop offset="100%" stop-color="#BF360C"/>
- </linearGradient>
- </defs>
- <!-- Very long bare legs — KEY GESTURE -->
- <line x1="15" y1="21" x2="13" y2="31.5" stroke="url(#legG)" stroke-width="1.5" stroke-linecap="round"/>
- <line x1="19" y1="21" x2="21" y2="31.5" stroke="url(#legG)" stroke-width="1.5" stroke-linecap="round"/>
- <!-- Two toes per foot -->
- <line x1="13" y1="31.5" x2="11" y2="32" stroke="url(#legG)" stroke-width="1" stroke-linecap="round"/>
- <line x1="13" y1="31.5" x2="14.5" y2="32" stroke="url(#legG)" stroke-width="1" stroke-linecap="round"/>
- <line x1="21" y1="31.5" x2="19.5" y2="32" stroke="url(#legG)" stroke-width="1" stroke-linecap="round"/>
- <line x1="21" y1="31.5" x2="23" y2="32" stroke="url(#legG)" stroke-width="1" stroke-linecap="round"/>
- <!-- Large fluffy body — KEY GESTURE -->
- <ellipse cx="17" cy="18" rx="9.5" ry="7.5" fill="url(#bodyG)"/>
- <!-- Fluffy white tail/wing tips -->
- <ellipse cx="25" cy="19" rx="4" ry="3.5" fill="url(#fluffG)"/>
- <ellipse cx="23" cy="22" rx="3.5" ry="2.5" fill="#BDBDBD" opacity="0.6"/>
- <!-- Very long bare neck — KEY GESTURE -->
- <path d="M12 12 Q13 8 15 5 Q16.5 3 17 2" stroke="url(#neckG)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
- <!-- Small head with large eye — KEY GESTURE -->
- <ellipse cx="17" cy="2" rx="3.5" ry="3" fill="url(#headG)"/>
- <!-- Large eye -->
- <circle cx="15.5" cy="1.8" r="1.5" fill="#1A1A1A"/>
- <circle cx="15" cy="1.4" r="0.6" fill="#FFFFFF" opacity="0.85"/>
- <!-- Eye ring lashes -->
- <circle cx="15.5" cy="1.8" r="1.5" fill="none" stroke="#8D6E63" stroke-width="0.5"/>
- <!-- Small beak -->
- <path d="M19.5 2 L22 2.5 L21 3.5Z" fill="#FFA726"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><g data-fit="1" transform="translate(44.00 44.00) scale(3.3125)"><g transform="scale(0.304853)">
+<g>
+	<path style="fill:#f4a4b2" d="M217.738,400.947h-10.527l-19.168-78.238l27.953-18.577c9.149-5.024,15.352-14.749,15.352-25.925
+		c0-16.325-13.234-29.56-29.559-29.56c-13.953,0-25.64,9.671-28.745,22.672l-0.002-0.001l-12.744,40.808l0.011,0.004
+		c-0.488,1.396-0.767,2.89-0.767,4.452l22,89.792c0,7.456,6.044,13.5,13.5,13.5h31.828c1.804,0,3.266-1.462,3.266-3.265v-3.266
+		C230.134,406.497,224.584,400.947,217.738,400.947z" stroke="#1a1a1a" stroke-width="1.96" stroke-linejoin="round" stroke-linecap="round" paint-order="stroke fill"/>
+	<path style="fill:#eab649" d="M343.764,46.798l31.918-6.424c3.807,0,6.893-3.086,6.892-6.892c0.001-3.807-3.085-6.893-6.891-6.893
+		l-31.919-6.424V46.798z" stroke="#1a1a1a" stroke-width="1.96" stroke-linejoin="round" stroke-linecap="round" paint-order="stroke fill"/>
+	<path style="fill:#636e72" d="M73.017,121.715c-9.234,0-16.719,7.486-16.719,16.719v12.351h33.438v-12.351
+		C89.737,129.201,82.251,121.715,73.017,121.715z" stroke="#1a1a1a" stroke-width="1.96" stroke-linejoin="round" stroke-linecap="round" paint-order="stroke fill"/>
+	<path style="fill:#636e72" d="M271.349,130.708v20.078H70.737v-12.351c0-9.233-7.485-16.719-16.719-16.719
+		s-16.719,7.486-16.719,16.719v12.351c0,78.292,63.468,141.761,141.761,141.761c78.292,0,141.761-63.469,141.761-141.761v-20.078
+		H271.349z" stroke="#1a1a1a" stroke-width="1.96" stroke-linejoin="round" stroke-linecap="round" paint-order="stroke fill"/>
+	<path style="fill:#f4a4b2" d="M179.738,400.947h-10.527l-19.169-78.238l27.953-18.577c9.149-5.024,15.352-14.749,15.352-25.925
+		c0-16.325-13.234-29.56-29.559-29.56c-13.953,0-25.64,9.671-28.745,22.672l-0.002-0.001l-12.744,40.808l0.011,0.004
+		c-0.488,1.396-0.767,2.89-0.767,4.452l22,89.792c0,7.456,6.044,13.5,13.5,13.5h31.828c1.804,0,3.266-1.462,3.266-3.265v-3.266
+		C192.134,406.497,186.584,400.947,179.738,400.947z" stroke="#1a1a1a" stroke-width="1.96" stroke-linejoin="round" stroke-linecap="round" paint-order="stroke fill"/>
+	<path style="fill:#FFFFFF" d="M228.943,169.167c-0.039,0-0.076,0.006-0.116,0.006H112.423c0,6.907,1.036,13.57,2.945,19.854
+		h-12.234c0,40.224,32.609,72.833,72.834,72.833s72.834-32.609,72.834-72.833C248.801,178.058,239.912,169.167,228.943,169.167z" stroke="#1a1a1a" stroke-width="1.96" stroke-linejoin="round" stroke-linecap="round" paint-order="stroke fill"/>
+	<path style="fill:#f4a4b2" d="M324.982,8.178h-7.794C312.341,3.14,305.535,0,297.992,0c-14.715,0-26.643,11.928-26.643,26.643
+		v104.065h49.471V58.785h4.162c13.975,0,25.304-11.329,25.304-25.304S338.957,8.178,324.982,8.178z" stroke="#1a1a1a" stroke-width="1.96" stroke-linejoin="round" stroke-linecap="round" paint-order="stroke fill"/>
+	<circle style="fill:#636e72" cx="324.468" cy="24.104" r="3.939" stroke="#1a1a1a" stroke-width="1.96" stroke-linejoin="round" stroke-linecap="round" paint-order="stroke fill"/>
+</g>
+</g></g></svg>

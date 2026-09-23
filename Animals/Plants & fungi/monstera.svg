@@ -1,26 +1,42 @@
-<svg viewBox="0 0 32 32" width="200" height="200" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
-<defs>
-<radialGradient id="leaf" cx="30%" cy="30%"><stop offset="0%" stop-color="#80e060"/><stop offset="100%" stop-color="#1a5018"/></radialGradient>
-<radialGradient id="pot" cx="35%" cy="30%"><stop offset="0%" stop-color="#d08070"/><stop offset="100%" stop-color="#601810"/></radialGradient>
-<radialGradient id="stem" cx="50%" cy="30%"><stop offset="0%" stop-color="#60a040"/><stop offset="100%" stop-color="#1a4010"/></radialGradient>
-</defs>
-<path d="M8 24 L24 24 L22 30 L10 30 Z" fill="url(#pot)"/>
-<ellipse cx="16" cy="24" rx="8" ry="1.5" fill="#7a2818"/>
-<line x1="14" y1="22" x2="12" y2="13" stroke="url(#stem)" stroke-width="0.8"/>
-<line x1="16" y1="22" x2="20" y2="10" stroke="url(#stem)" stroke-width="0.8"/>
-<line x1="18" y1="22" x2="22" y2="16" stroke="url(#stem)" stroke-width="0.8"/>
-<g fill="url(#leaf)">
-<path d="M12 13 Q6 11 6 6 Q6 3 10 4 Q14 5 14 10 Q14 13 12 13 Z"/>
-<path d="M8 7 L9 9 M9 5 L11 6 M7 9 L9 10 M10 4 L11 7" stroke="#082010" stroke-width="0.3" fill="none"/>
-<path d="M11 7 Q10 9 11 11" stroke="#082010" stroke-width="0.3" fill="none"/>
-</g>
-<g fill="url(#leaf)">
-<path d="M20 10 Q14 6 16 1 Q19 0 23 4 Q26 8 23 11 Q21 12 20 10 Z"/>
-<path d="M18 4 L20 6 M19 2 L21 4 M22 5 L23 7 M21 8 L23 9" stroke="#082010" stroke-width="0.3" fill="none"/>
-</g>
-<g fill="url(#leaf)">
-<path d="M22 16 Q28 14 28 9 Q28 7 25 8 Q21 10 21 14 Q21 17 22 16 Z"/>
-<path d="M24 10 L25 12 M26 9 L27 11" stroke="#082010" stroke-width="0.3" fill="none"/>
-</g>
-<ellipse cx="10" cy="25" rx="2" ry="0.4" fill="#fff" opacity="0.4"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata><g data-fit="1" transform="translate(44.00 80.55) scale(1.4621)">
+  <!-- Pot base -->
+  <path d="M100 210 L190 210 L178 175 L112 175 Z" fill="#9d7246" stroke="#1a1a1a" stroke-width="5.55" stroke-linejoin="round"/>
+  <!-- Pot rim -->
+  <rect x="98" y="168" width="94" height="14" rx="5" fill="#7d5e23" stroke="#1a1a1a" stroke-width="5.55" stroke-linejoin="round"/>
+  <!-- Soil -->
+  <ellipse cx="145" cy="168" rx="44" ry="10" fill="#5e1f0a" stroke="#1a1a1a" stroke-width="4.45"/>
+  <!-- Main stem -->
+  <line x1="145" y1="168" x2="145" y2="110" stroke="#1a1a1a" stroke-width="5.55" stroke-linecap="round"/>
+  <!-- Stem left branch -->
+  <line x1="145" y1="140" x2="105" y2="110" stroke="#1a1a1a" stroke-width="5.55" stroke-linecap="round"/>
+  <!-- Stem right branch -->
+  <line x1="145" y1="125" x2="185" y2="95" stroke="#1a1a1a" stroke-width="5.55" stroke-linecap="round"/>
+  <!-- Aerial root left -->
+  <path d="M125 155 C115 160 108 168 110 175" fill="none" stroke="#9d7246" stroke-width="4.45" stroke-linecap="round"/>
+  <!-- Aerial root right -->
+  <path d="M155 148 C165 155 170 165 165 175" fill="none" stroke="#9d7246" stroke-width="4.45" stroke-linecap="round"/>
+  <!-- Large leaf back-left (big monstera leaf with splits) -->
+  <path d="M105 110 C75 80 62 45 82 28 C100 22 118 40 125 65 C130 82 125 98 105 110 Z" fill="#529929" stroke="#1a1a1a" stroke-width="5.55" stroke-linejoin="round"/>
+  <!-- Splits / holes on back-left leaf -->
+  <path d="M92 70 C88 62 90 54 96 52 C96 58 94 65 92 70 Z" fill="none" stroke="#1a1a1a" stroke-width="4.45" stroke-linecap="round"/>
+  <path d="M104 88 C98 82 98 74 104 72 C106 78 106 84 104 88 Z" fill="none" stroke="#1a1a1a" stroke-width="4.45" stroke-linecap="round"/>
+  <!-- Hole cut-outs on back-left leaf (filled to show through) -->
+  <ellipse cx="93" cy="60" rx="7" ry="10" fill="#dff3fd" stroke="#1a1a1a" stroke-width="3.33"/>
+  <ellipse cx="106" cy="79" rx="6" ry="9" fill="#dff3fd" stroke="#1a1a1a" stroke-width="3.33"/>
+  <!-- Mid vein back-left leaf -->
+  <line x1="82" y1="28" x2="105" y2="110" stroke="#137827" stroke-width="3.33" stroke-linecap="round"/>
+  <!-- Large leaf front-right (big monstera leaf) -->
+  <path d="M185 95 C220 65 242 32 222 20 C202 14 178 35 168 60 C160 80 165 90 185 95 Z" fill="#67832d" stroke="#1a1a1a" stroke-width="5.55" stroke-linejoin="round"/>
+  <!-- Holes front-right leaf -->
+  <ellipse cx="210" cy="48" rx="8" ry="11" fill="#dff3fd" stroke="#1a1a1a" stroke-width="3.33"/>
+  <ellipse cx="192" cy="68" rx="7" ry="9" fill="#dff3fd" stroke="#1a1a1a" stroke-width="3.33"/>
+  <!-- Mid vein front-right leaf -->
+  <line x1="222" y1="20" x2="185" y2="95" stroke="#529929" stroke-width="3.33" stroke-linecap="round"/>
+  <!-- Centre top leaf (upright, fresh) -->
+  <path d="M145 110 C130 75 132 45 145 30 C158 45 160 75 145 110 Z" fill="#137827" stroke="#1a1a1a" stroke-width="5.55" stroke-linejoin="round"/>
+  <!-- Centre leaf vein -->
+  <line x1="145" y1="30" x2="145" y2="110" stroke="#529929" stroke-width="3.33" stroke-linecap="round"/>
+  <!-- Centre leaf splits -->
+  <path d="M138 60 C133 56 132 50 136 48 C138 52 138 57 138 60 Z" fill="#dff3fd" stroke="#1a1a1a" stroke-width="3.33" stroke-linejoin="round"/>
+  <path d="M152 60 C157 56 158 50 154 48 C152 52 152 57 152 60 Z" fill="#dff3fd" stroke="#1a1a1a" stroke-width="3.33" stroke-linejoin="round"/>
+</g></svg>

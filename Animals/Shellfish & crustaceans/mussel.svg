@@ -1,27 +1,10 @@
-<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
-  <defs>
-    <linearGradient id="muss_shell" x1="6" y1="5" x2="26" y2="28" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3a4a6b"/>
-      <stop offset="0.5" stop-color="#27314a"/>
-      <stop offset="1" stop-color="#161d2e"/>
-    </linearGradient>
-    <linearGradient id="muss_rim" x1="6" y1="5" x2="26" y2="28" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#caa86a"/>
-      <stop offset="1" stop-color="#9c7d44"/>
-    </linearGradient>
-  </defs>
-  <!-- mussel shell: pointed hinge top-left, rounded broad bottom-right -->
-  <path d="M8 6 C5.5 9 5 14 7.5 19.5 C9.6 24.2 14 27.5 19 27 C24 26.5 26.5 22 25 17.5 C23.5 13 19 9 14.5 7 C12.2 6 9.8 5.6 8 6 Z"
-        fill="url(#muss_shell)" stroke="#0e1320" stroke-width="0.9"/>
-  <!-- light golden rim along the open edge (lower-left) -->
-  <path d="M8 6 C5.5 9 5 14 7.5 19.5 C9.6 24.2 14 27.5 19 27"
-        fill="none" stroke="url(#muss_rim)" stroke-width="1.4" stroke-linecap="round"/>
-  <!-- growth ridge lines fanning from hinge -->
-  <path d="M9 8 C11.5 12 14.5 15.5 18.5 17.5" fill="none" stroke="#11182a" stroke-width="0.6" opacity="0.8"/>
-  <path d="M8.2 11 C11 15 14.5 18.5 19 21" fill="none" stroke="#11182a" stroke-width="0.6" opacity="0.8"/>
-  <path d="M8 14.5 C10.8 18.5 14.5 22 19.5 24.2" fill="none" stroke="#11182a" stroke-width="0.6" opacity="0.8"/>
-  <path d="M8.6 18 C11 21.5 14.5 24.5 18.8 26.4" fill="none" stroke="#11182a" stroke-width="0.6" opacity="0.7"/>
-  <!-- glossy highlight -->
-  <path d="M10 8.5 C8.5 11 8.4 14.5 10 18" fill="none" stroke="#9fb0d0" stroke-width="1.1" stroke-linecap="round" opacity="0.55"/>
-  <ellipse cx="12" cy="10.5" rx="1.8" ry="0.9" fill="#aebbd6" opacity="0.4" transform="rotate(35 12 10.5)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<!-- mussel shell: teardrop wedge, pointed hinge top-left, broad rounded base bottom-right -->
+<path d="M 150 168 C 200 150 280 168 340 230 C 388 280 408 344 392 388 C 348 404 280 396 220 352 C 168 314 138 252 138 204 C 138 184 138 172 150 168 Z" fill="#3d4a6b" stroke="#1a1a1a" stroke-width="9" stroke-linejoin="round"/>
+<!-- upper valve highlight band -->
+<path d="M 150 168 C 200 150 280 168 340 230 C 380 272 400 322 396 364 C 360 332 318 292 280 262 C 232 224 184 196 150 184 C 144 178 146 170 150 168 Z" fill="#4a90d9" stroke="none"/>
+<!-- shell seam (where two valves meet) -->
+<path d="M 150 172 C 212 196 296 256 392 386" fill="none" stroke="#1a1a1a" stroke-width="7" stroke-linecap="round"/>
+<!-- growth ridge lines following the curve -->
+<path d="M 196 184 C 230 250 290 322 360 370 M 168 214 C 200 280 256 348 322 392" fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
 </svg>

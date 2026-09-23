@@ -1,14 +1,8 @@
-<svg width="200" height="200" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
-<path d="M16 30.1368C23.732 30.1368 30 26.4938 30 21.9999C30 17.506 23.732 13.863 16 13.863C8.26801 13.863 2 17.506 2 21.9999C2 26.4938 8.26801 30.1368 16 30.1368Z" fill="url(#paint0_radial_7149_6142)"/>
-<path d="M16 30.0666C23.1852 30.0666 29.01 26.9099 29.01 23.0159C29.01 19.122 23.1852 15.9653 16 15.9653C8.81477 15.9653 2.98999 19.122 2.98999 23.0159C2.98999 26.9099 8.81477 30.0666 16 30.0666Z" fill="url(#paint1_radial_7149_6142)"/>
-<defs>
-<radialGradient id="paint0_radial_7149_6142" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.25 15.613) rotate(-68.1986) scale(12.7898 13.1195)">
-<stop stop-color="#D8D1DF"/>
-<stop offset="0.9888" stop-color="#90829F"/>
-</radialGradient>
-<radialGradient id="paint1_radial_7149_6142" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(10.5 31.7381) rotate(-63.5811) scale(21.9135 60.4571)">
-<stop offset="0.00558659" stop-color="#37275E"/>
-<stop offset="1"/>
-</radialGradient>
-</defs>
-<g transform="translate(0,0) scale(0.0625) translate(360 8) scale(0.2812)"><defs><radialGradient id="pl39" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#pl39)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-copyright="© 2026 Sensory App House"><!--SAH-COPYRIGHT © 2026 Sensory App House. All rights reserved.--><metadata id="sah-copyright"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"><cc:Work rdf:about=""><dc:rights><cc:Agent><dc:title>© 2026 Sensory App House. All rights reserved.</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Sensory App House (PiCom)</dc:title></cc:Agent></dc:creator><dc:date>2026</dc:date></cc:Work></rdf:RDF></metadata>
+<path d="M 96 360 Q 96 300 256 300 Q 416 300 416 360 L 416 360 Q 416 392 256 392 Q 96 392 96 360 Z" fill="#7aa83c" stroke="#1a1a1a" stroke-width="9" stroke-linejoin="round"/>
+<ellipse cx="256" cy="356" rx="150" ry="44" fill="#8cc152" stroke="#1a1a1a" stroke-width="9"/>
+<path d="M 168 348 Q 160 270 256 262 Q 352 270 344 348 Q 300 372 256 372 Q 212 372 168 348 Z" fill="#6b4a2b" stroke="#1a1a1a" stroke-width="9" stroke-linejoin="round"/>
+<ellipse cx="256" cy="320" rx="62" ry="50" fill="#3a2a1a" stroke="#1a1a1a" stroke-width="8"/>
+<ellipse cx="256" cy="318" rx="34" ry="28" fill="#1a1a1a"/>
+<path d="M 150 356 Q 130 372 120 358 M 362 356 Q 382 372 392 358" fill="none" stroke="#5aa83c" stroke-width="9" stroke-linecap="round"/>
+<g transform="translate(360 8) scale(0.2812)"><defs><radialGradient id="plg245" cx="40%" cy="35%" r="65%"><stop offset="0%" stop-color="#7ed957"/><stop offset="100%" stop-color="#3aa324"/></radialGradient></defs><path d="M 256.0,56.0 L 281.0,212.7 L 429.2,156.0 L 306.0,256.0 L 429.2,356.0 L 281.0,299.3 L 256.0,456.0 L 231.0,299.3 L 82.8,356.0 L 206.0,256.0 L 82.8,156.0 L 231.0,212.7 Z" fill="url(#plg245)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round"/></g></svg>
